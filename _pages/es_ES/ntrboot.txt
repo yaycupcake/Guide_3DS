@@ -15,6 +15,7 @@ El exploit de ntrboot en sí es compatible con las siguientes flashcarts:
   + R4i Ultra
   + R4 3D Revolution
   + Infinity 3 R4i
+  + DSTT ([¡sólo funciona con algunos chips de flash específicos!](https://gist.github.com/Hikari-chin/6b48f1bb8dd15136403c15c39fafdb42))
 
   ![]({{ base_path }}/images/screenshots/ntrboot-flashcarts.png)
   {: .notice--info}
@@ -76,6 +77,14 @@ Este método requiere de acceso tempral a una consola Nintendo DS o Nintendo DS 
 [Flashear ntrboot (DSi)](flashing-ntrboot-(dsi))
 
 Este método requiere de acceso tempral a una consola Nintendo DSi que sea compatible con el flashcart a utilizar.
+
+Ten en cuenta que las versiones más recientes del firmware de DSi han bloqueado el acceso a algunos flashcarts. Esto las deja incapaces para ejecutar el archivo `.nds` flasheador en la última versión. Las flashcarts compatibles con ntrboot son capaces de ejecutar archivos `.nds` estando el firmware de la consola en las siguientes versiones:
+
+  + [R4i Gold 3DS RTS](http://www.nds-card.com/ProShow.asp?ProID=149) : Todas las versiones <= 1.4.5
+  + [Acekard 2i](http://www.nds-card.com/ProShow.asp?ProID=160) : versiones <= 1.4.4
+  + R4i Gold 3DS "Starter" : Versiones <= 1.4.5
+  + R4i Ultra : Versiones <= 1.4.1
+  + Infinity 3 R4i : Versiones <= 1.4.5
 
 {% endcapture %}
 

@@ -76,7 +76,6 @@ Sinulla TÄYTYY olla asennettuna sekä Luma3DS että boot9strap tai arm9loaderha
 1. Paina (A):ta jatkaaksesi
 1. Paina (A):ta lukitaksesi kirjoitusoikeudet
 1. Paina (START)-painiketta käynnistääksesi uudelleen
-  + Jos saat virheen "Process Title ID: 0x0004013000004202", pidä pohjassa (A) + (R) + (L) + (YLÖS) -painikeyhdistelmää konsolin käynnistyessä päivittääksesi sen vikasietotilassa
 1. Päivitä konsolisi menemällä järjestelmäasetuksiin (System Settings), valitse muut asetukset (Other Settings) ja sitten järjestelmäpäivitys (System Update) aivan oikeasta reunasta
   + Päivitykset B9S + Luma -kokoonpanolla (joka sinulla on) ovat turvallisia
   + Jos saat virheen, laita DNS:n automaattinen haku (Auto-Obtain DNS) päälle asetuksista

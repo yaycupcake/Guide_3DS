@@ -55,7 +55,7 @@ For a list of each of the calculated sighax signatures (the platform boot9strap 
 ## Co mogę zrobić z Custom Firmware?
 
 + Grać we wszystkie gry zarówno z kartridżów jak i wersje eShop, niezależnie od regionu
-+ Customize your HOME Menu with user-created [themes](https://3dsthem.es/), [badges](https://badges.3dsthem.es/), and [splash screens](https://splash.3dsthem.es/)
++ Customize your HOME Menu with user-created [themes and splash screens](https://themeplaza.eu/)
 + Używać "ROM hacków" gier które posiadasz
 + Wykonywać zrzuty ekranu z gier oraz aplikacji
 + [Backup, edit, and restore](https://gbatemp.net/threads/413143/) saves for many games

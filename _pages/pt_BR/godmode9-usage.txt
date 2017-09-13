@@ -210,9 +210,6 @@ Utilize o menu `Titles` no FBI para obter o ID do aplicativo instalado que você
 
 ## <a name="rm_nnid" />Removendo uma NNID sem formatar o seu dispositivo
 
-Note que se você tem outros arquivos de payload diferentes do `GodMode9.firm` na pasta `/luma/payloads/` do seu cartão SD, segure (Start) durante a inicialização para exibir um "menu de chainloader" onde você terá que utilizar os botões direcionais e o botão (A) para selecionar "GodMode9" para estas instruções. 
-{: .notice--info}
-
 #### Instruções
 
 1. Inicie o GodMode9 segurando (Start) durante a inicialização

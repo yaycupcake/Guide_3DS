@@ -210,9 +210,6 @@ Utilisez le menu 'Titles' de FBI pour connaitre l'identifiant (ID) du titre que 
 
 ## <a name="rm_nnid" />Supprimer un NNID sans formater votre console
 
-Notez que si vous avez n’importe quel autre payload que `GodMode9.firm` dans le dossier `/luma/payloads/` sur votre carte SD, appuyez (Start) au démarrage affiche un "chainloader menu" où vous devrez utiliser le D-Pad et le bouton (A) pour sélectionner "GodMode9" . 
-{: .notice--info}
-
 #### Instructions
 
 1. Ouvrez Godmode9 en maintenant (Start) au démarrage

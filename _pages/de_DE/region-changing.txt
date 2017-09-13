@@ -76,7 +76,6 @@ You MUST have already installed Luma3DS and boot9strap or arm9loaderhax to use t
 1. Drücke (A) um fortzufahren
 1. Drücke (A), um die Schreibrechte zu deaktivieren
 1. Drücke (Start) um deinen 3DS neu zu starten
-  + Wird die Fehlermeldung "Process Title ID: 0x0004013000004202" angezeigt, halte (A) + (R) + (L) + (Steuerkreuz oben) gedrückt während dem Starten deiner 3DS-Konsole, um den 3DS über den Wiederherstellungsmodus zu aktualisieren
 1. Aktualisiere deinen 3DS, indem zu zu den Systemeinstellungen gehst, dann "Allgemeine Einstellungen" auswählst und dann "System-Update" startest
   + Updates mit B9S + Luma (welches du hast) sind sicher
   + Wenn eine Fehlermeldung auftaucht, musst du in den DNS-Einstellungen die Option "Ja" auswählen, wenn du gefragt wirst, ob die DNS automatisch bezogen werden soll

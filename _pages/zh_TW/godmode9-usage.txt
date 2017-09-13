@@ -210,9 +210,6 @@ GodMode9 是個可任意存取任天堂 3DS 主機檔案的檔案管理員，您
 
 ## <a name="rm_nnid" />如何在不格式化主機的情況下清除 NNID
 
-請注意，如果您在 SD 卡中的 `/luma/payloads/` 資料夾中放有除了 `GodMode9.firm` 的 payload 檔案，在開機時按住「Start」鍵將會顯示一個「加載選單」，從那裏您得透過方向鍵及按鈕「A」選擇「GodMode9」。 
-{: .notice--info}
-
 #### 操作說明
 
 1. 開機時按住「Start」鍵啟動 GodMode9

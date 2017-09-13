@@ -210,9 +210,6 @@ Folosiți meniul 'Titles' din FBI ca să luați Title ID-ul titlului instalat ca
 
 ## <a name="rm_nnid" />Scoaterea NNID-ului fără a formata dispozitivul dumneavoastră
 
-Țineți cont că dacă aveți alte payload-uri în afară de `GodMode9.firm` în folderul `/luma/payloads/` de pe cardul SD, apăsând (Start) va lansa un "meniu chainloader" în care va trebui să folosiți D-Pad-ul și butonul (A) ca să selectați "GodMode9" pentru aceste instrucțiuni. 
-{: .notice--info}
-
 #### Instrucțiuni
 
 1. Lansați GodMode9 ținând apăsat (Start) în timpul pornirii

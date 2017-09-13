@@ -55,7 +55,7 @@ For a list of each of the calculated sighax signatures (the platform boot9strap 
 ## カスタムファームウェアでできること
 
 + 地域に関係なく、すべてのゲームカードやダウンロードソフトを遊ぶ
-+ Customize your HOME Menu with user-created [themes](https://3dsthem.es/), [badges](https://badges.3dsthem.es/), and [splash screens](https://splash.3dsthem.es/)
++ Customize your HOME Menu with user-created [themes and splash screens](https://themeplaza.eu/)
 + 自分が所有するゲームに「ROMハック」を使用する
 + ゲームとアプリケーションのスクリーン ショットを取る事ができます。
 + [Backup, edit, and restore](https://gbatemp.net/threads/413143/) saves for many games

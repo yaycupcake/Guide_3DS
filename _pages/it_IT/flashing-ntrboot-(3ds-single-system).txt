@@ -36,10 +36,12 @@ Tieni presente che in rare circostanze è possibile **brickare** una flashcart c
 
 1. Avvia il file `ak2i_ntrcardhax_flasher_dsi.nds` sulla tua console tramite la flashcart
 1. Premi il pulsante (A) per continuare
-  + Segnati la stringa "HW Rev", ne avrai bisogno più tardi
+1. Usa i pulsanti (Su) e (Giù) per selezionare la tua flashcart
+1. Premi il pulsante (A) per continuare
 1. Premi (A) a "inject ntrboothax"
 1. Premi (A) per selezionare "RETAIL"
-1. Premi (B) su "EXIT"
+1. Premi il pulsante (A) per continuare
+1. Seleziona "EXIT"
 
 ___
 

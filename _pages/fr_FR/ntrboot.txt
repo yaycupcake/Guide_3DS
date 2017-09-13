@@ -15,6 +15,7 @@ L’exploit de ntrboot lui-même est compatible avec les linkers suivants :
   + R4i Ultra
   + R4 3D Revolution
   + Infinity 3 R4i
+  + DSTT ([some flash chips only!](https://gist.github.com/Hikari-chin/6b48f1bb8dd15136403c15c39fafdb42))
 
   ![]({{ base_path }}/images/screenshots/ntrboot-flashcarts.png)
   {: .notice--info}
@@ -77,6 +78,14 @@ Cette méthode nécessite un accès temporaire à une Nintendo DS ou DS LITE qui
 [Flasher ntrboot (DSi)](flashing-ntrboot-(dsi))
 
 Cette méthode nécessite un accès temporaire à une Nintendo DSI qui soit compatible avec votre linker.
+
+Notez que les versions plus récentes de DSi ont bloqué l’accès à certains Linkers. Cela rend impossible de lancer le fichier `.nds` sur les versions plus récentes. Les linkers compatible ntrboot sont en mesure de lancer des fichiers `.nds` sous les versions suivantes :
+
+  + [R4i Gold 3DS RTS](http://www.nds-card.com/ProShow.asp?ProID=149) : <= 1.4.5
+  + [Acekard 2i](http://www.nds-card.com/ProShow.asp?ProID=160) : <= 1.4.4
+  + R4i Gold 3DS "Starter" : <= 1.4.5
+  + R4i Ultra : <= 1.4.1
+  + Infinity 3 R4i : <= 1.4.5
 
 {% endcapture %}
 

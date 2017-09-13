@@ -55,7 +55,7 @@ Für eine Liste jeder berechneten sighax-Signatur (die Plattform, auf der boot9s
 ## Was kann ich mit Custom Firmware anstellen?
 
 + Spiele unabhängig der Region alle Game Cards und eShop Spiele
-+ Passen Sie Ihre HOME-Menü mit selbsterstellten [themes] (https://3dsthem.es/), [badges] (https://badges.3dsthem.es/), und [splash Screens] an (https://splash.3dsthem.es/)
++ Customize your HOME Menu with user-created [themes and splash screens](https://themeplaza.eu/)
 + Nutze "ROM-Hacks" für Spiele, die du besitzt
 + Nimm Screenshots deiner Spiele und Programme auf
 + [Sichern, bearbeiten und wiederherstellen] (https://gbatemp.net/threads/413143/) Sicherungen für viele Spiele

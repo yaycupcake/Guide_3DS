@@ -76,7 +76,6 @@ Você já DEVE ter instalado Luma3DS e boot9strap ou arm9loaderhax para usar ist
 1. Aperte (A) para continuar
 1. Aperte (A) para bloquear as permissões de escrita
 1. Aperte (Start) para reiniciar seu dispositivo
-  + Caso você receba um erro com "Process Title ID: 0x0004013000004202", segure (A) + (R) + (L) + (Cima) enquanto liga para atualizar seu sistema pelo Modo de Recuperação
 1. Atualize seu dispositivo indo em Configuração do console, depois "Outras Configurações, depois indo para a direita até o final e selecionando "Atualização"
   + Atualizações feitas enquanto usa B9S + Luma (o que você tem) são seguras
   + Se isso der um erro, defina suas configurações de DNS para "Automático"

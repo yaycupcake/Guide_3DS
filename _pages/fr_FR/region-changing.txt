@@ -76,7 +76,6 @@ Vous devez avoir déjà installé Luma3DS et boot9strap ou arm9loaderhax pour ut
 1. Appuyez sur (A) pour continuer
 1. Appuyez (A) pour reverrouiller autorisations en écriture
 1. Appuyez sur (Start) pour redémarrer votre système
-  + Si vous obtenez une erreur avec "Process Title ID: 0x0004013000004202", maintenez (A) + (R) + (L) + (Up) lors du démarrage pour mettre à jour votre système en Mode de récupération
 1. Mettez à jour votre console en vous rendant dans les Paramètres de la console, puis "Autres paramètres", puis tout à droite sur l'option "Mise à jour du Système"
   + Mettre à jour tout en utilisant B9S + Luma (ce que vous avez) sont sans danger
   + Si vous obtenez une erreur, réglez vos paramètres DNS sur "Automatique"

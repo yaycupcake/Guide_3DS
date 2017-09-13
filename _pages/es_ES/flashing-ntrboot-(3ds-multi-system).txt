@@ -41,15 +41,19 @@ Ten en cuenta que en raras ocasiones, es posible que realizar el proceso de flas
 
 1. Inicia el menú de selección de payloads de Luma3DS manteniendo (Start) al encender la **3DS de origen**
 1. Selecciona "ntrboot_flasher"
+1. Lee la pantalla de advertencia en color rojo
+1. Presiona (A) para continuar
+1. Selecciona tu flashcart
+  + Si tu flashcart no aparece en la lista de la pantalla superior, lee en la pantalla de abajo para obtener más información acerca de cada opción
 1. Selecciona "Dump Flash"
 1. Espera hasta que se complete el proceso
-1. Presiona (B) para volver al menú principal
+1. Presiona (A) para continuar
+1. Presiona (A) para regresar al menú principal
 1. Selecciona "Inject Ntrboot"
-1. Presiona (Y) para continuar
-1. Presiona (R) para seleccionar retail unit ntrboot
+1. Presiona (A) para seleccionar "retail unit ntrboot"
 1. Espera hasta que se complete el proceso
-1. Presiona (B) para volver al menú principal
-1. Selecciona "EXIT" para apagar la **3DS de origen**
+1. Presiona (A) para regresar al menú principal
+1. Selecciona "Exit" para apagar **la 3DS de origen**
 
 ___
 

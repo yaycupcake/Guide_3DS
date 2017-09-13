@@ -10,11 +10,13 @@ Ci sono alcuni passaggi opzionali al termine delle istruzioni per rimuovere ntrb
 
 Questo metodo richiede momentaneamente l'utilizzo di un Nintendo DS o DS Lite compatibile con la tua flashcart. Questo metodo *non* è compatibile con un Nintendo DSi. È compatibile con le seguenti flashcart:
 
+  + [R4i Gold 3DS (RTS)](http://www.nds-card.com/ProShow.asp?ProID=149)
   + [Acekard 2i](http://www.nds-card.com/ProShow.asp?ProID=160)
-  + [R4i Gold 3DS RTS](http://www.nds-card.com/ProShow.asp?ProID=149)
-
-Se hai intenzione di rimuovere l'exploit ntrboot e ripristinare la tua flashcart al suo stato originale, *non* spegnere il tuo NDS / NDSL finché non avrai ripristinato la tua flashcart. Infatti, finché vi è installato l'exploit ntrboot, la flashcart R4i Gold 3DS RTS non può essere usata per avviare file `.nds`, quindi se esci dall'applicazione del flasher non sarai più in grado di rientrarci. Se dovessi spegnere la console, dovrai seguire la sezione "Rimozione di ntrboot (Singolo 3DS)" per rimuovere l'exploit dalla tua flashcart.
-{: .notice--warning}
+  + R4i Gold 3DS "Starter"
+  + R4i Ultra
+  + R4 3D Revolution
+  + Infinity 3 R4i
+  + DSTT ([solo su determinati flash chip!](https://gist.github.com/Hikari-chin/6b48f1bb8dd15136403c15c39fafdb42))
 
 Tieni presente che in rare circostanze è possibile **brickare** una flashcart contraffatta durante il flashing, e renderla permanentemente inutilizzabile. È improbabile, tuttavia sono supportate soltanto le flashcart originali qui indicate. Per ridurre i rischi di ottenere una flashcart contraffatta, si raccomanda di comprarne una solo da siti affidabili (come [NDS Card](http://www.nds-card.com/))
 {: .notice--danger}
@@ -41,6 +43,8 @@ Tieni presente che in rare circostanze è possibile **brickare** una flashcart c
 
 1. Avvia il file `ak2i_ntrcardhax_flasher.nds` sul **NDS / NDSL di partenza** attraverso la flashcart
 1. Premi il pulsante (A) per continuare
+1. Usa i pulsanti (Su) e (Giù) per selezionare la tua flashcart
+1. Premi il pulsante (A) per continuare
 1. Premi (X) a "load flashrom"
 1. Premi il pulsante (A) per continuare
 1. Rimuovi la flashcart dal **NDS / NDSL di partenza**
@@ -50,7 +54,6 @@ Tieni presente che in rare circostanze è possibile **brickare** una flashcart c
 1. Premi (A) a "inject ntrboothax"
 1. Premi (A) per selezionare "RETAIL"
 1. Rimuovi la flashcart dal **NDS / NDSL di partenza**
-  + Se hai intenzione di ripristinare la tua flashcart allo stato originale dopo aver installato boot9strap sul **3ds di destinazione**, *non* uscire dalla applicazione del flasher sul **NDS / NDSL di partenza**
 
 ___
 

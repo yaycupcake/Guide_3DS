@@ -10,11 +10,13 @@ Des étapes facultatives se trouvent à la fin des instructions de ntrboot boot9
 
 Cette méthode nécessite un accès temporaire à une Nintendo DS ou DS LITE qui soit compatible avec votre linker. Notez que cette méthode n’est *pas* compatible avec la Nintendo DSi. Il est compatible avec les linkers suivants:
 
+  + [R4i Gold 3DS (RTS)](http://www.nds-card.com/ProShow.asp?ProID=149)
   + [Acekard 2i](http://www.nds-card.com/ProShow.asp?ProID=160)
-  + [R4i Gold 3DS RTS](http://www.nds-card.com/ProShow.asp?ProID=149)
-
-Si vous souhaitez supprimer l’exploit de ntrboot et restaurer votre Linker pour son état d’origine , Notez que vous devez *pas* mise hors tension de votre NDS / NDSL jusqu'à ce que vous avez restauré votre Linker. C’est parce que la R4i Gold 3DS RTS flashcart ne permet pas de lancer des fichiers `.nds` alors que l’exploit de ntrboot est installé dessus, donc si vous quittez l’application flasher vous ne sera pas en mesure d’être réintroduits dans celle-ci. If you do power it off, you will need to use the "Removing ntrboot (3DS Single System)" method on your 3DS to remove the exploit from your flashcart.
-{: .notice--warning}
+  + R4i Gold 3DS "Starter"
+  + R4i Ultra
+  + R4 3D Revolution
+  + Infinity 3 R4i
+  + DSTT ([some flash chips only!](https://gist.github.com/Hikari-chin/6b48f1bb8dd15136403c15c39fafdb42))
 
 Notez qu'il est possible que pendant le flash sur un clone celui-ci devienne inutilsable . C'est peu probable , mais notez que seule les originaux fonctionnent avec Ntrboot . Pour réduire les chances d'avoir une contrefaçon utilisez ([NDS Card](http://www.nds-card.com/))
 {: .notice--danger}
@@ -41,6 +43,8 @@ Notez qu'il est possible que pendant le flash sur un clone celui-ci devienne inu
 
 1. Launch `ak2i_ntrcardhax_flasher.nds` on **the source NDS / NDSL** using your flashcart
 1. Press (A) to continue
+1. Use (Up) and (Down) to select your flashcart
+1. Appuyez sur (A) pour continuer
 1. Press (X) to "load flashrom"
 1. Appuyez sur (A) pour continuer
 1. Eject your flashcart from **the source NDS / NDSL**
@@ -50,7 +54,6 @@ Notez qu'il est possible que pendant le flash sur un clone celui-ci devienne inu
 1. Press (A) to "inject ntrboothax"
 1. Press (A) to select "RETAIL"
 1. Eject your flashcart from **the source NDS / NDSL**
-  + Do *not* exit the flasher application on **the source NDS / NDSL** if you intend to restore your flashcart to its original state after installing boot9strap on **the target 3DS**
 
 ___
 

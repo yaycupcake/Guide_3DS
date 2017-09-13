@@ -32,7 +32,7 @@ title: "С A9LH до B9S"
 Обратите внимание, что требуемый ниже файл с именем `secret_sector.bin` это тот же, что присутствовал в различных версиях архива `data_input.zip`. Если у вас уже есть этот файл где-то на диске, вы можете использовать его, вместо загрузки файла ниже.
 {: .notice--info}
 
-Обратите внимание, что на New 3DS `secret_sector.bin` необходим для отката эксплойта arm9loaderhax, поэтому он не требуется для установки на не взломанную консоль. Если у вас не New 3DS, вам не нужен `secret_sector.bin`.
+Note that, only on New 3DS, `secret_sector.bin` is needed to revert the arm9loaderhax exploit, which is why it is not needed for the installation of boot9strap on a stock console. Если у вас не New 3DS, вам не нужен `secret_sector.bin`.
 {: .notice--info}
 
 * <i class="fa fa-magnet" aria-hidden="true" title="Это magnet-ссылка. Воспользуйтесь торрент-клиентом, чтобы скачать этот файл."></i> - **Только пользователи New 3DS:** [`secret_sector.bin`](magnet:?xt=urn:btih:15a3c97acf17d67af98ae8657cc66820cc58f655&dn=secret_sector.bin&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce)
@@ -43,6 +43,7 @@ title: "С A9LH до B9S"
 * Свежая версия [Luma3DS Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest)
 * Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
 * [`setup_ctrnand_luma3ds.gm9`]({{ base_path }}/gm9_scripts/setup_ctrnand_luma3ds.gm9)
+* [`cleanup_sd_card.gm9`]({{ base_path }}/gm9_scripts/cleanup_sd_card.gm9)
 
 #### Инструкция
 
@@ -62,6 +63,7 @@ title: "С A9LH до B9S"
 1. Скопируйте `GodMode9.firm` из `.zip-архива` GodMode9 в папку `/luma/payloads/` на SD-карте
 1. Скопируйте папку `gm9` из `.zip-архива` `GodMode9` в корень SD-карты
 1. Скопируйте `setup_ctrnand_luma3ds.gm9` в папку `/gm9/scripts/` на SD-карте
+1. Скопируйте `cleanup_sd_card.gm9` в папку `/gm9/scripts/` на SD-карте
 1. Скопируйте `SafeB9SInstaller.bin` из `.zip-архива` SafeB9SInstaller в папку `/luma/payloads/` на SD-карте
 1. Переименуйте `SafeB9SInstaller.bin` в папке `/luma/payloads/` на SD-карте в `start_SafeB9SInstaller.bin`
 1. Скопируйте `boot9strap.firm` и `boot9strap.firm.sha` из `.zip-архива` boot9strap в папку `/boot9strap/` в корне SD-карты
@@ -94,10 +96,25 @@ title: "С A9LH до B9S"
   + **"Show NAND or user string in System Settings"**
 1. Нажмите (Start), чтобы сохранить настройки и перезагрузиться
 
-##### Часть IV - CTRNAND Luma3DS
+##### Section IV - Updating the System
 
-Если перед обновлением до boot9strap у вас уже был установлен EmuNAND, и вы хотите перенести содержимое EmuNAND в SysNAND с кастомной прошивкой - сейчас самый подходящий момент. Выполните действия из раздела [перенос EmuNAND](move-emunand), прежде чем приступить к этой части.
+Если до начала этого руководства у вас уже был установлен EmuNAND, и вы хотите перенести содержимое EmuNAND в SysNAND с кастомной прошивкой - сейчас самый подходящий момент. Выполните действия из раздела [перенос EmuNAND](move-emunand), прежде чем приступить к этой части.
 {: .notice--info}
+
+1. Обновите прошивку консоли, зайдя в Системные настройки (System Settings), затем "Прочие настройки" (Other Settings), затем листайте вправо до конца и выберите пункт "Обновление" (System Update)
+  + Обновление консоли с установленным B9S + Luma (установленых у вас) безопасно
+  + При появлении ошибки, поставьте в настройках подключения, в настройках DNS "Получать DNS автоматически" в положение "Да"
+  + Если вы все еще получаете ошибку и версия вашего NAND ниже, [выполните CTRTransfer](ctrtransfer) и попробуйте обновиться еще раз
+
+### Часть V - Установка Luma3DS Updater
+
+1. Запустите FBI
+1. Перейдите в `SD` -> `cias`
+1. Выберите `lumaupdater.cia`
+1. Выберите "Install CIA", затем нажмите (A) для подтверждения
+1. Нажмите (Home) для выхода из FBI
+
+##### Часть VI - CTRNAND Luma3DS
 
 1. Запустите GodMode9, держа нажатой кнопку (Start) во время загрузки
 1. Если вам предложат создать бэкап важных файлов, нажмите кнопку (A) чтобы сделать это, затем нажмите (A) чтобы продолжить после завершения
@@ -109,23 +126,36 @@ title: "С A9LH до B9S"
 1. Нажмите (A), чтобы разрешить запись в SysNAND (lvl1) и введите указанную комбинацию кнопок
 1. Нажмите (A), чтобы продолжить
 1. Нажмите (A) чтобы восстановить запрет на запись
+
+##### Часть VII - Создание бэкапа SysNAND
+
+1. Нажмите кнопку (Home) для вызова меню
+1. Выберите "More..."
+1. Выберите "Scripts..."
+1. Выберите "Backup SysNAND"
+1. Нажмите (A) для подтверждения
+  + Этот процесс займет некоторое время
+1. Нажмите (A), чтобы продолжить
+1. Удерживая (R) нажмите (B) для того, чтобы извлечь SD-карту
+1. Вставьте SD-карту в компьютер
+1. Скопируйте `<serialnumber>_nandmin_###.bin` из папки `/gm9/out/` на SD-карте в безопасное место на вашем компьютере
+  + Сделайте несколько резервных копий в нескольких местах (например в облачном хранилище)
+  + Эти бэкапы позволят восстановить консоль, если впоследствии что-то пойдёт не так
+  + Replace your old arm9loaderhax NAND backup with this new boot9strap one
+1. После копирования удалите `<serialnumber>_nandmin_###.bin` из папки `/gm9/out/` на SD-карте
+1. Вставьте SD-карту обратно в консоль
+
+##### Часть VIII - Очистка SD-карты
+
+1. Нажмите кнопку (Home) для вызова меню
+1. Выберите "More..."
+1. Выберите "Scripts..."
+1. Выберите "cleanup_sd_card"
+1. При появлении запроса, нажмите (A) для продолжения
+1. Нажмите (A), чтобы продолжить
 1. Нажмите (Start) для перезагрузки
 
-### Часть V - Установка Luma3DS Updater
-
-1. Запустите FBI
-1. Перейдите в `SD` -> `cias`
-1. Выберите `lumaupdater.cia`
-1. Выберите "Install CIA", затем нажмите (A) для подтверждения
-1. Нажмите (Home) для выхода из FBI
-
 ___
-
-Теперь вы можете удалить все файлы, связанные с arm9loaderhax, с SD-карты, такие как `arm9loaderhax.bin` в корне SD-карты и файл `aeskeydb.bin` в папке `files9` на SD-карте.
-{: .notice--info}
-
-Обратите внимание, что `.bak-файлы` в папке `/boot9strap/` на SD-карте необходимы только в случае неудачной установки boot9strap. После успешной установки вы можете удалить всю папку `boot9strap`.
-{: .notice--info}
 
 Эта версия Luma3DS Updater позволяет работать с boot9strap, путем загрузки и распаковки последнего Luma3DS `boot.firm`.
 {: .notice--info}

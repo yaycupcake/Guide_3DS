@@ -36,10 +36,12 @@ Ten en cuenta que en raras ocasiones, es posible que realizar el proceso de flas
 
 1. Inicia `ak2i_ntrcardhax_flasher.nds` en tu consola usando tu flashcart
 1. Presiona (A) para continuar
-  + Toma nota del "HW Rev", es posible que lo necesites más adelante
+1. Usa (Arriba) y (Abajo) en el D-Pad para seleccionar tu flashcart
+1. Presiona (A) para continuar
 1. Presiona (A) para ejecutar la acción "inject ntrboothax"
 1. Presiona (A) para seleccionar "RETAIL"
-1. Presiona (B) para "EXIT" (salir)
+1. Presiona (A) para continuar
+1. Selecciona "EXIT"
 
 ___
 

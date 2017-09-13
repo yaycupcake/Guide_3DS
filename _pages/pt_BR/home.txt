@@ -55,7 +55,7 @@ Para uma lista de cada uma das assinaturas calculadas pelo sighax (a plataforma 
 ## O que eu posso fazer com Custom Firmware?
 
 + Jogar todos os cartuchos e jogos da eShop, independente da sua região de origem
-+ Customizar seu Menu HOME com [temas](https://3dsthem.es/) criados por usuários, [badges](https://badges.3dsthem.es/), e [splash screens](https://splash.3dsthem.es/)
++ Customize your HOME Menu with user-created [themes and splash screens](https://themeplaza.eu/)
 + Utilizar "ROM hacks" de jogos que você possui
 + Tirar capturas de telas de aplicações e jogos
 + [Fazer backup, editar e restaurar](https://gbatemp.net/threads/413143/) saves para diversos jogos

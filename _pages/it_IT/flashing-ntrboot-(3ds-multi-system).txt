@@ -41,15 +41,19 @@ Tieni presente che in rare circostanze è possibile **brickare** una flashcart c
 
 1. Avvia il chainloader Luma3DS tenendo premuto (Start) all'accensione del **3DS di partenza**
 1. Seleziona "ntrboot_flasher"
+1. Leggi l'avviso sulla schermata rossa
+1. Premi il pulsante (A) per continuare
+1. Seleziona la tua flashcart
+  + Se non vedi la tua flashcart sulla lista in cima, consulta lo schermo inferiore per avere maggiori informazioni su ogni opzione
 1. Seleziona "Dump Flash"
 1. Attendi il termine del processo
-1. Premi (B) per ritornare al menu principale
+1. Premi il pulsante (A) per continuare
+1. Premi (A) per ritornare al menu principale
 1. Seleziona "Inject Ntrboot"
-1. Premi (Y) per procedere
-1. Premi (R) per retail unit ntrboot
+1. Premi (A) per retail unit ntrboot
 1. Attendi il termine del processo
-1. Premi (B) per ritornare al menu principale
-1. Seleziona "EXIT" per spegnere il **3DS di partenza**
+1. Premi (A) per ritornare al menu principale
+1. Seleziona "Exit" per spegnere il **3DS di partenza**
 
 ___
 

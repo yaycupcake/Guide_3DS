@@ -4,7 +4,7 @@ title: "Benutzung von GodMode9"
 
 GodMode9 is a full access file browser for the Nintendo 3DS console, giving you access to your SD card, the FAT partitions inside your SysNAND and EmuNAND, and basically anything else. Among other functionality, you can copy, delete, rename files, and create folders.
 
-Beachte: Sollten noch weitere Dateien als nur die`GodMode9.firm` Datei im `/luma/payloads/` Ordner auf deiner SD-Karte sein, starte das "Chainloader Menu", indem du beim Starten der Konsole die (Start) Taste gedrückt hältst und in welchem du dann das D-Pad und die (A) Taste verwenden musst um "GodMode9", für die Anleitung, auszuwählen. 
+Note that if you have any payload files other than `GodMode9.firm` in the `/luma/payloads/` folder on your SD card, holding (Start) on boot will display a "chainloader menu" where you will have to use the D-Pad and the (A) button to select "GodMode9" for these instructions. 
 
 {% capture notice %}
 This is powerful stuff. GodMode9 provides you with the means to do basically any thinkable modification to any system data available on the 3DS console. Allerdings werden Vorkehrungen getroffen, damit du die Daten deiner Konsole nicht versehentlich beschädigst.
@@ -209,9 +209,6 @@ Verwende das `Titles`-Menü in FBI, um die Titel-ID des installierten Titel zu e
 1. Deine verschlüsselte / entschlüsselte .cia wird dann an die gewünschte Position ausgegeben
 
 ## <a name="rm_nnid" />Entferne die NNID ohne die Konsole zu formatieren
-
-Beachte: Sollten noch weitere Dateien als nur die`GodMode9.firm` Datei im `/luma/payloads/` Ordner auf deiner SD-Karte sein, starte das "Chainloader Menu", indem du beim Starten der Konsole die (Start) Taste gedrückt hältst und in welchem du dann das D-Pad und die (A) Taste verwenden musst um "GodMode9", für die Anleitung, auszuwählen. 
-{: .notice--info}
 
 #### Anleitung
 

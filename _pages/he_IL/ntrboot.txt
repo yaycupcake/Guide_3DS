@@ -15,6 +15,7 @@ title: "ntrboot"
   + R4i Ultra
   + R4 3D Revolution
   + Infinity 3 R4i
+  + DSTT ([כמה שבבי פלאש בלבד!](https://gist.github.com/Hikari-chin/6b48f1bb8dd15136403c15c39fafdb42))
 
   ![]({{ base_path }}/images/screenshots/ntrboot-flashcarts.png)
   {: .notice--info}
@@ -76,6 +77,14 @@ ___
 [צריבת ntrboot (DSi)](flashing-ntrboot-(dsi))
 
 דרך זו דורשת גישה זמנית לNintendo DSi שתומך בכרטיס פריצה שלכם.
+
+שימו לב שגרסאות DSi עדכניות יותר חסמו גישה לכרטיסי פריצה מסוימים. זה משאיר אותן ללא אפשרות לפעיל עליהן את קובץ ה`.nds` הצורב על גרסאות חדשות יותר. כרטסי הפריצה שתומכים בntrboot יכולים להריץ קבצי `.nds` תחת הגרסאות הבאות:
+
+  + [R4i Gold 3DS RTS](http://www.nds-card.com/ProShow.asp?ProID=149) : <= 1.4.5
+  + [Acekard 2i](http://www.nds-card.com/ProShow.asp?ProID=160) : <= 1.4.4
+  + R4i Gold 3DS "Starter" : <= 1.4.5
+  + R4i Ultra : <= 1.4.1
+  + Infinity 3 R4i : <= 1.4.5
 
 {% endcapture %}
 

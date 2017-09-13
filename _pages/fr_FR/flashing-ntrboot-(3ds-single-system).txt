@@ -36,10 +36,12 @@ Notez qu'il est possible que pendant le flash sur un clone celui-ci devienne inu
 
 1. Lancer `ak2i_ntrcardhax_flasher_dsi.nds` sur votre console en utilisant votre Linker
 1. Appuyez sur (A) pour continuer
-  + Make a note of the "HW Rev", you may need it later
+1. Use (Up) and (Down) to select your flashcart
+1. Appuyez sur (A) pour continuer
 1. Appuyez sur (A) pour "inject ntrboothax"
 1. Appuyez sur (A) pour sélectionner "RETAIL"
-1. Appuyez sur (B) sur "EXIT"
+1. Appuyez sur (A) pour continuer
+1. Select "EXIT"
 
 ___
 

@@ -15,6 +15,7 @@ ntrboot 漏洞可與下列燒錄卡相容：
   + R4i Ultra
   + R4 3D Revolution
   + Infinity 3 R4i
+  + DSTT ([僅適用於某些燒錄晶片!](https://gist.github.com/Hikari-chin/6b48f1bb8dd15136403c15c39fafdb42))
 
   ![]({{ base_path }}/images/screenshots/ntrboot-flashcarts.png)
   {: .notice--info}
@@ -77,6 +78,14 @@ ___
 
 本方法將會暫時用到一台相容於您燒錄卡的 NDSi 主機。
 
+請注意，某些較新的 NDSi 將無法使用某些燒錄卡。 也就是說，它們可能無法在某些主機上啟動刷寫用的 `.nds` 檔案。 相容於 ntrboot 漏洞的燒錄卡可在下列版本中啟動 `. nds` 檔案:
+
+  + [R4i Gold 3DS RTS](http://www.nds-card.com/ProShow.asp?ProID=149) : <= 1.4.5
+  + [Acekard 2i](http://www.nds-card.com/ProShow.asp?ProID=160) : <= 1.4.4
+  + R4i Gold 3DS "Starter" : <= 1.4.5
+  + R4i Ultra : <= 1.4.1
+  + Infinity 3 R4i : <= 1.4.5
+
 {% endcapture %}
 
 <div class="notice--primary">{{ notice-1 | markdownify }}</div>
@@ -85,7 +94,7 @@ ___
 
 [寫入 ntrboot 漏洞 (透過 Powersaves)](flashing-ntrboot-(powersaves))
 
-本節目前仍尚未完成，但完成後，本分法將需要用到一台 [Powersaves](https://amzn.to/2fb3VY7)。 本節仍未完成，所以目前頁面僅供預留。
+本方法在完成後將需要用到一台 [Powersaves](https://amzn.to/2fb3VY7)。 本節仍未完成，所以目前頁面僅供預留。
 
 {% endcapture %}
 

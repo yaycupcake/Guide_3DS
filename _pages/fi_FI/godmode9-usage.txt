@@ -210,9 +210,6 @@ Käytä FBI:n `Titles`-valikkoa saadaksesi tietoosi tunnuksen sille sovelluksell
 
 ## <a name="rm_nnid" />NNID:n poistaminen ilman konsolin alustamista
 
-Huomaa, että jos sinulla on muita käynnistystiedostoja kuin `GodMode9.firm` SD-korttisi `/luma/payloads`‑kansiossa, (START)-painikkeen pohjassa pitäminen käynnistyksen aikana avaa "ketjulatausvalikon", jossa sinun on käytettävä ristiohjainta ja (A):ta avataksesi GodMode9:n näitä ohjeita varten. 
-{: .notice--info}
-
 #### Ohjeet
 
 1. Avaa GodMode9 pitämällä (START)-painiketta pohjassa konsolin käynnistyessä

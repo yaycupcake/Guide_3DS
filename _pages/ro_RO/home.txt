@@ -37,7 +37,7 @@ Citiți toate paginile introductive înainte de a continua.
 
 **Custom Firmware** ("CFW") va permite utilizarea unor hack-uri mult mai avansate pe care homebrew-ul simplu nu le poate face. De exemplu, patch-uirea de semnături va permite instalarea titlurilor nesemnate care apar direct în meniul HOME.
 
-CFW can be set up on any console on any version (but may require additional tools / accessories for versions >11.3.0).
+CFW poate fi instalat pe orice consolă în orice versiune (dar poate avea nevoie de unelte / acesorii suplimentare pentru versiuni >11.3.0).
 
 ## Ce instalează acest ghid?
 
@@ -55,7 +55,7 @@ Pentru o listă cu fiecare dintre semnăturile calculate de sighax (platforma pe
 ## Ce pot face cu Custom Firmware?
 
 + Puteți juca toate cardurile de joc și jocurile din eShop, indiferent de regiunea lor
-+ Puteți personaliza meniul HOME cu [teme](https://3dsthem.es/) create de utilizatori, [insigne](https://badges.3dsthem.es/), și [ecrane splash](https://splash.3dsthem.es/)
++ Customize your HOME Menu with user-created [themes and splash screens](https://themeplaza.eu/)
 + Puteți să folosiți "Hack-uri de ROM" pentru jocurile pe care le dețineti
 + Puteți face capturi de ecran la aplicații sau gameplay
 + Puteți face [copii de rezervă, editări, și restaurări](https://gbatemp.net/threads/413143/) datelor de slavare pentru multe jocuri

@@ -55,7 +55,7 @@ For a list of each of the calculated sighax signatures (the platform boot9strap 
 ## 我可以在自制系统上做什么？
 
 + 跨区运行所有游戏卡带和eShop游戏
-+ Customize your HOME Menu with user-created [themes](https://3dsthem.es/), [badges](https://badges.3dsthem.es/), and [splash screens](https://splash.3dsthem.es/)
++ Customize your HOME Menu with user-created [themes and splash screens](https://themeplaza.eu/)
 + 对你已有的游戏进行"ROM hacks"
 + 进行游戏录像和程序截屏
 + [Backup, edit, and restore](https://gbatemp.net/threads/413143/) saves for many games
