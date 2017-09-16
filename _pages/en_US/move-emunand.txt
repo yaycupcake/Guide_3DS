@@ -64,10 +64,10 @@ Note that this is not necessary for any other kind of Virtual Console games (GBC
   + Navigate to the folder you created for this GBA VC game
   + Press (Y) to paste `gbavc.sav`
   + Press (Start) to reboot your device
-1. Launch GodMode9 by holding (Start) during boot
 
 ##### Section IV - Copy EmuNAND to SysNAND
 
+1. Launch GodMode9 by holding (Start) during boot
 1. Navigate to `[E:] EMUNAND VIRTUAL`
 1. Press (A) on `nand.bin` to select it, then select "NAND image options...", then select "Restore SysNAND (safe)"
 1. Press (A) to unlock SysNAND overwriting, then input the key combo given
