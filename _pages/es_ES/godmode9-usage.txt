@@ -134,42 +134,47 @@ Usa el menú `Titles` de FBI para obtener el Title ID del título instalado que 
 
 #### Instrucciones
 
-1. Apaga tu consola
-1. Inserta tu tarjeta SD en tu computadora
-1. Crea una carpeta en `/gm9/` por cada juego de Consola Virtual de GBA del cual quieras conservar los datos de guardado
-1. Vuelve a insertar tu tarjeta SD en tu consola
-1. Enciende tu consola
+El juego será almacenado en la carpeta `/gm9/out/` de tu tarjeta SD con el nombre `<TitleID>.gbavc.sav`.
+{: .notice--info}
+
+Para identificar el Title ID de un archivo `<TitleID>.gbavc.sav`, tu podrías obtener una lista de todos los juegos en el sistema y sus correspondientes Title IDs, sosteniendo (R) y presionando (A) en el menú principal de GodMode9, y luego seleccionando "Search for titles".
+{: .notice--info}
+
 1. Realiza lo siguiente por cada juego de Consola Virtual de GBA del cual quieras conservar los datos de guardado:
   + Inicia el juego de Consola Virtual de GBA
   + Sal del juego de Consola Virtual de GBA
   + Enciende tu consola manteniendo (Start) para ingresar al menú de selección de payloads de Luma3DS
   + Inicia GodMode9 presionando (A)
   + Ve a `[S:] SYSNAND VIRTUAL`
-  + Presiona (Y) sobre `gbavc.sav` para copiarlo
-  + Presiona (B) para regresar al menú principal
-  + Ve a `[0:] SDCARD` -> `gm9`
-  + Navega hacia la carpeta que has creado para este juego de Consola Virtual de GBA
-  + Presiona (Y) para pegar `gbavc.sav`
+  + Presiona (A) en `agbsave.bin` para seleccionarlo
+  + Selecciona "AGBSAVE options..."
+  + Selecciona "Dump GBA VC save"
+  + Presiona (A) para continuar
   + Presiona (Start) para reiniciar tu consola
 
 ## <a name="restore_gba" /> Restaurar datos de guardado de la Consola Virtual de GBA
 
+Para identificar el Title ID de un archivo `<TitleID>.gbavc.sav`, tu podrías obtener una lista de todos los juegos en el sistema y sus correspondientes Title IDs, sosteniendo (R) y presionando (A) en el menú principal de GodMode9, y luego seleccionando "Search for titles".
+{: .notice--info}
+
 #### Instrucciones
 
-1. Asegúrate de que tienes una carpeta con datos de guardado en `/gm9/` para cada juego de Consola Virtual de GBA para los que quieras restaurar sus datos
 1. Haz lo siguiente por cada juego de Consola Virtual de GBA del cual quieras restaurar sus datos de guardado:
   + Inicia el juego de Consola Virtual de GBA
   + Sal del juego de Consola Virtual de GBA
   + Enciende tu consola manteniendo (Start) para ingresar al menú de selección de payloads de Luma3DS
   + Inicia GodMode9 presionando (A)
   + Ve a `[0:] SDCARD` -> `gm9`
-  + Navega hacia la carpeta que has creado para este juego de Consola Virtual de GBA
-  + Presiona (Y) sobre `gbavc.sav` para copiarlo
+  + Presiona (Y) en el archivo `<TitleID>.gbavc.sav` que deseas restaurar para copiarlo
   + Presiona (B) para regresar al menú principal
   + Ve a `[S:] SYSNAND VIRTUAL`
-  + Presiona (Y) para pegar `gbavc.sav`
-  + Presiona (A) para confirmar
+  + Presiona (A) en `agbsave.bin` para seleccionarlo
+  + Selecciona "AGBSAVE options..."
+  + Selecciona "Inject GBA VC save"
+  + Presiona (A) para continuar
   + Presiona (Start) para reiniciar tu consola
+  + Inicia el juego de Consola Virtual de GBA
+  + Sal del juego de Consola Virtual de GBA
 
 ## <a name="format_sd" /> Formatear una tarjeta SD
 
