@@ -2,7 +2,7 @@
 title: "Completamento dell'installazione"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Indice" %}
 
 #### Panoramica
 
@@ -18,7 +18,7 @@ Durante la guida verranno anche configurate le seguenti applicazioni:
 +  **GodMode9** *(applicazione multifunzione per gestire NAND e schede di gioco)*
 +  **Homebrew Launcher Loader** *(avvia l'Homebrew Launcher come fosse una normale applicazione grazie alla magia di Rosalina)*
 
-### What you need
+### Cosa serve
 
 * L'ultima versione di [Anemone3DS](https://github.com/astronautlevel2/Anemone3DS/releases/latest) *(il file `.cia`)*
 * L'ultima versione di [hblauncher_loader](https://github.com/yellows8/hblauncher_loader/releases/latest)
@@ -72,7 +72,7 @@ Se prima di seguire questa guida avevi già un'installazione EmuNAND presente e 
   + Se ottieni un errore, imposta i DNS della connessione di rete in modo che vengano ottenuti automaticamente
   + Se continui ad ottenere un errore, [segui la guida per il CTRTransfer](ctrtransfer), poi riprova ad aggiornare la console
 
-#### Section III - Launching FBI
+#### Sezione III - Avviare FBI
 
 1. Avvia l'applicazione "Modalità download"
 1. Premi simultaneamente i pulsanti (L) + (Giù) + (Select) per aprire il menu di Rosalina
