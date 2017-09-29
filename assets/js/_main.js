@@ -207,7 +207,8 @@ $(document).ready(function(){
       }
       ol.children().each(function(idx, li) {
         var link = $(li).find("a").attr('href');
-        if(window.location.href.indexOf(link) > -1 && link !== "/"){
+        var name = $(li).attr('data-name');
+        if(window.location.href.indexOf(link) > -1 && name !== "home"){
           $(li).addClass("active");
           return false;
         }
