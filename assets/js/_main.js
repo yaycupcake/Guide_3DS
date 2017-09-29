@@ -138,13 +138,13 @@ $(document).ready(function(){
   };
 
   for(var device in devices){
-    if(window.location.href.indexOf(device) > -1) {
+    if(window.location.href.indexOf("/" + device) > -1) {
       localStorage.setItem('device', devices[device]);
     }
   }
 
   for(var method in methods){
-    if(window.location.href.indexOf(method) > -1) {
+    if(window.location.href.indexOf("/" + method) > -1) {
       localStorage.setItem('method', methods[method]);
     }
   }
