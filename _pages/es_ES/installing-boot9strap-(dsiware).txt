@@ -2,9 +2,9 @@
 title: "Instalar boot9strap (DSiWare)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Tabla de contenidos" %}
 
-### Required Reading
+### Lectura requerida
 
 Existen dos métodos distintos para instalar boot9strap usando DSiWare en 11.6.0.
 
@@ -28,7 +28,7 @@ En ámbos casos, el NNID de la 3DS de origen se mantendrá en la 3DS de destino,
 {: .notice--danger}
 
 ___
-### Methods
+### Métodos
 
 ___
 

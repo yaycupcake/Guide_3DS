@@ -2,11 +2,11 @@
 title: "Instalar boot9strap (navegador)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Tabla de contenidos" %}
 
 Si ya habías hackeado tu consola y tienes un CFW basado en EmuNAND, esta guía es sólo para la SysNAND, por lo que todas las instrucciones deben ser aplicadas en la SysNAND. Nota: los términos EmuNAND y RedNAND son diferentes implementaciones del [mismo concepto](http://3dbrew.org/wiki/NAND_Redirection).
 
-### What you need
+### Qué necesitas
 
 * La última versión de [SafeB9SInstaller]
 (https://github.com/d0k3/SafeB9SInstaller/releases/latest)
@@ -14,9 +14,9 @@ Si ya habías hackeado tu consola y tienes un CFW basado en EmuNAND, esta guía 
 * La última versión de [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(el archivo`.7z`)*
 * Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
 
-### Instructions
+### Instrucciones
 
-#### Section I - Prep Work
+#### Sección I - Preparativos
 
 1. Apaga tu consola
 1. Inserta tu tarjeta SD en tu computadora
@@ -32,7 +32,7 @@ Si ya habías hackeado tu consola y tienes un CFW basado en EmuNAND, esta guía 
 1. Vuelve a insertar tu tarjeta SD en tu consola
 1. Enciende tu consola
 
-#### Section II - Launching SafeB9SInstaller
+#### Sección II - Ejecutar SafeB9SInstaller
 
 1. Abre el navegador y ve a cualquiera de estas páginas en tu 3DS
   + `https://dukesrg.github.io/?SafeB9SInstaller.dat`
@@ -43,13 +43,13 @@ Si ya habías hackeado tu consola y tienes un CFW basado en EmuNAND, esta guía 
   + Si obtienes un error, [sigue esta guía de resolución de problemas](troubleshooting#ts_browser)
 1. Si el exploit ha funcionado, habrás iniciado SafeB9SInstaller
 
-#### Section III - Installing boot9strap
+#### Sección III - Instalar boot9strap
 
 1. Espera a que todos los controles de seguridad se completen
 1. Cuando se solicite, introduce la combinación de botones mostrada para instalar boot9strap
 1. Una vez se haya completado, presiona (A) para reiniciar tu consola
 
-#### Section IV - Configuring Luma3DS
+#### Sección IV - Configurar Luma3DS
 
 1. Tu consola debería haber reiniciado en el menú de configuración de Luma3DS
   + If you get a black screen, [follow this troubleshooting guide](troubleshooting#black-screen-on-sysnand-boot-after-installing-boot9strap)
