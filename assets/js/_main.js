@@ -196,6 +196,7 @@ $(document).ready(function(){
     unhide = unhide.concat(route[device][method]);
     if(typeof unhide !== 'undefined' && unhide.length > 0){
       unhide.push("home");
+      unhide.push("get-started");
       if(device == "0"){
         unhide.push("get-started-(old-3ds)");
       } else if (device == "1"){
