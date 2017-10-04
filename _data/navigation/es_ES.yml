@@ -1,7 +1,7 @@
 ---
 main:
   - 
-    title: 3DS Guide
+    title: Guía 3DS
     url: /
   - 
     title: FAQ
@@ -53,6 +53,9 @@ sidebar_pages:
     title: Inicio
     url: /
   - 
+    title: Comencemos
+    url: get-started
+  - 
     title: Comencemos (New 3DS)
     url: get-started-(new-3ds)
   - 
@@ -64,6 +67,12 @@ sidebar_pages:
   - 
     title: ntrboot
     url: ntrboot
+  - 
+    title: Instalar boot9strap (DSiWare)
+    url: installing-boot9strap-(dsiware)
+  - 
+    title: Múltiples opciones
+    url: multiple-options
   - 
     title: Flashear ntrboot (Una consola 3DS)
     url: flashing-ntrboot-(3ds-single-system)
@@ -94,9 +103,6 @@ sidebar_pages:
   - 
     title: Instalar boot9strap (navegador)
     url: installing-boot9strap-(browser)
-  - 
-    title: Instalar boot9strap (DSiWare)
-    url: installing-boot9strap-(dsiware)
   - 
     title: Instalar boot9strap (Inyección de juego DSiWare)
     url: installing-boot9strap-(dsiware-game-injection)

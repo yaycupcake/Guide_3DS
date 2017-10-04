@@ -1,7 +1,7 @@
 ---
 main:
   - 
-    title: 3DS Guide
+    title: מדריך ל3DS
     url: /
   - 
     title: שאלות ותשובות
@@ -53,6 +53,9 @@ sidebar_pages:
     title: ראשי
     url: /
   - 
+    title: צעדים ראשונים
+    url: get-started
+  - 
     title: צעדים ראשונים (New 3DS)
     url: get-started-(new-3ds)
   - 
@@ -64,6 +67,12 @@ sidebar_pages:
   - 
     title: ntrboot
     url: ntrboot
+  - 
+    title: התקנת boot9strap (DSiWare)
+    url: installing-boot9strap-(dsiware)
+  - 
+    title: כמה אופציות
+    url: multiple-options
   - 
     title: צריבת ntrboot (מערכת 3DS אחת)
     url: flashing-ntrboot-(3ds-single-system)
@@ -94,9 +103,6 @@ sidebar_pages:
   - 
     title: התקנת boot9strap (דפדפן)
     url: installing-boot9strap-(browser)
-  - 
-    title: התקנת boot9strap (DSiWare)
-    url: installing-boot9strap-(dsiware)
   - 
     title: התקנת boot9strap (הזרקת משחק DSiWare)
     url: installing-boot9strap-(dsiware-game-injection)

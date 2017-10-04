@@ -7,25 +7,25 @@ main:
     title: Вопросы и ответы
     url: faq
   - 
-    title: Donations
+    title: Пожертвования
     url: donations
   - 
-    title: Credits
+    title: Благодарности
     url: credits
   - 
-    title: Updating B9S
+    title: Обновление B9S
     url: updating-b9s
   - 
     title: С A9LH до B9S
     url: a9lh-to-b9s
   - 
-    title: Troubleshooting
+    title: Проблемы и их решения
     url: troubleshooting
   - 
-    title: Region Changing
+    title: Смена региона
     url: region-changing
   - 
-    title: GodMode9 Usage
+    title: Использование GodMode9
     url: godmode9-usage
   - 
     title: Навигация по сайту
@@ -47,11 +47,14 @@ footer:
     title: Зачем реклама?
 sidebar_title:
   - 
-    title: Overall Progress
+    title: Общий прогресс
 sidebar_pages:
   - 
-    title: Home
+    title: Главная
     url: /
+  - 
+    title: Get Started
+    url: get-started
   - 
     title: Get Started (New 3DS)
     url: get-started-(new-3ds)
@@ -64,6 +67,12 @@ sidebar_pages:
   - 
     title: ntrboot
     url: ntrboot
+  - 
+    title: Installing boot9strap (DSiWare)
+    url: installing-boot9strap-(dsiware)
+  - 
+    title: Multiple Options
+    url: multiple-options
   - 
     title: Flashing ntrboot (3DS Single System)
     url: flashing-ntrboot-(3ds-single-system)
@@ -95,9 +104,6 @@ sidebar_pages:
     title: Installing boot9strap (Browser)
     url: installing-boot9strap-(browser)
   - 
-    title: Installing boot9strap (DSiWare)
-    url: installing-boot9strap-(dsiware)
-  - 
     title: Installing boot9strap (DSiWare Game Injection)
     url: installing-boot9strap-(dsiware-game-injection)
   - 
@@ -116,8 +122,8 @@ sidebar_pages:
     title: Installing boot9strap (ntrboot)
     url: installing-boot9strap-(ntrboot)
   - 
-    title: NAND Restore
+    title: Восстановление бэкапа NAND
     url: godmode9-usage
   - 
-    title: Finalizing Setup
+    title: Завершение установки
     url: finalizing-setup
