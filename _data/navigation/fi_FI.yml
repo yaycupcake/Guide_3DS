@@ -1,34 +1,34 @@
 ---
 main:
   - 
-    title: 3DS Guide
+    title: 3DS-opas
     url: /
   - 
     title: UKK
     url: faq
   - 
-    title: Donations
+    title: Lahjoitukset
     url: donations
   - 
-    title: Credits
+    title: Kiitokset
     url: credits
   - 
-    title: Updating B9S
+    title: 'B9S:n päivittäminen'
     url: updating-b9s
   - 
     title: A9LH → B9S
     url: a9lh-to-b9s
   - 
-    title: Troubleshooting
+    title: Vianmääritys
     url: troubleshooting
   - 
-    title: Region Changing
+    title: Alueen vaihtaminen
     url: region-changing
   - 
-    title: GodMode9 Usage
+    title: 'GodMode9:n käyttäminen'
     url: godmode9-usage
   - 
-    title: Site Navigation
+    title: Sivuston navigaatio
     url: site-navigation
   - 
     title: 'CFW:n poistaminen'
@@ -47,83 +47,83 @@ footer:
     title: Miksi mainokset?
 sidebar_title:
   - 
-    title: Overall Progress
+    title: Edistyminen
 sidebar_pages:
   - 
-    title: Home
+    title: Etusivu
     url: /
   - 
-    title: Get Started
+    title: Aloitus
     url: get-started
   - 
-    title: Get Started (New 3DS)
+    title: Aloitus (New 3DS)
     url: get-started-(new-3ds)
   - 
-    title: Get Started (Old 3DS)
+    title: Aloitus (vanha 3DS)
     url: get-started-(old-3ds)
   - 
-    title: Cart Update
+    title: Korttipäivitys
     url: cart-update
   - 
-    title: ntrboot
+    title: Ntrboot
     url: ntrboot
   - 
-    title: Installing boot9strap (DSiWare)
+    title: Boot9strapin asentaminen (DSiWare)
     url: installing-boot9strap-(dsiware)
   - 
-    title: Multiple Options
+    title: Useita vaihtoehtoja
     url: multiple-options
   - 
-    title: Flashing ntrboot (3DS Single System)
+    title: Ntrbootin asentaminen (yksi 3DS)
     url: flashing-ntrboot-(3ds-single-system)
   - 
-    title: Flashing ntrboot (3DS Multi System)
+    title: 'Ntrbootin asentaminen (monta 3DS:ää)'
     url: flashing-ntrboot-(3ds-multi-system)
   - 
-    title: Flashing ntrboot (DSi)
+    title: Ntrbootin asentaminen (DSi)
     url: flashing-ntrboot-(dsi)
   - 
-    title: Flashing ntrboot (NDS)
+    title: Ntrbootin asentaminen (NDS)
     url: flashing-ntrboot-(nds)
   - 
-    title: Flashing ntrboot (Powersaves)
+    title: Ntrbootin asentaminen (Powersaves)
     url: flashing-ntrboot-(powersaves)
   - 
-    title: Homebrew Launcher (Soundhax)
+    title: Homebrew Launcher (SoundHax)
     url: homebrew-launcher-(soundhax)
   - 
-    title: Homebrew Launcher (Alternatives)
+    title: Homebrew Launcher (muut käynnistystavat)
     url: homebrew-launcher-(alternatives)
   - 
-    title: NTR and Cubic Ninja
+    title: NTR ja Cubic Ninja
     url: ntr-and-cubic-ninja
   - 
-    title: Installing boot9strap (2xrsa)
+    title: Boot9strapin asentaminen (2xrsa)
     url: installing-boot9strap-(2xrsa)
   - 
-    title: Installing boot9strap (Browser)
+    title: Boot9strapin asentaminen (selain)
     url: installing-boot9strap-(browser)
   - 
-    title: Installing boot9strap (DSiWare Game Injection)
+    title: Boot9strapin asentaminen (DSiWare-peli-injektio)
     url: installing-boot9strap-(dsiware-game-injection)
   - 
-    title: Installing boot9strap (DSiWare Save Injection)
+    title: Boot9strapin asentaminen (DSiWare-tallennusinjektio)
     url: installing-boot9strap-(dsiware-save-injection)
   - 
-    title: Installing boot9strap (Hardmod)
+    title: Boot9strapin asentaminen (laitteistomodaus)
     url: installing-boot9strap-(hardmod)
   - 
-    title: Installing boot9strap (Homebrew Launcher)
+    title: Boot9strapin asentaminen (Homebrew Launcher)
     url: installing-boot9strap-(homebrew-launcher)
   - 
-    title: Installing boot9strap (MSET)
+    title: Boot9strapin asentaminen (MSET)
     url: installing-boot9strap-(mset)
   - 
-    title: Installing boot9strap (ntrboot)
+    title: Boot9strapin asentaminen (ntrboot)
     url: installing-boot9strap-(ntrboot)
   - 
-    title: NAND Restore
+    title: NANDin palauttaminen
     url: godmode9-usage
   - 
-    title: Finalizing Setup
+    title: Asennuksen viimeistely
     url: finalizing-setup

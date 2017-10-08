@@ -114,6 +114,10 @@ Si, antes de seguir esta guía, ya tenías una configuración EmuNAND y deseas m
 #### Section V - Instalar Luma3DS Updater
 
 1. Inicia FBI
+1. Ve a `Titles`
+1. Selecciona tu Luma3DS Updater existente
+1. Selecciona la opción "Delete Title And Ticket", luego presiona (A) para confirmar
+1. Presiona (B) para volver al menú principal
 1. Ve a `SD` -> `cias`
 1. Selecciona `lumaupdater.cia`
 1. Selecciona la opción "Install CIA", luego presiona (A) para confirmar

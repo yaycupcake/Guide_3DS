@@ -2,7 +2,7 @@
 title: "Ntrbootin asentaminen (DSi)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Sisällysluettelo" %}
 
 Varmista ennen jatkamista, että olet lukenut kaikki [ntrbootia koskevat huomautukset](ntrboot).
 
@@ -19,7 +19,7 @@ Huomaa, että DSi:n uudemmilla järjestelmäversioilla joidenkin flash-korttien 
 Huomaa, että joissain harvinaisissa yhteensattumissa asennusprosessi saattaa **vioittaa** jäljitelmä-flash-korttia ja tehdä siitä pysyvästi käyttökelvottoman. Vaikka tämä onkin epätodennäköistä, on suositeltavaa käyttää vain alkuperäisiä kortteja. Jotta välttyisit jäljitelmäkortin saamiselta, on suositeltavaa käyttää flash-kortin ostamiseen hyvämaineista sivustoa (kuten [NDS Card](http://www.nds-card.com/)ia).
 {: .notice--danger}
 
-### What you need
+### Tarpeet
 
 * Ntrboot-yhteensopiva flash-korttisi
 * Kaksi konsolia 
@@ -27,9 +27,9 @@ Huomaa, että joissain harvinaisissa yhteensattumissa asennusprosessi saattaa **
   + **Kohde-3DS**: 3DS-perheen konsoli, jolla on vakiolaiteohjelmisto
 * Ak2i_ntrcardhax_flasherin [viimeisin julkaisu](https://github.com/d3m3vilurr/ak2i_ntrcardhax_flasher/releases/latest) *(`dsi`-asennustiedosto; ei tavallinen tiedosto)*
 
-### Instructions
+### Ohjeet
 
-#### Section I - Prep Work
+#### Vaihe I – Valmistelut
 
 1. Sammuta **lähde-DSi**
 1. Aseta flash-korttisi SD-kortti tietokoneeseesi
@@ -37,7 +37,7 @@ Huomaa, että joissain harvinaisissa yhteensattumissa asennusprosessi saattaa **
 1. Aseta SD-kortti takaisin flash-korttiisi
 1. Aseta ntrboot-yhteensopiva DS-/DSi-flash-korttisi **lähde-DSi**:hin
 
-#### Section II - Flashing ntrboot
+#### Vaihe II – Ntrbootin asentaminen
 
 1. Avaa `ak2i_ntrcardhax_flasher_dsi.nds` flash-korttisi avulla **lähde-DSi**-konsolilla
 1. Paina (A):ta jatkaaksesi

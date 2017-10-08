@@ -113,6 +113,10 @@ title: "A9LH אל B9S"
 #### חלק V - התקנת Luma3DS Updater
 
 1. תפעילו את FBI
+1. נווטו ל`Titles`
+1. תבחרו את הLuma3DS Updater הקיים
+1. תבחרו את האופציה "Delete Title And Ticket", ולאחר מכן לחצו על (A) לאישור
+1. תלחצו (B) כדי לחזור לתפריט הראשי
 1. נווטו אל `SD` ושם אל `cias`
 1. תבחרו ב`lumaupdater.cia`
 1. לחצו על האפשרות "Install CIA" ולאחר מכן על (A) על מנת לאשר
