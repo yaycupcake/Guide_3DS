@@ -24,6 +24,8 @@ The ntrboot exploit itself is compatible with the following flashcarts:
   ![]({{ "/images/screenshots/ntrboot-flashcarts.png" | absolute_url }})
   {: .notice--info}
 
+Ensure your flashcart is able to launch `.nds` files on your device before beginning. Some flashcarts may require firmware or "kernel" files to be copied to the flashcart SD card. Consult your specific flashcart's instructions for more information.
+
 Note that specific methods may have additional compatibility information.
 
 The usage of this exploit, regardless of flashing method, requires access to a small magnet if the target device is of a folding style (any 3DS family system that is not the old 2DS with a sleep switch). This is because the exploit requires your device to enter sleep mode while still having access to the buttons.
