@@ -10,7 +10,7 @@ Note that R4i Gold 3DS RTS flashcarts will not be able to be used for their stan
 
 There are optional steps at the end of the ntrboot boot9strap installation instructions to remove the ntrboot exploit from your flashcart when you are done.
 
-This method requires temporary access to a second 3DS family device that is already running some kind of custom firmware (such as boot9strap or arm9loaderhax). It is compatible with the following flashcarts:
+This method requires temporary access to a second 3DS family device that is already running boot9strap. It is compatible with the following flashcarts:
 
   + [Acekard 2i](http://www.nds-card.com/ProShow.asp?ProID=160)
   + [R4i Gold 3DS RTS](http://www.nds-card.com/ProShow.asp?ProID=149)
