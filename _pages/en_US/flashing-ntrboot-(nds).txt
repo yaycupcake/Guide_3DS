@@ -6,19 +6,7 @@ title: "Flashing ntrboot (NDS)"
 
 Before proceeding, ensure you have read all of the information on [ntrboot](ntrboot)
 
-Note that R4i Gold 3DS RTS flashcarts will not be able to be used for their standard functions (such as launching `.nds` files) while the ntrboot exploit is installed on it. This does not apply to the Acekard 2i.
-
-There are optional steps at the end of the ntrboot boot9strap installation instructions to remove the ntrboot exploit from your flashcart when you are done.
-
-This method requires temporary access to a Nintendo DS or Nintendo DS Lite that is compatible with your flashcart. Note that this method is *not* compatible with the Nintendo DSi. It is compatible with the following flashcarts:
-
-  + [R4i Gold 3DS (RTS)](http://www.nds-card.com/ProShow.asp?ProID=149)
-  + [Acekard 2i](http://www.nds-card.com/ProShow.asp?ProID=160)
-  + R4i Gold 3DS "Starter"
-  + R4i Ultra
-  + R4 3D Revolution
-  + Infinity 3 R4i
-  + [DSTT](http://www.nds-card.com/ProShow.asp?ProID=157) ([some flash chips only!](https://gist.github.com/Hikari-chin/6b48f1bb8dd15136403c15c39fafdb42))
+This method requires temporary access to a Nintendo DS or Nintendo DS Lite that is compatible with your flashcart. This method uses the flashcart to run the ntrboot flasher `.nds` file on your NDS. This means that your flashcart must support launching `.nds` files on your NDS's version. See the flashcart table on [ntrboot]() for more information.
 
 Note that in some rare circumstances, it may be possible for the flashing process to **brick** a counterfeit flashcart and render it permanently unusable. This is unlikely, but nevertheless only original listed flashcarts are supported. To reduce the chance of receiving a counterfeit card, it is recommended that you use a reputable site to buy your flashcart (such as [NDS Card](http://www.nds-card.com/))
 {: .notice--danger}
