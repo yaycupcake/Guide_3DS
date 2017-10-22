@@ -2,7 +2,7 @@
 <rss version="2.0">
 	<channel>
 		<title>Plailect Guide Feed</title>
-		<lastBuildDate>Sun, 22 Oct 2017 17:55:19 +0000</lastBuildDate>
+		<lastBuildDate>Sun, 22 Oct 2017 18:06:13 +0000</lastBuildDate>
 		<link>https://github.com/Plailect/Guide/</link>
 		<item>
 			<title>1.0.0_qr.png</title>
@@ -571,6 +571,14 @@
 			<link>magnet:?xt=urn:btih:26BDE6B3F2A43AB819006AB2700EDC90A100D644</link>
 			<pubDate>Sun, 22 Oct 2017 22:38:08 +0000</pubDate>
 			<enclosure url="magnet:?xt=urn:btih:26BDE6B3F2A43AB819006AB2700EDC90A100D644" type="application/x-bittorent" />
+		</item>
+		<item>
+			<title>R4iSDHC_Dual-Core_20XX-Flashrom.zip</title>
+			<description>R4iSDHC_Dual-Core_20XX-Flashrom.zip</description>
+			<guid>D4D1AC33E221BCB5375081B81F95EDF8BAA71883</guid>
+			<link>magnet:?xt=urn:btih:D4D1AC33E221BCB5375081B81F95EDF8BAA71883</link>
+			<pubDate>Sun, 22 Oct 2017 23:04:01 +0000</pubDate>
+			<enclosure url="magnet:?xt=urn:btih:D4D1AC33E221BCB5375081B81F95EDF8BAA71883" type="application/x-bittorent" />
 		</item>
 		<item>
 			<title>R4i_Gold_3DS_(HW_A5)-Flashrom.zip</title>
