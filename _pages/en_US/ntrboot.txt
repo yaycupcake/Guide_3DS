@@ -19,7 +19,7 @@ Note that carts with a "Time Bomb" will no longer be able to launch `.nds` files
 |-|-:|:-:|:-:|:-:|:-:|-|
 | [DSTT](http://www.nds-card.com/ProShow.asp?ProID=157) | $9.99 | No | None | None | All | Only models with [certain flash chips](https://gist.github.com/Hikari-chin/6b48f1bb8dd15136403c15c39fafdb42) are compatible with ntrboot. |
 | [R4i-SDHC 3DS RTS](http://www.nds-card.com/ProShow.asp?ProID=146) | $13.99 | Probably (Date Unknown) | <= 11.6.0 | <= 1.4.5 | All | |
-| [R4i Gold 3DS RTS](http://www.nds-card.com/ProShow.asp?ProID=149) | $19.99 | No | <= 11.6.0 | <= 1.4.5 | All | |
+| [R4i Gold 3DS](http://www.nds-card.com/ProShow.asp?ProID=149) | $19.99 | No | <= 11.6.0 | <= 1.4.5 | All | All RTS revisions are compatible. Non-RTS revisions 6, 7, and 8 will be detected but are incompatible. |
 | [Acekard 2i](http://www.nds-card.com/ProShow.asp?ProID=160) | $20.99 | No | <= 4.3.0 | <= 1.4.4 | All | |
 | [R4iSDHC GOLD Pro 20XX](http://www.nds-card.com/ProShow.asp?ProID=490) | $9.99 | 3.9b: September 3, 2019 | <= 11.6.0 | <= 1.4.5 | All | All R4iSDHC 20XX flashcarts are identical. |
 | [R4iSDHC RTS LITE 20XX](http://www.nds-card.com/ProShow.asp?ProID=450) | $13.99 | 3.9b: September 3, 2019 | <= 11.6.0 | <= 1.4.5 | All | All R4iSDHC 20XX flashcarts are identical. |
