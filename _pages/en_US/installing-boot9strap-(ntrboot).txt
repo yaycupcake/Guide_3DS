@@ -76,7 +76,7 @@ ___
 
 The following is an optional section that will allow you to restore your flashcart to its original state (to allow it to be used for its standard functions).
 
-Note that the Acekard 2i retains its ability to launch `.nds` files while having the ntrboot exploit installed. This only applies when the Acekard 2i is in an NDS or custom firmware 3DS! While the ntrboot exploit is installed to the Acekard 2i, it will be unable to launch `.nds` files on stock NDS, NDSL, DSi, or 3DS system.
+Note that the Acekard 2i retains its ability to launch `.nds` files while having the ntrboot exploit installed. This only applies when the Acekard 2i is in an NDS or custom firmware 3DS! While the ntrboot exploit is installed to the Acekard 2i, it will be unable to launch `.nds` files on DSi or stock 3DS systems.
 
 Do not follow this section until you have completed the rest of the instructions on this page.
 
