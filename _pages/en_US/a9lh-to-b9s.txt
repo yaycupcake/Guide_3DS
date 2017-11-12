@@ -131,7 +131,7 @@ If, before following this guide, you already had an EmuNAND setup and would like
 1. Press (A) to continue
 1. Press (A) to relock write permissions
 
-#### Section VII - Backup essential files
+#### Section VII - Backup Essential Files
 
 1. Press (Home) to bring up the action menu
 1. Select "Scripts..."
