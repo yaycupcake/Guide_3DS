@@ -2,11 +2,11 @@
 title: "CTRTransfer"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Cuprins" %}
 
 Aceasta este o secțiune suplimentară pentru a instala imaginea CTRTransfer 11.5.0 în dispozitivul dumneavoastră.
 
-To use the [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme) links on this page, you will need a torrent client like [Deluge](http://dev.deluge-torrent.org/wiki/Download).
+Pentru a folosi linkurile [magnetice](https://en.wikipedia.org/wiki/Magnet_URI_scheme) de pe această pagină, veți avea nevoie de un client de torrente ca [Deluge](http://dev.deluge-torrent.org/wiki/Download).
 
 Țineți cont că dacă aveți alte payload-uri în afară de `GodMode9.firm` în folderul `/luma/payloads/` de pe cardul SD, apăsând (Start) va lansa un "meniu chainloader" în care va trebui să folosiți D-Pad-ul și butonul (A) ca să selectați "GodMode9" pentru aceste instrucțiuni. 
 
@@ -35,6 +35,7 @@ You MUST have already installed Luma3DS and boot9strap to use this.
 
 1. Închideți dispozitivul
 1. Introduceți cardul SD în calculator
+1. Create a folder named `3ds` on the root of your SD card if it does not already exist
 1. Creați un folder numit `cias` în rădăcina cardului SD dacă nu există deja
 1. Copiați `GodMode9.firm` din arhiva `.zip` GodMode9 în folderul `/luma/payloads/` de pe cardul SD
 1. Copiați folderul `gm9` din arhiva `.zip` GodMode9 în rădăcina cardului SD

@@ -26,7 +26,7 @@ Ten en cuenta que las actualizaciones con cartucho sólo actualizarán los eleme
 * La última versión de [SafeB9SInstaller]
 (https://github.com/d0k3/SafeB9SInstaller/releases/latest)
 * La última versión de [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(boot9strap normal; no el archivo `devkit` ni el archivo `ntr`)*
-* La última versión de [safehax](https://github.com/TiniVi/safehax/releases/latest)
+* La última versión de [safehax](https://github.com/TiniVi/safehax/releases/latest) *(el archivo `.3dsx`)*
 * La última versión de [udsploit](https://github.com/smealum/udsploit/releases/latest)
 * La última versión de [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(el archivo`.7z`)*
 * El [otherapp payload](https://smealum.github.io/3ds/#otherapp) *(correspondiente a tu versión del sistema y región)*
@@ -35,13 +35,13 @@ Ten en cuenta que las actualizaciones con cartucho sólo actualizarán los eleme
 
 1. Apaga tu consola
 1. Inserta tu tarjeta SD en tu computadora
+1. Crea una carpeta llamada `3ds` en la raíz de tu tarjeta SD, si aún no existe
 1. Copia `boot.3dsx` a la raíz de tu tarjeta SD
 1. Copia el archivo `.m4a` de Soundhax a la raíz de tu tarjeta SD
 1. Copia el otherapp payload a la raíz de tu tarjeta SD y cambia su nombre a `otherapp.bin`
 1. Copia el archivo `boot.firm` desde el `.7z` de Luma3DS a la raíz de tu tarjeta SD
 1. Crea una carpeta llamada `boot9strap` en la raíz de tu tarjeta SD
 1. Copia `boot9strap.firm` y `boot9strap.firm.sha` desde el `.zip` de boot9strap a la carpeta `/boot9strap/` en tu tarjeta SD
-1. Crea una carpeta llamada`3ds` en la raíz de tu tarjeta SD
 1. Copia `safehax.3dsx` a la carpeta `/3ds/` en tu tarjeta SD
 1. Copia `udsploit.3dsx` a la carpeta `/3ds/` en tu tarjeta SD
 1. Copia `SafeB9SInstaller.bin` desde el `.zip` de SafeB9SInstaller a la raíz de tu tarjeta SD y renombra `SafeB9SInstaller.bin` a `safehaxpayload.bin`
@@ -61,7 +61,7 @@ Ten en cuenta que las actualizaciones con cartucho sólo actualizarán los eleme
 1. Ve a `/SDCARD`, y luego reproduce "<3 nedwill 2016"
   + Esto podría tomar varios intentos
   + Si se congela, fuerza el apagado de la consola manteniendo presionado el botón para apagarla y luego vuelve a intentar
-  + Si la pantalla se queda en rojo, asegúrate de haber copiado _los contenidos_de_la carpeta `starter` a la raíz de tu tarjeta SD
+  + Si la pantalla se queda en rojo, asegúrate de haber copiado `boot.3dsx` (el Homebrew Launcher) a la raíz de tu tarjeta SD
 
     ![]({{ "/images/screenshots/soundhax-launch.png" | absolute_url }})
     {: .notice--info}

@@ -2,7 +2,7 @@
 title: "Actualizând B9S" #
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Cuprins" %}
 
 Această pagină este pentru utilizatorii de boot9strap ca să-și actualizeze instalarea către ultima versiune.
 
@@ -12,11 +12,11 @@ Au existat rapoarte de un val de banuri adresate utilizatorilor de CFW de către
 1. Mergeți în System Settings, apoi "Internet Settings", apoi "SpotPass", apoi "Sending of System Information"
 1. Dezactivați opţiunea "Sending of System Information"
 1. Ieșiți din System Settings
-1. Go to your Friend List (the [orange Face Icon]({{ "/images/friend-list-icon.png" | absolute_url }}) in the top row of your Home Menu)
-  + If you receive an error and are kicked out of the menu, the Friend List setting is either already disabled or your console cannot connect to Nintendo's servers (due to a ban or connection issues)
-1. Go to the Friend List settings, then "Friend Notification Settings", then "Show friends what you're playing"
+1. Mergeți în Lista de prieteni ([iconița cu fața portocalie]({{ "/images/friend-list-icon.png" | absolute_url }} în rândul superior de pe meniul HOME)
+  + Dacă primiți o eroare și sunteți dat afară din meniu, setarea Listei de prieteni este dezactivată sau consola nu se mai poate conecta în serverele Nintendo (din cauza unui ban sau problemelor de conexiune)
+1. Mergeți la setările de pe Lista de prieteni, apoi "Friend Notification Settings", apoi "Show friends what you're playing"
 1. Dezactivați opțiunea "Show friends what you're playing"
-1. Exit your Friend List
+1. Ieșiți din Lista de prieteni
 
 {% endcapture %}
 
@@ -48,7 +48,7 @@ Pentru toți pașii din această secțiune, suprascrieți fișierele existente d
 1. Copiați `cleanup_sd_card.gm9` în folderul `/gm9/scripts/` de pe cardul SD
 1. Reintroduceți cardul SD în dispozitivul dumneavoastră
 
-#### Section II - Installing boot9strap
+#### Secțiunea II - Instalând boot9strap
 
 1. Launch Luma3DS chainloader menu by holding (Start) during boot
 1. Lansați SafeB9SInstaller apăsând (A)
@@ -90,7 +90,7 @@ Această secţiune este necesară numai în cazul în care vi se arată meniul d
 
 #### Section VI - Cleanup SD Card
 
-Note that this script will remove the `/boot9strap/` and `/cias/` folders from your SD card!
+Țineți cont că acest script va șterge folderele `/boot9strap/` și `/cias/` de pe cardul SD!
 {: .notice--danger}
 
 1. Apăsați (Home) pentru a arăta meniul de acțiuni
