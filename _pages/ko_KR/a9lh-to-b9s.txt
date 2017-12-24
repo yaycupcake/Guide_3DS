@@ -55,12 +55,12 @@ Note that, only on New 3DS, `secret_sector.bin` is needed to revert the arm9load
 For all steps in this section, overwrite any existing files on your SD card.
 {: .notice--info}
 
-1. 기기를 종료해 주세요.
-1. SD 카드를 컴퓨터에 삽입해 주세요.
+1. Power off your device
+1. Insert your SD card into your computer
 1. Copy `boot.3dsx` to the root of your SD card
 1. Copy `boot.firm` from the latest version Luma3DS `.7z` to the root of your SD card
 1. Copy `arm9loaderhax.bin` from the v7.0.5 Luma3DS `.7z` to the root of your SD card
-1. SD 카드의 최상위 경로에 `cias` 폴더가 없을 경우 폴더를 만들어 주세요.
+1. Create a folder named `cias` on the root of your SD card if it does not already exist
 1. Copy `lumaupdater.cia` to the `/cias/` folder on your SD card
 1. Create a folder named `boot9strap` on the root of your SD card
 1. Delete any existing `.bin` payloads in the `/luma/payloads/` folder on your SD card as they will not be compatible with boot9strap compatible Luma3DS versions
@@ -75,7 +75,7 @@ For all steps in this section, overwrite any existing files on your SD card.
     ![]({{ "/images/screenshots/a9lh-to-b9s-file-layout.png" | absolute_url }})
     {: .notice--info}
 
-1. SD 카드를 기기에 다시 삽입해 주세요.
+1. Reinsert your SD card into your device
 
 #### Section II - Installing boot9strap
 
@@ -99,9 +99,9 @@ For all steps in this section, overwrite any existing files on your SD card.
 If, before following this guide, you already had an EmuNAND setup and would like to move the contents of your previous EmuNAND to your new SysNAND CFW, now is the time to [follow Move EmuNAND](move-emunand) before doing this section.
 {: .notice--info}
 
-1. 본체 설정의 "기타 설정"에서 가장 오른쪽에 있는 "본체 업데이트"를 선택해 기기를 업데이트해 주세요.
+1. Update your device by going to System Settings, then "Other Settings", then going all the way to the right and using "System Update"
   + Updates while using B9S + Luma (what you have) are safe
-  + 오류가 발생한다면, DNS 설정을 "자동"으로 설정해 주세요.
+  + If this gives you an error, set your DNS settings to "auto"
   + If this still gives you an error, [follow CTRTransfer](ctrtransfer), then try updating again
 
 #### Section V - Installing Luma3DS Updater
@@ -112,10 +112,10 @@ If, before following this guide, you already had an EmuNAND setup and would like
 1. Select the "Delete" option, then select "Delete Software and Save Data", then press "Delete" to confirm
 1. Press "Back" 3 times, then press (HOME) to return to the main menu
 1. Launch FBI
-1. `SD` -> `cias`로 이동해 주세요.
+1. Navigate to `SD` -> `cias`
 1. Select `lumaupdater.cia`
 1. Select the "Install CIA" option, then press (A) to confirm
-1. (Home)을 눌러 FBI를 종료해 주세요.
+1. Press (Home) to exit FBI
 
 #### Section VI - CTRNAND Luma3DS
 
