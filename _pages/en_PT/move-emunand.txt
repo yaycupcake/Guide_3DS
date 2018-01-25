@@ -6,9 +6,9 @@ title: "Move EmuNAND"
 
 'Tis be an add-on section fer movin' th' contents 'o a previous EmuNAND to ye new SysNAND CFW, then removin' the ol' EmuNAND partition. Note that th' terms EmuNAND 'n RedNAND be referrin' to slightly different implementations 'o [th' same concept](http://3dbrew.org/wiki/NAND_Redirection).
 
-Note that if you have any payload files other than `GodMode9.firm` in the `/luma/payloads/` folder on your SD card, holding (Start) on boot will display a "chainloader menu" where you will have to use the D-Pad and the (A) button to select "GodMode9" for these instructions.
+Note that if ye have any payload files other than `GodMode9.firm` in th' `/luma/payloads/` folder on ye SD card, holdin' (Start) on boot gunna display a "chainloader menu" where ye gunna have to use th' D-Pad 'n th' (A) button to select "GodMode9" fer these instructions.
 
-You MUST have already installed Luma3DS and boot9strap to use this.
+Ye MUST have already installed Luma3DS 'n boot9strap to be usin' 'tis.
 {: .notice--danger}
 
 ### What you need
@@ -34,7 +34,7 @@ If you do not have any DSiWare games or saves that you care about, skip this sec
 
 1. Launch GodMode9 by holdin' (Start) durin' boot
 1. If ye be prompted to create an essential files backup, press (A) to do so, then press (A) to continue once it has completed
-1. If you are prompted to fix the RTC date&time, press (A) to do so, then set the date and time, then press (A) to continue
+1. If ye be prompted to fix th' RTC date&time, press (A) to do so, then set th' date 'n time, then press (A) to continue
   + Note that, if you had to fix the RTC date and time, you will have to fix the time in the System Settings as well after this guide
 1. Navigate to `[2:] SYSNAND TWLN` -> `title`
 1. Hold (R) 'n press (A) at th' same time on `00030004` to select th' folder, then select "Copy to 0:/gm9/out"
@@ -52,7 +52,7 @@ Note that this is not necessary for any other kind of Virtual Console games (GBC
 The game will be outputted to the `/gm9/out/` folder on your SD card with the name `<TitleID>.gbavc.sav`.
 {: .notice--info}
 
-To identify a `<TitleID>.gbavc.sav` file's Title ID, you can get a listing of all games on the system and their corresponding Title IDs by hovering over `[A:] SYSNAND SD`, holding (R) and pressing (A) at the same time, then selecting "Search for titles".
+To identify a `<TitleID>.gbavc.sav` file's Title ID, ye can get a listin' 'o all th' games on th' system 'n their correspondin' Title IDs by hoverin' over `[A:] SYSNAND SD`, holdin' (R) 'n pressin' (A) at th' same time, then selectin' "Search for titles".
 {: .notice--info}
 
 1. Do the following process for each GBA VC game that you want to backup the save for:
@@ -61,7 +61,7 @@ To identify a `<TitleID>.gbavc.sav` file's Title ID, you can get a listing of al
   + Boot your device while holding (Start) to launch the Luma3DS chainloader menu
   + Launch GodMode9 by pressing (A)
   + Navigate to `[S:] SYSNAND VIRTUAL`
-  + Press (A) on `agbsave.bin` to select it
+  + Press (A) on `agbsave.bin` to be selectin' it
   + Select "AGBSAVE options..."
   + Select "Dump GBA VC save"
   + Press (A) to continue
@@ -99,7 +99,7 @@ If you did not backup DSiWare Saves earlier, skip this section.
 
 #### Section VI - Restore GBA VC Saves
 
-If you did not backup GBA VC Saves earlier, skip this section.
+If ye did not backup GBA VC Saves earlier, skip 'tis section.
 {: .notice--info}
 
 To identify a `<TitleID>.gbavc.sav` file's Title ID, you can get a listing of all games on the system and their corresponding Title IDs by holding (R) and pressing (A) on the GodeMode9 main menu, then selecting "Search for titles".
@@ -113,7 +113,7 @@ To identify a `<TitleID>.gbavc.sav` file's Title ID, you can get a listing of al
   + Boot your device while holding (Start) to launch the Luma3DS chainloader menu
   + Launch GodMode9 by pressing (A)
   + Navigate to `[0:] SDCARD` -> `gm9`
-  + Press (Y) on the `<TitleID>.gbavc.sav` file you wish to restore to copy it
+  + Press (Y) on th' `<TitleID>.gbavc.sav` file ye wish to restore to copy it
   + Press (B) to return to the main menu
   + Navigate to `[S:] SYSNAND VIRTUAL`
   + Press (A) on `agbsave.bin` to select it
