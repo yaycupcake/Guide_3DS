@@ -153,7 +153,7 @@ exclude: [
   # _pages/fi_FI,
   # _pages/fr_FR,
   # _pages/he_IL,
-  _pages/hu_HU,
+  # _pages/hu_HU,
   _pages/id_ID,
   # _pages/it_IT,
   _pages/ja_JP,
