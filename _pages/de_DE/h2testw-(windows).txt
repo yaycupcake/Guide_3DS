@@ -4,7 +4,7 @@ title: "H2testw (Windows)"
 
 {% include toc title="Inhalt" %}
 
-### Required Reading
+### Lesen erforderlich
 
 Dies ist ein Add-on-Abschnitt für die Überprüfung Ihrer SD-Karte für Fehler mit h2testw.
 
@@ -16,7 +16,7 @@ Diese Seite ist nur für Windowsnutzer gedacht. Falls du Windows nicht benutzt, 
 
 * Die neueste Version von [h2testw](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)
 
-### Instructions
+### Anleitung
 
 1. Kopiere `h2testw.exe` aus der h2testw`.zip` auf dein Desktop
 1. Lege deine SD-Karte in deinen Computer ein
@@ -36,5 +36,5 @@ Falls der Test das Ergebnis `Test finished without errors` anzeigt, dann ist dei
 Falls der Test ein anderes Ergebnis anzeigt, dann ist es möglich, dass deine SD-Karte defekt oder beschädigt ist und dass du sie ersetzen solltest!
 {: .notice--danger}
 
-### Return to [Get Started](get-started)
+### Zurück zu [Los geht's](get-started)
 {: .notice--primary}

@@ -17,9 +17,9 @@ Some of the instructions below are only applicable to the latest version of GodM
 
 ### Was du benötigst
 
-* The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/latest){:target="_blank"}
+* Die neuste Version von [GodMode9](https://github.com/d0k3/GodMode9/releases/latest){:target="_blank"}
 
-### Instructions
+### Anleitung
 
 1. Schalte deinen 3DS aus
 1. Stecke deine SD-Karte in deinen Computer
@@ -224,7 +224,7 @@ To identify a `<TitleID>.gbavc.sav` file's Title ID, you can get a listing of al
 1. Stecke deine SD-Karte nun wieder in deinen 3DS
 1. Drücke  (HOME) um das Aktionsmenü aufzurufen
 1. Select "Scripts..."
-1. Select "remove_nnid"
+1. Wähle "remove_nind"
 1. When prompted, press (A) to proceed
 1. Press (A) to unlock SysNAND (lvl1) writing, then input the key combo given
 1. Press (A) to continue

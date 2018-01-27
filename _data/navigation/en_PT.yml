@@ -68,25 +68,25 @@ sidebar_pages:
     title: ntrboot
     url: ntrboot
   - 
-    title: Installing boot9strap (DSiWare)
+    title: Installin' boot9strap (DSiWare)
     url: installing-boot9strap-(dsiware)
   - 
     title: Multiple Options
     url: multiple-options
   - 
-    title: Flashing ntrboot (3DS Single System)
+    title: Flashin' ntrboot (3DS Single System)
     url: flashing-ntrboot-(3ds-single-system)
   - 
-    title: Flashing ntrboot (3DS Multi System)
+    title: Flashin' ntrboot (3DS Multi System)
     url: flashing-ntrboot-(3ds-multi-system)
   - 
-    title: Flashing ntrboot (DSi)
+    title: Flashin' ntrboot (DSi)
     url: flashing-ntrboot-(dsi)
   - 
-    title: Flashing ntrboot (NDS)
+    title: Flashin' ntrboot (NDS)
     url: flashing-ntrboot-(nds)
   - 
-    title: Flashing ntrboot (Powersaves)
+    title: Flashin' ntrboot (Powersaves)
     url: flashing-ntrboot-(powersaves)
   - 
     title: Homebrew Launcher (Soundhax)
@@ -95,28 +95,28 @@ sidebar_pages:
     title: Homebrew Launcher (Alternatives)
     url: homebrew-launcher-(alternatives)
   - 
-    title: NTR and Cubic Ninja
+    title: NTR 'n Cubic Ninja
     url: ntr-and-cubic-ninja
   - 
-    title: Installing boot9strap (2xrsa)
+    title: Installin' boot9strap (2xrsa)
     url: installing-boot9strap-(2xrsa)
   - 
-    title: Installing boot9strap (Browser)
+    title: Installin' boot9strap (Browser)
     url: installing-boot9strap-(browser)
   - 
-    title: Installing boot9strap (DSiWare Game Injection)
+    title: Installin' boot9strap (DSiWare Game Injection)
     url: installing-boot9strap-(dsiware-game-injection)
   - 
-    title: Installing boot9strap (DSiWare Save Injection)
+    title: Installin' boot9strap (DSiWare Save Injection)
     url: installing-boot9strap-(dsiware-save-injection)
   - 
-    title: Installing boot9strap (Hardmod)
+    title: Installin' boot9strap (Hardmod)
     url: installing-boot9strap-(hardmod)
   - 
-    title: Installing boot9strap (Homebrew Launcher)
+    title: Installin' boot9strap (Homebrew Launcher)
     url: installing-boot9strap-(homebrew-launcher)
   - 
-    title: Installing boot9strap (MSET)
+    title: Installin' boot9strap (MSET)
     url: installing-boot9strap-(mset)
   - 
     title: Installin' boot9strap (ntrboot)

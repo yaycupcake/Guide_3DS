@@ -4,7 +4,7 @@ title: "F3 (Linux)"
 
 {% include toc title="Inhalt" %}
 
-### Required Reading
+### Lesen erforderlich
 
 Dies ist ein Add-on-Abschnitt für die Überprüfung Ihrer SD-Karte für Fehler mit h2testw.
 
@@ -16,7 +16,7 @@ Diese Seite ist nur für Linux-Nutzer gedacht. Falls du kein Linux-Nutzer bist, 
 
 * Die neueste Version von [F3](https://github.com/AltraMayor/f3/archive/v6.0.zip)
 
-### Instructions
+### Anleitung
 
 1. Entpacke die f3 `.zip`-Datei
 1. Wechsel mit `cd` in das f3-Verzeichnis
@@ -58,5 +58,5 @@ Wenn der Test das Ergebnis `Data LOST: 0.00 Byte (0 sectors)` anzeigt, ist deine
 Falls es jedoch ein anderes Ergebnis anzeigen sollte, ist deine SD-Karte möglicherweise beschädigt. Du solltest diese möglicherweise austauschen!
 {: .notice--danger}
 
-### Return to [Get Started](get-started)
+### Zurück zu [Los geht's](get-started)
 {: .notice--primary}
