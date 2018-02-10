@@ -1,6 +1,6 @@
 ---
 layout: splash
-title: "3DS Guide" #
+title: "3DS Hacks Guide" #
 header:
   overlay_color: "#5e616c" #
   overlay_image: /images/home-page-feature.jpg
@@ -14,23 +14,21 @@ Thoroughly read all 'o th' introductory pages (includin' 'tis one!) before proce
 
 {% capture notice-1 %}
 'Tis guide be fer retail (consumer purchased; not from th' Nintendo Developer Program) consoles _only_!    
-If ye have a developer ("PANDA" or "SNAKE") console, check out [devGuide](https://dev.3ds.guide).
+If you have a developer ("PANDA") console, check out the [developer 3DS Hacks Guide](https://dev3ds.hacks.guide).
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
 
 {% capture notice-1 %}
 'Tis guide be available in other languages!    
-Click th' <i class="fa fa-language" aria-hidden="true"></i> icon at th' top right 'o th' page to change th' language.
+Click th' <i class="fa fa-language" aria-hidden="true"></i> icon at th' top right 'o th' page to change th' language.    
+Alternatively, click [here](https://crowdin.com/project/3ds-guide) to help to keep these translations up to date.
 {% endcapture %}
 
 <div class="notice--success">{{ notice-1 | markdownify }}</div>
 
-'Tis guide be in need 'o help from *yeself* to [translate](https://translate.3ds.guide/) it to other languages!
-{: .notice--success}
-
-'Tis guide be in need 'o help from *yeself* to seed [these](https://3ds.guide/rss.xml) torrents!
-{: .notice--success}
+This guide needs *your* help to seed [these]({{ "rss.xml" | absolute_url }}) torrents!
+{: .notice--primary}
 
 ## What be Homebrew?
 
@@ -53,9 +51,9 @@ boot9strap be th' newest 'n best method 'o launchin' Custom Firmware that gives 
 
 Th' benefits 'o boot9strap over other Custom Firmware launch methods be bountiful, 'n as such it be recommended to use 'tis guide over any other that be relyin' on outdated software (such as menuhax + rxTools, arm9loaderhax, or even normal sighax).
 
-Fer information on how boot9strap works, please see ['tis presentation](https://sciresm.github.io/33-and-a-half-c3/) by [SciresM](https://github.com/SciresM/).
+For information on how boot9strap works, please see [this paper](https://arxiv.org/abs/1802.00359).
 
-Fer a list 'o each 'o th' calculated signatures fer sighax (th' platform boot9strap be built on), see ['tis gist](https://gist.github.com/SciresM/cdd2266efb80175d37eabbe86f9d8c52).
+For a list of each of the calculated sighax signatures, see [this gist](https://gist.github.com/SciresM/cdd2266efb80175d37eabbe86f9d8c52).
 
 ## What can I do wit' Custom Firmware?
 

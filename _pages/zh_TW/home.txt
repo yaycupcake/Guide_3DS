@@ -1,6 +1,6 @@
 ---
 layout: splash
-title: "3DS 改機手冊" #
+title: "3DS Hacks Guide" #
 header:
   overlay_color: "#5e616c" #
   overlay_image: /images/home-page-feature.jpg
@@ -14,7 +14,7 @@ excerpt: "最完整的 3DS 改機教戰手冊，<br />教您如何從原廠主�
 
 {% capture notice-1 %}
 此指南 _僅_ 適用於零售機使用(透過正常管道購買；非任天堂開發者計畫所取得的主機)！    
-如果您的機子是開發平台用的主機(代號 PANDA 或 SNAKE)，請見我們的[開發者教學](https://dev.3ds.guide)。
+If you have a developer ("PANDA") console, check out the [developer 3DS Hacks Guide](https://dev3ds.hacks.guide).
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
@@ -22,15 +22,13 @@ excerpt: "最完整的 3DS 改機教戰手冊，<br />教您如何從原廠主�
 {% capture notice-1 %}
 本手冊有其他語言的版本！    
 按下右上角的 <i class="fa fa-language" aria-hidden="true"></i> 圖案以切換語言。
+Alternatively, click [here](https://crowdin.com/project/3ds-guide) to help to keep these translations up to date.
 {% endcapture %}
 
 <div class="notice--success">{{ notice-1 | markdownify }}</div>
 
-本教學需要*您*的幫助，將它[翻譯](https://translate.3ds.guide/)至其他語言！
-{: .notice--success}
-
-本指南需要*您*的幫助來作種[這些](https://3ds.guide/rss.xml) BT 種子檔案！
-{: .notice--success}
+This guide needs *your* help to seed [these]({{ "rss.xml" | absolute_url }}) torrents!
+{: .notice--primary}
 
 ## 什麼是自製程式 (Homebrew)？
 
@@ -56,9 +54,9 @@ boot9strap 是目前最新且最棒的自製韌體啟動方式，有點像 Wii �
 
 跟其他自製韌體比起來，boot9strap 的優點多太多了。這就是為什麼我們推薦使用本手冊，而非其他還在使用過時軟體 (像是 menuhax + rxTools、arm9loaderhax、或甚至普通的 sighax) 的教學。
 
-如果想知道 boot9strap 怎麼運作的，請見由 [SciresM](https://github.com/SciresM/) 所做的[投影片](https://sciresm.github.io/33-and-a-half-c3/)。
+For information on how boot9strap works, please see [this paper](https://arxiv.org/abs/1802.00359).
 
-如果想看各個計算出的 sighax 簽證 (boot9strap 平台的基底)，請見[此 gist](https://gist.github.com/SciresM/cdd2266efb80175d37eabbe86f9d8c52)。
+For a list of each of the calculated sighax signatures, see [this gist](https://gist.github.com/SciresM/cdd2266efb80175d37eabbe86f9d8c52).
 
 ## 我可以透過自製韌體做些什麼？
 
