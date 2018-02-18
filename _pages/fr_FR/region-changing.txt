@@ -4,6 +4,8 @@ title: "Changement de Région"
 
 {% include toc title="Table of Contents" %}
 
+### Lecture requise
+
 Ceci est une section complémentaire pour ceux qui voudraient changer la région de leur SysNAND une fois un CFW installé. On peut le faire en installant l'image CTRTransfer 11.5.0 de la région à laquelle vous souhaitez passer.
 
 Il est quasiment inutile de changer la région de sa 3DS car Luma3DS permet de lancer des jeux d'autres régions et d'émuler des [changements de région individuellement](https://github.com/AuroraWright/Luma3DS/wiki/Options-and-usage) pour chaque titre.**.
@@ -25,7 +27,7 @@ Le changement de région de votre 3DS en utilisant un CTRTransfer (ce que vous f
 Vous DEVEZ avoir déjà installé Luma3DS et boot9strap pour utiliser ceci.
 {: .notice--danger}
 
-### Ce dont vous aurez besoin
+### What You Need
 
 * La dernière version de [GodMode9](https://github.com/d0k3/GodMode9/releases/latest){:target="_blank"}
 * La dernière version de [FBI](https://github.com/Steveice10/FBI/releases/latest){:target="_blank"} *(le fichier`.3dsx`)*

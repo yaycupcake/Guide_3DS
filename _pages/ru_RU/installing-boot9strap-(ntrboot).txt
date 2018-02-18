@@ -2,6 +2,10 @@
 title: "Установка boot9strap (ntrboot)"
 ---
 
+{% include toc title="Содержание" %}
+
+### Обязательно к прочтению
+
 Для использования [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme)-ссылок в этом руководстве необходим torrent-клиент, например [Deluge](http://dev.deluge-torrent.org/wiki/Download).
 
 {% include toc title="Содержание" %}
@@ -70,7 +74,7 @@ title: "Установка boot9strap (ntrboot)"
 
 ___
 
-Следующий шаг: [Завершение установки](finalizing-setup)
+### Следующий шаг: [Завершение установки](finalizing-setup)
 {: .notice--primary}
 
 ___

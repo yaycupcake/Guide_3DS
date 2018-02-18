@@ -21,7 +21,7 @@ La versión de tu consola puede verse en la esquina inferior derecha de la panta
 ![]({{ "/images/screenshots/system-version.png" | absolute_url }})
 {: .notice--info}
 
-Si actualizaste con un cartucho que contiene la versión 9.9.0 o superior *(Por tanto tu versión es la 9.9.0 o mayor pero tu navegador está en la versión -25 o menor, como 10.2.0-24)*, tu navegador fue eliminado y tendrás que usar la columna "Sin Navegador".
+Si actualizaste con un cartucho que contiene la versión 9.9.0 o superior *(Por tanto tu versión es la 9.9.0 o mayor pero tu navegador está en la versión -25 o menor, por ejemplo, 10.2.0-24)*, tu navegador fue eliminado y tendrás que usar la columna "Sin Navegador".
 {: .notice--warning}
 
 ### Tabla de versiones

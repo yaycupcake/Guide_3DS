@@ -2,11 +2,15 @@
 title: "התקנת boot9strap (ntrboot)"
 ---
 
+{% include toc title="תוכן העניינים" %}
+
+### קריאה דרושה
+
 כדי להשתמש בקישורי [המגנט](https://en.wikipedia.org/wiki/Magnet_URI_scheme) בעמוד הזה, תצטרכו כלי טורנט כמו [Deluge](http://dev.deluge-torrent.org/wiki/Download).
 
 {% include toc title="תוכן העניינים" %}
 
-### מה שאתם צריכים
+### What You Need
 
 * מגנט שמפעיל את מצב שינה בקונסולה שלכם (אם יש לכם קונסולה מתקפלת)
 * כרטיס הפריצה הצרוב שלכם
@@ -70,7 +74,7 @@ title: "התקנת boot9strap (ntrboot)"
 
 ___
 
-תמשיכו ל[סיום התהליך](finalizing-setup)
+### Continue to [Finalizing Setup](finalizing-setup)
 {: .notice--primary}
 
 ___
@@ -83,7 +87,7 @@ ___
 
 #### חלק V - מחיקת ntrboot
 
-##### מה שאתם צריכים
+##### What You Need
 
 * The latest release of [ntrboot_flasher](https://github.com/ntrteam/ntrboot_flasher/releases/latest){:target="_blank"}
 * גיבוי הflashrom המתאים לכרטיס שלכם    

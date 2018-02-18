@@ -4,6 +4,8 @@ title: "Flash di ntrboot (DSi)"
 
 {% include toc title="Indice" %}
 
+### Lettura necessaria
+
 Prima di procedere, assicurati di aver letto tutte le informazioni presenti alla pagina [ntrboot](ntrboot)
 
 Questo metodo richiede momentaneamente l'utilizzo di un Nintendo DSi compatibile con la tua flashcart. La flashcart verrà utilizzata per avviare il file `.nds` del flasher di ntrboot sul tuo NDS. Ciò significa che la tua flashcart deve supportare l'avvio di file `.nds` sulla versione di sistema del tuo NDS. Leggi la tabella delle flashcart sulla pagina di [ntrboot](ntrboot) per maggiori informazioni.
@@ -42,5 +44,5 @@ Tieni presente che in rare circostanze è possibile **brickare** una flashcart c
 
 ___
 
-Prosegui con l'[Installazione di boot9strap (ntrboot)](installing-boot9strap-(ntrboot))
+### Prosegui con l'[Installazione di boot9strap (ntrboot)](installing-boot9strap-(ntrboot))
 {: .notice--primary}

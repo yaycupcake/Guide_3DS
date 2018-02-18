@@ -4,6 +4,8 @@ title: "Homebrew Launcher (Soundhax)"
 
 {% include toc title="Tabla de contenidos" %}
 
+### Lectura requerida
+
 El Homebrew Launcher tiene diferentes puntos de entrada, o métodos para ejecutarse.
 
 Soundhax es compatible con las versiones 9.0.0 hasta la 11.3.0 en las regiones EUR, JPN, KOR y USA.
@@ -12,9 +14,9 @@ Asegúrate de que la Comunicación inalámbrica de tu dispositivo está encendid
 
 {% capture notice-1 %}
 
-Ten en cuenta que las actualizaciones con cartucho sólo actualizarán los elementos claves de la versión, como la Configuración de la consola, el menú HOME, etc. Las actualizaciones por cartucho no afectarán a Nintendo 3DS Sound ni a funcionalidades en línea, como la Transferencia de Sistema, el Navegador de internet, la Plaza Mii o la eShop.
+Ten en cuenta que las actualizaciones con cartucho sólo actualizarán los elementos claves de la versión, como la Configuración de la consola, el menú HOME, etc. las actualizaciones por cartucho no afectarán a Nintendo 3DS Sound ni a funcionalidades en línea, como la Transferencia de Sistema, el Navegador de internet, la Plaza Mii o la eShop.
 
-¡Esto significa que actualizar mediante cartucho a una versión que contenga una versión más antigua de Nintendo DS Sound *(<3.0.0)* a una que introdujo una versión más nueva de Nintendo 3DS Sound hará que [Soundhax](homebrew-launcher-(soundhax)) deje de funcionar! ¡Necesitarás un [método alternativo](homebrew-launcher-(alternatives)) para entrar al Homebrew Launcher!
+¡Esto significa que actualizar mediante cartucho a una versión que contenga una versión más antigua de Nintendo 3DS Sound *(<3.0.0)* a una que introdujo una versión más nueva de Nintendo 3DS Sound hará que [Soundhax](homebrew-launcher-(soundhax)) deje de funcionar! ¡Necesitarás un [método alternativo](homebrew-launcher-(alternatives)) para entrar al Homebrew Launcher!
 {% endcapture %}
 
 <div class="notice--warning">{{ notice-1 | markdownify }}</div>
@@ -72,5 +74,5 @@ Ten en cuenta que las actualizaciones con cartucho sólo actualizarán los eleme
 
 ___
 
-Continúa en [Instalar boot9strap (Homebrew Launcher)](installing-boot9strap-(homebrew-launcher))
+### Continúa en [Instalar boot9strap (Homebrew Launcher)](installing-boot9strap-(homebrew-launcher))
 {: .notice--primary}

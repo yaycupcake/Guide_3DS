@@ -4,6 +4,8 @@ title: "Instalând boot9strap (Injectare cu date de salvare DSiWare)"
 
 {% include toc title="Cuprins" %}
 
+### Lectură obligatorie
+
 Țineți cont că dacă aveți alte payload-uri în afară de `GodMode9.firm` în folderul `/luma/payloads/` de pe cardul SD, apăsând (Start) va lansa un "meniu chainloader" în care va trebui să folosiți D-Pad-ul și butonul (A) ca să selectați "GodMode9" pentru aceste instrucțiuni. 
 
 Pentru a folosi linkurile [magnetice](https://en.wikipedia.org/wiki/Magnet_URI_scheme) de pe această pagină, veți avea nevoie de un client de torrente ca [Deluge](http://dev.deluge-torrent.org/wiki/Download).
@@ -126,7 +128,7 @@ Folosiți un [manager de salvări](https://github.com/BernardoGiordano/Checkpoin
 1. Faceți una din următoarele
     + Faceți restul secțiunilor și apoi ghidul complet pe **3DS-ul țintă**, apoi așteptați o săptămână *(nu resturați copia de rezervă NAND înainte să faceți transferul de sistem)*, apoi faceți transferul din **3DS-ul țintă** înapoi la **3DS-ul sursă** *(țineți cont că nu puteți transfera înapoi de la un New 3DS sau New 2DS la un Old 3DS sau Old 2DS)*
     + Sunați la Nintendo și spuneţi-le că nu mai aveti acces la dispozitivul la care NNID-ul este conectat (care este **3DS-ul țintă** în acest caz), și ați dori să vi-l conecteze pe un dispozitiv diferit (care este **3DS-ul sursă** în acest caz)
-    + You can also just [remove the NNID](troubleshooting#removing-an-nnid-without-formatting-your-device) from **the source 3DS** if you'd prefer it remain on **the target 3DS**
+    + Puteți și să [înlăturați NNID-ul](troubleshooting#removing-an-nnid-without-formatting-your-device) din **3DS-ul sursă** dacă ați prefera să rămână pe **3DS-ul țintă**
 1. Reporniți **3DS-ul sursă** ținând apăsat (Start) pentru a lansa GodMode9
 1. Dacă vi se cere să faceți o copie de rezervă a fișierelor esențiale, apăsați (A) pentru a o realiza, apoi apăsați (A) ca să continuați după ce s-a terminat
 1. Dacă vi se cere să reparați dara și ora RTC, apăsați (A) pentru a efectua, apoi setați data și ora, apoi apăsați (A) pentru a continua
@@ -188,5 +190,5 @@ Folosiți un [manager de salvări](https://github.com/BernardoGiordano/Checkpoin
 
 ___
 
-Continuați la [Finalizând instalarea](finalizing-setup)
+### Continuați la [Finalizând instalarea](finalizing-setup)
 {: .notice--primary}

@@ -2,11 +2,15 @@
 title: "Boot9strapin asentaminen (ntrboot)"
 ---
 
+{% include toc title="Sisällysluettelo" %}
+
+### Tärkeää tietoa
+
 Käyttääksesi tällä sivulla olevia [magneetti](https://en.wikipedia.org/wiki/Magnet_URI_scheme)linkkejä tarvitset torrent‑ohjelman, kuten [Deluge](http://dev.deluge-torrent.org/wiki/Download)n.
 
 {% include toc title="Sisällysluettelo" %}
 
-### Tarpeet
+### What You Need
 
 * Magneetti, jolla voit asettaa konsolisi lepotilaan (jos käytössä on läpällinen malli)
 * Flash-korttisi, jolla on asennettuna ntrboot
@@ -70,7 +74,7 @@ Käyttääksesi tällä sivulla olevia [magneetti](https://en.wikipedia.org/wiki
 
 ___
 
-Jatka osioon [Asennuksen viimeistely](finalizing-setup)
+### Continue to [Finalizing Setup](finalizing-setup)
 {: .notice--primary}
 
 ___
@@ -83,7 +87,7 @@ Huomaa, että Acekard 2i -flash-kortti pystyy edelleen avaamaan `.nds`-tiedostoj
 
 #### Vaihe V – Ntrbootin poistaminen
 
-##### Tarpeet
+##### What You Need
 
 * Ntrboot_flasherin [viimeisin julkaisu](https://github.com/ntrteam/ntrboot_flasher/releases/latest){:target="_blank"}
 * Flash-korttiasi vastaava tiedosto, joka sisältää kopion sen flash-muistista    

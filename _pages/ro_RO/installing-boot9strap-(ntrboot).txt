@@ -2,6 +2,10 @@
 title: "Instalând boot9strap (ntrboot)"
 ---
 
+{% include toc title="Cuprins" %}
+
+### Lectură obligatorie
+
 Pentru a folosi linkurile [magnetice](https://en.wikipedia.org/wiki/Magnet_URI_scheme) de pe această pagină, veți avea nevoie de un client de torrente ca [Deluge](http://dev.deluge-torrent.org/wiki/Download).
 
 {% include toc title="Cuprins" %}
@@ -70,7 +74,7 @@ Pentru a folosi linkurile [magnetice](https://en.wikipedia.org/wiki/Magnet_URI_s
 
 ___
 
-Continuați la [Finalizând instalarea](finalizing-setup)
+### Continuați la [Finalizând instalarea](finalizing-setup)
 {: .notice--primary}
 
 ___

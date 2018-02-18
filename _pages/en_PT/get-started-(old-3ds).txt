@@ -14,14 +14,14 @@ In th' case 'o "5.0.0-0U" fer example, ye would follow th' "No Browser" column '
 
 **If ye be unable to follow th' instructions correspondin' to ye specific version due to any missin' prerequisites, then ye should see th' "All Versions" row for methods that work regardless 'o ye system version.**
 
-Fer all versions ye can also [Cart Update](cart-update) (or ye can use a standard system update) to a higher version in th' same column to follow its instructions.
+For all versions you can also [Cartridge Update](cart-update) (or use a standard system update) to get to a higher version in the same column to follow its instructions.
 
 Ye device version can be found at th' bottom right 'o th' top screen 'o th' System Settin's.
 
 ![]({{ "/images/screenshots/system-version.png" | absolute_url }})
 {: .notice--info}
 
-If ye updated wit' a game cart containin' th' version 9.9.0 or above *(meanin' that ye have a version on 9.9.0 or above, but ye browser be on -25 or lower, such as 10.2.0-24)*, ye browser was removed 'n ye gunna need to be usin' th' "No Browser" column.
+If you updated with a game cartridge containing the version 9.9.0 or above *(meaning that you have a version on 9.9.0 or above, but your browser is on -25 or lower, such as 10.2.0-24)*, your browser was removed and you will need to use the "No Browser" column.
 {: .notice--warning}
 
 ### Version Table

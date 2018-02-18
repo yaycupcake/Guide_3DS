@@ -4,6 +4,8 @@ title: "A9LH-ről B9S-re"
 
 {% include toc title="Tartalomjegyzék" %}
 
+### Fontos tudnivalók
+
 Ez az oldal az arm9loaderhax felhasználóknak készült, hogy frissíthessék az eszközüket boot9strap-re.
 
 A Luma3DS a jövőben csak `.firm` formátumban kerül kiadásra, amely csak a boot9strap-pel és a sighax-szel kompatibilis. Ez azt jelenti, hogy amennyiben továbbra is szeretnéd a Luma3DS frissítéseit megkapni, ezt az útmutatót kell követned, hogy eszközödet naprakésszé tedd.
@@ -29,7 +31,7 @@ Kaptunk visszajelzéseket kitiltási hullámokról, melyeket a Nintendo a CFW-t 
 
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
 
-### Amire szükséged lesz
+### What You Need
 
 Vedd figyelembe, hogy a következő szükséges fájl, aminek a neve `secret_sector.bin` ugyanaz, mint ami a `data_input.zip` fájlokban található volt. Ha létezik már a fájl valahol a lemezeden, szükségtelen letöltened ismét, használhatod azt, ami már megvan.
 {: .notice--info}

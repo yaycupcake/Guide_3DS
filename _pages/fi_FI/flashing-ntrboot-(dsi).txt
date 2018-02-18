@@ -4,6 +4,8 @@ title: "Ntrbootin asentaminen (DSi)"
 
 {% include toc title="Sisällysluettelo" %}
 
+### Tärkeää tietoa
+
 Varmista ennen jatkamista, että olet lukenut kaikki [ntrbootia koskevat huomautukset](ntrboot).
 
 Tämä menetelmä vaatii tilapäiseen käyttöön flash-korttisi kanssa yhteensopivan Nintendo DSi -konsolin. Tämä menetelmä käyttää flash-korttia ntrbootin asentamiseen `.nds`-tiedoston kautta NDS:lläsi. Flash-korttisi täytyy siis tukea `.nds`-tiedostojen lataamista NDS:si versiolla. Tutustu [Ntrboot](ntrboot)-sivun flash-korttitaulukkoon lisätietoja varten.
@@ -11,7 +13,7 @@ Tämä menetelmä vaatii tilapäiseen käyttöön flash-korttisi kanssa yhteenso
 Huomaa, että joissain harvinaisissa yhteensattumissa asennusprosessi saattaa **vioittaa** jäljitelmä-flash-korttia ja tehdä siitä pysyvästi käyttökelvottoman. Vaikka tämä onkin epätodennäköistä, on suositeltavaa käyttää vain alkuperäisiä kortteja. Jotta välttyisit jäljitelmäkortin saamiselta, on suositeltavaa käyttää flash-kortin ostamiseen hyvämaineista sivustoa (kuten [NDS Card](http://www.nds-card.com/)ia).
 {: .notice--danger}
 
-### Tarpeet
+### What You Need
 
 * Ntrboot-yhteensopiva flash-korttisi
 * Kaksi konsolia 
@@ -42,5 +44,5 @@ Huomaa, että joissain harvinaisissa yhteensattumissa asennusprosessi saattaa **
 
 ___
 
-Jatka osioon [Boot9strapin asentaminen (ntrboot)](installing-boot9strap-(ntrboot))
+### Continue to [Installing boot9strap (ntrboot)](installing-boot9strap-(ntrboot))
 {: .notice--primary}

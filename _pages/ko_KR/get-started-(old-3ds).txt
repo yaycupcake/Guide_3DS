@@ -14,14 +14,14 @@ Additionally, note that the last two columns of the chart refer to the last numb
 
 **If you are unable to follow the instructions corresponding to your specific version due to missing prerequisites, then you should see the "All Versions" row for methods that work regardless of system version.**
 
-For all versions you can also [Cart Update](cart-update) (or use a standard system update) to get to a higher version in the same column to follow its instructions.
+For all versions you can also [Cartridge Update](cart-update) (or use a standard system update) to get to a higher version in the same column to follow its instructions.
 
 기기의 버전은 본체 설정에 어가서 위쪽 화면의 우측 하단에서 확인할 수 있습니다.
 
 ![]({{ "/images/screenshots/system-version.png" | absolute_url }})
 {: .notice--info}
 
-9.9.0 이상의 버전을 담고 있는 게임 팩을 이용해 업데이트 한 경우에는 *(10.2.0-24와 같이 버전은 9.9.0 이상이지만 브라우저는 -25 이하일 경우)* 브라우저가 제거되어 "브라우저 없음" 열을 선택하셔야 합니다.
+If you updated with a game cartridge containing the version 9.9.0 or above *(meaning that you have a version on 9.9.0 or above, but your browser is on -25 or lower, such as 10.2.0-24)*, your browser was removed and you will need to use the "No Browser" column.
 {: .notice--warning}
 
 ### Version Table

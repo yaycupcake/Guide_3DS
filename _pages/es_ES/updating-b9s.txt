@@ -4,6 +4,8 @@ title: "Actualizar B9S" #
 
 {% include toc title="Tabla de contenidos" %}
 
+### Lectura requerida
+
 Esta página es para ayudar a los usuarios actuales de boot9strap a actualizar su instalación a la última versión.
 
 {% capture notice-1 %}
@@ -99,3 +101,8 @@ Esta sección es sólo necesaria si se ha mostrado la configuración Luma3DS lue
 1. Presiona (A) para continuar cuando se te pida
 1. Presiona (A) para continuar
 1. Mantén presionado (R) y presiona (Start) para apagar tu consola
+
+___
+
+Boot9strap ha sido actualizado correctamente.
+{: .notice--success}

@@ -4,6 +4,8 @@ title: "Ntrbootin asentaminen (yksi 3DS)"
 
 {% include toc title="Sisällysluettelo" %}
 
+### Tärkeää tietoa
+
 Varmista ennen jatkamista, että olet lukenut kaikki [ntrbootia koskevat huomautukset](ntrboot).
 
 Tämä menetelmä vaatii vain hakkeroimattoman, vakiolaiteohjelmistolla olevan 3DS-konsolisi sekä yhteensopivan flash-kortin. Tämä menetelmä käyttää flash-korttia ntrbootin asentamiseen `.nds`-tiedoston kautta 3DS:lläsi. Flash-korttisi täytyy siis tukea `.nds`-tiedostojen lataamista 3DS:si versiolla. Tutustu flash-korttitaulukkoon lisätietoja varten. Tutustu [Ntrboot](ntrboot)-sivun flash-korttitaulukkoon lisätietoja varten.
@@ -11,7 +13,7 @@ Tämä menetelmä vaatii vain hakkeroimattoman, vakiolaiteohjelmistolla olevan 3
 Huomaa, että joissain harvinaisissa yhteensattumissa asennusprosessi saattaa **vioittaa** jäljitelmä-flash-korttia ja tehdä siitä pysyvästi käyttökelvottoman. Vaikka tämä onkin epätodennäköistä, on suositeltavaa käyttää vain alkuperäisiä kortteja. Jotta välttyisit jäljitelmäkortin saamiselta, on suositeltavaa käyttää flash-kortin ostamiseen hyvämaineista sivustoa (kuten [NDS Card](http://www.nds-card.com/)ia).
 {: .notice--danger}
 
-### Tarpeet
+### What You Need
 
 * Ntrboot-yhteensopiva flash-korttisi
 * Ds_ntrboot_flasherin [viimeisin julkaisu](https://github.com/ntrteam/ds_ntrboot_flasher/releases/latest){:target="_blank"} *(`dsi`-asennusohjelma; ei tavallinen asennusohjelma)*
@@ -39,5 +41,5 @@ Huomaa, että joissain harvinaisissa yhteensattumissa asennusprosessi saattaa **
 
 ___
 
-Jatka osioon [Boot9strapin asentaminen (ntrboot)](installing-boot9strap-(ntrboot))
+### Continue to [Installing boot9strap (ntrboot)](installing-boot9strap-(ntrboot))
 {: .notice--primary}

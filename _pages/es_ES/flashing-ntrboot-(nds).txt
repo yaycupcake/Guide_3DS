@@ -4,6 +4,8 @@ title: "Flashear ntrboot (NDS)"
 
 {% include toc title="Tabla de contenidos" %}
 
+### Lectura requerida
+
 Antes de continuar, asegúrate de haber leído toda la información en [ntrboot](ntrboot)
 
 Este método requiere de acceso temporal a una consola Nintendo DS o Nintendo DS Lite que sea compatible con la flashcart a utilizar.
@@ -47,5 +49,5 @@ Ten en cuenta que en raras ocasiones, es posible que realizar el proceso de flas
 
 ___
 
-Continúa a [Instalar boot9strap (ntrboot)](installing-boot9strap-(ntrboot))
+### Continúa a [Instalar boot9strap (ntrboot)](installing-boot9strap-(ntrboot))
 {: .notice--primary}

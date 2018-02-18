@@ -4,12 +4,14 @@ title: "NTR ja Cubic Ninja"
 
 {% include toc title="Sisällysluettelo" %}
 
+### Tärkeää tietoa
+
 Käyttääksesi tällä sivulla olevia [magneetti](https://en.wikipedia.org/wiki/Magnet_URI_scheme)linkkejä tarvitset torrent‑ohjelman, kuten [Deluge](http://dev.deluge-torrent.org/wiki/Download)n.
 
 NTR & Cubic Ninja -menetelmä toimii VAIN JPN-alueen New 3DS:llä!
 {: .notice--warning}
 
-### Tarpeet
+### What You Need
 
 * [JPN-alueen Cubic Ninja](https://www.amazon.com/dp/B004QL7M0A)
 * Homebrew Launcherin [viimeisin julkaisu](https://github.com/fincs/new-hbmenu/releases)
@@ -61,5 +63,5 @@ NTR & Cubic Ninja -menetelmä toimii VAIN JPN-alueen New 3DS:llä!
 
 ___
 
-Jatka osioon [Boot9strapin asentaminen (Homebrew Launcher)](installing-boot9strap-(homebrew-launcher))
+### Continue to [Installing boot9strap (Homebrew Launcher)](installing-boot9strap-(homebrew-launcher))
 {: .notice--primary}

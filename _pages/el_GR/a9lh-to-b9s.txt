@@ -4,6 +4,8 @@ title: "A9LH to B9S"
 
 {% include toc title="Table of Contents" %}
 
+### Required Reading
+
 This page is for existing arm9loaderhax users to update their devices to boot9strap.
 
 All future releases of Luma3DS will only be made in the `.firm` format, which will only be compatible with boot9strap and sighax. This means that to continue receiving the latest updates of Luma3DS, you should use this page to update your installation.
@@ -29,7 +31,7 @@ There have been reports of a wave of bans being handed out to CFW users by Ninte
 
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
 
-### What you need
+### What You Need
 
 Note that the following required file named `secret_sector.bin` is the same one that was found in the various `data_input.zip` file versions. If you already have that file on your disk somewhere, you can use that one instead of downloading the one below.
 {: .notice--info}
@@ -37,7 +39,7 @@ Note that the following required file named `secret_sector.bin` is the same one 
 Note that, only on New 3DS, `secret_sector.bin` is needed to revert the arm9loaderhax exploit, which is why it is not needed for the installation of boot9strap on a stock console. If you do not have a New 3DS, you do not need `secret_sector.bin`.
 {: .notice--info}
 
-* <i class="fa fa-magnet" aria-hidden="true" title="Αυτός είναι ένας σύνδεσμος magnet. Use a torrent client to download the file."></i> - **New 3DS Users Only:** [`secret_sector.bin`](magnet:?xt=urn:btih:15a3c97acf17d67af98ae8657cc66820cc58f655&dn=secret_sector.bin&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce)
+* <i class="fa fa-magnet" aria-hidden="true" title="This is a magnet link. Use a torrent client to download the file."></i> - **New 3DS Users Only:** [`secret_sector.bin`](magnet:?xt=urn:btih:15a3c97acf17d67af98ae8657cc66820cc58f655&dn=secret_sector.bin&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce)
 * The latest release of [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest){:target="_blank"} *(the `.7z` file)*
 * The v7.0.5 release of [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/tag/v7.0.5){:target="_blank"} *(the `.7z` file)*
 * The latest release of [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest){:target="_blank"}
@@ -56,11 +58,11 @@ For all steps in this section, overwrite any existing files on your SD card.
 {: .notice--info}
 
 1. Power off your device
-1. Εισάγετε την κάρτα SD στον υπολογιστή σας
+1. Insert your SD card into your computer
 1. Copy `boot.3dsx` to the root of your SD card
 1. Copy `boot.firm` from the latest version Luma3DS `.7z` to the root of your SD card
 1. Copy `arm9loaderhax.bin` from the v7.0.5 Luma3DS `.7z` to the root of your SD card
-1. Δημιουργήστε έναν φάκελο με το όνομα `cias` στην ρίζα της κάρτας SD, σε περίπτωση που δεν υπάρχει ήδη
+1. Create a folder named `cias` on the root of your SD card if it does not already exist
 1. Copy `lumaupdater.cia` to the `/cias/` folder on your SD card
 1. Create a folder named `boot9strap` on the root of your SD card
 1. Delete any existing `.bin` payloads in the `/luma/payloads/` folder on your SD card as they will not be compatible with boot9strap compatible Luma3DS versions
@@ -101,7 +103,7 @@ If, before following this guide, you already had an EmuNAND setup and would like
 
 1. Update your device by going to System Settings, then "Other Settings", then going all the way to the right and using "System Update"
   + Updates while using B9S + Luma (what you have) are safe
-  + Εάν αντιμετωπίζετε σφάλμα, ρυθμίστε τις ρυθμίσεις του DNS σε "auto"
+  + If this gives you an error, set your DNS settings to "auto"
   + If this still gives you an error, [follow CTRTransfer](ctrtransfer), then try updating again
 
 #### Section V - Installing Luma3DS Updater
@@ -127,7 +129,7 @@ If, before following this guide, you already had an EmuNAND setup and would like
 1. Select "Scripts..."
 1. Select "setup_ctrnand_luma3ds"
 1. When prompted, press (A) to proceed
-1. Πατήστε (A) για να ξεκλειδώσετε την εγγραφή στη SysNAND (lvl1) και έπειτα εισάγετε τον συνδυασμό πλήκτρων που θα σας δοθεί
+1. Press (A) to unlock SysNAND (lvl1) writing, then input the key combo given
 1. Πατήστε (A) για να συνεχίσετε
 1. Press (A) to relock write permissions
 
@@ -141,7 +143,7 @@ If, before following this guide, you already had an EmuNAND setup and would like
   + If you get an error, make sure that you have at least 1.2GB to 1.3GB of free space on your SD card
 1. Πατήστε (A) για να συνεχίσετε
 1. Κρατήστε πατημένο το (R) και πατήστε ταυτόχρονα το (B) για να αφαιρέσετε την κάρτα SD
-1. Εισάγετε την κάρτα SD στον υπολογιστή σας
+1. Insert your SD card into your computer
 1. Copy `<date>_<serialnumber>_sysnand_###.bin` and `essential.exefs` from the `/gm9/out/` folder on your SD card to a safe location on your computer
   + Make backups in multiple locations (such as online file storage)
   + These backups will save you from a brick and/or help you recover files from the NAND image if anything goes wrong in the future
@@ -167,7 +169,7 @@ This fork of Luma3DS Updater allows for boot9strap compatibility by downloading 
 {: .notice--info}
 
 {% capture notice-6 %}   
-Μπορείτε να πατήσετε (Select) κατά την εκκίνηση ώστε να ανοίξετε τις ρυθμίσεις του Luma3DS.    
+You can now hold (Select) on boot to launch the Luma3DS configuration menu.    
 You can now hold (Start) on boot to launch the Luma3DS chainloader menu (note that the Luma3DS chainloader menu is only displayed if there is more than one payload detected).    
 You can now hold (Start) + (Select) + (X) on boot to dump the ARM11 bootrom (`boot11.bin`), the ARM9 bootrom (`boot9.bin`), and your console unique OTP (`OTP.bin`) to the `/boot9strap/` folder on your SD card (note that this will not have any kind of prompt or message).
 {% endcapture %}

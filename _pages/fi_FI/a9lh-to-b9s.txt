@@ -4,6 +4,8 @@ title: "A9LH → B9S"
 
 {% include toc title="Sisällysluettelo" %}
 
+### Tärkeää tietoa
+
 Tämä sivu on tarkoitettu arm9loaderhax-käyttäjille, jotka haluavat päivittää konsolinsa boot9strapiin.
 
 Kaikki Luma3DS:n julkaisut tulevat jatkossa olemaan vain `.firm`-muodossa, joka on yhteensopiva ainoastaan boot9strapin ja sighaxin kanssa. Tämä tarkoittaa sitä, että jos haluat jatkossa saada päivityksiä Luma3DS:ään, tulee sinun käyttää tätä sivua päivittääksesi asennuksesi.
@@ -29,7 +31,7 @@ On käynyt ilmi, että Nintendo jakaa CFW-käyttäjille porttikieltoja verkkotoi
 
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
 
-### Tarpeet
+### What You Need
 
 Huomaa, että ohjeessa tarvittava `secret_sector.bin`-tiedosto tulee mukana myös useissa `data_input.zip`-pakkauksissa. Jos sinulla on jo kyseinen tiedosto jossakin tallessa, voit käyttää sitä sen sijaan, että lataisit sen alla olevasta linkistä.
 {: .notice--info}

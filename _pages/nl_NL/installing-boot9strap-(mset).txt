@@ -4,9 +4,11 @@ title: "Installing boot9strap (MSET)"
 
 {% include toc title="Table of Contents" %}
 
+### Required Reading
+
 Als je je 3DS al eens eerder gehacked hebt met een op EmuNAND-gebaseerde CFW setup, deze handleiding zal zich alleen maar met sysNAND zich bezig houden, dus moet je alle instructies volgen vanuit of toepassend op SysNAND. Merk op dat de termen EmuNAND en RedNAND naar iets andere implementaties van [hetzelfde concept verwijzen](http://3dbrew.org/wiki/NAND_Redirection).
 
-### What you need
+### What You Need
 
 * The latest release of [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest){:target="_blank"}
 * The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} *(standard boot9strap; not the `devkit` file, not the `ntr` file)*
@@ -60,5 +62,5 @@ Als je je 3DS al eens eerder gehacked hebt met een op EmuNAND-gebaseerde CFW set
 
 ___
 
-Continue to [Finalizing Setup](finalizing-setup)
+### Continue to [Finalizing Setup](finalizing-setup)
 {: .notice--primary}

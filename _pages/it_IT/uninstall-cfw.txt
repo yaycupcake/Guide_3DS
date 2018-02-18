@@ -4,6 +4,8 @@ title: "Disinstallare il CFW"
 
 {% include toc title="Indice" %}
 
+### Lettura necessaria
+
 In questa sezione verrà spiegato come rimuovere completamente il CFW dalla tua console, boot9strap e Luma3DS inclusi, per riportarla al suo stato iniziale.
 
 Se dovessi incontrare problemi con la tua installazione del CFW, seguire le istruzioni indicate in questa sezione probabilmente non servirà a risolverli. Un'idea migliore sarebbe leggere la pagina per la [risoluzione dei problemi](troubleshooting) o chiedere aiuto al [canale Discord di Nintendo Homebrew](https://discord.gg/MWxPgEp).

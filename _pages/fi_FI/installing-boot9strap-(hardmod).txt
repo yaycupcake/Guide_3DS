@@ -4,6 +4,8 @@ title: "Boot9strapin asentaminen (laitteistomodaus)"
 
 {% include toc title="Sisällysluettelo" %}
 
+### Tärkeää tietoa
+
 Mainion oppaan konsolisi laitteistomodaamiseen löydät [täältä](https://gbatemp.net/threads/414498/)
  (englanniksi). Jos käytät New 3DS:ää, lue [tämä](https://github.com/Plailect/Guide/issues/681) ja [tämä](https://github.com/Plailect/Guide/issues/1185) ennen laitteistomodausta.
 
@@ -13,7 +15,7 @@ Käyttääksesi tällä sivulla olevia [magneetti](https://en.wikipedia.org/wiki
 
 Tämä toimii *kaikilla* versioilla New 3DS:llä, New 2DS:llä, vanhalla 3DS:llä sekä vanhalla 2DS:llä, kun käytät konsoliasi vastaavaa `.firm`-tiedostoa.
 
-### Tarpeet
+### What You Need
 
 * [Laitteistomodauksesi](https://gbatemp.net/threads/414498/) avulla poimittu NAND-näköistiedosto
 * Boot9strapin [viimeisin julkaisu](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} *(tavallinen boot9strap-tiedosto; ei `devkit`- eikä `ntr`-tiedosto)*
@@ -90,5 +92,5 @@ Tämä toimii *kaikilla* versioilla New 3DS:llä, New 2DS:llä, vanhalla 3DS:ll�
 
 ___
 
-Jatka osioon [Asennuksen viimeistely](finalizing-setup)
+### Continue to [Finalizing Setup](finalizing-setup)
 {: .notice--primary}

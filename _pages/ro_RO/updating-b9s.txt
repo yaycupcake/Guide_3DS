@@ -4,6 +4,8 @@ title: "Actualizând B9S" #
 
 {% include toc title="Cuprins" %}
 
+### Lectură obligatorie
+
 Această pagină este pentru utilizatorii de boot9strap ca să-și actualizeze instalarea către ultima versiune.
 
 {% capture notice-1 %}
@@ -99,3 +101,8 @@ Această secţiune este necesară numai în cazul în care vi se arată meniul d
 1. Când vi se solicită, apăsaţi (A) pentru a continua
 1. Apăsați (A) pentru a continua
 1. Țineți apăsat (R) și apăsați (Start) pentru a închide dispozitivul
+
+___
+
+Boot9strap a fost actualizat cu succes.
+{: .notice--success}

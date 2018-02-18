@@ -4,6 +4,8 @@ title: "התקנת boot9strap (הלחמה)"
 
 {% include toc title="תוכן העניינים" %}
 
+### קריאה דרושה
+
 מדריך מצוין לעשות את ההלחמה ניתן למצוא [כאן](https://gbatemp.net/threads/414498/). אם אתם על New 3DS, תקראו [את זה](https://github.com/Plailect/Guide/issues/681) ו [את זה](https://github.com/Plailect/Guide/issues/1185) לפני ההלחמה.
 
 זה כרגע יישום עובד של הפירצה "PLAINTEXT ידוע למחיצת הFIRM" עם הסבר [כאן](https://www.3dbrew.org/wiki/3DS_System_Flaws).
@@ -12,7 +14,7 @@ title: "התקנת boot9strap (הלחמה)"
 
 זה יעבוד על New 3DS, Old 3DS, ו 2DS על *כל* הגרסאות שיש לכם קובץ `.firm` מתאים אליהן.
 
-### מה שאתם צריכים
+### What You Need
 
 * ה NAND שלכם שהוצאתם עם [ההלחמה](https://gbatemp.net/threads/414498/)
 * The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} *(standard boot9strap; not the `devkit` file, not the `ntr` file)*
@@ -89,5 +91,5 @@ title: "התקנת boot9strap (הלחמה)"
 
 ___
 
-תמשיכו ל[סיום התהליך](finalizing-setup)
+### Continue to [Finalizing Setup](finalizing-setup)
 {: .notice--primary}

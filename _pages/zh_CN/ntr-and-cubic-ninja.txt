@@ -4,12 +4,14 @@ title: "NTR and Cubic Ninja"
 
 {% include toc title="Table of Contents" %}
 
+### Required Reading
+
 To use the [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme) links on this page, you will need a torrent client like [Deluge](http://dev.deluge-torrent.org/wiki/Download).
 
 NTR Cubic Ninja will work for JPN New 3DS ONLY!
 {: .notice--warning}
 
-### What you need
+### What You Need
 
 * [日版的立体忍者](https://www.amazon.com/dp/B004QL7M0A)
 * The latest release of [the Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases)
@@ -61,5 +63,5 @@ NTR Cubic Ninja will work for JPN New 3DS ONLY!
 
 ___
 
-Continue to [Installing boot9strap (Homebrew Launcher)](installing-boot9strap-(homebrew-launcher))
+### Continue to [Installing boot9strap (Homebrew Launcher)](installing-boot9strap-(homebrew-launcher))
 {: .notice--primary}

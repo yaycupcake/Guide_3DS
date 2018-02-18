@@ -4,13 +4,15 @@ title: "Homebrew Launcher (אלטרנטיבות)"
 
 {% include toc title="תוכן העניינים" %}
 
+### קריאה דרושה
+
 להומברו לאנצ'ר יש הרבה כניסות, והרבה דרכי הפעלה.
 
 אם Browserhax הוא לא אופציה (תראו את הטבלה למטה), ואין לכם אחד המשחקים האלה כבר או מכשיר נוסף שיש לו גישה לHomebrew Launcher, האופציה הכי זולה היא לקנות עותק של [Ocarina of Time 3D](https://amzn.to/2fkaKdp) (תוודאות שאתם קונים את העותק הנכון לגרסא שלכם) ומכשיר [Powersaves](https://amzn.to/2fb3VY7) (מתאים לכלל האיזורים), ואז לבחור בoot3dhax מהטבלה.
 
 תבדקו שהWi-Fi של הקונסולה שלכם דלוק כי udsploit (שנדרש בעמוד הבא) ידרוש את התוכנה של הWi-Fi כדי לעבוד, ומספר מכשירים (הNew 3DS New 2DS, וה Old 2DS) לא יכולים להדליק את הWi-Fi מהHomebrew Launcher. הWi-Fi רק צריך לדלוק; לא צריך לחבר אותו לרשת אלחוטית.
 
-### מה שאתם צריכים
+### What You Need
 
 * את הגרסה העדכנית של [הHomebrew Launcher](https://github.com/fincs/new-hbmenu/releases)
 * The latest release of [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest){:target="_blank"}
@@ -75,5 +77,5 @@ title: "Homebrew Launcher (אלטרנטיבות)"
     ![]({{ "/images/screenshots/homebrew-launcher.png" | absolute_url }})
     {: .notice--info}
 
-תמשיכו אל [התקנת boot9strap (Homebrew Launcher)](installing-boot9strap-(homebrew-launcher))
+### Continue to [Installing boot9strap (Homebrew Launcher)](installing-boot9strap-(homebrew-launcher))
 {: .notice--primary}

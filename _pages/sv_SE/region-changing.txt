@@ -4,6 +4,8 @@ title: "Region Changing"
 
 {% include toc title="Table of Contents" %}
 
+### Required Reading
+
 This is add-on section for region changing your CFW SysNAND. This is done by installing the 11.5.0 CTRTransfer image for the region you want to switch to.
 
 Note that region changing is almost completely unnecessary since Luma3DS supports out-of-region games and individual [title region emulation](https://github.com/AuroraWright/Luma3DS/wiki/Options-and-usage).
@@ -25,7 +27,7 @@ Region changing using CTRTransfer (which this method uses) seems to cause reboot
 Du MÅSTE redan ha installerat Luma3DS och boot9strap eller arm9loaderhax för att använda detta.
 {: .notice--danger}
 
-### What you need
+### What You Need
 
 * The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/latest){:target="_blank"}
 * Den senaste versionen av [FBI] (https://github.com/Steveice10/FBI/releases/latest) {: target = ”_blank”} *(the'.3dsx' file) *

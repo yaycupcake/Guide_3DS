@@ -4,6 +4,8 @@ title: "Boot9strapin asentaminen (DSiWare-tallennusinjektio)"
 
 {% include toc title="Sisällysluettelo" %}
 
+### Tärkeää tietoa
+
 Huomaa, että jos sinulla on muita käynnistystiedostoja kuin `GodMode9.firm` SD-korttisi `/luma/payloads`‑kansiossa, (START)-painikkeen pohjassa pitäminen käynnistyksen aikana avaa "ketjulatausvalikon", jossa sinun on käytettävä ristiohjainta ja (A):ta avataksesi GodMode9:n näitä ohjeita varten. 
 
 Käyttääksesi tällä sivulla olevia [magneetti](https://en.wikipedia.org/wiki/Magnet_URI_scheme)linkkejä tarvitset torrent‑ohjelman, kuten [Deluge](http://dev.deluge-torrent.org/wiki/Download)n.
@@ -13,7 +15,7 @@ Varmista ennen jatkamista, että olet lukenut kaikki huomautukset ja varoitukset
 Jos et käytä oikeaa kohde-3DS:n mukaista `.firm`-tiedostoa, konsolista tulee KÄYTTÖKELVOTON! Varmista, että lataat ja käytät oikeaa tiedostoa!
 {: .notice--danger}
 
-### Tarpeet
+### What You Need
 
 * Kaksi 3DS-perheen konsolia
   + **Lähde-3DS**: konsoli, jolla on asennettuna boot9strapin *viimeisin versio*
@@ -188,5 +190,5 @@ Käytä [tallennuksenhallintaohjelmaa](https://github.com/BernardoGiordano/Check
 
 ___
 
-Jatka osioon [Asennuksen viimeistely](finalizing-setup)
+### Continue to [Finalizing Setup](finalizing-setup)
 {: .notice--primary}

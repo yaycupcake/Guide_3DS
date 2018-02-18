@@ -4,6 +4,8 @@ title: "CTRTransfer"
 
 {% include toc title="Tabla de contenidos" %}
 
+### Lectura requerida
+
 Esta es una sección adicional para instalar una imagen CTRTransfer 11.5.0 en tu consola.
 
 Para utilizar los enlaces [magnet](https://es.wikipedia.org/wiki/Magnet) de esta página, vas a necesitar un cliente torrent como [Deluge](http://dev.deluge-torrent.org/wiki/Download).
@@ -115,5 +117,5 @@ Si el script que no encontró tickets del usuario te dice que saltes esta secci�
 
 ___
 
-Continúa en [Finalizar instalación](finalizing-setup)
+### Continúa en [Finalizar instalación](finalizing-setup)
 {: .notice--primary}

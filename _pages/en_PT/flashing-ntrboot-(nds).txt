@@ -4,6 +4,8 @@ title: "Flashin' ntrboot (NDS)"
 
 {% include toc title="Table of Contents" %}
 
+### Required Reading
+
 Afore proceedin', ensure ye 'ave read all o' th' information on [ntrboot](ntrboot)
 
 'Tis method be requirin' temporary access to a Nintendo DS or Nintendo DS Lite that be compatible wit' ye flashcart.
@@ -11,7 +13,7 @@ Afore proceedin', ensure ye 'ave read all o' th' information on [ntrboot](ntrboo
 Note that in some rare circumstances, it may be possible fer th' flashin' process t' **brick** a counterfeit flashcart 'n render it permanently unusable. 'Tis be unlikely, but nevertheless only original listed flashcarts be supported. To reduce th' chance 'o receivin' a counterfeit card, it be recommended that ye use a reputable site to be buyin' ye flashcart (such as [NDS Card](http://www.nds-card.com/))
 {: .notice--danger}
 
-### What ye need
+### What You Need
 
 * Ye ntrboot compatible flashcart
 * Two devices 
@@ -47,5 +49,5 @@ Note that in some rare circumstances, it may be possible fer th' flashin' proces
 
 ___
 
-Continue to [Installing boot9strap (ntrboot)](installing-boot9strap-(ntrboot))
+### Continue to [Installing boot9strap (ntrboot)](installing-boot9strap-(ntrboot))
 {: .notice--primary}

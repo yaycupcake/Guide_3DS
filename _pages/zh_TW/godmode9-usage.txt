@@ -4,6 +4,8 @@ title: "如何使用 GodMode9 "
 
 {% include toc title="條目內容" %}
 
+### 必讀事項
+
 GodMode9 是個可任意存取任天堂 3DS 主機檔案的檔案管理員，您可以透過它存取您的 SD 卡、SysNAND 和 EmuNAND 內的 FAT 磁區跟許多其他東西。 除了其他功能外，您還能透過它複製、刪除、重新命名檔案以及建立資料夾。
 
 請注意，如果您在 SD 卡中的 `/luma/payloads/` 資料夾中放有除了 `GodMode9.firm` 的 payload 檔案，在開機時按住『Start』鍵將會顯示一個『加載選單』，從那裏您得透過方向鍵及按鈕『A』選擇『GodMode9』。 
@@ -15,7 +17,7 @@ GodMode9 是個強大且可修改您主機的資料的一套軟體。 雖然您�
 下列部分操作僅適用於最新版本的 GodMode9，因此，您應先透過下列步驟以更新您的 GodMode9 再行繼續。 請覆蓋所有現有檔案。
 {: .notice--info}
 
-### 必備項目
+### What You Need
 
 * 最新版的 [GodMode9](https://github.com/d0k3/GodMode9/releases/latest){:target="_blank"}
 
@@ -211,7 +213,7 @@ GodMode9 是個強大且可修改您主機的資料的一套軟體。 雖然您�
 
 ## 如何在不格式化主機的情況下清除 NNID
 
-### 必備項目
+### What You Need
 
 * [`remove_nnid.gm9`]({{ "/gm9_scripts/remove_nnid.gm9" | absolute_url }}){:download}
 
