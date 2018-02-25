@@ -51,7 +51,7 @@ with open(rss, "w") as xml:
             xml.write("\t\t\t<infoHash>{0}</infoHash>\n".format(infohash))
             xml.write("\t\t\t<magnetURI>magnet:?xt=urn:btih:{0}</magnetURI>\n".format(infohash))
             #xml.write("\t\t\t<fileName>{0}</fileName><fileName>\n".format(name))
-            xml.write("\t\t\t<enclosure url=\"magnet:?xt=urn:btih:{0}\" type=\"application/x-bittorent\" />\n".format(infohash))
+            xml.write("\t\t\t<enclosure url=\"magnet:?xt=urn:btih:{0}\" type=\"application/x-bittorrent\" />\n".format(infohash))
 
             if trackers:
                 xml.write("\t\t\t<trackers>\n")

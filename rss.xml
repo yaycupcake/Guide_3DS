@@ -2,7 +2,7 @@
 <rss version="2.0">
 	<channel>
 		<title>Plailect Guide Feed</title>
-		<lastBuildDate>Sat, 24 Feb 2018 20:24:18 +0000</lastBuildDate>
+		<lastBuildDate>Sun, 25 Feb 2018 06:54:15 +0000</lastBuildDate>
 		<link>https://github.com/Plailect/Guide_3DS/</link>
 		<item>
 			<title>1.0.0_qr.png</title>
@@ -13,7 +13,7 @@
 			<contentLength>6134</contentLength>
 			<infoHash>9EEABFD544483545A3B29BF8ED4DBE1544F6F6D4</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:9EEABFD544483545A3B29BF8ED4DBE1544F6F6D4</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:9EEABFD544483545A3B29BF8ED4DBE1544F6F6D4" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:9EEABFD544483545A3B29BF8ED4DBE1544F6F6D4" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -88,7 +88,7 @@
 			<contentLength>5812</contentLength>
 			<infoHash>7D2707AE938991140E94502A4C9880579E7FAA7C</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:7D2707AE938991140E94502A4C9880579E7FAA7C</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:7D2707AE938991140E94502A4C9880579E7FAA7C" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:7D2707AE938991140E94502A4C9880579E7FAA7C" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -163,7 +163,7 @@
 			<contentLength>1059715393</contentLength>
 			<infoHash>C9E4DE20D30B80032A5DD6F675FECB6D748F71B1</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:C9E4DE20D30B80032A5DD6F675FECB6D748F71B1</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:C9E4DE20D30B80032A5DD6F675FECB6D748F71B1" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:C9E4DE20D30B80032A5DD6F675FECB6D748F71B1" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -238,7 +238,7 @@
 			<contentLength>1069705203</contentLength>
 			<infoHash>465F1048F81E8E5C651CE2A4D9DF48FEC88D1099</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:465F1048F81E8E5C651CE2A4D9DF48FEC88D1099</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:465F1048F81E8E5C651CE2A4D9DF48FEC88D1099" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:465F1048F81E8E5C651CE2A4D9DF48FEC88D1099" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -313,7 +313,7 @@
 			<contentLength>748394046</contentLength>
 			<infoHash>DF0836A731778AB6FFE9A8C658400C782F0225CD</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:DF0836A731778AB6FFE9A8C658400C782F0225CD</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:DF0836A731778AB6FFE9A8C658400C782F0225CD" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:DF0836A731778AB6FFE9A8C658400C782F0225CD" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -388,7 +388,7 @@
 			<contentLength>1034490374</contentLength>
 			<infoHash>70F641C9F2A4933A07FAC49EB7AD19451C7C8C96</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:70F641C9F2A4933A07FAC49EB7AD19451C7C8C96</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:70F641C9F2A4933A07FAC49EB7AD19451C7C8C96" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:70F641C9F2A4933A07FAC49EB7AD19451C7C8C96" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -463,7 +463,7 @@
 			<contentLength>760806870</contentLength>
 			<infoHash>D8913B4C0DA224E8852FA2F685C41DDBCE5310BC</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:D8913B4C0DA224E8852FA2F685C41DDBCE5310BC</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:D8913B4C0DA224E8852FA2F685C41DDBCE5310BC" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:D8913B4C0DA224E8852FA2F685C41DDBCE5310BC" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -538,7 +538,7 @@
 			<contentLength>1075236470</contentLength>
 			<infoHash>2B0A71A2523328E447938FEA7B4C02EBE0B72705</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:2B0A71A2523328E447938FEA7B4C02EBE0B72705</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:2B0A71A2523328E447938FEA7B4C02EBE0B72705" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:2B0A71A2523328E447938FEA7B4C02EBE0B72705" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -613,7 +613,7 @@
 			<contentLength>748395450</contentLength>
 			<infoHash>2708089605CA47387FA64E996A699EEDD18031E8</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:2708089605CA47387FA64E996A699EEDD18031E8</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:2708089605CA47387FA64E996A699EEDD18031E8" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:2708089605CA47387FA64E996A699EEDD18031E8" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -688,7 +688,7 @@
 			<contentLength>6138</contentLength>
 			<infoHash>8D96457DC182160A5F7F5E9B2FB51705F7C8985F</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:8D96457DC182160A5F7F5E9B2FB51705F7C8985F</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:8D96457DC182160A5F7F5E9B2FB51705F7C8985F" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:8D96457DC182160A5F7F5E9B2FB51705F7C8985F" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -763,7 +763,7 @@
 			<contentLength>26938</contentLength>
 			<infoHash>183B327D0FC74DE8545115E20CB90BDE121E5FDF</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:183B327D0FC74DE8545115E20CB90BDE121E5FDF</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:183B327D0FC74DE8545115E20CB90BDE121E5FDF" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:183B327D0FC74DE8545115E20CB90BDE121E5FDF" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -838,7 +838,7 @@
 			<contentLength>843776</contentLength>
 			<infoHash>5C86EDC67A1827991567B3C326A4182B66647D07</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:5C86EDC67A1827991567B3C326A4182B66647D07</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:5C86EDC67A1827991567B3C326A4182B66647D07" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:5C86EDC67A1827991567B3C326A4182B66647D07" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -913,7 +913,7 @@
 			<contentLength>843776</contentLength>
 			<infoHash>7C7696FF18E7D83A638B9C80F83052F763FB0FA5</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:7C7696FF18E7D83A638B9C80F83052F763FB0FA5</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:7C7696FF18E7D83A638B9C80F83052F763FB0FA5" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:7C7696FF18E7D83A638B9C80F83052F763FB0FA5" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -988,7 +988,7 @@
 			<contentLength>892928</contentLength>
 			<infoHash>9BA9245A8CC22DDF9F4CD22D7572B443EFD47B2D</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:9BA9245A8CC22DDF9F4CD22D7572B443EFD47B2D</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:9BA9245A8CC22DDF9F4CD22D7572B443EFD47B2D" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:9BA9245A8CC22DDF9F4CD22D7572B443EFD47B2D" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -1063,7 +1063,7 @@
 			<contentLength>897024</contentLength>
 			<infoHash>3584E44A83FC0E9C9E1BD31E38982B2BD62B9436</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:3584E44A83FC0E9C9E1BD31E38982B2BD62B9436</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:3584E44A83FC0E9C9E1BD31E38982B2BD62B9436" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:3584E44A83FC0E9C9E1BD31E38982B2BD62B9436" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -1138,7 +1138,7 @@
 			<contentLength>901120</contentLength>
 			<infoHash>B5148FF900E14710494965F173F16D3A05C6B072</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:B5148FF900E14710494965F173F16D3A05C6B072</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:B5148FF900E14710494965F173F16D3A05C6B072" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:B5148FF900E14710494965F173F16D3A05C6B072" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -1213,7 +1213,7 @@
 			<contentLength>958464</contentLength>
 			<infoHash>43034E15AE11EB2FACCFD3148F4283BEDD2EEB88</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:43034E15AE11EB2FACCFD3148F4283BEDD2EEB88</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:43034E15AE11EB2FACCFD3148F4283BEDD2EEB88" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:43034E15AE11EB2FACCFD3148F4283BEDD2EEB88" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -1288,7 +1288,7 @@
 			<contentLength>978944</contentLength>
 			<infoHash>A86AFA2F784335446B6B9FEEBD5EB887A3BD2067</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:A86AFA2F784335446B6B9FEEBD5EB887A3BD2067</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:A86AFA2F784335446B6B9FEEBD5EB887A3BD2067" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:A86AFA2F784335446B6B9FEEBD5EB887A3BD2067" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -1363,7 +1363,7 @@
 			<contentLength>978944</contentLength>
 			<infoHash>5E66281B3BE1E7A26830E13357E9A3A998C12E11</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:5E66281B3BE1E7A26830E13357E9A3A998C12E11</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:5E66281B3BE1E7A26830E13357E9A3A998C12E11" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:5E66281B3BE1E7A26830E13357E9A3A998C12E11" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -1438,7 +1438,7 @@
 			<contentLength>946176</contentLength>
 			<infoHash>B759E4003E5E16CBFFCF894F5EC968628EB2A304</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:B759E4003E5E16CBFFCF894F5EC968628EB2A304</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:B759E4003E5E16CBFFCF894F5EC968628EB2A304" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:B759E4003E5E16CBFFCF894F5EC968628EB2A304" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -1513,7 +1513,7 @@
 			<contentLength>946176</contentLength>
 			<infoHash>7E6EC0FCB79928CFD2073196EE97755D27CBB9C8</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:7E6EC0FCB79928CFD2073196EE97755D27CBB9C8</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:7E6EC0FCB79928CFD2073196EE97755D27CBB9C8" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:7E6EC0FCB79928CFD2073196EE97755D27CBB9C8" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -1588,7 +1588,7 @@
 			<contentLength>954368</contentLength>
 			<infoHash>2D99D3D742BDF5579817ADF6906A619CB901C7F0</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:2D99D3D742BDF5579817ADF6906A619CB901C7F0</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:2D99D3D742BDF5579817ADF6906A619CB901C7F0" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:2D99D3D742BDF5579817ADF6906A619CB901C7F0" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -1663,7 +1663,7 @@
 			<contentLength>954368</contentLength>
 			<infoHash>79DFCC3C12147F30B0D32ACF47059C64CC530AB7</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:79DFCC3C12147F30B0D32ACF47059C64CC530AB7</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:79DFCC3C12147F30B0D32ACF47059C64CC530AB7" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:79DFCC3C12147F30B0D32ACF47059C64CC530AB7" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -1738,7 +1738,7 @@
 			<contentLength>950272</contentLength>
 			<infoHash>7E11151DE6873DE92EAE0C1052FE5B88CCDA0C07</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:7E11151DE6873DE92EAE0C1052FE5B88CCDA0C07</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:7E11151DE6873DE92EAE0C1052FE5B88CCDA0C07" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:7E11151DE6873DE92EAE0C1052FE5B88CCDA0C07" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -1813,7 +1813,7 @@
 			<contentLength>950272</contentLength>
 			<infoHash>29A648302EB6B3833858A289147C78608622695B</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:29A648302EB6B3833858A289147C78608622695B</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:29A648302EB6B3833858A289147C78608622695B" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:29A648302EB6B3833858A289147C78608622695B" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -1888,7 +1888,7 @@
 			<contentLength>954368</contentLength>
 			<infoHash>D07A3CC54AB50DA5A1294727E5974B681417A90D</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:D07A3CC54AB50DA5A1294727E5974B681417A90D</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:D07A3CC54AB50DA5A1294727E5974B681417A90D" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:D07A3CC54AB50DA5A1294727E5974B681417A90D" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -1963,7 +1963,7 @@
 			<contentLength>995328</contentLength>
 			<infoHash>BAB35D663D1316E037985B002BECD47F187F0F31</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:BAB35D663D1316E037985B002BECD47F187F0F31</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:BAB35D663D1316E037985B002BECD47F187F0F31" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:BAB35D663D1316E037985B002BECD47F187F0F31" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -2038,7 +2038,7 @@
 			<contentLength>991232</contentLength>
 			<infoHash>62089EDA709232A20C03C73064F18714E19476B6</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:62089EDA709232A20C03C73064F18714E19476B6</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:62089EDA709232A20C03C73064F18714E19476B6" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:62089EDA709232A20C03C73064F18714E19476B6" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -2113,7 +2113,7 @@
 			<contentLength>954368</contentLength>
 			<infoHash>1CDA7EFDC0B096C64BC2AFF09653FB6A94F70802</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:1CDA7EFDC0B096C64BC2AFF09653FB6A94F70802</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:1CDA7EFDC0B096C64BC2AFF09653FB6A94F70802" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:1CDA7EFDC0B096C64BC2AFF09653FB6A94F70802" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -2188,7 +2188,7 @@
 			<contentLength>987136</contentLength>
 			<infoHash>778878E336C61F079D7B146C1AFC08289A18357E</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:778878E336C61F079D7B146C1AFC08289A18357E</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:778878E336C61F079D7B146C1AFC08289A18357E" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:778878E336C61F079D7B146C1AFC08289A18357E" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -2263,7 +2263,7 @@
 			<contentLength>954368</contentLength>
 			<infoHash>29AAFB4EBF327FBFB3D5EA34183124DE156920F8</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:29AAFB4EBF327FBFB3D5EA34183124DE156920F8</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:29AAFB4EBF327FBFB3D5EA34183124DE156920F8" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:29AAFB4EBF327FBFB3D5EA34183124DE156920F8" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -2338,7 +2338,7 @@
 			<contentLength>987136</contentLength>
 			<infoHash>626D4BE82D7CD1A0684AE56F54740DBE5061BC58</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:626D4BE82D7CD1A0684AE56F54740DBE5061BC58</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:626D4BE82D7CD1A0684AE56F54740DBE5061BC58" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:626D4BE82D7CD1A0684AE56F54740DBE5061BC58" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -2413,7 +2413,7 @@
 			<contentLength>954368</contentLength>
 			<infoHash>B75B9E438EE0D56108D63016B92F67E932103CFB</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:B75B9E438EE0D56108D63016B92F67E932103CFB</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:B75B9E438EE0D56108D63016B92F67E932103CFB" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:B75B9E438EE0D56108D63016B92F67E932103CFB" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -2488,7 +2488,7 @@
 			<contentLength>991232</contentLength>
 			<infoHash>8F6522179498E3E23C811155C247C1BF58C5C430</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:8F6522179498E3E23C811155C247C1BF58C5C430</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:8F6522179498E3E23C811155C247C1BF58C5C430" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:8F6522179498E3E23C811155C247C1BF58C5C430" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -2563,7 +2563,7 @@
 			<contentLength>958464</contentLength>
 			<infoHash>DEB1B8AED5820D1CE202C54782F856BB382E0E45</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:DEB1B8AED5820D1CE202C54782F856BB382E0E45</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:DEB1B8AED5820D1CE202C54782F856BB382E0E45" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:DEB1B8AED5820D1CE202C54782F856BB382E0E45" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -2638,7 +2638,7 @@
 			<contentLength>995328</contentLength>
 			<infoHash>D6C28DBE1217A711F2214821804668CE7E131295</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:D6C28DBE1217A711F2214821804668CE7E131295</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:D6C28DBE1217A711F2214821804668CE7E131295" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:D6C28DBE1217A711F2214821804668CE7E131295" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -2713,7 +2713,7 @@
 			<contentLength>962560</contentLength>
 			<infoHash>6BFD08ED3AA62AEB05666DEFA0C639399F6CF523</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:6BFD08ED3AA62AEB05666DEFA0C639399F6CF523</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:6BFD08ED3AA62AEB05666DEFA0C639399F6CF523" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:6BFD08ED3AA62AEB05666DEFA0C639399F6CF523" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -2788,7 +2788,7 @@
 			<contentLength>991232</contentLength>
 			<infoHash>A603569254EBD6E6AE4DE447458144BDA97281C2</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:A603569254EBD6E6AE4DE447458144BDA97281C2</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:A603569254EBD6E6AE4DE447458144BDA97281C2" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:A603569254EBD6E6AE4DE447458144BDA97281C2" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -2863,7 +2863,7 @@
 			<contentLength>958464</contentLength>
 			<infoHash>63B5AB8F0EE881C71C059AB1EE9C1E0C10A5FF2C</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:63B5AB8F0EE881C71C059AB1EE9C1E0C10A5FF2C</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:63B5AB8F0EE881C71C059AB1EE9C1E0C10A5FF2C" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:63B5AB8F0EE881C71C059AB1EE9C1E0C10A5FF2C" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -2938,7 +2938,7 @@
 			<contentLength>991232</contentLength>
 			<infoHash>537FAC39870D796AC163D962B4F145DA101F6AB9</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:537FAC39870D796AC163D962B4F145DA101F6AB9</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:537FAC39870D796AC163D962B4F145DA101F6AB9" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:537FAC39870D796AC163D962B4F145DA101F6AB9" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -3013,7 +3013,7 @@
 			<contentLength>958464</contentLength>
 			<infoHash>611C7A468A61B5B085CD81F82559E284F6C477CE</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:611C7A468A61B5B085CD81F82559E284F6C477CE</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:611C7A468A61B5B085CD81F82559E284F6C477CE" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:611C7A468A61B5B085CD81F82559E284F6C477CE" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -3088,7 +3088,7 @@
 			<contentLength>999424</contentLength>
 			<infoHash>4ECF0ED64F3EF94914542E7AD1ABA336AAE771C4</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:4ECF0ED64F3EF94914542E7AD1ABA336AAE771C4</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:4ECF0ED64F3EF94914542E7AD1ABA336AAE771C4" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:4ECF0ED64F3EF94914542E7AD1ABA336AAE771C4" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -3163,7 +3163,7 @@
 			<contentLength>962560</contentLength>
 			<infoHash>10CE0C501E9C7EF03C698C0610E5325A6F076215</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:10CE0C501E9C7EF03C698C0610E5325A6F076215</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:10CE0C501E9C7EF03C698C0610E5325A6F076215" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:10CE0C501E9C7EF03C698C0610E5325A6F076215" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -3238,7 +3238,7 @@
 			<contentLength>999424</contentLength>
 			<infoHash>307993B2B7B78502827458D6C6E78B75BEA6EB41</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:307993B2B7B78502827458D6C6E78B75BEA6EB41</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:307993B2B7B78502827458D6C6E78B75BEA6EB41" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:307993B2B7B78502827458D6C6E78B75BEA6EB41" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -3313,7 +3313,7 @@
 			<contentLength>966656</contentLength>
 			<infoHash>1D858FBFFDB9FAC8ADBEBD9C640B287284098601</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:1D858FBFFDB9FAC8ADBEBD9C640B287284098601</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:1D858FBFFDB9FAC8ADBEBD9C640B287284098601" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:1D858FBFFDB9FAC8ADBEBD9C640B287284098601" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -3388,7 +3388,7 @@
 			<contentLength>999424</contentLength>
 			<infoHash>337E4618D30F9A84DD172B8E91F87451653C23B6</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:337E4618D30F9A84DD172B8E91F87451653C23B6</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:337E4618D30F9A84DD172B8E91F87451653C23B6" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:337E4618D30F9A84DD172B8E91F87451653C23B6" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -3463,7 +3463,7 @@
 			<contentLength>966656</contentLength>
 			<infoHash>6DE2E257F73F11151EBFB4BF1345BE64E47AED52</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:6DE2E257F73F11151EBFB4BF1345BE64E47AED52</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:6DE2E257F73F11151EBFB4BF1345BE64E47AED52" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:6DE2E257F73F11151EBFB4BF1345BE64E47AED52" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -3538,7 +3538,7 @@
 			<contentLength>999424</contentLength>
 			<infoHash>53363AB66F877D9EDF33F55E6ABC3CCF72819191</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:53363AB66F877D9EDF33F55E6ABC3CCF72819191</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:53363AB66F877D9EDF33F55E6ABC3CCF72819191" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:53363AB66F877D9EDF33F55E6ABC3CCF72819191" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -3613,7 +3613,7 @@
 			<contentLength>966656</contentLength>
 			<infoHash>9D8D62C50B0EF1AD35B5E62602F21FAC773171CE</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:9D8D62C50B0EF1AD35B5E62602F21FAC773171CE</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:9D8D62C50B0EF1AD35B5E62602F21FAC773171CE" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:9D8D62C50B0EF1AD35B5E62602F21FAC773171CE" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -3688,7 +3688,7 @@
 			<contentLength>999424</contentLength>
 			<infoHash>3B59DD43EEC3EDB133555F58D1180BFB196ACBB4</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:3B59DD43EEC3EDB133555F58D1180BFB196ACBB4</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:3B59DD43EEC3EDB133555F58D1180BFB196ACBB4" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:3B59DD43EEC3EDB133555F58D1180BFB196ACBB4" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -3763,7 +3763,7 @@
 			<contentLength>966656</contentLength>
 			<infoHash>0DD89D42AD711F770DA899AF05EE162EDE0D0070</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:0DD89D42AD711F770DA899AF05EE162EDE0D0070</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:0DD89D42AD711F770DA899AF05EE162EDE0D0070" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:0DD89D42AD711F770DA899AF05EE162EDE0D0070" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -3838,7 +3838,7 @@
 			<contentLength>16831</contentLength>
 			<infoHash>8623E580752F22940D96630EF723CE30A707B22E</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:8623E580752F22940D96630EF723CE30A707B22E</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:8623E580752F22940D96630EF723CE30A707B22E" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:8623E580752F22940D96630EF723CE30A707B22E" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -3913,7 +3913,7 @@
 			<contentLength>1111136</contentLength>
 			<infoHash>D12B46B1BFADC6B03FF260AB90DCB136D890FD39</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:D12B46B1BFADC6B03FF260AB90DCB136D890FD39</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:D12B46B1BFADC6B03FF260AB90DCB136D890FD39" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:D12B46B1BFADC6B03FF260AB90DCB136D890FD39" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -3988,7 +3988,7 @@
 			<contentLength>13995260</contentLength>
 			<infoHash>948E6865B57FA2FC469D68DF500F774A6D5887A4</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:948E6865B57FA2FC469D68DF500F774A6D5887A4</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:948E6865B57FA2FC469D68DF500F774A6D5887A4" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:948E6865B57FA2FC469D68DF500F774A6D5887A4" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -4063,7 +4063,7 @@
 			<contentLength>1024</contentLength>
 			<infoHash>D25DAB06A7E127922D70DDAA4FE896709DC99A1E</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:D25DAB06A7E127922D70DDAA4FE896709DC99A1E</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:D25DAB06A7E127922D70DDAA4FE896709DC99A1E" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:D25DAB06A7E127922D70DDAA4FE896709DC99A1E" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -4138,7 +4138,7 @@
 			<contentLength>2644</contentLength>
 			<infoHash>AF6D3F8B0A9C13D63B9405DC375CC68AF614394D</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:AF6D3F8B0A9C13D63B9405DC375CC68AF614394D</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:AF6D3F8B0A9C13D63B9405DC375CC68AF614394D" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:AF6D3F8B0A9C13D63B9405DC375CC68AF614394D" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -4213,7 +4213,7 @@
 			<contentLength>447680</contentLength>
 			<infoHash>B581D3C5D98F5E621FDDFC1CE5704BB45BF05A8C</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:B581D3C5D98F5E621FDDFC1CE5704BB45BF05A8C</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:B581D3C5D98F5E621FDDFC1CE5704BB45BF05A8C" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:B581D3C5D98F5E621FDDFC1CE5704BB45BF05A8C" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -4288,7 +4288,7 @@
 			<contentLength>1320192</contentLength>
 			<infoHash>2B9DF8496922F2546DFB0B01220068CE53C19D3D</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:2B9DF8496922F2546DFB0B01220068CE53C19D3D</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:2B9DF8496922F2546DFB0B01220068CE53C19D3D" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:2B9DF8496922F2546DFB0B01220068CE53C19D3D" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -4363,7 +4363,7 @@
 			<contentLength>5834205</contentLength>
 			<infoHash>046BB8023BC40B9A95A8A339C85A9EF18CF60DB6</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:046BB8023BC40B9A95A8A339C85A9EF18CF60DB6</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:046BB8023BC40B9A95A8A339C85A9EF18CF60DB6" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:046BB8023BC40B9A95A8A339C85A9EF18CF60DB6" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -4438,7 +4438,7 @@
 			<contentLength>9151305</contentLength>
 			<infoHash>E3EDB7D7384F2845E54B94098125F1FFFCA13692</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:E3EDB7D7384F2845E54B94098125F1FFFCA13692</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:E3EDB7D7384F2845E54B94098125F1FFFCA13692" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:E3EDB7D7384F2845E54B94098125F1FFFCA13692" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -4513,7 +4513,7 @@
 			<contentLength>2552909</contentLength>
 			<infoHash>1542DD3C2BF7785B1E7A6DDA3887FC8FB2710685</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:1542DD3C2BF7785B1E7A6DDA3887FC8FB2710685</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:1542DD3C2BF7785B1E7A6DDA3887FC8FB2710685" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:1542DD3C2BF7785B1E7A6DDA3887FC8FB2710685" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -4588,7 +4588,7 @@
 			<contentLength>8664749</contentLength>
 			<infoHash>1BCC90C93DA91C9876671F6218084207DEF90DB9</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:1BCC90C93DA91C9876671F6218084207DEF90DB9</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:1BCC90C93DA91C9876671F6218084207DEF90DB9" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:1BCC90C93DA91C9876671F6218084207DEF90DB9" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -4663,7 +4663,7 @@
 			<contentLength>2455265</contentLength>
 			<infoHash>7ED7FEE15C900ED02B5E2CB3C8E7A0363F4D9354</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:7ED7FEE15C900ED02B5E2CB3C8E7A0363F4D9354</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:7ED7FEE15C900ED02B5E2CB3C8E7A0363F4D9354" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:7ED7FEE15C900ED02B5E2CB3C8E7A0363F4D9354" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -4738,7 +4738,7 @@
 			<contentLength>5761344</contentLength>
 			<infoHash>55A21347ED391DFB51A0C3A2771E2E2AB2D5668B</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:55A21347ED391DFB51A0C3A2771E2E2AB2D5668B</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:55A21347ED391DFB51A0C3A2771E2E2AB2D5668B" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:55A21347ED391DFB51A0C3A2771E2E2AB2D5668B" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -4813,7 +4813,7 @@
 			<contentLength>2525504</contentLength>
 			<infoHash>597885912D2AB1DE69CB1938470506FA6419D068</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:597885912D2AB1DE69CB1938470506FA6419D068</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:597885912D2AB1DE69CB1938470506FA6419D068" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:597885912D2AB1DE69CB1938470506FA6419D068" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -4888,7 +4888,7 @@
 			<contentLength>3979584</contentLength>
 			<infoHash>ADE01F4E1BD8720ADA571C6E51E0DA1A23A0D5B3</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:ADE01F4E1BD8720ADA571C6E51E0DA1A23A0D5B3</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:ADE01F4E1BD8720ADA571C6E51E0DA1A23A0D5B3" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:ADE01F4E1BD8720ADA571C6E51E0DA1A23A0D5B3" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -4963,7 +4963,7 @@
 			<contentLength>1746176</contentLength>
 			<infoHash>EAB8558C97B18B1F329A2BFCC3C899B84C082A27</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:EAB8558C97B18B1F329A2BFCC3C899B84C082A27</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:EAB8558C97B18B1F329A2BFCC3C899B84C082A27" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:EAB8558C97B18B1F329A2BFCC3C899B84C082A27" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -5038,7 +5038,7 @@
 			<contentLength>391424</contentLength>
 			<infoHash>7B90D506AD032A581A00035616EAA17A68C48EFF</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:7B90D506AD032A581A00035616EAA17A68C48EFF</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:7B90D506AD032A581A00035616EAA17A68C48EFF" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:7B90D506AD032A581A00035616EAA17A68C48EFF" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -5113,7 +5113,7 @@
 			<contentLength>20042111</contentLength>
 			<infoHash>66274CEE542BEF7745792714673BF2BE4D606496</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:66274CEE542BEF7745792714673BF2BE4D606496</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:66274CEE542BEF7745792714673BF2BE4D606496" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:66274CEE542BEF7745792714673BF2BE4D606496" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -5188,7 +5188,7 @@
 			<contentLength>1725696</contentLength>
 			<infoHash>17511EADB6E6F3FF22D04F90644E37BD2D96CA43</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:17511EADB6E6F3FF22D04F90644E37BD2D96CA43</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:17511EADB6E6F3FF22D04F90644E37BD2D96CA43" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:17511EADB6E6F3FF22D04F90644E37BD2D96CA43" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -5263,7 +5263,7 @@
 			<contentLength>971765</contentLength>
 			<infoHash>26BDE6B3F2A43AB819006AB2700EDC90A100D644</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:26BDE6B3F2A43AB819006AB2700EDC90A100D644</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:26BDE6B3F2A43AB819006AB2700EDC90A100D644" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:26BDE6B3F2A43AB819006AB2700EDC90A100D644" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -5338,7 +5338,7 @@
 			<contentLength>4194458</contentLength>
 			<infoHash>39EF29B9520DB11CAFD28399E2D79EE52C7A98E6</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:39EF29B9520DB11CAFD28399E2D79EE52C7A98E6</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:39EF29B9520DB11CAFD28399E2D79EE52C7A98E6" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:39EF29B9520DB11CAFD28399E2D79EE52C7A98E6" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -5413,7 +5413,7 @@
 			<contentLength>971534</contentLength>
 			<infoHash>D4D1AC33E221BCB5375081B81F95EDF8BAA71883</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:D4D1AC33E221BCB5375081B81F95EDF8BAA71883</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:D4D1AC33E221BCB5375081B81F95EDF8BAA71883" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:D4D1AC33E221BCB5375081B81F95EDF8BAA71883" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -5488,7 +5488,7 @@
 			<contentLength>971533</contentLength>
 			<infoHash>9E122B8E93C0D2724123A703D71383580E958B17</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:9E122B8E93C0D2724123A703D71383580E958B17</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:9E122B8E93C0D2724123A703D71383580E958B17" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:9E122B8E93C0D2724123A703D71383580E958B17" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -5563,7 +5563,7 @@
 			<contentLength>971535</contentLength>
 			<infoHash>9AB860002DF831D0AF054248B60E6FB9FBAA92B2</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:9AB860002DF831D0AF054248B60E6FB9FBAA92B2</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:9AB860002DF831D0AF054248B60E6FB9FBAA92B2" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:9AB860002DF831D0AF054248B60E6FB9FBAA92B2" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -5638,7 +5638,7 @@
 			<contentLength>1404012</contentLength>
 			<infoHash>496EA875E5CD369E106ABFD3FDA00C3C41E52607</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:496EA875E5CD369E106ABFD3FDA00C3C41E52607</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:496EA875E5CD369E106ABFD3FDA00C3C41E52607" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:496EA875E5CD369E106ABFD3FDA00C3C41E52607" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -5713,7 +5713,7 @@
 			<contentLength>1311442</contentLength>
 			<infoHash>E69774D8A950879E93B18A5C1CCD36AB305B4ACD</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:E69774D8A950879E93B18A5C1CCD36AB305B4ACD</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:E69774D8A950879E93B18A5C1CCD36AB305B4ACD" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:E69774D8A950879E93B18A5C1CCD36AB305B4ACD" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -5788,7 +5788,7 @@
 			<contentLength>1226534</contentLength>
 			<infoHash>ED75F8B81B78DAD0D98CEA59E38F3F61A80D981D</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:ED75F8B81B78DAD0D98CEA59E38F3F61A80D981D</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:ED75F8B81B78DAD0D98CEA59E38F3F61A80D981D" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:ED75F8B81B78DAD0D98CEA59E38F3F61A80D981D" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -5863,7 +5863,7 @@
 			<contentLength>1199203</contentLength>
 			<infoHash>FD1BC5C522988379EE931DB45F82B223241AE729</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:FD1BC5C522988379EE931DB45F82B223241AE729</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:FD1BC5C522988379EE931DB45F82B223241AE729" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:FD1BC5C522988379EE931DB45F82B223241AE729" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -5938,7 +5938,7 @@
 			<contentLength>1199203</contentLength>
 			<infoHash>0BD5DB43B86BCBA7AA862C65E15EF8A6358B7099</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:0BD5DB43B86BCBA7AA862C65E15EF8A6358B7099</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:0BD5DB43B86BCBA7AA862C65E15EF8A6358B7099" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:0BD5DB43B86BCBA7AA862C65E15EF8A6358B7099" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -6013,7 +6013,7 @@
 			<contentLength>14751169</contentLength>
 			<infoHash>614E9951A6C26145E68DE34ED8C23A44BF190728</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:614E9951A6C26145E68DE34ED8C23A44BF190728</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:614E9951A6C26145E68DE34ED8C23A44BF190728" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:614E9951A6C26145E68DE34ED8C23A44BF190728" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -6088,7 +6088,7 @@
 			<contentLength>512</contentLength>
 			<infoHash>15A3C97ACF17D67AF98AE8657CC66820CC58F655</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:15A3C97ACF17D67AF98AE8657CC66820CC58F655</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:15A3C97ACF17D67AF98AE8657CC66820CC58F655" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:15A3C97ACF17D67AF98AE8657CC66820CC58F655" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -6163,7 +6163,7 @@
 			<contentLength>512</contentLength>
 			<infoHash>54D19B7FD5387F7D46CFF86EDBBB58737880993C</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:54D19B7FD5387F7D46CFF86EDBBB58737880993C</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:54D19B7FD5387F7D46CFF86EDBBB58737880993C" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:54D19B7FD5387F7D46CFF86EDBBB58737880993C" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -6238,7 +6238,7 @@
 			<contentLength>106909696</contentLength>
 			<infoHash>04E8914869A165DB62A05D90BD07ED900430E77C</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:04E8914869A165DB62A05D90BD07ED900430E77C</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:04E8914869A165DB62A05D90BD07ED900430E77C" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:04E8914869A165DB62A05D90BD07ED900430E77C" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -6313,7 +6313,7 @@
 			<contentLength>148107264</contentLength>
 			<infoHash>FE993936E5B040F2CA9AE5BDA448D1F48A1EA4C8</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:FE993936E5B040F2CA9AE5BDA448D1F48A1EA4C8</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:FE993936E5B040F2CA9AE5BDA448D1F48A1EA4C8" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:FE993936E5B040F2CA9AE5BDA448D1F48A1EA4C8" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -6388,7 +6388,7 @@
 			<contentLength>143704541</contentLength>
 			<infoHash>128BB54D05C4840878C0C868CE30A9DF65F214AB</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:128BB54D05C4840878C0C868CE30A9DF65F214AB</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:128BB54D05C4840878C0C868CE30A9DF65F214AB" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:128BB54D05C4840878C0C868CE30A9DF65F214AB" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -6463,7 +6463,7 @@
 			<contentLength>120815616</contentLength>
 			<infoHash>144FB211BFC55FEBFAB9447C601A09501F6C91CE</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:144FB211BFC55FEBFAB9447C601A09501F6C91CE</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:144FB211BFC55FEBFAB9447C601A09501F6C91CE" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:144FB211BFC55FEBFAB9447C601A09501F6C91CE" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -6538,7 +6538,7 @@
 			<contentLength>104235008</contentLength>
 			<infoHash>2296C7C4B0E7EA6A49493A6F42D4EF2D275BF938</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:2296C7C4B0E7EA6A49493A6F42D4EF2D275BF938</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:2296C7C4B0E7EA6A49493A6F42D4EF2D275BF938" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:2296C7C4B0E7EA6A49493A6F42D4EF2D275BF938" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -6613,7 +6613,7 @@
 			<contentLength>110288896</contentLength>
 			<infoHash>83129A4BD9F0485E3F559336C125BD19F7B71D24</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:83129A4BD9F0485E3F559336C125BD19F7B71D24</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:83129A4BD9F0485E3F559336C125BD19F7B71D24" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:83129A4BD9F0485E3F559336C125BD19F7B71D24" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -6688,7 +6688,7 @@
 			<contentLength>131821568</contentLength>
 			<infoHash>5483048222A6447DCA3E3EF2EA8FDB1BC7E29605</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:5483048222A6447DCA3E3EF2EA8FDB1BC7E29605</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:5483048222A6447DCA3E3EF2EA8FDB1BC7E29605" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:5483048222A6447DCA3E3EF2EA8FDB1BC7E29605" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -6763,7 +6763,7 @@
 			<contentLength>127590486</contentLength>
 			<infoHash>0AF36A594529D4497733A9252AD68219647AFFD3</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:0AF36A594529D4497733A9252AD68219647AFFD3</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:0AF36A594529D4497733A9252AD68219647AFFD3" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:0AF36A594529D4497733A9252AD68219647AFFD3" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -6838,7 +6838,7 @@
 			<contentLength>162192</contentLength>
 			<infoHash>A8F4AEBE74A565D1D8E42A38240CC284D900B5AB</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:A8F4AEBE74A565D1D8E42A38240CC284D900B5AB</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:A8F4AEBE74A565D1D8E42A38240CC284D900B5AB" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:A8F4AEBE74A565D1D8E42A38240CC284D900B5AB" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -6913,7 +6913,7 @@
 			<contentLength>178216960</contentLength>
 			<infoHash>436F48A706C0E18D9706510F06130659D1B46385</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:436F48A706C0E18D9706510F06130659D1B46385</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:436F48A706C0E18D9706510F06130659D1B46385" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:436F48A706C0E18D9706510F06130659D1B46385" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -6988,7 +6988,7 @@
 			<contentLength>173468181</contentLength>
 			<infoHash>753B24D1C18C749997A455731C4138BC0DB25835</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:753B24D1C18C749997A455731C4138BC0DB25835</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:753B24D1C18C749997A455731C4138BC0DB25835" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:753B24D1C18C749997A455731C4138BC0DB25835" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -7063,7 +7063,7 @@
 			<contentLength>141557760</contentLength>
 			<infoHash>2D227B2911ECC7D921CEA30EBF675B923966C458</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:2D227B2911ECC7D921CEA30EBF675B923966C458</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:2D227B2911ECC7D921CEA30EBF675B923966C458" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:2D227B2911ECC7D921CEA30EBF675B923966C458" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -7138,7 +7138,7 @@
 			<contentLength>137155530</contentLength>
 			<infoHash>0BE6B3C2522E03739C5B1095D82E1B7B6AEF38CD</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:0BE6B3C2522E03739C5B1095D82E1B7B6AEF38CD</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:0BE6B3C2522E03739C5B1095D82E1B7B6AEF38CD" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:0BE6B3C2522E03739C5B1095D82E1B7B6AEF38CD" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -7213,7 +7213,7 @@
 			<contentLength>155578368</contentLength>
 			<infoHash>76632071A491AB8F113F811AF44B4DD8FBF4513D</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:76632071A491AB8F113F811AF44B4DD8FBF4513D</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:76632071A491AB8F113F811AF44B4DD8FBF4513D" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:76632071A491AB8F113F811AF44B4DD8FBF4513D" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -7288,7 +7288,7 @@
 			<contentLength>151038432</contentLength>
 			<infoHash>F985478FE28EB58B712D215A6B83D9574BE85D3D</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:F985478FE28EB58B712D215A6B83D9574BE85D3D</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:F985478FE28EB58B712D215A6B83D9574BE85D3D" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:F985478FE28EB58B712D215A6B83D9574BE85D3D" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -7363,7 +7363,7 @@
 			<contentLength>21584</contentLength>
 			<infoHash>4A106681407FEDE5DE95CC8BDA635432481F6B5D</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:4A106681407FEDE5DE95CC8BDA635432481F6B5D</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:4A106681407FEDE5DE95CC8BDA635432481F6B5D" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:4A106681407FEDE5DE95CC8BDA635432481F6B5D" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -7438,7 +7438,7 @@
 			<contentLength>5171</contentLength>
 			<infoHash>CD7E59EA9744115913B561DBDE15F8D68E713507</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:CD7E59EA9744115913B561DBDE15F8D68E713507</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:CD7E59EA9744115913B561DBDE15F8D68E713507" type="application/x-bittorent" />
+			<enclosure url="magnet:?xt=urn:btih:CD7E59EA9744115913B561DBDE15F8D68E713507" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
