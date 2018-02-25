@@ -4,6 +4,10 @@ title: "Instalând boot9strap (2xrsa)"
 
 {% include toc title="Cuprins" %}
 
+### Lectură obligatorie
+
+Pentru a extrage fişierele `.7z` de pe această pagină, veţi avea nevoie de un arhivator de fişiere ca [7-Zip](http://www.7-zip.org/) sau [The Unarchiver] (https://theunarchiver.com/).
+
 ### Ce aveți nevoie
 
 * Cea mai recentă versiune de [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest){:target="_blank"}
