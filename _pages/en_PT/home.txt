@@ -9,8 +9,8 @@ header:
 excerpt: "A complete guide to 3DS custom firmware, <br /> from stock to boot9strap.<br />"
 ---
 
-If you have a Nintendo Switch, check out the new [Switch Hacks Guide](https://switch.hacks.guide).
-{: .notice--info}
+For complete guides to homebrew and custom firmware for other devices, check out [Hacks.Guide](https://hacks.guide).
+{: .notice--primary}
 
 ___
 
@@ -19,7 +19,7 @@ Thoroughly read all 'o th' introductory pages (includin' 'tis one!) before proce
 
 {% capture notice-1 %}
 'Tis guide be fer retail (consumer purchased; not from th' Nintendo Developer Program) consoles _only_!    
-If you have a developer ("PANDA") console, check out the [developer 3DS Hacks Guide](https://dev3ds.hacks.guide).
+If you have a developer ("PANDA") console, check out the [Panda 3DS Hacks Guide](https://panda.hacks.guide).
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
