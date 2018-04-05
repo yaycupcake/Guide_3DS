@@ -56,3 +56,12 @@ ___
 
 Следующий шаг: [Установка boot9strap (Инъекция в игры DSiWare)](installing-boot9strap-(dsiware-game-injection))
 {: .notice--primary}
+
+___
+
+#### Установка boot9strap (Seedminer)
+
+Этот метод не требует прошитой исходной 3DS или Передачи данных. Вам понадобится только совместимая игра на целевой 3DS.
+
+Следующий шаг: [Установка boot9strap (Seedminer) (англ.)](https://jisagi.github.io/SeedminerGuide/)
+{: .notice--primary}

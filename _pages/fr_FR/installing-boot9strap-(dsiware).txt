@@ -56,3 +56,12 @@ Une version piratée du jeu ne *marchera pas*.
 
 Continuer vers [Installer boot9strap (DSiWare Game Injection)](installing-boot9strap-(dsiware-game-injection))
 {: .notice--primary}
+
+___
+
+#### Installer boot9strap (Seedminer)
+
+Cette méthode ne nécessite pas une 3DS source hackée ou un System Transfer. Vous avez seulement besoin d’un jeu compatible sur la 3DS que vous voulez hacker.
+
+Continuer vers [installation de boot9strap (Seedminer)](https://jisagi.github.io/SeedminerGuide/)
+{: .notice--primary}

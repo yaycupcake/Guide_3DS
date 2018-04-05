@@ -4,6 +4,9 @@ title: "Utilisation de GodMode9"
 
 {% include toc title="Table of Contents" %}
 
+Pour de l'aide sur GodMode9 ainsi que sur le scripting, et pour être tenu à jour et informé, rejoignez le [Discord GodMode9](https://discord.gg/EGu6Qxw).
+{: .notice--primary}
+
 ### Lecture requise
 
 GodMode9 est un navigateur de fichiers avec un accès complet pour la console de Nintendo 3DS, vous donnant accès à votre carte SD, les partitions FAT à l’intérieur de votre SysNAND et EmuNAND et fondamentalement rien d’autre. Parmi les autres fonctionnalités, vous pouvez copier, supprimer, renommer des fichiers et créer des dossiers.
