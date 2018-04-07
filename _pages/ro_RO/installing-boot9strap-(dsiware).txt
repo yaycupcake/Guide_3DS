@@ -6,11 +6,19 @@ title: "Instalând boot9strap (DSiWare)" #
 
 ### Lectură obligatorie
 
-Exisată două metode diferite de a instala boot9strap folosind DSiWare pe 11.6.0.
+There are three different methods of installing boot9strap using DSiWare on 11.6.0.
 
-Una dintre aceste metode funcționează numai cu patru jocuri specifice care nu mai sunt vândute pe eShop, în timp ce cealaltă metodă funcționează cu câteva jocuri care încă sunt vândute pe eShop.
+The first method, Seedminer, requires a PC with a powerful graphics card. There is an online helping service for Seedminer if you do not have access to such a PC. The two other methods require a system transfer from a hacked 3DS.
 
-Ambele metode au nevoie de două dispozitive. Un 3DS (sau 2DS) trebuie să pornească pe boot9strap și este menționat ca *3DS-ul sursă*, în timp ce celălalt 3DS (sau 2DS) este pe 11.6.0 stoc și este menționat ca *3DS-ul țintă*.
+___
+
+The Seedminer method only requires a cheap DSiWare game, available from the eShop. De asemenea, accesul la CFW de pe Homebrew Launcher este necesar pentru a extrage fişierul `movable_part1.sed`, şi un calculator cu o placă video puternică este necesară pentru a  decripta fişierul `movable_part1.sed` şi transforma într-un fişier `movable.sed`. The [online Seedminer helper service](https://seedhelper.figgyc.uk/) can automatically do these things for you if you do not have access to them.
+
+The method uses a series of oversights in the 3DS' security, detailed [here](https://zoogie.github.io/web/34⅕c3).
+
+___
+
+The latter two methods require two devices. Un 3DS (sau 2DS) trebuie să pornească pe boot9strap și este menționat ca *3DS-ul sursă*, în timp ce celălalt 3DS (sau 2DS) este pe 11.6.0 stoc și este menționat ca *3DS-ul țintă*.
 
 Ambele metode vor presupune că 3DS-ul cu custom firmware folosește boot9strap și a completat acest ghid. Deși este posibil să se facă aceste metode cu un alt fel de custom firmware, acest lucru este dincolo de cunoștințele acestui ghid.
 
@@ -29,6 +37,15 @@ Ambele dispozitive TREBUIE să fie din aceeaşi regiune.
 
 ___
 ### Metode
+
+___
+
+#### Installing boot9strap (Seedminer)
+
+This method does not require a hacked source 3DS or a System Transfer. You only need a compatible game on the 3DS you want to hack.
+
+Continuați la [Instalând boot9strap (Seedminer)](https://jisagi.github.io/SeedminerGuide/)
+{: .notice--primary}
 
 ___
 
@@ -58,10 +75,3 @@ Continuați spre [Instalând boot9strap (Injectare cu cu joc DSiWare)](installin
 {: .notice--primary}
 
 ___
-
-#### Installing boot9strap (Seedminer)
-
-This method does not require a hacked source 3DS or a System Transfer. You only need a compatible game on the 3DS you want to hack.
-
-Continue to [Installing boot9strap (Seedminer)](https://jisagi.github.io/SeedminerGuide/)
-{: .notice--primary}

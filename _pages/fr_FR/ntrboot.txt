@@ -9,13 +9,13 @@ Si vous avez déjà flashé ntrboot sur votre linker ou votre linker est pré-fl
 
 ### Lecture requise
 
-L'installation de boot9strap à partir de ntrboot nécessite un linker compatible . Notez que certains de ces linkers sont vendus pré-flashés avec ntrboot.
+L'installation de boot9strap à partir de ntrboot nécessite un linker compatible. Notez que certains de ces linkers sont vendus pré-flashés avec ntrboot.
 
 Bien que l'exploit (faille) ntrboot soit indépendant de la version du système, le flasheur ntrboot (la méthode d'installation de l'exploit sur la cartouche) ne l'est pas. Ceci signifie que, selon les versions et consoles supportées par votre linker, seules certaines méthodes peuvent vous être disponibles.
 
 Note : les linkers avec une "bombe à retardement" ne seront plus capables de lancers des fichiers `.nds` s'ils détectent que l'horloge système a passé une date déterminée par le firmware du linker. Une façon de contourner cela est de positionner l'horloge système sur une date antérieure.
 
-| Linker | Prix actuel | "Bombe" ? | Compatible 3DS ? | Compatible DSi ? | Autres notes |
+| Linker | Prix actuel | "Bombe à retardement" ? | Compatible 3DS ? | Compatible DSi ? | Autres notes |
 |-|-:|:-:|:-:|:-:|-|
 | [**R4i-SDHC B9S**](http://www.nds-card.com/ProShow.asp?ProID=574) | €15.99 | 3 Septembre 2019 | <= 11.6.0 | <= 1.4.5 | **Arrive déjà flashée avec ntrboot**; elle peut être reflashé en un linker NDS normal. |
 | [**R4i Gold 3DS Plus**](http://www.nds-card.com/ProShow.asp?ProID=575) | €19.99 | Non | <= 11.6.0 | <= 1.4.5 | **Arrive déjà flashée avec ntrboot** ([un interrupteur dans la cartouche permet de changer entre ntrboot et NDS]({{ "/images/screenshots/r4i-gold-3ds-plus.png" | absolute_url }})); ne pas flasher manuellement avec ntrboot. |
@@ -60,7 +60,7 @@ ___
 
 #### Flasher ntrboot (Une Seule 3DS)
 
-Cette méthode n’exige rien de plus que votre 3DS original stock. Cette méthode utilise le linker pour lancer le flasher ntrboot contenu dans le fichier `.nds` sur votre 3DS. Cela signifie que votre Linker doit supporter le lancement des fichiers `.nds` sur votre 3DS. Référez-vous au tableau ci-dessus pour une liste des versions compatibles.
+Cette méthode n’exige rien de plus que votre 3DS originale non hackée et un linker compatible. Cette méthode utilise le linker pour lancer le flasheur ntrboot contenu dans le fichier `.nds` sur votre 3DS. Cela signifie que votre Linker doit supporter le lancement des fichiers `.nds` sur votre 3DS. Référez-vous au tableau ci-dessus pour une liste des versions compatibles.
 
 Continuer vers [Flashing ntrboot (3DS Single System)](flashing-ntrboot-(3ds-single-system))
 {: .notice--primary}

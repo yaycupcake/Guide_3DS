@@ -20,7 +20,7 @@ Il y a eu des informations concernant une vague de bannissements contre les util
   + Si vous obtenez un message d’erreur et êtes sorti du menu de force, soit la liste d’ami est déjà désactivée soit votre console ne peut pas se connecter aux serveurs de Nintendo (en raison d’un ban ou un problème de connexion)
 1. Allez dans les paramètres de la liste d’ami, puis "Notification à vos amis", puis "Afficher le titre du logiciel que vous utilisez"
 1. Désactivez l'option "Afficher le titre du logiciel que vous utilisez"
-1. Sortez votre liste d’ami (e)
+1. Sortez votre Liste d’amis
 
 {% endcapture %}
 

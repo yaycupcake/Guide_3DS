@@ -6,11 +6,19 @@ title: "Installing boot9strap (DSiWare)"
 
 ### Required Reading
 
-There are two different methods of installing boot9strap using DSiWare on 11.6.0.
+There are three different methods of installing boot9strap using DSiWare on 11.6.0.
 
-其中一种方法只兼容四个已从eShop撤除的游戏，而另一种方法可以用不少eShop上仍可下载的 DSiWare 游戏。
+The first method, Seedminer, requires a PC with a powerful graphics card. There is an online helping service for Seedminer if you do not have access to such a PC. The two other methods require a system transfer from a hacked 3DS.
 
-两种方法都需要两台设备。 One 3DS (or 2DS) must be running boot9strap and is referred to as the *source 3DS*, while the other 3DS (or 2DS) is on stock 11.6.0 and referred to as the *target 3DS*.
+___
+
+The Seedminer method only requires a cheap DSiWare game, available from the eShop. Additionally, access to CFW or the Homebrew Launcher is needed for  extracting your 3DS' `movable_part1.sed` file, and a PC with a powerful graphics card is needed for bruteforcing the `movable_part1.sed` file into a `movable.sed` file. The [online Seedminer helper service](https://seedhelper.figgyc.uk/) can automatically do these things for you if you do not have access to them.
+
+The method uses a series of oversights in the 3DS' security, detailed [here](https://zoogie.github.io/web/34⅕c3).
+
+___
+
+The latter two methods require two devices. One 3DS (or 2DS) must be running boot9strap and is referred to as the *source 3DS*, while the other 3DS (or 2DS) is on stock 11.6.0 and referred to as the *target 3DS*.
 
 Both of these methods will assume that the 3DS running custom firmware is using boot9strap and has completed this guide. 虽然通过其他破解方法破解的源 3DS 也可行，但其超出了本教程的范围。
 
@@ -29,6 +37,15 @@ In both of these methods, the source 3DS's NNID will be stuck on the target 3DS 
 
 ___
 ### Methods
+
+___
+
+#### Installing boot9strap (Seedminer)
+
+This method does not require a hacked source 3DS or a System Transfer. You only need a compatible game on the 3DS you want to hack.
+
+Continue to [Installing boot9strap (Seedminer)](https://jisagi.github.io/SeedminerGuide/)
+{: .notice--primary}
 
 ___
 
@@ -58,10 +75,3 @@ Continue to [Installing boot9strap (DSiWare Game Injection)](installing-boot9str
 {: .notice--primary}
 
 ___
-
-#### Installing boot9strap (Seedminer)
-
-This method does not require a hacked source 3DS or a System Transfer. You only need a compatible game on the 3DS you want to hack.
-
-Continue to [Installing boot9strap (Seedminer)](https://jisagi.github.io/SeedminerGuide/)
-{: .notice--primary}

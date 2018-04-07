@@ -6,11 +6,19 @@ title: "boot9strap telepítése (DSiWare)"
 
 ### Fontos tudnivalók
 
-Két különböző módszer létezik a boot9strap DSiWare-rel való telepítésére 11.6.0-s rendszeren.
+Három különböző módszer létezik a boot9strap DSiWare-rel történő telepítésére 11.6.0-s rendszeren.
 
-Az egyik módszer csak négy olyan játékkal működik, ami már nem kapható az eShop-ban, míg a másik működik egész sok olyan játékkal, ami még mindig kapható az eShop-ban.
+Az első módszerhez, a Seedminerhez szükséged lesz egy erős grafikus kártyával rendelkező PC-re. A Seedminerhez tartozik egy online segédszolgáltatás, amennyiben nem rendelkezel ilyen PC-vel. A másik két módszerhez szükséged lesz egy már hackelt 3DS-ről történő system transferre.
 
-Mindkét módszerhez szükséged lesz két készülékre. Egy 3DS-re (vagy 2DS-re), amely boot9strap-et futtat, és amire a későbbiekben *forrás 3DS*-ként fogunk hivatkozni, illetve egy másik 3DS-re (vagy 2DS-re), ami gyári állapotú 11.6.0-s rendszert futtat, és amire a későbbiekben a *cél 3DS*-ként hivatkozunk majd.
+___
+
+A Seedminer módszer esetében elég venni egy olcsó DSiWare játékot az eShop-ból. Ezen kívül CFW-re és Homebrew Launcherre lesz szükséged, hogy megszerezd a 3DS-ed `movable_part1.sed` fájlját, illetve egy erős grafikus kártyával rendelkező PC is kell majd, amivel a `movable_part1.sed` fájl `movable.sed` fájllá lesz bruteforce-olható. Az [online Seedminer segédszolgáltatás](https://seedhelper.figgyc.uk/) ezeket automatikusan elvégzi neked, amennyiben nem rendelkezel a fentiekkel.
+
+Ez a módszer a 3DS-ek biztonsági rendszerében található figyelmetlenségek egy sorozatát használja ki, amely [itt](https://zoogie.github.io/web/34⅕c3) kerül részletezésre.
+
+___
+
+Az másik két módszerhez kettő készülékre lesz szükséged. Egy 3DS-re (vagy 2DS-re), amely boot9strap-et futtat, és amire a későbbiekben *forrás 3DS*-ként fogunk hivatkozni, illetve egy másik 3DS-re (vagy 2DS-re), ami gyári állapotú 11.6.0-s rendszert futtat, és amire a későbbiekben a *cél 3DS*-ként hivatkozunk majd.
 
 Mindkét módszer esetén feltételezzük, hogy az a 3DS, amelyiken egyedi firmware fut, boot9strap-et futtat, és ezen útmutató szerint lett telepítve. Bár lehetséges, hogy ezek a módszerek működnek más egyedi firmware-ekkel is, azokkal ez az útmutató nem foglalkozik.
 
@@ -29,6 +37,15 @@ Mindkét módszer esetében a forrás 3DS NNID-je a cél 3DS-en fog ragadni, kiv
 
 ___
 ### Módszerek
+
+___
+
+#### boot9strap telepítése (Seedminer)
+
+Ehhez a módszerhez nincs szükséged hackelt forrás 3DS-re, vagy System Transferre. Mindössze egy kompatibilis játéknak kell telepítve lennie azon a 3DS-en, amit hackelni szeretnél.
+
+Tovább a [boot9strap telepítése (Seedminer)](https://jisagi.github.io/SeedminerGuide/) oldalra
+{: .notice--primary}
 
 ___
 
@@ -58,10 +75,3 @@ Tovább a [boot9strap telepítése (DSiWare játék-injektálás)](installing-bo
 {: .notice--primary}
 
 ___
-
-#### Installing boot9strap (Seedminer)
-
-This method does not require a hacked source 3DS or a System Transfer. You only need a compatible game on the 3DS you want to hack.
-
-Continue to [Installing boot9strap (Seedminer)](https://jisagi.github.io/SeedminerGuide/)
-{: .notice--primary}

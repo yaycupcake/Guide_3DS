@@ -4,7 +4,7 @@ title: "Usare GodMode9"
 
 {% include toc title="Indice" %}
 
-For support with GodMode9, as well as help with scripting and to get updates and info, join the [GodMode9 Discord server](https://discord.gg/EGu6Qxw).
+Per ricevere supporto su GodMode9, aiuto per gli script e informazioni sugli ultimi aggiornamenti, entra nel [server Discord di GodMode9](https://discord.gg/EGu6Qxw).
 {: .notice--primary}
 
 ### Lettura necessaria

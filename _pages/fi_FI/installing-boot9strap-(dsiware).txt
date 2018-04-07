@@ -6,11 +6,19 @@ title: "Boot9strapin asentaminen (DSiWare)"
 
 ### Tärkeää tietoa
 
-On kaksi eri menetelmää asentaa boot9strap käyttäen DSiWarea versiolla 11.6.0.
+There are three different methods of installing boot9strap using DSiWare on 11.6.0.
 
-Toinen näistä menetelmistä toimii vain neljän tietyn pelin kanssa, joita ei enää saa ostettua eShopista, toinen taas hiukan useamman eShopista vielä saatavan pelin kanssa.
+The first method, Seedminer, requires a PC with a powerful graphics card. There is an online helping service for Seedminer if you do not have access to such a PC. The two other methods require a system transfer from a hacked 3DS.
 
-Kumpikin menetelmä vaatii kaksi konsolia. Yhdellä 3DS:llä (tai 2DS:llä) on oltava boot9strap, ja siihen viitataan nimellä *lähde-3DS*. Toisen 3DS:n (tai 2DS:n) on oltava vakiolaiteohjelmistolla versiolla 11.6.0, ja siihen viitataan nimellä *kohde-3DS*.
+___
+
+The Seedminer method only requires a cheap DSiWare game, available from the eShop. Additionally, access to CFW or the Homebrew Launcher is needed for  extracting your 3DS' `movable_part1.sed` file, and a PC with a powerful graphics card is needed for bruteforcing the `movable_part1.sed` file into a `movable.sed` file. The [online Seedminer helper service](https://seedhelper.figgyc.uk/) can automatically do these things for you if you do not have access to them.
+
+The method uses a series of oversights in the 3DS' security, detailed [here](https://zoogie.github.io/web/34⅕c3).
+
+___
+
+The latter two methods require two devices. Yhdellä 3DS:llä (tai 2DS:llä) on oltava boot9strap, ja siihen viitataan nimellä *lähde-3DS*. Toisen 3DS:n (tai 2DS:n) on oltava vakiolaiteohjelmistolla versiolla 11.6.0, ja siihen viitataan nimellä *kohde-3DS*.
 
 Kummassakin menetelmässä oletetaan, että mukautetun laiteohjelmiston omaavalla 3DS:llä on boot9strap asennettuna tämän oppaan ohjeiden mukaan. Vaikka näiden menetelmien hyödyntäminen onkin mahdollista myös joillain muilla mukautetuilla laiteohjelmistoilla, ei niitä käsitellä tässä ohjeessa.
 
@@ -29,6 +37,15 @@ Kummassakin menetelmässä lähde-3DS:n NNID jää jumiin kohde-3DS:lle, ellet t
 
 ___
 ### Menetelmät
+
+___
+
+#### Installing boot9strap (Seedminer)
+
+This method does not require a hacked source 3DS or a System Transfer. You only need a compatible game on the 3DS you want to hack.
+
+Continue to [Installing boot9strap (Seedminer)](https://jisagi.github.io/SeedminerGuide/)
+{: .notice--primary}
 
 ___
 
@@ -58,10 +75,3 @@ Jatka osioon [Boot9strapin asentaminen (DSiWare-peli-injektio)](installing-boot9
 {: .notice--primary}
 
 ___
-
-#### Installing boot9strap (Seedminer)
-
-This method does not require a hacked source 3DS or a System Transfer. You only need a compatible game on the 3DS you want to hack.
-
-Continue to [Installing boot9strap (Seedminer)](https://jisagi.github.io/SeedminerGuide/)
-{: .notice--primary}

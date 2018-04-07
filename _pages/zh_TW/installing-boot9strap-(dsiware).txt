@@ -6,11 +6,19 @@ title: "安裝 boot9strap (透過 DSiWare)"
 
 ### 必讀事項
 
-目前有兩種不同方法可以在系統版本 11.6.0 上透過 DSiWare 安裝 boot9strap。
+There are three different methods of installing boot9strap using DSiWare on 11.6.0.
 
-其中一種方法僅適用於已不在電子商店 (eShop) 銷售的四款特定遊戲，而另外一種方法所用的許多遊戲仍於電子商店 (eShop) 銷售中。
+The first method, Seedminer, requires a PC with a powerful graphics card. There is an online helping service for Seedminer if you do not have access to such a PC. The two other methods require a system transfer from a hacked 3DS.
 
-這兩種方法皆須用到兩台主機。 其中一台 3DS (或 2DS) 必須已安裝 boot9strap，我們將其稱為 *3DS 始源機*；另一台 3DS (或 2DS) 必須仍在原廠系統上且搭載版本 11.6.0，我們將其稱為 *3DS 目標機*。
+___
+
+The Seedminer method only requires a cheap DSiWare game, available from the eShop. Additionally, access to CFW or the Homebrew Launcher is needed for  extracting your 3DS' `movable_part1.sed` file, and a PC with a powerful graphics card is needed for bruteforcing the `movable_part1.sed` file into a `movable.sed` file. The [online Seedminer helper service](https://seedhelper.figgyc.uk/) can automatically do these things for you if you do not have access to them.
+
+The method uses a series of oversights in the 3DS' security, detailed [here](https://zoogie.github.io/web/34⅕c3).
+
+___
+
+The latter two methods require two devices. 其中一台 3DS (或 2DS) 必須已安裝 boot9strap，我們將其稱為 *3DS 始源機*；另一台 3DS (或 2DS) 必須仍在原廠系統上且搭載版本 11.6.0，我們將其稱為 *3DS 目標機*。
 
 這兩種方法都將假定運行自製韌體的 3DS 已經搭載 boot9strap，並已依照本手冊完成改機。 雖然說這兩種方式在其他自製韌體上是可行的，但我們將不在本教學中涵蓋那些部分。
 
@@ -29,6 +37,15 @@ title: "安裝 boot9strap (透過 DSiWare)"
 
 ___
 ### 方法
+
+___
+
+#### Installing boot9strap (Seedminer)
+
+This method does not require a hacked source 3DS or a System Transfer. You only need a compatible game on the 3DS you want to hack.
+
+Continue to [Installing boot9strap (Seedminer)](https://jisagi.github.io/SeedminerGuide/)
+{: .notice--primary}
 
 ___
 
@@ -58,10 +75,3 @@ ___
 {: .notice--primary}
 
 ___
-
-#### Installing boot9strap (Seedminer)
-
-This method does not require a hacked source 3DS or a System Transfer. You only need a compatible game on the 3DS you want to hack.
-
-Continue to [Installing boot9strap (Seedminer)](https://jisagi.github.io/SeedminerGuide/)
-{: .notice--primary}
