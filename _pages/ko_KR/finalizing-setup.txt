@@ -28,8 +28,8 @@ The file `boot.firm` is what is launched by boot9strap itself after it finishes 
 * The latest release of [DSP1](https://github.com/zoogie/DSP1/releases/latest){:target="_blank"}
 * The latest release of [FBI](https://github.com/Steveice10/FBI/releases/latest){:target="_blank"} *(the `.cia` and `.3dsx` files)*
 * The latest release of [Luma3DS Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest){:target="_blank"} *(the `.cia` file)*
-* [`setup_ctrnand_luma3ds.gm9`]({{ "/gm9_scripts/setup_ctrnand_luma3ds.gm9" | absolute_url }}){:download}
-* [`cleanup_sd_card.gm9`]({{ "/gm9_scripts/cleanup_sd_card.gm9" | absolute_url }}){:download}
+* [setup_ctrnand_luma3ds.gm9]({{ "/gm9_scripts/setup_ctrnand_luma3ds.gm9" | absolute_url }}){:download}
+* [cleanup_sd_card.gm9]({{ "/gm9_scripts/cleanup_sd_card.gm9" | absolute_url }}){:download}
 
 ### Instructions
 
@@ -52,12 +52,14 @@ The file `boot.firm` is what is launched by boot9strap itself after it finishes 
 
 1. Create a folder named `payloads` in the `luma` folder on your SD card if it does not already exist
 1. Copy `GodMode9.firm` from the GodMode9 `.zip` to the `/luma/payloads/` folder on your SD card
-1. Delete `ntrboot_flasher.firm` from the `/luma/payloads/` folder on your SD card if it exists
 1. Copy the `gm9` folder from the GodMode9 `.zip` to the root of your SD card
 1. Copy `setup_ctrnand_luma3ds.gm9` to the `/gm9/scripts/` folder on your SD card
 1. Copy `cleanup_sd_card.gm9` to the `/gm9/scripts/` folder on your SD card
 
     ![]({{ "/images/screenshots/finalizing-setup-file-layout.png" | absolute_url }})
+    {: .notice--info}
+    
+    Note that, depending on the method used to install boot9strap, your device's SD card may not have the `soundhax-usa-n3ds.m4a`, `otherapp.bin`, or `safehaxpayload.bin` files from the above screenshot.
     {: .notice--info}
 
 1. SD 카드를 기기에 다시 삽입해 주세요.
