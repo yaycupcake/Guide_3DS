@@ -16,7 +16,7 @@ Purkaaksesi tämän osion `.7z`-tiedostot tarvitset pakkausohjelman, kuten [7-Zi
 
 ### Tarpeet
 
-* Homebrew Launcherin [viimeisin julkaisu](https://github.com/fincs/new-hbmenu/releases)
+* The latest release of [the Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"}
 * SafeB9SInstallerin [viimeisin julkaisu](https://github.com/d0k3/SafeB9SInstaller/releases/latest){:target="_blank"}
 * Boot9strapin [viimeisin julkaisu](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} *(tavallinen boot9strap-tiedosto; ei `devkit`- eikä `ntr`-tiedosto)*
 * Safehaxin [viimeisin julkaisu](https://github.com/TiniVi/safehax/releases/latest){:target="_blank"}

@@ -21,9 +21,6 @@ title: "Начало (Old 3DS)"
 ![]({{ "/images/screenshots/system-version.png" | absolute_url }})
 {: .notice--info}
 
-Если вы обновились с помощью игрового картриджа, содержащего версию 9.9.0 или выше *(то есть ваша версия сейчас 9.9.0 или выше, однако версия браузера -25 или ниже, например - 10.2.0-24)*, браузер был удалён из системы и в этом случае следует воспользоваться колонкой "Без браузера".
-{: .notice--warning}
-
 ### Таблица версий
 
 <table>
@@ -65,21 +62,8 @@ title: "Начало (Old 3DS)"
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">5.0.0</td>
-      <td style="text-align: center; font-weight: bold;">5.1.0</td>
-      <td style="text-align: center; font-weight: bold;">Используйте метод "Все версии"</td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-(browser)">Установка boot9strap (Браузер)</a></td>
-    </tr>
-    <tr>
-      <td style="text-align: center; font-weight: bold;">6.0.0</td>
-      <td style="text-align: center; font-weight: bold;">6.3.0</td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-(mset)">Установка boot9strap (MSET)</a></td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-(browser)">Установка boot9strap (Браузер)</a></td>
-    </tr>
-    <tr>
-      <td style="text-align: center; font-weight: bold;">7.0.0</td>
       <td style="text-align: center; font-weight: bold;">8.1.0</td>
-      <td style="text-align: center; font-weight: bold;">Используйте метод "Все версии"</td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-(browser)">Установка boot9strap (Браузер)</a></td>
+      <td style="text-align: center; font-weight: bold;" colspan="2"><a href="installing-boot9strap-(soundhax)">Установка boot9strap (Soundhax)</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">9.0.0</td>

@@ -18,14 +18,14 @@ Per estrarre i file `.7z` presenti in questa pagina, avrai bisogno di un gestore
 
 Tieni presente che tramite scheda di gioco vengono aggiornate solamente le applicazioni principali del sistema, come le Impostazioni della console, il menu HOME, ecc. Non vengono invece aggiornate le funzionalità come Sound Nintendo 3DS o le funzionalità che necessitano di Internet, come ad esempio il Trasferimento dati, il Browser Internet, la Piazza Mii StreetPass o l'eShop.
 
-Ciò significa che se aggiornate con una scheda di gioco da una versione avente una versione di Sound Nintendo 3DS obsoleta *(<3.0.0)* ad una versione con la stessa applicazione aggiornata, [Soundhax](homebrew-launcher-(soundhax)) non funzionerà! Dovrai utilizzare un [metodo alternativo](homebrew-launcher-(alternatives)) per avviare l'Homebrew Launcher!
+Ciò significa che se aggiorni con una scheda di gioco da una versione avente una versione di Sound Nintendo 3DS obsoleta *(<3.0.0)* ad una versione con la stessa applicazione aggiornata, Soundhax non funzionerà! Dovrai utilizzare un [metodo alternativo](homebrew-launcher-(alternatives)) per installare boot9strap!
 {% endcapture %}
 
 <div class="notice--warning">{{ notice-1 | markdownify }}</div>
 
 ### Cosa serve
 
-* L'ultima versione dell'[Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases)
+* L'ultima versione dell'[Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"}
 * L'ultima versione di [Soundhax](http://soundhax.com/) *(adatta alla tua console e alla tua regione)*
 * L'ultima versione di [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest){:target="_blank"}
 * L'ultima versione di [boot9strap](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} *(la versione normale di boot9strap; non il file `devkit`, né il file `ntr`)*
@@ -69,7 +69,7 @@ Ciò significa che se aggiornate con una scheda di gioco da una versione avente 
     ![]({{ "/images/screenshots/soundhax-launch.png" | absolute_url }})
     {: .notice--info}
 
-1. La console dovrebbe ora avviare l'Homebrew Launcher
+1. Se l'exploit ha avuto successo, la tua console avrà caricato l'Homebrew Launcher
 
     ![]({{ "/images/screenshots/homebrew-launcher.png" | absolute_url }})
     {: .notice--info}

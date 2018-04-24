@@ -18,7 +18,7 @@ If you have a PIN enabled on Luma3DS, SafeB9SInstaller will give you an "OTP Cry
 {: .notice--warning}
 
 {% capture notice-1 %}
-There have been reports of a wave of bans being handed out to CFW users by Nintendo. To protect yourself, please do the following steps before starting this guide:
+据称任天堂大量封禁了使用自制系统（CFW）的用户。 To protect yourself, please do the following steps before starting this guide:
 
 1. Go to System Settings, then "Internet Settings", then "SpotPass", then "Sending of System Information"
 1. Disable the "Sending of System Information" option
@@ -48,7 +48,7 @@ Note that, only on New 3DS, `secret_sector.bin` is needed to revert the arm9load
 * The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} *(standard boot9strap; not the `devkit` file, not the `ntr` file)*
 * The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/latest){:target="_blank"}
 * The latest release of [Luma3DS Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest){:target="_blank"}
-* The latest release of [the Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases){:target="_blank"}
+* The latest release of [the Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"}
 * [setup_ctrnand_luma3ds.gm9]({{ "/gm9_scripts/setup_ctrnand_luma3ds.gm9" | absolute_url }}){:download}
 * [cleanup_sd_card.gm9]({{ "/gm9_scripts/cleanup_sd_card.gm9" | absolute_url }}){:download}
 

@@ -18,14 +18,14 @@ Soundhax совместим с версиями прошивки от 9.0.0 до
 
 Заметьте, что обновление на картридже позволяет обновить только базовые функции консоли, такие как Системные настройки, меню HOME, и т. п. приложение Звук Nintendo 3DS и сетевые функции, такие как Передача данных, Интернет-браузер, Площадь StreetPass Mii или eShop с картриджа не обновляются.
 
-Это означает, что обновление картриджем с версии, содержащей старое приложение Звук Nintendo 3DS *(<3.0.0)*, до версии с новым приложением Звук Nintendo 3DS сделает невозможной работу [Soundhax](homebrew-launcher-(soundhax))! Вам понадобится [альтернативный метод](homebrew-launcher-(alternatives)) запуска Homebrew Launcher!
+Это означает, что обновление картриджем с версии, содержащей старое приложение Звук Nintendo 3DS *(<3.0.0)*, до версии с новым приложением Звук Nintendo 3DS сделает невозможной работу Soundhax! Вам понадобится [альтернативный метод](homebrew-launcher-(alternatives)) установки boot9strap!
 {% endcapture %}
 
 <div class="notice--warning">{{ notice-1 | markdownify }}</div>
 
 ### Что понадобится
 
-* Свежая версия [Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases)
+* Свежая версия [Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"}
 * Свежая версия [Soundhax](http://soundhax.com/) *(для вашего устройства и региона)*
 * Свежая версия [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest){:target="_blank"}
 * Свежая версия [boot9strap](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} *(стандартный boot9strap; не `devkit` файл, не `ntr` файл)*
@@ -69,7 +69,7 @@ Soundhax совместим с версиями прошивки от 9.0.0 до
     ![]({{ "/images/screenshots/soundhax-launch.png" | absolute_url }})
     {: .notice--info}
 
-1. Консоль должна загрузиться в Homebrew Launcher
+1. Если эксплойт сработал корректно, запустится Homebrew Launcher
 
     ![]({{ "/images/screenshots/homebrew-launcher.png" | absolute_url }})
     {: .notice--info}

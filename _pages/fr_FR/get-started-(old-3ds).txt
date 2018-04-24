@@ -21,9 +21,6 @@ La version de votre console peut être trouvée en bas à droite de l'écran sup
 ![]({{ "/images/screenshots/system-version.png" | absolute_url }})
 {: .notice--info}
 
-Si vous avez mis à jour avec une cartouche de jeu contenant la une version 9.9.0 ou supérieure *(c'est à dire que vous avez une version 9.9.0 ou supérieure, mais que votre navigateur est en version -25 ou inférieure comme 10.2.0-24)*, votre navigateur a été supprimé et vous devez suivre la colonne "Sans navigateur".
-{: .notice--warning}
-
 ### Tableau des versions
 
 <table>
@@ -65,21 +62,8 @@ Si vous avez mis à jour avec une cartouche de jeu contenant la une version 9.9.
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">5.0.0</td>
-      <td style="text-align: center; font-weight: bold;">5.1.0</td>
-      <td style="text-align: center; font-weight: bold;">Utilisez une méthode "Toutes les versions"</td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-(browser)">Installation de boot9strap (Navigateur)</a></td>
-    </tr>
-    <tr>
-      <td style="text-align: center; font-weight: bold;">6.0.0</td>
-      <td style="text-align: center; font-weight: bold;">6.3.0</td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-(mset)">Installation de boot9strap (MSET)</a></td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-(browser)">Installation de boot9strap (Navigateur)</a></td>
-    </tr>
-    <tr>
-      <td style="text-align: center; font-weight: bold;">7.0.0</td>
       <td style="text-align: center; font-weight: bold;">8.1.0</td>
-      <td style="text-align: center; font-weight: bold;">Utilisez une méthode "Toutes les versions"</td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-(browser)">Installation de boot9strap (Navigateur)</a></td>
+      <td style="text-align: center; font-weight: bold;" colspan="2"><a href="installing-boot9strap-(soundhax)">Installation de boot9strap (Soundhax)</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">9.0.0</td>

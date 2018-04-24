@@ -21,9 +21,6 @@ Järjestelmäsi versio löytyy yläruudun oikeasta alakulmasta järjestelmäaset
 ![]({{ "/images/screenshots/system-version.png" | absolute_url }})
 {: .notice--info}
 
-Jos päivitit pelikortilla, joka sisältää 9.9.0:n tai sitä uudemman version *(tarkoittaen sitä, että järjestelmän versio on 9.9.0 tai uudempi, mutta selaimesi versio on -25 tai vanhempi, kuten 10.2.0-24)*, selaimesi poistui samalla, ja sinun on käytettävä "Ei selainta" -saraketta.
-{: .notice--warning}
-
 ### Versiotaulukko
 
 <table>
@@ -65,21 +62,8 @@ Jos päivitit pelikortilla, joka sisältää 9.9.0:n tai sitä uudemman version 
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">5.0.0</td>
-      <td style="text-align: center; font-weight: bold;">5.1.0</td>
-      <td style="text-align: center; font-weight: bold;">Käytä kaikille versioille soveltuvaa menetelmää</td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-(browser)">Boot9strapin asentaminen (selain)</a></td>
-    </tr>
-    <tr>
-      <td style="text-align: center; font-weight: bold;">6.0.0</td>
-      <td style="text-align: center; font-weight: bold;">6.3.0</td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-(mset)">Boot9strapin asentaminen (MSET)</a></td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-(browser)">Boot9strapin asentaminen (selain)</a></td>
-    </tr>
-    <tr>
-      <td style="text-align: center; font-weight: bold;">7.0.0</td>
       <td style="text-align: center; font-weight: bold;">8.1.0</td>
-      <td style="text-align: center; font-weight: bold;">Käytä kaikille versioille soveltuvaa menetelmää</td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-(browser)">Boot9strapin asentaminen (selain)</a></td>
+      <td style="text-align: center; font-weight: bold;" colspan="2"><a href="installing-boot9strap-(soundhax)">Installing boot9strap (Soundhax)</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">9.0.0</td>

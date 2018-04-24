@@ -43,7 +43,7 @@ For all versions you can also [Cartridge Update](cart-update) (or use a standard
     <tr>
       <td style="text-align: center; font-weight: bold;">8.1.0</td>
       <td style="text-align: center; font-weight: bold;">8.1.0</td>
-      <td style="text-align: center; font-weight: bold;"><a href="ntr-and-cubic-ninja">NTR and Cubic Ninja</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-(soundhax)">Installing boot9strap (Soundhax)</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">9.0.0</td>

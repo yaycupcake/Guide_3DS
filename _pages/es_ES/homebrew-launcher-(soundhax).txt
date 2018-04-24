@@ -18,14 +18,14 @@ Para extraer los archivos `.7z` enlazados esta página, necesitarás un gestor d
 
 Ten en cuenta que las actualizaciones con cartucho sólo actualizarán los elementos claves de la versión, como la Configuración de la consola, el menú HOME, etc. las actualizaciones por cartucho no afectarán a Nintendo 3DS Sound ni a funcionalidades en línea, como la Transferencia de Sistema, el Navegador de internet, la Plaza Mii o la eShop.
 
-¡Esto significa que actualizar mediante cartucho a una versión que contenga una versión más antigua de Nintendo 3DS Sound *(<3.0.0)* a una que introdujo una versión más nueva de Nintendo 3DS Sound hará que [Soundhax](homebrew-launcher-(soundhax)) deje de funcionar! ¡Necesitarás un [método alternativo](homebrew-launcher-(alternatives)) para entrar al Homebrew Launcher!
+¡Esto significa que actualizar mediante cartucho a una versión que contenga una versión más antigua de Nintendo 3DS Sound *(<3.0.0)* a una que introdujo una versión más nueva de Nintendo 3DS Sound hará que Soundhax deje de funcionar! You will need an [alternate method](homebrew-launcher-(alternatives)) of installing boot9strap!
 {% endcapture %}
 
 <div class="notice--warning">{{ notice-1 | markdownify }}</div>
 
 ### Qué necesitas
 
-* La última versión [del Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases)
+* La última versión de [The Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"}
 * La última versión de [Soundhax](http://soundhax.com/) *(correspondiente a tu consola y región)*
 * La última versión de [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest){:target="_blank"}
 * La última versión de [boot9strap](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} *(boot9strap normal; no el archivo `devkit` ni el archivo `ntr`)*
@@ -69,7 +69,7 @@ Ten en cuenta que las actualizaciones con cartucho sólo actualizarán los eleme
     ![]({{ "/images/screenshots/soundhax-launch.png" | absolute_url }})
     {: .notice--info}
 
-1. Tu consola debería cargar el Homebrew Launcher
+1. Si el exploit fue exitoso, tu consola habrá cargado el Hombrew Launcher
 
     ![]({{ "/images/screenshots/homebrew-launcher.png" | absolute_url }})
     {: .notice--info}

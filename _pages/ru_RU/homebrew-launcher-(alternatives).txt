@@ -16,7 +16,7 @@ Homebrew Launcher имеет множество точек входа, или м
 
 ### Что понадобится
 
-* Свежая версия [Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases)
+* Свежая версия [Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"}
 * Свежая версия [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest){:target="_blank"}
 * Свежая версия [boot9strap](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} *(стандартный boot9strap; не `devkit` файл, не `ntr` файл)*
 * Свежая версия [safehax](https://github.com/TiniVi/safehax/releases/latest){:target="_blank"}

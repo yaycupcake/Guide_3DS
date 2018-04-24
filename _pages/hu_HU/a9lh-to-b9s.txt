@@ -48,7 +48,7 @@ Vedd figyelembe, hogy New 3DS esetében a `secret_sector.bin` fájlra az arm9loa
 * A [boot9strap](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} legújabb kiadása *(a sima boot9strap; nem a `devkit` fájl, nem az `ntr` fájl)*
 * A [GodMode9](https://github.com/d0k3/GodMode9/releases/latest){:target="_blank"} legújabb kiadása
 * A [Luma3DS Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest){:target="_blank"} legújabb kiadása
-* A [Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases){:target="_blank"} legújabb kiadása
+* A [Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"} legújabb kiadása
 * [setup_ctrnand_luma3ds.gm9]({{ "/gm9_scripts/setup_ctrnand_luma3ds.gm9" | absolute_url }}){:download}
 * [cleanup_sd_card.gm9]({{ "/gm9_scripts/cleanup_sd_card.gm9" | absolute_url }}){:download}
 

@@ -1,0 +1,87 @@
+---
+title: "Installing boot9strap (Soundhax)"
+---
+
+{% include toc title="Sisällysluettelo" %}
+
+### Tärkeää tietoa
+
+Jos olet jo hakkeroinut konsolisi aikaisemmin, ja sinulla on EmuNAND-pohjainen CFW-kokoonpano, ota huomioon, että nämä ohjeet koskevat ainoastaan SysNANDia, joten sinun tulisi seurata ohjeita sen mukaisesti. Huomaa, että termit EmuNAND ja RedNAND viittaavat [saman konseptin](http://3dbrew.org/wiki/NAND_Redirection) kahteen hiukan erilaiseen toteutukseen.
+
+Soundhax (when combined with pre9otherapp) is compatible with versions 5.0.0 through 8.1.0 in the EUR, JPN, KOR, and USA regions.
+
+Purkaaksesi tämän osion `.7z`-tiedostot tarvitset pakkausohjelman, kuten [7-Zip](http://www.7-zip.org/)in tai [The Unarchiver](https://theunarchiver.com/)in.
+
+{% capture notice-1 %}
+
+Huomaa, että korttipäivitykset tuovat päivityksiä vain konsolin ydinominaisuuksiin, kuten järjestelmäasetuksiin, HOME-valikkoon jne. Korttipäivitykset eivät tuo päivityksiä Nintendo 3DS Soundiin eivätkä verkko-ominaisuuksiin, kuten tiedonsiirtosovellukseen, selaimeen, StreetPass Mii Plazaan tai eShopiin.
+
+Tämä tarkoittaa sitä, että [SoundHax](homebrew-launcher-(soundhax))in toiminnallisuus rikkoutuu, jos teet korttipäivityksen vanhemman Nintendo 3DS Soundin *(>3.0.0)* sisältävältä versiolta uudemman Nintendo 3DS Soundin sisältävälle versiolle! You will need an [alternate method](installing-boot9strap-(mset)) of entering the Homebrew Launcher!
+{% endcapture %}
+
+<div class="notice--warning">{{ notice-1 | markdownify }}</div>
+
+### Tarpeet
+
+* SoundHaxin [viimeisin julkaisu](http://soundhax.com/) *(konsolisi mallin ja alueen mukainen)*
+* SafeB9SInstallerin [viimeisin julkaisu](https://github.com/d0k3/SafeB9SInstaller/releases/latest){:target="_blank"}
+* Boot9strapin [viimeisin julkaisu](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} *(tavallinen boot9strap-tiedosto; ei `devkit`- eikä `ntr`-tiedosto)*
+* Luma3DS:n [viimeisin julkaisu](https://github.com/AuroraWright/Luma3DS/releases/latest){:target="_blank"} *(`.7z`-tiedosto)*
+* The latest release of [the Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"}
+* The latest release of [pre9otherapp](https://github.com/Pirater12/otherapp/releases/latest){:target="_blank"}
+
+### Ohjeet
+
+#### Vaihe I – Valmistelut
+
+1. Sammuta konsolisi
+1. Aseta SD-korttisi tietokoneeseesi
+1. Kopioi SoundHax-`.m4a`-tiedosto SD-korttisi juureen
+1. Copy `otherapp.bin` to the root of your SD card
+1. Kopioi Luma3DS-`.7z`-pakkauksesta `boot.firm` SD-korttisi juureen
+1. Kopioi `boot.3dsx` SD-korttisi juureen
+1. Luo `boot9strap`-niminen kansio SD-korttisi juureen
+1. Kopioi boot9strap-`.zip`-pakkauksesta `boot9strap.firm` ja `boot9strap.firm.sha` SD-korttisi `/boot9strap/`-kansioon
+1. Copy `arm9.bin` from the SafeB9SInstaller `.zip` to the root of your SD card
+1. Aseta SD-korttisi takaisin konsoliisi
+1. Käynnistä konsolisi
+
+#### Vaihe II – SafeB9SInstallerin avaaminen
+
+1. Aseta SD-korttisi takaisin konsoliisi
+1. Käynnistä konsolisi
+1. Avaa Nintendo 3DS Sound
+
+    ![]({{ "/images/screenshots/soundhax-welcome.png" | absolute_url }})
+    {: .notice--info}
+
+1. Jos et ole koskaan aikaisemmin avannut Nintendo 3DS Soundia ja sovellus näyttää sinulle käyttövinkkejä, käy kaikki vinkit läpi, sulje sitten sovellus normaalisti ja avaa se uudelleen
+  + Jos et käy vinkkejä läpi ennen SoundHaxin suorittamista, näkyvät ne uudestaan joka kerralla kun avaat Nintendo 3DS Soundin
+1. Mene hakemistoon `/SDCARD` ja toista tiedosto "<3 nedwill 2016"
+  + Tämä saattaa vaatia useita yrityksiä
+  + Jos ohjelma jumiutuu, pakota konsoli sulkeutumaan pitämällä virtapainiketta pohjassa ja yritä sitten uudelleen
+
+    ![]({{ "/images/screenshots/soundhax-launch.png" | absolute_url }})
+    {: .notice--info}
+
+1. Jos haavoittuvuuden hyödyntäminen onnistui, SafeB9SInstallerin pitäisi avautua
+
+#### Vaihe III – Boot9strapin asentaminen
+
+1. Odota, kunnes kaikki turvatarkistukset on suoritettu
+1. Syötä kehotettaessa annettu painikeyhdistelmä asentaaksesi boot9strapin
+1. Kun toiminto on suoritettu, paina (A):ta käynnistääksesi konsolisi uudelleen
+
+#### Vaihe IV – Luma3DS:n määrittäminen
+
+1. Konsolisi pitäisi uudelleenkäynnistyä suoraan Luma3DS:n määritysvalikkoon
+  + Jos saat mustan ruudun, [seuraa tätä vianmääritysohjetta](troubleshooting#musta-ruutu-boot9strapin-asentamisen-jälkeen-kun-sysnand-on-käynnistetty)
+1. Käytä (A):ta ja ristiohjainta ottaaksesi seuraavat asetukset käyttöön:    
+  + **"Show NAND or user string in System Settings"**
+1. Paina (START)-painiketta tallentaaksesi ja käynnistääksesi uudelleen
+  + Jos saat virheen, jatka vain seuraavaan osioon
+
+___
+
+### Jatka osioon [Asennuksen viimeistely](finalizing-setup)
+{: .notice--primary}

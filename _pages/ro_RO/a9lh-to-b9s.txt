@@ -48,7 +48,7 @@ Au existat rapoarte despre un val de banuri adresate utilizatorilor de CFW de c�
 * Cea mai nouă versiune de [boot9strap](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} *(boot9strap standard; nu fișierul `devkit`, nici cel `ntr`)*
 * Cea mai recentă versiune de [GodMode9](https://github.com/d0k3/GodMode9/releases/latest){:target="_blank"}
 * Ultima versiune de [Luma3DS Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest){:target="_blank"}
-* Ultima versiune [de Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases){:target="_blank"}
+* The latest release of [the Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"}
 * [setup_ctrnand_luma3ds.gm9]({{ "/gm9_scripts/setup_ctrnand_luma3ds.gm9" | absolute_url }}){:download}
 * [cleanup_sd_card.gm9]({{ "/gm9_scripts/cleanup_sd_card.gm9" | absolute_url }}){:download}
 

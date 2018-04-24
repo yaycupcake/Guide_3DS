@@ -18,14 +18,14 @@ Purkaaksesi tämän osion `.7z`-tiedostot tarvitset pakkausohjelman, kuten [7-Zi
 
 Huomaa, että korttipäivitykset tuovat päivityksiä vain konsolin ydinominaisuuksiin, kuten järjestelmäasetuksiin, HOME-valikkoon jne. Korttipäivitykset eivät tuo päivityksiä Nintendo 3DS Soundiin eivätkä verkko-ominaisuuksiin, kuten tiedonsiirtosovellukseen, selaimeen, StreetPass Mii Plazaan tai eShopiin.
 
-Tämä tarkoittaa sitä, että [SoundHax](homebrew-launcher-(soundhax))in toiminnallisuus rikkoutuu, jos teet korttipäivityksen vanhemman Nintendo 3DS Soundin *(>3.0.0)* sisältävältä versiolta uudemman Nintendo 3DS Soundin sisältävälle versiolle! Tarvitset [vaihtoehtoisen tavan](homebrew-launcher-(alternatives)) Homebrew Launcherin avaamiseen!
+This means that using a cartridge update from a version containing an older Nintendo 3DS Sound version *(<3.0.0)* to one that introduced a newer Nintendo 3DS Sound version will break Soundhax! You will need an [alternate method](homebrew-launcher-(alternatives)) of installing boot9strap!
 {% endcapture %}
 
 <div class="notice--warning">{{ notice-1 | markdownify }}</div>
 
 ### Tarpeet
 
-* Homebrew Launcherin [viimeisin julkaisu](https://github.com/fincs/new-hbmenu/releases)
+* The latest release of [the Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"}
 * SoundHaxin [viimeisin julkaisu](http://soundhax.com/) *(konsolisi mallin ja alueen mukainen)*
 * SafeB9SInstallerin [viimeisin julkaisu](https://github.com/d0k3/SafeB9SInstaller/releases/latest){:target="_blank"}
 * Boot9strapin [viimeisin julkaisu](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} *(tavallinen boot9strap-tiedosto; ei `devkit`- eikä `ntr`-tiedosto)*
@@ -69,7 +69,7 @@ Tämä tarkoittaa sitä, että [SoundHax](homebrew-launcher-(soundhax))in toimin
     ![]({{ "/images/screenshots/soundhax-launch.png" | absolute_url }})
     {: .notice--info}
 
-1. Konsolisi pitäisi avata Homebrew Launcher
+1. If the exploit was successful, your device will have loaded the Homebrew Launcher
 
     ![]({{ "/images/screenshots/homebrew-launcher.png" | absolute_url }})
     {: .notice--info}

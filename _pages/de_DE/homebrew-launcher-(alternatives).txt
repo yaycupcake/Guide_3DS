@@ -16,7 +16,7 @@ To extract the `.7z` files linked on this page, you will need a file archiver li
 
 ### What You Need
 
-* Die neuste Version des [Homebrew Launchers](https://github.com/fincs/new-hbmenu/releases)
+* The latest release of [the Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"}
 * Die neuste Version von [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest){:target="_blank"}
 * Die neuste Version von [boot9strap](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} *(standard boot9strap; nicht die `devkit` Datei, nicht die`ntr` Datei)*
 * Die neuste Version von [safehax](https://github.com/TiniVi/safehax/releases/latest){:target="_blank"}

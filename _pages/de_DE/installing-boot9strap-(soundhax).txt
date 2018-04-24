@@ -1,0 +1,87 @@
+---
+title: "Installing boot9strap (Soundhax)"
+---
+
+{% include toc title="Inhalt" %}
+
+### Lesen erforderlich
+
+Falls du bereits deinen 3DS zuvor gehackt hast und eine EmuNAND basierte CFW installiert ist: Diese Anleitung behandelt nur das SysNAND und alle Schritte sollten nur innerhalb des SysNANDs ausgeführt/angewendet werden. Beachte, dass die Begriffe EmuNAND und RedNAND sich auf leicht unterschiedliche Implementierungen [des selben Konzepts](http://3dbrew.org/wiki/NAND_Redirection) beziehen.
+
+Soundhax (when combined with pre9otherapp) is compatible with versions 5.0.0 through 8.1.0 in the EUR, JPN, KOR, and USA regions.
+
+To extract the `.7z` files linked on this page, you will need a file archiver like [7-Zip](http://www.7-zip.org/) or [The Unarchiver](https://theunarchiver.com/).
+
+{% capture notice-1 %}
+
+Note that cartridge updates will only deliver updates to core features, such as the System Settings, Home Menu, etc. cartridge updates will not deliver updates to Nintendo 3DS Sound and Network features, such as System Transfer, Internet Browser, StreetPass Mii Plaza, or eShop.
+
+This means that using a cartridge update from a version containing an older Nintendo 3DS Sound version *(<3.0.0)* to one that introduced a newer Nintendo 3DS Sound version will break [Soundhax](homebrew-launcher-(soundhax))! You will need an [alternate method](installing-boot9strap-(mset)) of entering the Homebrew Launcher!
+{% endcapture %}
+
+<div class="notice--warning">{{ notice-1 | markdownify }}</div>
+
+### What You Need
+
+* Die neueste Version von [Soundhax](http://soundhax.com/) *(für deine Konsole und deine Region)*
+* Die neuste Version von [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest){:target="_blank"}
+* Die neuste Version von [boot9strap](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} *(standard boot9strap; nicht die `devkit` Datei, nicht die`ntr` Datei)*
+* Die neueste Version von [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(die `.7z`-Datei)*
+* The latest release of [the Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"}
+* The latest release of [pre9otherapp](https://github.com/Pirater12/otherapp/releases/latest){:target="_blank"}
+
+### Anleitung
+
+#### Schritt I - Vorbereitungen
+
+1. Schalte deinen 3DS aus
+1. Stecke deine SD-Karte in deinen Computer
+1. Kopiere die Soundhax`.m4a` in das Stammverzeichnis der SD-Karte
+1. Copy `otherapp.bin` to the root of your SD card
+1. Kopiere die Datei `boot.firm` aus der Luma3DS `.7z` in das Stammverzeichnis deiner SD-Karte
+1. Kopiere die `boot.3dsx`-Datei in das Stammverzeichnis deiner SD-Karte
+1. Erstelle einen Ordner namens `boot9strap` im Stammverzeichnis deiner SD-Karte
+1. Kopiere `boot9strap.firm` und `boot9strap.firm.sha` aus der boot9strap `.zip` in den `/boot9strap/`-Ordner auf deiner SD-Karte
+1. Copy `arm9.bin` from the SafeB9SInstaller `.zip` to the root of your SD card
+1. Stecke deine SD-Karte nun wieder in deinen 3DS
+1. Schalte deine Konsole an
+
+#### Section II - Launching SafeB9SInstaller
+
+1. Stecke deine SD-Karte nun wieder in deinen 3DS
+1. Schalte deine Konsole an
+1. Starte die Nintendo 3DS Sound App
+
+    ![]({{ "/images/screenshots/soundhax-welcome.png" | absolute_url }})
+    {: .notice--info}
+
+1. Wenn sie noch nie den Nintendo 3DS Sound geöffnet haben, schauen sie sich die Tipps an, wie man es benutzt. Die Tipps erhalten sie wenn sie auf das Vogel-Symbol klicken. Gucken sie alle Tipps an, schließen sie danach die App, und starten sie wieder erneut
+  + In dieser Situation würde das Starten von Soundhax sofort dazu führen, dass diese Tipps, bei jedem Start des Nintendo 3DS Sound angezeigt werden, bis dies geschehen ist
+1. Gehe zu `/SDCARD` und spiele die Datei "<3 nedwill 2016" ab
+  + Dies kann einige Versuche benötigen
+  + Wenn sich deine Konsole aufhängt, schalte sie durch langes halten des Power-Knopfes aus, und versuche es erneut
+
+    ![]({{ "/images/screenshots/soundhax-launch.png" | absolute_url }})
+    {: .notice--info}
+
+1. Wenn der Exploit erfolgreich war, wird nun direkt zum SafeBS9Installer gebootet
+
+#### Section III - Installing boot9strap
+
+1. Warte auf alle Sicherheitsüberprüfungen
+1. Gib die Tastenkombination zur Bestätigung ein, wenn danach verlangt wird
+1. Sobald dies abgeschlossen ist drücke (A) um das Gerät neuzustarten
+
+#### Section IV - Configuring Luma3DS
+
+1. Dein Gerät sollte neu starten und die Luma3DS Konfiguration anzeigen
+  + If you get a black screen, [follow this troubleshooting guide](troubleshooting#black-screen-on-sysnand-boot-after-installing-boot9strap)
+1. Benutze den (A) Knopf und das Steuerkreuz, um Folgendes zu aktivieren:    
+  + **"Show NAND or user string in System Settings"**
+1. Drücke (Start) zum Speichern und neustarten
+  + Falls ein Fehler angezeigt wird, fahre einfach mit der nächsten Seite fort
+
+___
+
+### Continue to [Finalizing Setup](finalizing-setup)
+{: .notice--primary}

@@ -17,7 +17,7 @@ Per estrarre i file `.7z` presenti in questa pagina, avrai bisogno di un gestore
 * L'ultima versione di [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest){:target="_blank"}
 * L'ultima versione di [boot9strap](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} *(la versione normale di boot9strap; non il file `devkit`, né il file `ntr`)*
 * L'ultima versione di [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest){:target="_blank"} *(il file `.7z`)*
-* L'ultima versione dell'[Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases)
+* L'ultima versione dell'[Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"}
 
 ### Istruzioni
 
@@ -45,7 +45,7 @@ Per estrarre i file `.7z` presenti in questa pagina, avrai bisogno di un gestore
 1. Inserisci la flashcart nella tua console
 1. Posiziona il magnete sulla console per attivare il sensore della modalità riposo
   + Su Old 2DS, devi invece attivare la levetta della modalità riposo
-1. Hold (Start) + (Select) + (X) + (Power) for several seconds, then release the buttons
+1. Tieni premuto i pulsanti (Start) + (Select) + (X) + (Accensione) per alcuni secondi, quindi rilascia i pulsanti
   + Data la complessita dell'operazione, potrebbero volerci più tentativi
 1. Se l'exploit è andato a buon fine, si avvierà SafeB9SInstaller
 

@@ -21,9 +21,6 @@ La versión de tu consola puede verse en la esquina inferior derecha de la panta
 ![]({{ "/images/screenshots/system-version.png" | absolute_url }})
 {: .notice--info}
 
-Si actualizaste con un cartucho que contiene la versión 9.9.0 o superior *(Por tanto tu versión es la 9.9.0 o mayor pero tu navegador está en la versión -25 o menor, por ejemplo, 10.2.0-24)*, tu navegador fue eliminado y tendrás que usar la columna "Sin Navegador".
-{: .notice--warning}
-
 ### Tabla de versiones
 
 <table>
@@ -65,21 +62,8 @@ Si actualizaste con un cartucho que contiene la versión 9.9.0 o superior *(Por 
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">5.0.0</td>
-      <td style="text-align: center; font-weight: bold;">5.1.0</td>
-      <td style="text-align: center; font-weight: bold;">Utiliza un método para "Todas las versiones"</td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-(browser)">Instalar boot9strap (Navegador)</a></td>
-    </tr>
-    <tr>
-      <td style="text-align: center; font-weight: bold;">6.0.0</td>
-      <td style="text-align: center; font-weight: bold;">6.3.0</td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-(mset)">Instalar boot9strap (MSET)</a></td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-(browser)">Instalar boot9strap (Navegador)</a></td>
-    </tr>
-    <tr>
-      <td style="text-align: center; font-weight: bold;">7.0.0</td>
       <td style="text-align: center; font-weight: bold;">8.1.0</td>
-      <td style="text-align: center; font-weight: bold;">Utiliza un método para "Todas las versiones"</td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-(browser)">Instalar boot9strap (Navegador)</a></td>
+      <td style="text-align: center; font-weight: bold;" colspan="2"><a href="installing-boot9strap-(soundhax)">Instalar boot9strap (Soundhax)</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">9.0.0</td>

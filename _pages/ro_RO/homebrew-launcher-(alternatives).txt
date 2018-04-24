@@ -16,7 +16,7 @@ Pentru a extrage fişierele `.7z` de pe această pagină, veţi avea nevoie de u
 
 ### Ce aveți nevoie
 
-* Ultima versiune [de Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases)
+* The latest release of [the Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"}
 * Cea mai recentă versiune de [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest){:target="_blank"}
 * Cea mai nouă versiune de [boot9strap](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} *(boot9strap standard; nu fișierul `devkit`, nici cel `ntr`)*
 * Cea mai recentă versiune de [safehax](https://github.com/TiniVi/safehax/releases/latest){:target="_blank"}

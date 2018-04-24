@@ -23,7 +23,7 @@ Aceasta va funcționa pe New 3DS, New 2DS, Old 3DS și Old 2DS pe *toate* versiu
 * Cea mai recentă versiune de [hardmod-b9s-installer](https://github.com/ihaveamac/hardmod-b9s-installer/releases/latest){:target="_blank"}
   + Utilizatorii Windows pot folosi fișierul compilat `.exe`, în timp ce utilizatori de Mac și Linux vor avea nevoie de [Python 3](https://www.python.org/downloads/) instalat ca să poată rula `.py`
 * Cea mai nouă versiune de [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest){:target="_blank"} *(fișierul `.7z`)*
-* Ultima versiune [de Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases)
+* The latest release of [the Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"}
 * Fișierul `.firm` corespunzător cu dispozitivul și versiunea dumneavoastră:
 
 | Versiune(i) | Kernel | Old 3DS sau Old 2DS| New 3DS sau New 2DS |

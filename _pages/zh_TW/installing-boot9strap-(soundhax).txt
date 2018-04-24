@@ -1,0 +1,87 @@
+---
+title: "Installing boot9strap (Soundhax)"
+---
+
+{% include toc title="條目內容" %}
+
+### 必讀事項
+
+如果您先前已改機過，且已安裝基於 EmuNAND 的自製系統－請注意，本教學是專門用來處理 SysNAND 的。您應在閱讀本手冊時在 SysNAND 中操作，或將其套用至 SysNAND 中。 注意 EmuNAND 與 RedNAND 指的是些微不同運作方式但[同樣道理](http://3dbrew.org/wiki/NAND_Redirection)的用語。
+
+Soundhax (when combined with pre9otherapp) is compatible with versions 5.0.0 through 8.1.0 in the EUR, JPN, KOR, and USA regions.
+
+要解壓此頁面中的`.7z`檔案，您將需要一個壓縮檔管理員，如 [7-Zip](http://www.7-zip.org/) 或 [The Unarchiver](https://theunarchiver.com/)。
+
+{% capture notice-1 %}
+
+請注意，卡帶更新只會更新系統的核心組件，像是系統設定、HOME 主選單等。 卡帶更新不會更新『任天堂 3DS 音樂 (Nintendo 3DS Sound)』程式或是線上下載的功能，如軟體和資料轉移、網頁瀏覽器、擦身通信 Mii 廣場、或是電子商店 (eShop)。
+
+這也就是說，如果本身系統版本有安裝較舊版的『任天堂 DS 音樂 (Nintendo 3DS Sound)』程式 *(低於 <3.0.0 之版本)* 且透過含有較新版本音樂撥放器的卡帶進行更新，[Soundhax](homebrew-launcher-(soundhax)) 漏洞將無法正常執行！ You will need an [alternate method](installing-boot9strap-(mset)) of entering the Homebrew Launcher!
+{% endcapture %}
+
+<div class="notice--warning">{{ notice-1 | markdownify }}</div>
+
+### 必備項目
+
+* 最新版的 [Soundhax](http://soundhax.com/) *(選擇對應您主機的區域及型號的檔案)*
+* 最新版的 [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest){:target="_blank"}
+* 最新版的 [boot9strap](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} *(正常版的 boot9strap；非 `devkit` 或 `ntr` 檔案)*
+* 最新版的 [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest){:target="_blank"} *(`.7z` 檔案)*
+* The latest release of [the Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"}
+* The latest release of [pre9otherapp](https://github.com/Pirater12/otherapp/releases/latest){:target="_blank"}
+
+### 操作說明
+
+#### 第一節 — 準備工作
+
+1. 關閉您的主機
+1. 將 SD 卡插入電腦中
+1. 複製 Soundhax `.m4a` 至 SD 卡的根目錄底下
+1. Copy `otherapp.bin` to the root of your SD card
+1. 解壓 Luma3DS `.7z` 內的 `boot.firm` 到 SD 卡的根目錄底下
+1. 將 `boot.3dsx` 複製到 SD 卡根目錄中
+1. 在 SD 卡的根目錄底下建立一個新的資料夾 `boot9strap`
+1. 解壓 boot9strap `.zip` 的 `boot9strap.firm` 及 `boot9strap.firm.sha` 檔案至 SD 卡的 `/boot9strap/` 資料夾中
+1. Copy `arm9.bin` from the SafeB9SInstaller `.zip` to the root of your SD card
+1. 將 SD 卡插回主機中
+1. 啟動您的主機
+
+#### 第二節 — 啟動 SafeB9SInstaller
+
+1. 將 SD 卡插回主機中
+1. 啟動您的主機
+1. 啟動『任天堂 3DS 音樂(Nintendo 3DS Sound)』程式
+
+    ![]({{ "/images/screenshots/soundhax-welcome.png" | absolute_url }})
+    {: .notice--info}
+
+1. 如果您從未開啟過音樂撥放器或曾未聽過撥放器內鳥的提示，請一一略過鳥的提示，並關閉及重啟本程式
+  + 在這情況下，如果直接啟動 Soundhax，這些提示每次都會跳出來；除非您先跳過提示，然後再正常重新啟動播放程式
+1. 選擇『/SDCARD』，並播放『<3 nedwill 2016』
+  + 可能需要嘗試多次
+  + 如果當機的話，透過電源按鈕將您的主機強制關機，並再試一次
+
+    ![]({{ "/images/screenshots/soundhax-launch.png" | absolute_url }})
+    {: .notice--info}
+
+1. 如果一切成功的話，您將自動進入 SafeB9SInstaller
+
+#### 第三節 — 安裝 boot9strap
+
+1. 等待所有安全性檢查完畢
+1. 出現提示時，輸入提示的按鍵組合以安裝 boot9strap
+1. 過程結束後，按下『A』重啟主機
+
+#### 第四節 — 設定 Luma3DS
+
+1. 您的主機將會重啟至 Luma3DS 設定選單中
+  + 如果黑屏，[請依循本疑難排解之步驟](troubleshooting#black-screen-on-sysnand-boot-after-installing-boot9strap)
+1. 透過方向鍵及『A』以開啟下列選項：    
+  + **『Show NAND or user string in System Settings』**
+1. 按『Start』鍵以存檔並重新啟動系統
+  + 如果您遇到了錯誤訊息，繼續到下一頁即可
+
+___
+
+### 繼續至[完成安裝](finalizing-setup)
+{: .notice--primary}

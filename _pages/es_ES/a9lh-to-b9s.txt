@@ -48,7 +48,7 @@ Ten en cuenta que sólo en la New 3DS, `secret_sector.bin` es requerido para rev
 * La última versión de [boot9strap](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} *(boot9strap normal; no el archivo `devkit` ni el archivo `ntr`)*
 * La última versión de [GodMode9](https://github.com/d0k3/GodMode9/releases/latest){:target="_blank"}
 * La última versión de [Luma3DS Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest){:target="_blank"}
-* La última versión [del Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases){:target="_blank"}
+* La última versión de [The Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"}
 * [setup_ctrnand_luma3ds.gm9]({{ "/gm9_scripts/setup_ctrnand_luma3ds.gm9" | absolute_url }}){:download}
 * [cleanup_sd_card.gm9]({{ "/gm9_scripts/cleanup_sd_card.gm9" | absolute_url }}){:download}
 

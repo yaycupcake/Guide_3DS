@@ -18,14 +18,14 @@ Pour extraire les fichiers `.7z` sur cette page, vous aurez besoin d'un programm
 
 Les mises à jour par cartouche vont mettre uniquement à jour les fonctionnalités principales telles que les Paramètres Systèmes, le Menu Home, etc. les mises à jour par cartouche ne vont pas mettre à jour le Studio Son Nintendo 3DS et les fonctionnalités Internet comme le Transfert Système, le Navigateur Internet, la Place Mii Streetpass ou le Nintendo eShop.
 
-Cela signifie que l’utilisation d’une mise à jour via cartouche depuis une version contenant une ancienne version du Studio Son 3DS *(< 3.0.0)* à une autre qui a introduit une version plus récente du Studio Son 3DS cassera [Soundhax](homebrew-launcher-(soundhax)) ! Vous aurez besoin d'une [méthode alternative](homebrew-launcher-(alternatives)) pour entrer dans l'Homebrew Launcher!
+Cela signifie que l’utilisation d’une mise à jour via cartouche depuis une version contenant une ancienne version du Studio Son 3DS *(< 3.0.0)* à une autre qui a introduit une version plus récente du Studio Son 3DS cassera Soundhax ! Vous aurez besoin d'une [méthode alternative](homebrew-launcher-(alternatives)) afin d'installer boot9strap !
 {% endcapture %}
 
 <div class="notice--warning">{{ notice-1 | markdownify }}</div>
 
 ## Ce dont vous avez besoin
 
-* La dernière version de [Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases)
+* La dernière version de [Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"}
 * La dernière version de [Soundhax](http://soundhax.com/) *(en fonction du modèle de votre console et de sa région)*
 * La dernière version de [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest){:target="_blank"}
 * La dernière version de [boot9strap](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} *(boot9strap standard, pas le fichier `devkit` ni le fichier `ntr`)*
@@ -69,7 +69,7 @@ Cela signifie que l’utilisation d’une mise à jour via cartouche depuis une 
     ![]({{ "/images/screenshots/soundhax-launch.png" | absolute_url }})
     {: .notice--info}
 
-1. Votre console devrait maintenant charger le Homebrew Launcher
+1. Si l'exploit a réussi, votre console devrait avoir démarré l'Homebrew Launcher
 
     ![]({{ "/images/screenshots/homebrew-launcher.png" | absolute_url }})
     {: .notice--info}

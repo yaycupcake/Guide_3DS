@@ -1,0 +1,87 @@
+---
+title: "Installing boot9strap (Soundhax)"
+---
+
+{% include toc title="תוכן העניינים" %}
+
+### קריאה דרושה
+
+אם המכשיר שלכם כבר פרוץ עם EmuNAND, המדריך הזה עוסק רק בSysNAND. תבצעו את ההוראות על SysNAND. Emunand וRednand כמעט מונחים נרדפים.
+
+Soundhax (when combined with pre9otherapp) is compatible with versions 5.0.0 through 8.1.0 in the EUR, JPN, KOR, and USA regions.
+
+To extract the `.7z` files linked on this page, you will need a file archiver like [7-Zip](http://www.7-zip.org/) or [The Unarchiver](https://theunarchiver.com/).
+
+{% capture notice-1 %}
+
+Note that cartridge updates will only deliver updates to core features, such as the System Settings, Home Menu, etc. cartridge updates will not deliver updates to Nintendo 3DS Sound and Network features, such as System Transfer, Internet Browser, StreetPass Mii Plaza, or eShop.
+
+This means that using a cartridge update from a version containing an older Nintendo 3DS Sound version *(<3.0.0)* to one that introduced a newer Nintendo 3DS Sound version will break [Soundhax](homebrew-launcher-(soundhax))! You will need an [alternate method](installing-boot9strap-(mset)) of entering the Homebrew Launcher!
+{% endcapture %}
+
+<div class="notice--warning">{{ notice-1 | markdownify }}</div>
+
+### What You Need
+
+* הגרסה העדכנית של [Soundhax](http://soundhax.com/) *(למכשיר ואזור שלכם)*
+* The latest release of [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest){:target="_blank"}
+* The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} *(standard boot9strap; not the `devkit` file, not the `ntr` file)*
+* The latest release of [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest){:target="_blank"} *(the `.7z` file)*
+* The latest release of [the Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"}
+* The latest release of [pre9otherapp](https://github.com/Pirater12/otherapp/releases/latest){:target="_blank"}
+
+### הנחיות
+
+#### חלק I - הכנות
+
+1. תכבו את המכשיר
+1. תכניסו את ה-SD שלכם למחשב
+1. תעתיקו את קובץ האודיו עם סיומת "M4A" שמתאים לקונסולה שלכם ל-SD
+1. Copy `otherapp.bin` to the root of your SD card
+1. תעתיקו את הקובץ `boot.firm` מתוך ה`.7z` של Luma3DS לתוך ה-SD שלכם
+1. תעתיקו את `boot.3dsx` אל שורש כרטיס ה SD
+1. תצרו ב-SD שלכם תיקייה חדשה בשם `boot9strap`
+1. תעתיקו את`boot9strap.firm` ואת `boot9strap.firm.sha` מה `.zip` של boot9strap אל תיקיית `/boot9strap/`על כרטיס הSD שלכם
+1. Copy `arm9.bin` from the SafeB9SInstaller `.zip` to the root of your SD card
+1. תכניסו מחדש את כרטיס הSD שלכם לתוך המכשיר שלכם
+1. תפעילו את המכשיר
+
+#### חלק II - הפעלת SafeB9SInstaller
+
+1. תכניסו מחדש את כרטיס הSD שלכם לתוך המכשיר שלכם
+1. תפעילו את המכשיר
+1. כנסו לנגן המוזיקה
+
+    ![]({{ "/images/screenshots/soundhax-welcome.png" | absolute_url }})
+    {: .notice--info}
+
+1. אם אף פעם לא פתחתם את נגן המוזיקה מקודם ואתם מקבלים טיפים על איך להשתמש בו, אז תעברו את כל הטיפים של הציפור, ואז תסגרו את הנגן ותפתחו אותו מחדש
+  + בסיטואציה הזאת, הפעלת SoundHax מיד תגרום לעצות אלה להופיע כל פעם שמפעילים את Nintendo 3DS Sound עד שעושים את זה
+1. תעברו אל ' / SDCARD ", ואז תפעילו את" < 3 nedwill 2016 "
+  + זה עלול לקחת הרבה נסיונות
+  + אם זה נקפא, כבו בכוח את המכשיר על-ידי החזקת כפתור ההדלקה ולאחר מכן נסו שוב
+
+    ![]({{ "/images/screenshots/soundhax-launch.png" | absolute_url }})
+    {: .notice--info}
+
+1. כעת אתם אמורים להיכנס לתוך SafeB9SInstaller
+
+#### חלק III - התקנת boot9strap
+
+1. תחכו שכל בדיקות הבטיחות יסתיימו
+1. כאשר תתבקשו, תלחצו על הכפתורים שנתונים לכם כדי להתקין את boot9strap
+1. כשזה סיים, לחצו על (A) כדי לאתחל את הקונסולה
+
+#### חלק IV - הגדרת Luma3DS
+
+1. הקןנסולה שלכם צריכה לאתחל לתפריט ההגדרות של Luma3DS
+  + אם אתם מקבלים מסך שחור, [תעקבו אחרי המדריך הזה](troubleshooting#black-screen-on-sysnand-boot-after-installing-boot9strap)
+1. השתמשו במקש (A) ובמקשי החיצים על מנת להפעיל את ההגדרות הבאות:    
+  + **"Show NAND or user string in System Settings"**
+1. לחצו על (Start) על מנת לשמור ולהפעיל מחדש
+  + אם אתם מקבלים שגיאה, פשוט תמשיכו בעמוד הבא
+
+___
+
+### Continue to [Finalizing Setup](finalizing-setup)
+{: .notice--primary}
