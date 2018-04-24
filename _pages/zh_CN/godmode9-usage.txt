@@ -26,9 +26,9 @@ Some of the instructions below are only applicable to the latest version of GodM
 
 ### 操作步骤
 
-1. Power off your device
-1. 将你的 SD 卡插入到您的计算机
-1. Copy `GodMode9.firm` from the GodMode9 `.zip` to the `/luma/payloads/` folder on your SD card
+1. 给设备关机
+1. 将SD卡插入电脑
+1. 从GodMode9的`.zip`中复制`GodMode9.firm`到SD卡的`/luma/payloads/`文件夹中
 1. Copy the `gm9` folder from the GodMode9 `.zip` to the root of your SD card
 1. Reinsert your SD card into your device
 
@@ -41,11 +41,11 @@ Some of the instructions below are only applicable to the latest version of GodM
 1. 按 (A) 确认
   + This process will take some time
 1. Press (A) to continue
-1. 格式化完成后，同时按(R)键和(B)键，弹出你的SD卡
+1. Hold (R) and press (B) at the same time to eject your SD card
 1. 将你的 SD 卡插入到您的计算机
 1. Copy `<date>_<serialnumber>_sysnand_###.bin` from the `/gm9/out/` folder on your SD card to a safe location on your computer
   + Make backups in multiple locations (such as online file storage)
-  + 备份文件可以在将来出现错误时将你的机器救砖
+  + 该备份文件可以在以后你的设备出问题时用来救砖
 1. Delete `<date>_<serialnumber>_sysnand_###.bin` from the `/gm9/out/` folder on your SD card after copying it
 1. Reinsert your SD card into your device
 
@@ -111,7 +111,7 @@ This will only work if the Health & Safety injection was performed by GodMode9 (
 1. Follow the steps applicable to your game cartridge:
   + **3DS Game Cartridge:** Press (A) on `[TitleID].trim.3ds` to select it, then select "NCSD image options...", then select "Build CIA from file"
   + **NDS Game Cartridge:** Press (A) on `[TitleID].trim.nds` to select it, then select "Copy to 0:/gm9/out"
-1. Your installable `.cia` or non-installable `.nds` formatted file will be outputted to the `/gm9/out/` folder on your SD card
+1. 导出的可安装的`.cia`及不可安装的`.nds`文件将会被保存在SD卡的`/gm9out/`文件夹中。
 
 ## Dumping a Title
 
@@ -123,7 +123,7 @@ This will only work if the Health & Safety injection was performed by GodMode9 (
 1. Select "Search for titles"
 1. Press (A) to continue
 1. Press (A) on the `.tmd` file to select it, then select "TMD file options...", then select "Build CIA (standard)"
-1. Your installable `.cia` formatted file will be outputted to the `/gm9/out/` folder on your SD card
+1. 导出的可安装的`.cia`格式文件将会被保存在SD卡上的`/gm9/out/`文件夹中
 
 ## Converting a .3DS to .CIA
 
@@ -137,7 +137,7 @@ This will only work if the Health & Safety injection was performed by GodMode9 (
 1. Launch GodMode9 by holding (Start) during boot
 1. Navigate to `[0:] SDCARD` -> `cias`
 1. Press (A) on your `.3ds` file to select it, then select "NCSD image options...", then select "Build CIA from file"
-1. Your installable `.cia` formatted file will be outputted to the `/gm9/out/` folder on your SD card
+1. 导出的可安装的`.cia`格式文件将会被保存在SD卡上的`/gm9/out/`文件夹中
 
 ## Backup GBA VC Saves
 
@@ -189,10 +189,10 @@ To identify a `<TitleID>.gbavc.sav` file's Title ID, you can get a listing of al
 1. Launch GodMode9 by holding (Start) during boot
 1. Press (Home) to bring up the action menu
 1. Select "More..."
-1. 选择”SD format menu”
+1. Select "SD format menu"
 1. Select any EmuNAND options you wish to use
   + Most users will want to select "No EmuNAND"
-1. 选择”Auto”
+1. Select "Auto"
 1. Press (A) to accept the label `GM9SD`
   + Optionally, you may input a custom name for the SD card
 1. When prompted, input the key combo given to confirm
@@ -223,8 +223,8 @@ To identify a `<TitleID>.gbavc.sav` file's Title ID, you can get a listing of al
 ### 操作步骤
 
 1. Launch GodMode9 by holding (Start) during boot
-1. 格式化完成后，同时按(R)键和(B)键，弹出你的SD卡
-1. 将你的 SD 卡插入到您的计算机
+1. Hold (R) and press (B) at the same time to eject your SD card
+1. Insert your SD card into your computer
 1. Copy `remove_nnid.gm9` to the `/gm9/scripts/` folder on your SD card
 1. Reinsert your SD card into your device
 1. Press (Home) to bring up the action menu
@@ -234,4 +234,4 @@ To identify a `<TitleID>.gbavc.sav` file's Title ID, you can get a listing of al
 1. Press (A) to unlock SysNAND (lvl1) writing, then input the key combo given
 1. Press (A) to continue
 1. Press (A) to relock write permissions
-1. 按（Start）重启你的设备
+1. Press (Start) to reboot your device
