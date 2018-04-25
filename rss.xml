@@ -2,7 +2,7 @@
 <rss version="2.0">
 	<channel>
 		<title>Plailect Guide Feed</title>
-		<lastBuildDate>Tue, 20 Mar 2018 01:12:59 +0000</lastBuildDate>
+		<lastBuildDate>Wed, 25 Apr 2018 00:03:03 +0000</lastBuildDate>
 		<link>https://github.com/Plailect/Guide_3DS/</link>
 		<item>
 			<title>1.0.0_qr.png</title>
@@ -3830,81 +3830,6 @@
 			</trackers>
 		</item>
 		<item>
-			<title>3ds-private-update-server.zip</title>
-			<description>3ds-private-update-server.zip</description>
-			<guid>8623E580752F22940D96630EF723CE30A707B22E</guid>
-			<link>magnet:?xt=urn:btih:8623E580752F22940D96630EF723CE30A707B22E</link>
-			<pubDate>Tue, 26 Jul 2016 04:31:33 +0000</pubDate>
-			<contentLength>16831</contentLength>
-			<infoHash>8623E580752F22940D96630EF723CE30A707B22E</infoHash>
-			<magnetURI>magnet:?xt=urn:btih:8623E580752F22940D96630EF723CE30A707B22E</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:8623E580752F22940D96630EF723CE30A707B22E" type="application/x-bittorrent" />
-			<trackers>
-				<group order="random">
-					<tracker>
-						udp://tracker.coppersurfer.tk:6969/announce
-					</tracker>
-					<tracker>
-						udp://tracker.opentrackr.org:1337/announce
-					</tracker>
-					<tracker>
-						http://tracker.opentrackr.org:1337/announce
-					</tracker>
-					<tracker>
-						udp://zer0day.ch:1337/announce
-					</tracker>
-					<tracker>
-						udp://tracker.leechers-paradise.org:6969/announce
-					</tracker>
-					<tracker>
-						udp://9.rarbg.com:2710/announce
-					</tracker>
-					<tracker>
-						udp://explodie.org:6969/announce
-					</tracker>
-					<tracker>
-						http://explodie.org:6969/announce
-					</tracker>
-					<tracker>
-						http://p4p.arenabg.com:1337/announce
-					</tracker>
-					<tracker>
-						udp://p4p.arenabg.com:1337/announce
-					</tracker>
-					<tracker>
-						http://tracker.aletorrenty.pl:2710/announce
-					</tracker>
-					<tracker>
-						udp://tracker.aletorrenty.pl:2710/announce
-					</tracker>
-					<tracker>
-						http://tracker.baravik.org:6970/announce
-					</tracker>
-					<tracker>
-						http://tracker1.wasabii.com.tw:6969/announce
-					</tracker>
-					<tracker>
-						udp://tracker.piratepublic.com:1337/announce
-					</tracker>
-					<tracker>
-						http://tracker.tfile.me/announce
-					</tracker>
-					<tracker>
-						udp://torrent.gresille.org:80/announce
-					</tracker>
-					<tracker>
-						http://torrent.gresille.org/announce
-					</tracker>
-					<tracker>
-						udp://tracker.kicks-ass.net:80/announce
-					</tracker>
-					<tracker>
-						udp://tracker.internetwarriors.net:1337/announce
-					</tracker>
-				</group>
-			</trackers>
-		</item>
-		<item>
 			<title>Acekard_2i_(HW_44)-Flashrom.zip</title>
 			<description>Acekard_2i_(HW_44)-Flashrom.zip</description>
 			<guid>D04BD19E15BF8600CCEF6540BDBD043846888132</guid>
@@ -5100,81 +5025,6 @@
 					</tracker>
 					<tracker>
 						udp://tracker.filetracker.pl:8089/announce
-					</tracker>
-				</group>
-			</trackers>
-		</item>
-		<item>
-			<title>NTR Debugger.zip</title>
-			<description>NTR Debugger.zip</description>
-			<guid>66274CEE542BEF7745792714673BF2BE4D606496</guid>
-			<link>magnet:?xt=urn:btih:66274CEE542BEF7745792714673BF2BE4D606496</link>
-			<pubDate>Tue, 26 Jul 2016 04:31:19 +0000</pubDate>
-			<contentLength>20042111</contentLength>
-			<infoHash>66274CEE542BEF7745792714673BF2BE4D606496</infoHash>
-			<magnetURI>magnet:?xt=urn:btih:66274CEE542BEF7745792714673BF2BE4D606496</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:66274CEE542BEF7745792714673BF2BE4D606496" type="application/x-bittorrent" />
-			<trackers>
-				<group order="random">
-					<tracker>
-						udp://tracker.coppersurfer.tk:6969/announce
-					</tracker>
-					<tracker>
-						udp://tracker.opentrackr.org:1337/announce
-					</tracker>
-					<tracker>
-						http://tracker.opentrackr.org:1337/announce
-					</tracker>
-					<tracker>
-						udp://zer0day.ch:1337/announce
-					</tracker>
-					<tracker>
-						udp://tracker.leechers-paradise.org:6969/announce
-					</tracker>
-					<tracker>
-						udp://9.rarbg.com:2710/announce
-					</tracker>
-					<tracker>
-						udp://explodie.org:6969/announce
-					</tracker>
-					<tracker>
-						http://explodie.org:6969/announce
-					</tracker>
-					<tracker>
-						http://p4p.arenabg.com:1337/announce
-					</tracker>
-					<tracker>
-						udp://p4p.arenabg.com:1337/announce
-					</tracker>
-					<tracker>
-						http://tracker.aletorrenty.pl:2710/announce
-					</tracker>
-					<tracker>
-						udp://tracker.aletorrenty.pl:2710/announce
-					</tracker>
-					<tracker>
-						http://tracker.baravik.org:6970/announce
-					</tracker>
-					<tracker>
-						http://tracker1.wasabii.com.tw:6969/announce
-					</tracker>
-					<tracker>
-						udp://tracker.piratepublic.com:1337/announce
-					</tracker>
-					<tracker>
-						http://tracker.tfile.me/announce
-					</tracker>
-					<tracker>
-						udp://torrent.gresille.org:80/announce
-					</tracker>
-					<tracker>
-						http://torrent.gresille.org/announce
-					</tracker>
-					<tracker>
-						udp://tracker.kicks-ass.net:80/announce
-					</tracker>
-					<tracker>
-						udp://tracker.internetwarriors.net:1337/announce
 					</tracker>
 				</group>
 			</trackers>
@@ -7350,81 +7200,6 @@
 					</tracker>
 					<tracker>
 						udp://tracker.filetracker.pl:8089/announce
-					</tracker>
-				</group>
-			</trackers>
-		</item>
-		<item>
-			<title>update.php</title>
-			<description>update.php</description>
-			<guid>CD7E59EA9744115913B561DBDE15F8D68E713507</guid>
-			<link>magnet:?xt=urn:btih:CD7E59EA9744115913B561DBDE15F8D68E713507</link>
-			<pubDate>Tue, 26 Jul 2016 04:54:21 +0000</pubDate>
-			<contentLength>5171</contentLength>
-			<infoHash>CD7E59EA9744115913B561DBDE15F8D68E713507</infoHash>
-			<magnetURI>magnet:?xt=urn:btih:CD7E59EA9744115913B561DBDE15F8D68E713507</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:CD7E59EA9744115913B561DBDE15F8D68E713507" type="application/x-bittorrent" />
-			<trackers>
-				<group order="random">
-					<tracker>
-						udp://tracker.coppersurfer.tk:6969/announce
-					</tracker>
-					<tracker>
-						udp://tracker.opentrackr.org:1337/announce
-					</tracker>
-					<tracker>
-						http://tracker.opentrackr.org:1337/announce
-					</tracker>
-					<tracker>
-						udp://zer0day.ch:1337/announce
-					</tracker>
-					<tracker>
-						udp://tracker.leechers-paradise.org:6969/announce
-					</tracker>
-					<tracker>
-						udp://9.rarbg.com:2710/announce
-					</tracker>
-					<tracker>
-						udp://explodie.org:6969/announce
-					</tracker>
-					<tracker>
-						http://explodie.org:6969/announce
-					</tracker>
-					<tracker>
-						http://p4p.arenabg.com:1337/announce
-					</tracker>
-					<tracker>
-						udp://p4p.arenabg.com:1337/announce
-					</tracker>
-					<tracker>
-						http://tracker.aletorrenty.pl:2710/announce
-					</tracker>
-					<tracker>
-						udp://tracker.aletorrenty.pl:2710/announce
-					</tracker>
-					<tracker>
-						http://tracker.baravik.org:6970/announce
-					</tracker>
-					<tracker>
-						http://tracker1.wasabii.com.tw:6969/announce
-					</tracker>
-					<tracker>
-						udp://tracker.piratepublic.com:1337/announce
-					</tracker>
-					<tracker>
-						http://tracker.tfile.me/announce
-					</tracker>
-					<tracker>
-						udp://torrent.gresille.org:80/announce
-					</tracker>
-					<tracker>
-						http://torrent.gresille.org/announce
-					</tracker>
-					<tracker>
-						udp://tracker.kicks-ass.net:80/announce
-					</tracker>
-					<tracker>
-						udp://tracker.internetwarriors.net:1337/announce
 					</tracker>
 				</group>
 			</trackers>

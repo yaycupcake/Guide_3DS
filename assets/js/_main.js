@@ -74,7 +74,7 @@ $(document).ready(function(){
 
     $("nav.greedy-nav .nav-selector").css("left", "2.5rem");
     $("nav.greedy-nav .lang-selector").css("left", ".2rem");
-    
+
     $("nav.greedy-nav .links-menu").css("right", "auto");
     $("nav.greedy-nav .lang-menu").css("right", "auto");
 
@@ -102,11 +102,11 @@ $(document).ready(function(){
   }
 
   var sidebar_shown = true;
-  var sidebar_hidden_pages = ["404", "a9lh-to-b9s", "credits", "donations", "f3-(linux)", "f3x-(mac)",  
-                              "faq", "file-extensions-(windows)", "get-started", "h2testw-(windows)", 
-                              "region-changing", "site-navigation", "troubleshooting", "uninstall-cfw", 
+  var sidebar_hidden_pages = ["404", "a9lh-to-b9s", "credits", "donations", "f3-(linux)", "f3x-(mac)",
+                              "faq", "file-extensions-(windows)", "get-started", "h2testw-(windows)",
+                              "region-changing", "site-navigation", "troubleshooting", "uninstall-cfw",
                               "updating-b9s", "why-ads"];
-  
+
   for(var i = 0; i < sidebar_hidden_pages.length; i++){
     if(window.location.href.indexOf(sidebar_hidden_pages[i]) > -1) {
       sidebar_shown = false;
@@ -127,7 +127,7 @@ $(document).ready(function(){
     "installing-boot9strap-(dsiware)": "5",
     "installing-boot9strap-(dsiware-game-injection)": "6",
     "installing-boot9strap-(dsiware-save-injection)": "7",
-    "ntr-and-cubic-ninja": "8",
+    "installing-boot9strap-(soundhax)": "8",
     "ntrboot": "9",
     "flashing-ntrboot-(3ds-single-system)": "10",
     "flashing-ntrboot-(3ds-multi-system)": "11",
@@ -153,7 +153,7 @@ $(document).ready(function(){
   if(!((device = localStorage.getItem('device')) && (method = localStorage.getItem('method')))){
     sidebar_shown = false;
   }
- 
+
   if(sidebar_shown){
     var unhide = [];
     var device_old = {
@@ -165,6 +165,7 @@ $(document).ready(function(){
       "5": ["installing-boot9strap-(dsiware)"],
       "6": ["installing-boot9strap-(dsiware)", "installing-boot9strap-(dsiware-game-injection)", "finalizing-setup"],
       "7": ["installing-boot9strap-(dsiware)", "installing-boot9strap-(dsiware-save-injection)", "finalizing-setup"],
+      "8": ["installing-boot9strap-(soundhax)", "finalizing-setup"],
       "9": ["ntrboot", "installing-boot9strap-(ntrboot)", "finalizing-setup"],
       "10": ["ntrboot", "flashing-ntrboot-(3ds-single-system)", "installing-boot9strap-(ntrboot)", "finalizing-setup"],
       "11": ["ntrboot", "flashing-ntrboot-(3ds-multi-system)", "installing-boot9strap-(ntrboot)", "finalizing-setup"],
@@ -180,7 +181,7 @@ $(document).ready(function(){
       "5": ["installing-boot9strap-(dsiware)", "multiple-options", "finalizing-setup"],
       "6": ["installing-boot9strap-(dsiware)", "installing-boot9strap-(dsiware-game-injection)", "finalizing-setup"],
       "7": ["installing-boot9strap-(dsiware)", "installing-boot9strap-(dsiware-save-injection)", "finalizing-setup"],
-      "8": ["ntr-and-cubic-ninja", "installing-boot9strap-(homebrew-launcher)", "finalizing-setup"],
+      "8": ["installing-boot9strap-(soundhax)", "finalizing-setup"],
       "9": ["ntrboot", "multiple-options", "installing-boot9strap-(ntrboot)", "finalizing-setup"],
       "10": ["ntrboot", "flashing-ntrboot-(3ds-single-system)", "installing-boot9strap-(ntrboot)", "finalizing-setup"],
       "11": ["ntrboot", "flashing-ntrboot-(3ds-multi-system)", "installing-boot9strap-(ntrboot)", "finalizing-setup"],
@@ -209,10 +210,10 @@ $(document).ready(function(){
       ol.children().each(function(idx, li) {
         var link = $(li).find("a").attr('href');
         var name = $(li).attr('data-name');
-        if((window.location.href.endsWith(link) || 
-            window.location.href.endsWith(link + "/") || 
-            window.location.href.indexOf(link + "#") > -1 || 
-            window.location.href.indexOf(link + ".html") > -1) 
+        if((window.location.href.endsWith(link) ||
+            window.location.href.endsWith(link + "/") ||
+            window.location.href.indexOf(link + "#") > -1 ||
+            window.location.href.indexOf(link + ".html") > -1)
             && name !== "home"){
           $(li).addClass("active");
           return false;
