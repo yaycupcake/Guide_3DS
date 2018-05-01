@@ -2,7 +2,7 @@
 title: "Mise à jour vers boot9strap"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Table des matières" %}
 
 ### Lecture requise
 
@@ -100,11 +100,11 @@ Pour toutes les étapes de cette section, remplacez tous les fichiers existants 
 
 #### Section IV - Mise à jour du système
 
-Si, avant d'avoir suivi ce guide, vous aviez une installation EmuNAND et que vous souhaitez transférer le contenu de votre précédent EmuNAND sur votre nouvelle SysNAND CFW, il est temps de [Suivre Transférer EmuNAND](move-emunand) avant de suivre cette section.
+Si, avant d'avoir suivi ce guide, vous aviez une installation EmuNAND et que vous souhaitez transférer le contenu de votre précédent EmuNAND sur votre nouvelle SysNAND CFW, il est temps de [Transférer votre EmuNAND](move-emunand) avant de suivre cette section.
 {: .notice--info}
 
 1. Mettez à jour votre console en vous rendant dans les Paramètres de la console, puis "Autres paramètres", puis tout à droite sur l'option "Mise à jour du Système"
-  + Mettre à jour tout en utilisant B9S + Luma (ce que vous avez) sont sans danger
+  + Mettre à jour tout en ayant B9S + Luma (ce que vous avez) est sans danger
   + Si vous obtenez une erreur, réglez vos paramètres DNS sur "Automatique"
   + Si cela vous donne encore une erreur, [suivez CTRTransfer](ctrtransfer), puis essayez de mettre à jour à nouveau
 

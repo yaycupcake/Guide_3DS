@@ -8,7 +8,7 @@ title: "Homebrew Launcher (Soundhax)"
 
 Homebrew Launcherille on useita eri sisäänpääsy- eli käynnistystapoja.
 
-SoundHax on yhteensopiva versiosta 9.0.0 versioon 11.3.0 EUR-, JPN-, KOR- ja USA-konsoleiden kanssa.
+Soundhax (when combined with the Homebrew Launcher) is compatible with versions 9.0.0 through 11.3.0 in the EUR, JPN, KOR, and USA regions.
 
 Varmista, että langaton yhteys on päällä, sillä udsploit (käytetään seuraavassa osiossa) tarvitsee sitä toimiakseen, eikä joillakin konsoleilla (New 3DS, New 2DS ja vanha 2DS) voi muuttaa langattoman yhteyden asetusta Homebrew Launcherissa. Langattoman yhteyden tarvitsee vain olla päällä; tukiasemaan yhdistämistä ei vaadita.
 
@@ -26,13 +26,13 @@ This means that using a cartridge update from a version containing an older Nint
 ### Tarpeet
 
 * The latest release of [the Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"}
-* SoundHaxin [viimeisin julkaisu](http://soundhax.com/) *(konsolisi mallin ja alueen mukainen)*
+* The latest release of [Soundhax](http://soundhax.com/) *(for your region, device, and version)*
 * SafeB9SInstallerin [viimeisin julkaisu](https://github.com/d0k3/SafeB9SInstaller/releases/latest){:target="_blank"}
 * Boot9strapin [viimeisin julkaisu](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} *(tavallinen boot9strap-tiedosto; ei `devkit`- eikä `ntr`-tiedosto)*
 * Safehaxin [viimeisin julkaisu](https://github.com/TiniVi/safehax/releases/latest){:target="_blank"} *(`.3dsx`-tiedosto)*
 * Udsploitin [viimeisin julkaisu](https://github.com/smealum/udsploit/releases/latest){:target="_blank"}
 * Luma3DS:n [viimeisin julkaisu](https://github.com/AuroraWright/Luma3DS/releases/latest){:target="_blank"} *(`.7z`-tiedosto)*
-* The [otherapp payload](https://smealum.github.io/3ds/#otherapp){:target="_blank"} *(for your version and region)*
+* The [otherapp payload](https://smealum.github.io/3ds/#otherapp){:target="_blank"} *(for your region and version)*
 
 ### Ohjeet
 

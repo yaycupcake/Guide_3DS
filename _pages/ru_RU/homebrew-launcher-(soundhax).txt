@@ -8,7 +8,7 @@ title: "Homebrew Launcher (Soundhax)"
 
 Homebrew Launcher имеет множество точек входа, или методов запуска.
 
-Soundhax совместим с версиями прошивки от 9.0.0 до 11.3.0 в регионах EUR, JPN, KOR и USA.
+Soundhax (в сочетании с Homebrew Launcher) совместим с версиями прошивки от 9.0.0 до 11.3.0 в регионах EUR, JPN, KOR и USA.
 
 Убедитесь, что Беспроводной режим (Wireless Communication) включен, так как udsploit (используется на следующей странице) потребует активный беспроводной модуль для своей работы, и некоторые консоли (New 3DS, New 2DS и Old 2DS) не могут включить Беспроводной режим, находясь в Homebrew Launcher. Достаточно включить Беспроводной режим (Wireless Communication); наличие соединения с точкой доступа не обязательно.
 
@@ -26,13 +26,13 @@ Soundhax совместим с версиями прошивки от 9.0.0 до
 ### Что понадобится
 
 * Свежая версия [Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"}
-* Свежая версия [Soundhax](http://soundhax.com/) *(для вашего устройства и региона)*
+* Свежая версия [Soundhax](http://soundhax.com/) *(для вашего региона, консоли и версии прошивки)*
 * Свежая версия [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest){:target="_blank"}
 * Свежая версия [boot9strap](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} *(стандартный boot9strap; не `devkit` файл, не `ntr` файл)*
 * Свежая версия [safehax](https://github.com/TiniVi/safehax/releases/latest){:target="_blank"} *(`.3dsx` файл)*
 * Свежая версия [udsploit](https://github.com/smealum/udsploit/releases/latest){:target="_blank"}
 * Свежая версия [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest){:target="_blank"} *(`.7z` архив)*
-* [Otherapp payload](https://smealum.github.io/3ds/#otherapp){:target="_blank"} *(для вашей версии и региона)*
+* [Otherapp payload](https://smealum.github.io/3ds/#otherapp){:target="_blank"} *(для вашего региона и версии прошивки)*
 
 ### Инструкция
 

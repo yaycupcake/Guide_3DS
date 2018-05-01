@@ -56,12 +56,6 @@ For all versions you can also [Cartridge Update](cart-update) (or use a standard
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">4.0.0</td>
-      <td style="text-align: center; font-weight: bold;">4.5.0</td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-(mset)">התקנת boot9strap (MSET)</a></td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-(browser)">התקנת boot9strap (דפדפן)</a></td>
-    </tr>
-    <tr>
-      <td style="text-align: center; font-weight: bold;">5.0.0</td>
       <td style="text-align: center; font-weight: bold;">8.1.0</td>
       <td style="text-align: center; font-weight: bold;" colspan="2"><a href="installing-boot9strap-(soundhax)">Installing boot9strap (Soundhax)</a></td>
     </tr>

@@ -19,7 +19,7 @@ Si vous n'utilisez pas le bon `.firm` correspondant à la 3DS cible, vous allez 
 
 ## Ce dont vous avez besoin
 
-* Deux dispositifs de famille de 3DS
+* Deux dispositifs de la famille 3DS
   + **La 3DS source** : la console possédant *la dernière version* de boot9strap
   + **La 3DS cible**: la 3DS en firmware normal *en 11.6.0*
 * Posséder (et avoir installé) un des titres DSiware exploitables suivants (une copie piratée du jeu ne fonctionnera **pas**) sur **la 3DS source**

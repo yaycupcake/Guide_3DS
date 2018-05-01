@@ -8,7 +8,7 @@ title: "Homebrew Launcher (Soundhax)"
 
 A Homebrew Launcher több, különböző belépési ponttal rendelkezik, azaz módszerrel arra, hogy elindítsuk.
 
-A Soundhax kompatibilis az EUR, JPN, KOR, és USA régiókkal, a 9.0.0-stól a 11.3.0-s verzióig.
+A Soundhax (ha a Homebrew Launcherrel használjuk) kompatibilis a 9.0.0-s verziótól egészen 11.3.0-ig az EUR, JPN, KOR, és USA régiókban.
 
 Bizonyosodj meg róla, hogy az eszközödön engedélyezve van a vezeték nélküli kapcsolat (Wireless Communication), ugyanis az udsploit-nak (amit a következő oldalon használunk) szüksége lesz rá, és néhány készülék (a New 3DS, a New 2DS, és az Old 2DS) esetében az nem állítható a Homebrew Launcher-ből. Elég, ha engedélyezve van a vezeték nélküli kapcsolat; nem kell hozzáférési ponthoz kapcsolódni.
 
@@ -26,13 +26,13 @@ Ez azt jelenti, hogy kártyafrissítés egy olyan verzióról, amelyhez régebbi
 ### Amire szükséged lesz
 
 * A [Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"} legújabb kiadása
-* A [Soundhax](http://soundhax.com/) legúabb kiadása *(a készülékednek és régiónak megfelelő változat)*
+* A [Soundhax](http://soundhax.com/) legújabb kiadása *(a régiódnak, készülékednek és rendszer verziódnak megfelelő változat)*
 * A [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest){:target="_blank"} legújabb kiadása
 * A [boot9strap](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} legújabb kiadása *(a sima boot9strap; nem a `devkit` fájl, nem az `ntr` fájl)*
 * A [safehax](https://github.com/TiniVi/safehax/releases/latest){:target="_blank"} legújabb kiadása *(a `.3dsx` fájl)*
 * A [udsploit](https://github.com/smealum/udsploit/releases/latest){:target="_blank"} legújabb kiadása
 * A [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest){:target="_blank"} legújabb kiadása *(a `.7z` fájl)*
-* Az [otherapp payload](https://smealum.github.io/3ds/#otherapp){:target="_blank"} *(a készülékednek és régiónak megfelelő változat)*
+* Az [otherapp payload](https://smealum.github.io/3ds/#otherapp){:target="_blank"} *(a régiódnak és rendszer verziódnak megfelelő változat)*
 
 ### Utasítások
 

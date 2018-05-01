@@ -2,7 +2,7 @@
 title: "Installer boot9strap (ntrboot)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Table des matières" %}
 
 ### Lecture requise
 
@@ -125,7 +125,7 @@ Ne faites pas ceci , tant que vous n'avez pas fini les instructions de cette pag
 1. Insérez votre carte SD dans votre ordinateur
   + Ceci signifie la carte SD de votre 3DS, et *non* la carte SD de votre linker
 1. Créez un dossier appelé `ntrboot` à la racine de votre carte SD
-1. Copiez `backup.bin` de votre sauvegarde flashrom `.zip` dans le dossier `/ntrboot/` à la racine de votre carte SD
+1. Copiez le fichier `.bin` venant du fichier `.zip` de votre sauvegarde flashrom dans le dossier `/ntrboot/` à la racine de votre carte SD
 1. Créez un dossier appelé `payloads` dans le répertoire « luma » sur votre carte SD 
 1. Copiez `ntrboot_flasher.firm` dans le dossier `/luma/payloads/` sur votre carte SD
 1. Réinsérez votre carte SD dans votre 3DS

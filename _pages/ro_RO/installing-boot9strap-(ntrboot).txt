@@ -125,7 +125,7 @@ Nu urmați această secțiune până când ați completat restul instrucțiunilo
 1. Introduceți cardul SD în calculator
   + Acesta este cardul SD de pe 3DS-ul dumneavoastră, *nu* cardul SD de pe flashcart
 1. Creați un folder numit `ntrboot` pe rădăcina cardului SD
-1. Copiați `backup.bin` din arhiva `.zip` de copie de rezervă flashrom în folderul `/ntrboot/` de pe rădăcina cardului SD
+1. Copy the `.bin` file from your flashrom backup `.zip` to the `/ntrboot/` folder on the root of your SD card
 1. Creați un folder numit `payloads` în folderul `luma` de pe cardul SD 
 1. Copiați `ntrboot_flasher.firm` în folderul `/luma/payloads/` de pe cardul SD
 1. Reintroduceți cardul SD în dispozitivul dumneavoastră

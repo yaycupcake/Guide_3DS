@@ -8,7 +8,7 @@ title: "Installing boot9strap (Soundhax)"
 
 Jos olet jo hakkeroinut konsolisi aikaisemmin, ja sinulla on EmuNAND-pohjainen CFW-kokoonpano, ota huomioon, että nämä ohjeet koskevat ainoastaan SysNANDia, joten sinun tulisi seurata ohjeita sen mukaisesti. Huomaa, että termit EmuNAND ja RedNAND viittaavat [saman konseptin](http://3dbrew.org/wiki/NAND_Redirection) kahteen hiukan erilaiseen toteutukseen.
 
-Soundhax (when combined with pre9otherapp) is compatible with versions 5.0.0 through 8.1.0 in the EUR, JPN, KOR, and USA regions.
+Soundhax (when combined with pre9otherapp) is compatible with versions 4.0.0 through 8.1.0 in the EUR, JPN, KOR, and USA regions.
 
 Purkaaksesi tämän osion `.7z`-tiedostot tarvitset pakkausohjelman, kuten [7-Zip](http://www.7-zip.org/)in tai [The Unarchiver](https://theunarchiver.com/)in.
 
@@ -23,7 +23,7 @@ Tämä tarkoittaa sitä, että [SoundHax](homebrew-launcher-(soundhax))in toimin
 
 ### Tarpeet
 
-* SoundHaxin [viimeisin julkaisu](http://soundhax.com/) *(konsolisi mallin ja alueen mukainen)*
+* The latest release of [Soundhax](http://soundhax.com/) *(for your region, device, and version)*
 * SafeB9SInstallerin [viimeisin julkaisu](https://github.com/d0k3/SafeB9SInstaller/releases/latest){:target="_blank"}
 * Boot9strapin [viimeisin julkaisu](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} *(tavallinen boot9strap-tiedosto; ei `devkit`- eikä `ntr`-tiedosto)*
 * Luma3DS:n [viimeisin julkaisu](https://github.com/AuroraWright/Luma3DS/releases/latest){:target="_blank"} *(`.7z`-tiedosto)*

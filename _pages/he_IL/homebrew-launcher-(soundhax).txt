@@ -8,7 +8,7 @@ title: "Homebrew Launcher (Soundhax)"
 
 להומברו לאנצ'ר יש הרבה דרכי הפעלה.
 
-SoundHax תומך בגירסאות 9.0.0 עד 11.3.0 באזורים EUR, JPN, KOR, וUSA.
+Soundhax (when combined with the Homebrew Launcher) is compatible with versions 9.0.0 through 11.3.0 in the EUR, JPN, KOR, and USA regions.
 
 תבדקו שהWi-Fi של הקונסולה שלכם דלוק כי udsploit (שנדרש בעמוד הבא) ידרוש את התוכנה של הWi-Fi כדי לעבוד, ומספר מכשירים (הNew 3DS New 2DS, וה Old 2DS) לא יכולים להדליק את הWi-Fi מהHomebrew Launcher. הWi-Fi רק צריך לדלוק; לא צריך לחבר אותו לרשת אלחוטית.
 
@@ -26,13 +26,13 @@ This means that using a cartridge update from a version containing an older Nint
 ### What You Need
 
 * The latest release of [the Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"}
-* הגרסה העדכנית של [Soundhax](http://soundhax.com/) *(למכשיר ואזור שלכם)*
+* The latest release of [Soundhax](http://soundhax.com/) *(for your region, device, and version)*
 * The latest release of [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest){:target="_blank"}
 * The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} *(standard boot9strap; not the `devkit` file, not the `ntr` file)*
 * The latest release of [safehax](https://github.com/TiniVi/safehax/releases/latest){:target="_blank"} *(the `.3dsx` file)*
 * The latest release of [udsploit](https://github.com/smealum/udsploit/releases/latest){:target="_blank"}
 * The latest release of [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest){:target="_blank"} *(the `.7z` file)*
-* The [otherapp payload](https://smealum.github.io/3ds/#otherapp){:target="_blank"} *(for your version and region)*
+* The [otherapp payload](https://smealum.github.io/3ds/#otherapp){:target="_blank"} *(for your region and version)*
 
 ### הנחיות
 

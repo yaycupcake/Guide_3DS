@@ -125,7 +125,7 @@ Huomaa, että Acekard 2i -flash-kortti pystyy edelleen avaamaan `.nds`-tiedostoj
 1. Aseta SD-korttisi tietokoneeseesi
   + Tämä tarkoittaa siis 3DS:si SD-korttia, *ei* flash-korttisi SD-korttia
 1. Luo `ntrboot`-niminen kansio SD-korttisi juureen
-1. Kopioi flash-muisti-`.zip`-pakkauksesta `backup.bin` SD-korttisi `/ntrboot/`-kansioon
+1. Copy the `.bin` file from your flashrom backup `.zip` to the `/ntrboot/` folder on the root of your SD card
 1. Luo `payloads`-niminen kansio SD-korttisi `luma`-kansioon 
 1. Kopioi `ntrboot_flasher.firm` SD-korttisi `/luma/payloads/`-kansioon
 1. Aseta SD-korttisi takaisin konsoliisi

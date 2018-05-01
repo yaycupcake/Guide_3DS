@@ -6,7 +6,7 @@ title: "Extensions de fichier (Windows)"
 
 ### Lecture requise
 
-C'est une section supplémentaire pour désactiver le fait que Windows cache les extensions des fichiers.
+Ceci est une section additionelle pour désactiver le comportement par défaut de Windows de cacher les extensions de fichier.
 
 Cela rendra la tâche plus simple pour trouver les différents fichiers mentionnés dans la suite de ce guide.
 

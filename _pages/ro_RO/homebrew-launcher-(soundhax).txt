@@ -8,7 +8,7 @@ title: "Homebrew Launcher (Soundhax)"
 
 Homebrew Launcher-ul are multe puncte de intrare sau metode de a fi accesat.
 
-Soundhax este compatibil cu versiunile 9.0.0 până la 11.3.0 în regiunile EUR, JPN, KOR și USA.
+Soundhax (when combined with the Homebrew Launcher) is compatible with versions 9.0.0 through 11.3.0 in the EUR, JPN, KOR, and USA regions.
 
 Asigurați-vă că dispozitivul are pornit comunicarea fără fir pentru că udsploit (folosit în pagina următoare) va avea nevoie de modulul fără fir să fie activ ca să funcționeze, și unele dispozitive (New 3DS, New 2DS și Old 2DS) nu pot ajusta comunicarea fără fir din Homebrew Launcher. Comunicarea fără fir trebuie doar să fie pornită; nu este necesar să conectați consola la un punct de rețea.
 
@@ -26,13 +26,13 @@ This means that using a cartridge update from a version containing an older Nint
 ### Ce aveți nevoie
 
 * The latest release of [the Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"}
-* Ultima versiune de [Soundhax](http://soundhax.com/) *(pentru dispozitivul și regiunea dumneavoastră)*
+* The latest release of [Soundhax](http://soundhax.com/) *(for your region, device, and version)*
 * Cea mai recentă versiune de [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest){:target="_blank"}
 * Cea mai nouă versiune de [boot9strap](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} *(boot9strap standard; nu fișierul `devkit`, nici cel `ntr`)*
 * Cea mai recentă versiune de [safehax](https://github.com/TiniVi/safehax/releases/latest){:target="_blank"} *(fișierul `.3dsx`)*
 * Cea mai recentă versiune de [udsploit](https://github.com/smealum/udsploit/releases/latest){:target="_blank"}
 * Cea mai nouă versiune de [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest){:target="_blank"} *(fișierul `.7z`)*
-* The [otherapp payload](https://smealum.github.io/3ds/#otherapp){:target="_blank"} *(for your version and region)*
+* The [otherapp payload](https://smealum.github.io/3ds/#otherapp){:target="_blank"} *(for your region and version)*
 
 ### Instrucțiuni
 

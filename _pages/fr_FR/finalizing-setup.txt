@@ -6,9 +6,9 @@ title: "Finalisation de l'installation"
 
 ### Lecture requise
 
-Le fichier `boot.firm` est ce qui est lancé par boot9strap lui-même après qu'il ait fini le chargement de la NAND, et peut être n’importe quel payload arm9 valide dans le format FIRM. Ce fichier peut être remplacé à tout moment, même si Luma3DS permet le lancement d’autres payloads arm9 au format FIRM à l’aide du chainloader Luma3DS .
+Le fichier `boot.firm` est ce qui est lancé par boot9strap lui-même après qu'il ait fini de charger depuis la NAND, et peut être n’importe quel payload arm9 valide dans le format FIRM. Ce fichier peut être remplacé à tout moment, même si Luma3DS permet le lancement d’autres payloads arm9 au format FIRM à l’aide du chainloader Luma3DS .
 
-Dans ce cas, nous utilisons Luma3DS de [AuroraWright](https://github.com/AuroraWright/) pour démarrer directement une SysNAND patchée, nous permettant de contourner complètement la nécessité d'une EmuNAND quelconque, ce qui simplifie grandement l'utilisation d'une 3DS piratée en plus d'économiser de l'espace sur votre carte SD.
+Dans notre cas, nous utilisons Luma3DS de [AuroraWright](https://github.com/AuroraWright/) pour démarrer directement une SysNAND patchée, nous permettant de contourner complètement la nécessité d'une EmuNAND quelconque, ce qui simplifie grandement l'utilisation d'une 3DS piratée en plus d'économiser de l'espace sur votre carte SD.
 
 Durant cette étape, nous allons également configurer les programmes suivants :    
 
@@ -40,7 +40,7 @@ Durant cette étape, nous allons également configurer les programmes suivants :
 1. Créez un dossier nommé `3ds` à la racine de votre carte SD si celui ci n'existe pas
 1. Créez un dossier nommé `cias` à la racine de votre carte SD si celui ci n'existe pas
 1. Copiez `FBI.3dsx` dans le dossier `/3ds/` de votre carte SD
-1. Copiez le fichier `hblauncher_loader.cia` se trouvant dans le fichier hblauncher_loader`.zip` vers le répertoire `/cias/` de votre carte SD
+1. Copiez le fichier `hblauncher_loader.cia` se trouvant dans le fichier `.zip` de hblauncher_loader vers le répertoire `/cias/` de votre carte SD
 1. Copiez `lumaupdater.cia` vers le dossier`/cias/` sur votre carte SD
 1. Copiez `FBI.cia` vers le répertoire `/cias/` sur votre carte SD
 1. Copiez `DSP1.cia` vers le répertoire `/cias/` sur votre carte SD
@@ -51,7 +51,7 @@ Durant cette étape, nous allons également configurer les programmes suivants :
     {: .notice--info}
 
 1. Créez un dossier nommé `payloads` dans le dossier `luma` sur votre carte SD, si il n’existe pas déjà
-1. Copiez le fichier `GodMode9.firm` de l'archive GodMode9 `.zip` dans le dossier `/luma/payloads/` sur votre carte SD
+1. Copiez le fichier `GodMode9.firm` de l'archive `.zip` de GodMode9 dans le dossier `/luma/payloads/` sur votre carte SD
 1. Copiez le dossier `gm9` de GodMode9 `.zip` à la racine de votre carte SD
 1. Copiez `setup_ctrnand_luma3ds.gm9` dans le dossier `/gm9/scripts/` sur votre carte SD
 1. Copiez `cleanup_sd_card.gm9` dans le dossier `/gm9/scripts/` sur votre carte SD
@@ -67,14 +67,14 @@ Durant cette étape, nous allons également configurer les programmes suivants :
 
 #### Section II - Mise à jour du système
 
-Si, vous avez suivi une version précédente de ce guide, vous avez CTRTransféré votre *New 3DS* en 2.1.0, il est maintenant temps de [restaurer votre sauvegarde de la NAND](godmode9-usage#restoring-a-nand-backup) avant de faire cette section.
+Si, en suivant une version précédente de ce guide, vous avez CTRTransféré votre *New 3DS* en 2.1.0, il est maintenant temps de [restaurer votre sauvegarde de la NAND](godmode9-usage#restoring-a-nand-backup) avant de faire cette section.
 {: .notice--danger}
 
-Si, avant d'avoir suivi ce guide, vous aviez une installation EmuNAND et que vous souhaitez transférer le contenu de votre précédent EmuNAND sur votre nouvelle SysNAND CFW, il est temps de [Suivre Transférer EmuNAND](move-emunand) avant de suivre cette section.
+Si, avant d'avoir suivi ce guide, vous aviez une installation EmuNAND et que vous souhaitez transférer le contenu de votre précédent EmuNAND sur votre nouvelle SysNAND CFW, il est temps de [Transférer votre EmuNAND](move-emunand) avant de suivre cette section.
 {: .notice--info}
 
 1. Mettez à jour votre console en vous rendant dans les Paramètres de la console, puis "Autres paramètres", puis tout à droite sur l'option "Mise à jour du Système"
-  + Mettre à jour tout en utilisant B9S + Luma (ce que vous avez) sont sans danger
+  + Mettre à jour tout en ayant B9S + Luma (ce que vous avez) est sans danger
   + Si vous obtenez une erreur, réglez vos paramètres DNS sur "Automatique"
   + Si cela vous donne encore une erreur, [suivez CTRTransfer](ctrtransfer), puis essayez de mettre à jour à nouveau
 
@@ -86,7 +86,7 @@ Si, avant d'avoir suivi ce guide, vous aviez une installation EmuNAND et que vou
 1. Sélectionnez "Switch the hb. title to the current app."
 1. Appuyez sur (B) pour continuer
 1. Appuyez sur (B) pour revenir au menu principal de Rosalina
-1. Appuyez sur (B) pour quitter le menu de Rosalina
+1. Appuyez sur (B) pour quitter le menu Rosalina
 1. Appuyez sur (Home), puis fermez Mode téléchargement
 1. Lancez l’application Mode téléchargement
 1. Votre console devrait maintenant charger le Homebrew Launcher
@@ -96,19 +96,19 @@ Si, avant d'avoir suivi ce guide, vous aviez une installation EmuNAND et que vou
 
 1. Naviguez vers `SD` -> `cias`
 1. Sélectionnez "\<current directory>"
-1. Sélectionnez l'option "install all CIAs" (installer toutes les CIAs), appuyez ensuite sur (A) pour confirmer votre choix
+1. Sélectionnez l'option "install and delete all CIAs" (installer et effacer tous les CIAs), appuyez ensuite sur (A) pour confirmer votre choix
 1. Appuyez sur (Home), puis fermez Mode téléchargement
 
 #### Section V - Extraction du DSP
 
 1. Lancez DSP1
-1. Une fois que c'est fini, presser (B) pour arrêter l'application et retourner au menu Home
+1. Une fois que c'est fini, appuyez sur (B) pour auto-effacer l'application et retourner au menu Home
 
 #### Section VI - CTRNAND Luma3DS
 
 1. Éteignez votre 3DS
 1. Ouvrez Godmode9 en maintenant (Start) au démarrage
-1. Si vous êtes invité à créer une sauvegarde de fichiers essentiels, appuyez sur (A) pour le faire, puis appuyez sur (A) pour continuer une fois qu’elle a complété
+1. Si vous êtes invité à créer une sauvegarde de fichiers essentiels, appuyez sur (A) pour le faire, puis appuyez sur (A) pour continuer une fois terminé
 1. Si vous êtes invité à régler la date et l'heure du RTC, appuyez sur (A) pour le faire, puis réglez la date et l'heure, puis appuyez sur (A) pour continuer
   Notez que, si vous avez dû régler la date et l'heure du RTC, vous devrez également régler l'heure dans les Paramètres du système après ce guide
 1. Appuyez sur (Home) pour faire apparaître le menu d’actions (action menu)
@@ -117,7 +117,7 @@ Si, avant d'avoir suivi ce guide, vous aviez une installation EmuNAND et que vou
 1. Lorsque vous êtes invité, appuyez sur (A)
 1. Appuyez sur (A) pour autoriser l'écriture sur votre SysNAND, puis entrez la combinaison de touches demandée
 1. Appuyez sur (A) pour continuer
-1. Appuyez (A) pour reverrouiller autorisations en écriture
+1. Appuyez (A) pour reverrouiller les autorisations en écriture
 
 #### Section VII - Sauvegarder les Fichiers Essentiels
 
@@ -125,7 +125,7 @@ Si, avant d'avoir suivi ce guide, vous aviez une installation EmuNAND et que vou
 1. Sélectionnez "Scripts"
 1. Sélectionnez "Backup SysNAND"
 1. Appuyez sur (A) pour confirmer
-  + Ce processus pendra du temps
+  + Ce processus prendra un certain temps
   + Si une erreur apparaît, vérifiez que vous avez au moins 1,2 ou 1,3 Go d'espace libre sur votre carte SD
 1. Appuyez sur (A) pour continuer
 1. Maintenez (R) et appuyez sur (B) en même temps pour éjecter votre carte SD
@@ -171,7 +171,7 @@ Vous pouvez maintenant appuyer simultanément sur (L) + (Bas) + (Select) pour d�
 
 <div class="notice--info">{{ notice-6 | markdownify }}</div>
 
-Pour utilisez [NTR CFW](https://github.com/44670/BootNTR/), installez [BootNTR Selector](https://gbatemp.net/threads/432911/).
+Pour utiliser [NTR CFW](https://github.com/44670/BootNTR/), installez [BootNTR Selector](https://gbatemp.net/threads/432911/).
 {: .notice--info}
 
 Pour plus d'informations sur le changement de la région de votre 3DS, veuillez consulter la page [Changement de région](region-changing).
@@ -180,7 +180,7 @@ Pour plus d'informations sur le changement de la région de votre 3DS, veuillez 
 Pour plus d’informations sur l’utilisation des diverses fonctionnalités de GodMode9, regardez la page [Utilisation de GodMode9](godmode9-usage).
 {: .notice--success}
 
-Pour plus d'informations concernant les diverses fonctionnalités de Luma3DS, veuillez consulter [Le wiki dédié](https://github.com/AuroraWright/Luma3DS/wiki/Options-and-usage).
+Pour plus d'informations concernant les diverses fonctionnalités de Luma3DS, veuillez consulter [le wiki dédié](https://github.com/AuroraWright/Luma3DS/wiki/Options-and-usage).
 {: .notice--success}
 
 Pour plus d'informations sur l'installation des thèmes personnalisés et des splash screens (image au démarrage de la console), consultez [Theme Plaza](https://themeplaza.eu/).

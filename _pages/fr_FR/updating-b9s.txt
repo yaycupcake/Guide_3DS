@@ -2,7 +2,7 @@
 title: "Mettre à jour B9S"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Table des matières" %}
 
 ### Lecture requise
 

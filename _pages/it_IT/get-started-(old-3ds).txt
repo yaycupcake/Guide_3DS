@@ -56,12 +56,6 @@ Puoi vedere quale versione del software possiedi selezionando le Impostazioni de
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">4.0.0</td>
-      <td style="text-align: center; font-weight: bold;">4.5.0</td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-(mset)">Installazione di boot9strap (MSET)</a></td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-(browser)">Installazione di boot9strap (Browser)</a></td>
-    </tr>
-    <tr>
-      <td style="text-align: center; font-weight: bold;">5.0.0</td>
       <td style="text-align: center; font-weight: bold;">8.1.0</td>
       <td style="text-align: center; font-weight: bold;" colspan="2"><a href="installing-boot9strap-(soundhax)">Installazione di boot9strap (Soundhax)</a></td>
     </tr>

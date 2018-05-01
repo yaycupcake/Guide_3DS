@@ -8,7 +8,7 @@ title: "Installing boot9strap (Soundhax)"
 
 Dacă v-ați modat deja 3DS-ul înainte și aveți o configurare cu CFW bazat pe EmuNAND, acest ghid acoperă exclusiv SysNAND-ul și ar trebui să urmați toate instrucțiunile din SysNAND. Țineți cont că termenii EmuNAND și RedNAND se referă la implementări puțin diferite ale [aceluiași concept](http://3dbrew.org/wiki/NAND_Redirection).
 
-Soundhax (when combined with pre9otherapp) is compatible with versions 5.0.0 through 8.1.0 in the EUR, JPN, KOR, and USA regions.
+Soundhax (when combined with pre9otherapp) is compatible with versions 4.0.0 through 8.1.0 in the EUR, JPN, KOR, and USA regions.
 
 Pentru a extrage fişierele `.7z` de pe această pagină, veţi avea nevoie de un arhivator de fişiere ca [7-Zip](http://www.7-zip.org/) sau [The Unarchiver] (https://theunarchiver.com/).
 
@@ -23,7 +23,7 @@ Asta înseamnă că folosind o actualizare cu cardulde joc de la o versiune care
 
 ### Ce aveți nevoie
 
-* Ultima versiune de [Soundhax](http://soundhax.com/) *(pentru dispozitivul și regiunea dumneavoastră)*
+* The latest release of [Soundhax](http://soundhax.com/) *(for your region, device, and version)*
 * Cea mai recentă versiune de [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest){:target="_blank"}
 * Cea mai nouă versiune de [boot9strap](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} *(boot9strap standard; nu fișierul `devkit`, nici cel `ntr`)*
 * Cea mai nouă versiune de [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest){:target="_blank"} *(fișierul `.7z`)*

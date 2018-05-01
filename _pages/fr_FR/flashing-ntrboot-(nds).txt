@@ -2,15 +2,15 @@
 title: "Flasher ntrboot (NDS)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Table des matières" %}
 
 ### Lecture requise
 
-Avant de commencez , assurez vous de connaître les informations sur [Ntrboot](ntrboot)
+Avant de commencer, assurez vous d'avoir lu toutes les informations sur [ntrboot](ntrboot)
 
 Cette méthode nécessite un accès temporaire à une Nintendo DS ou DS LITE qui soit compatible avec votre linker.
 
-Notez qu'il est possible que pendant le flash sur un clone celui-ci devienne inutilsable . C'est peu probable , mais notez que seule les originaux fonctionnent avec Ntrboot . Pour réduire les chances d'avoir une contrefaçon utilisez ([NDS Card](http://www.nds-card.com/))
+Notez que dans de rares circonstances, il est possible que pendant le processus de flash sur un linker contrefait (ou un clone) celui-ci **brique** et devienne inutilisable de manière permanente. C'est peu probable, mais notez que seuls les originaux fonctionnent avec ntrboot. Pour réduire les chances de recevoir un linker contrefait, il est recommandé d'utiliser un site réputé pour acheter votre linker (comme [NDS Card](http://www.nds-card.com/))
 {: .notice--danger}
 
 ## Ce dont vous avez besoin

@@ -8,7 +8,7 @@ title: "Homebrew Launcher (Soundhax)"
 
 L'Homebrew Launcher ha numerosi entrypoint, o metodi per essere avviato.
 
-Soundhax è compatibile con le versioni del software comprese tra 9.0.0 e 11.3.0 nelle regioni EUR, JPN, KOR e USA.
+Soundhax (combinato con l'Homebrew Launcher) è compatibile con le versioni del software comprese tra 9.0.0 e 11.3.0 nelle regioni EUR, JPN, KOR e USA.
 
 Assicurati che la comunicazione wireless sia attiva dato che udsploit (usato nella prossima pagina) ha bisogno di poter accedere al modulo wireless della console, e alcune (come il New 3DS, il New 2DS e l'Old 2DS) non possono gestirne l'attivazione tramite Homebrew Launcher. Non è necessaria la connessione ad un access point.
 
@@ -26,13 +26,13 @@ Ciò significa che se aggiorni con una scheda di gioco da una versione avente un
 ### Cosa serve
 
 * L'ultima versione dell'[Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"}
-* L'ultima versione di [Soundhax](http://soundhax.com/) *(adatta alla tua console e alla tua regione)*
+* L'ultima versione di [Soundhax](http://soundhax.com/) *(adatta alla regione, tipo e versione della console)*
 * L'ultima versione di [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest){:target="_blank"}
 * L'ultima versione di [boot9strap](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} *(la versione normale di boot9strap; non il file `devkit`, né il file `ntr`)*
 * L'ultima versione di [safehax](https://github.com/TiniVi/safehax/releases/latest){:target="_blank"} *(il file `.3dsx`)*
 * L'ultima versione di [udsploit](https://github.com/smealum/udsploit/releases/latest){:target="_blank"}
 * L'ultima versione di [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest){:target="_blank"} *(il file `.7z`)*
-* Il file [otherapp payload](https://smealum.github.io/3ds/#otherapp){:target="_blank"} *(adatto alla versione e alla regione della console)*
+* Il file [otherapp payload](https://smealum.github.io/3ds/#otherapp){:target="_blank"} *(adatto alla regione e alla versione della console)*
 
 ### Istruzioni
 

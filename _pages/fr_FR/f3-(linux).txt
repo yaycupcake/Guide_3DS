@@ -2,11 +2,11 @@
 title: "F3 (Linux)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Table des matières" %}
 
 ### Lecture requise
 
-Il s'agit d'une section en plus pour la vérification de votre carte SD afn de trouver des erreurs à l'aide de F3.
+Cette section supplémentaire vous indique comment vérifier si votre carte SD ne contient pas d'erreurs, en utilisant F3.
 
 Selon la taille de votre carte SD et la vitesse de votre ordinateur, ce processus peut prendre jusqu'à plusieurs heures !
 
@@ -19,7 +19,7 @@ Cette page est uniquement destinée aux utilisateurs de Linux. Si vous n'êtes p
 ### Instructions
 
 1. Décompressez le fichier `.zip` de f3
-1. `cd` dans le répertoire de f3
+1. Faites un `cd` vers le dossier de F3
 1. Exécutez la commande `make` pour compiler F3
 1. Insérez votre carte SD dans votre ordinateur
 1. Montez votre carte SD

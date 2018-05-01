@@ -6,17 +6,17 @@ title: "Flasher ntrboot (3DS Single System)"
 
 ### Lecture requise
 
-Avant de commencez , assurez vous de connaître les informations sur [Ntrboot](ntrboot)
+Avant de commencer, assurez vous d'avoir lu toutes les informations sur [ntrboot](ntrboot)
 
-Cette méthode n’exige rien de plus que votre 3DS original stock. Cette méthode utilise le linker pour lancer le flasheur ntrboot contenu dans le fichier `.nds` sur votre 3DS. Cela signifie que votre Linker doit supporter le lancement des fichiers `.nds` sur votre 3DS. Référez vous au tableau des linkers pour plus d'informations. Consultez le tableau des linkers sur [ntrboot](ntrboot) pour plus d’informations.
+Cette méthode n’exige rien de plus que votre 3DS original stock et un linker compatible. Cette méthode utilise le linker pour lancer le fichier `.nds` du flasheur ntrboot sur votre 3DS. Cela signifie que votre linker doit pouvoir lancer des fichiers `.nds` sur votre 3DS. Consultez le tableau des linkers sur [ntrboot](ntrboot) pour plus d’informations.
 
-Notez qu'il est possible que pendant le flash sur un clone celui-ci devienne inutilsable . C'est peu probable, mais notez que seuls les originaux fonctionnent avec Ntrboot. Pour réduire les chances d'avoir une contrefaçon utilisez ([NDS Card](http://www.nds-card.com/))
+Notez que dans de rares circonstances, il est possible que pendant le processus de flash sur un linker contrefait (ou un clone) celui-ci **brique** et devienne inutilisable de manière permanente. C'est peu probable, mais notez que seuls les originaux fonctionnent avec ntrboot. Pour réduire les chances de recevoir un linker contrefait, il est recommandé d'utiliser un site réputé pour acheter votre linker (comme [NDS Card](http://www.nds-card.com/))
 {: .notice--danger}
 
 ## Ce dont vous avez besoin
 
 * Votre linker compatible ntrboot
-* La dernière version de [ds_ntrboot_flasher] (https://github.com/ntrteam/ds_ntrboot_flasher/releases/latest){:target="_blank"} *(le fichier `dsi`)*
+* La dernière version de [ds_ntrboot_flasher](https://github.com/ntrteam/ds_ntrboot_flasher/releases/latest){:target="_blank"} *(flasheur `dsi` ; pas le flasheur standard)*
 
 ### Instructions
 
@@ -25,7 +25,7 @@ Notez qu'il est possible que pendant le flash sur un clone celui-ci devienne inu
 1. Éteignez votre 3DS
 1. Insérez votre carte SD du Linker dans votre ordinateur
 1. Copiez `ds_ntrboot_flasher_dsi.nds` sur la carte SD de votre linker
-1. Réinsérez la carte SD dans votre Linker
+1. Réinsérez la carte SD dans votre linker
 1. Insérez votre linker DS dans votre console
 
 #### Section II - Flasher ntrboot

@@ -125,7 +125,7 @@ Non seguire questa parte finché non avrai completato tutte le altre istruzioni 
 1. Inserisci la scheda SD nel tuo computer
   + Questa è la scheda SD del tuo 3DS, *non* la scheda SD della tua flashcart
 1. Crea una cartella chiamata `ntrboot` nella directory principale della tua scheda SD
-1. Copia il file `backup.bin` dal backup `.zip` della tua flashrom nella cartella `/ntrboot/` nella directory principale della tua scheda SD
+1. Copia il file `.bin` dal backup `.zip` della tua flashrom nella cartella `/ntrboot/` nella directory principale della tua scheda SD
 1. Crea una cartella chiamata `payloads` nella cartella `luma` della tua scheda SD 
 1. Copia il file `ntrboot_flasher.firm` nella cartella `/luma/payloads` della tua scheda SD
 1. Reinserisci la scheda SD nella tua console

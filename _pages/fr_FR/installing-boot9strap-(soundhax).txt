@@ -2,13 +2,13 @@
 title: "Installer boot9strap (Soundhax)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Table des matières" %}
 
 ### Lecture requise
 
 Si vous avez déjà hacké votre console et que vous avez un CFW basé sur une EmuNAND, ce guide s'applique exclusivement à votre SysNAND et vous devez suivre toutes les instructions depuis ou vers votre SysNAND. Notez que les termes EmuNAND et RedNAND font référence à des implémentations légèrement différentes du [même concept](http://3dbrew.org/wiki/NAND_Redirection).
 
-Soundhax (lorsque combiné avec pre9otherapp) est compatible avec les versions comprises entre 5.0.0 et 8.1.0 pour les régions EUR, JPN, KOR et USA.
+Soundhax (lorsque combiné avec pre9otherapp) est compatible avec les versions comprises entre 4.0.0 et 8.1.0 pour les régions EUR, JPN, KOR et USA.
 
 Pour extraire les fichiers `.7z` sur cette page, vous aurez besoin d'un programme d'archives comme [7-Zip](http://www.7-zip.org/) ou [The Unarchiver](https://theunarchiver.com).
 
@@ -23,7 +23,7 @@ Cela signifie que l’utilisation d’une mise à jour via cartouche depuis une 
 
 ## Ce dont vous avez besoin
 
-* La dernière version de [Soundhax](http://soundhax.com/) *(en fonction du modèle de votre console et de sa région)*
+* La dernière version de [Soundhax](http://soundhax.com/) *(en fonction de votre console, de son modèle, et de sa région)*
 * La dernière version de [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest){:target="_blank"}
 * La dernière version de [boot9strap](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} *(boot9strap standard, pas le fichier `devkit` et ni le fichier `ntr`)*
 * La dernière version de [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest){:target="_blank"} *(le fichier `.7z`)*

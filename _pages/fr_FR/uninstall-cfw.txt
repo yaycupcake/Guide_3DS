@@ -2,7 +2,7 @@
 title: "Désinstaller CFW"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Table des matières" %}
 
 ### Lecture requise
 
@@ -15,7 +15,7 @@ Tous les jeux (illégitimes) non signés seront rendues inutilisables et peuvent
 
 Cela n’affectera pas votre NNID, n’importe quel jeux légitimement achetés ou des sauvegardes pour ces jeux légitimement achetés.
 
-Notez que si vous avez n’importe quel autre payload que `GodMode9.firm` dans le dossier `/luma/payloads/` sur votre carte SD, appuyez (Start) au démarrage affiche un "chainloader menu" où vous devrez utiliser le D-Pad et le bouton (A) pour sélectionner "GodMode9" . 
+Notez que si vous avez n’importe quel autre payload que `GodMode9.firm` dans le dossier `/luma/payloads/` sur votre carte SD, appuyer sur (Start) au démarrage affiche un "chainloader menu" où vous devrez utiliser le D-Pad et le bouton (A) pour sélectionner "GodMode9" . 
 
 ## Ce dont vous avez besoin
 

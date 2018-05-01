@@ -8,7 +8,7 @@ title: "Homebrew Launcher (Soundhax)"
 
 Homebrew Launcherには、さまざまなエントリーポイントや起動方法があります。
 
-Soundhax is compatible with versions 9.0.0 through 11.3.0 in the EUR, JPN, KOR, and USA regions.
+Soundhax (when combined with the Homebrew Launcher) is compatible with versions 9.0.0 through 11.3.0 in the EUR, JPN, KOR, and USA regions.
 
 Ensure your device's Wireless Communication is turned on as udsploit (used in the next page) will need the wireless module to be active to function, and some devices (New 3DS, New 2DS, and Old 2DS) cannot adjust the Wireless Communication setting from the Homebrew Launcher. Wireless Communication only has to be on; connecting it to an access point is not required.
 
@@ -26,13 +26,13 @@ This means that using a cartridge update from a version containing an older Nint
 ### What You Need
 
 * The latest release of [the Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"}
-* The latest release of [Soundhax](http://soundhax.com/) *(for your device and region)*
+* The latest release of [Soundhax](http://soundhax.com/) *(for your region, device, and version)*
 * The latest release of [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest){:target="_blank"}
 * The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} *(standard boot9strap; not the `devkit` file, not the `ntr` file)*
 * The latest release of [safehax](https://github.com/TiniVi/safehax/releases/latest){:target="_blank"} *(the `.3dsx` file)*
 * The latest release of [udsploit](https://github.com/smealum/udsploit/releases/latest){:target="_blank"}
 * The latest release of [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest){:target="_blank"} *(the `.7z` file)*
-* The [otherapp payload](https://smealum.github.io/3ds/#otherapp){:target="_blank"} *(for your version and region)*
+* The [otherapp payload](https://smealum.github.io/3ds/#otherapp){:target="_blank"} *(for your region and version)*
 
 ### Instructions
 

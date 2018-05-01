@@ -64,7 +64,7 @@ Vous DEVEZ avoir déjà installé Luma3DS et boot9strap pour utiliser ceci.
 1. Si vous êtes invité à régler la date et l'heure du RTC, appuyez sur (A) pour le faire, puis réglez la date et l'heure, puis appuyez sur (A) pour continuer
   Notez que, si vous avez dû régler la date et l'heure du RTC, vous devrez également régler l'heure dans les Paramètres du système après ce guide
 1. Naviguez vers `[0:] SDCARD` -> `gm9`
-1. Appuyez sur (A) sur le CTRTransfer `.bin` pour le sélectionner
+1. Appuyez sur (A) sur le `.bin` de CTRTransfer pour le sélectionner
 1. Sélectionnez "CTRNAND options..."
 1. Sélectionnez "Transfer image to CTRNAND"
 1. Si vous y êtes invité, sélectionnez "Transfer to SysNAND"
@@ -82,7 +82,7 @@ Vous DEVEZ avoir déjà installé Luma3DS et boot9strap pour utiliser ceci.
 1. Appuyez (A) pour reverrouiller autorisations en écriture
 1. Appuyez sur (Start) pour redémarrer votre système
 1. Mettez à jour votre console en vous rendant dans les Paramètres de la console, puis "Autres paramètres", puis tout à droite sur l'option "Mise à jour du Système"
-  + Mettre à jour tout en utilisant B9S + Luma (ce que vous avez) sont sans danger
+  + Mettre à jour tout en ayant B9S + Luma (ce que vous avez) est sans danger
   + Si vous obtenez une erreur, réglez vos paramètres DNS sur "Automatique"
 
 #### Section III - Lancez FBI
@@ -93,7 +93,7 @@ Vous DEVEZ avoir déjà installé Luma3DS et boot9strap pour utiliser ceci.
 1. Sélectionnez "Switch the hb. title to the current app."
 1. Appuyez sur (B) pour continuer
 1. Appuyez sur (B) pour revenir au menu principal de Rosalina
-1. Appuyez sur (B) pour quitter le menu de Rosalina
+1. Appuyez sur (B) pour quitter le menu Rosalina
 1. Appuyez sur (Home), puis fermez Mode téléchargement
 1. Lancez l’application Mode téléchargement
 1. Votre console devrait maintenant charger le Homebrew Launcher
@@ -109,7 +109,7 @@ Si le script trouvé qu'aucun ticket utilisateur vous pouvez sautez cette sectio
 1. Sélectionnez "gm9"
 1. Sélectionnez "out"
 1. Sélectionnez "ctrtransfer_tickets"
-1. Effectuez la manipulation suivante pour le dossier eshop, ou le dossier `unknown`, ou bien les deux si vous avez les deux
+1. Effectuez la manipulation suivante pour le dossier `eshop`, ou le dossier `unknown`, ou bien les deux si vous avez les deux
   + Accédez au dossier
   + Sélectionnez "\<current directory>"
   + Sélectionnez "Install and delete all tickets"
@@ -130,7 +130,7 @@ Si le script trouvé qu'aucun ticket utilisateur vous pouvez sautez cette sectio
 
 1. Ouvrez Godmode9 en maintenant (Start) au démarrage
 1. Naviguez vers `[0:] SDCARD` -> `gm9`
-1. Pressez (X) sur l'image CTRTransfer `.bin` pour la supprimer
+1. Pressez (X) sur le `.bin` de l'image CTRTransfer pour le supprimer
 1. Appuyez sur (A) pour confirmer
 1. Appuyez sur (Start) pour redémarrer votre système
 

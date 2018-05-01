@@ -56,12 +56,6 @@ La version de votre console peut être trouvée en bas à droite de l'écran sup
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">4.0.0</td>
-      <td style="text-align: center; font-weight: bold;">4.5.0</td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-(mset)">Installation de boot9strap (MSET)</a></td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-(browser)">Installation de boot9strap (Navigateur)</a></td>
-    </tr>
-    <tr>
-      <td style="text-align: center; font-weight: bold;">5.0.0</td>
       <td style="text-align: center; font-weight: bold;">8.1.0</td>
       <td style="text-align: center; font-weight: bold;" colspan="2"><a href="installing-boot9strap-(soundhax)">Installation de boot9strap (Soundhax)</a></td>
     </tr>

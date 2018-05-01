@@ -2,7 +2,7 @@
 title: "ntrboot"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Table des matières" %}
 
 Si vous avez déjà flashé ntrboot sur votre linker ou votre linker est pré-flashé ntrboot, allez à [Installer boot9strap (ntrboot)](installing-boot9strap-(ntrboot)) pour des instructions et comment l'utiliser .
 {: .notice--success}

@@ -8,7 +8,7 @@ title: "Homebrew Launcher (Soundhax)"
 
 Il existe différentes méthodes pour lancer l'Homebrew Launcher.
 
-SoundHax est compatible pour les versions du firmware comprises entre 9.0.0 et 11.3.0 pour les régions EUR, JPN, KOR et USA.
+Soundhax (lorsque combiné avec le Homebrew Launcher) est compatible avec les versions comprises entre 9.0.0 et 11.3.0 pour les régions EUR, JPN, KOR et USA.
 
 Assurez vous que la communication sans fil de votre appareil est allumée, vu que udsploit (utilisé dans la page suivante) aura besoin du module sans fil actif pour fonctionner, de plus certains appareils (New 3DS, New 2DS et Old 2DS) ne peuvent pas régler la Communication sans fil depuis le Homebrew Launcher. La Communication sans fil doit juste être allumée; la connexion à un point d’accès n’est pas nécessaire.
 
@@ -26,7 +26,7 @@ Cela signifie que l’utilisation d’une mise à jour via cartouche depuis une 
 ## Ce dont vous avez besoin
 
 * La dernière version de [Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"}
-* La dernière version de [Soundhax](http://soundhax.com/) *(en fonction du modèle de votre console et de sa région)*
+* La dernière version de [Soundhax](http://soundhax.com/) *(en fonction de votre console, de son modèle, et de sa région)*
 * La dernière version de [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest){:target="_blank"}
 * La dernière version de [boot9strap](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} *(boot9strap standard, pas le fichier `devkit` ni le fichier `ntr`)*
 * La dernière version de [safehax](https://github.com/TiniVi/safehax/releases/latest){:target="_blank"} *(le fichier`.3dsx`)*

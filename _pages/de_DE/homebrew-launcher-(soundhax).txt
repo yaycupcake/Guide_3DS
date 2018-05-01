@@ -8,7 +8,7 @@ title: "Homebrew Launcher (Soundhax)"
 
 Der Homebrew Launcher hat viele verschiedene Eintrittspunkte, beziehungsweise Möglichkeiten, um ihn zu starten.
 
-Soundhax ist kompatibel mit den Versionen 9.0.0 bis einschließlich 11.3.0 in den Regionen EUR, JPN, KOR, and USA.
+Soundhax (when combined with the Homebrew Launcher) is compatible with versions 9.0.0 through 11.3.0 in the EUR, JPN, KOR, and USA regions.
 
 Stelle sicher, dass die Drahtloskommunikation deiner Konsole eingeschaltet ist, da udsploit (wird auf der nächsten Seite genutzt) ein aktives Drahtlosmodul erfordert und manche Konsolen (New 3DS, New 2DS und Old 2DS) die Drahtloskommunikation im Homebrew Launcher nicht einschalten können. Drahtloskommunikation muss nur eingeschaltet sein. Eine Verbindung zu einem Access Point ist nicht notwendig.
 
@@ -26,13 +26,13 @@ This means that using a cartridge update from a version containing an older Nint
 ### What You Need
 
 * The latest release of [the Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"}
-* Die neueste Version von [Soundhax](http://soundhax.com/) *(für deine Konsole und deine Region)*
+* The latest release of [Soundhax](http://soundhax.com/) *(for your region, device, and version)*
 * Die neuste Version von [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest){:target="_blank"}
 * Die neuste Version von [boot9strap](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} *(standard boot9strap; nicht die `devkit` Datei, nicht die`ntr` Datei)*
 * Die neuste Version von [safehax](https://github.com/TiniVi/safehax/releases/latest){:target="_blank"} *(die `.3dsx` Datei)*
 * Die neuste Version von [udsploit](https://github.com/smealum/udsploit/releases/latest){:target="_blank"}
 * Die neueste Version von [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(die `.7z`-Datei)*
-* The [otherapp payload](https://smealum.github.io/3ds/#otherapp){:target="_blank"} *(for your version and region)*
+* The [otherapp payload](https://smealum.github.io/3ds/#otherapp){:target="_blank"} *(for your region and version)*
 
 ### Anleitung
 

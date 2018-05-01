@@ -8,7 +8,7 @@ title: "Installing boot9strap (Soundhax)"
 
 If you have already hacked your device before and have a EmuNAND based CFW setup, this guide deals exclusively with SysNAND and you should follow all instructions from within or applying to SysNAND. Sila ambil perhatian terma EmuNAND dan RedNAND mungkin berbeza sedikit dari cara perlaksanaannya akan tetapi [sama konsepnya](http://3dbrew.org/wiki/NAND_Redirection).
 
-Soundhax (when combined with pre9otherapp) is compatible with versions 5.0.0 through 8.1.0 in the EUR, JPN, KOR, and USA regions.
+Soundhax (when combined with pre9otherapp) is compatible with versions 4.0.0 through 8.1.0 in the EUR, JPN, KOR, and USA regions.
 
 To extract the `.7z` files linked on this page, you will need a file archiver like [7-Zip](http://www.7-zip.org/) or [The Unarchiver](https://theunarchiver.com/).
 
@@ -23,7 +23,7 @@ This means that using a cartridge update from a version containing an older Nint
 
 ### What You Need
 
-* The latest release of [Soundhax](http://soundhax.com/) *(for your device and region)*
+* The latest release of [Soundhax](http://soundhax.com/) *(for your region, device, and version)*
 * The latest release of [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest){:target="_blank"}
 * The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} *(standard boot9strap; not the `devkit` file, not the `ntr` file)*
 * The latest release of [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest){:target="_blank"} *(the `.7z` file)*

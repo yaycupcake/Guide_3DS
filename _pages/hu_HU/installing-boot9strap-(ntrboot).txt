@@ -125,7 +125,7 @@ Ne hajtsd végre az itt leírt utasításokat mindaddig, amíg nem végeztél az
 1. Helyezd az SD kártyád a számítógépbe
   + Ez a 3DS-ed SD kártyája, *nem* a flashkártyádé
 1. Hozz létre egy mappát `ntrboot` néven az SD kártya gyökerében
-1. Másold át a `backup.bin` fájlt a flashrom biztonsági mentésed `.zip`-jéből az SD kártyád gyökerében található `/ntrboot/` mappába
+1. Másold át a `.bin` fájlt a flashrom biztonsági mentésed `.zip`-jéből az SD kártyád gyökerében található `/ntrboot/` mappába
 1. Hozz létre egy mappát `payloads` néven az SD kártyád `luma` nevezetű mappájában 
 1. Másold át az `ntrboot_flasher.firm` az SD kártyád `/luma/payloads/` mappába
 1. Tedd vissza az SD kártyád a készülékedbe
