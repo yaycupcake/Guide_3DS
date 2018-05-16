@@ -2,9 +2,9 @@
 title: "Get Started"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Spis Treści" %}
 
-### Required Reading
+### Wymagana Lektura
 
 Different device models and versions will require different steps to achieve the end goal of boot9strap Custom Firmware. Ta strona pomoże ci w określeniu, od czego rozpocząć w wypadku twojej konsoli.
 
@@ -28,10 +28,10 @@ There have been reports of a wave of bans being handed out to CFW users by Ninte
 1. Disable the "Sending of System Information" option
 1. Exit the System Settings
 1. Go to your Friend List (the [orange Face Icon]({{ "/images/friend-list-icon.png" | absolute_url }}) in the top row of your Home Menu)
-  + If you receive an error and are kicked out of the menu, the Friend List setting is either already disabled or your console cannot connect to Nintendo's servers (due to a ban or connection issues)
-1. Go to the Friend List settings, then "Friend Notification Settings", then "Show friends what you're playing"
+  + Jeśli wyświetli się błąd i zostaniesz wyrzucony z menu, lista znajomych jest albo już wyłączona lub twoja konsola nie może się połączyć z serwerami Nintendo (przez bana lub problemy z połączeniem)
+1. Wejdź do ustawień Listy Znajomych, potem "Friend Notification Settings", potem "Show friends what you're playing"
 1. Disable the "Show friends what you're playing" option
-1. Exit your Friend List
+1. Wyjdź z Listy Znajomych
 
 {% endcapture %}
 

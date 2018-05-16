@@ -48,7 +48,7 @@ sitemap: false
 + [安裝 boot9strap (透過 Homebrew Launcher)](installing-boot9strap-(homebrew-launcher))
 + [安裝 boot9strap (透過 MSET)](installing-boot9strap-(mset))
 + [安裝 boot9strap (透過 ntrboot)](installing-boot9strap-(ntrboot))
-+ [Installing boot9strap (Soundhax)](installing-boot9strap-(soundhax))
++ [安裝 boot9strap (透過 Soundhax)](installing-boot9strap-(soundhax))
 + [ntrboot](ntrboot)
 + [移植 EmuNAND](move-emunand)
 + [區碼變更](region-changing)

@@ -43,13 +43,13 @@ In many cases, running homebrew on your device is 100% free using just the Ninte
 
 ## Czym jest Custom Firmware?
 
-**Custom Firmware** ("CFW") pozwala ci na używanie bardziej zaawansowanych hacków, czego zwykły dostęp do homebrew nie może łatwo zrobić. Przykładowo, patch podpisów pozwala ci na instalację niepodpisanych tytułów które pojawiają się bezpośrednio w HOME Menu.
+**Custom Firmware** ("CFW") pozwala na używanie bardziej zaawansowanych modyfikacji, takich których zwykły dostęp do Homebrew nie może z łatwością zapewnić. Przykładowo, patch podpisów pozwala na instalację niepodpisanych tytułów które pojawiają się bezpośrednio w HOME Menu.
 
 CFW can be set up on any console on any version (but may require additional tools / accessories for versions >11.3.0).
 
-## Co jest celem tej instrukcji?
+## Co jest celem tego poradnika?
 
-Końcowym celem tej instrukcji jest zmiana zupełnie niezmodyfikowanego, fabrycznego firmware konsoli Nintendo 3DS
+Końcowym celem tego poradnika jest przerobienie zupełnie niezmodyfikowanego, fabrycznego firmware konsoli Nintendo 3DS
 firmware to boot9strap powered Custom Firmware. W przypadku niektórych wersji firmware, instrukcja wykorzystuje homebrew jako punkt bazowy, jednak Custom Firmware jest nadal jej celem.
 
 boot9strap is the newest and best method of launching Custom Firmware that gives us nearly full control of the system only milliseconds into boot, which is similar to the effect of BootMii for the Wii. It gives us even earlier control than arm9loaderhax did, and, unlike standard sighax, boot9strap uses an NDMA overwrite exploit in order to gain Boot9 code execution. This means that any console running boot9strap is capable of dumping the console unique OTP (`OTP.bin`), the ARM11 bootrom (`boot11.bin`), and the ARM9 bootrom (`boot9.bin`).
@@ -63,7 +63,7 @@ For a list of each of the calculated sighax signatures, see [this gist](https://
 ## Co mogę zrobić z Custom Firmware?
 
 + Grać we wszystkie gry zarówno z kartridżów jak i wersje eShop, niezależnie od regionu
-+ Customize your HOME Menu with user-created [themes and splash screens](https://themeplaza.eu/)
++ Personalizować swoje menu HOME dzięki stworzonym przez użytkowników [motywom i ekranom powitalnym](https://themeplaza.eu/)
 + Używać "ROM hacków" gier które posiadasz
 + Wykonywać zrzuty ekranu z gier oraz aplikacji
 + Backup, edit, and restore saves for many games
@@ -79,7 +79,7 @@ For a list of each of the calculated sighax signatures, see [this gist](https://
 + **Przed rozpoczęciem wykonywania instrukcji, musisz znać zagrożenia przerabienia Nintendo 3DS: przy KAŻDEJ modyfikacji systemu istnieje potencjalne ryzyko NIEODWRACALNEGO BRICK'A. Są one rzadkie, ale nadal możliwe, więc upewnij się że, wykonałeś WSZYSTKIE kroki DOKŁADNIE.**
 + If you have already hacked your 3DS before to get an EmuNAND setup, and would like to move the contents of your previous EmuNAND to your new SysNAND CFW, you should follow all instructions and restore your existing EmuNAND when prompted once you reach [Finalizing Setup](finalizing-setup).
 + This guide will work on New 3DS, Old 3DS, New 2DS, and Old 2DS in all regions on firmware 11.6.0 or below.
-+ Jeśli wszystko pójdzie zgodnie z planem, nie stracisz żadnych danych i wszystko pozostanie tak jak przed rozpoczęciem instrukcji (gry, NNID, zapisy itp. zostaną zachowane).
++ Jeśli wszystko pójdzie zgodnie z planem, nie stracisz żadnych danych i wszystko pozostanie tak jak przed rozpoczęciem poradnika (gry, NNID, zapisy itp. zostaną zachowane).
 + Keep your device plugged in and charged throughout the entire process to avoid data loss or damage from an unexpected power-off!
 + Your SD card should be [MBR, not GPT](http://www.howtogeek.com/245610/) (the SD card that comes with your device will be MBR by default).
 + If you need to format a brand new SD card, you can use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) and set to an Allocation Unit Size of 32K (32768).

@@ -2,23 +2,23 @@
 title: "F3X (Mac)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Spis Treści" %}
 
-### Required Reading
+### Wymagana Lektura
 
-This is an add-on section for checking your SD card for errors using F3X.
+To jest sekcja dodatkowa poświęcona sprawdzeniu błędów na twojej karcie SD przy użyciu F3X.
 
 W zależności od wielkości karty SD i szybkości komputera, proces ten może potrwać nawet kilka godzin!
 
 Ta strona dotyczy tylko użytkowników systemu Mac. Jeśli nie posiadasz komputera Mac, sprawdź strony [H2testw (windows)](h2testw-(windows)) lub [F3 (Linux)](f3-(linux)).
 
-### What You Need
+### Czego Potrzebujesz
 
-* The latest release of [F3X](https://github.com/insidegui/F3X/releases/latest){:target="_blank"}
+* Najnowszej wersji [F3X](https://github.com/insidegui/F3X/releases/latest){:target="_blank"}
 
-### Instructions
+### Instrukcje
 
-1. Rozpakuj plik `.zip` z F3X
+1. Rozpakuj plik F3X `.zip`
 1. Włóż kartę SD do komputera
 1. Uruchom aplikację F3X
 1. Wybierz kartę SD
@@ -27,11 +27,11 @@ Ta strona dotyczy tylko użytkowników systemu Mac. Jeśli nie posiadasz kompute
 
 ___
 
-Jeśli test pokazuje wynik ' Succces! Your card is ok!` your SD card is good and you can delete all `.h2w` files on your SD card
+Jeśli test pokazuje wynik `Success! Your card is ok!` twoja karta SD jest dobra i możesz usunąć z niej wszystkie pliki `.h2w`
 {: .notice--success}
 
 Jeśli test pokazuje inne wyniki, karta SD może być uszkodzona i może być konieczna jej wymiana!
 {: .notice--danger}
 
-### Return to [Get Started](get-started)
+### Powróć do [Wprowadzenie](get-started)
 {: .notice--primary}

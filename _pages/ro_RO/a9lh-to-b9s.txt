@@ -66,13 +66,13 @@ Pentru toți pașii din această secțiune, suprascrieți fișierele existente d
 1. Copiati `arm9loaderhax.bin` din v7.0.5 Luma3DS `.7z` în rădăcina cardului SD
 1. Creați un folder numit `cias` în rădăcina cardului SD dacă nu există deja
 1. Copiați `lumaupdater.cia` în folderul `/cias/` de pe cardul SD
-1. Creați un folder numit `boot9strap` pe rădăcina cardului SD
 1. Ștergeți orice payload-uri `.bin` din folderul `/luma/payloads/` de pe cardul SD pentru că ele nu vor fi compatibile cu versiuni Luma3DS compatibile cu boot9strap
 1. Copiați `GodMode9.firm` de pe arhiva `.zip` GodMode9 în folderul `/luma/payloads/` de pe cardul SD
 1. Copiați folderul `gm9` din fișierul `.zip` GodMode9 în rădăcina cardului SD
 1. Copiați `setup_ctrnand_luma3ds.gm9` în folderul `/gm9/scripts/` de pe cardul SD
 1. Copiați `cleanup_sd_card.gm9` în folderul `/gm9/scripts/` de pe cardul SD
 1. Copiați `SafeBS9Installer.bin` din arhiva `.zip` SafeB9SInstaller în folderul `/luma/payloads/` de pe cardul SD
+1. Creați un folder numit `boot9strap` pe rădăcina cardului SD
 1. Copiați `boot9strap.firm` și `boot9strap.firm.sha` din arhiva `.zip` boot9strap în folderul `/boot9strap/` de pe cardul SD
 1. **Doar utilizatorii de New 3DS:** Copiați `secret_sector.bin` în folderul `/boot9strap/`de pe cardul SD
 

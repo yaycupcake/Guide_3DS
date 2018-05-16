@@ -2,9 +2,9 @@
 title: "Get Started (Old 3DS)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Spis Treści" %}
 
-### Required Reading
+### Wymagana Lektura
 
 Wybierz odpowiednią podstronę dla swojej wersji firmware z poniższej tabeli. Note that the "from" and "to" fields are inclusive. To oznacza, przykładowo, iż wiersz "od 9.0.0 do 9.2.0" zawiera wersje firmware 9.0.0, 9.1.0 oraz 9.2.0.
 

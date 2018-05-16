@@ -2,23 +2,23 @@
 title: "F3 (Linux)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Spis Treści" %}
 
-### Required Reading
+### Wymagana Lektura
 
-This is an add-on section for checking your SD card for errors using F3.
+To jest sekcja dodatkowa poświęcona sprawdzeniu błędów na twojej karcie SD przy użyciu F3.
 
 W zależności od wielkości karty SD i szybkości komputera, proces ten może potrwać nawet kilka godzin!
 
 Ta strona dotyczy tylko użytkowników systemu Linux. Jeśli nie posiadasz Linuxa, sprawdź strony [H2testw (windows)](h2testw-(windows)) lub [F3X (mac)](f3x-(mac)).
 
-### What You Need
+### Czego Potrzebujesz
 
 * Najnowszej wersji programu [F3](https://github.com/AltraMayor/f3/archive/v6.0.zip)
 
-### Instructions
+### Instrukcje
 
-1. Rozpakuj plik `.zip` z F3
+1. Rozpakuj plik f3 `.zip`
 1. `cd` do katalogu f3
 1. Uruchom `make` aby skompilować F3
 1. Włóż kartę SD do komputera
@@ -56,11 +56,11 @@ Average Reading speed: 9.42 MB/s
 
 ___
 
-If the test shows the result `Data LOST: 0.00 Byte (0 sectors)` your SD card is good and you can delete all `.h2w` files on your SD card
+Jeśli test pokazuje wynik `Data LOST: 0.00 Byte (0 sectors)` twoja karta SD jest dobra i możesz z niej usunąć wszystkie pliki `.h2w`
 {: .notice--success}
 
 Jeśli test pokazuje inne wyniki, karta SD może być uszkodzona i może być konieczna jej wymiana!
 {: .notice--danger}
 
-### Return to [Get Started](get-started)
+### Powróć do [Wprowadzenie](get-started)
 {: .notice--primary}

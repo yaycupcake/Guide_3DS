@@ -1,36 +1,36 @@
 ---
-title: "Cartridge Update"
+title: "Aktualizacja z Kartridża"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Spis Treści" %}
 
-### Required Reading
+### Wymagana Lektura
 
-All game cartridges contain a copy of the required system version to play it, allowing anyone on a lower version to use the cartridge to update to that version (even without an internet connection).
+Wszystkie kartridże z grami zawierają kopie wymaganej wersji systemu do zagrania w nie, pozwalając każdemu z niższą wersją by zaktualizować do tej wersji (Nawet bez połączenia z internetem).
 
 {% capture notice-1 %}
 
-Note that cartridge updates will only deliver updates to core features, such as the System Settings, Home Menu, etc. cartridge updates will not deliver updates to Nintendo 3DS Sound and Network features, such as System Transfer, Internet Browser, StreetPass Mii Plaza, or eShop.
+Zapamiętaj że aktualizacje z kartridżów dostarczą aktualizacje tylko do głównych funkcji, takich jak Ustawienia Systemowe, Menu Główne, itd. aktualizacje z kartridżów nie dostarczą aktualizacji do Nintendo 3DS Sound i funkcji sieciowych, takich jak Transfer Systemu, Przeglądarka Internetowa, Streetpass Mii Plaza, lub eShop.
 
-This means that using a cartridge update from a version containing an older Nintendo 3DS Sound version *(<3.0.0)* to one that introduced a newer Nintendo 3DS Sound version will break [Soundhax](homebrew-launcher-(soundhax))! You will need an [alternate method](homebrew-launcher-(alternatives)) of entering the Homebrew Launcher!
+To oznacza że użycie aktualizacji z kartridża posiadając starszą wersje Nintendo 3DS Sound *(<3.0.0)* do wersji która dodała nowszą wersje Nintendo 3DS Sound zepsuje [Soundhax](homebrew-launcher-(soundhax))! Będziesz potrzebował [alternatywnej metody](homebrew-launcher-(alternatives)) wchodzenia do Homebrew Launcher!
 
-This also means that a cartridge update will NOT install a browser if you do not already have one. Metoda ta zaktualizuje **tylko** ścisłe firmware konsoli *(na przykład, 2.1.0-0 ->6.0.0-0)*. Ostatnia cyfra, *(-0)*, oznaczająca wersję przeglądarki internetowej, **nie* ulegnie zmianie.
+To oznacza że aktualizacja z kartridża NIE zainstaluje przeglądarki jeśli jeszcze jej nie masz. Metoda ta zaktualizuje **tylko** ścisłe firmware konsoli *(na przykład, 2.1.0-0 ->6.0.0-0)*. Ostatnia cyfra, *(-0)*, oznaczająca wersję przeglądarki internetowej, **nie* ulegnie zmianie.
 {% endcapture %}
 
 <div class="notice--warning">{{ notice-1 | markdownify }}</div>
 
-**Updating with a game cartridge containing the version 9.9.0 or above will remove your browser until a standard online update is performed!**
+**Aktualizowanie gry za pomocą kartridża zawierającego wersje 9.9.0 lub wyższą usunie twoją przeglądarkę dopóki standardowa aktualizacja przez internet nie zostanie wykonana!**
 {: .notice--danger}
 
-### What You Need
+### Czego Potrzebujesz
 
-* A game cartridge that [contains the version](http://www.3dsdb.com/) you wish to update to
+* Kartridża który [zawiera wersję](http://www.3dsdb.com/) do której chcesz zaktualizować
 
-### Instructions
+### Instrukcje
 
-1. Boot your device into recovery mode by holding (L) + (R) + (A) + (UP) while powering on
-1. If prompted, decline the update
-1. Reboot your device
-1. Put the game in your device if it is not already
+1. Uruchom urządzenie do trybu recovery poprzez trzymanie (L) + (R) + (A) + (Góra) podczas uruchamiania systemu
+1. Jeżeli zostaniesz poproszony, odrzuć aktualizację
+1. Uruchom ponownie urządzenie
+1. Włóż grę do urządzenia jeżeli jeszcze tego nie zrobiłeś
 1. Spróbuj uruchomić grę
 1. Pozwól na aktualizację firmware kiedy zostaniesz o nią zapytany

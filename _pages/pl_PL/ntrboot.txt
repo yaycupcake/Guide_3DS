@@ -2,12 +2,12 @@
 title: "ntrboot"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Spis Treści" %}
 
 If you have already flashed ntrboot to your flashcart or your flashcart comes pre-flashed with ntrboot, you can skip to [Installing boot9strap (ntrboot)](installing-boot9strap-(ntrboot)) for instructions on how to use it.
 {: .notice--success}
 
-### Required Reading
+### Wymagana Lektura
 
 Installing boot9strap with ntrboot requires a compatible NDS / DSi flashcart to flash ntrboot to. Note that some of these flashcarts are sold pre-flashed with ntrboot.
 
@@ -47,9 +47,9 @@ The usage of this exploit, regardless of flashing method, requires access to a s
 To test if a magnet will work, hold it on or around the (A)(B)(X)(Y) buttons while the device is powered on to see if it triggers sleep mode. If it does, both displays will go black as long as the magnet is held in that spot.
 {: .notice--info}
 
-Note that the flashcart will not be able to be used for its standard functions while the ntrboot exploit is installed on it (except for in the case of the Acekard 2i, which remains functional *on NDS and custom firmware 3DS systems only*). This means that, for most flashcarts, it will not even display on the home menu. There are optional steps at the end of the ntrboot flashing instructions to remove it from your flashcart when you are done.
+Note that the flashcart will not be able to be used for its standard functions while the ntrboot exploit is installed on it (except for in the case of the Acekard 2i, which remains functional *on NDS and custom firmware 3DS systems only*). This means that, for most flashcarts, it will not even display on the home menu. Na końcu instrukcji instalacji ntrboot znajdują się opcjonalne kroki, aby usunąć go z flashcarta po zakończeniu.
 
-Note that in some rare circumstances, it may be possible for the flashing process to **brick** a counterfeit flashcart and render it permanently unusable. This is unlikely, but nevertheless only original listed flashcarts are supported. To reduce the chance of receiving a counterfeit card, it is recommended that you use a reputable site to buy your flashcart (such as [NDS Card](http://www.nds-card.com/))
+Zauważ, że w niektórych rzadkich przypadkach proces wgrywania ntrboot na podrobiony flashcart może go **"zbrickować"** i permanentnie uszkodzić. Jest to mało prawdopodobne, ale jednak tylko wymienione oryginalne flashcart'y są obsługiwane. Aby zmniejszyć prawdopodobieństwo otrzymania podrobionego flashcarta, zaleca się korzystanie z renomowanej strony do ich kupowania (takiej jak [NDS Card](http://www.nds-card.com/))
 {: .notice--danger}
 
 ___
@@ -59,7 +59,7 @@ ___
 
 #### Flashing ntrboot (3DS Single System)
 
-This method requires nothing more than your stock unhacked 3DS and a compatible flashcart. This method uses the flashcart to run the ntrboot flasher `.nds` file on your 3DS. This means that your flashcart must support launching `.nds` files on your 3DS's version. See the flashcart table above for more information.
+Ta metoda wymaga tylko 3DS'a którego chcesz przerobić oraz kompatybilnego z ntrboot flashcarta. Ta metoda używa flashcarta aby uruchomić plik ntrboot flasher `.nds` na twoim 3DSie. Oznacza to, że twój flashcart musi obsługiwać uruchamianie plików `.nds` na twoim 3DSie. See the flashcart table above for more information.
 
 Continue to [Flashing ntrboot (3DS Single System)](flashing-ntrboot-(3ds-single-system))
 {: .notice--primary}
@@ -68,7 +68,7 @@ ___
 
 #### Flashing ntrboot (3DS Multi System)
 
-This method requires temporary access to a second 3DS family device that is already running boot9strap. This does not require your flashcart to support either 3DS's version. See the flashcart table above for more information.
+This method requires temporary access to a second 3DS family device that is already running boot9strap. Dzięki tej metodzie flashcart nie musi obsługiwać wersji systemu żadnego 3DS'a. See the flashcart table above for more information.
 
 Continue to [Flashing ntrboot (3DS Multi System)](flashing-ntrboot-(3ds-multi-system))
 {: .notice--primary}

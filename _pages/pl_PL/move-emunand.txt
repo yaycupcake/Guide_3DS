@@ -2,15 +2,15 @@
 title: "Move EmuNAND"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Spis Treści" %}
 
-### Required Reading
+### Wymagana Lektura
 
-This is an add-on section for moving the contents of a previous EmuNAND to your new SysNAND CFW, then removing the old EmuNAND partition. Zauważ, że terminy EmuNand i RedNAND odnoszą się do nieco innych implementacji [tej samej idei] (http://3dbrew.org/wiki/NAND_Redirection).
+This is an add-on section for moving the contents of a previous EmuNAND to your new SysNAND CFW, then removing the old EmuNAND partition. Note that the terms EmuNAND and RedNAND refer to slightly different implementations of [the same concept](http://3dbrew.org/wiki/NAND_Redirection).
 
 Note that if you have any payload files other than `GodMode9.firm` in the `/luma/payloads/` folder on your SD card, holding (Start) on boot will display a "chainloader menu" where you will have to use the D-Pad and the (A) button to select "GodMode9" for these instructions.
 
-You MUST have already installed Luma3DS and boot9strap to use this.
+MUSISZ mieć już zainstalowany Luma3DS i boot9strap żeby to wykonać.
 {: .notice--danger}
 
 ### What You Need
@@ -19,13 +19,13 @@ You MUST have already installed Luma3DS and boot9strap to use this.
 * The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/latest){:target="_blank"}
 * The latest release of [FBI](https://github.com/Steveice10/FBI/releases/latest){:target="_blank"}
 
-### Instructions
+### Instrukcje
 
-#### Section I - Prep Work
+#### Sekcja I - Przygotowanie
 
 1. Power off your device
 1. Włóż kartę SD do komputera
-1. Copy `GodMode9.firm` from the GodMode9 `.zip` to the `/luma/payloads/` folder on your SD card
+1. Skopiuj `GodMode9.firm` z GodMode9 `.zip` do folderu `/luma/payloads/` na karcie SD
 1. Copy the `gm9` folder from the GodMode9 `.zip` to the root of your SD card
 1. Reinsert your SD card into your device
 
@@ -67,7 +67,7 @@ To identify a `<TitleID>.gbavc.sav` file's Title ID, you can get a listing of al
   + Select "AGBSAVE options..."
   + Select "Dump GBA VC save"
   + Press (A) to continue
-  + Press (Start) to reboot your device
+  + Wciśnij (Start) aby zrestartować konsolę
 
 #### Section IV - Copy EmuNAND to SysNAND
 
@@ -80,7 +80,7 @@ To identify a `<TitleID>.gbavc.sav` file's Title ID, you can get a listing of al
   + This process will take some time
 1. Once it has completed, press (A) to continue
 1. Press (B) to decline relocking write permissions if prompted
-1. Press (B) to return to the main menu
+1. Wciśnij (B) aby wrócić do menu głównego
 
 #### Section V - Restore DSiWare Saves
 
@@ -130,16 +130,16 @@ To identify a `<TitleID>.gbavc.sav` file's Title ID, you can get a listing of al
 #### Section VII - Backup SysNAND
 
 1. Press (Home) to bring up the action menu
-1. Select "Scripts..."
+1. Wybierz "Scripts..."
 1. Select "Backup SysNAND"
 1. Naciśnij (A) aby potwierdzić
-  + This process will take some time
+  + Ten proces zajmie trochę czasu
 1. Naciśnij (A), aby kontynuować
 1. Przytrzymaj przycisk (R) i jednocześnie naciśnij przycisk (B), aby bezpiecznie wyjąć kartę SD
 1. Włóż kartę SD do komputera
 1. Copy `<date>_<serialnumber>_sysnand_###.bin` from the `/gm9/out/` folder on your SD card to a safe location on your computer
   + Make backups in multiple locations (such as online file storage)
-  + Ta kopia uratuje Cie przed brick'iem jeśli cokolwiek pójdzie nie tak w przyszłości
+  + Ta kopia uratuje cię przed brickiem jeśli cokolwiek pójdzie nie tak w przyszłości
 1. Delete `<date>_<serialnumber>_sysnand_###.bin` from the `/gm9/out/` folder on your SD card after copying it
 1. **Utwórz kopię zapasową wszystkich plików na karcie SD do folderu na swoim komputerze. Wszystkie pliki znajdujące się obecnie na karcie SD zostaną usunięte w następnym kroku**
 
@@ -161,8 +161,8 @@ To identify a `<TitleID>.gbavc.sav` file's Title ID, you can get a listing of al
   + Ensure you replace the `boot.firm` file on your SD card with the one from your backup
 1. Reinsert your SD card into your device
 1. Naciśnij przycisk (A), aby ponownie zamontować swoją kartę SD
-1. Press (Start) to reboot
-1. Jeżeli uruchamianie konsoli zatrzyma się na czarnym ekranie, [wykonaj instrukcję rozwiązywania problemów](troubleshooting#ts_sys_down)
+1. Naciśnij przycisk (Start) aby uruchomić konsolę ponownie
+1. Jeśli pojawi się pusty, czarny ekran, [przejdź do rozwiązywania problemów](troubleshooting#ts_sys_down)
 
 ___
 

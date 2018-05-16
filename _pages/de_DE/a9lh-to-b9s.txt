@@ -66,13 +66,13 @@ Beachte, dass auf dem New 3DS die `secret_sector.bin` benötigt wird, um den arm
 1. Kopiere `arm9loaderhax.bin`aus der Version v7.0.5 Luma3DS  `.7z`in das Stammverzeichnis deiner SD-Karte.
 1. Erstelle einen Ordner namens `cias` im Stammverzeichnis deiner SD-Karte, falls er noch nicht existiert
 1. Kopiere `lumaupdater.cia` in den `/cias/`-Ordner auf deiner SD-Karte
-1. Erstelle einen Ordner namens `boot9strap` im Stammverzeichnis deiner SD-Karte
 1. Lösche alle `.bin`-Payloads im `/luma/payloads/`-Ordner deiner SD-Karte, da sie mit den Luma3DS Versionen, die boot9strap unterstützen, nicht mehr kompatibel sind
 1. Kopiere `Godmode9.firm`von der `Godmode9.zip`-Datei nach `/luma/payloads/` auf deiner SD Karte
 1. Kopiere den Ordner `gm9` aus der GodMode9 `.zip` in das Stammverzeichnis deiner SD-Karte
 1. Kopiere `setup_ctrnand_luma3ds.gm9` nach `/gm9/scripts/` auf deiner SD-Karte
 1. Kopiere `cleanup_sd_card.gm9` in den `/gm9/scripts/` Ordner auf deiner SD-Karte
 1. Kopiere die Datei `SafeB9SInstaller.bin` von der SafeB9SInstaller `.zip` in den Ordner `/luma/payloads/` auf deiner SD-Karte
+1. Erstelle einen Ordner namens `boot9strap` im Stammverzeichnis deiner SD-Karte
 1. Kopiere `boot9strap.firm` und `boot9strap.firm.sha` aus der boot9strap `.zip` in den `/boot9strap/`-Ordner auf deiner SD-Karte
 1. **Nur New 3DS Nutzer:** Kopiere `secret_sector.bin` in den `/boot9strap/` Ordner auf deiner SD-Karte
 

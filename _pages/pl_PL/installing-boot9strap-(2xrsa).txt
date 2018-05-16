@@ -2,9 +2,9 @@
 title: "Installing boot9strap (2xrsa)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Spis Treści" %}
 
-### Required Reading
+### Wymagana Lektura
 
 To extract the `.7z` files linked on this page, you will need a file archiver like [7-Zip](http://www.7-zip.org/) or [The Unarchiver](https://theunarchiver.com/).
 
@@ -15,11 +15,11 @@ To extract the `.7z` files linked on this page, you will need a file archiver li
 * The latest release of [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest){:target="_blank"} *(the `.7z` file)*
 * The latest release of [the Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"}
 
-### Instructions
+### Instrukcje
 
-#### Section I - Prep Work
+#### Sekcja I - Przygotowanie
 
-1. Power off your device
+1. Wyłącz konsolę
 1. Włóż kartę SD do komputera
 1. Copy `boot.firm` from the Luma3DS `.7z` to the root of your SD card
 1. Copy `boot.3dsx` to the root of your SD card
@@ -30,8 +30,8 @@ To extract the `.7z` files linked on this page, you will need a file archiver li
     ![]({{ "/images/screenshots/boot9strap-2xrsa-file-layout.png" | absolute_url }})
     {: .notice--info}
 
-1. Reinsert your SD card into your device
-1. Power on your device
+1. Włóż kartę SD do konsoli
+1. Włącz konsolę
 
 #### Section II - Launching SafeB9SInstaller
 
@@ -63,5 +63,5 @@ ___
 New 3DS 2.1.0 users *must* [restore their NAND backup](godmode9-usage#nand_restore) before going to the [Finalizing Setup](finalizing-setup) page.
 {: .notice--danger}
 
-### Continue to [Finalizing Setup](finalizing-setup)
+### Kontynuuj do [Finalizowanie Instalacji](finalizing-setup)
 {: .notice--primary}

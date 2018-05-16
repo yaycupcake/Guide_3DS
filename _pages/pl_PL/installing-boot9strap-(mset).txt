@@ -2,11 +2,11 @@
 title: "Installing boot9strap (MSET)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Spis Treści" %}
 
-### Required Reading
+### Wymagana Lektura
 
-If you have already hacked your device before and have a EmuNAND based CFW setup, this guide deals exclusively with SysNAND and you should follow all instructions from within or applying to SysNAND. Zauważ, że terminy EmuNand i RedNAND odnoszą się do nieco innych implementacji [tej samej idei] (http://3dbrew.org/wiki/NAND_Redirection).
+If you have already hacked your device before and have a EmuNAND based CFW setup, this guide deals exclusively with SysNAND and you should follow all instructions from within or applying to SysNAND. Note that the terms EmuNAND and RedNAND refer to slightly different implementations of [the same concept](http://3dbrew.org/wiki/NAND_Redirection).
 
 To extract the `.7z` files linked on this page, you will need a file archiver like [7-Zip](http://www.7-zip.org/) or [The Unarchiver](https://theunarchiver.com/).
 
@@ -18,11 +18,11 @@ To extract the `.7z` files linked on this page, you will need a file archiver li
 * The latest release of [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest){:target="_blank"} *(the `.7z` file)*
 * The latest release of [the Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"}
 
-### Instructions
+### Instrukcje
 
-#### Section I - Prep Work
+#### Sekcja I - Przygotowanie
 
-1. Power off your device
+1. Wyłącz konsolę
 1. Włóż kartę SD do komputera
 1. Copy `boot.firm` from the Luma3DS `.7z` to the root of your SD card
 1. Copy `boot.3dsx` to the root of your SD card
@@ -33,9 +33,9 @@ To extract the `.7z` files linked on this page, you will need a file archiver li
     ![]({{ "/images/screenshots/boot9strap-mset-file-layout.png" | absolute_url }})
     {: .notice--info}
 
-1. Reinsert your SD card into your device
+1. Włóż kartę SD do konsoli
 1. Copy `SafeB9SInstaller.nds` from the SafeB9SInstaller `.zip` to your DS flashcart
-1. Power on your device
+1. Włącz konsolę
 
 #### Section II - Launching SafeB9SInstaller
 
@@ -64,5 +64,5 @@ To extract the `.7z` files linked on this page, you will need a file archiver li
 
 ___
 
-### Continue to [Finalizing Setup](finalizing-setup)
+### Kontynuuj do [Finalizowanie Instalacji](finalizing-setup)
 {: .notice--primary}

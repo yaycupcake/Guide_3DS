@@ -66,13 +66,13 @@ A most következő lépésekben mindig írd felül az SD kártyán található f
 1. Másold át az `arm9loaderhax.bin` fájlt a v7.0.5-ös Luma3DS `.7z`-ből az SD kártya gyökerébe
 1. Hozz létre egy mappát `cias` néven az SD kártyád gyökerében, ha még nem létezik ilyen
 1. Másold a `lumaupdater.cia` fájlt az SD kártyán található `/cias/` mappába
-1. Hozz létre egy mappát `boot9strap` néven az SD kártya gyökerében
 1. Törölj ki minden létező `.bin` payloadot a `/luma/payloads/` mappából az SD kártyán, mivel ezek nem lesznek kompatibilisek a boot9strap kompatibilis Luma3DS verziókkal
 1. Másold át a `GodMode9.firm` fájlt a GodMode9 `.zip`-ből az SD kártyád `/luma/payloads/` mappájába
 1. Másold át a `gm9` mappát a GodMode9 `.zip`-ből az SD kártyád gyökerébe
 1. Másold át a `setup_ctrnand_luma3ds.gm9` fájlt az SD kártyán található `/gm9/scripts/` mappába
 1. Másold a `cleanup_sd_card.gm9` fájlt az SD kártyád `/gm9/scripts/` mappájába
 1. Másold át a `SafeB9SInstaller.bin` fájlt a SafeB9SInstaller `.zip`-ből az SD kártyád `/luma/payloads/` mappájába
+1. Hozz létre egy mappát `boot9strap` néven az SD kártya gyökerében
 1. Másold át a `boot9strap.firm` fájlt és a `boot9strap.firm.sha` fájlt a boot9strap `.zip` fájlból az SD kártyád `/boot9strap/` mappájába
 1. **Csak New 3DS felhasználóknak:** Másold át a `secret_sector.bin` fájlt az SD kártyádon található `/boot9strap/` mappába
 

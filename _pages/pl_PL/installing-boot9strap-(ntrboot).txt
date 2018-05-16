@@ -2,9 +2,9 @@
 title: "Installing boot9strap (ntrboot)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Spis Treści" %}
 
-### Required Reading
+### Wymagana Lektura
 
 To use the [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme) links on this page, you will need a torrent client like [Deluge](http://dev.deluge-torrent.org/wiki/Download).
 
@@ -19,11 +19,11 @@ To extract the `.7z` files linked on this page, you will need a file archiver li
 * The latest release of [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest){:target="_blank"} *(the `.7z` file)*
 * The latest release of [the Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"}
 
-### Instructions
+### Instrukcje
 
-#### Section I - Prep Work
+#### Sekcja I - Przygotowanie
 
-1. Power off your device
+1. Wyłącz konsolę
 1. Insert your device's SD card into your computer
   + This is the SD card from your 3DS, *not* the SD card from your flashcart
 1. Copy `SafeB9SInstaller.firm` to the root of your SD card and rename it to `boot.firm`
@@ -34,14 +34,14 @@ To extract the `.7z` files linked on this page, you will need a file archiver li
     ![]({{ "/images/screenshots/boot9strap-ntrboot-file-layout.png" | absolute_url }})
     {: .notice--info}
 
-1. Reinsert your SD card into your device
-1. Power on your device
+1. Włóż kartę SD do konsoli
+1. Włącz konsolę
 
 #### Section II - ntrboot
 
 1. Use the magnet to find the spot on your device where the sleep sensor is triggered
   + This step is not needed on the old 2DS (which has a sleep mode switch)
-1. Power off your device
+1. Wyłącz konsolę
 1. Insert your flashcart into your device
 1. Place the magnet on your device to trigger the sleep sensor
   + On old 2DS, you should instead enable the sleep mode switch
@@ -63,8 +63,8 @@ To extract the `.7z` files linked on this page, you will need a file archiver li
 1. Włóż kartę SD do komputera
 1. Delete `boot.firm` from the root of your SD card
 1. Copy `boot.firm` from the Luma3DS `.7z` to the root of your SD card
-1. Reinsert your SD card into your device
-1. Power on your device
+1. Włóż kartę SD do konsoli
+1. Włącz konsolę
 1. Your device should have booted into the Luma3DS configuration menu
   + If you get a black screen, [follow this troubleshooting guide](troubleshooting#black-screen-on-sysnand-boot-after-installing-boot9strap)
 1. Use the (A) button and the D-Pad to turn on the following:    
@@ -74,7 +74,7 @@ To extract the `.7z` files linked on this page, you will need a file archiver li
 
 ___
 
-### Continue to [Finalizing Setup](finalizing-setup)
+### Kontynuuj do [Finalizowanie Instalacji](finalizing-setup)
 {: .notice--primary}
 
 ___
@@ -89,7 +89,7 @@ Do not follow this section until you have completed the rest of the instructions
 
 ##### What You Need
 
-* The latest release of [ntrboot_flasher](https://github.com/ntrteam/ntrboot_flasher/releases/latest){:target="_blank"}
+* Najnowszej wersji [ntrboot_flasher](https://github.com/ntrteam/ntrboot_flasher/releases/latest){:target="_blank"}
 * The flashrom backup corresponding to your flashcart    
   + Note that if you followed "Flashing ntrboot (3DS Multi System)", the flashrom already exists in the correct location and does not need to be downloaded
   + If you do not know which HW revision you have, just try each for your cart of them. Only the correct one will allow your flashcart to launch properly from home menu, but flashing the wrong one will not brick the cart
@@ -121,22 +121,22 @@ Do not follow this section until you have completed the rest of the instructions
 
 ##### Instructions
 
-1. Power off your device
+1. Wyłącz konsolę
 1. Włóż kartę SD do komputera
   + This is the SD card from your 3DS, *not* the SD card from your flashcart
 1. Create a folder named `ntrboot` on the root of your SD card
 1. Copy the `.bin` file from your flashrom backup `.zip` to the `/ntrboot/` folder on the root of your SD card
 1. Create a folder named `payloads` in the `luma` folder on your SD card 
 1. Copy `ntrboot_flasher.firm` to the `/luma/payloads/` folder on your SD card
-1. Reinsert your SD card into your device
-1. Insert your ntrboot compatible DS / DSi flashcart into your device
+1. Włóż kartę SD do konsoli
+1. Włóż flashcarta do 3DS'a
 1. Launch ntrboot_flasher by holding (Start) during boot
-1. Read the red screen warning
+1. Przeczytaj czerwone ostrzeżenie na ekranie
 1. Naciśnij (A), aby kontynuować
-1. Select your flashcart
-  + If you do not see your flashcart in the list at the top, read the bottom screen for more info on each option
+1. Wybierz swój flashcart
+  + Jeśli nie widzisz swojego flashcarta na liście u góry, przeczytaj dolny ekran, aby uzyskać więcej informacji na temat każdej opcji
 1. Select "Restore Flash"
 1. Press (A) to proceed
 1. Poczekaj na zakończenie procesu
-1. Press (A) to return to the main menu
+1. Naciśnij (A), aby powrócić do menu głównego
 1. Press (B) to power off your device
