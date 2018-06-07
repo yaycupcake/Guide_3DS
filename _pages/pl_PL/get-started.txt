@@ -1,43 +1,43 @@
 ---
-title: "Get Started"
+title: "Wprowadzenie"
 ---
 
 {% include toc title="Spis Treści" %}
 
 ### Wymagana Lektura
 
-Different device models and versions will require different steps to achieve the end goal of boot9strap Custom Firmware. Ta strona pomoże ci w określeniu, od czego rozpocząć w wypadku twojej konsoli.
+Różne modele i wersje urządzeń będą wymagały różnych kroków, aby osiągnąć końcowy cel niestandardowego oprogramowania układowego boot9strap. Ta strona pomoże ci w określeniu, od czego rozpocząć w wypadku twojej konsoli.
 
 Kliknij na obrazek przedstawiający model twojej konsoli, aby przejść na odpowiednią podstronę. Kolory konsol na obrazkach mogą być różne, ale zwróć uwagę na położenie przycisków i inne cechy widoczne na obrazkach by upewnić się, że wybrałeś właściwy model.
 
-Jeżeli przerobiłeś już wcześniej swojego 3DSa i masz obecnie konfigurację CFW z EmuNAND, wykonuj następne kroki używając SysNAND. Replace any files that already exist. Your data will be transferred from EmuNAND to your new B9S install at the end. If you use menuhax, you should [clear Home Menu's extdata](troubleshooting#clear-home-menu-extdata) to remove it before beginning.
+Jeżeli przerobiłeś już wcześniej swojego 3DSa i masz obecnie konfigurację CFW z EmuNAND, wykonuj następne kroki używając SysNAND. Zastąp wszystkie pliki, które już istnieją. Twoje dane zostaną przeniesione z EmuNAND do twojej nowej instalacji B9S. Jeśli używasz menuhax, powinieneś [wyczyścić dodatkowe dane Home Menu](troubleshooting#clear-home-menu-extdata), aby usunąć je przed rozpoczęciem.
 
-This page is for instructions on how to install boot9strap to a *stock* 3DS or 2DS. If you already have arm9loaderhax installed and are looking to update to boot9strap, follow [A9LH to B9S](a9lh-to-b9s).
+Ta strona jest na instrukcje jak zainstalować boot9strap na 3DS-ie lub 2DS-ie korzystającym z oryginalnego oprogramowania układowego. Jeżeli już masz zainstalowany arm9loaderhax i szukasz aktualizacji do boot9strap, zobacz [A9LH do B9S](a9lh-to-b9s).
 {: .notice--primary}
 
-Before starting, Windows users should enable the option to show file extensions using [File Extensions (Windows)](file-extensions-(windows))!
+Przed rozpoczęciem, użytkownicy Windowsa powinni włączyć opcje pokazywania rozszerzeń plików [Rozszerzenia Plików (Windows)](file-extensions-(windows))!
 {: .notice--info}
 
 Zanim rozpoczniesz, zastanów się nad sprawdzeniem swojej karty SD pod kątem błędów, przy użyciu programu [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), lub [F3X (Mac)](f3x-(mac))!
 {: .notice--warning}
 
 {% capture notice-1 %}
-There have been reports of a wave of bans being handed out to CFW users by Nintendo. To protect yourself, please do the following steps before starting this guide:
+Były zgłaszane raporty fali banów dla użytkowników CFW od Nintendo. Aby siebie ochronić, podążaj za poniższymi krokami przed rozpoczęciem poradnika:
 
-1. Go to System Settings, then "Internet Settings", then "SpotPass", then "Sending of System Information"
-1. Disable the "Sending of System Information" option
-1. Exit the System Settings
-1. Go to your Friend List (the [orange Face Icon]({{ "/images/friend-list-icon.png" | absolute_url }}) in the top row of your Home Menu)
+1. Wejdź do System Settings, potem do "Internet Settings", potem "SpotPass", a następnie "Sending of System Information"
+1. Zablokuj opcję "Sending of System Information"
+1. Wyjdź z System Settings
+1. Wejdź do Listy Znajomych [pomarańczowa ikona twarzy]({{ "/images/friend-list-icon.png" | absolute_url }}) w górnej linii głównego menu
   + Jeśli wyświetli się błąd i zostaniesz wyrzucony z menu, lista znajomych jest albo już wyłączona lub twoja konsola nie może się połączyć z serwerami Nintendo (przez bana lub problemy z połączeniem)
-1. Wejdź do ustawień Listy Znajomych, potem "Friend Notification Settings", potem "Show friends what you're playing"
-1. Disable the "Show friends what you're playing" option
+1. Wejdź do ustawień Listy Znajomych, potem "Friend Notification Settings", a następnie "Show friends what you're playing"
+1. Zablokuj opcję "Show friends what you're playing"
 1. Wyjdź z Listy Znajomych
 
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
 
-### Device Table
+### Tabela urządzeń
 
 <table>
   <colgroup>
@@ -46,8 +46,8 @@ There have been reports of a wave of bans being handed out to CFW users by Ninte
   </colgroup>
   <thead>
     <tr>
-      <th style="text-align: center">New 3DS or New 2DS</th>
-      <th style="text-align: center">Old 3DS or Old 2DS</th>
+      <th style="text-align: center">New 3DS lub New 2DS</th>
+      <th style="text-align: center">Old 3DS lub Old 2DS</th>
     </tr>
   </thead>
   <tbody>
