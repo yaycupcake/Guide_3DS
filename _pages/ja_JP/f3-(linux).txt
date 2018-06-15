@@ -14,7 +14,7 @@ SDカードのサイズとコンピュータのパフォーマンスによって
 
 ### What You Need
 
-* [F3](https://github.com/AltraMayor/f3/archive/v6.0.zip)の最新バージョン
+* The latest version of [F3](https://github.com/AltraMayor/f3/releases/latest)
 
 ### Instructions
 

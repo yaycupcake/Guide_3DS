@@ -21,13 +21,13 @@ Ezen folyamat közben további programokat is telepítünk, melyek az alábbiak:
 
 ### Amire szükséged lesz
 
-* Az [Anemone3DS](https://github.com/astronautlevel2/Anemone3DS/releases/latest){:target="_blank"} legújabb kiadása *(a `.cia` fájl)*
-* A [Checkpoint](https://github.com/BernardoGiordano/Checkpoint/releases/latest){:target="_blank"} legújabb kiadása *(a `.cia` fájl)*
-* A [hblauncher_loader](https://github.com/yellows8/hblauncher_loader/releases/latest){:target="_blank"} legújabb kiadása
-* A [GodMode9](https://github.com/d0k3/GodMode9/releases/latest){:target="_blank"} legújabb kiadása
-* A [DSP1](https://github.com/zoogie/DSP1/releases/latest){:target="_blank"} legújabb kiadása
-* Az [FBI](https://github.com/Steveice10/FBI/releases/latest){:target="_blank"} legújabb kiadása *(a `.cia` és a `.3dsx` fájl)*
-* A [Luma3DS Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest){:target="_blank"} legújabb kiadása *(a `.cia` fájl)*
+* The latest release of [Anemone3DS](https://github.com/astronautlevel2/Anemone3DS/releases/latest) *(the `.cia` file)*
+* The latest release of [Checkpoint](https://github.com/BernardoGiordano/Checkpoint/releases/latest) *(the `.cia` file)*
+* The latest release of [hblauncher_loader](https://github.com/yellows8/hblauncher_loader/releases/latest)
+* The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
+* The latest release of [DSP1](https://github.com/zoogie/DSP1/releases/latest)
+* The latest release of [FBI](https://github.com/Steveice10/FBI/releases/latest) *(the `.cia` and `.3dsx` files)*
+* The latest release of [Luma3DS Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest) *(the `.cia` file)*
 * [setup_ctrnand_luma3ds.gm9]({{ "/gm9_scripts/setup_ctrnand_luma3ds.gm9" | absolute_url }}){:download}
 * [cleanup_sd_card.gm9]({{ "/gm9_scripts/cleanup_sd_card.gm9" | absolute_url }}){:download}
 
@@ -135,6 +135,7 @@ Amennyiben ezen leírás megkezdése előtt már rendelkeztél EmuNAND-dal, és 
   + Ezek a biztonsági mentések fognak megmenteni, ha a későbbiekben brickelődne a konzolod, vagy bármi félresikerülne a jövőben
 1. Töröld a `<dátum>_<sorozatszám>_sysnand_###.bin` és a `<dátum>_<sorozatszám>_sysnand_###.bin.sha` fájlokat az SD kártyád `/gm9/out/` mappájából, miután lemásoltad azokat
 1. Tedd vissza az SD kártyád a készülékedbe
+  + If your SD card was not detected, hold (R) and press (B) at the same time to remount it
 
 #### Nyolcadik rész - Takarítás az SD kártyán
 
@@ -167,6 +168,14 @@ Mostantól megjelenítheted a Luma3DS chainloader menüjét indításkor a (Star
 Mostantól a (Start) + (Select) + (X) kombináció lenyomva tartásával indításkor az SD kártyád `/boot9strap/` mappájába mentheted az ARM11 bootromot (`boot11.bin`), az ARM9 bootromot (`boot9.bin`), és a konzolod egyedi OTP-jét (`OTP.bin`). (Vedd figyelembe, hogy ez nem kér be vagy ír ki semmiféle információt.)    
 
 Mostantól lenyomhatod az (L) + (Le) + (Select) kombinációt a rendszer futása közben, hogy megnyíljon a Luma3DS-be integrált Rosalina menü. Ha a Rosalina összes funkciójára kíváncsi vagy, látogasd meg a következő oldalt: [Luma3DS v8.0 Release](https://github.com/AuroraWright/Luma3DS/releases/tag/v8.0)
+{% endcapture %}
+
+<div class="notice--info">{{ notice-6 | markdownify }}</div>
+
+{% capture notice-6 %}   
+If you would like to upgrade to a bigger sized SD card, all you have to do is format your new SD card as FAT32 and copy paste the contents of the old SD card onto the new SD card.    
+
+If your new SD card is bigger than 32GB, then you have to use a different tool to format it, such as [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) for Windows, [gparted](http://gparted.org/download.php) for Linux, or [Disk Utility](https://support.apple.com/en-gb/guide/disk-utility/format-a-disk-for-windows-computers-dskutl1010/mac) for Mac.    
 {% endcapture %}
 
 <div class="notice--info">{{ notice-6 | markdownify }}</div>

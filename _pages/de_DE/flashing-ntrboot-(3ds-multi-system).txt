@@ -19,8 +19,8 @@ In seltenen Fällen ist kann es sein, dass während des Flashens einer gefälsch
 * Zwei 3DS Konsolen 
   + **Der Quell-3DS**: das System auf dem schon boot9strap läuft
   + **Der Ziel-3DS**: das System mit regulärer Firmware
-* Die aktuellste Version von [boot9strap](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} *(`ntr` boot9strap, nicht die `devkit`-Datei)*
-* Die neuste Version von [ntrboot_flasher](https://github.com/ntrteam/ntrboot_flasher/releases/latest){:target="_blank"}
+* Die aktuellste Version von [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(`ntr` boot9strap; nicht die `devkit` Datei)*
+* The latest release of [ntrboot_flasher](https://github.com/ntrteam/ntrboot_flasher/releases/latest)
 
 ### Anleitung
 

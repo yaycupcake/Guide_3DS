@@ -14,7 +14,7 @@ Ez az oldal Mac felhasználókra vonatkozik. Ha nem Mac-ed van, nézd meg a [H2t
 
 ### Amire szükséged lesz
 
-* Az [F3X](https://github.com/insidegui/F3X/releases/latest){:target="_blank"} legújabb kiadása
+* The latest release of [F3X](https://github.com/insidegui/F3X/releases/latest)
 
 ### Utasítások
 

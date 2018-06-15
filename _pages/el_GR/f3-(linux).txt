@@ -14,7 +14,7 @@ This is an add-on section for checking your SD card for errors using F3.
 
 ### What You Need
 
-* Την τελευταία έκδοση του [F3] (https://github.com/AltraMayor/f3/archive/v6.0.zip)
+* The latest version of [F3](https://github.com/AltraMayor/f3/releases/latest)
 
 ### Instructions
 

@@ -8,7 +8,7 @@ title: "Homebrew Launcher (Soundhax)"
 
 Der Homebrew Launcher hat viele verschiedene Eintrittspunkte, beziehungsweise Möglichkeiten, um ihn zu starten.
 
-Soundhax (when combined with the Homebrew Launcher) is compatible with versions 9.0.0 through 11.3.0 in the EUR, JPN, KOR, and USA regions.
+Soundhax (in Kombination mit dem Homebrew-Launcher) ist kompatibel mit den Versionen 9.0.0 bis 11.3.0 für die Regionen EUR, JPN, KOR und USA.
 
 Stelle sicher, dass die Drahtloskommunikation deiner Konsole eingeschaltet ist, da udsploit (wird auf der nächsten Seite genutzt) ein aktives Drahtlosmodul erfordert und manche Konsolen (New 3DS, New 2DS und Old 2DS) die Drahtloskommunikation im Homebrew Launcher nicht einschalten können. Drahtloskommunikation muss nur eingeschaltet sein. Eine Verbindung zu einem Access Point ist nicht notwendig.
 
@@ -18,21 +18,21 @@ Um die `.7z` Dateien, welche auf dieser Seite verlinkt sind, entpacken zu könne
 
 Beachte, dass Karten-Updates nur Updates für Kernfunktionen, wie die Systemeinstellungen, das Home-Menü und ähnlichem liefern. Karten-Updates aktualisieren nicht den Nintendo 3DS Sound und die Netzwerkfunktionen, wie den Internetbrowser, den eShop, die StreetPass Mii Plaza oder der System-Transfer.
 
-This means that using a cartridge update from a version containing an older Nintendo 3DS Sound version *(<3.0.0)* to one that introduced a newer Nintendo 3DS Sound version will break Soundhax! You will need an [alternate method](homebrew-launcher-(alternatives)) of installing boot9strap!
+Das bedeutet, dass bei einem Kartenupdate von einer Systemversion, die eine ältere Version von Nintendo 3DS Sound enthält *(<3.0.0)*, auf eine Systemversion mit einer neuen Version von Nintendo 3DS Sound, Soundhax unbrauchbar wird! Du benötigst eine [alternative Methode](homebrew-launcher-(alternatives)), um boot9strap zu installieren!
 {% endcapture %}
 
 <div class="notice--warning">{{ notice-1 | markdownify }}</div>
 
-### What You Need
+### Was du brauchst
 
-* The latest release of [the Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"}
-* The latest release of [Soundhax](http://soundhax.com/) *(for your region, device, and version)*
-* Die neuste Version von [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest){:target="_blank"}
-* Die neuste Version von [boot9strap](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} *(standard boot9strap; nicht die `devkit` Datei, nicht die`ntr` Datei)*
-* Die neuste Version von [safehax](https://github.com/TiniVi/safehax/releases/latest){:target="_blank"} *(die `.3dsx` Datei)*
-* Die neuste Version von [udsploit](https://github.com/smealum/udsploit/releases/latest){:target="_blank"}
-* Die neueste Version von [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(die `.7z`-Datei)*
-* The [otherapp payload](https://smealum.github.io/3ds/#otherapp){:target="_blank"} *(for your region and version)*
+* The latest release of [the Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest)
++ Die aktuellste Version von [Soundhax](http://soundhax.com/) *(für deine Konsole und Region)*
+* The latest release of [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
+* The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(standard boot9strap; not the `devkit` file, not the `ntr` file)*
+* The latest release of [safehax](https://github.com/TiniVi/safehax/releases/latest) *(the `.3dsx` file)*
+* The latest release of [udsploit](https://github.com/smealum/udsploit/releases/latest)
+* The latest release of [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(the `.7z` file)*
+* The [otherapp payload](https://smealum.github.io/3ds/#otherapp) *(for your region and version)*
 
 ### Anleitung
 
@@ -69,12 +69,12 @@ This means that using a cartridge update from a version containing an older Nint
     ![]({{ "/images/screenshots/soundhax-launch.png" | absolute_url }})
     {: .notice--info}
 
-1. If the exploit was successful, your device will have loaded the Homebrew Launcher
+1. Wenn der Exploit erfolgreich war, wird der Homebrew Launcher gestartet
 
     ![]({{ "/images/screenshots/homebrew-launcher.png" | absolute_url }})
     {: .notice--info}
 
 ___
 
-### Continue to [Installing boot9strap (Homebrew Launcher)](installing-boot9strap-(homebrew-launcher))
+### Weiter mit [boot9strap installieren (Homebrew Launcher)](installing-boot9strap-(homebrew-launcher))
 {: .notice--primary}

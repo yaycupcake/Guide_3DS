@@ -6,7 +6,7 @@ title: "Często zadawane pytania (FAQ)"
 **Odp.:** Tak
 
 <a name="faq_updatecfw" />**Pyt.:** *Jak zaktualizować Luma3DS?*    
-**Odp:** Użyj [Luma3DS Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest){:target="_blank"}
+**Odp:** Użyj [Luma3DS Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest)
 
 <a name="faq_gatewaysky" />**Pyt.:** *Słyszałem o tych płatnych rzeczach (Gateway, Sky3DS, itp.). Czy naprawdę tego potrzebuję?*    
 **Odp.:** Nie. boot9strap jest lepszą metodą ładowania hax, który działa na wczesnym etapie uruchomienia konsoli.

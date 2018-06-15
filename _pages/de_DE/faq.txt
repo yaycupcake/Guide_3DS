@@ -6,7 +6,7 @@ title: "FAQ"
 **A: ** Ja
 
 <a name="faq_updatecfw" />**F:** *Wie aktualisiere ich Luma3DS?*    
-**A:** Benutze [Luma3DS Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest){:target="_blank"}
+**A:** Use [Luma3DS Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest)
 
 <a name="faq_gatewaysky" />**F:** *Ich habe von Sachen gehört, für die ich bezahlen muss (Gateway, Sky3DS, etc). Ist das etwas, was ich brauche?*    
 **A:** Nein. boot9strap ist die beste Methode Hax zu laden, die sehr früh im Bootprozess ausgeführt werden.

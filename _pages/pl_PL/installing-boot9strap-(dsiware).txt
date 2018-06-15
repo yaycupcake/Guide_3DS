@@ -6,7 +6,7 @@ title: "Instalacja boot9strap (DSiWare)"
 
 ### Wymagana Lektura
 
-Istnieją trzy różne metody instalacji boot9strap przy użyciu DSiWare na wersji 11.6.0.
+Istnieją trzy różne metody instalacji boot9strap przy użyciu DSiWare na wersji 11.7.0.
 
 Pierwsza metoda, Seedminer, wymaga komputera z potężną kartą graficzną. Jeśli nie masz dostępu do takiego komputera, możesz użyć internetowej usługi pomocy dla Seedminer. Dwie pozostałe metody wymagają System Transferu z już przerobionego 3DS'a.
 
@@ -18,7 +18,7 @@ Ta metoda używa kilku niedopatrzeń w zabezpieczeniach 3DS'a, o których możes
 
 ___
 
-Następne dwie metody wymagają użycia dwóch urządzeń. Pierwszy 3DS (lub 2DS) musi mieć już zainstalowany boot9strap i będzie określany jako *źródłowy 3DS*, podczas gdy drugi 3DS (lub 2DS) będzie miał niezmodyfikowany firmware 11.6.0 i będzie określany jako *docelowy 3DS*.
+Następne dwie metody wymagają użycia dwóch urządzeń. Pierwszy 3DS (lub 2DS) musi mieć już zainstalowany boot9strap i będzie określany jako *źródłowy 3DS*, podczas gdy drugi 3DS (lub 2DS) będzie miał niezmodyfikowany firmware 11.7.0 i będzie określany jako *docelowy 3DS*.
 
 Obie metody zakładają, że 3DS posiadający już Custom Firmware używa boot9strap, a jego instalacja została przeprowadzona z użyciem tego poradnika. Jest możliwe wykonanie obu metod przy użyciu innego rodzaju Custom Firmware, jednak nie jest to poruszone w tym poradniku.
 

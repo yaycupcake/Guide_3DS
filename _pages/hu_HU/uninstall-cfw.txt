@@ -11,7 +11,7 @@ A következőkben teljes egészében el fogjuk távolítani a CFW-t a készülé
 Ez az esetek többségében nem old meg semmilyen olyan problémát, ami a CFW telepítése közben felmerülhet. Javasolt inkább elolvasnod a [Hibaelhárítás](troubleshooting) oldalt, vagy segítséget kérni itt: [Nintendo Homebrew a Discord-on](https://discord.gg/MWxPgEp).
 {: .notice--danger}
 
-Minden aláíratlan (nem eredeti) játék instabillá fog válni, amiket kézileg törölhetsz majd a System Settings "Data Management" részében. Használj [mentéskezelőt](https://github.com/BernardoGiordano/Checkpoint/releases/latest){:target="_blank"}, hogy biztonsági másolatot készíts azon (nem eredeti) játékok mentéséről, amik fontosak a számodra.
+Minden aláíratlan (nem eredeti) játék instabillá fog válni, amiket kézileg törölhetsz majd a System Settings "Data Management" részében. Use a [save manager](https://github.com/BernardoGiordano/Checkpoint/releases/latest) to backup any saves for these unsigned (illegitimate) games you care about.
 
 Ez az eljárás nem fogja befolyásolni sem az NNID-det, sem az eredeti játékaidat, sem bármilyen mentést, ami az eredeti, megvásárolt játékaidhoz tartozik.
 
@@ -19,7 +19,7 @@ Vedd figyelembe, hogy amennyiben van más payload fájl a `GodMode9.firm` fájlo
 
 ### Amire szükséged lesz
 
-* A [GodMode9](https://github.com/d0k3/GodMode9/releases/latest){:target="_blank"} legújabb kiadása
+* The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 * A készülékedhez tartozó eltávolító szkript:
   + [uninstall_hax_retail_NEW.gm9]({{ "/gm9_scripts/uninstall_hax_retail_NEW.gm9" | absolute_url }}){:download}
   + [uninstall_hax_retail_OLD.gm9]({{ "/gm9_scripts/uninstall_hax_retail_OLD.gm9" | absolute_url }}){:download}

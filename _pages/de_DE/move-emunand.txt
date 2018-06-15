@@ -13,11 +13,11 @@ Beachte: Sollten noch weitere Dateien als nur die`GodMode9.firm` Datei im `/luma
 Du MUSST bereits eine installierte Version von Luma3DS und boot9strap haben um diese Anleitung benutzen zu können.
 {: .notice--danger}
 
-### What You Need
+### Was du brauchst
 
 * Einen bestehenden EmuNAND
-* Die neuste Version von [GodMode9](https://github.com/d0k3/GodMode9/releases/latest){:target="_blank"}
-* The latest release of [FBI](https://github.com/Steveice10/FBI/releases/latest){:target="_blank"}
+* The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
+* The latest release of [FBI](https://github.com/Steveice10/FBI/releases/latest)
 
 ### Anleitung
 
@@ -29,7 +29,7 @@ Du MUSST bereits eine installierte Version von Luma3DS und boot9strap haben um d
 1. Kopiere den Ordner `gm9` aus der GodMode9 `.zip` in das Stammverzeichnis deiner SD-Karte
 1. Stecke deine SD-Karte nun wieder in deinen 3DS
 
-#### Section II - Backup SysNAND DSiWare Saves
+#### Schritt II - Sicherung der SysNAND DSiWare Spielstände
 
 Wenn du noch keine DSiWare-Spiele oder Spielstände hast, überspringe diesen Abschnitt.
 {: .notice--info}
@@ -43,7 +43,7 @@ Wenn du noch keine DSiWare-Spiele oder Spielstände hast, überspringe diesen Ab
   + Das kann einen Moment dauern, wenn du viele DSiWare Spiele besitzt
 1. Drücke zweimal (B), um zurück in das Hauptmenü zu gelangen
 
-#### Section III - Backup GBA VC Saves
+#### Schritt III - Backup erstellen für GBA VC Spielstände
 
 Überspringe diesen Abschnitt, falls du keine GBA VC Spiele oder Spielstände besitzt.
 {: .notice--info}
@@ -51,10 +51,11 @@ Wenn du noch keine DSiWare-Spiele oder Spielstände hast, überspringe diesen Ab
 Diese Schritte sind nicht notwendig für andere Virtual Console Spiele (GBC, NES, etc.)
 {: .notice--info}
 
-The game will be outputted to the `/gm9/out/` folder on your SD card with the name `<TitleID>.gbavc.sav`.
+Das Spiel wird auf der SD-Karte unter `/gm9/out/` mit dem Dateinamen `<TitleID>.gbavc.sav` gespeichert.
 {: .notice--info}
 
-To identify a `<TitleID>.gbavc.sav` file's Title ID, you can get a listing of all games on the system and their corresponding Title IDs by hovering over `[A:] SYSNAND SD`, holding (R) and pressing (A) at the same time, then selecting "Search for titles".
+Um die passend Title ID einer `<TitleID>.gbavc.sav` Datei zu finden, kannst du dir eine Liste aller Spiele und der zugehörigen Titel IDs der auf dem System installierten Spiele anzeigen lassen. 
+Markiere dazu `[A:] SYSNAND SD` während du (R) und (A) zeitgleich drückst. Danach betätigst du "Search for titles".
 {: .notice--info}
 
 1. Führe die folgenden Schritte für jedes GBA VC Spiel aus, für das du ein Backup erstellen möchtest:
@@ -63,13 +64,13 @@ To identify a `<TitleID>.gbavc.sav` file's Title ID, you can get a listing of al
   + Starte deine Konsole, während du (Start) gedrückt hälst, um das Luma3DS chainloader-Menü zu starten
   + Starte GodMode9, indem du (A) drückst
   + Navigiere zu `[S:] SYSNAND VIRTUAL`
-  + Press (A) on `agbsave.bin` to select it
-  + Select "AGBSAVE options..."
-  + Select "Dump GBA VC save"
-  + Press (A) to continue
+  + Drücke (A), um`agbsave.bin` auszuwählen
+  + Wähle "AGBSAVE options..."
+  + Wähle "Dump GBA VC save"
+  + Drücke (A), um fortzufahren
   + Drücke (Start) um deinen 3DS neu zu starten
 
-#### Section IV - Copy EmuNAND to SysNAND
+#### Schritt IV - EmuNAND auf SysNAND kopieren
 
 1. Starte GodMode9, indem du während dem Starten deiner Konsole die Taste (Start) gedrückt hältst
 1. Navigiere zu `[E:] EMUNAND VIRTUAL`
@@ -82,7 +83,7 @@ To identify a `<TitleID>.gbavc.sav` file's Title ID, you can get a listing of al
 1. Drücke (B), um die Schreibrechte nicht zu deaktiveren
 1. Drücke (B), um zum Hauptmenü zurückzukehren
 
-#### Section V - Restore DSiWare Saves
+#### Schritt V - DSiWare Spielstand wiederherstellen
 
 Überspringe diesen Abschnitt, falls du kein Backup für deine DSiWare Spielstände erstellt hast.
 {: .notice--info}
@@ -99,12 +100,13 @@ To identify a `<TitleID>.gbavc.sav` file's Title ID, you can get a listing of al
 1. Drücke (B), um die Schreibrechte nicht zu deaktiveren
 1. Drücke zweimal (B), um zurück in das Hauptmenü zu gelangen
 
-#### Section VI - Restore GBA VC Saves
+#### Schritt VI - GBA VC Spielstände wiederherstellen
 
 Wenn du keine GBA VC Spielstände früher gesichert hast, überspringe den Abschnitt.
 {: .notice--info}
 
-To identify a `<TitleID>.gbavc.sav` file's Title ID, you can get a listing of all games on the system and their corresponding Title IDs by holding (R) and pressing (A) on the GodeMode9 main menu, then selecting "Search for titles".
+Um die passend Title ID einer `<TitleID>.gbavc.sav` Datei zu finden, kannst du dir eine Liste aller Spiele und der zugehörigen Titel IDs der auf dem System installierten Spiele anzeigen lassen. 
+Betätige dazu zeitgleich die Tasten (R) und (A) im GodMode9 Hauptmenü und wähle dann "Search for titles".
 {: .notice--info}
 
 1. Halte (R) gedrückt und drücke gleichzeitig (Start), um dein Gerät abzuschalten
@@ -115,19 +117,19 @@ To identify a `<TitleID>.gbavc.sav` file's Title ID, you can get a listing of al
   + Starte deine Konsole, während du (Start) gedrückt hälst, um das Luma3DS chainloader-Menü zu starten
   + Starte GodMode9, indem du (A) drückst
   Navigiere zu `[0:] SDCARD` -> `gm9`
-  + Press (Y) on the `<TitleID>.gbavc.sav` file you wish to restore to copy it
+  + Drücke zur Wiederherstellung die Taste (Y) auf der gewünschten Datei (`<TitleID>.gbavc.sav`)
   + Drücke (B), um zum Hauptmenü zurückzukehren
   + Navigiere zu `[S:] SYSNAND VIRTUAL`
-  + Press (A) on `agbsave.bin` to select it
-  + Select "AGBSAVE options..."
-  + Select "Inject GBA VC save"
-  + Press (A) to continue
+  + Drücke (A), um`agbsave.bin` auszuwählen
+  + Wähle "AGBSAVE options..."
+  + Wähle "Inject GBA VC save"
+  + Drücke (A), um fortzufahren
   + Drücke (Start) um deinen 3DS neu zu starten
   + Starte das GBA VC spiel
   Verlasse das GBA VC Spiel wieder
 1. Starte GodMode9, indem du während dem Starten deiner Konsole die Taste (Start) gedrückt hältst
 
-#### Section VII - Backup SysNAND
+#### Schritt VII - Backup vom SysNAND erstellen
 
 1. Drücke  (HOME) um das Aktionsmenü aufzurufen
 1. Wähle "Scripts"
@@ -137,13 +139,13 @@ To identify a `<TitleID>.gbavc.sav` file's Title ID, you can get a listing of al
 1. Drücke (A) um fortzufahren
 1. Drücke (R) und (B) gleichzeitig um die SD-Karte auszuwerfen
 1. Stecke deine SD-Karte in deinen Computer
-1. Copy `<date>_<serialnumber>_sysnand_###.bin` from the `/gm9/out/` folder on your SD card to a safe location on your computer
+1. Kopiere `<datum>_<seriennummer>_sysnand_###.bin` vom `/gm9/out/` Ordner deiner SD-Karte in einen sicheren Ort auf deinem Computer
   + Erstelle Backup Dateien an mehreren Orten (USB-Stick, PC, Externe Festplatte, Online-Speicher, etc.)
   + Diese Sicherheitskopie wird dich vor einem Brick schützen, falls in der Zukunft etwas schief gehen sollte
-1. Delete `<date>_<serialnumber>_sysnand_###.bin` from the `/gm9/out/` folder on your SD card after copying it
+1. Lösche die `<datum>_<seriennummer>_sysnand_###.bin` vom `/gm9/out/` Ordner deiner SD-Karte, wenn der Kopiervorgang abgeschlossen ist
 1. ** Sichere jede Datei von deiner SD-Karte in einem Ordner auf deinem Computer, da in den nächsten Schritten alle Dateien gelöscht werden **
 
-#### Section VIII - Format SD card
+#### Schritt VIII - SD-Karte formatieren
 
 1. Stecke deine SD-Karte nun wieder in deinen 3DS
 1. Drücke  (HOME) um das Aktionsmenü aufzurufen
@@ -161,10 +163,10 @@ To identify a `<TitleID>.gbavc.sav` file's Title ID, you can get a listing of al
   Ersetze die Datei `boot.firm` auf deiner SD-Karte durch eine aus deinem Backup
 1. Stecke deine SD-Karte nun wieder in deinen 3DS
 1. Drücke (A) um die SD-Karte einzuhängen
-1. Press (Start) to reboot
+1. Drücke (Start), um das System neu zu starten
 1. Falls du einen einen schwarzen Bildschirm bekommen solltest, [folge dieser Anleitung zur Problembehandlung](troubleshooting#ts_sys_down)
 
 ___
 
-### Return to [Finalizing Setup](finalizing-setup).
+### Zurück zu [Setup fertigstellen](finalizing-setup).
 {: .notice--primary}

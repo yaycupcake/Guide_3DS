@@ -10,13 +10,13 @@ Falls du bereits deinen 3DS zuvor gehackt hast und eine EmuNAND basierte CFW ins
 
 Um die `.7z` Dateien, welche auf dieser Seite verlinkt sind, entpacken zu können, benötigst du ein Archivprogramm wie zum Beispiel [7-Zip](http://www.7-zip.org/) oder [The Unarchiver](https://theunarchiver.com/).
 
-### What You Need
+### Was du brauchst
 
 * Eine beliebige DS-Flashkarte, die mit deiner 3DS Version funktioniert
-* Die neuste Version von [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest){:target="_blank"}
-* Die neuste Version von [boot9strap](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} *(standard boot9strap; nicht die `devkit` Datei, nicht die`ntr` Datei)*
-* Die neueste Version von [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(die `.7z`-Datei)*
-* The latest release of [the Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"}
+* The latest release of [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
+* The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(standard boot9strap; not the `devkit` file, not the `ntr` file)*
+* The latest release of [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(the `.7z` file)*
+* The latest release of [the Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest)
 
 ### Anleitung
 
@@ -37,7 +37,7 @@ Um die `.7z` Dateien, welche auf dieser Seite verlinkt sind, entpacken zu könne
 1. Kopiere `SafeBS9Installer.nds` aus der SafeBS9Installer `.zip` in das Stammverzeichnis deiner DS-Flashcard
 1. Schalte deine Konsole an
 
-#### Section II - Launching SafeB9SInstaller
+#### Schritt II - Starten von SafeBS9Installer
 
 1. Starte die DS-Flashkarte von deinem Gerät
 1. Starte `SafeB9SInstaller.nds` mit deiner Flashkarte
@@ -47,16 +47,16 @@ Um die `.7z` Dateien, welche auf dieser Seite verlinkt sind, entpacken zu könne
 1. Starte das System neu, gehe dann in die Systemeinstellungen, dann auf "Allgemeine Einstellungen", dann auf "Nutzerprofil" und dann auf "Nintendo DS-Nutzereinstellungen"
 1. Wenn der Exploit erfolgreich war, wird nun direkt zum SafeBS9Installer gebootet
 
-#### Section III - Installing boot9strap
+#### Schritt III - boot9strap installieren
 
 1. Warte auf alle Sicherheitsüberprüfungen
 1. Gib die Tastenkombination zur Bestätigung ein, wenn danach verlangt wird
 1. Sobald dies abgeschlossen ist drücke (A) um das Gerät neuzustarten
 
-#### Section IV - Configuring Luma3DS
+#### Schritt IV - Luma3DS konfigurieren
 
 1. Dein Gerät sollte neu starten und die Luma3DS Konfiguration anzeigen
-  + If you get a black screen, [follow this troubleshooting guide](troubleshooting#black-screen-on-sysnand-boot-after-installing-boot9strap)
+  + Wenn du einen schwarzen Bildschirm siehst, [folge diesen Anweisungen](troubleshooting#black-screen-on-sysnand-boot-after-installing-boot9strap)
 1. Benutze den (A) Knopf und das Steuerkreuz, um Folgendes zu aktivieren:    
   + **"Show NAND or user string in System Settings"**
 1. Drücke (Start) zum Speichern und neustarten

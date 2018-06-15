@@ -22,7 +22,7 @@ Niektóre z poniższych instrukcji mają zastosowanie tylko do najnowszej wersji
 
 ### Czego Potrzebujesz
 
-* Najnowszej wersji [GodMode9](https://github.com/d0k3/GodMode9/releases/latest){:target="_blank"}
+* Najnowszej wersji [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 
 ### Instrukcje
 

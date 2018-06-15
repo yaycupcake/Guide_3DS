@@ -11,7 +11,7 @@ Acest procedeu va elimina complet CFW-ul de pe dispozitiv, inclusiv Boot9Strap �
 Asta aproape niciodată nu este soluția pentru a repara orice eroare ați putea găsi cu instalarea voastră de CFW. O idee mai bună ar fi să citiţi pagina de [depanare](troubleshooting) sau să cereți ajutor la [Nintendo Homebrew pe Discord] (https://discord.gg/MWxPgEp).
 {: .notice--danger}
 
-Orice joc nesemnat (nelegitim) va deveni inutilizabil și poate fi eliminaat manual folosind secțiunea Data Management de pe System Settings. Folosiți un [manager de date de salvare](https://github.com/BernardoGiordano/Checkpoint/releases/latest){:target="_blank"} pentru a face copii de rezervă la orice joc nesemnat (nelegitim) de care vă pasă.
+Orice joc nesemnat (nelegitim) va deveni inutilizabil și poate fi eliminaat manual folosind secțiunea Data Management de pe System Settings. Use a [save manager](https://github.com/BernardoGiordano/Checkpoint/releases/latest) to backup any saves for these unsigned (illegitimate) games you care about.
 
 Acest lucru nu va afecta NNID-ul, orice joc cumpărat în mod legitim, sau orice date de salvare pentru acele jocuri cumpărate legitim.
 
@@ -19,7 +19,7 @@ Acest lucru nu va afecta NNID-ul, orice joc cumpărat în mod legitim, sau orice
 
 ### Ce aveți nevoie
 
-* Cea mai recentă versiune de [GodMode9](https://github.com/d0k3/GodMode9/releases/latest){:target="_blank"}
+* The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 * Scriptul de dezinstalare care corespunde dispozitivului dumneavoastră:
   + [uninstall_hax_retail_NEW.gm9]({{ "/gm9_scripts/uninstall_hax_retail_NEW.gm9" | absolute_url }}){:download}
   + [uninstall_hax_retail_OLD.gm9]({{ "/gm9_scripts/uninstall_hax_retail_OLD.gm9" | absolute_url }}){:download}

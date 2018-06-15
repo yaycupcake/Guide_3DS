@@ -10,15 +10,15 @@ Falls du bereits deinen 3DS zuvor gehackt hast und eine EmuNAND basierte CFW ins
 
 ### Anleitung
 
-#### Section I - Launching SafeB9SInstaller
+#### Schritt I - SafeB9SInstaller starten
 
-1. Launch udsploit from the list of homebrew
-1. Once it has completed, press (Start) to exit udsploit
+1. Starte udsploit aus der Homebrew-Liste
+1. Sobald es fertig ist, drücke (Start), um udsploit zu beenden
   + Hierzu wirst du wahrscheinlich mehrere Versuche benötigen
   + Wenn sich deine Konsole aufhängt, schalte sie durch langes halten des Power-Knopfes aus, und versuche es erneut
-1. Launch safehax from the list of homebrew
-  + If you get a "PM INIT FAILED" error, make sure you ran udsploit with Wireless Communication turned on
-  + If you *still* get a "PM INIT FAILED" error, try using the [r19 release of safehax](https://github.com/TiniVi/safehax/releases/tag/r19)
+1. Starte safehax aus der Liste in homebrew
+  + Wenn du den Fehler "PM INIT FAILED" bekommst, stelle sicher, dass die Drahtloskommunikation eingeschaltet ist, während du udsploit ausführst
+  + Wenn du *weiterhin* den Fehler "PM INIT FAILED" bekommst, versuche den [r19 Release von Safehax](https://github.com/TiniVi/safehax/releases/tag/r19) zu benutzen
   + Wenn sich deine Konsole aufhängt, schalte sie durch langes halten des Power-Knopfes aus, und versuche es erneut
 1. Wenn der Exploit erfolgreich war, wird nun direkt zum SafeBS9Installer gebootet
 
@@ -31,7 +31,7 @@ Falls du bereits deinen 3DS zuvor gehackt hast und eine EmuNAND basierte CFW ins
 #### Schritt III - Luma3DS konfigurieren
 
 1. Dein Gerät sollte neu starten und die Luma3DS Konfiguration anzeigen
-  + If you get a black screen, [follow this troubleshooting guide](troubleshooting#black-screen-on-sysnand-boot-after-installing-boot9strap)
+  + Wenn du einen schwarzen Bildschirm siehst, [folge diesen Anweisungen](troubleshooting#black-screen-on-sysnand-boot-after-installing-boot9strap)
 1. Benutze den (A) Knopf und das Steuerkreuz, um Folgendes zu aktivieren:    
   + **"Show NAND or user string in System Settings"**
 1. Drücke (Start) zum Speichern und neustarten

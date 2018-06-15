@@ -6,7 +6,7 @@ title: "boot9strap telepítése (DSiWare)"
 
 ### Fontos tudnivalók
 
-Három különböző módszer létezik a boot9strap DSiWare-rel történő telepítésére 11.6.0-s rendszeren.
+There are three different methods of installing boot9strap using DSiWare on 11.7.0.
 
 Az első módszerhez, a Seedminerhez szükséged lesz egy erős grafikus kártyával rendelkező PC-re. A Seedminerhez tartozik egy online segédszolgáltatás, amennyiben nem rendelkezel ilyen PC-vel. A másik két módszerhez szükséged lesz egy már hackelt 3DS-ről történő system transferre.
 
@@ -18,7 +18,7 @@ Ez a módszer a 3DS-ek biztonsági rendszerében található figyelmetlenségek 
 
 ___
 
-Az másik két módszerhez kettő készülékre lesz szükséged. Egy 3DS-re (vagy 2DS-re), amely boot9strap-et futtat, és amire a későbbiekben *forrás 3DS*-ként fogunk hivatkozni, illetve egy másik 3DS-re (vagy 2DS-re), ami gyári állapotú 11.6.0-s rendszert futtat, és amire a későbbiekben a *cél 3DS*-ként hivatkozunk majd.
+Az másik két módszerhez kettő készülékre lesz szükséged. One 3DS (or 2DS) must be running boot9strap and is referred to as the *source 3DS*, while the other 3DS (or 2DS) is on stock 11.7.0 and referred to as the *target 3DS*.
 
 Mindkét módszer esetén feltételezzük, hogy az a 3DS, amelyiken egyedi firmware fut, boot9strap-et futtat, és ezen útmutató szerint lett telepítve. Bár lehetséges, hogy ezek a módszerek működnek más egyedi firmware-ekkel is, azokkal ez az útmutató nem foglalkozik.
 

@@ -21,13 +21,13 @@ Durant cette étape, nous allons également configurer les programmes suivants :
 
 ## Ce dont vous avez besoin
 
-* La dernière version de [Anemone3DS](https://github.com/astronautlevel2/Anemone3DS/releases/latest){:target="_blank"} *(le fichier `.cia`)*
-* La dernière version de [Checkpoint](https://github.com/BernardoGiordano/Checkpoint/releases/latest){:target="_blank"} *(le fichier `.cia`)*
-* La dernière version de [hblauncher_loader](https://github.com/yellows8/hblauncher_loader/releases/latest){:target="_blank"}
-* La dernière version de [GodMode9](https://github.com/d0k3/GodMode9/releases/latest){:target="_blank"}
-* La dernière version de [DSP1](https://github.com/zoogie/DSP1/releases/latest){:target="_blank"}
-* La dernière version de [FBI](https://github.com/Steveice10/FBI/releases/latest){:target="_blank"} *(le fichier `.cia` et`.3dsx`)*
-* La dernière version de [Luma3DS Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest){:target="_blank"} *(le fichier `.cia`)*
+* The latest release of [Anemone3DS](https://github.com/astronautlevel2/Anemone3DS/releases/latest) *(the `.cia` file)*
+* The latest release of [Checkpoint](https://github.com/BernardoGiordano/Checkpoint/releases/latest) *(the `.cia` file)*
+* The latest release of [hblauncher_loader](https://github.com/yellows8/hblauncher_loader/releases/latest)
+* The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
+* The latest release of [DSP1](https://github.com/zoogie/DSP1/releases/latest)
+* The latest release of [FBI](https://github.com/Steveice10/FBI/releases/latest) *(the `.cia` and `.3dsx` files)*
+* The latest release of [Luma3DS Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest) *(the `.cia` file)*
 * [setup_ctrnand_luma3ds.gm9]({{ "/gm9_scripts/setup_ctrnand_luma3ds.gm9" | absolute_url }}){:download}
 * [cleanup_sd_card.gm9]({{ "/gm9_scripts/cleanup_sd_card.gm9" | absolute_url }}){:download}
 
@@ -135,6 +135,7 @@ Si, avant d'avoir suivi ce guide, vous aviez une installation EmuNAND et que vou
   Ces sauvegardes vous sauveront d'un brick et/ou vous aideront à récupérer des fichiers de l'image de la NAND si quelque chose se passe mal plus tard
 1. Supprimez `<date>_<serialnumber>_sysnand_###.bin` et `<date>_<serialnumber>_sysnand_###.bin.sha` du dossier `/gm9/out/` de votre carte SD après l'avoir copiée
 1. Réinsérez votre carte SD dans votre 3DS
+  + If your SD card was not detected, hold (R) and press (B) at the same time to remount it
 
 #### Section VIII - Nettoyer la Carte SD
 
@@ -167,6 +168,14 @@ Vous pouvez maintenant maintenir (Start) au démarrage pour lancer le menu de ch
 Vous pouvez maintenant maintenir (Start) + (Select) + (X) au démarrage pour dump le bootrom ARM11 (`boot11.bin`), le bootrom ARM9 (`boot9.bin`) et l'OTP unique de votre console (`OTP.bin`) dans le dossier `/boot9strap/` de votre carte SD (Notez que cela n'affichera aucune notification).    
 
 Vous pouvez maintenant appuyer simultanément sur (L) + (Bas) + (Select) pour démarrer le menu Rosalina intégré à Luma3DS. Pour une liste plus complète des fonctionnalités de Rosalina, vous pouvez vous rendre sur [la page GitHub de Luma3DS v8.0](https://github.com/AuroraWright/Luma3DS/releases/tag/v8.0)
+{% endcapture %}
+
+<div class="notice--info">{{ notice-6 | markdownify }}</div>
+
+{% capture notice-6 %}   
+Si vous voulez changer votre carte SD pour une plus grande capacité, il vous suffit de formater la nouvelle carte SD en FAT32 puis de copier-coller tout le contenu de l'ancienne SD vers la nouvelle.    
+
+Si votre nouvelle carte SD fait plus de 32 Go, vous devrez utiliser un outil spécifique pour la formater, comme [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) pour Windows, [gparted](http://gparted.org/download.php) pour Linux, ou [Disk Utility](https://support.apple.com/en-gb/guide/disk-utility/format-a-disk-for-windows-computers-dskutl1010/mac) pour Mac.    
 {% endcapture %}
 
 <div class="notice--info">{{ notice-6 | markdownify }}</div>

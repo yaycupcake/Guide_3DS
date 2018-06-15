@@ -14,7 +14,7 @@ Esta página é destinada apenas a usuários do Mac. Se você não estiver no Ma
 
 ### What You Need
 
-* The latest release of [F3X](https://github.com/insidegui/F3X/releases/latest){:target="_blank"}
+* The latest release of [F3X](https://github.com/insidegui/F3X/releases/latest)
 
 ### Instructions
 

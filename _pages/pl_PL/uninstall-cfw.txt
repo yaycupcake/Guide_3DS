@@ -11,7 +11,7 @@ To całkowicie usunie CFW z twojego urządzenia, łącznie z boot9strap oraz Lum
 Prawie nigdy nie jest to właściwe rozwiązanie problemów związanych z twoją instalacją CFW. Lepszym pomysłem byłoby przeczytanie strony [Rozwiązywanie Problemów](troubleshooting) lub poproszenie o pomoc na [Serwerze Discord Nintendo Homebrew](https://discord.gg/MWxPgEp).
 {: .notice--danger}
 
-Wszystkie niepodpisane (nielegalne) gry przestaną się uruchamiać i można je ręcznie usunąć za pomocą sekcji Data Management w System Settings. Użyj [menadżera zapisów](https://github.com/BernardoGiordano/Checkpoint/releases/latest){:target="_blank"} aby zrobić kopię zapasową dowolnych zapisów (nielegalnych) gier na których ci zależy.
+Wszystkie niepodpisane (nielegalne) gry przestaną się uruchamiać i można je ręcznie usunąć za pomocą sekcji Data Management w System Settings. Użyj [menadżera zapisów](https://github.com/BernardoGiordano/Checkpoint/releases/latest), aby zrobić kopię zapasową dowolnych zapisów (nielegalnych) gier na których ci zależy.
 
 Nie wpłynie to na Twoje NNID oraz na żadną z legalnie zakupionych gier włącznie z zapisami z tych gier.
 
@@ -19,7 +19,7 @@ Zauważ, że jeżeli będziesz miał pliki inne niż `GodMode9.firm` w folderze 
 
 ### Czego Potrzebujesz
 
-* Najnowszej wersji [GodMode9](https://github.com/d0k3/GodMode9/releases/latest){:target="_blank"}
+* Najnowszej wersji [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 * Skrypt odinstalowujący odpowiadający Twojemu urządzeniu:
   + [uninstall_hax_retail_NEW.gm9]({{ "/gm9_scripts/uninstall_hax_retail_NEW.gm9" | absolute_url }}){:download}
   + [uninstall_hax_retail_OLD.gm9]({{ "/gm9_scripts/uninstall_hax_retail_OLD.gm9" | absolute_url }}){:download}

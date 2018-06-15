@@ -12,7 +12,7 @@ Die Liste ist aufgeteilt in Regionen in der Reihenfolge USA, EUR, JPN. Jede Regi
 
 QR Codes können gescannt werden, indem du (L + R) im Home Menü drückst, und auf dem unteren Bildschirm das QR Icon anklickst.
 
-The following size requirements are because the injected DSiWare and its hacked save must not modify their respective file sizes in order to system transfer properly, meaning that the donor DSiWare must be large enough to fit the hacked DSiWare.
+Die folgende Größenanforderung existiert weil der injizierte DSiWare Titel und der dazugehörige gehackte Speicherstand die vorgegebene Größe nicht verändern darf, um den Systemtransfer erfolgreich durchzuführen. Das heißt, dass der ursprüngliche DSiWare Titel groß genug sein muss, um die gehackte DSiWare zu enthalten.
 
 {% capture notice-list %}
 
@@ -38,7 +38,7 @@ The following size requirements are because the injected DSiWare and its hacked 
 
 <div class="notice--primary">{{ notice-list | markdownify }}</div>
 
-### List
+### Liste
 
 | | Preis | 8 Zeichen lange ID | Region(en) | QR-Code |
 |:-:|:-:|:-:|:-:|:-:|
@@ -147,7 +147,7 @@ The following size requirements are because the injected DSiWare and its hacked 
 | Face Pilot™: Fly With Your Nintendo DSi Camera! | 4,99€ | 4B594256 | EUR | ![qrcode]({{ "/images/qrcodes/000480044B594256.png" | absolute_url }})
 | Me And My Dogs: Friends Forever | 7,99€ | 4B4D3856 | EUR | ![qrcode]({{ "/images/qrcodes/000480044B4D3856.png" | absolute_url }})
 | Miami Nights: Life in the Spotlight | 7,99€ | 4B4D4556 | EUR | ![qrcode]({{ "/images/qrcodes/000480044B4D4556.png" | absolute_url }})
-Für zwischendurch... Dr Kawashima’s Brain Training™ Arts Edition | 7,99€ | 4B4E4456 | EUR | ![qrcode]({{ "/images/qrcodes/000480044B4E4456.png" | absolute_url }})
+| A Little Bit of... Dr Kawashima’s Brain Training™ Arts Edition | 7,99€ | 4B4E4456 | EUR | ![qrcode]({{ "/images/qrcodes/000480044B4E4456.png" | absolute_url }})
 | A Little Bit of...Dr Kawashima’s Brain Training™: Maths Edition | 7,99€ | 4B4E5256 | EUR | ![qrcode]({{ "/images/qrcodes/000480044B4E5256.png" | absolute_url }})
 | Zoo Frenzy | 7,99€ | 4B5A4656 | EUR | ![qrcode]({{ "/images/qrcodes/000480044B5A4656.png" | absolute_url }})
 | Mario vs. Donkey Kong™: Minis March Again! | 7,99€ | 4B444D56 | EUR | ![qrcode]({{ "/images/qrcodes/000480044B444D56.png" | absolute_url }})

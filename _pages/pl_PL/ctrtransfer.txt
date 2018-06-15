@@ -17,8 +17,8 @@ MUSISZ mieć już zainstalowany Luma3DS i boot9strap żeby to wykonać.
 
 ### Czego Potrzebujesz
 
-* Najnowszej wersji [GodMode9](https://github.com/d0k3/GodMode9/releases/latest){:target="_blank"}
-* Najnowszej wersji [FBI](https://github.com/Steveice10/FBI/releases/latest){:target="_blank"} *(plik`.3dsx`)*
+* Najnowszej wersji [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
+* Najnowszej wersji [FBI](https://github.com/Steveice10/FBI/releases/latest) *(pliku `.3dsx`)*
 * [ctrtransfer_ticket_copy.gm9]({{ "/gm9_scripts/ctrtransfer_ticket_copy.gm9" | absolute_url }}){:download}
 * Obrazu CTRTransfer 11.5.0 dla twojego urządzenia i regionu     
 *(jeśli twoja konsola nie jest z żadnego z tych regionów, po prostu wybierz dowolny zgodny z typem twojej konsoli)*:    

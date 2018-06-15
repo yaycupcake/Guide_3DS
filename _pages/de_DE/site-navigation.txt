@@ -17,7 +17,7 @@ sitemap: false
 **Alles**
 
 + [A9LH zu B9S](a9lh-to-b9s)
-+ [Cartridge Update](cart-update)
++ [Kartenupdate](cart-update)
 + [Danksagungen](credits)
 + [CTRTransfer](ctrtransfer)
 + [Spenden](donations)
@@ -48,7 +48,7 @@ sitemap: false
 + [Installation von boot9strap (Homebrew Launcher)](installing-boot9strap-(homebrew-launcher))
 + [Installation von boot9strap (MSET)](installing-boot9strap-(mset))
 + [Installation von boot9strap (ntrboot)](installing-boot9strap-(ntrboot))
-+ [Installing boot9strap (Soundhax)](installing-boot9strap-(soundhax))
++ [Installation von boot9strap (Soundhax)](installing-boot9strap-(soundhax))
 + [ntrboot](ntrboot)
 + [EmuNAND verschieben](move-emunand)
 + [Wechseln der Region](region-changing)

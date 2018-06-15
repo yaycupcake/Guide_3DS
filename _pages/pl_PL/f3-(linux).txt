@@ -14,7 +14,7 @@ Ta strona dotyczy tylko użytkowników systemu Linux. Jeśli nie posiadasz Linux
 
 ### Czego Potrzebujesz
 
-* Najnowszej wersji programu [F3](https://github.com/AltraMayor/f3/archive/v6.0.zip)
+* Najnowszej wersji programu [F3](https://github.com/AltraMayor/f3/releases/latest)
 
 ### Instrukcje
 

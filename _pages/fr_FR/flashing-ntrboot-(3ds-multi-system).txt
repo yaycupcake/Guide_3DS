@@ -19,8 +19,8 @@ Notez que dans de rares circonstances, il est possible que pendant le processus 
 * Deux dispositifs de la famille 3DS 
   + **La 3DS source** : La 3DS qui tourne déjà sous boot9strap
   + **La 3DS cible** : la 3DS sur un firmware original non modifié
-* La dernière version de [boot9strap](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} *(`ntr` standard, pas le fichier `devkit`)*
-* La dernière version de [ntrboot_flasher](https://github.com/ntrteam/ntrboot_flasher/releases/latest){:target="_blank"}
+* La dernière version de [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(`ntr` standard, pas le fichier `devkit`)*
+* The latest release of [ntrboot_flasher](https://github.com/ntrteam/ntrboot_flasher/releases/latest)
 
 ### Instructions
 

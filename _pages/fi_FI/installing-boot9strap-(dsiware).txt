@@ -6,7 +6,7 @@ title: "Boot9strapin asentaminen (DSiWare)"
 
 ### Tärkeää tietoa
 
-There are three different methods of installing boot9strap using DSiWare on 11.6.0.
+There are three different methods of installing boot9strap using DSiWare on 11.7.0.
 
 The first method, Seedminer, requires a PC with a powerful graphics card. There is an online helping service for Seedminer if you do not have access to such a PC. The two other methods require a system transfer from a hacked 3DS.
 
@@ -18,7 +18,7 @@ The method uses a series of oversights in the 3DS' security, detailed [here](htt
 
 ___
 
-The latter two methods require two devices. Yhdellä 3DS:llä (tai 2DS:llä) on oltava boot9strap, ja siihen viitataan nimellä *lähde-3DS*. Toisen 3DS:n (tai 2DS:n) on oltava vakiolaiteohjelmistolla versiolla 11.6.0, ja siihen viitataan nimellä *kohde-3DS*.
+The latter two methods require two devices. One 3DS (or 2DS) must be running boot9strap and is referred to as the *source 3DS*, while the other 3DS (or 2DS) is on stock 11.7.0 and referred to as the *target 3DS*.
 
 Kummassakin menetelmässä oletetaan, että mukautetun laiteohjelmiston omaavalla 3DS:llä on boot9strap asennettuna tämän oppaan ohjeiden mukaan. Vaikka näiden menetelmien hyödyntäminen onkin mahdollista myös joillain muilla mukautetuilla laiteohjelmistoilla, ei niitä käsitellä tässä ohjeessa.
 

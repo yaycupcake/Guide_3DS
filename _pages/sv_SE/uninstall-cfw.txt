@@ -11,7 +11,7 @@ This will completely remove CFW from your device, including Boot9Strap and Luma3
 This is almost never the solution to fix any issues you encounter with your CFW installation. A better idea would be to read the [troubleshooting](troubleshooting) page or ask for help at [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp).
 {: .notice--danger}
 
-Any unsigned (illegitimate) games will be rendered unusable and can be manually removed using the Data Management section of the System Settings. Use a [save manager](https://github.com/BernardoGiordano/Checkpoint/releases/latest){:target="_blank"} to backup any saves for these unsigned (illegitimate) games you care about.
+Any unsigned (illegitimate) games will be rendered unusable and can be manually removed using the Data Management section of the System Settings. Use a [save manager](https://github.com/BernardoGiordano/Checkpoint/releases/latest) to backup any saves for these unsigned (illegitimate) games you care about.
 
 This will not affect your NNID, any legitimately purchased games, or any saves for those legitimately purchased games.
 
@@ -19,7 +19,7 @@ Observera att om du har någon annan payload än `GodMode9.firm` i mappen `/luma
 
 ### What You Need
 
-* The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/latest){:target="_blank"}
+* The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 * The uninstaller script corresponding to your device:
   + [uninstall_hax_retail_NEW.gm9]({{ "/gm9_scripts/uninstall_hax_retail_NEW.gm9" | absolute_url }}){:download}
   + [uninstall_hax_retail_OLD.gm9]({{ "/gm9_scripts/uninstall_hax_retail_OLD.gm9" | absolute_url }}){:download}

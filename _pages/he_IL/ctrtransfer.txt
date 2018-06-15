@@ -17,8 +17,8 @@ title: "CTRTransfer"
 
 ### What You Need
 
-* The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/latest){:target="_blank"}
-* The latest release of [FBI](https://github.com/Steveice10/FBI/releases/latest){:target="_blank"} *(the`.3dsx` file)*
+* The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
+* The latest release of [FBI](https://github.com/Steveice10/FBI/releases/latest) *(the`.3dsx` file)*
 * [ctrtransfer_ticket_copy.gm9]({{ "/gm9_scripts/ctrtransfer_ticket_copy.gm9" | absolute_url }}){:download}
 * קובץ ה-11.5.0 CTRTransfer image המתאים למכשיר והאיזור שלכם     
 *(אם המכשיר שלכם אינו מאחד האיזורים האלו, פשוט תבחרו אחד מהם שתואם למכשיר)*:    

@@ -16,7 +16,7 @@ Vedd figyelembe, hogy néhány ritka esetben lehetséges, hogy a flashelési fol
 ### Amire szükséged lesz
 
 * Olyan flashkártya, ami támogatja az ntrboot-ot
-* A [ds_ntrboot_flasher](https://github.com/ntrteam/ds_ntrboot_flasher/releases/latest){:target="_blank"} legújabb verziója *(a `dsi` flasher; nem a sima flasher)*
+* The latest release of [ds_ntrboot_flasher](https://github.com/ntrteam/ds_ntrboot_flasher/releases/latest) *(`dsi` flasher; not the standard flasher)*
 
 ### Utasítások
 

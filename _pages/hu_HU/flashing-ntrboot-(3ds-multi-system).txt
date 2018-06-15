@@ -19,8 +19,8 @@ Vedd figyelembe, hogy néhány ritka esetben lehetséges, hogy a flashelési fol
 * Két eszköz a 3DS családból 
   + **A forrás 3DS**: egy eszköz a 3DS családból, amin már boot9strap fut
   + **A cél 3DS**: egy eszköz, ami gyári állapotban van
-* A [boot9strap](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} legújabb verziója *(az `ntr` boot9strap; nem a `devkit` fájl)*
-* Az [ntrboot_flasher](https://github.com/ntrteam/ntrboot_flasher/releases/latest){:target="_blank"} legújabb kiadása
+* A [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) legújabb verziója *(az `ntr` boot9strap; nem a `devkit` fájl)*
+* The latest release of [ntrboot_flasher](https://github.com/ntrteam/ntrboot_flasher/releases/latest)
 
 ### Utasítások
 

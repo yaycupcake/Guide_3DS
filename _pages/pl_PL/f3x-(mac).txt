@@ -14,7 +14,7 @@ Ta strona dotyczy tylko użytkowników systemu Mac. Jeśli nie posiadasz kompute
 
 ### Czego Potrzebujesz
 
-* Najnowszej wersji [F3X](https://github.com/insidegui/F3X/releases/latest){:target="_blank"}
+* Najnowszej wersji programu [F3X](https://github.com/insidegui/F3X/releases/latest)
 
 ### Instrukcje
 
