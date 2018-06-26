@@ -11,7 +11,7 @@ In questa sezione verrà spiegato come rimuovere completamente il CFW dalla tua 
 Se dovessi incontrare problemi con la tua installazione del CFW, seguire le istruzioni indicate in questa sezione probabilmente non servirà a risolverli. Un'idea migliore sarebbe leggere la pagina per la [risoluzione dei problemi](troubleshooting) o chiedere aiuto al [canale Discord di Nintendo Homebrew](https://discord.gg/MWxPgEp).
 {: .notice--danger}
 
-Non sarà più possibile utilizzare i giochi non firmati (in quanto illegittimi), ma potranno essere eliminati manualmente tramite la sezione Gestione dati nelle Impostazioni della console. Use a [save manager](https://github.com/BernardoGiordano/Checkpoint/releases/latest) to backup any saves for these unsigned (illegitimate) games you care about.
+Non sarà più possibile utilizzare i giochi non firmati (in quanto illegittimi), ma potranno essere eliminati manualmente tramite la sezione Gestione dati nelle Impostazioni della console. Puoi usare un [save manager](https://github.com/BernardoGiordano/Checkpoint/releases/latest) per fare un backup dei salvataggi di questi giochi (illegittimi).
 
 Il tuo NNID, i giochi regolarmente acquistati o i salvataggi di questi ultimi non verranno toccati.
 
@@ -19,7 +19,7 @@ Tieni presente che se hai altri file payload oltre a `GodMode9.firm` nella carte
 
 ### Cosa serve
 
-* The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
+* L'ultima versione di [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 * Lo script di disinstallazione corrispondente alla tua console:
   + [uninstall_hax_retail_NEW.gm9]({{ "/gm9_scripts/uninstall_hax_retail_NEW.gm9" | absolute_url }}){:download}
   + [uninstall_hax_retail_OLD.gm9]({{ "/gm9_scripts/uninstall_hax_retail_OLD.gm9" | absolute_url }}){:download}
