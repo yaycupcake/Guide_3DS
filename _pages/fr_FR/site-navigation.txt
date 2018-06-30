@@ -35,7 +35,7 @@ sitemap: false
 + [Bien démarrer](get-started)
 + [Utilisation de GodMode9](godmode9-usage)
 + [H2testw (Windows)](h2testw-(windows))
-+ [Accueil](/)
++ [Home](/fr_FR/)
 + [Homebrew Launcher (Soundhax)](homebrew-launcher-(soundhax))
 + [Homebrew Launcher (Méthodes Alternatives)](homebrew-launcher-(alternatives))
 + [Installer boot9strap (2xrsa)](installing-boot9strap-(2xrsa))
