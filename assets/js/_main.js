@@ -171,7 +171,7 @@ $(document).ready(function(){
       "2": ["installing-boot9strap-(browser)", "finalizing-setup"],
       "3": ["homebrew-launcher-(soundhax)", "installing-boot9strap-(homebrew-launcher)", "finalizing-setup"],
       "4": ["homebrew-launcher-(alternatives)", "installing-boot9strap-(homebrew-launcher)", "finalizing-setup"],
-      "5": ["installing-boot9strap-(dsiware)"],
+      "5": ["installing-boot9strap-(dsiware)", "multiple-options", "finalizing-setup"],
       "6": ["installing-boot9strap-(dsiware)", "installing-boot9strap-(dsiware-game-injection)", "finalizing-setup"],
       "7": ["installing-boot9strap-(dsiware)", "installing-boot9strap-(dsiware-save-injection)", "finalizing-setup"],
       "8": ["installing-boot9strap-(soundhax)", "finalizing-setup"],
