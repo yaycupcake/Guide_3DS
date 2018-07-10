@@ -18,17 +18,17 @@ title: "安裝 boot9strap (透過 DSiWare 植入遊戲－遊戲清單)"
 
     相容的 DSiWare 遊戲必須滿足如下的特定大小要求：
 
-    + 美版 DSiWare
+    + USA DSiWare
       + 使用 sudokuhax
       + `.app` 大小 >= 3,457,024 位元組
       + `public.sav` 大小 >= 67,584 位元組
 
-    + 歐版 DSiWare
+    + EUR DSiWare
       + 使用 sudokuhax
       + `.app` 大小 >= 3,563,520 位元組
       + `public.sav` 大小 >= 69,536 位元組
 
-    + 日版 DSiWare
+    + JPN DSiWare
       + 使用 4swordshax
       + `.app` 大小 >= 14,131,200 位元組
       + `public.sav` 大小 == 16,384 位元組

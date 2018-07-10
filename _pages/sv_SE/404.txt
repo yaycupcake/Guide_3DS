@@ -1,9 +1,9 @@
 ---
-title: "Sidan hittades inte" #
+title: "Page Not Found" #
 layout: single-no-ads
-excerpt: "Sidan hittades inte. Dina pixlar finns på en annan monitor." #
-sitemap: false
+excerpt: "Sidan hittades inte. Your pixels are in another canvas." #
+sitemap: fel
 ---
 
-Tyvärr, men sidan du försökte visa finns inte.
+Sorry, but the page you were trying to view does not exist.
 {: .notice--info}
