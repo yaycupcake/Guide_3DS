@@ -47,7 +47,7 @@ For all versions you can also [Cartridge Update](cart-update) (or use a standard
       <td style="text-align: center; font-weight: bold;">2.1.0</td>
       <td style="text-align: center; font-weight: bold;">2.1.0</td>
       <td style="text-align: center; font-weight: bold;">תשתמשו בשיטת "כל הגרסאות"</td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-(2xrsa)">התקנת boot9strap (2xrsa)</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-(2xrsa)">Installing boot9strap (2xrsa)</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">2.2.0</td>
