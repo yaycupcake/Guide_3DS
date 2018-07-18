@@ -16,7 +16,7 @@ Ahhoz, hogy kicsomagold az oldalon található `.7z` fájlokat, egy fájl archiv
 
 Vedd figyelembe, hogy a kártyafrissítések csak a legfontosabb dolgokat frissítik, mint például a System Settings, Home Menu, stb. a kártyafrissítések nem fogják frissíteni a Nintendo 3DS Sound alkalmazást és a Hálózati funkciókat, mint például a System Transfer, Internet Browser, StreetPass Mii Plaza, vagy az eShop.
 
-Ez azt jelenti, hogy kártyafrissítés egy olyan verzióról, amelyhez régebbi verziójú Nintendo 3DS Sound alkalmazás tartozott *(<3.0.0)* egy olyan verzióra, amihez újabb Nintendo 3DS Sound tartozik, működésképtelenné teszi a [Soundhax](homebrew-launcher-(soundhax))-et! [Más módszerre](installing-boot9strap-(mset)) lesz szükséged ahhoz, hogy használhasd a Homebrew Launchert!
+Ez azt jelenti, hogy kártyafrissítés egy olyan verzióról, amelyhez régebbi verziójú Nintendo 3DS Sound alkalmazás tartozott *(<3.0.0)* egy olyan verzióra, amihez újabb Nintendo 3DS Sound tartozik, működésképtelenné teszi a Soundhax-ot! You will need an alternate method of entering the Homebrew Launcher such as [Installing boot9strap (Browser)](installing-boot9strap-(browser)) or [Installing boot9strap (MSET)](installing-boot9strap-(mset))!
 {% endcapture %}
 
 <div class="notice--warning">{{ notice-1 | markdownify }}</div>
@@ -26,9 +26,9 @@ Ez azt jelenti, hogy kártyafrissítés egy olyan verzióról, amelyhez régebbi
 * A [Soundhax](http://soundhax.com/) legújabb kiadása *(a régiódnak, készülékednek és rendszer verziódnak megfelelő változat)*
 * The latest release of [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
 * The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(standard boot9strap; not the `devkit` file, not the `ntr` file)*
-* The latest release of [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(the `.7z` file)*
+* The latest release of [Luma3DS]({{ "/assets/files/Luma3DSv89CC6ED.7z" | absolute_url }}) *(the `.7z` file)*
 * The latest release of [the Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest)
-* The latest release of [pre9otherapp](https://github.com/Pirater12/otherapp/releases/latest)
+* The latest release of [pre9otherapp](https://github.com/Pirater12/otherapp/releases/latest) *(the `.bin` file corresponding to your firmware version)*
 
 ### Utasítások
 

@@ -10,6 +10,8 @@ Ha nem tudod elindítani a készülékedet, keresd meg a rád vonatkozó részt,
 
 Ha még így sem tudod megoldani a problémádat, és szeretnél segítséget kérni, először másold át az összes lényeges .log fájl tartalmát az SD kártyádról egy [Gistbe](https://gist.github.com/), majd a problémád részletes leírásával és a kipróbált megoldásokkal együtt fordulj hozzánk segítségért.
 
+Vedd figyelembe, hogy amennyiben van más payload fájl a `GodMode9.firm` fájlon kívül a `/luma/payloads/`mappában, indításkor a (Start) gombot lenyomva tartva a "chainloader menu" menü fog megjelenni. Itt a D-Pad és az (A) gomb segítségével válaszd a "GodMode9" opciót, hogy az alábbi utasításokat követhesd. 
+
 Ahhoz, hogy használhasd a [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme) linkeket ezen az oldalon, szükséged lesz egy torrent kliensre, mint például a [Deluge](http://dev.deluge-torrent.org/wiki/Download).
 
 ## Egyes DSi / DS funkciók nem működnek az útmutató végigcsinálása után
@@ -48,35 +50,22 @@ Ahhoz, hogy használhasd a [magnet](https://en.wikipedia.org/wiki/Magnet_URI_sch
 
 ## NNID eltávolítása az eszközöd formázása nélkül
 
-### Amire szükséged lesz
-
-* [remove_nnid.gm9]({{ "/gm9_scripts/remove_nnid.gm9" | absolute_url }}){:download}
-
-### Utasítások
-
-Vedd figyelembe, hogy amennyiben van más payload fájl a `GodMode9.firm` fájlon kívül a `/luma/payloads/`mappában, indításkor a (Start) gombot lenyomva tartva a "chainloader menu" menü fog megjelenni. Itt a D-Pad és az (A) gomb segítségével válaszd a "GodMode9" opciót, hogy az alábbi utasításokat követhesd. 
-{: .notice--info}
-
 1. Indítsd el a GodMode9-et a (Start) lenyomva tartásával boot közben
-1. Az SD kártya leválasztásához az (R) gomb lenyomva tartása mellett nyomd meg a (B) gombot
-1. Helyezd az SD kártyád a számítógépbe
-1. Másold a `remove_nnid.gm9` fájlt az SD kártyád `/gm9/scripts/` mappájába
-1. Tedd vissza az SD kártyád a készülékedbe
 1. Nyomd meg a (Home) gombot, hogy megjelenjen a műveleti menü
 1. Válaszd a "Scripts..." opciót
-1. Válaszd a "remove_nnid" opciót
-1. Amikor kéri, nyomd meg az (A) gombot a folytatáshoz
+1. Select "GM9Megascript"
+1. Select "Scripts from Plailect's Guide"
+1. Nyomd meg az (A) gombot a folytatáshoz
 1. Nyomd meg az (A) gombot, hogy feloldd a SysNAND (lvl1) írást, majd sorban nyomd meg a kijelzett gombokat
 1. Nyomd meg az (A) gombot a folytatáshoz
+1. Nyomd meg a (B) gombot, hogy visszamenj a főmenübe
+1. Select "Exit"
 1. Nyomd meg az (A) gombot az írási engedélyek visszavonásához
 1. Nyomd meg a (Start) gombot az eszköz újraindításához
 
 ## Nem lehet injektálni H&S-be Gateway segítségével downgrade-elt készüléken
 
 Ezt a jelenséget a Gateway eléggé vacakul implementált downgrade eljárása okozza, ami minden alkalmazásból két verziót hagy a rendszeren. Az egyik verzió mindig használaton kívül van, de a H&S injektálást végző rendszert ez megzavarja, ami aztán a rossz verzióba injektál.
-
-Vedd figyelembe, hogy amennyiben van más payload fájl a `GodMode9.firm` fájlon kívül a `/luma/payloads/`mappában, indításkor a (Start) gombot lenyomva tartva a "chainloader menu" menü fog megjelenni. Itt a D-Pad és az (A) gomb segítségével válaszd a "GodMode9" opciót, hogy az alábbi utasításokat követhesd. 
-{: .notice--info}
 
 1. Indítsd el a GodMode9-et a (Start) lenyomva tartásával boot közben
 1. Kövesd a `[1:] SYSNAND CTRNAND` -> `title` -> `00040010` útvonalat
@@ -112,15 +101,6 @@ A böngésző alapú exploitok (mint például a browserhax, vagy az 2xrsa) gyak
 
 ## Fekete képernyő SysNAND-ról való bootoláskor
 
-### Amire szükséged lesz
-
-* [remove_extdata.gm9]({{ "/gm9_scripts/remove_extdata.gm9" | absolute_url }}){:download}
-
-### Utasítások
-
-Vedd figyelembe, hogy amennyiben van más payload fájl a `GodMode9.firm` fájlon kívül a `/luma/payloads/`mappában, indításkor a (Start) gombot lenyomva tartva a "chainloader menu" menü fog megjelenni. Itt a D-Pad és az (A) gomb segítségével válaszd a "GodMode9" opciót, hogy az alábbi utasításokat követhesd. 
-{: .notice--info}
-
 1. Próbálj meg SD kártya nélkül bootolni, majd helyezd vissza bootolás után
     1. Kapcsold ki a készüléked
     1. Vedd ki az SD kártyát a készülékedből
@@ -131,10 +111,14 @@ Vedd figyelembe, hogy amennyiben van más payload fájl a `GodMode9.firm` fájlo
         1. Indítsd el a GodMode9-et a (Start) lenyomva tartásával boot közben
         1. Nyomd meg a (Home) gombot, hogy megjelenjen a műveleti menü
         1. Válaszd a "Scripts..." opciót
-        1. Válaszd a "remove_extdata" opciót
-        1. Amikor kéri, nyomd meg az (A) gombot a folytatáshoz
+        1. Select "GM9Megascript"
+        1. Select "Scripts from Plailect's Guide"
+        1. Select "Remove extdata"
+        1. Nyomd meg az (A) gombot a folytatáshoz
         1. Nyomd meg az (A) gombot, hogy feloldd a SysNAND (lvl1) írást, majd sorban nyomd meg a kijelzett gombokat
         1. Nyomd meg az (A) gombot a folytatáshoz
+        1. Nyomd meg a (B) gombot, hogy visszamenj a főmenübe
+        1. Select "Exit"
         1. Nyomd meg az (A) gombot az írási engedélyek visszavonásához
         1. Nyomd meg a (Start) gombot az eszköz újraindításához
 1. Próbálj meg játékkártya nélkül bootolni (beleértve a flashkártyákat)
@@ -162,12 +146,6 @@ Vedd figyelembe, hogy amennyiben van más payload fájl a `GodMode9.firm` fájlo
 
 ## Fekete képernyő a SysNAND-ról való bootoláskor a boot9strap telepítése után
 
-### Amire szükséged lesz
-
-* [remove_extdata.gm9]({{ "/gm9_scripts/remove_extdata.gm9" | absolute_url }}){:download}
-
-### Utasítások
-
 1. Bizonyosodj meg róla, hogy rendelkezel működőképes payloaddal
     1. Ellenőrizd, hogy létezik-e a `boot.firm` fájl az SD kártyád gyökerében.
 1. Próbáld meg alaphelyzetbe rakni a Luma konfigurációját, hogy kijavíthasd a beállításait
@@ -175,15 +153,19 @@ Vedd figyelembe, hogy amennyiben van más payload fájl a `GodMode9.firm` fájlo
     1. Bootolás után végezd el a beállításokat
 1. Próbáld ki, hogy bootol-e a GodMode9
     1. Tartsd lenyomva a (Start) gombot boot közben Luma3DS-en
-1. Próbáld meg a home menu extdata-ját törölni
+1. Try deleting home menu's extdata by following these instructions:
     1. Kapcsold ki a készüléked
     1. Indítsd el a GodMode9-et a (Start) lenyomva tartásával boot közben
     1. Nyomd meg a (Home) gombot, hogy megjelenjen a műveleti menü
     1. Válaszd a "Scripts..." opciót
-    1. Válaszd a "remove_extdata" opciót
-    1. Amikor kéri, nyomd meg az (A) gombot a folytatáshoz
+    1. Select "GM9Megascript"
+    1. Select "Scripts from Plailect's Guide"
+    1. Select "Remove extdata"
+    1. Nyomd meg az (A) gombot a folytatáshoz
     1. Nyomd meg az (A) gombot, hogy feloldd a SysNAND (lvl1) írást, majd sorban nyomd meg a kijelzett gombokat
     1. Nyomd meg az (A) gombot a folytatáshoz
+    1. Nyomd meg a (B) gombot, hogy visszamenj a főmenübe
+    1. Select "Exit"
     1. Nyomd meg az (A) gombot az írási engedélyek visszavonásához
     1. Nyomd meg a (Start) gombot az eszköz újraindításához
 1. Próbálj meg játékkártya nélkül bootolni (beleértve a flashkártyákat)

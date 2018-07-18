@@ -37,33 +37,44 @@ GodMode9 היא תוכנה חזקה שיש ביכולתה לשנות בעצם ה
 1. תפתחו את GodMode9 על ידי החזקה של המקש (Start) בעת ההדלקה
 1. תלחצו על (Home) כדי להראות את תפריט הפעולה
 1. תבחרו "Scripts..."
-1. תבחרו ב "Backup SysNAND"
+1. Select "GM9Megascript"
+1. Select "Backup Options"
+1. Select "SysNAND Backup"
 1. תלחצו (A) כדי לאשר
   + זה ייקח קצת זמן
+  + If you get an error, make sure that you have at least 1.3GB of free space on your SD card
 1. תלחצו (A) כדי להמשיך
+1. תלחצו (B) כדי לחזור לתפריט הראשי
+1. Select "Exit"
+1. תלחצו (A) כדי לנעול הרשאות כתיבה אם תתבקשו
 1. תחזיקו (R) ולחצו (B) באותו הזמן כדי להוציא את הSD
 1. תכניסו את ה-SD שלכם למחשב
-1. תעתיקו את `<date>_<serialnumber>_sysnand_###.bin` מתיקיית `/gm9/out/` על הכרטיס זכרון אל מקום בטוח במחשב שלכם
+1. Copy `<date>_<serialnumber>_sysnand_###.bin` and `essential.exefs` from the `/gm9/out/` folder on your SD card to a safe location on your computer
   + תיצרו גיבויים במקומות שונים (כמו אחסון בענן)
-  + הגיבוי הזה ישמור עליכם מבריק אם משהו ישתבש בעתיד
-1. תמחקו את `<date>_<serialnumber>_sysnand_###.bin`בתיקיה `/gm9/out/` על הSD לאחר שהעתקתם אותו
+  + These backups will save you from a brick and/or help you recover files from the NAND image if anything goes wrong in the future
+1. Delete `<date>_<serialnumber>_sysnand_###.bin` and `<date>_<serialnumber>_sysnand_###.bin.sha` from the `/gm9/out/` folder on your SD card after copying it
 1. תכניסו מחדש את כרטיס הSD שלכם לתוך המכשיר שלכם
+  + If your SD card was not detected, hold (R) and press (B) at the same time to remount it
 
 ## שחזור גיבוי NAND
 
 1. תפתחו את GodMode9 על ידי החזקה של המקש (Start) בעת ההדלקה
 1. תחזיקו (R) ולחצו (B) באותו הזמן כדי להוציא את הSD
 1. תכניסו את ה-SD שלכם למחשב
-1. תעתיקו את `<date>_<serialnumber>_sysnand_###.bin` מהמחשב שלכם אל תיקיית `/gm9/out/` בכרטיס ה SD שלכם אם מחקתם אותו אחרי שגיביתם אותו
+1. Copy `<date>_<serialnumber>_sysnand_###.bin` from your computer to the `/gm9/out/` folder on your SD card
 1. תכניסו מחדש את כרטיס הSD שלכם לתוך המכשיר שלכם
 1. תלחצו על (Home) כדי להראות את תפריט הפעולה
 1. תבחרו "Scripts..."
-1. תבחרו ב "Restore SysNAND (Safe)"
+1. Select "GM9Megascript"
+1. Select "Restore Options"
+1. Select "SysNAND Restore (safe)"
 1. תבחרו בגיבוי הNAND שלכם
-1. תלחצו (A) כדי להמשיך
-1. לחצו (A) כדי לפתוח גישת כתיבת (lvl2) לSysNAND, ואז תלחצו על המקשים בסדר הנכון
+1. לחצו (A) כדי לפתוח גישת כתיבת (lvl3) לSysNAND, ואז תלחצו על המקשים בסדר הנכון
   + זה לא ישכתב את התקנת boot9strap שלכם
-1. כאשר התהליך מסתיים, לחצו על (A) כדי להמשיך
+  + זה ייקח קצת זמן
+1. תלחצו (A) כדי להמשיך
+1. תלחצו (B) כדי לחזור לתפריט הראשי
+1. Select "Exit"
 1. תלחצו (A) כדי לנעול הרשאות כתיבה אם תתבקשו
 
 ## הזרקת כל תוכנת .CIA אל Health & Safety
@@ -216,22 +227,15 @@ GodMode9 היא תוכנה חזקה שיש ביכולתה לשנות בעצם ה
 
 ## מחיקת NNID ללא פרמוט המכשיר
 
-### What You Need
-
-* [remove_nnid.gm9]({{ "/gm9_scripts/remove_nnid.gm9" | absolute_url }}){:download}
-
-### הנחיות
-
 1. תפתחו את GodMode9 על ידי החזקה של המקש (Start) בעת ההדלקה
-1. תחזיקו (R) ולחצו (B) באותו הזמן כדי להוציא את הSD
-1. תכניסו את ה-SD שלכם למחשב
-1. Copy `remove_nnid.gm9` to the `/gm9/scripts/` folder on your SD card
-1. תכניסו מחדש את כרטיס הSD שלכם לתוך המכשיר שלכם
 1. תלחצו על (Home) כדי להראות את תפריט הפעולה
 1. תבחרו "Scripts..."
-1. Select "remove_nnid"
-1. כשתתבקשו, תלחצו (A) כדי להמשיך
+1. Select "GM9Megascript"
+1. Select "Scripts from Plailect's Guide"
+1. תלחצו (A) כדי להמשיך
 1. לחצו (A) כדי לפתוח גישת כתיבת lvl1 לSysNAND, ואז תלחצו על המקשים בסדר הנכון
 1. תלחצו (A) כדי להמשיך
-1. תלחצו (A) כדי לנעול הרשאות כתיבה
+1. תלחצו (B) כדי לחזור לתפריט הראשי
+1. Select "Exit"
+1. תלחצו (A) כדי לנעול הרשאות כתיבה אם תתבקשו
 1. תלחצו על (Start) כדי לאתחל את המכשיר

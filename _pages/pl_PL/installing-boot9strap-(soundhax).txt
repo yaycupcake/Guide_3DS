@@ -16,7 +16,7 @@ Aby wyodrębnić pliki `.7z` załączone na tej stronie, będziesz potrzebować 
 
 Zapamiętaj że aktualizacje z kartridżów dostarczą aktualizacje tylko do głównych funkcji, takich jak Ustawienia Systemowe, Menu Główne, itd. aktualizacje z kartridżów nie dostarczą aktualizacji do Nintendo 3DS Sound i funkcji sieciowych, takich jak Transfer Systemu, Przeglądarka Internetowa, Streetpass Mii Plaza, lub eShop.
 
-To oznacza że użycie aktualizacji z kartridża posiadając starszą wersje Nintendo 3DS Sound *(<3.0.0)* do wersji która dodała nowszą wersje Nintendo 3DS Sound zepsuje [Soundhax](homebrew-launcher-(soundhax))! Będziesz potrzebował [alternatywnej metody](homebrew-launcher-(alternatives)) wejścia do Homebrew Launcher!
+To oznacza że użycie aktualizacji z kartridża posiadając starszą wersje Nintendo 3DS Sound *(<3.0.0)* do wersji która dodała nowszą wersje Nintendo 3DS Sound zepsuje Soundhax! You will need an alternate method of entering the Homebrew Launcher such as [Installing boot9strap (Browser)](installing-boot9strap-(browser)) or [Installing boot9strap (MSET)](installing-boot9strap-(mset))!
 {% endcapture %}
 
 <div class="notice--warning">{{ notice-1 | markdownify }}</div>
@@ -26,9 +26,9 @@ To oznacza że użycie aktualizacji z kartridża posiadając starszą wersje Nin
 * Najnowszej wersji [Soundhax](http://soundhax.com/){:target="_blank"} *(dla twojego regionu, urządzenia i wersji systemu)*
 * Najnowszej wersji [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
 * Najnowszej wersji [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(standardowa instalacja; nie `devkit` czy plik `ntr`)*
-* Najnowszej wersji [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(pliku`.7z`)*
+* The latest release of [Luma3DS]({{ "/assets/files/Luma3DSv89CC6ED.7z" | absolute_url }}) *(the `.7z` file)*
 * Najnowszej wersji [Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest)
-* Najnowszej wersji [pre9otherapp](https://github.com/Pirater12/otherapp/releases/latest)
+* The latest release of [pre9otherapp](https://github.com/Pirater12/otherapp/releases/latest) *(the `.bin` file corresponding to your firmware version)*
 
 ### Instrukcje
 

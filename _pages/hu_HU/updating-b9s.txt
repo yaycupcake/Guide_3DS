@@ -31,9 +31,7 @@ Kaptunk visszajelzéseket kitiltási hullámokról, melyeket a Nintendo a CFW-t 
 * The latest release of [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
 * The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(standard boot9strap; not the `devkit` file, not the `ntr` file)*
 * The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
-* The latest release of [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(the `.7z` file)*
-* [setup_ctrnand_luma3ds.gm9]({{ "/gm9_scripts/setup_ctrnand_luma3ds.gm9" | absolute_url }}){:download}
-* [cleanup_sd_card.gm9]({{ "/gm9_scripts/cleanup_sd_card.gm9" | absolute_url }}){:download}
+* The latest release of [Luma3DS]({{ "/assets/files/Luma3DSv89CC6ED.7z" | absolute_url }}) *(the `.7z` file)*
 
 ### Utasítások
 
@@ -48,8 +46,6 @@ A most következő lépésekben mindig írd felül az SD kártyán található f
 1. Másold át a `SafeB9SInstaller.firm` fájlt a SafeB9SInstaller `.zip`-ből az SD kártyád `/luma/payloads/` mappájába
 1. Másold át a `GodMode9.firm` fájlt a GodMode9 `.zip`-ből az SD kártyád `/luma/payloads/` mappájába
 1. Másold át a `gm9` mappát a GodMode9 `.zip`-ből az SD kártyád gyökerébe
-1. Másold át a `setup_ctrnand_luma3ds.gm9` fájlt az SD kártyán található `/gm9/scripts/` mappába
-1. Másold a `cleanup_sd_card.gm9` fájlt az SD kártyád `/gm9/scripts/` mappájába
 1. Tedd vissza az SD kártyád a készülékedbe
 
 #### Második rész - boot9strap telepítése
@@ -78,31 +74,30 @@ Ez a szakasz csak akkor kell, ha előjön a Luma3DS konfigurációs menü újrai
   + **"Show NAND or user string in System Settings"**
 1. Mentéshez és újraindításhoz nyomd meg a (Start) gombot
 
-#### Ötödik rész - Luma3DS telepítése CTRNAND-ba
+#### Hatodik rész - Luma3DS telepítése CTRNAND-ba
 
-1. Indítsd újra a készülékedet, miközben lenyomva tartod a (Start) gombot a GodMode9 elindításához
+1. Kapcsold ki a készüléked
+1. Indítsd el a GodMode9-et a (Start) lenyomva tartásával boot közben
 1. Ha rákérdez arra, hogy csináljon-e egy biztonsági másolatot (essential files backup), akkor nyomd meg az (A) gombot, hogy csináljon, majd amikor végzett, nyomd meg ismét az (A) gombot a folytatáshoz
 1. Ha rákérdez arra, hogy szeretnéd-e a valós dátumot és időt javítani (fix the RTC date&time), nyomd meg az (A) gombot, állítsd be a helyes dátumot és időt, majd nyomd meg az (A) gombot a folytatáshoz
-  + Ne feledd, hogy amennyiben ezen a ponton szükséges volt a helyes dátum és idő beállítása, a System Settingsben is be kell majd állítanod a helyes időt az útmutató végén
 1. Nyomd meg a (Home) gombot, hogy megjelenjen a műveleti menü
 1. Válaszd a "Scripts..." opciót
-1. Majd válaszd a "setup_ctrnand_luma3ds" opciót
+1. Select "GM9Megascript"
+1. Select "Scripts from Plailect's Guide"
+1. Select "Setup Luma3DS to CTRNAND"
 1. Amikor kéri, nyomd meg az (A) gombot a folytatáshoz
-1. Nyomd meg az (A) gombot, hogy feloldd a SysNAND (lvl1) írást, majd sorban nyomd meg a kijelzett gombokat
+1. Nyomd meg az (A) gombot, hogy feloldd a SysNAND (lvl2) írást, majd sorban nyomd meg a kijelzett gombokat
 1. Nyomd meg az (A) gombot a folytatáshoz
+
+#### Section VII - Cleanup SD Card
+
+1. Select "Cleanup SD Card"
+1. Amikor kéri, nyomd meg az (A) gombot a folytatáshoz
+1. Nyomd meg az (A) gombot a folytatáshoz
+1. Nyomd meg a (B) gombot, hogy visszamenj a főmenübe
+1. Select "Exit"
 1. Nyomd meg az (A) gombot az írási engedélyek visszavonásához
-
-#### Hatodik rész - Takarítás az SD kártyán
-
-Vedd figyelembe, hogy ez a szkript törölni fogja a `/boot9strap/` és a `/cias/` mappákat az SD kártyádról!
-{: .notice--danger}
-
-1. Nyomd meg a (Home) gombot, hogy megjelenjen a műveleti menü
-1. Válaszd a "Scripts..." opciót
-1. Válaszd a "cleanup_sd_card" opciót
-1. Amikor kéri, nyomd meg az (A) gombot a folytatáshoz
-1. Nyomd meg az (A) gombot a folytatáshoz
-1. Az (R) lenyomva tartása közben nyomd meg a (Start) gombot a készüléked kikapcsolásához
+1. Nyomd meg a (Start) gombot az eszköz újraindításához
 
 ___
 

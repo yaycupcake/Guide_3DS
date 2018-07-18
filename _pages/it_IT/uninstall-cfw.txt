@@ -20,9 +20,6 @@ Tieni presente che se hai altri file payload oltre a `GodMode9.firm` nella carte
 ### Cosa serve
 
 * L'ultima versione di [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
-* Lo script di disinstallazione corrispondente alla tua console:
-  + [uninstall_hax_retail_NEW.gm9]({{ "/gm9_scripts/uninstall_hax_retail_NEW.gm9" | absolute_url }}){:download}
-  + [uninstall_hax_retail_OLD.gm9]({{ "/gm9_scripts/uninstall_hax_retail_OLD.gm9" | absolute_url }}){:download}
 
 ### Istruzioni
 
@@ -32,7 +29,6 @@ Tieni presente che se hai altri file payload oltre a `GodMode9.firm` nella carte
 1. Inserisci la scheda SD nel tuo computer
 1. Copia il file `GodMode9.firm` dall'archivio `.zip` di GodMode9 dentro la cartella `/luma/payloads/` della tua scheda SD
 1. Copia la cartella `gm9` presente nell'archivio `.zip` di GodMode9 nella directory principale della tua scheda SD
-1. Copia lo script di disinstallazione corrispondente alla tua console nella cartella `/gm9/scripts/` della tua scheda SD
 1. Reinserisci la scheda SD nella tua console
 1. Accendi la console
 
@@ -44,11 +40,15 @@ Tieni presente che se hai altri file payload oltre a `GodMode9.firm` nella carte
   + Tieni presente che in tal caso dovrai anche reimpostare data ed ora anche nelle Impostazioni della Console al termine della guida
 1. Premi il pulsante HOME per far apparire il menu delle azioni
 1. Seleziona "Scripts..."
-1. Seleziona lo script di disinstallazione
+1. Select "GM9Megascript"
+1. Select "Hax Options"
+1. Select "Un-install Hax"
 1. Quando richiesto, premi (A) per procedere
 1. Premi il pulsante (A) per sbloccare i permessi di scrittura di terzo livello su SysNAND, quindi inserisci la combinazione di tasti richiesta a schermo
 1. Premi il pulsante (A) per continuare
-1. Premi (A) per ritirare le autorizzazioni di scrittura
+1. Premi (B) per ritornare al menu principale
+1. Select "Exit"
+1. Se richiesto, premi (A) per ritirare le autorizzazioni di scrittura
 1. Premi (Start) per riavviare la console
 
 ___

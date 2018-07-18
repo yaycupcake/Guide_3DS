@@ -20,9 +20,6 @@ This is almost never the solution to fix any issues you encounter with your CFW 
 ### What You Need
 
 * The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
-* הסקריפט הסרה המתאים בשביל הקונסולה שלכם:
-  + [uninstall_hax_retail_NEW.gm9]({{ "/gm9_scripts/uninstall_hax_retail_NEW.gm9" | absolute_url }}){:download}
-  + [uninstall_hax_retail_OLD.gm9]({{ "/gm9_scripts/uninstall_hax_retail_OLD.gm9" | absolute_url }}){:download}
 
 ### הנחיות
 
@@ -32,7 +29,6 @@ This is almost never the solution to fix any issues you encounter with your CFW 
 1. תכניסו את ה-SD שלכם למחשב
 1. העתיקו את `GodMode9.firm` מהזיפ של GodMode9 אל תיקיית /luma/payloads/ ב- SD שלכם
 1. תעתיקו את התיקייה `gm9` מתוך ה`.zip` של GodMode9 ל-SD שלכם
-1. תעתיקו את הסקריפט המתאים לקונסולה שלכם לתיקיית `/gm9/scripts/` על הכרטיס זכרון
 1. תכניסו מחדש את כרטיס הSD שלכם לתוך המכשיר שלכם
 1. תפעילו את המכשיר
 
@@ -44,11 +40,15 @@ This is almost never the solution to fix any issues you encounter with your CFW 
   + שימו לב, אם הייתם צריכים לתקן את תאריך וזמן הRTC, תצטרכו לתקן את הזמן בהגדרות המערכת גם כן אחרי המדריך הזה
 1. תלחצו על (Home) כדי להראות את תפריט הפעולה
 1. תבחרו "Scripts..."
-1. תבחרו את הסקריפט של ההסרה
+1. Select "GM9Megascript"
+1. Select "Hax Options"
+1. Select "Un-install Hax"
 1. כשתתבקשו, תלחצו (A) כדי להמשיך
 1. לחצו (A) כדי לפתוח גישת כתיבת (lvl3) לSysNAND, ואז תלחצו על המקשים בסדר הנכון
 1. תלחצו (A) כדי להמשיך
-1. תלחצו (A) כדי לנעול הרשאות כתיבה
+1. תלחצו (B) כדי לחזור לתפריט הראשי
+1. Select "Exit"
+1. תלחצו (A) כדי לנעול הרשאות כתיבה אם תתבקשו
 1. תלחצו על (Start) כדי לאתחל את המכשיר
 
 ___

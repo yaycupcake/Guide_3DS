@@ -20,9 +20,6 @@ Zauważ, że jeżeli będziesz miał pliki inne niż `GodMode9.firm` w folderze 
 ### Czego Potrzebujesz
 
 * Najnowszej wersji [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
-* Skrypt odinstalowujący odpowiadający Twojemu urządzeniu:
-  + [uninstall_hax_retail_NEW.gm9]({{ "/gm9_scripts/uninstall_hax_retail_NEW.gm9" | absolute_url }}){:download}
-  + [uninstall_hax_retail_OLD.gm9]({{ "/gm9_scripts/uninstall_hax_retail_OLD.gm9" | absolute_url }}){:download}
 
 ### Instrukcje
 
@@ -32,7 +29,6 @@ Zauważ, że jeżeli będziesz miał pliki inne niż `GodMode9.firm` w folderze 
 1. Włóż kartę SD do komputera
 1. Skopiuj `GodMode9.firm` z GodMode9 `.zip` do folderu `/luma/payloads/` na karcie SD
 1. Skopiuj folder `gm9` z GodMode9 `.zip` do katalogu głównego twojej karty SD
-1. Skopiuj skrypt odinstalowujący odpowiadający urządzeniu do folderu `/gm9/scripts/` na karcie SD
 1. Włóż ponownie kartę SD do konsoli
 1. Włącz konsolę
 
@@ -44,11 +40,15 @@ Zauważ, że jeżeli będziesz miał pliki inne niż `GodMode9.firm` w folderze 
   + Pamiętaj, że, jeśli musiałeś ustawić datę i czas RTC, będziesz musiał ustawić je w Ustawieniach Systemu po skończeniu tego poradniku
 1. Wciśnij (Home), aby przywołać menu akcji
 1. Wybierz "Scripts..."
-1. Wybierz skrypt odinstalowujący
+1. Select "GM9Megascript"
+1. Select "Hax Options"
+1. Select "Un-install Hax"
 1. Gdy zostaniesz poproszony, naciśnij (A) by kontynuować
 1. Wciśnij (A), aby odblokować zapis do SysNAND (lvl3), a następnie wprowadź przedstawioną kombinację przycisków
 1. Naciśnij (A), aby kontynuować
-1. Naciśnij (A) aby ponownie zablokować uprawnienia do zapisu
+1. Wciśnij (B) aby wrócić do menu głównego
+1. Select "Exit"
+1. Naciśnij (A), aby ponownie zablokować uprawnienia do zapisu, jeśli zostaniesz o to poproszony
 1. Wciśnij (Start), aby zrestartować konsolę
 
 ___

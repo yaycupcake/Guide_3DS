@@ -18,7 +18,7 @@ Pentru a extrage fişierele `.7z` de pe această pagină, veţi avea nevoie de u
 
 Țineți cont că actualizările cu cardul vor aduce actualizări numai funcțiilor de bază, cum ar fi System Settings, Meniul HOME, etc. actualizările cu cardul de joc nu vor aduce actualizări la Nintendo 3DS Sound și serviciilor de rețea, cum ar fi System Transfer, Internet Browser, StreetPass Mii Plaza, sau eShop.
 
-This means that using a cartridge update from a version containing an older Nintendo 3DS Sound version *(<3.0.0)* to one that introduced a newer Nintendo 3DS Sound version will break Soundhax! You will need an [alternate method](homebrew-launcher-(alternatives)) of installing boot9strap!
+This means that using a cartridge update from a version containing an older Nintendo 3DS Sound version *(<3.0.0)* to one that introduced a newer Nintendo 3DS Sound version will break Soundhax! Veţi avea nevoie de o [metodă alternativă](homebrew-launcher-(alternatives)) pentru a intra în Homebrew Launcher!
 {% endcapture %}
 
 <div class="notice--warning">{{ notice-1 | markdownify }}</div>

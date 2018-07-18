@@ -20,9 +20,6 @@ Vedd figyelembe, hogy amennyiben van más payload fájl a `GodMode9.firm` fájlo
 ### Amire szükséged lesz
 
 * The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
-* A készülékedhez tartozó eltávolító szkript:
-  + [uninstall_hax_retail_NEW.gm9]({{ "/gm9_scripts/uninstall_hax_retail_NEW.gm9" | absolute_url }}){:download}
-  + [uninstall_hax_retail_OLD.gm9]({{ "/gm9_scripts/uninstall_hax_retail_OLD.gm9" | absolute_url }}){:download}
 
 ### Utasítások
 
@@ -32,7 +29,6 @@ Vedd figyelembe, hogy amennyiben van más payload fájl a `GodMode9.firm` fájlo
 1. Helyezd az SD kártyád a számítógépbe
 1. Másold át a `GodMode9.firm` fájlt a GodMode9 `.zip`-ből az SD kártyád `/luma/payloads/` mappájába
 1. Másold át a `gm9` mappát a GodMode9 `.zip`-ből az SD kártyád gyökerébe
-1. Másold a készülékednek megfelelő eltávolító szkriptet az SD kártyán található `/gm9/scripts/` mappába
 1. Tedd vissza az SD kártyád a készülékedbe
 1. Kapcsold be a készülékedet
 
@@ -44,10 +40,14 @@ Vedd figyelembe, hogy amennyiben van más payload fájl a `GodMode9.firm` fájlo
   + Ne feledd, hogy amennyiben ezen a ponton szükséges volt a helyes dátum és idő beállítása, a System Settingsben is be kell majd állítanod a helyes időt az útmutató végén
 1. Nyomd meg a (Home) gombot, hogy megjelenjen a műveleti menü
 1. Válaszd a "Scripts..." opciót
-1. Válaszd ki az eltávolító szkriptet
+1. Select "GM9Megascript"
+1. Select "Hax Options"
+1. Select "Un-install Hax"
 1. Amikor kéri, nyomd meg az (A) gombot a folytatáshoz
 1. Nyomd meg az (A) gombot, hogy feloldd a SysNAND (lvl3) írást, majd sorban nyomd meg a kijelzett gombokat
 1. Nyomd meg az (A) gombot a folytatáshoz
+1. Nyomd meg a (B) gombot, hogy visszamenj a főmenübe
+1. Select "Exit"
 1. Nyomd meg az (A) gombot az írási engedélyek visszavonásához
 1. Nyomd meg a (Start) gombot az eszköz újraindításához
 

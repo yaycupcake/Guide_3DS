@@ -23,14 +23,12 @@ title: "סיום התהליך"
 
 * The latest release of [Anemone3DS](https://github.com/astronautlevel2/Anemone3DS/releases/latest) *(the `.cia` file)*
 * The latest release of [Checkpoint](https://github.com/BernardoGiordano/Checkpoint/releases/latest) *(the `.cia` file)*
-* The latest release of [hblauncher_loader](https://github.com/yellows8/hblauncher_loader/releases/latest)
+* The latest release of [Homebrew Launcher Wrapper](https://github.com/mariohackandglitch/homebrew_launcher_dummy/releases/latest)
 * The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 * The latest release of [DSP1](https://github.com/zoogie/DSP1/releases/latest)
 * The latest release of [FBI](https://github.com/Steveice10/FBI/releases/latest) *(the `.cia` and `.3dsx` files)*
 * The latest release of [ctr-no-timeoffset](https://github.com/ihaveamac/ctr-no-timeoffset/releases/latest)
 * The latest release of [Luma3DS Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest) *(the `.cia` file)*
-* [setup_ctrnand_luma3ds.gm9]({{ "/gm9_scripts/setup_ctrnand_luma3ds.gm9" | absolute_url }}){:download}
-* [cleanup_sd_card.gm9]({{ "/gm9_scripts/cleanup_sd_card.gm9" | absolute_url }}){:download}
 
 ### הנחיות
 
@@ -42,21 +40,15 @@ title: "סיום התהליך"
 1. צרו תיקייה בשם `cias` בתיקיית האם של כרטיס ה- SD שלכם אם לא קיימת תיקייה כזו
 1. Copy `ctr-no-timeoffset.3dsx` to the `/3ds/` folder on your SD card
 1. תעתיקו את 'FBI.3dsx' לתיקיה '/ 3ds /' על כרטיס הזכרון
-1. תעתיקו את `hblauncher_loader.cia`מתוך הזיפ של hblauncher_loader לתוך התיקייה `/cias/` שב-SD שלכם
+1. Copy `Homebrew_Launcher.cia` to the `/cias/` folder on your SD card
 1. תעתיקו את הקובץ `lumaupdater.cia` לתוך התיקייה `/cias/` שב-SD שלכם
 1. תעתיקו את הקובץ `FBI.cia` לתוך התיקייה `/cias/` שב-SD שלכם
 1. תעתיקו את הקובץ `DSP1.cia` לתוך התיקייה `/cias/` שב-SD שלכם
 1. תעתיקו את הקובץ `Anemone3DS.cia` לתוך התיקייה `/cias/` שב-SD שלכם
 1. תעתיקו את הקובץ `Checkpoint.cia` לתוך התיקייה `/cias/` שב-SD שלכם
-
-    ![]({{ "/images/screenshots/cias-file-layout.png" | absolute_url }})
-    {: .notice--info}
-
 1. צרו תיקייה בשם `payloads` בתיקיית `luma` של כרטיס ה- SD שלכם אם לא קיימת תיקייה כזו
 1. העתיקו את `GodMode9.firm` מהזיפ של GodMode9 אל תיקיית /luma/payloads/ ב- SD שלכם
 1. תעתיקו את התיקייה `gm9` מתוך ה`.zip` של GodMode9 ל-SD שלכם
-1. תעתיקו את `setup_ctrnand_luma3ds.gm9` אל תיקיית`/gm9/scripts/` על כרטיס הSD שלכם
-1. תעתיקו את `cleanup_sd_card.gm9` אל תיקיית`/gm9/scripts/` על כרטיס הSD שלכם
 
     ![]({{ "/images/screenshots/finalizing-setup-file-layout.png" | absolute_url }})
     {: .notice--info}
@@ -118,21 +110,31 @@ If, while following a previous version of this guide, you CTRTransfered your *Ne
 1. אם אתם מתבקשים לתקן את זמן ותאריך הRTC, תלחצו (A) כדי לעשות זאת, ואז תלחצו (A) כדי להמשיך
 1. תלחצו על (Home) כדי להראות את תפריט הפעולה
 1. תבחרו "Scripts..."
-1. תבחרו ב "setup_ctrnand_luma3ds"
+1. Select "GM9Megascript"
+1. Select "Scripts from Plailect's Guide"
+1. Select "Setup Luma3DS to CTRNAND"
 1. כשתתבקשו, תלחצו (A) כדי להמשיך
-1. לחצו (A) כדי לפתוח גישת כתיבת lvl1 לSysNAND, ואז תלחצו על המקשים בסדר הנכון
+1. לחצו (A) כדי לפתוח גישת כתיבת (lvl2) לSysNAND, ואז תלחצו על המקשים בסדר הנכון
 1. תלחצו (A) כדי להמשיך
-1. תלחצו (A) כדי לנעול הרשאות כתיבה
 
-#### Section VII - Backup Essential Files
+#### Section VII - Cleanup SD Card
 
-1. תלחצו על (Home) כדי להראות את תפריט הפעולה
-1. תבחרו "Scripts..."
-1. תבחרו ב "Backup SysNAND"
+1. Select "Cleanup SD Card"
+1. כשתתבקשו, תלחצו (A) כדי להמשיך
+1. תלחצו (A) כדי להמשיך
+1. תלחצו (B) כדי לחזור לתפריט הראשי
+
+#### Section VIII - Backup Essential Files
+
+1. Select "Backup Options"
+1. Select "SysNAND Backup"
 1. תלחצו (A) כדי לאשר
   + זה ייקח קצת זמן
-  + If you get an error, make sure that you have at least 1.2GB to 1.3GB of free space on your SD card
+  + If you get an error, make sure that you have at least 1.3GB of free space on your SD card
 1. תלחצו (A) כדי להמשיך
+1. תלחצו (B) כדי לחזור לתפריט הראשי
+1. Select "Exit"
+1. תלחצו (A) כדי לנעול הרשאות כתיבה אם תתבקשו
 1. תחזיקו (R) ולחצו (B) באותו הזמן כדי להוציא את הSD
 1. תכניסו את ה-SD שלכם למחשב
 1. Copy `<date>_<serialnumber>_sysnand_###.bin` and `essential.exefs` from the `/gm9/out/` folder on your SD card to a safe location on your computer
@@ -140,16 +142,7 @@ If, while following a previous version of this guide, you CTRTransfered your *Ne
   + These backups will save you from a brick and/or help you recover files from the NAND image if anything goes wrong in the future
 1. Delete `<date>_<serialnumber>_sysnand_###.bin` and `<date>_<serialnumber>_sysnand_###.bin.sha` from the `/gm9/out/` folder on your SD card after copying it
 1. תכניסו מחדש את כרטיס הSD שלכם לתוך המכשיר שלכם
-  + If your SD card was not detected, hold (R) and press (B) at the same time to remount it
-
-#### חלק VIII - ניקוי ה SD
-
-1. תלחצו על (Home) כדי להראות את תפריט הפעולה
-1. תבחרו "Scripts..."
-1. תבחרו ב"cleanup_sd_card"
-1. כשתתבקשו, תלחצו (A) כדי להמשיך
-1. תלחצו (A) כדי להמשיך
-1. לחצו על (Start) על מנת להפעיל מחדש
+1. תלחצו על (Start) כדי לאתחל את המכשיר
 
 ___
 

@@ -16,7 +16,7 @@ Soundhax (與 pre9otherapp 使用時) 可與韌體版本 4.0.0 至 8.1.0 的歐�
 
 請注意，卡帶更新只會更新系統的核心組件，像是系統設定、HOME 主選單等。 卡帶更新不會更新『任天堂 3DS 音樂 (Nintendo 3DS Sound)』程式或是線上下載的功能，如軟體和資料轉移、網頁瀏覽器、擦身通信 Mii 廣場、或是電子商店 (eShop)。
 
-這也就是說，如果本身系統版本有安裝較舊版的『任天堂 DS 音樂 (Nintendo 3DS Sound)』程式 *(低於 <3.0.0 之版本)* 且透過含有較新版本音樂撥放器的卡帶進行更新，[Soundhax](homebrew-launcher-(soundhax)) 漏洞將無法正常執行！ 您將會需要透過[另一個方法](installing-boot9strap-(mset))才能使用 Homebrew Launcher。
+這也就是說，如果本身系統版本有安裝較舊版的『任天堂 DS 音樂 (Nintendo 3DS Sound)』程式 *(低於 <3.0.0 之版本)* 且透過含有較新版本音樂撥放器的卡帶進行更新，Soundhax 漏洞將無法正常執行！ 您將會需要透過另一種方式進入 Homebrew Launcher，比如透過[安裝 boot9strap (透過網頁瀏覽器)](installing-boot9strap-(browser)) 或 [安裝 boot9strap (透過 MSET)](installing-boot9strap-(mset))！
 {% endcapture %}
 
 <div class="notice--warning">{{ notice-1 | markdownify }}</div>
@@ -26,9 +26,9 @@ Soundhax (與 pre9otherapp 使用時) 可與韌體版本 4.0.0 至 8.1.0 的歐�
 * 最新版的 [Soundhax](http://soundhax.com/) *(對應您主機的區域、型號、及版本的檔案)*
 * 最新版的 [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
 * 最新版的 [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(正常版的 boot9strap；非 `devkit` 或 `ntr` 檔案)*
-* 最新版的 [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(`.7z` 檔案)*
+* The latest release of [Luma3DS]({{ "/assets/files/Luma3DSv89CC6ED.7z" | absolute_url }}) *(the `.7z` file)*
 * 最新版的 [Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest)
-* 最新版的 [pre9otherapp](https://github.com/Pirater12/otherapp/releases/latest)
+* The latest release of [pre9otherapp](https://github.com/Pirater12/otherapp/releases/latest) *(the `.bin` file corresponding to your firmware version)*
 
 ### 操作說明
 

@@ -21,7 +21,7 @@ To extract the `.7z` files linked on this page, you will need a file archiver li
 
 + שתי קונסולות ממשפחת ה3DS
   +**קונסולת המקור**: הקונסולה שמריצה boot9strap *על הגרסה האחרונה*
-  + **The target 3DS**: the device on stock firmware *on 11.7.0*
+  + **The target 3DS**: the device on stock firmware *on 11.8.0*
 * אחד ממשחקי הDSiWare הפריצים הבאים (עותק פיראטי של המשחק **לא** יעבוד) על **קונסולת המקור**
   + **Fieldrunners**
   + **Legends of Exidia**
@@ -29,13 +29,9 @@ To extract the `.7z` files linked on this page, you will need a file archiver li
   + **The Legend of Zelda: Four Swords**  
 * הגרסה העדכנית של [3ds_dsiwarehax_installer](https://github.com/yellows8/3ds_dsiwarehax_installer/releases)
 * The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
-* The latest release of [b9sTool](https://github.com/Plailect/b9sTool/releases/latest)
-* The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(standard boot9strap; not the `devkit` file, not the `ntr` file)*
-* The latest release of [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(the `.7z` file)*
+* The latest release of [b9sTool](https://github.com/zoogie/b9sTool/releases/latest)
+* The latest release of [Luma3DS]({{ "/assets/files/Luma3DSv89CC6ED.7z" | absolute_url }}) *(the `.7z` file)*
 * The latest release of [the Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest)
-* The 11.4.0 / 11.5.0 / 11.6.0 / 11.7.0 (these versions all have the same FIRM version) `.firm` corresponding to **the target 3DS** (either "OLD" for Old 3DS, or "NEW" for New 3DS):
-  + <i class="fa fa-magnet" aria-hidden="true" title="זה לינק מגנטי. Use a torrent client to download the file."></i> - [2.54-0_11.4_OLD.firm](magnet:?xt=urn:btih:0dd89d42ad711f770da899af05ee162ede0d0070&dn=2.54-0_11.4_OLD.firm&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce)
-  + <i class="fa fa-magnet" aria-hidden="true" title="זה לינק מגנטי. Use a torrent client to download the file."></i> - [2.54-0_11.4_NEW.firm](magnet:?xt=urn:btih:3b59dd43eec3edb133555f58d1180bfb196acbb4&dn=2.54-0_11.4_NEW.firm&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce)
 
 ### הנחיות
 
@@ -60,10 +56,16 @@ Use a [save manager](https://github.com/BernardoGiordano/Checkpoint/releases/lat
 1. תפעילו **את ה3DS הפרוץ** תוך לחיצה על (Start) על מנת להפעיל את GodMode9
 1. תלחצו על (Home) כדי להראות את תפריט הפעולה
 1. תבחרו "Scripts..."
-1. תבחרו ב "Backup SysNAND"
+1. Select "GM9Megascript"
+1. Select "Backup Options"
+1. Select "SysNAND Backup"
 1. תלחצו (A) כדי לאשר
   + זה ייקח קצת זמן
+  + If you get an error, make sure that you have at least 1.3GB of free space on your SD card
 1. תלחצו (A) כדי להמשיך
+1. תלחצו (B) כדי לחזור לתפריט הראשי
+1. Select "Exit"
+1. תלחצו (A) כדי לנעול הרשאות כתיבה אם תתבקשו
 1. תחזיקו (R) ולחצו (B) באותו הזמן כדי להוציא את הSD של **קונסולת המקור**
 1. שימו את כרטיס הSD של **קונסולת המקור** במחשב שלכם
 1. שימו את כרטיס הSD של **קונסולת היעד** במחשב שלכם
@@ -145,31 +147,11 @@ Use a [save manager](https://github.com/BernardoGiordano/Checkpoint/releases/lat
 1. תלחצו (A) כדי לנעול הרשאות כתיבה אם תתבקשו
 1. תלחצו (Start) כדי לאתחל את **קונסולת המקור**
 
-#### חלק V - גיבוי הFIRM של קונסולת היעד
+#### Section V - Flashing the target 3DS's FIRM
 
 1. תעתיקו את הקובץ `boot.firm` מתוך ה`.7z` של Luma3DS לתוך ה-SD שלכם
 1. תעתיקו את `boot.nds` (שזה B9STool) לשורש הSD של **קונסולת היעד**
 1. Copy `boot.3dsx` to the root of **the target 3DS**'s SD card
-1. תיצרו תיקייה בשם `boot9strap` על שורש כרטיס הSD של **קונסולת היעד**
-1. Copy the 11.4.0 / 11.5.0 / 11.6.0 / 11.7.0 `.firm` corresponding to **the target 3DS** to the `boot9strap` folder on the root of **the target 3DS**'s SD card
-1. תעתיקו את`boot9strap.firm` מה `.zip` של boot9strap אל תיקיית `/boot9strap/`על כרטיס הSD שלכם
-1. תפעילו את משחק הDSiWare שלכם על **קונסולת היעד**
-1. תפעילו את b9sTool בעזרת משחק הDSiWare שלכם
-  + **Fieldrunners**: תלחצו על כפתור ה'Scores' בתפריט הראשי
-  + **Legends of Exidia**: אחרי שלחצתם (A) או (Start) בשני מסכי הכותרת, תבחרו בשמירה הראשונה ותלחצו continue
-  + **Guitar Rock Tour**: תגללו למטה ולכו אל High-Scores -> Drums -> Easy
-  + **The Legend of Zelda: Four Swords**: פשוט תפעילו את המשחק
-1. תבחרו ב "Dump F0F1" כדי לגבות את הFIRM של **קונסולת היעד**
-1. תצאו מb9sTool
-  + אולי תצטרכו לאלץ כיבוי על ידי החזקת כפתור ההפעלה
-1. תשימו את כרטיס הSD שלכם במחשב, ואז תעתיקו את `F0F1_NEW3DS.bin` או `F0F1_OLD3DS.bin` (תלוי במכשיר) מתיקיית `boot9strap` למקום בטוח; תעשו גיבויים בכמה מקומות; זה ישמור עליכם מבריק אם משהו לא הולך כראוי
-1. תכניסו מחדש את כרטיס הSD שלכם אל **קונסולת היעד**
-
-#### חלק VI - התקנת הFIRM הפרוץ על קונסולת היעד
-
-**אל תשתמשו בb9sTool על קונסולה שיש לה כבר את arm9loaderhax מותקן או שתקבלו בריק!**
-{: .notice--danger}
-
 1. תפעילו את משחק הDSiWare שלכם על **קונסולת היעד**
 1. תפעילו את b9sTool בעזרת משחק הDSiWare שלכם
   + **Fieldrunners**: תלחצו על כפתור ה'Scores' בתפריט הראשי
@@ -180,8 +162,13 @@ Use a [save manager](https://github.com/BernardoGiordano/Checkpoint/releases/lat
 1. תצאו מb9sTool, ואז תכבו את הקונסולה
   + אולי תצטרכו לאלץ כיבוי על ידי החזקת כפתור ההפעלה
 1. תפעילו את **קונסולת היעד**
+1. Put your SD card in your computer, then copy `BACKUP.bin` from the `boot9strap` folder to a safe location on your computer
+  + תיצרו גיבויים במקומות שונים (כמו אחסון בענן)
+  + הגיבוי הזה ישמור עליכם מבריק אם משהו ישתבש בעתיד
+1. תכניסו מחדש את כרטיס הSD שלכם אל **קונסולת היעד**
+1. תפעילו את **קונסולת היעד**
 
-#### חלק VII - הגדרת Luma3DS
+#### Section VI - Configuring Luma3DS
 
 1. הקןנסולה שלכם צריכה לאתחל לתפריט ההגדרות של Luma3DS
   + אם אתם מקבלים מסך שחור, [תעקבו אחרי המדריך הזה](troubleshooting#black-screen-on-sysnand-boot-after-installing-boot9strap)

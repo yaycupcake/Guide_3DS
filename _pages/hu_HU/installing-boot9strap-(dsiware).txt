@@ -6,7 +6,7 @@ title: "boot9strap telepítése (DSiWare)"
 
 ### Fontos tudnivalók
 
-There are three different methods of installing boot9strap using DSiWare on 11.7.0.
+There are three different methods of installing boot9strap using DSiWare on 11.8.0.
 
 Az első módszerhez, a Seedminerhez szükséged lesz egy erős grafikus kártyával rendelkező PC-re. A Seedminerhez tartozik egy online segédszolgáltatás, amennyiben nem rendelkezel ilyen PC-vel. A másik két módszerhez szükséged lesz egy már hackelt 3DS-ről történő system transferre.
 

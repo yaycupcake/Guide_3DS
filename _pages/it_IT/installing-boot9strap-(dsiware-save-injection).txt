@@ -21,7 +21,7 @@ Se non usi il file `.firm` corrispondente al 3DS di destinazione, BRICKERAI la c
 
 * Due console 3DS
   + **Il 3DS di partenza**: la console con boot9strap aggiornato *all’ultima versione*
-  + **Il 3DS di destinazione**: la console con versione del software *11.7.0*
+  + **The target 3DS**: the device on stock firmware *on 11.8.0*
 * Possedere uno dei seguenti giochi DSIWare (una copia pirata del gioco **non** funzionerà) sul **3DS di partenza**
   + **Fieldrunners**
   + **Legends of Exidia**
@@ -29,13 +29,9 @@ Se non usi il file `.firm` corrispondente al 3DS di destinazione, BRICKERAI la c
   + **The Legend of Zelda: Four Swords**  
 * L'ultima versione di [3ds_dsiwarehax_installer](https://github.com/yellows8/3ds_dsiwarehax_installer/releases)
 * L'ultima versione di [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
-* L'ultima versione di [b9sTool](https://github.com/Plailect/b9sTool/releases/latest)
-* L'ultima versione di [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(la versione normale di boot9strap; non il file `devkit`, né il file `ntr`)*
-* L'ultima versione di [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(il file `.7z`)*
+* The latest release of [b9sTool](https://github.com/zoogie/b9sTool/releases/latest)
+* The latest release of [Luma3DS]({{ "/assets/files/Luma3DSv89CC6ED.7z" | absolute_url }}) *(the `.7z` file)*
 * L'ultima versione di [Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest)
-* Il file `.firm` per versione del software 11.4.0 / 11.5.0 / 11.6.0 / 11.7.0 (hanno tutte la stessa versione del file FIRM) corrispondente al **3DS di destinazione** ("OLD" per Old 3DS o "NEW" per New 3DS):
-  + <i class="fa fa-magnet" aria-hidden="true" title="Questo è un link magnet. Per scaricare il file devi utilizzare un client torrent."></i> - [2.54-0_11.4_OLD.firm](magnet:?xt=urn:btih:0dd89d42ad711f770da899af05ee162ede0d0070&dn=2.54-0_11.4_OLD.firm&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce)
-  + <i class="fa fa-magnet" aria-hidden="true" title="Questo è un link magnet. Per scaricare il file devi utilizzare un client torrent."></i> - [2.54-0_11.4_NEW.firm](magnet:?xt=urn:btih:3b59dd43eec3edb133555f58d1180bfb196acbb4&dn=2.54-0_11.4_NEW.firm&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce)
 
 ### Istruzioni
 
@@ -60,10 +56,16 @@ Usa un [save manager](https://github.com/BernardoGiordano/Checkpoint/releases/la
 1. Avvia il **3DS di partenza** tenendo premuto (Start) per avviare GodMode9
 1. Premi il pulsante HOME per far apparire il menu delle azioni
 1. Seleziona "Scripts..."
-1. Seleziona "Backup SysNAND"
+1. Select "GM9Megascript"
+1. Select "Backup Options"
+1. Select "SysNAND Backup"
 1. Premi (A) per confermare
   + Questo processo durerà un po'
+  + If you get an error, make sure that you have at least 1.3GB of free space on your SD card
 1. Premi il pulsante (A) per continuare
+1. Premi (B) per ritornare al menu principale
+1. Select "Exit"
+1. Se richiesto, premi (A) per ritirare le autorizzazioni di scrittura
 1. Tenendo premuto (R), premi (B) per rimuovere la scheda SD del **3DS di partenza**
 1. Inserisci la scheda SD del **3DS di partenza** nel tuo computer
 1. Inserisci la scheda SD del **3DS di destinazione** nel tuo computer
@@ -145,31 +147,11 @@ Usa un [save manager](https://github.com/BernardoGiordano/Checkpoint/releases/la
 1. Se richiesto, premi (A) per ritirare le autorizzazioni di scrittura
 1. Premi (Start) per riavviare **il 3DS di partenza**
 
-#### Sezione V - Creare un backup del FIRM del 3DS di destinazione
+#### Section V - Flashing the target 3DS's FIRM
 
 1. Copia il file `boot.firm` dall'archivio `.7z` di Luma3DS nella directory principale della tua scheda SD
 1. Copia il file `boot.nds` (B9STool) nella directory principale della scheda SD del **3DS di destinazione**
 1. Copia il file `boot.3dsx` nella directory principale della scheda SD del **3DS di destinazione**
-1. Crea una cartella chiamata `boot9strap` nella directory principale della scheda SD del **3DS di destinazione**
-1. Copia il file `.firm` della versione del software 11.4.0 / 11.5.0 / 11.6.0 / 11.7.0 corrispondente al **3DS di destinazione** nella cartella `boot9strap` nella directory principale della scheda SD del **3DS di destinazione**
-1. Copia il file `boot9strap.firm` dall'archivio `.zip` di boot9strap nella cartella `/boot9strap/` della tua scheda SD
-1. Avvia il gioco DSiWare sul **3DS di destinazione**
-1. Avvia b9sTool tramite il gioco DSiWare
-  + **Fieldrunners**: Tocca il pulsante 'Scores' nel menu princiaple
-  + **Legends of Exidia**: Dopo aver premuto (A) o (Start) nelle due schermate del titolo, seleziona il primo salvataggio e premi "continue"
-  + **Guitar Rock Tour**: Scorri verso il basso e vai su High-Scores -> Drums -> Easy
-  + **The Legend of Zelda: Four Swords**: Avvia normalmente il gioco
-1. Seleziona "Dump F0F1" per salvare un backup del FIRM del **3DS di destinazione**
-1. Esci da b9sTool
-  + Potresti dover forzare lo spegnimento tenendo premuto il pulsante di accensione
-1. Inserisci la scheda SD nel computer, quindi copia il file `F0F1_NEW3DS.bin` o `F0F1_OLD3DS.bin` (a seconda della tua console) dalla cartella `boot9strap` in una posizione sicura; crea dei backup in più posti; questi backup ti salveranno da un brick nel caso dovesse accadere qualcosa
-1. Reinserisci la tua scheda SD nel **3DS di destinazione**
-
-#### Sezione VI - Flash del FIRM sul 3DS di destinazione
-
-**NON usare mai b9sTool su una console che ha già arm9loaderhax installato o la BRICKERAI!**
-{: .notice--danger}
-
 1. Avvia il gioco DSiWare sul **3DS di destinazione**
 1. Avvia b9sTool tramite il gioco DSiWare
   + **Fieldrunners**: Tocca il pulsante 'Scores' nel menu princiaple
@@ -180,8 +162,13 @@ Usa un [save manager](https://github.com/BernardoGiordano/Checkpoint/releases/la
 1. Esci da b9sTool, quindi spegni la tua console
   + Potresti dover forzare lo spegnimento tenendo premuto il pulsante di accensione
 1. Accendi il **3DS di destinazione**
+1. Put your SD card in your computer, then copy `BACKUP.bin` from the `boot9strap` folder to a safe location on your computer
+  + Crea dei backup in più posti (come ad esempio un servizio di storage dei file online)
+  + Questi backup ti salveranno da un brick nel caso dovesse accadere qualcosa in futuro
+1. Reinserisci la tua scheda SD nel **3DS di destinazione**
+1. Accendi il **3DS di destinazione**
 
-#### Sezione VII - Configurare Luma3DS
+#### Section VI - Configuring Luma3DS
 
 1. La tua console dovrebbe avviarsi all'interno del menu di configurazione di Luma3DS
   + Se ottieni uno schermo nero, [segui questa guida per risolvere il problema](troubleshooting#black-screen-on-sysnand-boot-after-installing-boot9strap)

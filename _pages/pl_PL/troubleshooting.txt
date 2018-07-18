@@ -10,6 +10,8 @@ Jeśli nie jesteś w stanie uruchomić urządzenia, wyszukaj odpowiednią sekcj�
 
 Jeśli nadal nie możesz rozwiązać swojego problemu i potrzebujesz szerszej pomocy, wklej zawartość wszystkich istotnych plików .log znajdujących się w katalogu głównym twojej karty SD do [Gist](https://gist.github.com/). Pytając o pomoc zamieść dokładny opis twojego problemu i kroki które już podjąłeś, aby go rozwiązać.
 
+Zauważ, że jeżeli będziesz miał pliki inne niż `GodMode9.firm` w folderze `/luma/payloads/` na karcie SD, przytrzymanie (Start), podczas uruchamiania spowoduje wyświetlenie "chainloader menu" w którym będziesz musiał użyć D-Pad'a oraz przycisku (A) aby wybrać "GodMode9" dla tego poradnika. 
+
 Aby użyć linków [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme) zamieszczonych na tej stronie, będziesz potrzebował klienta torrent takiego jak np. [Deluge](http://dev.deluge-torrent.org/wiki/Download).
 
 ## Tryb DSi / DS nie działa prawidłowo po ukończeniu poradnika
@@ -48,35 +50,22 @@ Aby użyć linków [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme) zam
 
 ## Usunięcie NNID bez formatowania urządzenia
 
-### Czego Potrzebujesz
-
-* [remove_nnid.gm9]({{ "/gm9_scripts/remove_nnid.gm9" | absolute_url }}){:download}
-
-### Instrukcje
-
-Zauważ, że jeżeli będziesz miał pliki inne niż `GodMode9.firm` w folderze `/luma/payloads/` na karcie SD, przytrzymanie (Start), podczas uruchamiania spowoduje wyświetlenie "chainloader menu" w którym będziesz musiał użyć D-Pad'a oraz przycisku (A) aby wybrać "GodMode9" dla tego poradnika. 
-{: .notice--info}
-
 1. Uruchom GodMode9 poprzez trzymanie przycisku (Start) podczas uruchamiania konsoli
-1. Przytrzymaj przycisk (R) i jednocześnie naciśnij przycisk (B), aby bezpiecznie wyjąć kartę SD
-1. Włóż kartę SD do komputera
-1. Skopiuj `remove_nnid.gm9` do folderu `/gm9/scripts/` na twojej karcie SD
-1. Włóż ponownie kartę SD do konsoli
 1. Wciśnij (Home), aby przywołać menu akcji
 1. Wybierz "Scripts..."
-1. Wybierz "remove_nnid"
-1. Gdy zostaniesz poproszony, naciśnij (A) by kontynuować
+1. Select "GM9Megascript"
+1. Select "Scripts from Plailect's Guide"
+1. Naciśnij (A), aby kontynuować
 1. Wciśnij (A), aby odblokować zapis do SysNAND (lvl1), a następnie wprowadź przedstawioną kombinację przycisków
 1. Naciśnij (A), aby kontynuować
-1. Naciśnij (A) aby ponownie zablokować uprawnienia do zapisu
+1. Wciśnij (B) aby wrócić do menu głównego
+1. Select "Exit"
+1. Naciśnij (A), aby ponownie zablokować uprawnienia do zapisu, jeśli zostaniesz o to poproszony
 1. Wciśnij (Start), aby zrestartować konsolę
 
 ## Nie można podmienić aplikacji Health & Safety na konsoli, która miała obniżoną wersję firmware przy użyciu flashcarta Gateway
 
 Przyczyną tego problemu jest kiepski sposób implementacji procesu obniżania wersji firmware przez Gateway, po którym zostają 2 wersje aplikacji Health & Safety w systemie. Jedna z nich nie jest używana, ale powoduje to zmylenie systemu podmieniania H&S powodując wprowadzenie złej wersji.
-
-Zauważ, że jeżeli będziesz miał pliki inne niż `GodMode9.firm` w folderze `/luma/payloads/` na karcie SD, przytrzymanie (Start), podczas uruchamiania spowoduje wyświetlenie "chainloader menu" w którym będziesz musiał użyć D-Pad'a oraz przycisku (A) aby wybrać "GodMode9" dla tego poradnika. 
-{: .notice--info}
 
 1. Uruchom GodMode9 poprzez trzymanie przycisku (Start) podczas uruchamiania konsoli
 1. Przejdź do `[1:] SYSNAND CTRNAND` -> `title` -> `00040010`
@@ -112,15 +101,6 @@ Exploity wykorzystujące luki w przeglądarce (takie jak browserhax albo 2xrsa) 
 
 ## Czarny ekran przy uruchamianiu SysNAND
 
-### Czego Potrzebujesz
-
-* [remove_extdata.gm9]({{ "/gm9_scripts/remove_extdata.gm9" | absolute_url }}){:download}
-
-### Instrukcje
-
-Zauważ, że jeżeli będziesz miał pliki inne niż `GodMode9.firm` w folderze `/luma/payloads/` na karcie SD, przytrzymanie (Start), podczas uruchamiania spowoduje wyświetlenie "chainloader menu" w którym będziesz musiał użyć D-Pad'a oraz przycisku (A) aby wybrać "GodMode9" dla tego poradnika. 
-{: .notice--info}
-
 1. Spróbuj uruchomić urządzenie z wyciągniętą kartą SD i włóż ją po jego uruchomieniu
     1. Wyłącz konsolę
     1. Wyjmij kartę SD z konsoli
@@ -131,11 +111,15 @@ Zauważ, że jeżeli będziesz miał pliki inne niż `GodMode9.firm` w folderze 
         1. Uruchom GodMode9 poprzez trzymanie przycisku (Start) podczas uruchamiania konsoli
         1. Wciśnij (Home), aby przywołać menu akcji
         1. Wybierz "Scripts..."
-        1. Wybierz "remove_extdata"
-        1. Gdy zostaniesz poproszony, naciśnij (A) by kontynuować
+        1. Select "GM9Megascript"
+        1. Select "Scripts from Plailect's Guide"
+        1. Select "Remove extdata"
+        1. Naciśnij (A), aby kontynuować
         1. Wciśnij (A), aby odblokować zapis do SysNAND (lvl1), a następnie wprowadź przedstawioną kombinację przycisków
         1. Naciśnij (A), aby kontynuować
-        1. Naciśnij (A) aby ponownie zablokować uprawnienia do zapisu
+        1. Wciśnij (B) aby wrócić do menu głównego
+        1. Select "Exit"
+        1. Naciśnij (A), aby ponownie zablokować uprawnienia do zapisu, jeśli zostaniesz o to poproszony
         1. Wciśnij (Start), aby zrestartować konsolę
 1. Spróbuj uruchomić konsolę bez żadnego kartridżu (dotyczy to również flashcartów)
 1. Jeśli masz hardmoda i kopię zapasową NAND, przywróć SysNAND przy jego użyciu
@@ -162,12 +146,6 @@ Zauważ, że jeżeli będziesz miał pliki inne niż `GodMode9.firm` w folderze 
 
 ## Czarny ekran przy uruchamianiu SysNAND po instalacji boot9strap
 
-### Czego Potrzebujesz
-
-* [remove_extdata.gm9]({{ "/gm9_scripts/remove_extdata.gm9" | absolute_url }}){:download}
-
-### Instrukcje
-
 1. Upewnij się, że posiadasz działający payload
     1. Sprawdź, czy w katalogu głównym twojej karty SD istnieje plik `boot.firm`.
 1. Spróbuj zresetować konfigurację Luma i ponownie włączyć odpowiednie opcje
@@ -175,16 +153,20 @@ Zauważ, że jeżeli będziesz miał pliki inne niż `GodMode9.firm` w folderze 
     1. Ponownie zaznacz odpowiednie opcji w menu konfiguracji Luma3DS, które pojawi się podczas uruchamiania konsoli
 1. Spróbuj uruchomić GodMode9
     1. Przytrzymaj przycisk (Start) podczas uruchamiania konsoli z zainstalowanym Luma3DS
-1. Wyczyść Home Menu extdata
+1. Try deleting home menu's extdata by following these instructions:
     1. Wyłącz konsolę
     1. Uruchom GodMode9 poprzez trzymanie przycisku (Start) podczas uruchamiania konsoli
     1. Wciśnij (Home), aby przywołać menu akcji
     1. Wybierz "Scripts..."
-    1. Wybierz "remove_extdata"
-    1. Gdy zostaniesz poproszony, naciśnij (A) by kontynuować
+    1. Select "GM9Megascript"
+    1. Select "Scripts from Plailect's Guide"
+    1. Select "Remove extdata"
+    1. Naciśnij (A), aby kontynuować
     1. Wciśnij (A), aby odblokować zapis do SysNAND (lvl1), a następnie wprowadź przedstawioną kombinację przycisków
     1. Naciśnij (A), aby kontynuować
-    1. Naciśnij (A) aby ponownie zablokować uprawnienia do zapisu
+    1. Wciśnij (B) aby wrócić do menu głównego
+    1. Select "Exit"
+    1. Naciśnij (A), aby ponownie zablokować uprawnienia do zapisu, jeśli zostaniesz o to poproszony
     1. Wciśnij (Start), aby zrestartować konsolę
 1. Spróbuj uruchomić konsolę bez żadnego kartridżu (dotyczy to również flashcartów)
 1. Jeśli wczesniej obniżyłeś wersję swojego firmware przy użyciu Gateway, upewnij się, że używasz najnowszej wersji Luma3DS

@@ -31,9 +31,7 @@ Były zgłaszane raporty fali banów dla użytkowników CFW od Nintendo. Aby sie
 * Najnowszej wersji [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
 * Najnowszej wersji [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(standardowa instalacja; nie `devkit` czy plik `ntr`)*
 * Najnowszej wersji [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
-* Najnowszej wersji [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(pliku`.7z`)*
-* [setup_ctrnand_luma3ds.gm9]({{ "/gm9_scripts/setup_ctrnand_luma3ds.gm9" | absolute_url }}){:download}
-* [cleanup_sd_card.gm9]({{ "/gm9_scripts/cleanup_sd_card.gm9" | absolute_url }}){:download}
+* The latest release of [Luma3DS]({{ "/assets/files/Luma3DSv89CC6ED.7z" | absolute_url }}) *(the `.7z` file)*
 
 ### Instrukcje
 
@@ -48,8 +46,6 @@ Wykonując wszystkie kroki opisane w tej sekcji, zastąp istniejące pliki na ka
 1. Skopiuj `SafeB9SInstaller.firm` z SafeB9SInstaller `.zip` do folderu `/luma/payloads/` na karcie SD
 1. Skopiuj `GodMode9.firm` z GodMode9 `.zip` do folderu `/luma/payloads/` na karcie SD
 1. Skopiuj folder `gm9` z GodMode9 `.zip` do katalogu głównego twojej karty SD
-1. Skopiuj `setup_ctrnand_luma3ds.gm9` do folderu `/gm9/scripts/` na karcie SD
-1. Skopiuj `cleanup_sd_card.gm9` do folderu `/gm9/scripts/` na twojej karcie SD
 1. Włóż ponownie kartę SD do konsoli
 
 #### Sekcja II - Instalacja boot9strap
@@ -78,31 +74,30 @@ Ta sekcja jest wymagana tylko, jeśli po restarcie zostanie wyświetlony monit z
   + **"Show NAND or user string in System Settings"**
 1. Naciśnij (Start) aby zapisać zmiany i uruchomić konsolę ponownie
 
-#### Sekcja V - CTRNAND Luma3DS
+#### Sekcja VI - CTRNAND Luma3DS
 
-1. Zrestartuj trzymając (Start) podczas włączania aby włączyć GodMode9
+1. Wyłącz konsolę
+1. Uruchom GodMode9 poprzez trzymanie przycisku (Start) podczas uruchamiania konsoli
 1. Jeśli zostaniesz poproszony o utworzenie kopii zapasowej niezbędnych plików, naciśnij (A) aby to zrobić, po czym naciśnij (A) aby kontynuować po zakończeniu
 1. Jeśli zostaniesz poproszony o ustawienie czasu RTC, naciśnij (A) aby to zrobić, następnie ustaw datę i czas, oraz naciśnij (A) aby kontynuować
-  + Pamiętaj, że, jeśli musiałeś ustawić datę i czas RTC, będziesz musiał ustawić je w Ustawieniach Systemu po skończeniu tego poradniku
 1. Wciśnij (Home), aby przywołać menu akcji
 1. Wybierz "Scripts..."
-1. Wybierz "setup_ctrnand_luma3ds"
+1. Select "GM9Megascript"
+1. Select "Scripts from Plailect's Guide"
+1. Select "Setup Luma3DS to CTRNAND"
 1. Gdy zostaniesz poproszony, naciśnij (A) by kontynuować
-1. Wciśnij (A), aby odblokować zapis do SysNAND (lvl1), a następnie wprowadź przedstawioną kombinację przycisków
+1. Wciśnij (A), aby odblokować zapis do SysNAND (lvl2), a następnie wprowadź przedstawioną kombinację przycisków
 1. Naciśnij (A), aby kontynuować
-1. Naciśnij (A) aby ponownie zablokować uprawnienia do zapisu
 
-#### Sekcja VI - Czyszczenie karty SD
+#### Section VII - Cleanup SD Card
 
-Zapamiętaj, że ten skrypt usunie foldery `/boot9strap/` i `/cias/`z twojej karty SD!
-{: .notice--danger}
-
-1. Wciśnij (Home), aby przywołać menu akcji
-1. Wybierz "Scripts..."
-1. Wybierz "cleanup_sd_card"
+1. Select "Cleanup SD Card"
 1. Gdy zostaniesz poproszony, naciśnij (A) by kontynuować
 1. Naciśnij (A), aby kontynuować
-1. Przytrzymaj (R) i wciśnij (Start) aby wyłączyć konsolę
+1. Wciśnij (B) aby wrócić do menu głównego
+1. Select "Exit"
+1. Naciśnij (A), aby ponownie zablokować uprawnienia do zapisu, jeśli zostaniesz o to poproszony
+1. Wciśnij (Start), aby zrestartować konsolę
 
 ___
 

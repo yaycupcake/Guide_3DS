@@ -19,7 +19,6 @@ Az alábbiak használatához már telepítened kellett a következőket: Luma3DS
 
 * The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 * The latest release of [FBI](https://github.com/Steveice10/FBI/releases/latest) *(the`.3dsx` file)*
-* [ctrtransfer_ticket_copy.gm9]({{ "/gm9_scripts/ctrtransfer_ticket_copy.gm9" | absolute_url }}){:download}
 * Az eszközödhöz és régiódhoz tartozó 11.5.0-s CTRTransfer képfájl     
 *(ha az eszközöd a felsoroltak közül egyik régióba sem tartozik, akkor válassz egyet, ami passzol az eszközöd típusához)*:    
   +    <i class="fa fa-magnet" aria-hidden="true" title="Ez egy mágneslink. A fájl letöltéséhez használj torrent klienst."></i> - [New 3DS vagy 2DS - 11.5.0 - EUR - CTRTransfer](magnet:?xt=urn:btih:465f1048f81e8e5c651ce2a4d9df48fec88d1099&dn=11.5.0-38E_ctrtransfer_n3ds.zip&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce)    
@@ -41,7 +40,6 @@ Az alábbiak használatához már telepítened kellett a következőket: Luma3DS
 1. Hozz létre egy `cias` nevű mappát az SD kártyád gyökerében, ha még nem létezik ilyen
 1. Másold át a `GodMode9.firm` fájlt a GodMode9 `.zip`-ből az SD kártyádon található `/luma/payloads/` mappába
 1. Másold át a `gm9` mappát a GodMode9 `.zip`-ből az SD kártyád gyökerébe
-1. Másold át a `ctrtransfer_ticket_copy.gm9` fájlt az SD kártyádon található `/gm9/scripts/` mappába
 1. Másold át a 11.5.0-s CTRTransfer `.bin` képfájlt a CTRTransfer `.zip`-ből az SD kártyádon található `/gm9/` mappába
 1. Másold az `FBI.3dsx` fájlt az SD kártyád `/3ds/` mappájába
 1. Tedd vissza az SD kártyád a készülékedbe
@@ -65,9 +63,13 @@ Az alábbiak használatához már telepítened kellett a következőket: Luma3DS
 1. Nyomd meg a (B) gombot kétszer, hogy visszamenj a főmenübe
 1. Nyomd meg a (Home) gombot, hogy megjelenjen a műveleti menü
 1. Válaszd a "Scripts..." opciót
-1. Válaszd a "ctrtransfer_ticket_copy" opciót
+1. Select "GM9Megascript"
+1. Select "Scripts from Plailect's Guide"
+1. Select "CTRTransfer Ticket Copy"
 1. Amikor kérdezi, nyomd meg az (A) gombot a folytatáshoz
 1. Nyomd meg az (A) gombot a folytatáshoz
+1. Nyomd meg a (B) gombot, hogy visszamenj a főmenübe
+1. Select "Exit"
 1. Nyomd meg az (A) gombot az írási engedélyek visszavonásához
 1. Nyomd meg a (Start) gombot az eszköz újraindításához
 1. Frissítsd az eszközödet a következőképp. Lépj be a System Settings-be, majd az "Other settings"-be, ahol addig lépkedj jobbra, amíg a végére nem érsz. Itt válaszd a "System Update" opciót.

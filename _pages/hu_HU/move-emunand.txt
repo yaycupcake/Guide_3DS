@@ -131,16 +131,22 @@ Egy `<TitleID>.gbavc.sav` fájl Title ID-jének azonosításához használhatod 
 
 1. Nyomd meg a (Home) gombot, hogy megjelenjen a műveleti menü
 1. Válaszd a "Scripts..." opciót
-1. Válaszd a "Backup SysNAND" opciót
+1. Select "GM9Megascript"
+1. Select "Backup Options"
+1. Select "SysNAND Backup"
 1. Nyomd meg az (A) gombot a megerősítéshez
   + Ez a folyamat igénybe vesz majd némi időt
+  + If you get an error, make sure that you have at least 1.3GB of free space on your SD card
 1. Nyomd meg az (A) gombot a folytatáshoz
+1. Nyomd meg a (B) gombot, hogy visszamenj a főmenübe
+1. Select "Exit"
+1. Nyomd meg az (A) gombot az írási engedélyek visszavonásához
 1. Az SD kártya leválasztásához az (R) gomb lenyomva tartása mellett nyomd meg a (B) gombot
 1. Helyezd az SD kártyád a számítógépbe
-1. Másold a `<dátum>_<sorozatszám>_sysnand_###.bin` fájlt az SD kártyád `/gm9/out/` mappájából valami biztonságos helyre a számítógépeden
+1. Másold a `<dátum>_<sorozatszám>_sysnand_###.bin` és az `essential.exefs` fájlokat az SD kártyád `/gm9/out/` mappájából valami biztonságos helyre a számítógépeden
   + Tarts belőle biztonsági másolatokat több különböző helyen is (például online tárhelyen)
-  + Ez a biztonsági másolat menthet meg egy esetleges brickeléstől, ha valami balul ütne ki a jövőben
-1. Töröld a `<dátum>_<sorozatszám>_sysnand_###.bin` fájlt az SD kártyád `/gm9/out/` mappájából miután lemásoltad
+  + Ezek a biztonsági mentések fognak megmenteni, ha a későbbiekben brickelődne a konzolod, vagy bármi félresikerülne a jövőben
+1. Töröld a `<dátum>_<sorozatszám>_sysnand_###.bin` és a `<dátum>_<sorozatszám>_sysnand_###.bin.sha` fájlokat az SD kártyád `/gm9/out/` mappájából, miután lemásoltad azokat
 1. **Készíts az SD kártyádon található fájlokról biztonsági másolatot a számítógépedre; a következő lépésekben minden fájl törlődni fog róla**
 
 #### Nyolcadik rész - SD kártya formázása

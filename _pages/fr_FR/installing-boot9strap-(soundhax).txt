@@ -16,7 +16,7 @@ Pour extraire les fichiers `.7z` sur cette page, vous aurez besoin d'un programm
 
 Les mises à jour par cartouche vont mettre uniquement à jour les fonctionnalités principales telles que les Paramètres Systèmes, le Menu Home, etc. les mises à jour par cartouche ne vont pas mettre à jour le Studio Son Nintendo 3DS et les fonctionnalités Internet comme le Transfert Système, le Navigateur Internet, la Place Mii Streetpass ou le Nintendo eShop.
 
-Cela signifie que l’utilisation d’une mise à jour via cartouche depuis une version contenant une ancienne version du Studio Son 3DS *(< 3.0.0)* à une autre qui a introduit une version plus récente du Studio Son 3DS cassera [Soundhax](homebrew-launcher-(soundhax)) ! Vous aurez besoin d'une [méthode alternative](installing-boot9strap-(mset)) pour entrer dans l'Homebrew Launcher !
+Cela signifie que l’utilisation d’une mise à jour via cartouche depuis une version contenant une ancienne version du Studio Son 3DS *(< 3.0.0)* à une autre qui a introduit une version plus récente du Studio Son 3DS cassera Soundhax ! Vous aurez besoin d'une méthode alternative de lancement de l'Homebrew Launcher comme [Installer boot9strap (navigateur)](installing-boot9strap-(browser)) ou [Installer boot9strap (MSET)](installing-boot9strap-(mset)) !
 {% endcapture %}
 
 <div class="notice--warning">{{ notice-1 | markdownify }}</div>
@@ -26,9 +26,9 @@ Cela signifie que l’utilisation d’une mise à jour via cartouche depuis une 
 * La dernière version de [Soundhax](http://soundhax.com/) *(en fonction de votre console, de son modèle, et de sa région)*
 * La dernière version de [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
 * La dernière version de [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(boot9strap standard, ni le fichier `devkit`, ni le fichier `ntr`)*
-* La dernière version de [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(le fichier`.7z`)*
+* The latest release of [Luma3DS]({{ "/assets/files/Luma3DSv89CC6ED.7z" | absolute_url }}) *(the `.7z` file)*
 * La dernière version de [Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest)
-* La dernière version de [pre9otherapp](https://github.com/Pirater12/otherapp/releases/latest)
+* The latest release of [pre9otherapp](https://github.com/Pirater12/otherapp/releases/latest) *(the `.bin` file corresponding to your firmware version)*
 
 ### Instructions
 

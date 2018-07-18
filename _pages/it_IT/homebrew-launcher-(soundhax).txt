@@ -18,7 +18,7 @@ Per estrarre i file `.7z` presenti in questa pagina, avrai bisogno di un gestore
 
 Tieni presente che tramite scheda di gioco vengono aggiornate solamente le applicazioni principali del sistema, come le Impostazioni della console, il menu HOME, ecc. Non vengono invece aggiornate le funzionalità come Sound Nintendo 3DS o le funzionalità che necessitano di Internet, come ad esempio il Trasferimento dati, il Browser Internet, la Piazza Mii StreetPass o l'eShop.
 
-Ciò significa che se aggiorni con una scheda di gioco da una versione avente una versione di Sound Nintendo 3DS obsoleta *(<3.0.0)* ad una versione con la stessa applicazione aggiornata, Soundhax non funzionerà! Dovrai utilizzare un [metodo alternativo](homebrew-launcher-(alternatives)) per installare boot9strap!
+Ciò significa che se aggiorni con una scheda di gioco da una versione avente una versione di Sound Nintendo 3DS obsoleta *(<3.0.0)* ad una versione con la stessa applicazione aggiornata, Soundhax non funzionerà! Dovrai utilizzare un [metodo alternativo](homebrew-launcher-(alternatives)) per avviare l'Homebrew Launcher!
 {% endcapture %}
 
 <div class="notice--warning">{{ notice-1 | markdownify }}</div>
@@ -31,7 +31,7 @@ Ciò significa che se aggiorni con una scheda di gioco da una versione avente un
 * L'ultima versione di [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(la versione normale di boot9strap; non il file `devkit`, né il file `ntr`)*
 * L'ultima versione di [safehax](https://github.com/TiniVi/safehax/releases/latest) *(il file `.3dsx`)*
 * L'ultima versione di [udsploit](https://github.com/smealum/udsploit/releases/latest)
-* L'ultima versione di [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(il file `.7z`)*
+* The latest release of [Luma3DS]({{ "/assets/files/Luma3DSv89CC6ED.7z" | absolute_url }}) *(the `.7z` file)*
 * Il file [otherapp payload](https://smealum.github.io/3ds/#otherapp) *(adatto alla versione e alla regione della console)*
 
 ### Istruzioni
