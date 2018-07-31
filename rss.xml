@@ -2,7 +2,7 @@
 <rss version="2.0">
 	<channel>
 		<title>Plailect Guide Feed</title>
-		<lastBuildDate>Fri, 22 Jun 2018 02:53:34 +0000</lastBuildDate>
+		<lastBuildDate>Tue, 31 Jul 2018 16:28:18 +0000</lastBuildDate>
 		<link>https://github.com/Plailect/Guide_3DS/</link>
 		<item>
 			<title>1.0.0_qr.png</title>
@@ -3764,6 +3764,156 @@
 			<infoHash>0DD89D42AD711F770DA899AF05EE162EDE0D0070</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:0DD89D42AD711F770DA899AF05EE162EDE0D0070</magnetURI>
 			<enclosure url="magnet:?xt=urn:btih:0DD89D42AD711F770DA899AF05EE162EDE0D0070" type="application/x-bittorrent" />
+			<trackers>
+				<group order="random">
+					<tracker>
+						udp://tracker.coppersurfer.tk:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.opentrackr.org:1337/announce
+					</tracker>
+					<tracker>
+						http://tracker.opentrackr.org:1337/announce
+					</tracker>
+					<tracker>
+						udp://zer0day.ch:1337/announce
+					</tracker>
+					<tracker>
+						udp://tracker.leechers-paradise.org:6969/announce
+					</tracker>
+					<tracker>
+						http://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://9.rarbg.com:2710/announce
+					</tracker>
+					<tracker>
+						udp://p4p.arenabg.com:1337/announce
+					</tracker>
+					<tracker>
+						http://p4p.arenabg.com:1337/announce
+					</tracker>
+					<tracker>
+						udp://tracker.aletorrenty.pl:2710/announce
+					</tracker>
+					<tracker>
+						http://tracker.aletorrenty.pl:2710/announce
+					</tracker>
+					<tracker>
+						http://tracker1.wasabii.com.tw:6969/announce
+					</tracker>
+					<tracker>
+						http://tracker.baravik.org:6970/announce
+					</tracker>
+					<tracker>
+						http://tracker.tfile.me/announce
+					</tracker>
+					<tracker>
+						udp://torrent.gresille.org:80/announce
+					</tracker>
+					<tracker>
+						http://torrent.gresille.org/announce
+					</tracker>
+					<tracker>
+						udp://tracker.yoshi210.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.filetracker.pl:8089/announce
+					</tracker>
+				</group>
+			</trackers>
+		</item>
+		<item>
+			<title>2.55-0_11.8_NEW.firm</title>
+			<description>2.55-0_11.8_NEW.firm</description>
+			<guid>97DC6BA91ED243596ADB744CC20DAA610C10FCAB</guid>
+			<link>magnet:?xt=urn:btih:97DC6BA91ED243596ADB744CC20DAA610C10FCAB</link>
+			<pubDate>Tue, 31 Jul 2018 16:26:05 +0000</pubDate>
+			<contentLength>999424</contentLength>
+			<infoHash>97DC6BA91ED243596ADB744CC20DAA610C10FCAB</infoHash>
+			<magnetURI>magnet:?xt=urn:btih:97DC6BA91ED243596ADB744CC20DAA610C10FCAB</magnetURI>
+			<enclosure url="magnet:?xt=urn:btih:97DC6BA91ED243596ADB744CC20DAA610C10FCAB" type="application/x-bittorrent" />
+			<trackers>
+				<group order="random">
+					<tracker>
+						udp://tracker.coppersurfer.tk:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.opentrackr.org:1337/announce
+					</tracker>
+					<tracker>
+						http://tracker.opentrackr.org:1337/announce
+					</tracker>
+					<tracker>
+						udp://zer0day.ch:1337/announce
+					</tracker>
+					<tracker>
+						udp://tracker.leechers-paradise.org:6969/announce
+					</tracker>
+					<tracker>
+						http://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://9.rarbg.com:2710/announce
+					</tracker>
+					<tracker>
+						udp://p4p.arenabg.com:1337/announce
+					</tracker>
+					<tracker>
+						http://p4p.arenabg.com:1337/announce
+					</tracker>
+					<tracker>
+						udp://tracker.aletorrenty.pl:2710/announce
+					</tracker>
+					<tracker>
+						http://tracker.aletorrenty.pl:2710/announce
+					</tracker>
+					<tracker>
+						http://tracker1.wasabii.com.tw:6969/announce
+					</tracker>
+					<tracker>
+						http://tracker.baravik.org:6970/announce
+					</tracker>
+					<tracker>
+						http://tracker.tfile.me/announce
+					</tracker>
+					<tracker>
+						udp://torrent.gresille.org:80/announce
+					</tracker>
+					<tracker>
+						http://torrent.gresille.org/announce
+					</tracker>
+					<tracker>
+						udp://tracker.yoshi210.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.filetracker.pl:8089/announce
+					</tracker>
+				</group>
+			</trackers>
+		</item>
+		<item>
+			<title>2.55-0_11.8_OLD.firm</title>
+			<description>2.55-0_11.8_OLD.firm</description>
+			<guid>EE882A07AFCF3F6ACC676F8DC0AB25F291B643E0</guid>
+			<link>magnet:?xt=urn:btih:EE882A07AFCF3F6ACC676F8DC0AB25F291B643E0</link>
+			<pubDate>Tue, 31 Jul 2018 16:26:10 +0000</pubDate>
+			<contentLength>966656</contentLength>
+			<infoHash>EE882A07AFCF3F6ACC676F8DC0AB25F291B643E0</infoHash>
+			<magnetURI>magnet:?xt=urn:btih:EE882A07AFCF3F6ACC676F8DC0AB25F291B643E0</magnetURI>
+			<enclosure url="magnet:?xt=urn:btih:EE882A07AFCF3F6ACC676F8DC0AB25F291B643E0" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
