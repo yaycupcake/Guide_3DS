@@ -48,21 +48,6 @@ Aby użyć linków [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme) zam
 1. Wybierz opcję "Install and delete all CIAs"
 1. Wciśnij (Home), aby wyjść z FBI
 
-## Usunięcie NNID bez formatowania urządzenia
-
-1. Uruchom GodMode9 poprzez trzymanie przycisku (Start) podczas uruchamiania konsoli
-1. Wciśnij (Home), aby przywołać menu akcji
-1. Wybierz "Scripts..."
-1. Select "GM9Megascript"
-1. Select "Scripts from Plailect's Guide"
-1. Naciśnij (A), aby kontynuować
-1. Wciśnij (A), aby odblokować zapis do SysNAND (lvl1), a następnie wprowadź przedstawioną kombinację przycisków
-1. Naciśnij (A), aby kontynuować
-1. Wciśnij (B) aby wrócić do menu głównego
-1. Select "Exit"
-1. Naciśnij (A), aby ponownie zablokować uprawnienia do zapisu, jeśli zostaniesz o to poproszony
-1. Wciśnij (Start), aby zrestartować konsolę
-
 ## Nie można podmienić aplikacji Health & Safety na konsoli, która miała obniżoną wersję firmware przy użyciu flashcarta Gateway
 
 Przyczyną tego problemu jest kiepski sposób implementacji procesu obniżania wersji firmware przez Gateway, po którym zostają 2 wersje aplikacji Health & Safety w systemie. Jedna z nich nie jest używana, ale powoduje to zmylenie systemu podmieniania H&S powodując wprowadzenie złej wersji.

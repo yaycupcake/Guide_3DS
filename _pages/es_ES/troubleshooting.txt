@@ -48,21 +48,6 @@ Para utilizar los enlaces [magnet](https://es.wikipedia.org/wiki/Magnet) de esta
 1. Selecciona "Install and delete all CIAs"
 1. Presiona (Home) para salir de FBI
 
-## Remover un NNID sin formatear tu consola
-
-1. Inicia GodMode9 manteniendo presionado (Start) mientras enciendes la consola
-1. Presiona el botón (Home) para abrir el menú de acción
-1. Selecciona "Scripts..."
-1. Selecciona "GM9Megascript"
-1. Selecciona "Scripts from Plailect's Guide"
-1. Presiona (A) para continuar
-1. Presiona (A) para desbloquear la escritura de SysNAND (lvl1) y después haz la combinación de teclas mostrada
-1. Presiona (A) para continuar
-1. Presiona (B) para volver al menú principal
-1. Selecciona "Exit"
-1. Presiona (A) para volver a bloquear los permisos de escritura si se solicita
-1. Presiona (Start) para reiniciar tu consola
-
 ## No se puede inyectar H&S en una consola downgradeada con Gateway
 
 Esto ocurre porque la implementación del downgrade de Gateway es muy mala, haciendo que aparezcan dos versiones de cada aplicación en el sistema. Una de ellas no se usa, pero confunde al sistema de inyección de H&S causando una inyección errónea.

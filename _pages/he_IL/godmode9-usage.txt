@@ -107,10 +107,8 @@ GodMode9 היא תוכנה חזקה שיש ביכולתה לשנות בעצם ה
 
 ## גיבוי משחק פיזי
 
-### הכנה
-
 {% capture notice %}
-+ תכניסו את המשחק שאתם רוצים ליצור לו גיבוי אל הקונסולה
+Insert the game cartridge you intend to dump into your device
   + משחקי 3DS יגובו אל פורמט`.cia` הניתן להתקנה על המכשיר
   + משחקי NDS יגובו לפורמט `.nds` שלא ניתן להתקין אבל הוא כן עובד עם כרטיסי פריצה ואמולטורים
 {% endcapture %}
@@ -210,9 +208,7 @@ GodMode9 היא תוכנה חזקה שיש ביכולתה לשנות בעצם ה
 
 ## הצפנה / פענוח של קובץ .CIA
 
-### הכנה
-
-+ למטרות ארגוניות, תעתיקו את קבצי ה`.cia` שאתם רוצים לפענח\להצפין לתיקיה '/cias/' על כרטיס הSD
+For organizational purposes, copy each `.cia` file you wish to encrypt / decrypt to the `/cias/` folder on your SD card
 {: .notice--info}
 
 1. תפתחו את GodMode9 על ידי החזקה של המקש (Start) בעת ההדלקה
@@ -232,6 +228,7 @@ GodMode9 היא תוכנה חזקה שיש ביכולתה לשנות בעצם ה
 1. תבחרו "Scripts..."
 1. Select "GM9Megascript"
 1. Select "Scripts from Plailect's Guide"
+1. Select "Remove NNID"
 1. תלחצו (A) כדי להמשיך
 1. לחצו (A) כדי לפתוח גישת כתיבת lvl1 לSysNAND, ואז תלחצו על המקשים בסדר הנכון
 1. תלחצו (A) כדי להמשיך

@@ -122,8 +122,8 @@ sidebar_pages:
     title: Boot9strapin asentaminen (ntrboot)
     url: installing-boot9strap-(ntrboot)
   - 
-    title: NANDin palauttaminen
-    url: godmode9-usage
+    title: Installing boot9strap (Soundhax)
+    url: installing-boot9strap-(soundhax)
   - 
     title: Asennuksen viimeistely
     url: finalizing-setup

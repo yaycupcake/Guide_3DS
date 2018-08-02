@@ -107,10 +107,8 @@ Aceasta va funcţiona doar dacă injectarea Health & Safety a fost efectuată de
 
 ## Făcând copie la un card de joc
 
-#### Preparații
-
 {% capture notice %}
-+ Introduceți cardul de joc care vreți să faceți copie în dispozitiv
+Insert the game cartridge you intend to dump into your device
   + Cardurile de joc 3DS li se vor face copie într-un format `.cia` bun de instalat
   + Cardurile de joc NDS li se vor face copie într-un format `.nds` care nu se poate instala, însă e compatibil cu flashcart-uri și emulatoare
 {% endcapture %}
@@ -210,9 +208,7 @@ Pentru a identifica ID-ul de titlu al fișierului `<TitleID>.gbavc.sav`, puteți
 
 ## Criptarea / Decriptarea unui fișier .CIA
 
-#### Preparații
-
-+ Pentru scopul de a menține ordinea, copiați fiecare fișier`.cia` care doriți să faceți criptare / decriptare în folderul `/cias/` de pe cardul SD
+For organizational purposes, copy each `.cia` file you wish to encrypt / decrypt to the `/cias/` folder on your SD card
 {: .notice--info}
 
 1. Lansați GodMode9 ținând apăsat (Start) în timpul pornirii
@@ -232,6 +228,7 @@ Pentru a identifica ID-ul de titlu al fișierului `<TitleID>.gbavc.sav`, puteți
 1. Selectați "Scripts..."
 1. Select "GM9Megascript"
 1. Select "Scripts from Plailect's Guide"
+1. Select "Remove NNID"
 1. Apăsați (A) pentru a continua
 1. Apăsați (A) ca să deblocați scrierea în SysNAND (lvl1), apoi introduceți combinația de butoane care vi se cere
 1. Apăsați (A) pentru a continua

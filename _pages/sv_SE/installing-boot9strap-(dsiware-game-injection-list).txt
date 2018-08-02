@@ -4,7 +4,7 @@ title: "Installing boot9strap (DSiWare Game Injection List)"
 
 {% include toc title="Table of Contents" %}
 
-### Required Reading
+### Obligatorisk läsning
 
 This is an automatically generated list of all [Installing boot9strap (DSiWare)](installing-boot9strap-(dsiware)) compatible games.
 

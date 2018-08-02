@@ -40,14 +40,14 @@ Tieni presente che se hai altri file payload oltre a `GodMode9.firm` nella carte
   + Tieni presente che in tal caso dovrai anche reimpostare data ed ora anche nelle Impostazioni della Console al termine della guida
 1. Premi il pulsante HOME per far apparire il menu delle azioni
 1. Seleziona "Scripts..."
-1. Select "GM9Megascript"
-1. Select "Hax Options"
-1. Select "Un-install Hax"
+1. Seleziona "GM9Megascript"
+1. Seleziona "Hax Options"
+1. Seleziona "Un-install Hax"
 1. Quando richiesto, premi (A) per procedere
 1. Premi il pulsante (A) per sbloccare i permessi di scrittura di terzo livello su SysNAND, quindi inserisci la combinazione di tasti richiesta a schermo
 1. Premi il pulsante (A) per continuare
 1. Premi (B) per ritornare al menu principale
-1. Select "Exit"
+1. Seleziona "Exit"
 1. Se richiesto, premi (A) per ritirare le autorizzazioni di scrittura
 1. Premi (Start) per riavviare la console
 

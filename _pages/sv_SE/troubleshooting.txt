@@ -4,7 +4,7 @@ title: "Troubleshooting"
 
 {% include toc title="Table of Contents" %}
 
-### Required Reading
+### Obligatorisk läsning
 
 If you are unable to boot your device, please look for the section relevant to you and follow the instructions.
 
@@ -48,21 +48,6 @@ To use the [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme) links on th
 1. Select "Install and delete all CIAs"
 1. Press (Home) to exit FBI
 
-## Removing an NNID without formatting your device
-
-1. Starta GodMode9 genom att hålla (Start) under uppstart
-1. Press (Home) to bring up the action menu
-1. Select "Scripts..."
-1. Select "GM9Megascript"
-1. Select "Scripts from Plailect's Guide"
-1. Press (A) to continue
-1. Press (A) to unlock SysNAND (lvl1) writing, then input the key combo given
-1. Press (A) to continue
-1. Press (B) to return to the main menu
-1. Select "Exit"
-1. Press (A) to relock write permissions if prompted
-1. Press (Start) to reboot your device
-
 ## Cannot inject H&S on Gateway downgraded device
 
 This is caused by Gateway implementing a very shoddy downgrade method which leaves two versions of each app on the system. One of them is unused, but it confuses the H&S inject system, causing it to inject into the wrong one.
@@ -79,7 +64,7 @@ This is caused by Gateway implementing a very shoddy downgrade method which leav
 1. Notice that there are two sets of app and tmd files, one set with uppercase extensions (`.TMD` and `.APP`), and one set with lowercase extensions (`.tmd` and `.app`)
 1. While holding the (R) trigger, press (Y) to create a new directory
 1. Press (A) to confirm the name `newdir` (it does not matter what the folder is called)
-1. Tryck på (A) för att låsa upp skrivning till SysNAND (lvl1) och mata sedan in knappkombinationen som ges
+1. Press (A) to unlock SysNAND (lvl1) writing, then input the key combo given
 1. Press (B) to decline relocking write permissions if prompted
 1. Press the (L) trigger on each of the uppercase extension files (`.TMD` and `.APP`) to mark them
 1. Press (Y) to copy the files

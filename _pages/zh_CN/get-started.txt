@@ -6,9 +6,20 @@ title: "Get Started"
 
 ### Required Reading
 
-Different device models and versions will require different steps to achieve the end goal of boot9strap Custom Firmware. 下面的一系列页面将会帮助你针对你的设备找到适合的开始方案。
+请在下表中按照你的系统版本选择对应的页面。 Note that the "from" and "to" fields are inclusive. 也就是说，举个例子“从9.0.0到9.2.0”这一行表示9.0.0，9.1.0，和9.2.0。
 
-请点击对应你设备的图片，进入相应的教程页面。 图片中机器的颜色可能会不同，但是请特别关注按键的布局和每台机器的特点，确保你选择了正确的机型。
+Additionally, note that the last two columns of the chart refer to the last number of your version (which corresponds to the browser version installed to the system). 如果版本号以0结尾，则说明没有浏览器，如果大于0则表示浏览器已经安装。
+
+例如，如果系统版本为“5.0.0-0U”，你需要定位到“无浏览器”这一列和“从5.0.0到5.1.0”这一行，因为系统版本在那个范围内并且无浏览器 。
+
+Your device version can be found at the bottom right of the top screen of the System Settings.
+
+![]({{ "/images/screenshots/system-version.png" | absolute_url }})
+{: .notice--info}
+
+**If you are unable to follow the instructions corresponding to your specific version due to missing prerequisites, then you should see the "All Versions" row for methods that work regardless of system version.**
+
+For all versions you can also [Cartridge Update](cart-update) (or use a standard system update) to get to a higher version in the same column to follow its instructions.
 
 如果你已经破解过你的3DS，并安装了基于EmuNAND的自制系统，请在SysNAND上进行本教程的所有操作。 Replace any files that already exist. Your data will be transferred from EmuNAND to your new B9S install at the end. If you use menuhax, you should [clear Home Menu's extdata](troubleshooting#clear-home-menu-extdata) to remove it before beginning.
 
@@ -37,23 +48,61 @@ There have been reports of a wave of bans being handed out to CFW users by Ninte
 
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
 
-### Device Table
+### 版本列表
 
 <table>
   <colgroup>
-    <col span="1" style="width: 50%;">
-    <col span="1" style="width: 50%;">
+    <col span="1" style="width: 10%;">
+    <col span="1" style="width: 10%;">
+    <col span="1" style="width: 40%;">
   </colgroup>
   <thead>
     <tr>
-      <th style="text-align: center">New 3DS or New 2DS</th>
-      <th style="text-align: center">Old 3DS or Old 2DS</th>
+      <th style="text-align: center">从</th>
+      <th style="text-align: center">到</th>
+      <th style="text-align: center">无浏览器</th>
+      <th style="text-align: center">浏览器</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: center"><a href="get-started-(new-3ds)"><img src="{{ base_path }}/images/new3ds.png" style="padding: 0.5em;"></a> <a href="get-started-(new-3ds)"><img src="{{ base_path }}/images/new3dsxl.png" style="padding: 0.5em;"></a> <a href="get-started-(new-3ds)"><img src="{{ base_path }}/images/new2dsxl.png" style="padding: 0.5em;"></a></td>
-      <td style="text-align: center"><a href="get-started-(old-3ds)"><img src="{{ base_path }}/images/old3ds.png" style="padding: 0.5em;"></a> <a href="get-started-(old-3ds)"><img src="{{ base_path }}/images/old3dsxl.png" style="padding: 0.5em;"></a> <a href="get-started-(old-3ds)"><img src="{{ base_path }}/images/2ds.png" style="padding: 0.5em;"></a></td>
+      <td style="text-align: center; font-weight: bold;">1.0.0</td>
+      <td style="text-align: center; font-weight: bold;">2.0.0</td>
+      <td style="text-align: center; font-weight: bold;" colspan="2">Use an "All Versions" Method</td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">2.1.0</td>
+      <td style="text-align: center; font-weight: bold;">2.1.0</td>
+      <td style="text-align: center; font-weight: bold;">Use an "All Versions" Method</td>
+      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-(2xrsa)">Installing boot9strap (2xrsa)</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">2.2.0</td>
+      <td style="text-align: center; font-weight: bold;">2.2.0</td>
+      <td style="text-align: center; font-weight: bold;" colspan="2">Use an "All Versions" Method</td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">3.0.0</td>
+      <td style="text-align: center; font-weight: bold;">8.1.0</td>
+      <td style="text-align: center; font-weight: bold;" colspan="2"><a href="installing-boot9strap-(soundhax)">Installing boot9strap (Soundhax)</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">9.0.0</td>
+      <td style="text-align: center; font-weight: bold;">11.3.0</td>
+      <td style="text-align: center; font-weight: bold;" colspan="2"><a href="homebrew-launcher-(soundhax)">Homebrew Launcher (Soundhax)</a></td>
+    </tr><tr>
+      <td style="text-align: center; font-weight: bold;">11.4.0</td>
+      <td style="text-align: center; font-weight: bold;">11.7.0</td>
+      <td style="text-align: center; font-weight: bold;" colspan="2">Use an "All Versions" Method</td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">11.8.0</td>
+      <td style="text-align: center; font-weight: bold;">11.8.0</td>
+      <td style="text-align: center; font-weight: bold;" colspan="2"><a href="installing-boot9strap-(dsiware)">Installing boot9strap (DSiWare)</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;" colspan="2">ALL VERSIONS<br></td>
+      <td style="text-align: center; font-weight: bold;" colspan="2"><p style="display: inline-block; margin-top: 1.3em; width: 47%"><a href="ntrboot">ntrboot</a><br><sub>(Requires a Compatible Flashcart)</sub></p><p style="display: inline-block; margin-top: 1.3em; vertical-align: super; width: 6%">or</p><p style="display: inline-block; margin-top: 1.3em; width: 47%"><a href="installing-boot9strap-(hardmod)">Installing boot9strap (Hardmod)</a><br><sub>(Requires Soldering)</sub></p></td>
     </tr>
   </tbody>
 </table>

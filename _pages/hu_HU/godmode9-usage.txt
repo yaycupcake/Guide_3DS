@@ -107,10 +107,8 @@ Ez csak akkor fog működni, ha az injektálást GodMode9 végezte (nem pedig De
 
 ## Játékkártya tartalmának kimentése
 
-#### Előkészületek
-
 {% capture notice %}
-+ Helyezd be a készülékedbe a menteni kívánt játékkártyát
+Insert the game cartridge you intend to dump into your device
   + A 3DS játékkártyák telepíthető `.cia` formátumba lesznek mentve
   + Az NDS játékkártyák nem telepíthető `.nds` formátumba lesznek mentve, amely flashkártyákkal és emulátorokkal lesz kompatibilis
 {% endcapture %}
@@ -210,9 +208,7 @@ Egy `<TitleID>.gbavc.sav` fájl Title ID-jének azonosításához használhatod 
 
 ## .CIA fájl titkosítása / visszafejtése
 
-#### Előkészületek
-
-+ A rend kedvéért, másold a titkosítani / visszafejteni kívánt `.cia` fájljaidat az SD kártyád `/cias/` mappájába
+For organizational purposes, copy each `.cia` file you wish to encrypt / decrypt to the `/cias/` folder on your SD card
 {: .notice--info}
 
 1. Indítsd el a GodMode9-et a (Start) lenyomva tartásával boot közben
@@ -232,6 +228,7 @@ Egy `<TitleID>.gbavc.sav` fájl Title ID-jének azonosításához használhatod 
 1. Válaszd a "Scripts..." opciót
 1. Select "GM9Megascript"
 1. Select "Scripts from Plailect's Guide"
+1. Select "Remove NNID"
 1. Nyomd meg az (A) gombot a folytatáshoz
 1. Nyomd meg az (A) gombot, hogy feloldd a SysNAND (lvl1) írást, majd sorban nyomd meg a kijelzett gombokat
 1. Nyomd meg az (A) gombot a folytatáshoz

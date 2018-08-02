@@ -60,8 +60,5 @@ Aby wyodrębnić pliki `.7z` załączone na tej stronie, będziesz potrzebować 
 
 ___
 
-Użytkownicy New 3DS na wersji 2.1.0 *muszą* [przywrócić kopię zapasową NAND](godmode9-usage#nand_restore) przed przejściem do etapu [Finalizowania Instalacji](finalizing-setup).
-{: .notice--danger}
-
 ### Kontynuuj do [Finalizowanie Instalacji](finalizing-setup)
 {: .notice--primary}

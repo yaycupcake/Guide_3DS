@@ -48,21 +48,6 @@ Per usare i link [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme) di qu
 1. Seleziona "Install and delete all CIAs"
 1. Premi il pulsante HOME per uscire da FBI
 
-## Rimuovere un NNID senza formattare la console
-
-1. Avvia GodMode9 tenendo premuto (Start) durante l'accensione della console
-1. Premi il pulsante HOME per far apparire il menu delle azioni
-1. Seleziona "Scripts..."
-1. Select "GM9Megascript"
-1. Select "Scripts from Plailect's Guide"
-1. Premi il pulsante (A) per continuare
-1. Premi il pulsante (A) per sbloccare i permessi di scrittura di primo livello su SysNAND, quindi inserisci la combinazione di tasti richiesta a schermo
-1. Premi il pulsante (A) per continuare
-1. Premi (B) per ritornare al menu principale
-1. Select "Exit"
-1. Se richiesto, premi (A) per ritirare le autorizzazioni di scrittura
-1. Premi (Start) per riavviare la console
-
 ## Impossibile eseguire l'inject di "Informazioni per la salute e la sicurezza" su console downgradate tramite Gateway
 
 Questo problema è dovuto alla pessima implementazione da parte di Gateway di una procedura di downgrade, che duplica ogni applicazione installata nel sistema. Una di queste copie rimane inutilizzata, ma confonde il programma per l'inject di H&S e gli impedisce di modificare l'applicazione corretta.
@@ -111,14 +96,14 @@ Gli exploit basati sul browser (come browserhax o 2xrsa) sono instabili e crasha
         1. Avvia GodMode9 tenendo premuto (Start) durante l'accensione della console
         1. Premi il pulsante HOME per far apparire il menu delle azioni
         1. Seleziona "Scripts..."
-        1. Select "GM9Megascript"
-        1. Select "Scripts from Plailect's Guide"
-        1. Select "Remove extdata"
+        1. Seleziona "GM9Megascript"
+        1. Seleziona "Scripts from Plailect's Guide"
+        1. Seleziona "Remove extdata"
         1. Premi il pulsante (A) per continuare
         1. Premi il pulsante (A) per sbloccare i permessi di scrittura di primo livello su SysNAND, quindi inserisci la combinazione di tasti richiesta a schermo
         1. Premi il pulsante (A) per continuare
         1. Premi (B) per ritornare al menu principale
-        1. Select "Exit"
+        1. Seleziona "Exit"
         1. Se richiesto, premi (A) per ritirare le autorizzazioni di scrittura
         1. Premi (Start) per riavviare la console
 1. Prova ad avviare la console senza schede di gioco inserite (flashcard incluse)
@@ -153,19 +138,19 @@ Gli exploit basati sul browser (come browserhax o 2xrsa) sono instabili e crasha
     1. Configura Luma all'avvio
 1. Prova ad avviare GodMode9
     1. Con Luma3DS installato, tieni premuto (Start) all'avvio
-1. Try deleting home menu's extdata by following these instructions:
+1. Prova ad eliminare gli extdata del menu HOME seguendo queste istruzioni:
     1. Spegni il tuo 3DS
     1. Avvia GodMode9 tenendo premuto (Start) durante l'accensione della console
     1. Premi il pulsante HOME per far apparire il menu delle azioni
     1. Seleziona "Scripts..."
-    1. Select "GM9Megascript"
-    1. Select "Scripts from Plailect's Guide"
-    1. Select "Remove extdata"
+    1. Seleziona "GM9Megascript"
+    1. Seleziona "Scripts from Plailect's Guide"
+    1. Seleziona "Remove extdata"
     1. Premi il pulsante (A) per continuare
     1. Premi il pulsante (A) per sbloccare i permessi di scrittura di primo livello su SysNAND, quindi inserisci la combinazione di tasti richiesta a schermo
     1. Premi il pulsante (A) per continuare
     1. Premi (B) per ritornare al menu principale
-    1. Select "Exit"
+    1. Seleziona "Exit"
     1. Se richiesto, premi (A) per ritirare le autorizzazioni di scrittura
     1. Premi (Start) per riavviare la console
 1. Prova ad avviare la console senza schede di gioco inserite (flashcard incluse)

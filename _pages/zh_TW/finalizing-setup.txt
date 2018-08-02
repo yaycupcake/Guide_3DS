@@ -61,7 +61,7 @@ title: "完成安裝"
 
 #### 第二節 — 更新系統
 
-如果您依循了前一版本手冊的步驟，且已將您的 *New 3DS* CTRTransfer 降級至系統版本 2.1.0，您應該在依循本節步驟前先[還原您的 NAND 備份](godmode9-usage#restoring-a-nand-backup)再繼續。
+如果您依循了前一版本手冊的步驟，且已將您的 *New 3DS* CTRTransfer 降級至系統版本 2.1.0，您應先[還原您的 NAND 備份](godmode9-usage#restoring-a-nand-backup)再繼續。
 {: .notice--danger}
 
 如果您在依循本手冊的步驟前，已經改機完且安裝了 EmuNAND，並且想把您原來 EmuNAND 的資料轉移到新的 SysNAND 自製韌體中，請在開始本部分操作之前先按照[移植EmuNAND](move-emunand)一節進行。

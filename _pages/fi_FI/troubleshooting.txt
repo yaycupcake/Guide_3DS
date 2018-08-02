@@ -48,21 +48,6 @@ Käyttääksesi tällä sivulla olevia [magneetti](https://en.wikipedia.org/wiki
 1. Valitse "Install and delete all CIAs"
 1. Paina (HOME)-painiketta ja sulje FBI
 
-## NNID:n poistaminen ilman konsolin alustamista
-
-1. Avaa GodMode9 pitämällä (START)-painiketta pohjassa konsolin käynnistyessä
-1. Paina (HOME)-painiketta näyttääksesi toimintovalikon
-1. Valitse "Scripts..."
-1. Select "GM9Megascript"
-1. Select "Scripts from Plailect's Guide"
-1. Paina (A):ta jatkaaksesi
-1. Paina (A):ta ottaaksesi käyttöön SysNANDiin kirjoittamisen (lvl1) ja syötä annettu painikeyhdistelmä
-1. Paina (A):ta jatkaaksesi
-1. Paina (B):tä palataksesi päävalikkoon
-1. Select "Exit"
-1. Paina (A):ta lukitaksesi kirjoitusoikeudet kehotettaessa
-1. Paina (START)-painiketta käynnistääksesi uudelleen
-
 ## H&S:n injektointi ei onnistu Gatewayn avulla taaksepäin päivitetyllä konsolilla
 
 Tämä johtuu Gatewayn huonosta päivitysmenetelmästä, joka jättää jokaisesta sovelluksesta kaksi versiota järjestelmään. Toista niistä ei käytetä, mutta se häiritsee H&S-injektointia saamalla sen injektoimaan väärän kappaleen.

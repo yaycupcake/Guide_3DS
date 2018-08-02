@@ -60,8 +60,5 @@ Para extraer los archivos `.7z` enlazados esta página, necesitarás un gestor d
 
 ___
 
-Los usuarios de *New 3DS* en 2.1.0 *deben* [restaurar la copia de seguridad de su NAND](godmode9-usage#nand_restore) antes de pasar a la sección [Finalizar instalación](finalizing-setup).
-{: .notice--danger}
-
 ### Continúa en [Finalizar instalación](finalizing-setup)
 {: .notice--primary}

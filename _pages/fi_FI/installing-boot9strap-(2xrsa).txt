@@ -60,8 +60,5 @@ Purkaaksesi tämän osion `.7z`-tiedostot tarvitset pakkausohjelman, kuten [7-Zi
 
 ___
 
-Versiolla 2.1.0 olevien New 3DS -käyttäjien *täytyy* [palauttaa NAND-varmuuskopionsa](godmode9-usage#nand-varmuuskopion-palauttaminen) ennen osioon [Asennuksen viimeistely](finalizing-setup) jatkamista.
-{: .notice--danger}
-
 ### Jatka osioon [Asennuksen viimeistely](finalizing-setup)
 {: .notice--primary}

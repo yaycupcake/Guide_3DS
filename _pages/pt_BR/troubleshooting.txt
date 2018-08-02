@@ -48,21 +48,6 @@ To use the [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme) links on th
 1. Selecione "Install and delete all CIAs"
 1. Aperte (Home) para sair do FBI
 
-## Removing an NNID without formatting your device
-
-1. Inicie o GodMode9 segurando (Start) durante a inicialização
-1. Aperte (Home) para abrir o menu de ações
-1. Selecione "Scripts..."
-1. Select "GM9Megascript"
-1. Select "Scripts from Plailect's Guide"
-1. Aperte (A) para continuar
-1. Aperte (A) para destravar "SysNAND (lvl1) writing", então aperte a sequência de botões solicitada
-1. Aperte (A) para continuar
-1. Aperte (B) para retornar para o menu principal
-1. Select "Exit"
-1. Se solicitado, aperte (A) para bloquear as permissões de escrita
-1. Aperte (Start) para reiniciar o dispositivo
-
 ## Cannot inject H&S on Gateway downgraded device
 
 This is caused by Gateway implementing a very shoddy downgrade method which leaves two versions of each app on the system. Uma delas não é usada, mas isso confunde o sistema de injeção fazendo-o injetar na versão errada.
@@ -120,7 +105,7 @@ Browser based exploits (such as browserhax or 2xrsa) are often unstable and cras
         1. Aperte (B) para retornar para o menu principal
         1. Select "Exit"
         1. Se solicitado, aperte (A) para bloquear as permissões de escrita
-        1. Aperte (Start) para reiniciar seu dispositivo
+        1. Aperte (Start) para reiniciar o dispositivo
 1. Tente ligar sem nenhum cartucho inserido (incluindo flashcarts)
 1. Se você tem um hardmod e um backup da NAND, copie o backup de volta para a SysNAND
 1. Tente inicializar no modo recovery e atualizar o seu sistema

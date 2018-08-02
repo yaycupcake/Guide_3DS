@@ -122,8 +122,8 @@ sidebar_pages:
     title: Installer boot9strap (ntrboot)
     url: installing-boot9strap-(ntrboot)
   - 
-    title: Restauration de la NAND
-    url: godmode9-usage
+    title: Installing boot9strap (Soundhax)
+    url: installing-boot9strap-(soundhax)
   - 
     title: Finalisation de la configuration
     url: finalizing-setup

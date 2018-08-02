@@ -48,21 +48,6 @@ Pour utiliser les liens suivants [magnet](https://fr.wikipedia.org/wiki/Magnet_(
 1. Sélectionnez "Install and delete all CIAs"
 1. Appuyez sur (Home) pour quitter FBI
 
-## Supprimer un NNID sans formater votre console
-
-1. Ouvrez Godmode9 en maintenant (Start) au démarrage
-1. Appuyez sur (Home) pour faire apparaître le menu d’actions (action menu)
-1. Sélectionnez "Scripts"
-1. Sélectionnez "GM9Megascript"
-1. Sélectionnez "Scripts from Plailect's Guide"
-1. Appuyez sur (A) pour continuer
-1. Appuyez sur (A) pour autoriser l'écriture sur votre SysNAND, puis entrez la combinaison de touches demandée
-1. Appuyez sur (A) pour continuer
-1. Appuyez sur (B) pour revenir au menu principal
-1. Sélectionnez "Exit"
-1. Appuyez (A) pour reverrouiller autorisations en écriture si vous êtes invité
-1. Appuyez sur (Start) pour redémarrer votre système
-
 ## Je ne peux pas injecter dans Santé et Sécurité sur une console downgradée via Gateway
 
 Cela vient de l'implémentation bancale faite par Gateway pour downgrader et qui laisse deux version de chaque application sur la console. L'une des deux est inutilisée, mais cela perturbe le système d'injection de H&S, provoquant l'injection dans la mauvaise version.

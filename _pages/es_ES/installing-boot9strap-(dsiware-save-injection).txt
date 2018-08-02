@@ -27,7 +27,7 @@ Antes de proceder, asegúrate de leer todos los avisos y advertencias al [Instal
   + **Legends of Exidia**
   + **Guitar Rock Tour**  
   + **The Legend of Zelda: Four Swords**  
-* La ultima version de [3ds_dsiwarehax_installer](https://github.com/yellows8/3ds_dsiwarehax_installer/releases)
+* The latest release of [3ds_dsiwarehax_installer](https://github.com/zoogie/3ds_dsiwarehax_installer/releases/latest)
 * La ultima versión de [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 * La ultima versión de [b9sTool](https://github.com/zoogie/b9sTool/releases/latest)
 * La última versión de [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(el archivo`.7z`)*
@@ -132,7 +132,7 @@ Usa un [Gestor de datos de guardado](https://github.com/BernardoGiordano/Checkpo
 1. Haz una de las siguientes acciones
     + Haz el resto de las secciones y luego la guía completa en **la 3DS de destino**, luego espera una semana *(no restaures la copia de seguridad de tu NAND antes de hacer la transferencia)* y haz la Transferencia de Sistema de **la 3DS de destino** a **la 3DS de origen** *(recuerda que no puedes hacer una transferencia de una New 3DS o New 2DS a una Old 3DS u Old 2DS)*
     + Llama a Nintendo y diles que ya no tienes acceso a la consola a la que tu ID de Nintendo Network está vinculado (en este caso **la 3DS de destino**), y quieres que lo vinculen a otra consola (**la 3DS de origen** en este caso)
-    + También puedes [eliminar el ID de Nintendo Network](troubleshooting#removing-an-nnid-without-formatting-your-device) de **la 3DS de origen** si prefieres que permanezca en **la 3DS de destino**
+    + También puedes [eliminar el ID de Nintendo Network](godmode9-usage#removing-an-nnid-without-formatting-your-device) de **la 3DS de origen** si prefieres que permanezca en **la 3DS de destino**
 1. Reinicia la **3DS de origen** mientras mantienes presionado (Start) para abrir GodMode9
 1. Si se te pide crear copias de seguridad de archivos esenciales, presiona (A) para hacerlo y luego presiona (A) para continuar una vez que haya terminado
 1. Si se te pide fijar la fecha y hora RTC, presiona (A) para hacerlo, luego define la fecha y la hora, y después presiona (A) para continuar

@@ -48,21 +48,6 @@ To use the [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme) links on th
 1. "Install and delete all CIAs"를 선택해 주세요.
 1. (Home)을 눌러 FBI를 종료해 주세요.
 
-## Removing an NNID without formatting your device
-
-1. Launch GodMode9 by holding (Start) during boot
-1. (Home)을 눌러 작업 메뉴를 띄워 주세요.
-1. Select "Scripts..."
-1. Select "GM9Megascript"
-1. Select "Scripts from Plailect's Guide"
-1. (A)를 눌러 진행해 주세요.
-1. (A)를 눌려 SysNAND (lvl1) 쓰기 잠금을 풀고 주어진 키 조합을 입력해 주세요.
-1. (A)를 눌러 진행해 주세요.
-1. (B)를 눌러 메인 메뉴로 돌아가 주세요.
-1. Select "Exit"
-1. Press (A) to relock write permissions if prompted
-1. (start)를 눌러 기기를 다시 시작해 주세요.
-
 ## Cannot inject H&S on Gateway downgraded device
 
 This is caused by Gateway implementing a very shoddy downgrade method which leaves two versions of each app on the system. One of them is unused, but it confuses the H&S inject system, causing it to inject into the wrong one.

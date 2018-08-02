@@ -30,8 +30,6 @@ sitemap: false
 + [Flasha ntrboot (3DS Multi System)](flashing-ntrboot-(3ds-multi-system))
 + [Flasha ntrboot (DSi)](flashing-ntrboot-(dsi))
 + [Flasha ntrboot (NDS)](flashing-ntrboot-(nds))
-+ [Kom igång (New 3DS)](get-started-(new-3ds))
-+ [Kom igång (Old 3DS)](get-started-(old-3ds))
 + [Kom igång](get-started)
 + [GodMode9 Usage](godmode9-usage)
 + [H2testw (Windows)](h2testw-(windows))

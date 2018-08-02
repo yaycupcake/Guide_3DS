@@ -31,7 +31,7 @@ Per estrarre i file `.7z` presenti in questa pagina, avrai bisogno di un gestore
 * L'ultima versione di [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
 * L'ultima versione di [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(la versione normale di boot9strap; non il file `devkit`, né il file `ntr`)*
 * L'ultima versione di [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
-* The latest release of [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(the `.7z` file)*
+* L'ultima versione di [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(il file `.7z`)*
 
 ### Istruzioni
 
@@ -82,20 +82,20 @@ Questa sezione è necessaria solo se ti viene presentato il menu di configurazio
 1. Se ti viene chiesto di reimpostare la data e l'ora dell'RTC, premi (A) per farlo, poi imposta la data e l'ora, infine premi (A) per continuare
 1. Premi il pulsante HOME per far apparire il menu delle azioni
 1. Seleziona "Scripts..."
-1. Select "GM9Megascript"
-1. Select "Scripts from Plailect's Guide"
-1. Select "Setup Luma3DS to CTRNAND"
+1. Seleziona "GM9Megascript"
+1. Seleziona "Scripts from Plailect's Guide"
+1. Seleziona "Setup Luma3DS to CTRNAND"
 1. Quando richiesto, premi (A) per procedere
 1. Premi il pulsante (A) per sbloccare i permessi di scrittura di secondo livello su SysNAND, quindi inserisci la combinazione di tasti richiesta a schermo
 1. Premi il pulsante (A) per continuare
 
-#### Section VII - Cleanup SD Card
+#### Sezione VII - Pulizia della scheda SD
 
-1. Select "Cleanup SD Card"
+1. Seleziona "Cleanup SD Card"
 1. Quando richiesto, premi (A) per procedere
 1. Premi il pulsante (A) per continuare
 1. Premi (B) per ritornare al menu principale
-1. Select "Exit"
+1. Seleziona "Exit"
 1. Se richiesto, premi (A) per ritirare le autorizzazioni di scrittura
 1. Premi (Start) per riavviare la console
 

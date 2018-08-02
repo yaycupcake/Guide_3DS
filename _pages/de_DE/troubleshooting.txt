@@ -48,21 +48,6 @@ Um die [Magnet-Links](https://de.wikipedia.org/wiki/Magnet-Link) auf dieser Seit
 1. Wähle "Install and delete all CIAs"
 1. Drücke auf (Home), um FBI zu verlassen
 
-## Entferne die NNID ohne die Konsole zu formatieren
-
-1. Starte GodMode9, indem du während dem Starten deiner Konsole die Taste (Start) gedrückt hältst
-1. Drücke  (HOME) um das Aktionsmenü aufzurufen
-1. Wähle "Scripts"
-1. Select "GM9Megascript"
-1. Select "Scripts from Plailect's Guide"
-1. Drücke (A) um fortzufahren
-1. Drücke (A), um SysNAND-Änderungen (auf erster Ebene) zu aktivieren. Gib danach die angezeigte Tastenkombination ein
-1. Drücke (A) um fortzufahren
-1. Drücke (B), um zum Hauptmenü zurückzukehren
-1. Select "Exit"
-1. Drücke (A), um die Schreibrechte zu deaktivieren, wenn du dazu aufgefordert wirst
-1. Dücke auf (Start), um die Konsole neu zu starten
-
 ## Kann G&S nicht mit einem Gateway gedowngradeten Gerät einfügen
 
 Dies liegt daran, dass Gateway eine sehr lausige Downgrademethode implementiert hat, welche zwei verschiedene Versionen jeder App auf dem System zurücklässt. Die eine wird nicht verwendet. Dennoch wird das G&S Einfügungs-System verwirrt, wodurch es in die falsche App einfügt.
@@ -79,7 +64,7 @@ Dies liegt daran, dass Gateway eine sehr lausige Downgrademethode implementiert 
 1. Achte darauf, dass es zwei Paare von app und tmd Dateien gibt. Ein Paar mit großgeschriebenen Endungen (`.TMD` und `.APP`), und ein Paar mit kleingeschriebenen Endungen (`.tmd` und `.app`)
 1. Während du den (R) Trigger gedrückt hälst, drücke zusätzlich (Y) um einen neuen Ordner zu erstellen
 1. Drücke (A), um den Namen `newdir` zu bestätigen (es spielt keine Rolle, wie der Ordner genannt wird)
-1. Drücke (A), um die SysNAND (Stufe 1) Bearbeitung zu aktivieren. Dann gebe die angegebene Tastenkombination ein
+1. Drücke (A), um SysNAND-Änderungen (auf erster Ebene) zu aktivieren. Gib danach die angezeigte Tastenkombination ein
 1. Drücke (B), um die Schreibrechte nicht zu deaktiveren, falls du dazu aufgefordert wirst
 1. Drücke den (L) Trigger auf jeder der Dateien mit den großgeschriebenen Endungen (`.TMD` und `.APP`) um sie zu markieren
 1. Drück (Y) um die Dateien zu kopieren
@@ -120,7 +105,7 @@ Browserbasierte Exploits (wie browserhax oder 2xrsa) sind oft instabil und stür
         1. Drücke (B), um zum Hauptmenü zurückzukehren
         1. Select "Exit"
         1. Drücke (A), um die Schreibrechte zu deaktivieren, wenn du dazu aufgefordert wirst
-        1. Drücke (Start) um deinen 3DS neu zu starten
+        1. Dücke auf (Start), um die Konsole neu zu starten
 1. Versuche das Gerät ohne Cartridges (auch ohne Flashcards) einzuschalten
 1. Solltest du einen Hardmod und eine NAND-Sicherheitskopie besitzen, flashst du diese auf SysNAND
 1. Versuche in den Wiederherstellungsmodus zu starten und aktualisiere dein System

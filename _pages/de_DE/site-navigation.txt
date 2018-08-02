@@ -30,8 +30,6 @@ sitemap: false
 + [ntrboot flashen (3DS Multi System)](flashing-ntrboot-(3ds-multi-system))
 + [ntrboot flashen (DSi)](flashing-ntrboot-(dsi))
 + [ntrboot flashen (NDS)](flashing-ntrboot-(nds))
-+ [Los geht's (New 3DS)](get-started-(new-3ds))
-+ [Los geht's (Old 3DS)](get-started-(old-3ds))
 + [Los geht's](get-started)
 + [GodMode9 Bedienung](godmode9-usage)
 + [H2testw (Windows)](h2testw-(windows))

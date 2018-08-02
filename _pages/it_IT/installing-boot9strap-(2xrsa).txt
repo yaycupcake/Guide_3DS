@@ -12,7 +12,7 @@ Per estrarre i file `.7z` presenti in questa pagina, avrai bisogno di un gestore
 
 * L'ultima versione di [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
 * L'ultima versione di [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(la versione normale di boot9strap; non il file `devkit`, né il file `ntr`)*
-* The latest release of [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(the `.7z` file)*
+* L'ultima versione di [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(il file `.7z`)*
 * L'ultima versione di [Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest)
 
 ### Istruzioni
@@ -59,9 +59,6 @@ Per estrarre i file `.7z` presenti in questa pagina, avrai bisogno di un gestore
   + Se ottieni un errore, continua comunque alla pagina successiva
 
 ___
-
-Se hai un *New 3DS* con versione del software 2.1.0 *devi* [ripristinare il backup della NAND](godmode9-usage#nand_restore) prima di passare alla pagina [Completamento dell'installazione](finalizing-setup).
-{: .notice--danger}
 
 ### Prosegui con il [Completamento dell'installazione](finalizing-setup)
 {: .notice--primary}

@@ -60,8 +60,5 @@ To extract the `.7z` files linked on this page, you will need a file archiver li
 
 ___
 
-משתמשי New 3DS על 2.1.0 *חייבים* [לשחזר את הגיבוי שלהם](godmode9-usage#nand_restore) לפני שהם הולכים לעמוד [סיום התהליך](finalizing-setup).
-{: .notice--danger}
-
 ### Continue to [Finalizing Setup](finalizing-setup)
 {: .notice--primary}

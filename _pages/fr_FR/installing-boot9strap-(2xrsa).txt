@@ -60,8 +60,5 @@ Pour extraire les fichiers `.7z` sur cette page, vous aurez besoin d'un programm
 
 ___
 
-Noter que les utilisateurs de New 3DS 2.1.0 *doivent* [restaurer leur sauvegarde NAND](godmode9-usage#nand_restore) avant d'aller à la page [Finalisation de l'installation](finalizing-setup) .
-{: .notice--danger}
-
 ### Continuer vers [Finalisation de l'installation](finalizing-setup)
 {: .notice--primary}

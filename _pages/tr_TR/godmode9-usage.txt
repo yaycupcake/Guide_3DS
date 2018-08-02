@@ -107,10 +107,8 @@ This will only work if the Health & Safety injection was performed by GodMode9 (
 
 ## Dumping a Game Cartridge
 
-#### Prep Work
-
 {% capture notice %}
-+ Insert the game cartridge you intend to dump into your device
+Insert the game cartridge you intend to dump into your device
   + 3DS game cartridges will be dumped to an installable `.cia` format
   + NDS game cartridges will be dumped to a non-installable `.nds` format compatible with flashcarts and emulators
 {% endcapture %}
@@ -210,9 +208,7 @@ To identify a `<TitleID>.gbavc.sav` file's Title ID, you can get a listing of al
 
 ## Encrypting / Decrypting a .CIA file
 
-#### Prep Work
-
-+ For organizational purposes, copy each `.cia` file you wish to encrypt / decrypt to the `/cias/` folder on your SD card
+For organizational purposes, copy each `.cia` file you wish to encrypt / decrypt to the `/cias/` folder on your SD card
 {: .notice--info}
 
 1. Launch GodMode9 by holding (Start) during boot
@@ -232,6 +228,7 @@ To identify a `<TitleID>.gbavc.sav` file's Title ID, you can get a listing of al
 1. Select "Scripts..."
 1. Select "GM9Megascript"
 1. Select "Scripts from Plailect's Guide"
+1. Select "Remove NNID"
 1. Devam etmek için (A) basın
 1. Press (A) to unlock SysNAND (lvl1) writing, then input the key combo given
 1. Devam etmek için (A) basın

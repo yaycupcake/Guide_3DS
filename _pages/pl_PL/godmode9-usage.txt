@@ -107,10 +107,8 @@ To zadziała tylko wtedy, gdy podmienienie aplikacji Health & Safety zostało wy
 
 ## Zrzucanie (Dumping) kartridża z grą
 
-#### Przygotowanie
-
 {% capture notice %}
-+ Włóż kartridż z grą, którą chcesz zrzucić do swojego urządzenia
+Insert the game cartridge you intend to dump into your device
   + Kartridże z grami 3DS zostaną zrzucone do instalowalnego formatu `.cia`
   + Kartridże z grami NDS zostaną zrzucone do nieinstalowalnego formatu `.nds` kompatybilnego z flashcartami i emulatorami
 {% endcapture %}
@@ -210,9 +208,7 @@ Aby zidentyfikować Title ID pliku `<TitleID>.gbavc.sav` możesz zobaczyć list�
 
 ## Szyfrowanie / Odszyfrowywanie pliku .CIA
 
-#### Przygotowanie
-
-+ Dla celów organizacyjnych skopiuj każdy plik `.cia`, który chcesz zaszyfrować / odszyfrować do folderu `/cias/` na karcie SD
+For organizational purposes, copy each `.cia` file you wish to encrypt / decrypt to the `/cias/` folder on your SD card
 {: .notice--info}
 
 1. Uruchom GodMode9 poprzez trzymanie przycisku (Start) podczas uruchamiania konsoli
@@ -232,6 +228,7 @@ Aby zidentyfikować Title ID pliku `<TitleID>.gbavc.sav` możesz zobaczyć list�
 1. Wybierz "Scripts..."
 1. Select "GM9Megascript"
 1. Select "Scripts from Plailect's Guide"
+1. Select "Remove NNID"
 1. Naciśnij (A), aby kontynuować
 1. Wciśnij (A), aby odblokować zapis do SysNAND (lvl1), a następnie wprowadź przedstawioną kombinację przycisków
 1. Naciśnij (A), aby kontynuować

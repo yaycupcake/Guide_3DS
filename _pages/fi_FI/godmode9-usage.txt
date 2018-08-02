@@ -107,10 +107,8 @@ Tämä toimii vain, jos Health & Safety -injektio tehtiin GodMode9:n avulla (eik
 
 ## Pelikortin kopioiminen
 
-##### Valmistelut
-
 {% capture notice %}
-+ Syötä konsoliisi pelikortti, jonka sisällön haluat kopioida
+Insert the game cartridge you intend to dump into your device
   + 3DS-pelikortit kopioituvat asennettavaan `.cia`-muotoon
   + NDS-pelikortit kopioituvat ei-asennettavaan `.nds`-muotoon, joka on yhteensopiva flash-korttien ja emulaattorien kanssa
 {% endcapture %}
@@ -210,9 +208,7 @@ Jotta voisit tunnistaa `<sovellustunnus>.gbavc.sav`-tiedoston pelin, voit näytt
 
 ## CIA:n salaaminen / salauksen purkaminen
 
-##### Valmistelut
-
-+ Kun sinulla on `.cia`-tiedosto, jolle haluat suorittaa salauksen tai sen purkamisen, kopioi se käytännöllisyyden vuoksi SD-korttisi `/cias/`-kansioon
+For organizational purposes, copy each `.cia` file you wish to encrypt / decrypt to the `/cias/` folder on your SD card
 {: .notice--info}
 
 1. Avaa GodMode9 pitämällä (START)-painiketta pohjassa konsolin käynnistyessä
@@ -232,6 +228,7 @@ Jotta voisit tunnistaa `<sovellustunnus>.gbavc.sav`-tiedoston pelin, voit näytt
 1. Valitse "Scripts..."
 1. Select "GM9Megascript"
 1. Select "Scripts from Plailect's Guide"
+1. Select "Remove NNID"
 1. Paina (A):ta jatkaaksesi
 1. Paina (A):ta ottaaksesi käyttöön SysNANDiin kirjoittamisen (lvl1) ja syötä annettu painikeyhdistelmä
 1. Paina (A):ta jatkaaksesi

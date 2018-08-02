@@ -50,7 +50,7 @@ DEVI aver già installato Luma3DS e boot9strap per poter proseguire.
 1. Se assente, crea una cartella chiamata `3ds` nella directory principale della tua scheda SD
 1. Se assente, crea una cartella chiamata `cias` nella directory principale della tua scheda SD
 1. Copia il file `GodMode9.firm` dall'archivio `.zip` di GodMode9 dentro la cartella `/luma/payloads/` della tua scheda SD
-1. Copy the `gm9` folder from the GodMode9 `.zip` to the root of your SD card****
+1. Copia la cartella `gm9` presente nell'archivio `.zip` di GodMode9 nella directory principale della tua scheda SD****
 1. Copia il file immagine del CTRTransfer 11.5.0 con estensione `.bin` dall'archivio `.zip` del CTRTransfer alla cartella `/gm9/` presente nella scheda SD
 1. Copia il file `FBI.3dsx` nella cartella `/3ds/` nella tua scheda SD
 1. Reinserisci la scheda SD nel Nintendo 3DS
@@ -74,13 +74,13 @@ DEVI aver già installato Luma3DS e boot9strap per poter proseguire.
 1. Premi (B) due volte per ritornare al menu principale
 1. Premi il pulsante HOME per far apparire il menu delle azioni
 1. Seleziona "Scripts..."
-1. Select "GM9Megascript"
-1. Select "Scripts from Plailect's Guide"
-1. Select "CTRTransfer Ticket Copy"
+1. Seleziona "GM9Megascript"
+1. Seleziona "Scripts from Plailect's Guide"
+1. Seleziona "CTRTransfer Ticket Copy"
 1. Quando richiesto, premi (A) per procedere
 1. Premi il pulsante (A) per continuare
 1. Premi (B) per ritornare al menu principale
-1. Select "Exit"
+1. Seleziona "Exit"
 1. Se richiesto, premi (A) per ritirare le autorizzazioni di scrittura
 1. Premi (Start) per riavviare la console
 1. Aggiorna la console andando su Impostazioni della console, poi "Impostazioni generali", infine scorri a destra e seleziona "Aggiornamento"

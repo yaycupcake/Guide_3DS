@@ -107,10 +107,8 @@ Note that it is not possible to inject files into Health & Safety that are large
 
 ## Dumping a Game Cartridge
 
-#### 준비 작업
-
 {% capture notice %}
-+ 기기에 추출하고자 하는 게임 카드를 삽입해 주세요.
+Insert the game cartridge you intend to dump into your device
   + 3DS 게임 카드는 설치가 가능한 `.cia` 형식으로 추출됩니다.
   + NDS 게임 게임 카드는 설치가 불가능하고 플래시 게임 카드와 에뮬레이터에서만 실행이 가능한 `.nds` 형식으로 추출됩니다.
 {% endcapture %}
@@ -211,9 +209,7 @@ To identify a `<TitleID>.gbavc.sav` file's Title ID, you can get a listing of al
 
 ## Encrypting / Decrypting a .CIA file
 
-#### 준비 작업
-
-+ 작업에 앞서, 암호화 / 복호화하고자 하는 모든 `.cia` 파일을 SD 카드의 `/cias/` 폴더에 복사해 주세요.
+For organizational purposes, copy each `.cia` file you wish to encrypt / decrypt to the `/cias/` folder on your SD card
 {: .notice--info}
 
 1. Launch GodMode9 by holding (Start) during boot
@@ -233,6 +229,7 @@ To identify a `<TitleID>.gbavc.sav` file's Title ID, you can get a listing of al
 1. Select "Scripts..."
 1. Select "GM9Megascript"
 1. Select "Scripts from Plailect's Guide"
+1. Select "Remove NNID"
 1. (A)를 눌러 진행해 주세요.
 1. (A)를 눌려 SysNAND (lvl1) 쓰기 잠금을 풀고 주어진 키 조합을 입력해 주세요.
 1. (A)를 눌러 진행해 주세요.

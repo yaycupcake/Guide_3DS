@@ -48,21 +48,6 @@ To use the [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme) links on th
 1. Selecteer "Install and delete all CIAs"
 1. Druk op (Home) om FBI af te sluiten
 
-## Removing an NNID without formatting your device
-
-1. Launch GodMode9 by holding (Start) during boot
-1. Druk op de (Home) knop om het actiemenu te openen
-1. Select "Scripts..."
-1. Select "GM9Megascript"
-1. Select "Scripts from Plailect's Guide"
-1. Druk op (A) om door te gaan
-1. Druk op (A) om SysNAND (lvl1) writing te ontgrendelen en voer daarna de toetsencombinatie in die wordt gegeven
-1. Druk op (A) om door te gaan
-1. Druk op (B) om terug te gaan naar het hoofdmenu
-1. Select "Exit"
-1. Press (A) to relock write permissions if prompted
-1. Druk op (Start) om je 3DS opnieuw op te starten
-
 ## Cannot inject H&S on Gateway downgraded device
 
 This is caused by Gateway implementing a very shoddy downgrade method which leaves two versions of each app on the system. Een van de twee wordt niet gebruikt, maar het injectiesysteem snapt dit niet, waardoor de verkeerde H&S geinjecteerd wordt.

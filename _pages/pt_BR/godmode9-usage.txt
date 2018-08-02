@@ -107,10 +107,8 @@ Isto só irá funcionar caso a injeção do Informações sobre saúde e seguran
 
 ## Dumping a Game Cartridge
 
-#### Preparativos
-
 {% capture notice %}
-+ Insira o cartucho do jogo que você deseja copiar para o seu dispositivo
+Insert the game cartridge you intend to dump into your device
   + Cartuchos de jogos de 3DS serão copiados para um formato instalável `.cia`
   + Cartuchos de NDS serão copiados para um formato não-instalável `.nds` compatível com flashcarts e emuladores
 {% endcapture %}
@@ -210,9 +208,7 @@ To identify a `<TitleID>.gbavc.sav` file's Title ID, you can get a listing of al
 
 ## Encrypting / Decrypting a .CIA file
 
-#### Preparativos
-
-+ Para fins organizacionais, copie cada arquivo `.cia` que você deseja criptografar / descriptografar para a pasta `/cias/` no seu cartão SD
+For organizational purposes, copy each `.cia` file you wish to encrypt / decrypt to the `/cias/` folder on your SD card
 {: .notice--info}
 
 1. Inicie o GodMode9 segurando (Start) durante a inicialização
@@ -232,6 +228,7 @@ To identify a `<TitleID>.gbavc.sav` file's Title ID, you can get a listing of al
 1. Selecione "Scripts..."
 1. Select "GM9Megascript"
 1. Select "Scripts from Plailect's Guide"
+1. Select "Remove NNID"
 1. Aperte (A) para continuar
 1. Aperte (A) para destravar "SysNAND (lvl1) writing", então aperte a sequência de botões solicitada
 1. Aperte (A) para continuar

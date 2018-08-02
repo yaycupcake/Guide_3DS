@@ -6,9 +6,20 @@ title: "Cominciamo!"
 
 ### Lettura necessaria
 
-Console di modello, versioni del software e regioni diverse richiederanno procedure differenti per installare correttamente il Custom Firmware tramite boot9strap. In questa pagina potrai trovare il corretto punto di partenza per la tua console.
+Per proseguire, clicca sul collegamento corrispondente alla tua versione di sistema dalla tabella sottostante. I campi "da" e "a" sono inclusivi. Questo vuol dire che, per esempio, la riga "da 9.0.0 a 9.2.0" include 9.0.0, 9.1.0 e 9.2.0.
 
-Clicca sull'immagine della tua console per proseguire alla sezione corretta della guida. Il colore delle console nelle immagini potrebbe variare, ma verifica attentamente la disposizione dei pulsanti e la forma della console per assicurarti di selezionare quella corretta.
+Inoltre, ricorda che le ultime due colonne della tabella si riferiscono all'ultimo numero della tua versione (che corrisponde alla versione del browser installata nel sistema). Se la versione termina con -0 allora non hai un browser, mentre qualsiasi altro numero superiore a -0 indica che è installato un browser.
+
+Ad esempio, se dovessi avere la versione del software "5.0.0-0U", seguirai la colonna "Senza Browser" e la riga "da 5.0.0 a 5.1.0." perché la versione del software di sistema è inclusa in tale intervallo e non è presente un browser installato.
+
+Puoi vedere quale versione del software possiedi selezionando le Impostazioni della console e guardando in basso a destra sullo schermo superiore.
+
+![]({{ "/images/screenshots/system-version.png" | absolute_url }})
+{: .notice--info}
+
+**Se non sei in grado di seguire le instruzioni per la tua versione del software data la mancanza di alcuni prerequisiti, dovresti seguire un metodo nella colona "Tutte le Versioni" in quanto funzionerebbe a prescindere dalla versione di sistema.**
+
+Puoi effettuare in qualunque caso un [aggiornamento con scheda di gioco](cart-update) (o un normale aggiornamento del sistema) ad una versione successiva della stessa colonna per poter seguirne le istruzioni.
 
 Se hai già modificato il tuo 3DS in passato e hai installato un CFW basato su EmuNAND, segui tutti i passaggi mentre sei in SysNAND. Se richiesto, sostituisci qualunque file già esistente. Potrai trasferire i tuoi dati dall'EmuNAND alla SysNAND con B9S alla fine dell'installazione. Se usi menuhax, dovresti [cancellare gli extdata del menu HOME](troubleshooting#clear-home-menu-extdata) per rimuoverlo prima di iniziare questa guida.
 
@@ -37,23 +48,61 @@ Prima di iniziare è consigliabile verificare che la tua scheda SD sia priva di 
 
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
 
-### Tabella delle console
+### Tabella delle versioni
 
 <table>
   <colgroup>
-    <col span="1" style="width: 50%;">
-    <col span="1" style="width: 50%;">
+    <col span="1" style="width: 10%;">
+    <col span="1" style="width: 10%;">
+    <col span="1" style="width: 40%;">
   </colgroup>
   <thead>
     <tr>
-      <th style="text-align: center">New 3DS o New 2DS</th>
-      <th style="text-align: center">Old 3DS o Old 2DS</th>
+      <th style="text-align: center">Da</th>
+      <th style="text-align: center">A</th>
+      <th style="text-align: center">Senza Browser</th>
+      <th style="text-align: center">Con Browser</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: center"><a href="get-started-(new-3ds)"><img src="{{ base_path }}/images/new3ds.png" style="padding: 0.5em;"></a> <a href="get-started-(new-3ds)"><img src="{{ base_path }}/images/new3dsxl.png" style="padding: 0.5em;"></a> <a href="get-started-(new-3ds)"><img src="{{ base_path }}/images/new2dsxl.png" style="padding: 0.5em;"></a></td>
-      <td style="text-align: center"><a href="get-started-(old-3ds)"><img src="{{ base_path }}/images/old3ds.png" style="padding: 0.5em;"></a> <a href="get-started-(old-3ds)"><img src="{{ base_path }}/images/old3dsxl.png" style="padding: 0.5em;"></a> <a href="get-started-(old-3ds)"><img src="{{ base_path }}/images/2ds.png" style="padding: 0.5em;"></a></td>
+      <td style="text-align: center; font-weight: bold;">1.0.0</td>
+      <td style="text-align: center; font-weight: bold;">2.0.0</td>
+      <td style="text-align: center; font-weight: bold;" colspan="2">Usa un metodo per "tutte le versioni"</td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">2.1.0</td>
+      <td style="text-align: center; font-weight: bold;">2.1.0</td>
+      <td style="text-align: center; font-weight: bold;">Usa un metodo per "tutte le versioni"</td>
+      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-(2xrsa)">Installazione di boot9strap (2xrsa)</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">2.2.0</td>
+      <td style="text-align: center; font-weight: bold;">2.2.0</td>
+      <td style="text-align: center; font-weight: bold;" colspan="2">Usa un metodo per "tutte le versioni"</td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">3.0.0</td>
+      <td style="text-align: center; font-weight: bold;">8.1.0</td>
+      <td style="text-align: center; font-weight: bold;" colspan="2"><a href="installing-boot9strap-(soundhax)">Installazione di boot9strap (Soundhax)</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">9.0.0</td>
+      <td style="text-align: center; font-weight: bold;">11.3.0</td>
+      <td style="text-align: center; font-weight: bold;" colspan="2"><a href="homebrew-launcher-(soundhax)">Homebrew Launcher (Soundhax)</a></td>
+    </tr><tr>
+      <td style="text-align: center; font-weight: bold;">11.4.0</td>
+      <td style="text-align: center; font-weight: bold;">11.7.0</td>
+      <td style="text-align: center; font-weight: bold;" colspan="2">Usa un metodo per "tutte le versioni"</td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">11.8.0</td>
+      <td style="text-align: center; font-weight: bold;">11.8.0</td>
+      <td style="text-align: center; font-weight: bold;" colspan="2"><a href="installing-boot9strap-(dsiware)">Installazione di boot9strap (DSiWare)</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;" colspan="2">TUTTE LE VERSIONI<br></td>
+      <td style="text-align: center; font-weight: bold;" colspan="2"><p style="display: inline-block; margin-top: 1.3em; width: 47%"><a href="ntrboot">ntrboot</a><br><sub>(Richiede una flashcart compatibile)</sub></p><p style="display: inline-block; margin-top: 1.3em; vertical-align: super; width: 6%">or</p><p style="display: inline-block; margin-top: 1.3em; width: 47%"><a href="installing-boot9strap-(hardmod)">Installazione di boot9strap (Hardmod)</a><br><sub>(Richiede fare saldature)</sub></p></td>
     </tr>
   </tbody>
 </table>

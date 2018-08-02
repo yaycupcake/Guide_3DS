@@ -60,8 +60,5 @@ Um die `.7z` Dateien, welche auf dieser Seite verlinkt sind, entpacken zu könne
 
 ___
 
-New 3DS-Benutzer mit Firmware 2.1.0 *müssen* [ihr NAND-Backup wiederherstellen](godmode9-usage#nand_restore) bevor sie mit [Setup abschließen](finalizing-setup) fortfahren.
-{: .notice--danger}
-
 ### Fortfahren mit [Setup fertigstellen](finalizing-setup)
 {: .notice--primary}

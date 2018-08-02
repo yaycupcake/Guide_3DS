@@ -48,21 +48,6 @@ Ahhoz, hogy használhasd a [magnet](https://en.wikipedia.org/wiki/Magnet_URI_sch
 1. Válaszd az "Install and delete all CIAs" opciót
 1. Nyomd meg a (Home) gombot az FBI-ból való kilépéshez
 
-## NNID eltávolítása az eszközöd formázása nélkül
-
-1. Indítsd el a GodMode9-et a (Start) lenyomva tartásával boot közben
-1. Nyomd meg a (Home) gombot, hogy megjelenjen a műveleti menü
-1. Válaszd a "Scripts..." opciót
-1. Select "GM9Megascript"
-1. Select "Scripts from Plailect's Guide"
-1. Nyomd meg az (A) gombot a folytatáshoz
-1. Nyomd meg az (A) gombot, hogy feloldd a SysNAND (lvl1) írást, majd sorban nyomd meg a kijelzett gombokat
-1. Nyomd meg az (A) gombot a folytatáshoz
-1. Nyomd meg a (B) gombot, hogy visszamenj a főmenübe
-1. Select "Exit"
-1. Nyomd meg az (A) gombot az írási engedélyek visszavonásához
-1. Nyomd meg a (Start) gombot az eszköz újraindításához
-
 ## Nem lehet injektálni H&S-be Gateway segítségével downgrade-elt készüléken
 
 Ezt a jelenséget a Gateway eléggé vacakul implementált downgrade eljárása okozza, ami minden alkalmazásból két verziót hagy a rendszeren. Az egyik verzió mindig használaton kívül van, de a H&S injektálást végző rendszert ez megzavarja, ami aztán a rossz verzióba injektál.

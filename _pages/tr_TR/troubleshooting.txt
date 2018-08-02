@@ -48,21 +48,6 @@ To use the [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme) links on th
 1. "Install and delete all CIAs" 'i seçin
 1. FBI'dan çıkmak için Ana Menü(Home) tuşuna basın
 
-## Removing an NNID without formatting your device
-
-1. Launch GodMode9 by holding (Start) during boot
-1. Press (Home) to bring up the action menu
-1. Select "Scripts..."
-1. Select "GM9Megascript"
-1. Select "Scripts from Plailect's Guide"
-1. Devam etmek için (A) basın
-1. SysNAND (lvl 1) yazısının kilidini açmak için (A) tuşuna basın, ardından verilen tuş kombosunu açılan kutuyu girin
-1. Devam etmek için (A) basın
-1. Press (B) to return to the main menu
-1. Select "Exit"
-1. Press (A) to relock write permissions if prompted
-1. Cihazı yeniden başlatmak için (Start) basın
-
 ## Cannot inject H&S on Gateway downgraded device
 
 This is caused by Gateway implementing a very shoddy downgrade method which leaves two versions of each app on the system. Biri gereksizdir, ama Decrypt9'ın şaşırmasına ve yanlış olana enjekte etmesine sebep olur.
@@ -79,7 +64,7 @@ This is caused by Gateway implementing a very shoddy downgrade method which leav
 1. İki adet app ve tmd dosyası seti olduğuna dikkat edin, biri büyük harflerle (`.TMD` and `.APP`) biri küçük harflerle (`.tmd` and `.app`)
 1. (R) tetikleyici basılı tutarken (Y)'ye basarak yeni dizin oluşturun
 1. (A)'ya basın ve ismi 'newdir' onaylayın (ne olduğunun önemi yok)
-1. Press (A) to unlock SysNAND (lvl1) writing, then input the key combo given
+1. SysNAND (lvl 1) yazısının kilidini açmak için (A) tuşuna basın, ardından verilen tuş kombosunu açılan kutuyu girin
 1. Press (B) to decline relocking write permissions if prompted
 1. Büyük harfli (`.TMD` and `.APP`) olanların üzerinde (L) tetiğine basarak işaretleyin
 1. (Y)'ye basarak dosyaları kopyalayın
@@ -120,7 +105,7 @@ Browser based exploits (such as browserhax or 2xrsa) are often unstable and cras
         1. Press (B) to return to the main menu
         1. Select "Exit"
         1. Press (A) to relock write permissions if prompted
-        1. Press (Start) to reboot your device
+        1. Cihazı yeniden başlatmak için (Start) basın
 1. Hiçbir kartuş takılı değilken açmayı deneyin
 1. If you have a hardmod and a NAND backup, flash the backup back to SysNAND
 1. Try booting into recovery mode and updating your system

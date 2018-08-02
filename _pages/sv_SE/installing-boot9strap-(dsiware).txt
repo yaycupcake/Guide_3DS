@@ -4,7 +4,7 @@ title: "Installing boot9strap (DSiWare)"
 
 {% include toc title="Table of Contents" %}
 
-### Required Reading
+### Obligatorisk läsning
 
 There are three different methods of installing boot9strap using DSiWare on 11.8.0.
 

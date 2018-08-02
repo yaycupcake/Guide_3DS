@@ -108,10 +108,8 @@ Dies wird nur funktionieren, wenn die Injektion in Gesundheit & Sicherheit von G
 
 ## Dumpen einer Spiele-Cartridge
 
-#### Vorbereitung
-
 {% capture notice %}
-+ Lege die Spielecartridge ein, die du auf deine Konsole dumpen möchtest
+Insert the game cartridge you intend to dump into your device
   + 3DS Spielecartridges werden in ein installierbares `.cia` Format umgewandelt
   + NDS-Spielecartridges werden in ein nicht installierbares `.nds`-Format, kompatibel mit Flashcarts und Emulatoren, umgewandelt
 {% endcapture %}
@@ -213,9 +211,7 @@ Markiere dazu `[A:] SYSNAND SD` während du (R) und (A) zeitgleich drückst. Dan
 
 ## Entschlüsselung / Verschlüsselung von .CIA Dateien
 
-#### Vorbereitung
-
-+ Für organisierungs zwecken kopiere jede `.cia` datei die du verschlüsseln / entschlüsseln möchtest in den `/cias/` Ordner auf deiner SD Karte
+For organizational purposes, copy each `.cia` file you wish to encrypt / decrypt to the `/cias/` folder on your SD card
 {: .notice--info}
 
 1. Starte GodMode9, indem du während dem Starten deiner Konsole (Start) gedrückt hältst
@@ -235,6 +231,7 @@ Markiere dazu `[A:] SYSNAND SD` während du (R) und (A) zeitgleich drückst. Dan
 1. Wähle "Scripts..."
 1. Select "GM9Megascript"
 1. Select "Scripts from Plailect's Guide"
+1. Select "Remove NNID"
 1. Drücke (A), um fortzufahren
 1. Drücke (A), um die SysNAND (Stufe 1) Bearbeitung zu aktivieren. Dann gebe die angegebene Tastenkombination ein
 1. Drücke (A) um fortzufahren

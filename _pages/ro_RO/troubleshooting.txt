@@ -48,21 +48,6 @@ Pentru a folosi linkurile [magnetice](https://en.wikipedia.org/wiki/Magnet_URI_s
 1. Selectaţi "Install and delete all CIAs"
 1. Apăsați (Home) pentru a ieși din FBI
 
-## Scoaterea NNID-ului fără a formata dispozitivul dumneavoastră
-
-1. Lansați GodMode9 ținând apăsat (Start) în timpul pornirii
-1. Apăsați (Home) pentru a arăta meniul de acțiuni
-1. Selectați "Scripts..."
-1. Select "GM9Megascript"
-1. Select "Scripts from Plailect's Guide"
-1. Apăsați (A) pentru a continua
-1. Apăsați (A) ca să deblocați scrierea în SysNAND (lvl1), apoi introduceți combinația de butoane care vi se cere
-1. Apăsați (A) pentru a continua
-1. Apăsați (B) ca să vă întoarceți în meniul principal
-1. Select "Exit"
-1. Apăsați (A) ca să reblocați permisiunile de scriere dacă vi se cere
-1. Apăsați (Start) pentru a reporni dispozitivul
-
 ## Nu se poate injecta H&S dispozitivelor retrogradate cu Gateway
 
 Acest lucru este cauzat de implementarea unei metode slabe de a retrograda Gateway-ul, care lasă două versiuni din fiecare aplicație pe sistem. Una dintre ele nu este utilizată, dar creează confuzii sistemului de injecare H&S, cauzând o injectare greșită.

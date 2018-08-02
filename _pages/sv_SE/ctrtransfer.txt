@@ -4,7 +4,7 @@ titel: ”CTRTransfer”
 
 {% include toc title="Table of Contents" %}
 
-### Required Reading
+### Obligatorisk läsning
 
 Detta är tilläggsavsnitt för att installera en 11.5.0 CTRTransfer image till din enhet.
 

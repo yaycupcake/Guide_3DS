@@ -60,8 +60,5 @@ Ahhoz, hogy kicsomagold az oldalon található `.7z` fájlokat, egy fájl archiv
 
 ___
 
-A 2.1.0-es verziójú *New 3DS* felhasználóknak *kötelező* a [NAND biztonsági mentésük visszaállítása](godmode9-usage#nand_restore), még mielőtt [véglegesítenék a telepítést](finalizing-setup).
-{: .notice--danger}
-
 ### Tovább a [telepítés véglegesítésére](finalizing-setup)
 {: .notice--primary}

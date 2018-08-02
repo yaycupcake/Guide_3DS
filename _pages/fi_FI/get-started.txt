@@ -6,9 +6,20 @@ title: "Aloitus"
 
 ### Tärkeää tietoa
 
-Eri laitemallit, versiot ja alueet edellyttävät erilaisen prosessin saavuttaaksesi boot9strap-käyttöisen mukautetun laiteohjelmiston. Tämä sivu opastaa sinut konsolillesi sopivaan aloituskohtaan.
+Valitse konsolisi versiota vastaava sivu alta löytyvästä taulukosta. Huomaa, että versionumerot kentissä "versiosta" ja "versioon" ovat sisältyviä. Tämä tarkoittaa esimerkiksi sitä, että rivi "versiosta 9.0.0 versioon 9.2.0" kattaa versiot 9.0.0, 9.1.0 ja 9.2.0.
 
-Napsauta konsolisi kuvaa päätyäksesi oikealle sivulle. Konsolien väritykset saattavat vaihdella, mutta kiinnitä huomiota painikkeiden sijaintiin sekä eri mallien ominaisuuksiin, jotta valitset varmasti oikean mallin.
+Huomaa, että listan kaksi viimeistä saraketta viittaavat konsolisi versionumeron viimeiseen lukuun (joka vastaa järjestelmään asennetun selaimen versiota). Jos versionumero on -0, järjestelmässäsi ei ole selainta. Mikä tahansa suurempi luku kuin -0 taas kertoo, että selain on asennettuna.
+
+Esimerkkinä: jos versionumerosi on "5.0.0-0U", sinun tulee seurata "Ei selainta" -saraketta sekä "versiosta 5.0.0 versioon 5.1.0" -riviä, koska järjestelmäsi versio on kyseisellä välillä, eikä siinä ole selainta asennettuna.
+
+Järjestelmäsi versio löytyy yläruudun oikeasta alakulmasta järjestelmäasetuksissa (System Settings).
+
+![]({{ "/images/screenshots/system-version.png" | absolute_url }})
+{: .notice--info}
+
+**Jos et voi seurata versiosi mukaisia ohjeita, koska sen edellytykset eivät täyty, tutustu "Kaikki versiot" -rivillä oleviin menetelmiin, jotka toimivat järjestelmäversiosta riippumatta.**
+
+Voit myös päivittää järjestelmäsi uudempaan versioon joko [kortti-](cart-update) tai tavallisella päivityksellä, ja jatkaa sitten ohjeiden seuraamista saman sarakkeen kohdalta.
 
 Jos olet jo aikaisemmin hakkeroinut 3DS-konsolisi, ja sinulla on EmuNAND-pohjainen CFW-kokoonpano, seuraa vain kaikkia ohjeita ollessasi SysNANDissa. Korvaa aina kehotettaessa kaikki tiedostot, jotka ovat jo olemassa. Tietosi tullaan siirtämään EmuNANDilta uuteen B9S-asennukseesi lopussa. If you use menuhax, you should [clear Home Menu's extdata](troubleshooting#clear-home-menu-extdata) to remove it before beginning.
 
@@ -37,23 +48,61 @@ On käynyt ilmi, että Nintendo jakaa CFW-käyttäjille porttikieltoja verkkotoi
 
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
 
-### Konsolitaulukko
+### Versiotaulukko
 
 <table>
   <colgroup>
-    <col span="1" style="width: 50%;">
-    <col span="1" style="width: 50%;">
+    <col span="1" style="width: 10%;">
+    <col span="1" style="width: 10%;">
+    <col span="1" style="width: 40%;">
   </colgroup>
   <thead>
     <tr>
-      <th style="text-align: center">New 3DS tai New 2DS</th>
-      <th style="text-align: center">Vanha 3DS tai vanha 2DS</th>
+      <th style="text-align: center">Versiosta</th>
+      <th style="text-align: center">Versioon</th>
+      <th style="text-align: center">Ei selainta</th>
+      <th style="text-align: center">Selain</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: center"><a href="get-started-(new-3ds)"><img src="{{ base_path }}/images/new3ds.png" style="padding: 0.5em;"></a> <a href="get-started-(new-3ds)"><img src="{{ base_path }}/images/new3dsxl.png" style="padding: 0.5em;"></a> <a href="get-started-(new-3ds)"><img src="{{ base_path }}/images/new2dsxl.png" style="padding: 0.5em;"></a></td>
-      <td style="text-align: center"><a href="get-started-(old-3ds)"><img src="{{ base_path }}/images/old3ds.png" style="padding: 0.5em;"></a> <a href="get-started-(old-3ds)"><img src="{{ base_path }}/images/old3dsxl.png" style="padding: 0.5em;"></a> <a href="get-started-(old-3ds)"><img src="{{ base_path }}/images/2ds.png" style="padding: 0.5em;"></a></td>
+      <td style="text-align: center; font-weight: bold;">1.0.0</td>
+      <td style="text-align: center; font-weight: bold;">2.0.0</td>
+      <td style="text-align: center; font-weight: bold;" colspan="2">Käytä kaikille versioille soveltuvaa menetelmää</td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">2.1.0</td>
+      <td style="text-align: center; font-weight: bold;">2.1.0</td>
+      <td style="text-align: center; font-weight: bold;">Käytä kaikille versioille soveltuvaa menetelmää</td>
+      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-(2xrsa)">Installing boot9strap (2xrsa)</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">2.2.0</td>
+      <td style="text-align: center; font-weight: bold;">2.2.0</td>
+      <td style="text-align: center; font-weight: bold;" colspan="2">Käytä kaikille versioille soveltuvaa menetelmää</td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">3.0.0</td>
+      <td style="text-align: center; font-weight: bold;">8.1.0</td>
+      <td style="text-align: center; font-weight: bold;" colspan="2"><a href="installing-boot9strap-(soundhax)">Installing boot9strap (Soundhax)</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">9.0.0</td>
+      <td style="text-align: center; font-weight: bold;">11.3.0</td>
+      <td style="text-align: center; font-weight: bold;" colspan="2"><a href="homebrew-launcher-(soundhax)">Homebrew Launcher (Soundhax)</a></td>
+    </tr><tr>
+      <td style="text-align: center; font-weight: bold;">11.4.0</td>
+      <td style="text-align: center; font-weight: bold;">11.7.0</td>
+      <td style="text-align: center; font-weight: bold;" colspan="2">Käytä kaikille versioille soveltuvaa menetelmää</td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">11.8.0</td>
+      <td style="text-align: center; font-weight: bold;">11.8.0</td>
+      <td style="text-align: center; font-weight: bold;" colspan="2"><a href="installing-boot9strap-(dsiware)">Boot9strapin asentaminen (DSiWare)</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;" colspan="2">Kaikki versiot<br></td>
+      <td style="text-align: center; font-weight: bold;" colspan="2"><p style="display: inline-block; margin-top: 1.3em; width: 47%"><a href="ntrboot">Ntrboot</a><br><sub>(vaatii yhteensopivan flash-kortin)</sub></p><p style="display: inline-block; margin-top: 1.3em; vertical-align: super; width: 6%">tai</p><p style="display: inline-block; margin-top: 1.3em; width: 47%"><a href="installing-boot9strap-(hardmod)">Boot9strapin asentaminen (laitteistomodaus)</a><br><sub>(vaatii juottamista)</sub></p></td>
     </tr>
   </tbody>
 </table>

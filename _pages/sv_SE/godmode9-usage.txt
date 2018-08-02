@@ -7,7 +7,7 @@ title: "GodMode9 Usage"
 For support with GodMode9, as well as help with scripting and to get updates and info, join the [GodMode9 Discord server](https://discord.gg/EGu6Qxw).
 {: .notice--primary}
 
-### Required Reading
+### Obligatorisk läsning
 
 GodMode9 is a full access file browser for the Nintendo 3DS console, giving you access to your SD card, the FAT partitions inside your SysNAND and EmuNAND, and basically anything else. Among other functionality, you can copy, delete, rename files, and create folders.
 
@@ -107,10 +107,8 @@ This will only work if the Health & Safety injection was performed by GodMode9 (
 
 ## Dumping a Game Cartridge
 
-#### Prep Work
-
 {% capture notice %}
-+ Insert the game cartridge you intend to dump into your device
+Insert the game cartridge you intend to dump into your device
   + 3DS game cartridges will be dumped to an installable `.cia` format
   + NDS game cartridges will be dumped to a non-installable `.nds` format compatible with flashcarts and emulators
 {% endcapture %}
@@ -210,9 +208,7 @@ To identify a `<TitleID>.gbavc.sav` file's Title ID, you can get a listing of al
 
 ## Encrypting / Decrypting a .CIA file
 
-#### Prep Work
-
-+ For organizational purposes, copy each `.cia` file you wish to encrypt / decrypt to the `/cias/` folder on your SD card
+For organizational purposes, copy each `.cia` file you wish to encrypt / decrypt to the `/cias/` folder on your SD card
 {: .notice--info}
 
 1. Starta GodMode9 genom att hålla (Start) under uppstart
@@ -232,6 +228,7 @@ To identify a `<TitleID>.gbavc.sav` file's Title ID, you can get a listing of al
 1. Select "Scripts..."
 1. Select "GM9Megascript"
 1. Select "Scripts from Plailect's Guide"
+1. Select "Remove NNID"
 1. Press (A) to continue
 1. Tryck på (A) för att låsa upp skrivning till SysNAND (lvl1) och mata sedan in knappkombinationen som ges
 1. Press (A) to continue

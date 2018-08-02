@@ -27,10 +27,10 @@ title: "Установка boot9strap (Инъекция в сохранения 
   + **Legends of Exidia**
   + **Guitar Rock Tour**  
   + **The Legend of Zelda: Four Swords**  
-* Свежая версия [3ds_dsiwarehax_installer](https://github.com/yellows8/3ds_dsiwarehax_installer/releases)
+* Свежая версия [3ds_dsiwarehax_installer](https://github.com/zoogie/3ds_dsiwarehax_installer/releases/latest)
 * Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 * Свежая версия [b9sTool](https://github.com/zoogie/b9sTool/releases/latest)
-* The latest release of [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(the `.7z` file)*
+* Свежая версия [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(`.7z-архив`)*
 * Свежая версия [Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest)
 
 ### Инструкция
@@ -132,7 +132,7 @@ title: "Установка boot9strap (Инъекция в сохранения 
 1. Выполните одно из следующих действий
     + Продолжайте выполнять оставшуюся часть инструкции для **целевой 3DS**, а затем подождите неделю *(не восстанавливайте бэкап NAND до переноса данных)* и выполните Передачу данных уже с **целевой 3DS** на **исходную** *(помните, что вы не можете перенести данные с New 3DS или New 2DS на Old 3DS или Old 2DS)*
     + Позвоните в Nintendo и скажите им, что у вас больше нет доступа к устройству, к которому привязан ваш NNID (в нашем случае, это уже **целевая 3DS**) и вы бы хотели привязать аккаунт к новому устройству (в нашем случае, это **исходная 3DS**)
-    + Вы можете просто [удалить NNID](troubleshooting#удаление-nnid-без-форматирования-устройства) на **исходной 3DS**, если вы хотите оставить его на **целевой 3DS**
+    + Вы можете просто [удалить NNID](godmode9-usage#удаление-nnid-без-форматирования-устройства) на **исходной 3DS**, если вы хотите оставить его на **целевой 3DS**
 1. Перезагрузите **исходную 3DS**, держа нажатой кнопку (Start) во время загрузки, чтобы запустить GodMode9
 1. Если вам предложат создать бэкап важных файлов, нажмите кнопку (A) чтобы сделать это, затем нажмите (A) чтобы продолжить после завершения
 1. Если вам предложат выставить RTC дату и время, нажмите кнопку (A) чтобы сделать это, настройте дату и время, затем нажмите (A) чтобы продолжить

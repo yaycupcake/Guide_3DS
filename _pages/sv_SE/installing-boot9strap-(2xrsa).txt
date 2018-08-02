@@ -4,7 +4,7 @@ title: "Installing boot9strap (2xrsa)"
 
 {% include toc title="Table of Contents" %}
 
-### Required Reading
+### Obligatorisk läsning
 
 To extract the `.7z` files linked on this page, you will need a file archiver like [7-Zip](http://www.7-zip.org/) or [The Unarchiver](https://theunarchiver.com/).
 
@@ -59,9 +59,6 @@ To extract the `.7z` files linked on this page, you will need a file archiver li
   + If you get an error, just continue the next page
 
 ___
-
-New 3DS 2.1.0 users *must* [restore their NAND backup](godmode9-usage#nand_restore) before going to the [Finalizing Setup](finalizing-setup) page.
-{: .notice--danger}
 
 ### Continue to [Finalizing Setup](finalizing-setup)
 {: .notice--primary}

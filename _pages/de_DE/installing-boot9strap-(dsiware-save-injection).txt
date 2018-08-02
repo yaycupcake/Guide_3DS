@@ -27,7 +27,7 @@ Wenn du nicht die richtige `.firm`-Datei benutzt, die dem Ziel-3DS entspricht, w
   + **Legends of Exidia**
   + ** Guitar Rock Tour**  
   + ** The Legend of Zelda: Four Swords **  
-* Die neueste Version von [3ds_dsiwarehax_installer] (https://github.com/yellows8/3ds_dsiwarehax_installer/releases)
+* The latest release of [3ds_dsiwarehax_installer](https://github.com/zoogie/3ds_dsiwarehax_installer/releases/latest)
 * The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 * The latest release of [b9sTool](https://github.com/zoogie/b9sTool/releases/latest)
 * The latest release of [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(the `.7z` file)*
@@ -132,7 +132,7 @@ Use a [save manager](https://github.com/BernardoGiordano/Checkpoint/releases/lat
 1. Wähle eine der folgenden Möglichkeiten
     + Befolge die restlichen Abschnitte und dann die komplette Anleitung auf **dem Ziel-3DS**, warte daraufhin eine Woche *(stelle dein NAND Backup nicht wieder her bevor du den Systemtransfer gemacht hast)*, übertrage danach das System vom **Ziel-3DS** zurück auf den **Quell-3DS** *(vergiss nicht, dass du keine Übertragung von einem New 3DS oder New 2DS zurück auf einen Old 3DS oder Old 2DS machen kannst)*
     + Rufe Nintendo an und sage, dass du keinen Zugriff mehr auf das Gerät hast, mit welchem deine NNID verbunden ist (in diesem Fall ist das **der Ziel-3DS**), und bitte um eine Verlinkung mit dem einem anderen Gerät (in diesem Fall ist das **der Quell-3DS**)
-    + Du kannst auch [die NNID](troubleshooting#removing-an-nnid-without-formatting-your-device) vom **Quell-3DS** entfernen, wenn du sie auf dem **Ziel-3DS** verwenden möchtest
+    + You can also just [remove the NNID](godmode9-usage#removing-an-nnid-without-formatting-your-device) from **the source 3DS** if you'd prefer it remain on **the target 3DS**
 1. Starte den **Ausgangs 3DS** neu, während du (Start) drückst um in GodMode9 zu kommen
 1. Wenn du aufgefordert wirst, ein "essential files backup" durchzuführen, drücke (A). Drücke erneut (A) nachdem es abgeschlossen ist
 1. Wenn du aufgefordert wirst Datum und Uhrzeit der "RTC" (Real Time Clock, Echtzeituhr) zu korrigieren, drücke (A), stelle Datum und Uhrzeit ein und drücke (A) um fortzufahren

@@ -21,7 +21,7 @@ Se non usi il file `.firm` corrispondente al 3DS di destinazione, BRICKERAI la c
 
 * Due console 3DS
   + **Il 3DS di partenza**: la console con boot9strap aggiornato *all’ultima versione*
-  + **The target 3DS**: the device on stock firmware *on 11.8.0*
+  + **Il 3DS di destinazione**: la console con versione del software *11.8.0*
 * Acquistare (o essere già in possesso) di un gioco DSiWare compatibile dall'eShop sul **3DS di origine**
   + Una copia pirata del gioco **non** funzionerà
   + La lista completa dei giochi compatibili si può trovare alla pagina [Installazione di boot9strap (lista dei giochi per inject su DSiWare)](installing-boot9strap-(dsiware-game-injection-list))
@@ -30,8 +30,8 @@ Se non usi il file `.firm` corrispondente al 3DS di destinazione, BRICKERAI la c
   + <i class="fa fa-magnet" aria-hidden="true" title="Questo è un link magnet. Per scaricare il file devi utilizzare un client torrent."></i> - [DSiWare_eur_sudokuhax_injection.zip](magnet:?xt=urn:btih:1542dd3c2bf7785b1e7a6dda3887fc8fb2710685&dn=DSiWare_eur_sudokuhax_injection.zip&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce)
   + <i class="fa fa-magnet" aria-hidden="true" title="Questo è un link magnet. Per scaricare il file devi utilizzare un client torrent."></i> - [DSiWare_jpn_4swordshax_injection.zip](magnet:?xt=urn:btih:1bcc90c93da91c9876671f6218084207def90db9&dn=DSiWare_jpn_4swordshax_injection.zip&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce)
 * L'ultima versione di [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
-* The latest release of [b9sTool](https://github.com/zoogie/b9sTool/releases/latest)
-* The latest release of [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(the `.7z` file)*
+* L'ultima versione di [b9sTool](https://github.com/zoogie/b9sTool/releases/latest)
+* L'ultima versione di [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(il file `.7z`)*
 * L'ultima versione di [Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest)
 
 ### Istruzioni
@@ -50,15 +50,15 @@ Usa un [save manager](https://github.com/BernardoGiordano/Checkpoint/releases/la
 1. Avvia il **3DS di partenza** tenendo premuto (Start) per avviare GodMode9
 1. Premi il pulsante HOME per far apparire il menu delle azioni
 1. Seleziona "Scripts..."
-1. Select "GM9Megascript"
-1. Select "Backup Options"
-1. Select "SysNAND Backup"
+1. Seleziona "GM9Megascript"
+1. Seleziona "Backup Options"
+1. Seleziona "SysNAND Backup"
 1. Premi (A) per confermare
   + Questo processo durerà un po'
-  + If you get an error, make sure that you have at least 1.3GB of free space on your SD card
+  + Se si verifica un errore, assicurati di avere nella scheda SD almeno 1.3GB liberi
 1. Premi il pulsante (A) per continuare
 1. Premi (B) per ritornare al menu principale
-1. Select "Exit"
+1. Seleziona "Exit"
 1. Se richiesto, premi (A) per ritirare le autorizzazioni di scrittura
 1. Tenendo premuto (R), premi (B) per rimuovere la scheda SD del **3DS di partenza**
 1. Inserisci la scheda SD del **3DS di partenza** nel tuo computer
@@ -129,7 +129,7 @@ Usa un [save manager](https://github.com/BernardoGiordano/Checkpoint/releases/la
 1. Esegui una delle seguenti operazioni
     + Segui il resto della guida sul **3DS di destinazione**, aspetta una settimana *(non ripristinare il backup della tua NAND prima del Trasferimento dati)*, infine effettua un Trasferimento dati dal **3DS di destinazione** al **3DS di partenza** *(ricorda che non puoi effettuare un Trasferimento dati da New 3DS o New 2DS ad un Old 3DS o Old 2DS)*
     + Chiama Nintendo e dì che non hai più accesso alla console al quale è abbinato il NNID (che è il **3DS di destinazione**), e vorresti abbinarlo ad un dispositivo diverso (il **3DS di partenza**)
-    + Puoi anche [rimuovere l'NNID](troubleshooting#removing-an-nnid-without-formatting-your-device) dal **3DS di partenza** se preferisci che rimanga sul **3DS di destinazione**
+    + Puoi anche [rimuovere l'NNID](godmode9-usage#removing-an-nnid-without-formatting-your-device) dal **3DS di partenza** se preferisci che rimanga sul **3DS di destinazione**
 1. Riavvia il **3DS di partenza** tenendo premuto (Start) per avviare GodMode9
 1. Entra nella cartella `[0:] SDCARD` -> `gm9` -> `out`
 1. Premi (A) su `<date>_<serialnumber>_sysnand_###.bin` per selezionarlo, quindi seleziona "NAND image options...", ed infine seleziona "Restore SysNAND (safe)"
@@ -141,7 +141,7 @@ Usa un [save manager](https://github.com/BernardoGiordano/Checkpoint/releases/la
 1. Se richiesto, premi (A) per ritirare le autorizzazioni di scrittura
 1. Premi (Start) per riavviare **il 3DS di partenza**
 
-#### Section V - Flashing the target 3DS's FIRM
+#### Sezione V - Flash del FIRM sul 3DS di destinazione
 
 1. Copia il file `boot.firm` dall'archivio `.7z` di Luma3DS nella directory principale della tua scheda SD
 1. Copia il file `boot.nds` (B9STool) nella directory principale della scheda SD del **3DS di destinazione**
@@ -153,13 +153,13 @@ Usa un [save manager](https://github.com/BernardoGiordano/Checkpoint/releases/la
 1. Esci da b9sTool, quindi spegni la tua console
   + Potresti dover forzare lo spegnimento tenendo premuto il pulsante di accensione
 1. Accendi il **3DS di destinazione**
-1. Put your SD card in your computer, then copy `BACKUP.bin` from the `boot9strap` folder to a safe location on your computer
+1. Inserisci la scheda SD nel tuo computer, quindi copia il file`BACKUP.bin` dalla cartella `boot9strap` nella tua scheda SD in una posizione sicura sul tuo computer
   + Crea dei backup in più posti (come ad esempio un servizio di storage dei file online)
   + Questi backup ti salveranno da un brick nel caso dovesse accadere qualcosa in futuro
 1. Reinserisci la tua scheda SD nel **3DS di destinazione**
 1. Accendi il **3DS di destinazione**
 
-#### Section VI - Configuring Luma3DS
+#### Sezione VI - Configurare Luma3DS
 
 1. Avvia la tua console tenendo premuto (Select) per avviare il menu delle opzioni di Luma
 1. Usa il pulsante (A) e il D-Pad per abilitare le seguenti opzioni:    

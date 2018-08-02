@@ -6,9 +6,20 @@ title: "Începeți"
 
 ### Lectură obligatorie
 
-Modelele diferite de dispozitive, versiuni și regiuni vor avea nevoie de pași diferiți pentru a ajunge la scopul de a avea Custom Firmware cu boot9strap. Această pagină vă va arăta de unde să începeți pentru dispozitivul dumneavoastră.
+Alegeți pagina corespunzătore versiunii dumneavoastră din tabelul de mai jos. Țineți cont cum câmpurile "de la" și "până la" sunt inclusiv. Asta înseamnă că, de exemplu, rândul "de la 9.0.0 până la 9.2.0" cuprinde 9.0.0, 9.1.0, și 9.2.0.
 
-Apăsați pe imaginea dispozitivului dumneavoastră ca să mergeți pe pagina corespunzătoare. Culoarea dispozitivelor din imagine poate varia, dar fiți atent la poziția butoanelor și a caracteristicilor fiecărui dispozitiv ca să aveți grijă că selectați dispozitivul corect.
+În plus, țineţi cont că ultimele două coloane ale tabelului se referă la ultimul număr al versiunii (care corespunde versiunii browserului instalat pe dispozitiv). Dacă versiunea este -0 atunci nu aveți un browser, în timp ce orice alt număr mai mare decât -0 arată că aveți browser instalat.
+
+În cazul versiunii "5.0.0-0U" de exemplu, urmăriți coloana "Fără Browser" și rândul 5.0.0 până la 5.1.0 din cauza că sistemul este pe o versiune din acel interval și nu are browserul instalat.
+
+Versiunea dispozitvului poate fi găsit în colțul din dreapta jos al ecranului superior din System Settings.
+
+![]({{ "/images/screenshots/system-version.png" | absolute_url }})
+{: .notice--info}
+
+**Dacă nu puteți să urmați toate instrucțiunile corespunzătoare versiunii specifice din cauza lipsei de cerințe, atunci ar trebui să vedeți rândul "Toate Versiunile" pentru metode care funcționează indiferent de versiunea de sistem.**
+
+Pentru toate versiunile puteți de asemenea face [actualizare cu un card de joc](cart-update) (sau să faceți o actualizare de sistem obișnuită) spre o versiune superioară din aceeași coloană pentru a urma instrucțiunile.
 
 Dacă v-ați modat deja 3DS-ul înainte și aveți instalat un CFW bazat pe EmuNAND, urmați toate instrucțiunile în SysNAND. Înlocuiţi orice fişiere care există deja. Datele dumneavoastră vor fi transferate de pe EmuNAND pe noua instalare de B9S la sfărșit. If you use menuhax, you should [clear Home Menu's extdata](troubleshooting#clear-home-menu-extdata) to remove it before beginning.
 
@@ -37,23 +48,61 @@ Au existat rapoarte de un val de banuri adresate utilizatorilor de CFW de către
 
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
 
-### Tabel de dispozitive
+### Tabel de versiuni
 
 <table>
   <colgroup>
-    <col span="1" style="width: 50%;">
-    <col span="1" style="width: 50%;">
+    <col span="1" style="width: 10%;">
+    <col span="1" style="width: 10%;">
+    <col span="1" style="width: 40%;">
   </colgroup>
   <thead>
     <tr>
-      <th style="text-align: center">New 3DS sau New 2DS</th>
-      <th style="text-align: center">Old 3DS sau Old 2DS</th>
+      <th style="text-align: center">De la</th>
+      <th style="text-align: center">Până la</th>
+      <th style="text-align: center">Fără Browser</th>
+      <th style="text-align: center">Cu Browser</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: center"><a href="get-started-(new-3ds)"><img src="{{ base_path }}/images/new3ds.png" style="padding: 0.5em;"></a> <a href="get-started-(new-3ds)"><img src="{{ base_path }}/images/new3dsxl.png" style="padding: 0.5em;"></a> <a href="get-started-(new-3ds)"><img src="{{ base_path }}/images/new2dsxl.png" style="padding: 0.5em;"></a></td>
-      <td style="text-align: center"><a href="get-started-(old-3ds)"><img src="{{ base_path }}/images/old3ds.png" style="padding: 0.5em;"></a> <a href="get-started-(old-3ds)"><img src="{{ base_path }}/images/old3dsxl.png" style="padding: 0.5em;"></a> <a href="get-started-(old-3ds)"><img src="{{ base_path }}/images/2ds.png" style="padding: 0.5em;"></a></td>
+      <td style="text-align: center; font-weight: bold;">1.0.0</td>
+      <td style="text-align: center; font-weight: bold;">2.0.0</td>
+      <td style="text-align: center; font-weight: bold;" colspan="2">Folosiți o metodă pentru "Toate versiunile"</td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">2.1.0</td>
+      <td style="text-align: center; font-weight: bold;">2.1.0</td>
+      <td style="text-align: center; font-weight: bold;">Folosiți o metodă pentru "Toate versiunile"</td>
+      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-(2xrsa)">Installing boot9strap (2xrsa)</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">2.2.0</td>
+      <td style="text-align: center; font-weight: bold;">2.2.0</td>
+      <td style="text-align: center; font-weight: bold;" colspan="2">Folosiți o metodă pentru "Toate versiunile"</td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">3.0.0</td>
+      <td style="text-align: center; font-weight: bold;">8.1.0</td>
+      <td style="text-align: center; font-weight: bold;" colspan="2"><a href="installing-boot9strap-(soundhax)">Installing boot9strap (Soundhax)</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">9.0.0</td>
+      <td style="text-align: center; font-weight: bold;">11.3.0</td>
+      <td style="text-align: center; font-weight: bold;" colspan="2"> <a href="homebrew-launcher-(soundhax)">Homebrew Launcher (Soundhax)</a></td>
+    </tr><tr>
+      <td style="text-align: center; font-weight: bold;">11.4.0</td>
+      <td style="text-align: center; font-weight: bold;">11.7.0</td>
+      <td style="text-align: center; font-weight: bold;" colspan="2">Folosiți o metodă pentru "Toate versiunile"</td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">11.8.0</td>
+      <td style="text-align: center; font-weight: bold;">11.8.0</td>
+      <td style="text-align: center; font-weight: bold;" colspan="2"><a href="installing-boot9strap-(dsiware)">Instalând boot9strap (DSiWare)</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;" colspan="2">TOATE VERSIUNILE<br></td>
+      <td style="text-align: center; font-weight: bold;" colspan="2"><p style="display: inline-block; margin-top: 1.3em; width: 47%"><a href="ntrboot">ntrboot</a><br><sub>(Necesită un flashcart compatibil)</sub></p><p style="display: inline-block; margin-top: 1.3em; vertical-align: super; width: 6%">sau</p><p style="display: inline-block; margin-top: 1.3em; width: 47%"><a href="installing-boot9strap-(hardmod)">Instalând boot9strap (Hardmod)</a><br><sub>(Necesită sudură)</sub></p></td>
     </tr>
   </tbody>
 </table>
