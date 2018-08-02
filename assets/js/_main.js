@@ -122,11 +122,6 @@ $(document).ready(function(){
     }
   }
 
-  var devices = {
-    "get-started-(old-3ds)": "0",
-    "get-started-(new-3ds)": "1",
-  };
-
   var methods = {
     "installing-boot9strap-(2xrsa)": "0",
     "installing-boot9strap-(mset)": "1",
@@ -146,45 +141,23 @@ $(document).ready(function(){
     "installing-boot9strap-(hardmod)": "15",
   };
 
-  for(var device in devices){
-    if(window.location.href.indexOf("/" + device) > -1) {
-      localStorage.setItem('device', devices[device]);
-    }
-  }
-
   for(var method in methods){
     if(window.location.href.indexOf("/" + method) > -1) {
       localStorage.setItem('method', methods[method]);
     }
   }
 
-  var device, method;
-  if(!((device = localStorage.getItem('device')) && (method = localStorage.getItem('method')))){
+  var method;
+  if(!(method = localStorage.getItem('method'))){
     sidebar_shown = false;
   }
 
   if(sidebar_shown){
     var unhide = [];
-    var device_old = {
+    var route = {
       "0": ["installing-boot9strap-(2xrsa)", "finalizing-setup"],
       "1": ["installing-boot9strap-(mset)", "finalizing-setup"],
       "2": ["installing-boot9strap-(browser)", "finalizing-setup"],
-      "3": ["homebrew-launcher-(soundhax)", "installing-boot9strap-(homebrew-launcher)", "finalizing-setup"],
-      "4": ["homebrew-launcher-(alternatives)", "installing-boot9strap-(homebrew-launcher)", "finalizing-setup"],
-      "5": ["installing-boot9strap-(dsiware)", "multiple-options", "finalizing-setup"],
-      "6": ["installing-boot9strap-(dsiware)", "installing-boot9strap-(dsiware-game-injection)", "finalizing-setup"],
-      "7": ["installing-boot9strap-(dsiware)", "installing-boot9strap-(dsiware-save-injection)", "finalizing-setup"],
-      "8": ["installing-boot9strap-(soundhax)", "finalizing-setup"],
-      "9": ["ntrboot", "installing-boot9strap-(ntrboot)", "finalizing-setup"],
-      "10": ["ntrboot", "flashing-ntrboot-(3ds-single-system)", "installing-boot9strap-(ntrboot)", "finalizing-setup"],
-      "11": ["ntrboot", "flashing-ntrboot-(3ds-multi-system)", "installing-boot9strap-(ntrboot)", "finalizing-setup"],
-      "12": ["ntrboot", "flashing-ntrboot-(dsi)", "installing-boot9strap-(ntrboot)", "finalizing-setup"],
-      "13": ["ntrboot", "flashing-ntrboot-(nds)", "installing-boot9strap-(ntrboot)", "finalizing-setup"],
-      "14": ["ntrboot", "flashing-ntrboot-(powersaves)", "installing-boot9strap-(ntrboot)", "finalizing-setup"],
-      "15": ["installing-boot9strap-(hardmod)", "finalizing-setup"],
-    };
-    var device_new = {
-      "0": ["installing-boot9strap-(2xrsa)", "godmode9-usage#restoring-a-nand-backup", "finalizing-setup"],
       "3": ["homebrew-launcher-(soundhax)", "installing-boot9strap-(homebrew-launcher)", "finalizing-setup"],
       "4": ["homebrew-launcher-(alternatives)", "installing-boot9strap-(homebrew-launcher)", "finalizing-setup"],
       "5": ["installing-boot9strap-(dsiware)", "multiple-options", "finalizing-setup"],
@@ -199,19 +172,10 @@ $(document).ready(function(){
       "14": ["ntrboot", "flashing-ntrboot-(powersaves)", "installing-boot9strap-(ntrboot)", "finalizing-setup"],
       "15": ["installing-boot9strap-(hardmod)", "finalizing-setup"],
     };
-    var route = {
-      "0": device_old,
-      "1": device_new,
-    }
-    unhide = unhide.concat(route[device][method]);
+    unhide = unhide.concat(route[method]);
     if(typeof unhide !== 'undefined' && unhide.length > 0){
       unhide.push("home");
       unhide.push("get-started");
-      if(device == "0"){
-        unhide.push("get-started-(old-3ds)");
-      } else if (device == "1"){
-        unhide.push("get-started-(new-3ds)");
-      }
       var ol = $('.sidebar.sticky .nav__list .nav__items ol');
       for (var i = 0; i < unhide.length; i++){
         ol.children('li[data-name="' + unhide[i] + '"]').css("display", "");
@@ -220,10 +184,10 @@ $(document).ready(function(){
         var link = $(li).find("a").attr('href');
         var name = $(li).attr('data-name');
         if((window.location.href.endsWith(link) ||
-            window.location.href.endsWith(link + "/") ||
-            window.location.href.indexOf(link + "#") > -1 ||
-            window.location.href.indexOf(link + ".html") > -1)
-            && name !== "home"){
+          window.location.href.endsWith(link + "/") ||
+          window.location.href.indexOf(link + "#") > -1 ||
+          window.location.href.indexOf(link + ".html") > -1)
+          && name !== "home"){
           $(li).addClass("active");
           return false;
         }
