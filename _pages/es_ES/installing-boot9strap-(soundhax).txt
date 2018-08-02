@@ -28,7 +28,7 @@ Ten en cuenta que las actualizaciones con cartucho sólo actualizarán los eleme
 * La última versión de [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(boot9strap normal; no el archivo `devkit` ni el archivo `ntr`)*
 * La última versión de [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(el archivo`.7z`)*
 * La última versión [del Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest)
-* La ultima versión de [pre9otherapp](https://github.com/Pirater12/otherapp/releases/latest)
+* La última versión de [pre9otherapp](https://github.com/Pirater12/otherapp/releases/latest) *(el archivo `.bin` correspondiente a tu versión de firmware)*
 
 ### Instrucciones
 
