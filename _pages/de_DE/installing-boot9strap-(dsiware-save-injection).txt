@@ -59,19 +59,19 @@ Use a [save manager](https://github.com/BernardoGiordano/Checkpoint/releases/lat
 1. Select "GM9Megascript"
 1. Select "Backup Options"
 1. Select "SysNAND Backup"
-1. Drücke (A), um zu bestätigen
-  + Dieser Vorgang nimmt einige Zeit in Anspruch
+1. Press (A) to confirm
+  + This process will take some time
   + If you get an error, make sure that you have at least 1.3GB of free space on your SD card
-1. Drücke (A) um fortzufahren
-1. Drücke (B), um zum Hauptmenü zurückzukehren
+1. Press (A) to continue
+1. Press (B) to return to the main menu
 1. Select "Exit"
-1. Drücke (A), um die Schreibrechte zu deaktivieren, wenn du dazu aufgefordert wirst
-1. Halte (R) und drücke gleichzeitig (B), um die SD-Karte des **Ausgangs-3DS** auszuwerfen
-1. Lege die SD-Karte des **Quellen-3DS** in deinen Computer ein
-1. Lege die SD-Karte des **Ziel 3DS** in deinen Computer ein
-1. **Sichere jede Datei auf den SD-Karten der beiden 3DS Systeme und nutze dazu zwei getrennte Ordner auf deinem Computer (stelle sicher, dass du weißt, welcher Ordner zu welcher SD-Karte gehört)!**
-1. Lege beide SD-Karten wieder in ihr zugehöriges 3DS System ein
-1. Drücke (Start) auf dem **Quell-3DS** um neuzustarten
+1. Press (A) to relock write permissions if prompted
+1. Hold (R) and press (B) at the same time to eject **the source 3DS**'s SD card
+1. Put **the source 3DS**'s SD card into your computer
+1. Put **the target 3DS**'s SD card into your computer
+1. **Backup every file on both 3DS's SD cards to two separate folders on your computer (keep track of which is which)!**
+1. Reinsert each SD card back into their corresponding 3DS
+1. Press (Start) on **the source 3DS** to reboot
 
 #### Schritt II - Spielstand installieren
 
@@ -161,7 +161,6 @@ Use a [save manager](https://github.com/BernardoGiordano/Checkpoint/releases/lat
 1. Wähle "Install boot9strap" und bestätige es
 1. Schließe b9stool, schalte dann dein Gerät aus
   + Unter Umständen musst du das Ausschalten der Konsole erzwingen indem du den Power-Knopf gedrückt hälst
-1. Schalte den **Ziel-3DS** ein
 1. Put your SD card in your computer, then copy `BACKUP.bin` from the `boot9strap` folder to a safe location on your computer
   + Erstelle Backup Dateien an mehreren Orten (USB-Stick, PC, Externe Festplatte, Online-Speicher, etc.)
   + Diese Sicherheitskopie wird dich vor einem Brick schützen, falls in der Zukunft etwas schief gehen sollte

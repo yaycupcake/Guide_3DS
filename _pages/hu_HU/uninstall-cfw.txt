@@ -11,7 +11,7 @@ A következőkben teljes egészében el fogjuk távolítani a CFW-t a készülé
 Ez az esetek többségében nem old meg semmilyen olyan problémát, ami a CFW telepítése közben felmerülhet. Javasolt inkább elolvasnod a [Hibaelhárítás](troubleshooting) oldalt, vagy segítséget kérni itt: [Nintendo Homebrew a Discord-on](https://discord.gg/MWxPgEp).
 {: .notice--danger}
 
-Minden aláíratlan (nem eredeti) játék instabillá fog válni, amiket kézileg törölhetsz majd a System Settings "Data Management" részében. Use a [save manager](https://github.com/BernardoGiordano/Checkpoint/releases/latest) to backup any saves for these unsigned (illegitimate) games you care about.
+Minden aláíratlan (nem eredeti) játék instabillá fog válni, amiket kézileg törölhetsz majd a System Settings "Data Management" részében. Használj [mentéskezelőt](https://github.com/BernardoGiordano/Checkpoint/releases/latest), hogy biztonsági másolatot készíts azon (nem eredeti) játékok mentéséről, amik fontosak a számodra.
 
 Ez az eljárás nem fogja befolyásolni sem az NNID-det, sem az eredeti játékaidat, sem bármilyen mentést, ami az eredeti, megvásárolt játékaidhoz tartozik.
 
@@ -19,7 +19,7 @@ Vedd figyelembe, hogy amennyiben van más payload fájl a `GodMode9.firm` fájlo
 
 ### Amire szükséged lesz
 
-* The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
+* A [GodMode9](https://github.com/d0k3/GodMode9/releases/latest) legújabb kiadása
 
 ### Utasítások
 
@@ -40,14 +40,14 @@ Vedd figyelembe, hogy amennyiben van más payload fájl a `GodMode9.firm` fájlo
   + Ne feledd, hogy amennyiben ezen a ponton szükséges volt a helyes dátum és idő beállítása, a System Settingsben is be kell majd állítanod a helyes időt az útmutató végén
 1. Nyomd meg a (Home) gombot, hogy megjelenjen a műveleti menü
 1. Válaszd a "Scripts..." opciót
-1. Select "GM9Megascript"
-1. Select "Hax Options"
-1. Select "Un-install Hax"
+1. Válaszd ezt: "GM9Megascript"
+1. Válaszd ezt: "Hax Options"
+1. Válaszd ezt: "Un-install Hax"
 1. Amikor kéri, nyomd meg az (A) gombot a folytatáshoz
 1. Nyomd meg az (A) gombot, hogy feloldd a SysNAND (lvl3) írást, majd sorban nyomd meg a kijelzett gombokat
 1. Nyomd meg az (A) gombot a folytatáshoz
 1. Nyomd meg a (B) gombot, hogy visszamenj a főmenübe
-1. Select "Exit"
+1. Válaszd az "Exit" opciót
 1. Nyomd meg az (A) gombot az írási engedélyek visszavonásához
 1. Nyomd meg a (Start) gombot az eszköz újraindításához
 

@@ -42,13 +42,13 @@ Vedd figyelembe, hogy New 3DS esetében a `secret_sector.bin` fájlra az arm9loa
 {: .notice--info}
 
 * <i class="fa fa-magnet" aria-hidden="true" title="Ez egy mágneslink. A fájl letöltéséhez használj torrent klienst."></i> - **Csak New 3DS felhasználóknak:** [secret_sector.bin](magnet:?xt=urn:btih:15a3c97acf17d67af98ae8657cc66820cc58f655&dn=secret_sector.bin&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce)
-* The latest release of [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(the `.7z` file)*
-* The v7.0.5 release of [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/tag/v7.0.5) *(the `.7z` file)*
-* The latest release of [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
-* The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(standard boot9strap; not the `devkit` file, not the `ntr` file)*
-* The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
-* The latest release of [Luma3DS Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest)
-* The latest release of [the Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest)
+* A [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) legújabb kiadása *(a `.7z` fájl)*
+* A [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/tag/v7.0.0.5) v7.0.5-ös kiadása *(a `.7z` fájl)*
+* A [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest) legújabb kiadása
+* A [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) legújabb kiadása *(a sima boot9strap; nem a `devkit` fájl, nem az `ntr` fájl)*
+* A [GodMode9](https://github.com/d0k3/GodMode9/releases/latest) legújabb kiadása
+* A [Luma3DS Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest) legújabb kiadása
+* A [Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest) legújabb kiadása
 
 ### Utasítások
 
@@ -125,30 +125,30 @@ Amennyiben ezen leírás megkezdése előtt már rendelkeztél EmuNAND-dal, és 
 1. Ha rákérdez arra, hogy szeretnéd-e a valós dátumot és időt javítani (fix the RTC date&time), nyomd meg az (A) gombot, állítsd be a helyes dátumot és időt, majd nyomd meg az (A) gombot a folytatáshoz
 1. Nyomd meg a (Home) gombot, hogy megjelenjen a műveleti menü
 1. Válaszd a "Scripts..." opciót
-1. Select "GM9Megascript"
-1. Select "Scripts from Plailect's Guide"
-1. Select "Setup Luma3DS to CTRNAND"
+1. Válaszd ezt: "GM9Megascript"
+1. Válaszd ezt: "Scripts from Plailect's Guide"
+1. Válaszd ezt: "Setup Luma3DS to CTRNAND"
 1. Amikor kéri, nyomd meg az (A) gombot a folytatáshoz
 1. Nyomd meg az (A) gombot, hogy feloldd a SysNAND (lvl2) írást, majd sorban nyomd meg a kijelzett gombokat
 1. Nyomd meg az (A) gombot a folytatáshoz
 
-#### Section VII - Cleanup SD Card
+#### Hetedik rész - Takarítás az SD kártyán
 
-1. Select "Cleanup SD Card"
+1. Válaszd ezt: "Cleanup SD Card"
 1. Amikor kéri, nyomd meg az (A) gombot a folytatáshoz
 1. Nyomd meg az (A) gombot a folytatáshoz
 1. Nyomd meg a (B) gombot, hogy visszamenj a főmenübe
 
-#### Section VIII - Backup Essential Files
+#### Nyolcadik rész - Backup Essential Files
 
-1. Select "Backup Options"
-1. Select "SysNAND Backup"
+1. Válaszd ezt: "Backup Options"
+1. Válaszd ezt: "SysNAND Backup"
 1. Nyomd meg az (A) gombot a megerősítéshez
   + Ez a folyamat igénybe vesz majd némi időt
-  + If you get an error, make sure that you have at least 1.3GB of free space on your SD card
+  + Ha hibát kapsz, győződj meg róla, hogy legalább 1.3 GB szabad hely van az SD kártyádon
 1. Nyomd meg az (A) gombot a folytatáshoz
 1. Nyomd meg a (B) gombot, hogy visszamenj a főmenübe
-1. Select "Exit"
+1. Válaszd az "Exit" opciót
 1. Nyomd meg az (A) gombot az írási engedélyek visszavonásához
 1. Az SD kártya leválasztásához az (R) gomb lenyomva tartása mellett nyomd meg a (B) gombot
 1. Helyezd az SD kártyád a számítógépbe

@@ -28,10 +28,10 @@ Kaptunk visszajelzéseket kitiltási hullámokról, melyeket a Nintendo a CFW-t 
 
 ### Amire szükséged lesz
 
-* The latest release of [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
-* The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(standard boot9strap; not the `devkit` file, not the `ntr` file)*
-* The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
-* The latest release of [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(the `.7z` file)*
+* A [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest) legújabb kiadása
+* A [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) legújabb kiadása *(a sima boot9strap; nem a `devkit` fájl, nem az `ntr` fájl)*
+* A [GodMode9](https://github.com/d0k3/GodMode9/releases/latest) legújabb kiadása
+* A [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) legújabb kiadása *(a `.7z` fájl)*
 
 ### Utasítások
 
@@ -82,20 +82,20 @@ Ez a szakasz csak akkor kell, ha előjön a Luma3DS konfigurációs menü újrai
 1. Ha rákérdez arra, hogy szeretnéd-e a valós dátumot és időt javítani (fix the RTC date&time), nyomd meg az (A) gombot, állítsd be a helyes dátumot és időt, majd nyomd meg az (A) gombot a folytatáshoz
 1. Nyomd meg a (Home) gombot, hogy megjelenjen a műveleti menü
 1. Válaszd a "Scripts..." opciót
-1. Select "GM9Megascript"
-1. Select "Scripts from Plailect's Guide"
-1. Select "Setup Luma3DS to CTRNAND"
+1. Válaszd ezt: "GM9Megascript"
+1. Válaszd ezt: "Scripts from Plailect's Guide"
+1. Válaszd ezt: "Setup Luma3DS to CTRNAND"
 1. Amikor kéri, nyomd meg az (A) gombot a folytatáshoz
 1. Nyomd meg az (A) gombot, hogy feloldd a SysNAND (lvl2) írást, majd sorban nyomd meg a kijelzett gombokat
 1. Nyomd meg az (A) gombot a folytatáshoz
 
-#### Section VII - Cleanup SD Card
+#### Hetedik rész - Takarítás az SD kártyán
 
-1. Select "Cleanup SD Card"
+1. Válaszd ezt: "Cleanup SD Card"
 1. Amikor kéri, nyomd meg az (A) gombot a folytatáshoz
 1. Nyomd meg az (A) gombot a folytatáshoz
 1. Nyomd meg a (B) gombot, hogy visszamenj a főmenübe
-1. Select "Exit"
+1. Válaszd az "Exit" opciót
 1. Nyomd meg az (A) gombot az írási engedélyek visszavonásához
 1. Nyomd meg a (Start) gombot az eszköz újraindításához
 

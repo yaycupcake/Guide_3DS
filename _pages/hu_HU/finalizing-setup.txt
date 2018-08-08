@@ -21,14 +21,14 @@ Ezen folyamat közben további programokat is telepítünk, melyek az alábbiak:
 
 ### Amire szükséged lesz
 
-* The latest release of [Anemone3DS](https://github.com/astronautlevel2/Anemone3DS/releases/latest) *(the `.cia` file)*
-* The latest release of [Checkpoint](https://github.com/BernardoGiordano/Checkpoint/releases/latest) *(the `.cia` file)*
-* The latest release of [Homebrew Launcher Wrapper](https://github.com/mariohackandglitch/homebrew_launcher_dummy/releases/latest)
-* The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
-* The latest release of [DSP1](https://github.com/zoogie/DSP1/releases/latest)
-* The latest release of [FBI](https://github.com/Steveice10/FBI/releases/latest) *(the `.cia` and `.3dsx` files)*
-* The latest release of [ctr-no-timeoffset](https://github.com/ihaveamac/ctr-no-timeoffset/releases/latest)
-* The latest release of [Luma3DS Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest) *(the `.cia` file)*
+* Az [Anemone3DS](https://github.com/astronautlevel2/Anemone3DS/releases/latest) legújabb kiadása *(a `.cia` fájl)*
+* A [Checkpoint](https://github.com/BernardoGiordano/Checkpoint/releases/latest) legújabb kiadása *(a `.cia` fájl)*
+* A [Homebrew Launcher Wrapper](https://github.com/mariohackandglitch/homebrew_launcher_dummy/releases/latest) legújabb kiadása
+* A [GodMode9](https://github.com/d0k3/GodMode9/releases/latest) legújabb kiadása
+* A [DSP1](https://github.com/zoogie/DSP1/releases/latest) legújabb kiadása
+* Az [FBI](https://github.com/Steveice10/FBI/releases/latest) legújabb kiadása *(a `.cia` és a `.3dsx` fájl is)*
+* A [ctr-no-timeoffset](https://github.com/ihaveamac/ctr-no-timeoffset/releases/latest) legújabb kiadása
+* A [Luma3DS Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest) legfrissebb változata *(a `.cia` fájl)*
 
 ### Utasítások
 
@@ -38,9 +38,9 @@ Ezen folyamat közben további programokat is telepítünk, melyek az alábbiak:
 1. Helyezd az SD kártyád a számítógépbe
 1. Hozz létre egy mappát `3ds` néven az SD kártyád gyökerében, ha még nem létezik ilyen
 1. Hozz létre egy mappát `cias` néven az SD kártyád gyökerében, ha még nem létezik ilyen
-1. Copy `ctr-no-timeoffset.3dsx` to the `/3ds/` folder on your SD card
+1. Másold a `ctr-no-timeoffset.3dsx`-et az SD kártyád `/3ds/` mappájába
 1. Másold az `FBI.3dsx` fájlt az SD kártyád `/3ds/` mappájába
-1. Copy `Homebrew_Launcher.cia` to the `/cias/` folder on your SD card
+1. Másold a `Homebrew_Launcher.cia` fájlt az SD kártyán található `/cias/` mappába
 1. Másold a `lumaupdater.cia` fájlt az SD kártyán található `/cias/` mappába
 1. Másold az `FBI.cia` fájlt az SD kártyád `/cias/` mappájába
 1. Másold a `DSP1.cia` fájlt az SD kártyád `/cias/` mappájába
@@ -61,7 +61,7 @@ Ezen folyamat közben további programokat is telepítünk, melyek az alábbiak:
 
 #### Második rész - A rendszer frissítése
 
-If, while following a previous version of this guide, you CTRTransfered your *New 3DS* to 2.1.0, you should now [restore your NAND backup](godmode9-usage#restoring-a-nand-backup) before doing this section.
+Amennyiben egyszer már végigcsináltad a jelenlegi leírás egy korábbi változatát, és 2.1.0-s verzióra CTRTransfer-elted a *New 3DS* konzolodat, itt az idő, hogy [visszaállítsd a NAND-od biztonsági mentését](godmode9-usage#restoring-a-nand-backup), mielőtt ezt a részt folytatnád.
 {: .notice--danger}
 
 Amennyiben ezen leírás megkezdése előtt már rendelkeztél EmuNAND-dal, és át szeretnéd hozni a tartalmakat az EmuNAND-ról az új SysNAND CFW-re, akkor itt az idő, hogy kövesd az [EmuNAND költöztetése](move-emunand) című útmutatót, mielőtt belekezdenél ebbe a részbe.
@@ -72,7 +72,7 @@ Amennyiben ezen leírás megkezdése előtt már rendelkeztél EmuNAND-dal, és 
   + Ha ez hibát ad, akkor állítsd a DNS beállításodat "auto"-ra
   + Ha még így is hibát kapsz, kövesd a [CTRTransfer](ctrtransfer) című útmutatót, majd próbáld újra
 
-#### Section III - Homebrew Launcher
+#### Harmadik rész - Homebrew Launcher
 
 1. Indítsd el a Download Play alkalmazást
 1. Nyomd meg az (L) + (Le) + (Select) gombokat egyszerre, hogy a Rosalina menü megnyitásához
@@ -84,10 +84,10 @@ Amennyiben ezen leírás megkezdése előtt már rendelkeztél EmuNAND-dal, és 
 1. Nyomd meg a (Home) gombot és zárd be a Download Play-t
 1. Indítsd el a Download Play alkalmazást
 1. Ekkor a készülékednek be kell töltenie a Homebrew Launcher-t
-1. Launch ctr-no-timeoffset from the list of homebrew
-1. Press (A) to set the offset to 0
-  + This will set the system clock to match the RTC date&time (which we will set soon)
-1. Press (Start) to return to the Homebrew Launcher
+1. Indítsd el a ctr-no-timeoffset-et a homebrew listából
+1. Állítsd az offsetet 0-ra az (A) gombbal
+  + Ez beállítja, hogy a rendszeróra megegyezzen az RTC dátummal és idővel (amit hamarosan beállítunk)
+1. Nyomd meg a (Start) gombot, hogy visszatérj a Homebrew Launcher-be
 1. Indítsd el az FBI-t a homebrew listából
 
 #### Negyedik rész - CIA fájlok telepítése
@@ -110,30 +110,30 @@ Amennyiben ezen leírás megkezdése előtt már rendelkeztél EmuNAND-dal, és 
 1. Ha rákérdez arra, hogy szeretnéd-e a valós dátumot és időt javítani (fix the RTC date&time), nyomd meg az (A) gombot, állítsd be a helyes dátumot és időt, majd nyomd meg az (A) gombot a folytatáshoz
 1. Nyomd meg a (Home) gombot, hogy megjelenjen a műveleti menü
 1. Válaszd a "Scripts..." opciót
-1. Select "GM9Megascript"
-1. Select "Scripts from Plailect's Guide"
-1. Select "Setup Luma3DS to CTRNAND"
+1. Válaszd ezt: "GM9Megascript"
+1. Válaszd ezt: "Scripts from Plailect's Guide"
+1. Válaszd ezt: "Setup Luma3DS to CTRNAND"
 1. Amikor kéri, nyomd meg az (A) gombot a folytatáshoz
 1. Nyomd meg az (A) gombot, hogy feloldd a SysNAND (lvl2) írást, majd sorban nyomd meg a kijelzett gombokat
 1. Nyomd meg az (A) gombot a folytatáshoz
 
-#### Section VII - Cleanup SD Card
+#### Hetedik rész - Takarítás az SD kártyán
 
-1. Select "Cleanup SD Card"
+1. Válaszd ezt: "Cleanup SD Card"
 1. Amikor kéri, nyomd meg az (A) gombot a folytatáshoz
 1. Nyomd meg az (A) gombot a folytatáshoz
 1. Nyomd meg a (B) gombot, hogy visszamenj a főmenübe
 
-#### Section VIII - Backup Essential Files
+#### Nyolcadik rész - Backup Essential Files
 
-1. Select "Backup Options"
-1. Select "SysNAND Backup"
+1. Válaszd ezt: "Backup Options"
+1. Válaszd ezt: "SysNAND Backup"
 1. Nyomd meg az (A) gombot a megerősítéshez
   + Ez a folyamat igénybe vesz majd némi időt
-  + If you get an error, make sure that you have at least 1.3GB of free space on your SD card
+  + Ha hibát kapsz, győződj meg róla, hogy legalább 1.3 GB szabad hely van az SD kártyádon
 1. Nyomd meg az (A) gombot a folytatáshoz
 1. Nyomd meg a (B) gombot, hogy visszamenj a főmenübe
-1. Select "Exit"
+1. Válaszd az "Exit" opciót
 1. Nyomd meg az (A) gombot az írási engedélyek visszavonásához
 1. Az SD kártya leválasztásához az (R) gomb lenyomva tartása mellett nyomd meg a (B) gombot
 1. Helyezd az SD kártyád a számítógépbe
@@ -171,9 +171,9 @@ Mostantól lenyomhatod az (L) + (Le) + (Select) kombinációt a rendszer futása
 <div class="notice--info">{{ notice-6 | markdownify }}</div>
 
 {% capture notice-6 %}   
-If you would like to upgrade to a bigger sized SD card, all you have to do is format your new SD card as FAT32 and copy paste the contents of the old SD card onto the new SD card.    
+Ha szeretnél a későbbiekben nagyobb SD kártyát használni, mindössze annyit kell tenned, hogy az új SD kártyádat FAT32-re formázod, majd átmásolod a régi SD kártyád tartalmát az újra.    
 
-If your new SD card is bigger than 32GB, then you have to use a different tool to format it, such as [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) for Windows, [gparted](http://gparted.org/download.php) for Linux, or [Disk Utility](https://support.apple.com/en-gb/guide/disk-utility/format-a-disk-for-windows-computers-dskutl1010/mac) for Mac.    
+Ha az új SD kártyád nagyobb, mint 32 GB, más eszközre lesz szükséged a formázásához. Ilyen a [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) Windows-on, a [gparted](http://gparted.org/download.php) Linuxon, illetve a [Lemezkezelő](https://support.apple.com/hu-hu/guide/disk-utility/format-a-disk-for-windows-computers-dskutl1010/mac) Mac-en.    
 {% endcapture %}
 
 <div class="notice--info">{{ notice-6 | markdownify }}</div>

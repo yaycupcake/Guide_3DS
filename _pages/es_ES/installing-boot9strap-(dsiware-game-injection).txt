@@ -152,7 +152,6 @@ Usa un [Gestor de datos de guardado](https://github.com/BernardoGiordano/Checkpo
 1. Selecciona "Install boot9strap" y confirma
 1. Sal de b9sTool, luego apaga tu consola
   + Puede que tengas que forzar el apagado manteniendo pulsado el botón de encendido
-1. Enciende **la 3DS de destino**
 1. Inserta tu tarjeta SD en tu computadora, luego copia `BACKUP.bin` desde la carpeta `boot9strap` a una ubicación segura en tu computadora
   + Haz copias de seguridad en múltiples sitios (como por ejemplo, en un pendrive o almacenamiento online)
   + Esta copia de seguridad puede salvarte de un brick si algo va mal en el futuro

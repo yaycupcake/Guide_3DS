@@ -1,5 +1,5 @@
 ---
-title: "Installing boot9strap (2xrsa)"
+title: "boot9strap telepítése (2xrsa)"
 ---
 
 {% include toc title="Tartalomjegyzék" %}
@@ -10,10 +10,10 @@ Ahhoz, hogy kicsomagold az oldalon található `.7z` fájlokat, egy fájl archiv
 
 ### Amire szükséged lesz
 
-* The latest release of [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
-* The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(standard boot9strap; not the `devkit` file, not the `ntr` file)*
-* The latest release of [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(the `.7z` file)*
-* The latest release of [the Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest)
+* A [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest) legújabb kiadása
+* A [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) legújabb kiadása *(a sima boot9strap; nem a `devkit` fájl, nem az `ntr` fájl)*
+* A [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) legújabb kiadása *(a `.7z` fájl)*
+* A [Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest) legújabb kiadása
 
 ### Utasítások
 
@@ -25,7 +25,7 @@ Ahhoz, hogy kicsomagold az oldalon található `.7z` fájlokat, egy fájl archiv
 1. Másold az `boot.3dsx` fájlt az SD kártyád gyökerébe
 1. Hozz létre egy mappát `boot9strap` néven az SD kártya gyökerében
 1. Másold át a `boot9strap.firm` fájlt és a `boot9strap.firm.sha` fájlt a boot9strap `.zip` fájlból az SD kártyád `/boot9strap/` mappájába
-1. Copy `arm9.bin` and `arm11.bin` from the SafeB9SInstaller `.zip` to the root of your SD card
+1. Másold az `arm9.bin` és az `arm11.bin` fájlokat a SafeB9SInstaller `.zip`-ből az SD kártyád gyökerébe
 
     ![]({{ "/images/screenshots/boot9strap-2xrsa-file-layout.png" | absolute_url }})
     {: .notice--info}
@@ -35,12 +35,12 @@ Ahhoz, hogy kicsomagold az oldalon található `.7z` fájlokat, egy fájl archiv
 
 #### Második rész - A SafeB9SInstaller indítása
 
-1. Launch the browser and go to the following URL on your device
+1. Indítsd el a webböngészőt a készülékeden, majd nyisd meg az alábbi URL-t:
   + `http://2xrsa.hacks.guide`
-  + If you are on a New 3DS, New 2DS, or Old 2DS and Wireless Communication is off, you can re-enable the wireless by removing the battery and unplugging the charger for several seconds then booting back up
-  + If you get the error "This service is not available in your region", use the System Settings to set your device's country to match the NAND region you installed with 2.1.0 CTRTransfer
-  + If you forgot to disable parental controls before CTRTransfering or otherwise cannot access wireless settings, note that the device will autoconnect to any network named `attwifi` with no password
-  + If you get another error, [follow this troubleshooting guide](troubleshooting#a-browser-based-exploit-is-not-working)
+  + Ha készüléked New 3DS, New 2DS, vagy Old 2DS és a vezeték nélküli kapcsolat (Wireless Communication) tiltva van, engedélyezheted ismét úgy, hogy kiveszed az akkumulátort, kihúzod a töltőt néhány másodpercre, majd ismét elindítod a konzolt
+  + Ha a "This service is not available in your region" hibaüzenetet kapod, lépj a System Settings-be, és állítsd a készülékedet arra az országra, ami egyezik a korábban 2.1.0-s CTRTransferrel telepített NAND régiójával
+  + Ha elfelejtetted volna letiltani a szülői felügyeletet (parental controls) a CTRTransfer használata előtt, vagy egyéb okból nem éred el a vezeték nélküli beállításokat (wireless settings), jó ha tudod, hogy a készüléked automatikusan kapcsolódni fog bármilyen olyan hálózathoz, aminek `attwifi` a neve és nincs jelszava
+  + Ha egyéb hibát kapsz, [nézd át a hibaelhárítási útmutatót](troubleshooting#a-browser-based-exploit-is-not-working)
 1. Ha az exploit sikerrel járt, készüléked bebootolja a SafeB9SInstallert
 
 #### Harmadik rész - boot9strap telepítése

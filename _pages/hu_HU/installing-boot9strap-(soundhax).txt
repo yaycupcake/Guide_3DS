@@ -8,15 +8,15 @@ title: "boot9strap telepítése (Soundhax)"
 
 Ha hackelted már meg a 3DS-edet korábban, és már rendelkezel egy EmuNAND alapú CFW-vel, tudd, hogy ez az útmutató kizárólag a SysNAND-dal foglalkozik, és minden lépést a SysNAND-on kell majd alkalmaznod. Jó, ha tudod, hogy az EmuNAND és a RedNAND fogalmak [ugyanazon koncepció](http://3dbrew.org/wiki/NAND_Redirection) két, kicsiben különböző megvalósítását jelentik.
 
-Soundhax (when combined with pre9otherapp) is compatible with versions 4.0.0 through 8.1.0 in the EUR, JPN, KOR, and USA regions.
+A Soundhax (ha pre9otherapp-pel használjuk) kompatibilis a 4.0.0-s verziótól egészen 8.1.0-ig az EUR, JPN, KOR, és USA régiókban.
 
 Ahhoz, hogy kicsomagold az oldalon található `.7z` fájlokat, egy fájl archiváló programra lesz szükséged, mint amilyen a [7-Zip](http://www.7-zip.org/) vagy a [The Unarchiver](https://theunarchiver.com/).
 
 {% capture notice-1 %}
 
-Vedd figyelembe, hogy a kártyafrissítések csak a legfontosabb dolgokat frissítik, mint például a System Settings, Home Menu, stb. a kártyafrissítések nem fogják frissíteni a Nintendo 3DS Sound alkalmazást és a Hálózati funkciókat, mint például a System Transfer, Internet Browser, StreetPass Mii Plaza, vagy az eShop.
+Vedd figyelembe, hogy a kártyafrissítések csak a legfontosabb dolgokat frissítik, mint például a System Settings, Home Menu, stb. A kártyafrissítések nem fogják frissíteni a Nintendo 3DS Sound alkalmazást és az olyan hálózati funkciókat, mint például a System Transfer, Internet Browser, StreetPass Mii Plaza, vagy az eShop.
 
-Ez azt jelenti, hogy kártyafrissítés egy olyan verzióról, amelyhez régebbi verziójú Nintendo 3DS Sound alkalmazás tartozott *(<3.0.0)* egy olyan verzióra, amihez újabb Nintendo 3DS Sound tartozik, működésképtelenné teszi a Soundhax-ot! You will need an alternate method of entering the Homebrew Launcher such as [Installing boot9strap (Browser)](installing-boot9strap-(browser)) or [Installing boot9strap (MSET)](installing-boot9strap-(mset))!
+Ez azt jelenti, hogy kártyafrissítés egy olyan verzióról, amelyhez régebbi verziójú Nintendo 3DS Sound alkalmazás tartozott *(<3.0.0)* egy olyan verzióra, amihez újabb Nintendo 3DS Sound tartozik, működésképtelenné teszi a Soundhax-ot! Így alternatív módszerre lesz szükséged a Homebrew Launcher telepítéséhez, mint a [boot9strap telepítése (böngésző)](installing-boot9strap-(browser)) vagy a [boot9strap telepítése (MSET)](installing-boot9strap-(mset))!
 {% endcapture %}
 
 <div class="notice--warning">{{ notice-1 | markdownify }}</div>
@@ -24,11 +24,11 @@ Ez azt jelenti, hogy kártyafrissítés egy olyan verzióról, amelyhez régebbi
 ### Amire szükséged lesz
 
 * A [Soundhax](http://soundhax.com/) legújabb kiadása *(a régiódnak, készülékednek és rendszer verziódnak megfelelő változat)*
-* The latest release of [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
-* The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(standard boot9strap; not the `devkit` file, not the `ntr` file)*
-* The latest release of [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(the `.7z` file)*
-* The latest release of [the Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest)
-* The latest release of [pre9otherapp](https://github.com/Pirater12/otherapp/releases/latest) *(the `.bin` file corresponding to your firmware version)*
+* A [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest) legújabb kiadása
+* A [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) legújabb kiadása *(a sima boot9strap; nem a `devkit` fájl, nem az `ntr` fájl)*
+* A [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) legújabb kiadása *(a `.7z` fájl)*
+* A [Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest) legújabb kiadása
+* A [pre9otherapp](https://github.com/Pirater12/otherapp/releases/latest) legújabb verziója *(a firmware verziódnak megfelelő `.bin` fájl)*
 
 ### Utasítások
 

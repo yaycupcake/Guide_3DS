@@ -27,7 +27,7 @@ Antes de proceder, asegúrate de leer todos los avisos y advertencias al [Instal
   + **Legends of Exidia**
   + **Guitar Rock Tour**  
   + **The Legend of Zelda: Four Swords**  
-* The latest release of [3ds_dsiwarehax_installer](https://github.com/zoogie/3ds_dsiwarehax_installer/releases/latest)
+* La ultima version de [3ds_dsiwarehax_installer](https://github.com/zoogie/3ds_dsiwarehax_installer/releases/latest)
 * La ultima versión de [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 * La ultima versión de [b9sTool](https://github.com/zoogie/b9sTool/releases/latest)
 * La última versión de [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(el archivo`.7z`)*
@@ -161,7 +161,6 @@ Usa un [Gestor de datos de guardado](https://github.com/BernardoGiordano/Checkpo
 1. Selecciona "Install boot9strap" y confirma
 1. Sal de b9sTool, luego apaga tu consola
   + Puede que tengas que forzar el apagado manteniendo pulsado el botón de encendido
-1. Enciende **la 3DS de destino**
 1. Inserta tu tarjeta SD en tu computadora, luego copia `BACKUP.bin` desde la carpeta `boot9strap` a una ubicación segura en tu computadora
   + Haz copias de seguridad en múltiples sitios (como por ejemplo, en un pendrive o almacenamiento online)
   + Esta copia de seguridad puede salvarte de un brick si algo va mal en el futuro

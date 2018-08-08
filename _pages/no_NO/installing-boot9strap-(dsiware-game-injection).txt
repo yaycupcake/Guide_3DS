@@ -152,7 +152,6 @@ Use a [save manager](https://github.com/BernardoGiordano/Checkpoint/releases/lat
 1. Select "Install boot9strap" and confirm
 1. Exit b9sTool, then power off your device
   + You may have to force power off by holding the power button
-1. Power on **the target 3DS**
 1. Put your SD card in your computer, then copy `BACKUP.bin` from the `boot9strap` folder to a safe location on your computer
   + Make backups in multiple locations (such as online file storage)
   + Denne sikkerhetskopien vil spare deg fra en brick hvis noe går galt i fremtiden

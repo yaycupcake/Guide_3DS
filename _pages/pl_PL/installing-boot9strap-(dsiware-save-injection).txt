@@ -161,7 +161,6 @@ Użyj [menadżera zapisów](https://github.com/BernardoGiordano/Checkpoint/relea
 1. Wybierz "Install boot9strap" i potwierdź
 1. Wyjdź z b9sTool i wyłącz konsolę
   + Możliwe, że będziesz musiał wymusić wyłączenie 3DS'a poprzez przytrzymanie przycisku zasilania
-1. Włącz **docelowego 3DS'a**
 1. Put your SD card in your computer, then copy `BACKUP.bin` from the `boot9strap` folder to a safe location on your computer
   + Zrób backupy w wielu lokacjach (np. dysku w chmurze)
   + Ta kopia uratuje cię przed brickiem jeśli cokolwiek pójdzie nie tak w przyszłości

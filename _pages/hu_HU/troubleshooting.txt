@@ -96,14 +96,14 @@ A böngésző alapú exploitok (mint például a browserhax, vagy az 2xrsa) gyak
         1. Indítsd el a GodMode9-et a (Start) lenyomva tartásával boot közben
         1. Nyomd meg a (Home) gombot, hogy megjelenjen a műveleti menü
         1. Válaszd a "Scripts..." opciót
-        1. Select "GM9Megascript"
-        1. Select "Scripts from Plailect's Guide"
-        1. Select "Remove extdata"
+        1. Válaszd ezt: "GM9Megascript"
+        1. Válaszd ezt: "Scripts from Plailect's Guide"
+        1. Válaszd a "Remove extdata" opciót
         1. Nyomd meg az (A) gombot a folytatáshoz
         1. Nyomd meg az (A) gombot, hogy feloldd a SysNAND (lvl1) írást, majd sorban nyomd meg a kijelzett gombokat
         1. Nyomd meg az (A) gombot a folytatáshoz
         1. Nyomd meg a (B) gombot, hogy visszamenj a főmenübe
-        1. Select "Exit"
+        1. Válaszd az "Exit" opciót
         1. Nyomd meg az (A) gombot az írási engedélyek visszavonásához
         1. Nyomd meg a (Start) gombot az eszköz újraindításához
 1. Próbálj meg játékkártya nélkül bootolni (beleértve a flashkártyákat)
@@ -138,19 +138,19 @@ A böngésző alapú exploitok (mint például a browserhax, vagy az 2xrsa) gyak
     1. Bootolás után végezd el a beállításokat
 1. Próbáld ki, hogy bootol-e a GodMode9
     1. Tartsd lenyomva a (Start) gombot boot közben Luma3DS-en
-1. Try deleting home menu's extdata by following these instructions:
+1. Próbáld meg törölni a home menu extdata-ját az alábbi lépésekkel:
     1. Kapcsold ki a készüléked
     1. Indítsd el a GodMode9-et a (Start) lenyomva tartásával boot közben
     1. Nyomd meg a (Home) gombot, hogy megjelenjen a műveleti menü
     1. Válaszd a "Scripts..." opciót
-    1. Select "GM9Megascript"
-    1. Select "Scripts from Plailect's Guide"
-    1. Select "Remove extdata"
+    1. Válaszd ezt: "GM9Megascript"
+    1. Válaszd ezt: "Scripts from Plailect's Guide"
+    1. Válaszd a "Remove extdata" opciót
     1. Nyomd meg az (A) gombot a folytatáshoz
     1. Nyomd meg az (A) gombot, hogy feloldd a SysNAND (lvl1) írást, majd sorban nyomd meg a kijelzett gombokat
     1. Nyomd meg az (A) gombot a folytatáshoz
     1. Nyomd meg a (B) gombot, hogy visszamenj a főmenübe
-    1. Select "Exit"
+    1. Válaszd az "Exit" opciót
     1. Nyomd meg az (A) gombot az írási engedélyek visszavonásához
     1. Nyomd meg a (Start) gombot az eszköz újraindításához
 1. Próbálj meg játékkártya nélkül bootolni (beleértve a flashkártyákat)

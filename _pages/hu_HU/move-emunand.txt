@@ -16,8 +16,8 @@ Az alábbiak használatához már telepítened kellett a következőket: Luma3DS
 ### Amire szükséged lesz
 
 * Egy létező EmuNAND
-* The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
-* The latest release of [FBI](https://github.com/Steveice10/FBI/releases/latest)
+* A [GodMode9](https://github.com/d0k3/GodMode9/releases/latest) legújabb kiadása
+* Az [FBI](https://github.com/Steveice10/FBI/releases/latest) legújabb kiadása
 
 ### Utasítások
 
@@ -131,15 +131,15 @@ Egy `<TitleID>.gbavc.sav` fájl Title ID-jének azonosításához használhatod 
 
 1. Nyomd meg a (Home) gombot, hogy megjelenjen a műveleti menü
 1. Válaszd a "Scripts..." opciót
-1. Select "GM9Megascript"
-1. Select "Backup Options"
-1. Select "SysNAND Backup"
+1. Válaszd ezt: "GM9Megascript"
+1. Válaszd ezt: "Backup Options"
+1. Válaszd ezt: "SysNAND Backup"
 1. Nyomd meg az (A) gombot a megerősítéshez
   + Ez a folyamat igénybe vesz majd némi időt
-  + If you get an error, make sure that you have at least 1.3GB of free space on your SD card
+  + Ha hibát kapsz, győződj meg róla, hogy legalább 1.3 GB szabad hely van az SD kártyádon
 1. Nyomd meg az (A) gombot a folytatáshoz
 1. Nyomd meg a (B) gombot, hogy visszamenj a főmenübe
-1. Select "Exit"
+1. Válaszd az "Exit" opciót
 1. Nyomd meg az (A) gombot az írási engedélyek visszavonásához
 1. Az SD kártya leválasztásához az (R) gomb lenyomva tartása mellett nyomd meg a (B) gombot
 1. Helyezd az SD kártyád a számítógépbe

@@ -161,7 +161,6 @@ Use a [save manager](https://github.com/BernardoGiordano/Checkpoint/releases/lat
 1. תבחרו ב "Install boot9strap" ותאשרו
 1. תצאו מb9sTool, ואז תכבו את הקונסולה
   + אולי תצטרכו לאלץ כיבוי על ידי החזקת כפתור ההפעלה
-1. תפעילו את **קונסולת היעד**
 1. Put your SD card in your computer, then copy `BACKUP.bin` from the `boot9strap` folder to a safe location on your computer
   + תיצרו גיבויים במקומות שונים (כמו אחסון בענן)
   + הגיבוי הזה ישמור עליכם מבריק אם משהו ישתבש בעתיד
