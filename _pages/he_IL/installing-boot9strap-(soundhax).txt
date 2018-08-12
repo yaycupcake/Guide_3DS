@@ -37,7 +37,7 @@ This means that using a cartridge update from a version containing an older Nint
 1. תכבו את המכשיר
 1. תכניסו את ה-SD שלכם למחשב
 1. תעתיקו את קובץ האודיו עם סיומת "M4A" שמתאים לקונסולה שלכם ל-SD
-1. Copy `otherapp.bin` to the root of your SD card
+1. Copy the pre9otherapp payload to the root of your SD card and rename it to `otherapp.bin`
 1. תעתיקו את הקובץ `boot.firm` מתוך ה`.7z` של Luma3DS לתוך ה-SD שלכם
 1. תעתיקו את `boot.3dsx` אל שורש כרטיס ה SD
 1. תצרו ב-SD שלכם תיקייה חדשה בשם `boot9strap`

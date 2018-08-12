@@ -37,7 +37,7 @@ This means that using a cartridge update from a version containing an older Nint
 1. Power off your device
 1. Insert your SD card into your computer
 1. Copy the Soundhax `.m4a` to the root of your SD card
-1. Copy `otherapp.bin` to the root of your SD card
+1. Copy the pre9otherapp payload to the root of your SD card and rename it to `otherapp.bin`
 1. Copy `boot.firm` from the Luma3DS `.7z` to the root of your SD card
 1. Copy `boot.3dsx` to the root of your SD card
 1. Create a folder named `boot9strap` on the root of your SD card
