@@ -71,6 +71,9 @@ sidebar_pages:
     title: Установка boot9strap (DSiWare)
     url: installing-boot9strap-(dsiware)
   - 
+    title: Установка boot9strap (Seedminer)
+    url: installing-boot9strap-(seedminer)
+  - 
     title: Несколько вариантов
     url: multiple-options
   - 

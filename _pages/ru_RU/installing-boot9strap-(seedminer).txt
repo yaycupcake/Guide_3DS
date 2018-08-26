@@ -1,0 +1,140 @@
+---
+title: "Установка boot9strap (DSiWare)"
+---
+
+{% include toc title="Содержание" %}
+
+### Обязательно к прочтению
+
+Чтобы установить boot9strap на консоль с прошивкой 11.8.0, мы используем уязвимость в ограничениях безопасности для приложений "DSiWare".
+
+Для достижения этой цели, мы используем инструмент под названием Seedminer, чтобы вычислить ключ шифрования DSiWare (`movable.sed`) вашей консоли. 
+
+Затем мы используем этот ключ шифрования DSiWare, чтобы расшифровать совместимое DSiWare приложение и внедрить в него эксплойт для запуска нашего собственного кода.
+
+Если бы этот ключ был полностью случайным, то его было бы невозможно взломать при помощи современных компьютеров. К счастью, первая половина ключа (`movable_part1.sed`) на самом деле математически связана с Кодом друга консоли, что позволяет нам взломать шифрование. Для получения информации о том, как работает Seedminer, пожалуйста, посмотрите [эту презентацию](https://zoogie.github.io/web/34⅕c3).
+
+Обратите внимание, что этот инструмент требует наличия ПК с мощной видеокартой для взлома шифрования DSiWare вашей консоли. Если у вас нет доступа к такому компьютеру, существует несколько онлайн сервисов взаимопомощи, где волонтеры и автоматическое ПО могут сделать это за вас.
+
+Этот процесс перезапишет сохранение вашей DSiWare игры!
+{: .notice--warning}
+
+### Что понадобится
+
+* Купленная в eShop (или уже имеющаяся) совместимая DSiWare игра
+  + Обратите внимание, что вы должны быть на последней версии прошивки (сейчас это 11.8.0) для того, чтобы покупать игры в eShop
+  + Для списка совместимых игр обратитесь к [Установка boot9strap (Список уязвимых игр DSiWare)](installing-boot9strap-(dsiware-game-injection-list))
+* <i class="fa fa-magnet" aria-hidden="true" title="Это magnet-ссылка. Воспользуйтесь торрент-клиентом, чтобы скачать этот файл."></i> - [ctcert.bin](magnet:?xt=urn:btih:ec445a7aae6fd62432c9ccee091919bda41c8283&dn=ctcert.bin&tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&tr=udp%3A%2F%2Fbt.xxx-tracker.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fmgtracker.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.si%3A1337%2Fannounce&tr=udp%3A%2F%2Fpublic.popcorn-tracker.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fthetracker.org%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.cypherpunks.ru%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.ds.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.mg64.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.port443.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.qt.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.vanitycore.co%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-2.msm8916.com%3A6969%2Fannounce)
+* Версия `.zip-архива` DSiWare exploit injection для вашего региона:
+  + <i class="fa fa-magnet" aria-hidden="true" title="Это magnet-ссылка. Воспользуйтесь торрент-клиентом, чтобы скачать этот файл."></i> - [USA.zip](magnet:?xt=urn:btih:ead76f1e382cad15efaf1ba87c702f7b4c16d6e0&dn=USA.zip&tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&tr=udp%3A%2F%2Fbt.xxx-tracker.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fmgtracker.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.si%3A1337%2Fannounce&tr=udp%3A%2F%2Fpublic.popcorn-tracker.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fthetracker.org%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.cypherpunks.ru%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.ds.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.mg64.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.port443.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.qt.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.vanitycore.co%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-2.msm8916.com%3A6969%2Fannounce)
+  + <i class="fa fa-magnet" aria-hidden="true" title="Это magnet-ссылка. Воспользуйтесь торрент-клиентом, чтобы скачать этот файл."></i> - [EUR.zip](magnet:?xt=urn:btih:fe5be30f2a2c33e5e350e099804840560cbb6626&dn=EUR.zip&tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&tr=udp%3A%2F%2Fbt.xxx-tracker.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fmgtracker.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.si%3A1337%2Fannounce&tr=udp%3A%2F%2Fpublic.popcorn-tracker.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fthetracker.org%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.cypherpunks.ru%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.ds.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.mg64.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.port443.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.qt.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.vanitycore.co%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-2.msm8916.com%3A6969%2Fannounce)
+  + <i class="fa fa-magnet" aria-hidden="true" title="Это magnet-ссылка. Воспользуйтесь торрент-клиентом, чтобы скачать этот файл."></i> - [JPN.zip](magnet:?xt=urn:btih:b10e9c3289c16c6de8aefcaf3892e2efe267acb8&dn=JPN.zip&tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&tr=udp%3A%2F%2Fbt.xxx-tracker.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fmgtracker.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.si%3A1337%2Fannounce&tr=udp%3A%2F%2Fpublic.popcorn-tracker.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fthetracker.org%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.cypherpunks.ru%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.ds.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.mg64.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.port443.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.qt.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.vanitycore.co%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-2.msm8916.com%3A6969%2Fannounce)
+* Свежая версия [b9sTool](https://github.com/zoogie/b9sTool/releases/latest)
+* Свежая версия [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(`.7z-архив`)*
+* Свежая версия [Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest)
+
+### Инструкция
+
+#### Часть I - Подготовительные работы
+
+1. Откройте Системные настройки на вашей консоли
+1. Перейдите в `Управление данными` -> `DSiWare`
+1. На вкладке "Память системы" выберите вашу совместимую DSiWare игру
+1. Выберите "Копировать", затем "OK"
+  + Если появится запрос, согласитесь на перезапись
+1. Выключите консоль
+1. Вставьте SD-карту в компьютер
+1. Скопируйте файл `boot.firm` из `.7z-архива` Luma3DS в корень SD-карты
+1. Скопируйте `boot.nds` (B9STool) в корень SD-карты
+1. Скопируйте `boot.3dsx` в корень SD-карты
+1. Перейдите в папку `Nintendo 3DS` на SD-карте
+1. Скопируйте имя папки из 32 символов, которую вы видите
+  + Если вы видите несколько таких папок, выполните следующие действия:
+  + Переименуйте папку `Nintendo 3DS` в `BACKUP_Nintendo 3DS`
+  + Вставьте SD-карту обратно в консоль и включите консоль
+  + Подождите пока консоль не создаст данные на SD-карте
+  + Выключите консоль и вставьте SD-карту обратно в компьютер
+  + Перейдите в папку `Nintendo 3DS` на SD-карте
+  + Скопируйте имя папки из 32 символов, которую вы видите
+  + Удалите папку `Nintendo 3DS`
+  + Переименуйте папку `BACKUP_Nintendo 3DS` в `Nintendo 3DS`
+1. Вставьте имя папки из 32 символов в документ, к которому вы сможете обратиться позже
+  + Имя этой папки также известно как ваш "ID0"
+1. Перейдите в папку `<ID0>` -> `<32-значный-id>` -> `Nintendo DSiWare` на SD-карте
+1. Скопируйте файл `<8-значный-id>.bin` в папку на вашем компьютере
+  + 8-значный ID смотрите на странице [Установка boot9strap (Список уязвимых игр DSiWare)](installing-boot9strap-(dsiware-game-injection-list))
+1. Вставьте SD-карту обратно в консоль
+1. Включите консоль
+1. Откройте Список друзей ([оранжевый значок в виде лица]({{ "/images/friend-list-icon.png" | absolute_url }}) на верхней строчке меню HOME)
+  + Если появляется ошибка и вас не пускают в меню, значит вам нужно либо создать новый Mii, либо консоль не может подключиться к серверам Nintendo (по причине бана или проблем с соединением)
+1. Найдите свой профиль Mii, затем найдите поле "Код друга" на верхнем экране
+
+#### Section II - Seedminer
+
+1. Launch [Bruteforce Movable](https://bruteforcemovable.com/) on your computer
+  + This site can automate the retrieval of `movable_part1.sed` (using a bot 3DS console) and the breaking of your device's DSiWare encryption (using a volunteer's computer to run Seedminer)
+  + If you already have access to a 3DS capable of launching the Homebrew Launcher, you can manually retrieve your `movable_part1.sed` using that device by following [these](https://jisagi.github.io/SeedminerGuide/seedminerSelf/#section1) instructions
+  + If you already have access to a PC with a powerful graphics card, you can manually calculate your `movable.sed` using it by following [these](https://jisagi.github.io/SeedminerGuide/seedminerSelf/#section2) instructions
+  + If the automated service is nonfunctional and you cannot do one or both of those manually, join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) and ask for someone there to assist you 
+1. Enter your device's Friend Code (with no spaces or dashes) into the "Your friend code" field
+1. Paste your device's  32 character long folder name into the "Your ID0" field
+1. Complete the "I'm not a robot" captcha
+1. Select "Go"
+1. When prompted, use the "Register Friend" button on your device to add the friend code of the bot 3DS console
+1. Wait for the site to update
+  + If it does not, refresh the page
+1. Select "Continue"
+1. Wait for the process to complete
+  + This can take a while (up to an hour in some cases)
+  + If you are still waiting after an hour, join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) and ask for someone there to assist you 
+1. When the process has completed, download your `movable.sed` file from the site
+
+#### Section III - DSiWare Injection
+
+1. Launch [TADpole Online](https://jisagi.github.io/TADpole-Online/) on your computer
+  + If this site is nonfunctional, try [Project DSIHaxInjector](https://jenkins.nelthorya.net/job/DSIHaxInjector/build)
+1. Extract the contents of the DSiWare exploit injection `.zip` to a folder on your computer
+1. Select your `<8-character-id>.bin` for the "DSiWare.bin" field
+1. Select your `movable.sed` file for the "movable.sed" field
+1. Select the downloaded `ctcert.bin` file for the "ctcert.bin" field
+1. Select the extracted `game_<your-region>.app` file for the "game_XXX.app" field
+1. Select the extracted `public_<your-region>.sav` file for the "public_XXX.sav" field
+1. Select "Start!"
+1. Wait for the process to complete
+1. Rename the created `<8-character-id>.bin.patched` file to `<8-character-id>.bin`
+  + Do not confuse this file with the `<8-character-id>.bin` file from earlier
+1. Выключите консоль
+1. Вставьте SD-карту в компьютер
+1. Navigate to `Nintendo 3DS` -> `<ID0>` -> `<32-character-id>` -> `Nintendo DSiWare` on your SD card
+1. Copy the new `<8-character-id>.bin` file to the `Nintendo DSiWare` folder on your SD card
+  + Overwrite the old `<8-character-id>.bin` file when prompted
+1. Вставьте SD-карту обратно в консоль
+1. Включите консоль
+1. Откройте Системные настройки на вашей консоли
+1. Перейдите в `Управление данными` -> `DSiWare`
+1. Under the "SD Card" (or "microSD Card") section, select your compatible DSiWare game
+1. Выберите "Копировать", затем "OK"
+  + This may have caused your game to appear as "Sudoku" or "4Swords" depending on region; this is normal
+1. Exit System Settings
+
+#### Section IV - Flashing FIRM
+
+1. Launch b9sTool by starting your DSiWare game on your device
+  + Если появится запрос, коснитесь экрана чтобы активировать эксплойт
+1. Выберите "Install boot9strap" и подтвердите выбор
+1. Закройте b9sTool, затем выключите консоль
+  + При необходимости выключите консоль принудительно, удерживая кнопку питания
+
+#### Section V - Configuring Luma3DS
+
+1. Включите консоль кнопкой питания, держа нажатой кнопку (Select), чтобы попасть в меню настроек Luma
+  + If you encounter issues launching the Luma configuration menu, [follow this troubleshooting guide](https://github.com/zoogie/b9sTool/blob/master/TROUBLESHOOTING.md)
+1. Нажимая (A) выберите следующие пункты:    
+  + **"Show NAND or user string in System Settings"**
+1. Нажмите (Start), чтобы сохранить настройки и перезагрузиться
+  + Если экран остаётся чёрным, обратитесь к разделу [Проблемы и их решения](troubleshooting#черный-экран-при-загрузке-sysnand-после-установки-boot9strap)
+
+___
+
+### Следующий шаг: [Завершение установки](finalizing-setup)
+{: .notice--primary}
