@@ -124,11 +124,6 @@ This process will overwrite your DSiWare game's save file!
 1. Select "Install boot9strap" and confirm
 1. Exit b9sTool, then power off your device
   + You may have to force power off by holding the power button
-1. Put your SD card in your computer, then copy `BACKUP.bin` from the `boot9strap` folder to a safe location on your computer
-  + Make backups in multiple locations (such as online file storage)
-  + This backup will save you from a brick if anything goes wrong in the future
-1. Reinsert your SD card into your device
-1. Power on your device
 
 #### Section V - Configuring Luma3DS
 
