@@ -59,7 +59,7 @@ To extract the `.7z` files linked on this page, you will need a file archiver li
   + If you get a black screen, [follow this troubleshooting guide](troubleshooting#black-screen-on-sysnand-boot-after-installing-boot9strap)
 1. Use the (A) button and the D-Pad to turn on the following:    
   + **"Show NAND or user string in System Settings"**
-1. Πατήστε (Start) για αποθήκευση των αλλαγών και επανεκκίνηση
+1. Press (Start) to save and reboot
   + If you get an error, just continue the next page
 
 ___

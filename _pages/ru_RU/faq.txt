@@ -27,7 +27,7 @@ title: "Вопросы и ответы"
 **О:** Да. Это безопасно, хватит уже спрашивать об этом.
 
 <a name="faq_support" />**В:** *Куда я могу обратиться за помощью?*    
-**A:** For support (in English), ask for help at [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp).
+**О:** Для поддержки (на английском языке), обратитесь за помощью на сервер [Nintendo Homebrew в Discord](https://discord.gg/MWxPgEp).
 
 <a name="faq_le4gbsd" />**В:** *Могу ли я использовать SD-карту размером 4 ГБ (или меньше)?*    
 **О:** Да!

@@ -22,7 +22,7 @@ title: "Завершение установки"
 ### Что понадобится
 
 * Свежая версия [Anemone3DS](https://github.com/astronautlevel2/Anemone3DS/releases/latest) *(`.cia-файл`)*
-* The latest release of [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases/latest) *(the `.cia` file)*
+* Свежая версия [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases/latest) *(`.cia-файл`)*
 * Свежая версия [Homebrew Launcher Wrapper](https://github.com/mariohackandglitch/homebrew_launcher_dummy/releases/latest)
 * Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 * Свежая версия [DSP1](https://github.com/zoogie/DSP1/releases/latest)
@@ -195,5 +195,5 @@ ___
 Для получения информации по установке пользовательских тем и экранов-заставок, посетите [Theme Plaza](https://themeplaza.eu/).
 {: .notice--success}
 
-For information on using Gateshark cheat codes on Luma3DS, check out [Sharkive](https://github.com/FlagBrew/Sharkive).
+Для получения информации об использовании чит-кодов Gateshark на Luma3DS, посетите [Sharkive](https://github.com/FlagBrew/Sharkive).
 {: .notice--success}

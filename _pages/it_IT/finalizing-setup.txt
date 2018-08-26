@@ -22,7 +22,7 @@ Durante la guida verranno anche configurate le seguenti applicazioni:
 ### Cosa serve
 
 * L'ultima versione di [Anemone3DS](https://github.com/astronautlevel2/Anemone3DS/releases/latest) *(il file `.cia`)*
-* The latest release of [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases/latest) *(the `.cia` file)*
+* L'ultima versione di [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases/latest) *(il file `.cia`)*
 * L'ultima versione di [Homebrew Launcher Wrapper](https://github.com/mariohackandglitch/homebrew_launcher_dummy/releases/latest)
 * L'ultima versione di [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 * L'ultima versione di [DSP1](https://github.com/zoogie/DSP1/releases/latest)
@@ -195,5 +195,5 @@ Per informazioni sulle varie caratteristiche di Luma3DS, leggi [la sua pagina wi
 Per informazioni su come installare temi custom, medaglie e splash screen, visita [Theme Plaza](https://themeplaza.eu/).
 {: .notice--success}
 
-For information on using Gateshark cheat codes on Luma3DS, check out [Sharkive](https://github.com/FlagBrew/Sharkive).
+Per informazioni sull'utilizzo dei codici GateShark con Luma3DS, consulta la pagina [Sharkive](https://github.com/FlagBrew/Sharkive).
 {: .notice--success}

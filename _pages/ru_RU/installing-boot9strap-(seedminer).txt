@@ -22,8 +22,8 @@ title: "Установка boot9strap (DSiWare)"
 ### Что понадобится
 
 * Купленная в eShop (или уже имеющаяся) совместимая DSiWare игра
-  + Обратите внимание, что вы должны быть на последней версии прошивки (сейчас это 11.8.0) для того, чтобы покупать игры в eShop
   + Для списка совместимых игр обратитесь к [Установка boot9strap (Список уязвимых игр DSiWare)](installing-boot9strap-(dsiware-game-injection-list))
+  + Обратите внимание, что вы должны быть на последней версии прошивки (сейчас это 11.8.0) для того, чтобы покупать игры в eShop
 * <i class="fa fa-magnet" aria-hidden="true" title="Это magnet-ссылка. Воспользуйтесь торрент-клиентом, чтобы скачать этот файл."></i> - [ctcert.bin](magnet:?xt=urn:btih:ec445a7aae6fd62432c9ccee091919bda41c8283&dn=ctcert.bin&tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&tr=udp%3A%2F%2Fbt.xxx-tracker.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fmgtracker.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.si%3A1337%2Fannounce&tr=udp%3A%2F%2Fpublic.popcorn-tracker.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fthetracker.org%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.cypherpunks.ru%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.ds.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.mg64.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.port443.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.qt.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.vanitycore.co%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-2.msm8916.com%3A6969%2Fannounce)
 * Версия `.zip-архива` DSiWare exploit injection для вашего региона:
   + <i class="fa fa-magnet" aria-hidden="true" title="Это magnet-ссылка. Воспользуйтесь торрент-клиентом, чтобы скачать этот файл."></i> - [USA.zip](magnet:?xt=urn:btih:ead76f1e382cad15efaf1ba87c702f7b4c16d6e0&dn=USA.zip&tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&tr=udp%3A%2F%2Fbt.xxx-tracker.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fmgtracker.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.si%3A1337%2Fannounce&tr=udp%3A%2F%2Fpublic.popcorn-tracker.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fthetracker.org%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.cypherpunks.ru%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.ds.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.mg64.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.port443.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.qt.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.vanitycore.co%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-2.msm8916.com%3A6969%2Fannounce)
@@ -69,66 +69,66 @@ title: "Установка boot9strap (DSiWare)"
   + Если появляется ошибка и вас не пускают в меню, значит вам нужно либо создать новый Mii, либо консоль не может подключиться к серверам Nintendo (по причине бана или проблем с соединением)
 1. Найдите свой профиль Mii, затем найдите поле "Код друга" на верхнем экране
 
-#### Section II - Seedminer
+#### Часть II - Seedminer
 
-1. Launch [Bruteforce Movable](https://bruteforcemovable.com/) on your computer
-  + This site can automate the retrieval of `movable_part1.sed` (using a bot 3DS console) and the breaking of your device's DSiWare encryption (using a volunteer's computer to run Seedminer)
-  + If you already have access to a 3DS capable of launching the Homebrew Launcher, you can manually retrieve your `movable_part1.sed` using that device by following [these](https://jisagi.github.io/SeedminerGuide/seedminerSelf/#section1) instructions
-  + If you already have access to a PC with a powerful graphics card, you can manually calculate your `movable.sed` using it by following [these](https://jisagi.github.io/SeedminerGuide/seedminerSelf/#section2) instructions
-  + If the automated service is nonfunctional and you cannot do one or both of those manually, join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) and ask (in English) for someone there to assist you 
-1. Enter your device's Friend Code (with no spaces or dashes) into the "Your friend code" field
-1. Paste your device's  32 character long folder name into the "Your ID0" field
-1. Complete the "I'm not a robot" captcha
-1. Select "Go"
-1. When prompted, use the "Register Friend" button on your device to add the friend code of the bot 3DS console
-1. Wait for the site to update
-  + If it does not, refresh the page
-1. Select "Continue"
-1. Wait for the process to complete
-  + This can take a while (up to an hour in some cases)
-  + If you are still waiting after an hour, join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) and ask (in English) for someone there to assist you 
-1. When the process has completed, download your `movable.sed` file from the site
+1. Перейдите по ссылке [Bruteforce Movable](https://bruteforcemovable.com/) на компьютере
+  + Этот сайт может автоматизировать процесс получения `movable_part1.sed` (при помощи консоли-бота 3DS) и процесс взлома шифрования DSiWare вашей консоли (используя компьютер волонтера для запуска Seedminer)
+  + Если у вас уже есть доступ к консоли 3DS, способной запускать Homebrew Launcher, вы можете вручную получить свой `movable_part1.sed`, используя эту консоль и следуя [этим](https://jisagi.github.io/SeedminerGuide/seedminerSelf/#section1) инструкциям (англ.)
+  + Если у вас уже есть доступ к ПК с мощной видеокартой, вы можете вручную вычислить свой `movable.sed`, используя этот компьютер и следуя [этим](https://jisagi.github.io/SeedminerGuide/seedminerSelf/#section2) инструкциям (англ.)
+  + Если автоматизированный сервис не функционирует, и вы не можете выполнить одно или оба этих действия вручную, обратитесь на сервер [Nintendo Homebrew в Discord](https://discord.gg/MWxPgEp) и попросите (на английском языке) кого-нибудь вам помочь 
+1. Введите Код друга вашей консоли (без пробелов или тире) в поле "Your friend code"
+1. Вставьте имя папки из 32 символов в поле "Your ID0"
+1. Заполните captcha "Я не робот"
+1. Выберите "Go"
+1. При появлении запроса, используйте кнопку "Регистрация друга" на консоли, чтобы добавить код друга консоли-бота 3DS
+1. Дождитесь обновления страницы
+  + Если этого не происходит, обновите страницу самостоятельно
+1. Выберите "Continue"
+1. Дождитесь окончания процесса
+  + Это может занять некоторое время (вплоть до часа в некоторых случаях)
+  + Если вы все еще в ожидании по прошествии часа, обратитесь на сервер [Nintendo Homebrew в Discord](https://discord.gg/MWxPgEp) и попросите (на английском языке) кого-нибудь вам помочь 
+1. После окончания процесса скачайте с сайта свой файл `movable.sed`
 
-#### Section III - DSiWare Injection
+#### Часть III - Инъекция DSiWare
 
-1. Launch [TADpole Online](https://jisagi.github.io/TADpole-Online/) on your computer
-  + If this site is nonfunctional, try [Project DSIHaxInjector](https://jenkins.nelthorya.net/job/DSIHaxInjector/build)
-1. Extract the contents of the DSiWare exploit injection `.zip` to a folder on your computer
-1. Select your `<8-character-id>.bin` for the "DSiWare.bin" field
-1. Select your `movable.sed` file for the "movable.sed" field
-1. Select the downloaded `ctcert.bin` file for the "ctcert.bin" field
-1. Select the extracted `game_<your-region>.app` file for the "game_XXX.app" field
-1. Select the extracted `public_<your-region>.sav` file for the "public_XXX.sav" field
-1. Select "Start!"
-1. Wait for the process to complete
-1. Rename the created `<8-character-id>.bin.patched` file to `<8-character-id>.bin`
-  + Do not confuse this file with the `<8-character-id>.bin` file from earlier
+1. Перейдите по ссылке [TADpole Online](https://jisagi.github.io/TADpole-Online/) на компьютере
+  + Если этот сайт не функционирует, попробуйте [Project DSIHaxInjector](https://jenkins.nelthorya.net/job/DSIHaxInjector/build)
+1. Извлеките содержимое `zip-архива` DSiWare exploit injection в папку на вашем компьютере
+1. Выберите свой файл `<8-значный-id>.bin` в поле "DSiWare.bin"
+1. Выберите свой файл `movable.sed` в поле "movable.sed"
+1. Выберите скачанный файл `ctcert.bin` в поле "ctcert.bin"
+1. Выберите извлеченный файл `game_<ваш-регион>.app` в поле "game_XXX.app"
+1. Выберите извлеченный файл `public_<ваш-регион>.sav` в поле "public_XXX.sav"
+1. Выберите "Start!"
+1. Дождитесь окончания процесса
+1. Переименуйте созданный файл `<8-значный-id>.bin.patched` в `<8-значный-id>.bin`
+  + Не путайте этот файл с файлом `<8-значный-id>.bin`, использованным ранее
 1. Выключите консоль
 1. Вставьте SD-карту в компьютер
-1. Navigate to `Nintendo 3DS` -> `<ID0>` -> `<32-character-id>` -> `Nintendo DSiWare` on your SD card
-1. Copy the new `<8-character-id>.bin` file to the `Nintendo DSiWare` folder on your SD card
-  + Overwrite the old `<8-character-id>.bin` file when prompted
+1. Перейдите в папку `Nintendo 3DS` -> `<ID0>` -> `<32-значный-id>` -> `Nintendo DSiWare` на SD-карте
+1. Скопируйте новый файл `<8-значный-id>.bin` в папку `Nintendo DSiWare` на SD-карте
+  + Перезапишите старый файл `<8-значный-id>.bin` при появлении запроса
 1. Вставьте SD-карту обратно в консоль
 1. Включите консоль
 1. Откройте Системные настройки на вашей консоли
 1. Перейдите в `Управление данными` -> `DSiWare`
-1. Under the "SD Card" (or "microSD Card") section, select your compatible DSiWare game
+1. На вкладке "Карта SD" (или "Карта microSD") выберите вашу совместимую DSiWare игру
 1. Выберите "Копировать", затем "OK"
-  + This may have caused your game to appear as "Sudoku" or "4Swords" depending on region; this is normal
-1. Exit System Settings
+  + Это действие может заставить вашу игру отображаться как "Sudoku" или "4Swords" в зависимости от региона; это нормально
+1. Закройте Системные настройки
 
-#### Section IV - Flashing FIRM
+#### Часть IV - Прошивка FIRM
 
-1. Launch b9sTool by starting your DSiWare game on your device
+1. Откройте b9sTool, запустив DSiWare игру на консоли
   + Если появится запрос, коснитесь экрана чтобы активировать эксплойт
 1. Выберите "Install boot9strap" и подтвердите выбор
 1. Закройте b9sTool, затем выключите консоль
   + При необходимости выключите консоль принудительно, удерживая кнопку питания
 
-#### Section V - Configuring Luma3DS
+#### Часть V - Настройка Luma3DS
 
 1. Включите консоль кнопкой питания, держа нажатой кнопку (Select), чтобы попасть в меню настроек Luma
-  + If you encounter issues launching the Luma configuration menu, [follow this troubleshooting guide](https://github.com/zoogie/b9sTool/blob/master/TROUBLESHOOTING.md)
+  + Если вы не можете попасть в меню настроек Luma, [следуйте этим инструкциям](https://github.com/zoogie/b9sTool/blob/master/TROUBLESHOOTING.md) (англ.)
 1. Нажимая (A) выберите следующие пункты:    
   + **"Show NAND or user string in System Settings"**
 1. Нажмите (Start), чтобы сохранить настройки и перезагрузиться

@@ -8,7 +8,7 @@ title: "Installazione di boot9strap (inject di salvataggio su DSiWare)"
 
 Tieni presente che se hai altri file payload oltre a `GodMode9.firm` nella cartella `/luma/payloads/` della tua scheda SD, per seguire le istruzioni riportate dovrai avviare la console tenendo (Start); apparirà un "menu chainloader" dove dovrai selezionare "GodMode9" tramite il D-Pad e il pulsante (A). 
 
-To use the [magnet](https://wikipedia.org/wiki/Magnet_URI_scheme) links on this page, you will need a torrent client like [Deluge](http://dev.deluge-torrent.org/wiki/Download).
+Per usare i link [magnet](https://wikipedia.org/wiki/Magnet_URI_scheme) di questa guida avrai bisogno di un client torrent come [Deluge](http://dev.deluge-torrent.org/wiki/Download).
 
 Per estrarre i file `.7z` presenti in questa pagina, avrai bisogno di un gestore di file compressi come [7-Zip](http://www.7-zip.org/) o [The Unarchiver](https://theunarchiver.com/).
 
@@ -35,12 +35,12 @@ Se non usi il file `.firm` corrispondente al 3DS di destinazione, BRICKERAI la c
 
 #### Sezione I - Preparazione
 
-Use a [save manager](https://github.com/FlagBrew/Checkpoint/releases/latest) to backup any saves you care about on *the target 3DS* (it will be formatted!)
+Usa un [save manager](https://github.com/FlagBrew/Checkpoint/releases/latest) per eseguire il backup di qualsiasi salvataggio tu voglia mantenere sul *3DS di destinazione* (verrà formattato!)
 {: .notice--warning}
 
 1. Copia il file `GodMode9.firm` dall'archivio `.zip` di GodMode9 dentro la cartella `/luma/payloads/` della scheda SD del **3DS di partenza**
 1. Copia la cartella `gm9` presente nell'archivio `.zip` di GodMode9 nella directory principale della scheda SD del **3DS di partenza**
-1. Copy the relevant `public.sav` from the `/dsiware/<8-character-id>/` folder in the 3ds_dsiwarehax_installer `.zip` to the root of **the source 3DS**'s SD card
+1. Copia il file `public.sav` corretto dalla cartella `/dsiware/(ID di 8 caratteri)/` contenuta nell'archivio `.zip` di 3ds_dsiwarehax_installer nella directory principale della scheda SD del **3DS di partenza**
   + **Fieldrunners (USA)**: `4b464445`
   + **Fieldrunners (EUR)**: `4b464456`
   + **Legends of Exidia (USA)**: `4b4c4545`
@@ -147,7 +147,7 @@ Use a [save manager](https://github.com/FlagBrew/Checkpoint/releases/latest) to 
 
 #### Sezione V - Flash del FIRM sul 3DS di destinazione
 
-1. Copy `boot.firm` from the Luma3DS `.7z` to the root of **the target 3DS**'s SD card
+1. Copia il file `boot.firm` dall'archivio `.7z` di Luma3DS nella directory principale della scheda SD del **3DS di destinazione**
 1. Copia il file `boot.nds` (B9STool) nella directory principale della scheda SD del **3DS di destinazione**
 1. Copia il file `boot.3dsx` nella directory principale della scheda SD del **3DS di destinazione**
 1. Avvia il gioco DSiWare sul **3DS di destinazione**
@@ -161,7 +161,7 @@ Use a [save manager](https://github.com/FlagBrew/Checkpoint/releases/latest) to 
 
 #### Sezione VI - Configurare Luma3DS
 
-1. Boot **the target 3DS** while holding (Select) to launch the Luma configuration menu
+1. Avvia il **3DS di destinazione** console tenendo premuto (Select) per avviare il menu delle opzioni di Luma
   + Se ottieni uno schermo nero, [segui questa guida per risolvere il problema](troubleshooting#black-screen-on-sysnand-boot-after-installing-boot9strap)
 1. Usa il pulsante (A) e il D-Pad per abilitare le seguenti opzioni:    
   + **"Show NAND or user string in System Settings"**
