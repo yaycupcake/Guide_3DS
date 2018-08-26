@@ -2,7 +2,7 @@
 <rss version="2.0">
 	<channel>
 		<title>Plailect Guide Feed</title>
-		<lastBuildDate>Tue, 31 Jul 2018 16:28:18 +0000</lastBuildDate>
+		<lastBuildDate>Sun, 26 Aug 2018 02:20:26 +0000</lastBuildDate>
 		<link>https://github.com/Plailect/Guide_3DS/</link>
 		<item>
 			<title>1.0.0_qr.png</title>
@@ -4205,6 +4205,81 @@
 			</trackers>
 		</item>
 		<item>
+			<title>ctcert.bin</title>
+			<description>ctcert.bin</description>
+			<guid>EC445A7AAE6FD62432C9CCEE091919BDA41C8283</guid>
+			<link>magnet:?xt=urn:btih:EC445A7AAE6FD62432C9CCEE091919BDA41C8283</link>
+			<pubDate>Sat, 25 Aug 2018 22:00:00 +0000</pubDate>
+			<contentLength>414</contentLength>
+			<infoHash>EC445A7AAE6FD62432C9CCEE091919BDA41C8283</infoHash>
+			<magnetURI>magnet:?xt=urn:btih:EC445A7AAE6FD62432C9CCEE091919BDA41C8283</magnetURI>
+			<enclosure url="magnet:?xt=urn:btih:EC445A7AAE6FD62432C9CCEE091919BDA41C8283" type="application/x-bittorrent" />
+			<trackers>
+				<group order="random">
+					<tracker>
+						udp://tracker.coppersurfer.tk:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.open-internet.nl:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.skyts.net:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.piratepublic.com:1337/announce
+					</tracker>
+					<tracker>
+						udp://tracker.opentrackr.org:1337/announce
+					</tracker>
+					<tracker>
+						udp://9.rarbg.to:2710/announce
+					</tracker>
+					<tracker>
+						udp://public.popcorn-tracker.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://wambo.club:1337/announce
+					</tracker>
+					<tracker>
+						udp://trackerxyz.tk:1337/announce
+					</tracker>
+					<tracker>
+						udp://tracker4.itzmx.com:2710/announce
+					</tracker>
+					<tracker>
+						udp://tracker2.christianbro.pw:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker1.wasabii.com.tw:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.zer0day.to:1337/announce
+					</tracker>
+					<tracker>
+						udp://tracker.xku.tv:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.vanitycore.co:6969/announce
+					</tracker>
+					<tracker>
+						udp://inferno.demonoid.pw:3418/announce
+					</tracker>
+					<tracker>
+						udp://open.facedatabg.net:6969/announce
+					</tracker>
+					<tracker>
+						udp://mgtracker.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://ipv4.tracker.harry.lu:80/announce
+					</tracker>
+					<tracker>
+						udp://tracker.christianbro.pw:6969/announce
+					</tracker>
+				</group>
+			</trackers>
+		</item>
+		<item>
 			<title>ctr-common-1.zip</title>
 			<description>ctr-common-1.zip</description>
 			<guid>AF6D3F8B0A9C13D63B9405DC375CC68AF614394D</guid>
@@ -4582,13 +4657,13 @@
 		<item>
 			<title>DSiWare_eur_sudokuhax_injection.zip</title>
 			<description>DSiWare_eur_sudokuhax_injection.zip</description>
-			<guid>1542DD3C2BF7785B1E7A6DDA3887FC8FB2710685</guid>
-			<link>magnet:?xt=urn:btih:1542DD3C2BF7785B1E7A6DDA3887FC8FB2710685</link>
-			<pubDate>Mon, 29 May 2017 00:12:13 +0000</pubDate>
-			<contentLength>2552909</contentLength>
-			<infoHash>1542DD3C2BF7785B1E7A6DDA3887FC8FB2710685</infoHash>
-			<magnetURI>magnet:?xt=urn:btih:1542DD3C2BF7785B1E7A6DDA3887FC8FB2710685</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:1542DD3C2BF7785B1E7A6DDA3887FC8FB2710685" type="application/x-bittorrent" />
+			<guid>635C79AC8CEE2AECEE7B45AC69E0AC54108E21AB</guid>
+			<link>magnet:?xt=urn:btih:635C79AC8CEE2AECEE7B45AC69E0AC54108E21AB</link>
+			<pubDate>Sun, 26 Aug 2018 02:02:58 +0000</pubDate>
+			<contentLength>2532380</contentLength>
+			<infoHash>635C79AC8CEE2AECEE7B45AC69E0AC54108E21AB</infoHash>
+			<magnetURI>magnet:?xt=urn:btih:635C79AC8CEE2AECEE7B45AC69E0AC54108E21AB</magnetURI>
+			<enclosure url="magnet:?xt=urn:btih:635C79AC8CEE2AECEE7B45AC69E0AC54108E21AB" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -4732,13 +4807,13 @@
 		<item>
 			<title>DSiWare_usa_sudokuhax_injection.zip</title>
 			<description>DSiWare_usa_sudokuhax_injection.zip</description>
-			<guid>7ED7FEE15C900ED02B5E2CB3C8E7A0363F4D9354</guid>
-			<link>magnet:?xt=urn:btih:7ED7FEE15C900ED02B5E2CB3C8E7A0363F4D9354</link>
-			<pubDate>Fri, 09 Dec 2016 11:07:33 +0000</pubDate>
-			<contentLength>2455265</contentLength>
-			<infoHash>7ED7FEE15C900ED02B5E2CB3C8E7A0363F4D9354</infoHash>
-			<magnetURI>magnet:?xt=urn:btih:7ED7FEE15C900ED02B5E2CB3C8E7A0363F4D9354</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:7ED7FEE15C900ED02B5E2CB3C8E7A0363F4D9354" type="application/x-bittorrent" />
+			<guid>122CD5DDF913A3615E1B49CD25B9F59D4CD1B275</guid>
+			<link>magnet:?xt=urn:btih:122CD5DDF913A3615E1B49CD25B9F59D4CD1B275</link>
+			<pubDate>Sun, 26 Aug 2018 02:03:14 +0000</pubDate>
+			<contentLength>2434803</contentLength>
+			<infoHash>122CD5DDF913A3615E1B49CD25B9F59D4CD1B275</infoHash>
+			<magnetURI>magnet:?xt=urn:btih:122CD5DDF913A3615E1B49CD25B9F59D4CD1B275</magnetURI>
+			<enclosure url="magnet:?xt=urn:btih:122CD5DDF913A3615E1B49CD25B9F59D4CD1B275" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -4800,6 +4875,156 @@
 					</tracker>
 					<tracker>
 						udp://tracker.filetracker.pl:8089/announce
+					</tracker>
+				</group>
+			</trackers>
+		</item>
+		<item>
+			<title>EUR.zip</title>
+			<description>EUR.zip</description>
+			<guid>FE5BE30F2A2C33E5E350E099804840560CBB6626</guid>
+			<link>magnet:?xt=urn:btih:FE5BE30F2A2C33E5E350E099804840560CBB6626</link>
+			<pubDate>Sat, 25 Aug 2018 22:00:00 +0000</pubDate>
+			<contentLength>2559918</contentLength>
+			<infoHash>FE5BE30F2A2C33E5E350E099804840560CBB6626</infoHash>
+			<magnetURI>magnet:?xt=urn:btih:FE5BE30F2A2C33E5E350E099804840560CBB6626</magnetURI>
+			<enclosure url="magnet:?xt=urn:btih:FE5BE30F2A2C33E5E350E099804840560CBB6626" type="application/x-bittorrent" />
+			<trackers>
+				<group order="random">
+					<tracker>
+						udp://tracker.coppersurfer.tk:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.open-internet.nl:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.skyts.net:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.piratepublic.com:1337/announce
+					</tracker>
+					<tracker>
+						udp://tracker.opentrackr.org:1337/announce
+					</tracker>
+					<tracker>
+						udp://9.rarbg.to:2710/announce
+					</tracker>
+					<tracker>
+						udp://public.popcorn-tracker.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://wambo.club:1337/announce
+					</tracker>
+					<tracker>
+						udp://trackerxyz.tk:1337/announce
+					</tracker>
+					<tracker>
+						udp://tracker4.itzmx.com:2710/announce
+					</tracker>
+					<tracker>
+						udp://tracker2.christianbro.pw:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker1.wasabii.com.tw:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.zer0day.to:1337/announce
+					</tracker>
+					<tracker>
+						udp://tracker.xku.tv:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.vanitycore.co:6969/announce
+					</tracker>
+					<tracker>
+						udp://inferno.demonoid.pw:3418/announce
+					</tracker>
+					<tracker>
+						udp://open.facedatabg.net:6969/announce
+					</tracker>
+					<tracker>
+						udp://mgtracker.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://ipv4.tracker.harry.lu:80/announce
+					</tracker>
+					<tracker>
+						udp://tracker.christianbro.pw:6969/announce
+					</tracker>
+				</group>
+			</trackers>
+		</item>
+		<item>
+			<title>JPN.zip</title>
+			<description>JPN.zip</description>
+			<guid>B10E9C3289C16C6DE8AEFCAF3892E2EFE267ACB8</guid>
+			<link>magnet:?xt=urn:btih:B10E9C3289C16C6DE8AEFCAF3892E2EFE267ACB8</link>
+			<pubDate>Sat, 25 Aug 2018 22:00:00 +0000</pubDate>
+			<contentLength>8881583</contentLength>
+			<infoHash>B10E9C3289C16C6DE8AEFCAF3892E2EFE267ACB8</infoHash>
+			<magnetURI>magnet:?xt=urn:btih:B10E9C3289C16C6DE8AEFCAF3892E2EFE267ACB8</magnetURI>
+			<enclosure url="magnet:?xt=urn:btih:B10E9C3289C16C6DE8AEFCAF3892E2EFE267ACB8" type="application/x-bittorrent" />
+			<trackers>
+				<group order="random">
+					<tracker>
+						udp://tracker.coppersurfer.tk:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.open-internet.nl:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.skyts.net:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.piratepublic.com:1337/announce
+					</tracker>
+					<tracker>
+						udp://tracker.opentrackr.org:1337/announce
+					</tracker>
+					<tracker>
+						udp://9.rarbg.to:2710/announce
+					</tracker>
+					<tracker>
+						udp://public.popcorn-tracker.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://wambo.club:1337/announce
+					</tracker>
+					<tracker>
+						udp://trackerxyz.tk:1337/announce
+					</tracker>
+					<tracker>
+						udp://tracker4.itzmx.com:2710/announce
+					</tracker>
+					<tracker>
+						udp://tracker2.christianbro.pw:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker1.wasabii.com.tw:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.zer0day.to:1337/announce
+					</tracker>
+					<tracker>
+						udp://tracker.xku.tv:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.vanitycore.co:6969/announce
+					</tracker>
+					<tracker>
+						udp://inferno.demonoid.pw:3418/announce
+					</tracker>
+					<tracker>
+						udp://open.facedatabg.net:6969/announce
+					</tracker>
+					<tracker>
+						udp://mgtracker.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://ipv4.tracker.harry.lu:80/announce
+					</tracker>
+					<tracker>
+						udp://tracker.christianbro.pw:6969/announce
 					</tracker>
 				</group>
 			</trackers>
@@ -7425,6 +7650,81 @@
 					</tracker>
 					<tracker>
 						udp://tracker.filetracker.pl:8089/announce
+					</tracker>
+				</group>
+			</trackers>
+		</item>
+		<item>
+			<title>USA.zip</title>
+			<description>USA.zip</description>
+			<guid>EAD76F1E382CAD15EFAF1BA87C702F7B4C16D6E0</guid>
+			<link>magnet:?xt=urn:btih:EAD76F1E382CAD15EFAF1BA87C702F7B4C16D6E0</link>
+			<pubDate>Sat, 25 Aug 2018 22:00:00 +0000</pubDate>
+			<contentLength>2461087</contentLength>
+			<infoHash>EAD76F1E382CAD15EFAF1BA87C702F7B4C16D6E0</infoHash>
+			<magnetURI>magnet:?xt=urn:btih:EAD76F1E382CAD15EFAF1BA87C702F7B4C16D6E0</magnetURI>
+			<enclosure url="magnet:?xt=urn:btih:EAD76F1E382CAD15EFAF1BA87C702F7B4C16D6E0" type="application/x-bittorrent" />
+			<trackers>
+				<group order="random">
+					<tracker>
+						udp://tracker.coppersurfer.tk:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.open-internet.nl:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.skyts.net:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.piratepublic.com:1337/announce
+					</tracker>
+					<tracker>
+						udp://tracker.opentrackr.org:1337/announce
+					</tracker>
+					<tracker>
+						udp://9.rarbg.to:2710/announce
+					</tracker>
+					<tracker>
+						udp://public.popcorn-tracker.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://wambo.club:1337/announce
+					</tracker>
+					<tracker>
+						udp://trackerxyz.tk:1337/announce
+					</tracker>
+					<tracker>
+						udp://tracker4.itzmx.com:2710/announce
+					</tracker>
+					<tracker>
+						udp://tracker2.christianbro.pw:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker1.wasabii.com.tw:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.zer0day.to:1337/announce
+					</tracker>
+					<tracker>
+						udp://tracker.xku.tv:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.vanitycore.co:6969/announce
+					</tracker>
+					<tracker>
+						udp://inferno.demonoid.pw:3418/announce
+					</tracker>
+					<tracker>
+						udp://open.facedatabg.net:6969/announce
+					</tracker>
+					<tracker>
+						udp://mgtracker.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://ipv4.tracker.harry.lu:80/announce
+					</tracker>
+					<tracker>
+						udp://tracker.christianbro.pw:6969/announce
 					</tracker>
 				</group>
 			</trackers>

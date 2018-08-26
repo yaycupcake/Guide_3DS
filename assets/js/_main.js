@@ -111,10 +111,10 @@ $(document).ready(function(){
   }
 
   var sidebar_shown = true;
-  var sidebar_hidden_pages = ["404", "a9lh-to-b9s", "credits", "donations", "f3-(linux)", "f3x-(mac)",
-                              "faq", "file-extensions-(windows)", "get-started", "godmode9-usage", "h2testw-(windows)",
-                              "region-changing", "site-navigation", "troubleshooting", "uninstall-cfw",
-                              "updating-b9s", "why-ads"];
+  var sidebar_hidden_pages = ["404", "a9lh-to-b9s", "credits", "donations", "f3-(linux)", "f3x-(mac)", "faq",
+                              "file-extensions-(windows)", "get-started", "godmode9-usage", "h2testw-(windows)",
+                              "installing-boot9strap-(dsiware-game-injection-list)", "region-changing",
+                              "site-navigation", "troubleshooting", "uninstall-cfw", "updating-b9s", "why-ads"];
 
   for(var i = 0; i < sidebar_hidden_pages.length; i++){
     if(window.location.href.indexOf(sidebar_hidden_pages[i]) > -1) {
@@ -139,6 +139,7 @@ $(document).ready(function(){
     "flashing-ntrboot-(nds)": "13",
     "flashing-ntrboot-(powersaves)": "14",
     "installing-boot9strap-(hardmod)": "15",
+    "installing-boot9strap-(seedminer)": "16",
   };
 
   for(var method in methods){
@@ -171,6 +172,7 @@ $(document).ready(function(){
       "13": ["ntrboot", "flashing-ntrboot-(nds)", "installing-boot9strap-(ntrboot)", "finalizing-setup"],
       "14": ["ntrboot", "flashing-ntrboot-(powersaves)", "installing-boot9strap-(ntrboot)", "finalizing-setup"],
       "15": ["installing-boot9strap-(hardmod)", "finalizing-setup"],
+      "16": ["installing-boot9strap-(seedminer)", "finalizing-setup"],
     };
     unhide = unhide.concat(route[method]);
     if(typeof unhide !== 'undefined' && unhide.length > 0){
