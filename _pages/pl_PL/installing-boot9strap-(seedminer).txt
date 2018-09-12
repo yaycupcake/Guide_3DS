@@ -1,5 +1,5 @@
 ---
-title: "Instalacja boot9strap (DSiWare)"
+title: "Installing boot9strap (Seedminer)"
 ---
 
 {% include toc title="Spis Treści" %}

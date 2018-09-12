@@ -65,7 +65,7 @@ sidebar_pages:
     title: Korttipäivitys
     url: cart-update
   - 
-    title: Ntrboot
+    title: ntrboot
     url: ntrboot
   - 
     title: Installing boot9strap (Seedminer)

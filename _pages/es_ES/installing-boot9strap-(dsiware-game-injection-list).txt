@@ -8,7 +8,7 @@ title: "Instalar boot9strap (Lista de juegos DSiWare inyectables)"
 
 Esta es una lista generada automáticamente de todos los juegos disponibles actualmente en la eShop que son compatibles con el método de Inyección DSiWare.
 
-Additionally, the following eShop games (which have since been pulled from the eShop) are also compatible:
+Asimismo, los siguientes juegos (que han sido retirados de la eShop) también son compatibles:
   + Fieldrunners (4B4644XX)
   + Legends of Exidia (4B4C45XX)
   + Guitar Rock Tour (4B4752XX)
@@ -652,7 +652,7 @@ Dado que la lista es muy larga, puedes utilizar la barra al costado para desplaz
 | Successfully Learning English Year 4 (Éxito en primaria Inglés Curso 3°) | £4.49/4,99 € | 4B453650 | EUR | [![qrcode]({{ "/images/qrcodes/50010000003044.png" | absolute_url }})]({{ "/images/qrcodes/50010000003044.png" | absolute_url }})
 | Remote Racers | £4.49/4,99 € | 4B515256 | EUR | [![qrcode]({{ "/images/qrcodes/50010000006082.png" | absolute_url }})]({{ "/images/qrcodes/50010000006082.png" | absolute_url }})
 | Ikibago | £4.49/4,99 € | 4B494256 | EUR | [![qrcode]({{ "/images/qrcodes/50010000003982.png" | absolute_url }})]({{ "/images/qrcodes/50010000003982.png" | absolute_url }})
-| Successfully Learning English Year 3 | £4.49/4,99 € | 4B455A50 | EUR | [![qrcode]({{ "/images/qrcodes/50010000003303.png" | absolute_url }})]({{ "/images/qrcodes/50010000003303.png" | absolute_url }})
+| Successfully Learning English Year 3 (Éxito en primaria Inglés, curso 2º) | £4.49/4,99 € | 4B455A50 | EUR | [![qrcode]({{ "/images/qrcodes/50010000003303.png" | absolute_url }})]({{ "/images/qrcodes/50010000003303.png" | absolute_url }})
 | Zoonies - Escape from Makatu | £4.49/4,99 € | 4B5A5356 | EUR | [![qrcode]({{ "/images/qrcodes/50010000006662.png" | absolute_url }})]({{ "/images/qrcodes/50010000006662.png" | absolute_url }})
 | Valet Parking 1989™ | £4.49/4,99 € | 4B565056 | EUR | [![qrcode]({{ "/images/qrcodes/50010000006445.png" | absolute_url }})]({{ "/images/qrcodes/50010000006445.png" | absolute_url }})
 | Successfully Learning English Year 2 (Éxito en primaria Inglés Curso 1°) | £4.49/4,99 € | 4B455550 | EUR | [![qrcode]({{ "/images/qrcodes/50010000003301.png" | absolute_url }})]({{ "/images/qrcodes/50010000003301.png" | absolute_url }})
@@ -796,7 +796,7 @@ Dado que la lista es muy larga, puedes utilizar la barra al costado para desplaz
 | Legendary Wars T-Rex Rumble | £7.19/7,99 € | 4B4C4456 | EUR | [![qrcode]({{ "/images/qrcodes/50010000003579.png" | absolute_url }})]({{ "/images/qrcodes/50010000003579.png" | absolute_url }})
 | Rytmik Rock Edition | £7.19/7,99 € | 4B525156 | EUR | [![qrcode]({{ "/images/qrcodes/50010000006148.png" | absolute_url }})]({{ "/images/qrcodes/50010000006148.png" | absolute_url }})
 | Thorium Wars | £7.19/7,99 € | 4B545750 | EUR | [![qrcode]({{ "/images/qrcodes/50010000006382.png" | absolute_url }})]({{ "/images/qrcodes/50010000006382.png" | absolute_url }})
-| Petz® Dog Superstar | £7.19/7,99 € | 4B503256 | EUR | [![qrcode]({{ "/images/qrcodes/50010000004621.png" | absolute_url }})]({{ "/images/qrcodes/50010000004621.png" | absolute_url }})
+| Petz® Dog Superstar (Animalz® Dogz Superstar) | £7.19/7,99 € | 4B503256 | EUR | [![qrcode]({{ "/images/qrcodes/50010000004621.png" | absolute_url }})]({{ "/images/qrcodes/50010000004621.png" | absolute_url }})
 | Petz® Cat Superstar (Animalz® Catz Superstar) | £7.19/7,99 € | 4B503556 | EUR | [![qrcode]({{ "/images/qrcodes/50010000004623.png" | absolute_url }})]({{ "/images/qrcodes/50010000004623.png" | absolute_url }})
 | Petz® Hamster Superstar (Animalz® Hamsterz Superstar) | £7.19/7,99 € | 4B503356 | EUR | [![qrcode]({{ "/images/qrcodes/50010000004622.png" | absolute_url }})]({{ "/images/qrcodes/50010000004622.png" | absolute_url }})
 | Petz® Nursery (Animalz® Mis bebés Cachorritoz) | £7.19/7,99 € | 4B504B56 | EUR | [![qrcode]({{ "/images/qrcodes/50010000004703.png" | absolute_url }})]({{ "/images/qrcodes/50010000004703.png" | absolute_url }})
@@ -845,7 +845,6 @@ Dado que la lista es muy larga, puedes utilizar la barra al costado para desplaz
 
 | | Precio | ID de 8 carácteres | Region(es) | código QR |
 |:-:|:-:|:-:|:-:|:-:|
-| ほぼ日の健康手帳™ | 0円 | 4B454E4A | JPN | [![qrcode]({{ "/images/qrcodes/50010000005133.png" | absolute_url }})]({{ "/images/qrcodes/50010000005133.png" | absolute_url }})
 | タッチで漫才! メガミの笑壺DL | 500円 | 4B394C4A | JPN | [![qrcode]({{ "/images/qrcodes/50010000014192.png" | absolute_url }})]({{ "/images/qrcodes/50010000014192.png" | absolute_url }})
 | 練熟漢字中学生 | 800円 | 4B4A384A | JPN | [![qrcode]({{ "/images/qrcodes/50010000005295.png" | absolute_url }})]({{ "/images/qrcodes/50010000005295.png" | absolute_url }})
 | 教えてダーリン | 800円 | 4B4F534A | JPN | [![qrcode]({{ "/images/qrcodes/50010000005523.png" | absolute_url }})]({{ "/images/qrcodes/50010000005523.png" | absolute_url }})

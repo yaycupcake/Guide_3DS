@@ -845,7 +845,6 @@ Data la lunghezza della lista, ti conviene usare la sidebar per saltare direttam
 
 | | Prezzo | ID a 8 caratteri | Regione(I) | Codice QR |
 |:-:|:-:|:-:|:-:|:-:|
-| ほぼ日の健康手帳™ | 0円 | 4B454E4A | JPN | [![qrcode]({{ "/images/qrcodes/50010000005133.png" | absolute_url }})]({{ "/images/qrcodes/50010000005133.png" | absolute_url }})
 | タッチで漫才! メガミの笑壺DL | 500円 | 4B394C4A | JPN | [![qrcode]({{ "/images/qrcodes/50010000014192.png" | absolute_url }})]({{ "/images/qrcodes/50010000014192.png" | absolute_url }})
 | 練熟漢字中学生 | 800円 | 4B4A384A | JPN | [![qrcode]({{ "/images/qrcodes/50010000005295.png" | absolute_url }})]({{ "/images/qrcodes/50010000005295.png" | absolute_url }})
 | 教えてダーリン | 800円 | 4B4F534A | JPN | [![qrcode]({{ "/images/qrcodes/50010000005523.png" | absolute_url }})]({{ "/images/qrcodes/50010000005523.png" | absolute_url }})

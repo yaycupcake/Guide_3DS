@@ -54,16 +54,16 @@ sidebar_pages:
     url: /
   - 
     title: Kom Igång
-    url: kom-igång
+    url: get-started
   - 
     title: Kom igång (Nya 3DS)
-    url: kom-igång-(ny-3ds)
+    url: get-started-(new-3ds)
   - 
     title: Kom igång (Äldre 3DS)
-    url: kom-igång-(äldre-3ds)
+    url: get-started-(old-3ds)
   - 
     title: Cartridge uppdatering
-    url: cartridge-uppdatering
+    url: cart-update
   - 
     title: ntrboot
     url: ntrboot

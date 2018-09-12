@@ -54,19 +54,19 @@ sidebar_pages:
     url: /
   - 
     title: 新手入門 (New 3DS)
-    url: get-started-(new-3ds)
+    url: get-started
   - 
     title: 新手入門 (舊型 3DS)
-    url: get-started-(old-3ds)
+    url: get-started-(new-3ds)
   - 
     title: 卡帶更新
+    url: get-started-(old-3ds)
+  - 
+    title: ntrboot
     url: cart-update
   - 
     title: ntrboot
     url: ntrboot
-  - 
-    title: 寫入 ntrboot 漏洞 (透過單台 3DS 系統)
-    url: flashing-ntrboot-(3ds-single-system)
   - 
     title: Installing boot9strap (Seedminer)
     url: installing-boot9strap-(seedminer)
