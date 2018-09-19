@@ -8,7 +8,7 @@ title: "Changement de Région"
 
 Ceci est une section complémentaire pour ceux qui voudraient changer la région de leur SysNAND une fois un CFW installé. On peut le faire en installant l'image CTRTransfer 11.5.0 de la région à laquelle vous souhaitez passer.
 
-Il est quasiment inutile de changer la région de sa 3DS car Luma3DS permet de lancer des jeux d'autres régions et d'émuler des [changements de région individuellement](https://github.com/AuroraWright/Luma3DS/wiki/Options-and-usage) pour chaque titre.**.
+Il est quasiment inutile de changer la région de sa 3DS car Luma3DS permet de lancer des jeux d'autres régions et d'émuler des [changements de région individuellement](https://github.com/AuroraWright/Luma3DS/wiki/Options-and-usage) pour chaque titre.**. Additionally, running NDS games with alternative out-of-region languages is supported [DSiMenu++](https://github.com/Robz8/TWiLightMenu/releases).
 
 To use the [magnet](https://wikipedia.org/wiki/Magnet_URI_scheme) links on this page, you will need a torrent client like [Deluge](http://dev.deluge-torrent.org/wiki/Download).
 

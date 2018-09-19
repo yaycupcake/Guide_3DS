@@ -27,7 +27,7 @@ Deze pagina is alleen voor Linux gebruikers. Als je geen Linux gebruikt, zie dan
 1. Wacht totdat het proces voltooid is. Zie hieronder voor een voorbeeld van de uitkomst.
 
 ~~~ bash
-$./ f3write /media/michel/6135-3363/
+$ ./f3write /media/michel/6135-3363/
 Free space: 29.71 GB
 Creating file 1.h2w ... OK!
 ...

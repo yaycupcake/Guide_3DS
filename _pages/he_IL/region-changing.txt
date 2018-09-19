@@ -8,7 +8,7 @@ title: "שינוי אזור"
 
 זוהי הרחבה עבור שינוי אזור הSysNAND CFW שלכם. זה נעשה על ידי התקנת ה11.5.0 CTRTransfer image לאיזור שאתם רוצים לשנות אליו.
 
-שימו לב ששינוי אזור מיותר כמעט לחלוטין כי Luma3DS תומכת בReigon Free ו [אמולצית אזור לכל משחק בנפרד] (https://github.com/AuroraWright/Luma3DS/wiki/Options-and-usage).
+שימו לב ששינוי אזור מיותר כמעט לחלוטין כי Luma3DS תומכת בReigon Free ו [אמולצית אזור לכל משחק בנפרד] (https://github.com/AuroraWright/Luma3DS/wiki/Options-and-usage). Additionally, running NDS games with alternative out-of-region languages is supported [DSiMenu++](https://github.com/Robz8/TWiLightMenu/releases).
 
 To use the [magnet](https://wikipedia.org/wiki/Magnet_URI_scheme) links on this page, you will need a torrent client like [Deluge](http://dev.deluge-torrent.org/wiki/Download).
 

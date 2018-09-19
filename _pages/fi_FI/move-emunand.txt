@@ -130,7 +130,7 @@ Jotta voisit tunnistaa `<sovellustunnus>.gbavc.sav`-tiedoston pelin, voit näytt
 #### Vaihe VII – SysNANDin varmuuskopiointi
 
 1. Paina (HOME)-painiketta näyttääksesi toimintovalikon
-1. Valitse "Scripts..."
+1. Select "Scripts..."
 1. Select "GM9Megascript"
 1. Select "Backup Options"
 1. Select "SysNAND Backup"

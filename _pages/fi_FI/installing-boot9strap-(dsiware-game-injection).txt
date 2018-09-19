@@ -47,7 +47,7 @@ Use a [save manager](https://github.com/FlagBrew/Checkpoint/releases/latest) to 
 1. Aseta SD-kortti takaisin **lähde-3DS**:ään
 1. Avaa GodMode9 pitämällä **lähde-3DS**:n (START)-painiketta pohjassa käynnistyksen aikana
 1. Paina (HOME)-painiketta näyttääksesi toimintovalikon
-1. Valitse "Scripts..."
+1. Select "Scripts..."
 1. Select "GM9Megascript"
 1. Select "Backup Options"
 1. Select "SysNAND Backup"

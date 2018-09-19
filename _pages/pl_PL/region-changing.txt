@@ -8,7 +8,7 @@ title: "Zmiana Regionu Konsoli"
 
 Ta dodatkowa sekcja pomoże Ci zmienić region twojego SysNAND CFW. Jest to realizowane poprzez instalację obrazu 11.5.0 CTRTransfer dla regionu na który chcesz zmienić swoją konsolę.
 
-Zauważ, że zmiana regionu jest prawie zupełnie niepotrzebna odkąd Luma3DS obsługuje gry spoza regionu konsoli a także indywidualną [emulację regionu dla danego tytułu](https://github.com/AuroraWright/Luma3DS/wiki/Options-and-usage).
+Zauważ, że zmiana regionu jest prawie zupełnie niepotrzebna odkąd Luma3DS obsługuje gry spoza regionu konsoli a także indywidualną [emulację regionu dla danego tytułu](https://github.com/AuroraWright/Luma3DS/wiki/Options-and-usage). Additionally, running NDS games with alternative out-of-region languages is supported [DSiMenu++](https://github.com/Robz8/TWiLightMenu/releases).
 
 To use the [magnet](https://wikipedia.org/wiki/Magnet_URI_scheme) links on this page, you will need a torrent client like [Deluge](http://dev.deluge-torrent.org/wiki/Download).
 

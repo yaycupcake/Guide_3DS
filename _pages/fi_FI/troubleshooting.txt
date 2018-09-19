@@ -95,7 +95,7 @@ Selainhaavoittuvuuksiin perustuvat käynnistystavat (kuten browserhax ja 2xrsa) 
         1. Sammuta konsolisi
         1. Avaa GodMode9 pitämällä (START)-painiketta pohjassa konsolin käynnistyessä
         1. Paina (HOME)-painiketta näyttääksesi toimintovalikon
-        1. Valitse "Scripts..."
+        1. Select "Scripts..."
         1. Select "GM9Megascript"
         1. Select "Scripts from Plailect's Guide"
         1. Select "Remove extdata"
@@ -142,7 +142,7 @@ Selainhaavoittuvuuksiin perustuvat käynnistystavat (kuten browserhax ja 2xrsa) 
     1. Sammuta konsolisi
     1. Avaa GodMode9 pitämällä (START)-painiketta pohjassa konsolin käynnistyessä
     1. Paina (HOME)-painiketta näyttääksesi toimintovalikon
-    1. Valitse "Scripts..."
+    1. Select "Scripts..."
     1. Select "GM9Megascript"
     1. Select "Scripts from Plailect's Guide"
     1. Select "Remove extdata"
