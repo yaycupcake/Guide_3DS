@@ -16,7 +16,7 @@ Asimismo, los siguientes juegos (que han sido retirados de la eShop) también so
 
 La lista está ordenada por regiones en este orden: USA, EUR, JPN. Cada sección está ordenada en precio ascendente.
 
-Los códigos QR pueden ser escaneados pulsando (L + R) en el menú de inicio y luego pulsando el icono QR en la pantalla inferior.
+Los códigos QR pueden escanearse usando la opción "Escanear Código QR" dentro de la sección "Configuración / Otros" en el menú de la eShop.
 
 Los siguientes requisitos de tamaños existen porque el juego DSiWare y su hack no deben modificar sus respectivos tamaños para que la transferencia entre sistemas funcione correctamente, lo que significa que el juego DSiWare donante debe ser lo suficientemente grande para "encajar" en DSiWare hackeado.
 

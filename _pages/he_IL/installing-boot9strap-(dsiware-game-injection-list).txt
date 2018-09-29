@@ -16,7 +16,7 @@ Additionally, the following eShop games (which have since been pulled from the e
 
 הרשימה מסודרת לפי אזור בסדר USA ואז EUR ולבסוף JPN. כל קטע ממוין לפי מחיר בסדר עולה.
 
-ניתן לסרוק קודי QR על-ידי לחיצה על (L + R) בתפריט הבית, לאחר מכן לחיצה על סמל הQR על המסך התחתון.
+QR Codes can be scanned by using the "Scan QR Code" option in the "Settings / Other" section of the eShop menu.
 
 הדרישות גודל הבאות נובעות מזה שהDSiWare שמוזרק והשמירה שלו חייבים לא לשנות את גודלי הקבצים המתאימים שלהם כדי שיעברו בין ה3DSים כראוי, כלומר הDSiWare התורם חייב להיות גדול מספיק כדי להתאים ל DSiWare הפרוץ.
 

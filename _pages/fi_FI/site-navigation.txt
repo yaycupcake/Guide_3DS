@@ -47,7 +47,7 @@ sitemap: false
 + [Boot9strapin asentaminen (ntrboot)](installing-boot9strap-(ntrboot))
 + [Installing boot9strap (Seedminer)](installing-boot9strap-(seedminer))
 + [Installing boot9strap (Soundhax)](installing-boot9strap-(soundhax))
-+ [Ntrboot](ntrboot)
++ [ntrboot](ntrboot)
 + [EmuNANDin siirtäminen](move-emunand)
 + [Alueen vaihtaminen](region-changing)
 + [Vianmääritys](troubleshooting)

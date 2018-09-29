@@ -16,7 +16,8 @@ Huomaa, että joissain harvinaisissa yhteensattumissa asennusprosessi saattaa **
 ### Tarpeet
 
 * Ntrboot-yhteensopiva flash-korttisi
-* The latest release of [ds_ntrboot_flasher](https://github.com/ntrteam/ds_ntrboot_flasher/releases/latest) *(`dsi` flasher; not the standard flasher)*
+* Boot9strapin [viimeisin julkaisu](https://github.com/SciresM/boot9strap/releases/latest) *(`ntr`-boot9strap; ei `devkit`-tiedosto)*
+* The latest release of [ds_ntrboot_flasher](https://github.com/jason0597/ntrboot_flasher_nds/releases/latest)
 
 ### Ohjeet
 
@@ -24,20 +25,27 @@ Huomaa, että joissain harvinaisissa yhteensattumissa asennusprosessi saattaa **
 
 1. Sammuta konsolisi
 1. Aseta flash-korttisi SD-kortti tietokoneeseesi
-1. Kopioi `ds_ntrboot_flasher_dsi.nds` flash-korttisi SD-kortille
+1. Create a folder named `ntrboot` on the root of your flashcart's SD card
+1. Copy `boot9strap_ntr.firm` from the boot9strap ntr `.zip` to the `/ntrboot/` folder on your flashcart's SD card
+1. Copy `ntrboot_flasher_nds.nds` to your flashcart's SD card
 1. Aseta SD-kortti takaisin flash-korttiisi
 1. Aseta ntrboot-yhteensopiva DS-/DSi-flash-korttisi konsoliisi
 
 #### Vaihe II – Ntrbootin asentaminen
 
-1. Avaa `ds_ntrboot_flasher_dsi.nds` konsolillasi flash-korttisi avulla
+1. Launch `ntrboot_flasher_nds.nds` on your device using your flashcart
 1. Paina (A):ta jatkaaksesi
 1. Käytä ristiohjainta valitaksesi flash-korttisi
 1. Paina (A):ta jatkaaksesi
-1. Paina (A):ta suorittaaksesi toiminnon "inject ntrboothax"
-1. Paina (A):ta valitaksesi vaihtoehdon "RETAIL"
+1. Select "Dump flash" to make a backup of your flashcart's memory
+1. Input the key combo given to confirm
 1. Paina (A):ta jatkaaksesi
-1. Valitse "EXIT"
+1. Käytä ristiohjainta valitaksesi flash-korttisi
+1. Paina (A):ta jatkaaksesi
+1. Select "Inject FIRM" to install boot9strap to your flashcart
+1. Input the key combo given to confirm
+1. Paina (A):ta jatkaaksesi
+1. Sammuta konsolisi
 
 ___
 

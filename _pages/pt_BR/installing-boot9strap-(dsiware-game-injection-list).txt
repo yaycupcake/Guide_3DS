@@ -16,7 +16,7 @@ Additionally, the following eShop games (which have since been pulled from the e
 
 A lista é dividida por região na ordem EUA, EUR, JPN. Cada seção é classificada por ordem crescente de preço.
 
-Códigos QR podem ser lidos apertando (L + R) no menu HOME, depois tocando no ícone QR na tela inferior.
+QR Codes can be scanned by using the "Scan QR Code" option in the "Settings / Other" section of the eShop menu.
 
 The following size requirements are because the injected DSiWare and its hacked save must not modify their respective file sizes in order to system transfer properly, meaning that the donor DSiWare must be large enough to fit the hacked DSiWare.
 

@@ -16,7 +16,8 @@ title: "צריבת ntrboot (מערכת 3DS אחת)"
 ### What You Need
 
 * כרטיס הפריצה שתומך בntrboot שלכם
-* The latest release of [ds_ntrboot_flasher](https://github.com/ntrteam/ds_ntrboot_flasher/releases/latest) *(`dsi` flasher; not the standard flasher)*
+* הגרסא העדכנית של [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *( boot9strap של `ntr`; לא קובץ ה `devkit`)*
+* The latest release of [ds_ntrboot_flasher](https://github.com/jason0597/ntrboot_flasher_nds/releases/latest)
 
 ### הנחיות
 
@@ -24,20 +25,27 @@ title: "צריבת ntrboot (מערכת 3DS אחת)"
 
 1. תכבו את המכשיר
 1. תכניסו את כרטיס ה- SD של כרטיס הפריצה שלכם אל המחשב
-1. תעתיקו את `ds_ntrboot_flasher_dsi.nds` אל כרטיס הSD של כרטיס הפריצה שלכם
+1. Create a folder named `ntrboot` on the root of your flashcart's SD card
+1. Copy `boot9strap_ntr.firm` from the boot9strap ntr `.zip` to the `/ntrboot/` folder on your flashcart's SD card
+1. Copy `ntrboot_flasher_nds.nds` to your flashcart's SD card
 1. תכניסו בחזרה את כרטיס ה- SD של כרטיס הפריצה שלכם אל כרטיס הפריצה
 1. תכניסו את כרטיס הפריצה של DS \ DSi שתואם ntrboot אל הקונסולה שלכם
 
 #### חלק II - צריבת ntrboot
 
-1. תפעילו את `ds_ntrboot_flasher_dsi.nds` על הקונסולה שלכם בעזרת כרטיס הפריצה שלכם
+1. Launch `ntrboot_flasher_nds.nds` on your device using your flashcart
 1. תלחצו (A) כדי להמשיך
 1. תשתמשו ב (Up) וב(Down) כדי לבחור את הכרטיס פריצה שלכם
 1. תלחצו (A) כדי להמשיך
-1. תלחצו (A) בשביל "inject ntrboothax"
-1. תלחצו (A) כדי לבחור ב"RETAIL"
+1. Select "Dump flash" to make a backup of your flashcart's memory
+1. Input the key combo given to confirm
 1. תלחצו (A) כדי להמשיך
-1. תבחרו ב"EXIT"
+1. תשתמשו ב (Up) וב(Down) כדי לבחור את הכרטיס פריצה שלכם
+1. תלחצו (A) כדי להמשיך
+1. Select "Inject FIRM" to install boot9strap to your flashcart
+1. Input the key combo given to confirm
+1. תלחצו (A) כדי להמשיך
+1. תכבו את המכשיר
 
 ___
 

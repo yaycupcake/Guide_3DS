@@ -16,7 +16,7 @@ Additionally, the following eShop games (which have since been pulled from the e
 
 Cette liste est découpé par région, dans l'ordre USA, EUR et JPN. Chaque section est triée par prix croissant.
 
-Les QR codes peuvent êtres scannés en appuyant sur (L + R) dans le menu principal de la 3DS, puis en appuyant sur l'icône QR sur l'écran du bas.
+QR Codes can be scanned by using the "Scan QR Code" option in the "Settings / Other" section of the eShop menu.
 
 La taille des fichiers est importante car le DSiWare injecté et sa sauvegarde hackée ne doivent pas avoir une tailles différente pour pouvoir être transférés correctement, donc le DSiWare "hôte" doit être assez gros pour contenir le DSiWare hacké.
 

@@ -33,7 +33,7 @@ Tieni presente che in rare circostanze è possibile **brickare** una flashcart c
 
 #### Sezione II - Installare ntrboot
 
-1. Avvia il file `ds_ntrboot_flasher_dsi.nds` sul **DSi di partenza** attraverso la flashcart
+1. Avvia il file `ds_ntrboot_flasher_dsi.nds` sul **DSi di partenza** tramite la flashcart
 1. Premi il pulsante (A) per continuare
 1. Usa i pulsanti (Su) e (Giù) per selezionare la tua flashcart
 1. Premi il pulsante (A) per continuare

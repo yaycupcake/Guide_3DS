@@ -16,7 +16,8 @@ In seltenen Fällen ist kann es sein, dass während des Flashens einer gefälsch
 ### Was du brauchst
 
 * Deine ntrboot kompatible Flashkarte
-* The latest release of [ds_ntrboot_flasher](https://github.com/ntrteam/ds_ntrboot_flasher/releases/latest) *(`dsi` flasher; not the standard flasher)*
+* Die aktuellste Version von [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(`ntr` boot9strap; nicht die `devkit` Datei)*
+* The latest release of [ds_ntrboot_flasher](https://github.com/jason0597/ntrboot_flasher_nds/releases/latest)
 
 ### Anleitung
 
@@ -24,20 +25,27 @@ In seltenen Fällen ist kann es sein, dass während des Flashens einer gefälsch
 
 1. Schalte dein Gerät aus
 1. Stecke deine SD-Karte in den Computer
-1. Kopiere `ds_ntrboot_flasher_dsi.nds` auf die SD-Karte deiner Flashkarte
+1. Create a folder named `ntrboot` on the root of your flashcart's SD card
+1. Copy `boot9strap_ntr.firm` from the boot9strap ntr `.zip` to the `/ntrboot/` folder on your flashcart's SD card
+1. Copy `ntrboot_flasher_nds.nds` to your flashcart's SD card
 1. Steck deine SD-Karte in deine Flashkarte zurück
 1. Stecke die ntrboot-kompatible DS / DSi Flashkarte in deine Konsole
 
 #### Schritt II - ntrboot flashen
 
-1. Starte `ds_ntrboot_flasher_dsi.nds` mithilfe deiner Flashkarte auf deiner Konsole aus
+1. Launch `ntrboot_flasher_nds.nds` on your device using your flashcart
 1. Drücke (A) um fortzufahren
 1. Benutze (Hoch) und (Runter) um deine Flashcart auszuwählen
 1. Drücke (A) um fortzufahren
-1. Drücke (A), damit "inject ntrboothax" gestartet wird
-1. Drücke (A) um "RETAIL" auszuwählen
+1. Select "Dump flash" to make a backup of your flashcart's memory
+1. Input the key combo given to confirm
 1. Drücke (A) um fortzufahren
-1. Wähle "EXIT"
+1. Benutze (Hoch) und (Runter) um deine Flashcart auszuwählen
+1. Drücke (A) um fortzufahren
+1. Select "Inject FIRM" to install boot9strap to your flashcart
+1. Input the key combo given to confirm
+1. Drücke (A) um fortzufahren
+1. Schalte deinen 3DS aus
 
 ___
 

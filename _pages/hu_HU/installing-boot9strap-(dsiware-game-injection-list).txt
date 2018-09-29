@@ -6,9 +6,9 @@ title: "boot9strap telepítése (DSiWare játék-injektálás - támogatott ját
 
 ### Fontos tudnivalók
 
-This is an automatically generated list of all DSiWare Injection compatible games currently available on the eShop.
+Ez egy automatikusan generált lista az összes DSiWare injektálással kompatibilis játékról, ami jelenleg az eShop-on elérhető.
 
-Additionally, the following eShop games (which have since been pulled from the eShop) are also compatible:
+Ezen kívül a következő eShop játékok (melyeket azóta már eltávolítottak az eShop-ból) is kompatibilisek:
   + Fieldrunners (4B4644XX)
   + Legends of Exidia (4B4C45XX)
   + Guitar Rock Tour (4B4752XX)
@@ -16,23 +16,23 @@ Additionally, the following eShop games (which have since been pulled from the e
 
 A lista régió szerint van szétbontva, USA, EUR, JPN sorrendben. Mindegyik rész ár szerint növekvő sorrendben van rendezve.
 
-A QR kódokat úgy lehet beszkennelni, hogy a home menu-ben lenyomod az (L + R) kombinációt, majd megérinted a QR ikont az alsó képernyőn.
+A QR kódokat az eShop menü "Settings / Other" szekciójának "Scan QR Code" opciójával lehet beolvasni.
 
 Az alábbi méretbeli követelmények azért léteznek, mert az injektált DSiWare és a hozzá tartozó hackelt mentés fájlméretét meg kell őrizni annak érdekében, hogy a System Transfert helyesen el lehessen végezni, tehát a donor DSiWare-nek megfelelően nagynak kell lennie ahhoz, hogy beleférjen a hackelt DSiWare.
 
 {% capture notice-list %}
 
-    Compatible DSiWare games must meet specific size requirements:
+    A támogatott DSiWare játékoknak teljesítenie kell bizonyos méretbeli követelményeket:
 
     + USA DSiWare
       + sudokuhax-et használ
       + a `.app` mérete >= 3,457,024 bájt
-      + `public.sav` size of >= 16,384 bytes
+      + a `public.sav` mérete >= 16,384 bájt
 
     + EUR DSiWare
       + sudokuhax-et használ
       + a `.app` mérete >= 3,563,520 bájt
-      + `public.sav` size of >= 16,384 bytes
+      + a `public.sav` mérete >= 16,384 bájt
 
     + JPN DSiWare
       + 4swordshax-et használ
@@ -46,9 +46,9 @@ Az alábbi méretbeli követelmények azért léteznek, mert az injektált DSiWa
 
 ### Lista
 
-Due to the length of this list, you may wish to use the sidebar to skip to the section relevant to your region.
+Mivel ez a lista eléggé hosszú, ajánlott az oldalsávot használni, hogy a régiódnak megfelelő részhez ugorj.
 
-#### Section I - USA
+#### I. rész - USA
 
 | | Ár | 8 hosszú azonosító | Régió(k) | QR kód |
 |:-:|:-:|:-:|:-:|:-:|
@@ -470,7 +470,7 @@ Due to the length of this list, you may wish to use the sidebar to skip to the s
 | Thorium Wars™ | $9.99 | 4B545745 | USA | [![qrcode]({{ "/images/qrcodes/50010000003571.png" | absolute_url }})]({{ "/images/qrcodes/50010000003571.png" | absolute_url }})
 | Shantae: Risky's Revenge | $11.99 | 4B533345 | USA | [![qrcode]({{ "/images/qrcodes/50010000003644.png" | absolute_url }})]({{ "/images/qrcodes/50010000003644.png" | absolute_url }})
 
-#### Section II - EUR
+#### II. rész - EUR
 
 | | Ár | 8 hosszú azonosító | Régió(k) | QR kód |
 |:-:|:-:|:-:|:-:|:-:|
@@ -841,7 +841,7 @@ Due to the length of this list, you may wish to use the sidebar to skip to the s
 | Rhythm Core Alpha 2™ | £8.99/9,99 € | 4B593456 | EUR | [![qrcode]({{ "/images/qrcodes/50010000015473.png" | absolute_url }})]({{ "/images/qrcodes/50010000015473.png" | absolute_url }})
 | Shantae: Risky's Revenge™ | £10.79/11,99 € | 4B533350 | EUR | [![qrcode]({{ "/images/qrcodes/50010000006181.png" | absolute_url }})]({{ "/images/qrcodes/50010000006181.png" | absolute_url }})
 
-#### Section III - JPN
+#### III. rész - JPN
 
 | | Ár | 8 hosszú azonosító | Régió(k) | QR kód |
 |:-:|:-:|:-:|:-:|:-:|

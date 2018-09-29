@@ -16,7 +16,7 @@ Additionally, the following eShop games (which have since been pulled from the e
 
 Die Liste ist aufgeteilt in Regionen in der Reihenfolge USA, EUR, JPN. Jede Region ist aufsteigend nach Anschaffungspreis sortiert.
 
-QR Codes können gescannt werden, indem du (L + R) im Home Menü drückst, und auf dem unteren Bildschirm das QR Icon anklickst.
+QR Codes can be scanned by using the "Scan QR Code" option in the "Settings / Other" section of the eShop menu.
 
 Die folgende Größenanforderung existiert weil der injizierte DSiWare Titel und der dazugehörige gehackte Speicherstand die vorgegebene Größe nicht verändern darf, um den Systemtransfer erfolgreich durchzuführen. Das heißt, dass der ursprüngliche DSiWare Titel groß genug sein muss, um die gehackte DSiWare zu enthalten.
 

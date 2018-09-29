@@ -16,7 +16,7 @@ Additionally, the following eShop games (which have since been pulled from the e
 
 Lista jest podzielona na sekcje według regionów w kolejności USA, EUR, JPN. Każda sekcja jest posortowana według ceny rosnąco.
 
-Kody QR mogą zostać zeskanowane poprzez naciśnięcie (L + R) w HOME menu i kliknięcie ikony QR na dolnym ekranie.
+QR Codes can be scanned by using the "Scan QR Code" option in the "Settings / Other" section of the eShop menu.
 
 Poniższe wymagania dotyczące rozmiaru są ważne dlatego, że podmieniona gra DSiWare i jej shackowany zapis nie mogą mieć rozmiarów innych niż ich oryginały, aby poprawnie się przenieść, co oznacza, że źródłowa gra DSiWare musi być wystarczająco duża aby zmieścić jej shackowaną wersję.
 

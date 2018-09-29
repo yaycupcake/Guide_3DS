@@ -45,7 +45,7 @@ sitemap: false
 + [boot9strap telepítése (Homebrew Launcher)](installing-boot9strap-(homebrew-launcher))
 + [boot9strap telepítése (MSET)](installing-boot9strap-(mset))
 + [boot9strap telepítése (ntrboot)](installing-boot9strap-(ntrboot))
-+ [Installing boot9strap (Seedminer)](installing-boot9strap-(seedminer))
++ [boot9strap telepítése (Seedminer)](installing-boot9strap-(seedminer))
 + [boot9strap telepítése (Soundhax)](installing-boot9strap-(soundhax))
 + [ntrboot](ntrboot)
 + [EmuNAND költöztetése](move-emunand)

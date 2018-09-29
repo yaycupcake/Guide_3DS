@@ -19,7 +19,8 @@ Huomaa, että joissain harvinaisissa yhteensattumissa asennusprosessi saattaa **
 * Kaksi konsolia 
   + **Lähde-NDS/-NDSL**: flash-korttisi kanssa yhteensopiva NIntendo DS tai Nintendo DS Lite
   + **Kohde-3DS**: 3DS-perheen konsoli, jolla on vakiolaiteohjelmisto
-* The latest release of [ds_ntrboot_flasher](https://github.com/ntrteam/ds_ntrboot_flasher/releases/latest) *(standard flasher; not the `dsi` flasher)*
+* Boot9strapin [viimeisin julkaisu](https://github.com/SciresM/boot9strap/releases/latest) *(`ntr`-boot9strap; ei `devkit`-tiedosto)*
+* The latest release of [ds_ntrboot_flasher](https://github.com/jason0597/ntrboot_flasher_nds/releases/latest)
 
 ### Ohjeet
 
@@ -27,24 +28,27 @@ Huomaa, että joissain harvinaisissa yhteensattumissa asennusprosessi saattaa **
 
 1. Sammuta **lähde-NDS/-NDSL**
 1. Aseta flash-korttisi SD-kortti tietokoneeseesi
-1. Kopioi `ds_ntrboot_flasher.nds` flash-korttisi SD-kortille
+1. Create a folder named `ntrboot` on the root of your flashcart's SD card
+1. Copy `boot9strap_ntr.firm` from the boot9strap ntr `.zip` to the `/ntrboot/` folder on your flashcart's SD card
+1. Copy `ntrboot_flasher_nds.nds` to your flashcart's SD card
 1. Aseta SD-kortti takaisin flash-korttiisi
 1. Aseta ntrboot-yhteensopiva DS-/DSi-flash-korttisi **lähde-NDS/-NDSL**-konsoliin
 
 #### Vaihe II – Ntrbootin asentaminen
 
-1. Avaa `ds_ntrboot_flasher.nds` flash-korttisi avulla **lähde-NDS/-NDSL**-konsolilla
+1. Launch `ntrboot_flasher_nds.nds` on **the source NDS / NDSL** using your flashcart
 1. Paina (A):ta jatkaaksesi
 1. Käytä ristiohjainta valitaksesi flash-korttisi
 1. Paina (A):ta jatkaaksesi
-1. Paina (X):ää suorittaaksesi toiminnon "load flashrom"
+1. Select "Dump flash" to make a backup of your flashcart's memory
+1. Input the key combo given to confirm
 1. Paina (A):ta jatkaaksesi
-1. Irrota flash-korttisi **lähde-NDS/-NDSL**-konsolista
-1. Irrota SD-kortti flash-kortistasi
-1. Aseta SD-kortiton flash-korttisi takaisin **lähde-NDS/-NDSL**-konsoliin
+1. Käytä ristiohjainta valitaksesi flash-korttisi
 1. Paina (A):ta jatkaaksesi
-1. Paina (A):ta suorittaaksesi toiminnon "inject ntrboothax"
-1. Paina (A):ta valitaksesi vaihtoehdon "RETAIL"
+1. Select "Inject FIRM" to install boot9strap to your flashcart
+1. Input the key combo given to confirm
+1. Paina (A):ta jatkaaksesi
+1. Sammuta **lähde-NDS/-NDSL**
 1. Irrota flash-korttisi **lähde-NDS/-NDSL**-konsolista
 
 ___

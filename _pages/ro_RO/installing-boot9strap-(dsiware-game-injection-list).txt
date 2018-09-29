@@ -16,7 +16,7 @@ Additionally, the following eShop games (which have since been pulled from the e
 
 Această listă este secționată după regiuni în ordinea: USA, EUR, JPN. Fiecare secțiune este sortată după preț crescător.
 
-Codurile QR pot fi scanate apăsând (L + R) în meniul HOME, apoi apăsând iconița QR pe ecranul inferior.
+QR Codes can be scanned by using the "Scan QR Code" option in the "Settings / Other" section of the eShop menu.
 
 Următoarele cerințe de mărime există deoarece DSiWare-ul injectat și salvarea hackuită nu trebuie să își modifice mărimile pentru ca transferul de sistem să meargă în mod corespunzător, însemnând că DSiWare-ul donator trebuie să fie destul de mare cât să încapă în DSiWare-ul hackuit.
 

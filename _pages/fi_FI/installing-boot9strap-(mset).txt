@@ -42,8 +42,8 @@ Purkaaksesi tämän osion `.7z`-tiedostot tarvitset pakkausohjelman, kuten [7-Zi
 1. Käynnistä DS-flash-korttisi konsolistasi
 1. Avaa `SafeB9SInstaller.nds` flash-kortiltasi
 1. Valitse järjestelmäversiollesi sopiva vaihtoehto
-  + 4.X.X → "4.x SafeB9SInstaller"
-  + 6.X.X → "6.x SafeB9SInstaller"
+  + 4.X.X -> "4.x SafeB9SInstaller"
+  + 6.X.X -> "6.x SafeB9SInstaller"
 1. Päivitä konsolisi menemällä järjestelmäasetuksiin (System Settings), valitse muut asetukset (Other Settings) ja sitten järjestelmäpäivitys (System Update) aivan oikeasta reunasta
 1. Jos haavoittuvuuden hyödyntäminen onnistui, SafeB9SInstallerin pitäisi avautua
 

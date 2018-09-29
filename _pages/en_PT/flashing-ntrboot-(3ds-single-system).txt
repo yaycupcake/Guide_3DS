@@ -6,17 +6,18 @@ title: "Flashing ntrboot (3DS Single System)"
 
 ### Required Reading
 
-Before proceeding, ensure you have read all of the information on [ntrboot](ntrboot)
+Afore proceedin', ensure ye 'ave read all o' th' information on [ntrboot](ntrboot)
 
 This method requires nothing more than your stock unhacked 3DS and a compatible flashcart. This method uses the flashcart to run the ntrboot flasher `.nds` file on your 3DS. This means that your flashcart must support launching `.nds` files on your 3DS's version. See the flashcart table on [ntrboot](ntrboot) for more information.
 
-Note that in some rare circumstances, it may be possible for the flashing process to **brick** a counterfeit flashcart and render it permanently unusable. This is unlikely, but nevertheless only original listed flashcarts are supported. To reduce the chance of receiving a counterfeit card, it is recommended that you use a reputable site to buy your flashcart (such as [NDS Card](http://www.nds-card.com/))
+Note that in some rare cases, it may be possible fer th' flashin' process to **brick** a counterfeit flashcart n' render it permanently unusable. 'Tis be unlikely, but nevertheless only original listed flashcarts be supported. To reduce th' chance 'o recievin' a counterfeit card, it be recommended that ye use a reputable site to be buyin' ye flashcart (such as [NDS Card](http://www.nds-card.com/))
 {: .notice--danger}
 
 ### What You Need
 
 * Your ntrboot compatible flashcart
-* The latest release of [ds_ntrboot_flasher](https://github.com/ntrteam/ds_ntrboot_flasher/releases/latest) *(`dsi` flasher; not the standard flasher)*
+* The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(`ntr` boot9strap; not the `devkit` file)*
+* The latest release of [ds_ntrboot_flasher](https://github.com/jason0597/ntrboot_flasher_nds/releases/latest)
 
 ### Instructions
 
@@ -24,20 +25,27 @@ Note that in some rare circumstances, it may be possible for the flashing proces
 
 1. Power off ye device
 1. Insert ye flashcart's SD card into ye computer
-1. Copy `ds_ntrboot_flasher_dsi.nds` to your flashcart's SD card
+1. Create a folder named `ntrboot` on the root of your flashcart's SD card
+1. Copy `boot9strap_ntr.firm` from the boot9strap ntr `.zip` to the `/ntrboot/` folder on your flashcart's SD card
+1. Copy `ntrboot_flasher_nds.nds` to your flashcart's SD card
 1. Reinsert your flashcart's SD card back into your flashcart
 1. Insert your ntrboot compatible DS / DSi flashcart into your device
 
 #### Section II - Flashing ntrboot
 
-1. Launch `ds_ntrboot_flasher_dsi.nds` on your device using your flashcart
+1. Launch `ntrboot_flasher_nds.nds` on your device using your flashcart
 1. Press (A) to continue
 1. Use (Up) and (Down) to select your flashcart
 1. Press (A) to continue
-1. Press (A) to "inject ntrboothax"
-1. Press (A) to select "RETAIL"
+1. Select "Dump flash" to make a backup of your flashcart's memory
+1. Input the key combo given to confirm
 1. Press (A) to continue
-1. Select "EXIT"
+1. Use (Up) and (Down) to select your flashcart
+1. Press (A) to continue
+1. Select "Inject FIRM" to install boot9strap to your flashcart
+1. Input the key combo given to confirm
+1. Press (A) to continue
+1. Power off ye device
 
 ___
 

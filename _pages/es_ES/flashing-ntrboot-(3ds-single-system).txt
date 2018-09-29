@@ -10,13 +10,14 @@ Antes de continuar, asegúrate de haber leído toda la información en [ntrboot]
 
 Este método tan sólo requiere de tu consola 3DS sin modificar y un flashcart compatible. Este método utiliza la flashcart para ejecutar el archivo `.nds` del flasher de ntrboot en tu 3DS. Esto significa que tu flashcart debe ser capaz de ejecutar archivos `.nds` en la versión de tu 3DS. Consulta la tabla de flashcarts en [ntrboot](ntrboot) para más información.
 
-Ten en cuenta que en raras ocasiones, es posible que realizar el proceso de flasheo en un clon de flashcart podría dejarla **permanentemente inutilizable**. Esto es poco probable, pero sin embargo, sólo las flashcarts originales mencionadas tienen soporte. Para reducir la posibilidad de recibir un clon, se recomienda que utilizar un sitio de confianza para comprar una flashcart (como [NDS Card](http://www.nds-card.com/))
+Ten en cuenta que en raras ocasiones, es posible que realizar el proceso de flasheo en un clon de flashcart podría dejarla **permanentemente inutilizable**. Esto es poco probable, pero sin embargo, sólo las flashcarts originales mencionadas tienen soporte. Para reducir la posibilidad de recibir un clon, se recomienda utilizar un sitio de confianza para comprar una flashcart (como [NDS Card](http://www.nds-card.com/))
 {: .notice--danger}
 
 ### Qué necesitas
 
 * Tu flashcart compatible con ntrboot
-* La última versión de [ds_ntrboot_flasher](https://github.com/ntrteam/ds_ntrboot_flasher/releases/latest) *(la version `dsi`; no la normal)*
+* La última versión de [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(el archivo `ntr`; no el archivo `devkit`)*
+* La última versión de [ds_ntrboot_flasher](https://github.com/jason0597/ntrboot_flasher_nds/releases/latest)
 
 ### Instrucciones
 
@@ -24,20 +25,27 @@ Ten en cuenta que en raras ocasiones, es posible que realizar el proceso de flas
 
 1. Apaga tu consola
 1. Inserta la tarjeta SD de tu flashcart en tu computadora
-1. Copia `ds_ntrboot_flasher_dsi.nds` a la tarjeta SD de tu flashcart
+1. Crea una carpeta llamada`ntrboot` en la raíz de la tarjeta SD de tu flashcart
+1. Copia el archivo `boot9strap_ntr.firm` desde el `.zip` de boot9strap ntr a la carpeta `/ntrboot/` en la tarjeta SD de tu flashcart
+1. Copy `ntrboot_flasher_nds.nds` to your flashcart's SD card
 1. Reinserta la tarjeta SD de tu flashcart de regreso a ella
 1. Inserta tu flashcart de DS / DSi compatible con ntrboot en tu consola
 
 #### Sección II - Flashear ntrboot
 
-1. Ejecuta `ds_ntrboot_flasher_dsi.nds` en tu consola usando tu flashcart
+1. Launch `ntrboot_flasher_nds.nds` on your device using your flashcart
 1. Presiona (A) para continuar
 1. Usa (Arriba) y (Abajo) en el D-Pad para seleccionar tu flashcart
 1. Presiona (A) para continuar
-1. Presiona (A) para ejecutar la acción "inject ntrboothax"
-1. Presiona (A) para seleccionar "RETAIL"
+1. Selecciona "Dump flash" para hacer un respaldo de la memoria de tu flashcart
+1. Ingresa la combinación de botones que se muestra para confirmar
 1. Presiona (A) para continuar
-1. Selecciona "EXIT"
+1. Usa (Arriba) y (Abajo) en el D-Pad para seleccionar tu flashcart
+1. Presiona (A) para continuar
+1. Selecciona "Inject FIRM" para instalar boot9strap en tu flashcart
+1. Ingresa la combinación de botones que se muestra para confirmar
+1. Presiona (A) para continuar
+1. Apaga tu consola
 
 ___
 

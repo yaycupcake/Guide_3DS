@@ -8,7 +8,7 @@ title: "boot9strap telepítése (DSiWare mentés-injektálás)"
 
 Vedd figyelembe, hogy amennyiben van más payload fájl a `GodMode9.firm` fájlon kívül a `/luma/payloads/`mappában, indításkor a (Start) gombot lenyomva tartva a "chainloader menu" menü fog megjelenni. Itt a D-Pad és az (A) gomb segítségével válaszd a "GodMode9" opciót, hogy az alábbi utasításokat követhesd. 
 
-To use the [magnet](https://wikipedia.org/wiki/Magnet_URI_scheme) links on this page, you will need a torrent client like [Deluge](http://dev.deluge-torrent.org/wiki/Download).
+Ahhoz, hogy használhasd a [magnet](https://wikipedia.org/wiki/Magnet_URI_scheme) linkeket ezen az oldalon, szükséged lesz egy torrent kliensre, mint például a [Deluge](http://dev.deluge-torrent.org/wiki/Download).
 
 Ahhoz, hogy kicsomagold az oldalon található `.7z` fájlokat, egy fájl archiváló programra lesz szükséged, mint amilyen a [7-Zip](http://www.7-zip.org/) vagy a [The Unarchiver](https://theunarchiver.com/).
 
@@ -35,12 +35,12 @@ Ha nem a cél 3DS-ednek megfelelő `.firm`-et használod, BRICKELNI fogod a kés
 
 #### Első rész - Előkészületek
 
-Use a [save manager](https://github.com/FlagBrew/Checkpoint/releases/latest) to backup any saves you care about on *the target 3DS* (it will be formatted!)
+Használj [mentéskezelőt](https://github.com/FlagBrew/Checkpoint/releases/latest) a *cél 3DS-en*, hogy biztonsági másolatot készíts azon játékok mentéséről, amik fontosak a számodra (az ugyanis formázva lesz!)
 {: .notice--warning}
 
 1. Másold át a `GodMode9.firm` fájlt a GodMode9 `.zip`-ből a **cél 3DS** SD kártyájának `/luma/payloads/` mappájába
 1. Másold át a `gm9` mappát a GodMode9 `.zip`-ből a **forrás 3DS** SD kártyájának gyökerébe
-1. Copy the relevant `public.sav` from the `/dsiware/<8-character-id>/` folder in the 3ds_dsiwarehax_installer `.zip` to the root of **the source 3DS**'s SD card
+1. Másold a megfelelő `public.sav` fájlt a 3ds_dsiwarehax_installer `.zip`-ben található `/dsiware/<8 hosszú azonosító>/` mappából a **forrás 3DS**-ed SD kártyájára
   + **Fieldrunners, USA régió**: `4b464445`
   + **Fieldrunners, EUR régió**: `4b464456`
   + **Legends of Exidia, USA régió**: `4b4c4545`
@@ -147,7 +147,7 @@ Use a [save manager](https://github.com/FlagBrew/Checkpoint/releases/latest) to 
 
 #### Ötödik rész - A cél 3DS FIRM-jének flashelése
 
-1. Copy `boot.firm` from the Luma3DS `.7z` to the root of **the target 3DS**'s SD card
+1. Másold át a `boot.firm` fájlt a Luma3DS `.7z`-ből a **cél 3DS** SD kártyájának gyökerébe
 1. Másold a `boot.nds` (B9STool) fájlt a **cél 3DS** SD kártyájának gyökerébe
 1. Másold a `boot.3dsx` fájlt a **cél 3DS** SD kártyájának gyökerébe
 1. Indítsd el a DSiWare játékot a **cél 3DS**-en
@@ -161,7 +161,7 @@ Use a [save manager](https://github.com/FlagBrew/Checkpoint/releases/latest) to 
 
 #### Hatodik rész - A Luma3DS konfigurálása
 
-1. Boot **the target 3DS** while holding (Select) to launch the Luma configuration menu
+1. Indítsd el a **cél 3DS**-edet, miközben lenyomva tartod a (Select) gombot, hogy megjelenjen a Luma konfigurációs menüje
   + Ha fekete képernyőt kapsz, [nézd át a hibaelhárítási útmutatót](troubleshooting#black-screen-on-sysnand-boot-after-installing-boot9strap)
 1. Használd az (A) gombot és D-Pad-et a következő engedélyezéséhez:    
   + **"Show NAND or user string in System Settings"**
