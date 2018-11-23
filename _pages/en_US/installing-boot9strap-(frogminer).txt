@@ -28,7 +28,7 @@ This process will overwrite your DSiWare game's save file!
 * The free DSiWare game "Steel Diver: Sub Wars" from the eShop
 * The latest release of [the Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest)
 * The latest release of [Steelhax](https://github.com/VegaRoXas/vegaroxas.github.io/raw/master/files/steelhax-installer.rar)
-* The latest release of [Frogtool](https://github.com/zoogie/Frogtool/releases/latest)
+  +    <i class="fa fa-magnet" aria-hidden="true" title="This is a magnet link. Use a torrent client to download the file."></i> - The latest release of [Frogtool](magnet:?xt=urn:btih:ea8494d8fdf23fa43f01bd21aacc39e1153d7ab2&dn=Frogtool.3dsx&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.vanitycore.co%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=udp%3A%2F%2Fipv4.tracker.harry.lu%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fdenis.stalker.upeer.me%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.port443.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.si%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.iamhansen.xyz%3A2000%2Fannounce&tr=udp%3A%2F%2Fretracker.lanta-net.ru%3A2710%2Fannounce&tr=udp%3A%2F%2Fzephir.monocul.us%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.cypherpunks.ru%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.cyberia.is%3A6969%2Fannounce)
 * The latest release of [b9sTool](https://github.com/zoogie/b9sTool/releases/latest)
 * The latest release of [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(the `.7z` file)*
 * The [otherapp payload](https://smealum.github.io/3ds/#otherapp) *(for your region and version)*
@@ -45,7 +45,7 @@ This process will overwrite your DSiWare game's save file!
 1. Copy `boot.3dsx` to the root of your SD card
 1. Copy the `steelhax` folder from the Steelhax `.rar` to the root of your SD card
 1. Copy the otherapp payload to the `steelhax` folder on your SD card and rename it to `payload.bin`
-1. Copy `Frogtool.3dsx` from the Frogtool `.zip` to the `/3ds/` folder on your SD card
+1. Copy `Frogtool.3dsx` from the torrent download to the `/3ds/` folder on your SD card
 1. Copy the `private` folder from the Frogtool `.zip` to the root of your SD card
 1. Navigate to the `Nintendo 3DS` folder on your SD card
 1. Copy the 32 character long name of the folder you see
@@ -104,42 +104,18 @@ This process will overwrite your DSiWare game's save file!
   + **USA Region**: `000d7d00`
 1. Copy the new downloaded save file to the `data` folder on your SD card
   + Overwrite the old save file when prompted
+1. Copy your `movable.sed` to the root of your SD card
 1. Reinsert your SD card into your device
 1. Power on your device
 
-#### Section IV - Frogminer
+#### Section IV - Flashing FIRM
 
 1. Launch "Steel Diver: Sub Wars"
 1. If the exploit was successful, your device will have loaded the Homebrew Launcher
 1. Launch Frogtool from the list of homebrew
-1. Select the "EXPORT clean DS Download Play" option
-1. Press (Start) to exit Frogtool
-1. Power off your device
-1. Insert your SD card into your computer
-1. Copy `484E4441.bin` from the root of your SD card to your computer
-1. Open [the Frogminer website](https://jenkins.nelthorya.net/job/DSIHaxInjector/build)
-1. Select a username for the "Username" field
-1. Select your console's region for the "Region" field
-1. Select `484E4441.bin` for the "DsiBin" field
-1. Select your `movable.sed` for the "MovableSed" field
-1. Leave the email field blank
-1. Select "Build"
-1. Wait for the process to complete
-1. Search for your username in the "Build History" section of the page
-1. Download the `484E4441.bin.patched_<your-username>` file
-  + If the username does not match the one you input earlier, the file is incorrect and will not work on your device
-1. Copy `484E4441.bin.patched_<your-username>` to the root of your SD card and rename it to `484E4441.bin.patched`
-1. Reinsert your SD card into your device
-1. Power on your device
-
-#### Section V - Flashing FIRM
-
-1. Launch "Steel Diver: Sub Wars"
-1. If the exploit was successful, your device will have loaded the Homebrew Launcher
-1. Launch Frogtool from the list of homebrew
-1. Select the "IMPORT patched DS Download Play" option
-1. Tap the touch-screen to continue
-1. Select the "BOOT patched DS Download Play" option
+1. Select the "INJECT patched DS Download Play" option
+1. Frogtool will automatically run and inject the JPN version of Flipnote Studio into your DS Download Play
+1. Once this operation has finished, select "BOOT patched DS Download Play"
 1. If the exploit was successful, your device will have loaded the JPN version of Flipnote Studio
 1. Complete the initial setup process for the launched game until you reach the main menu
   + Select the left option whenever prompted during the setup process
@@ -154,8 +130,9 @@ This process will overwrite your DSiWare game's save file!
 1. Select "Install boot9strap" and confirm
 1. Exit b9sTool, then power off your device
   + You may have to force power off by holding the power button
+  + Once you have finished Finalizing Setup, you may go back to Frogtool and select "RESTORE clean DS Download Play"
 
-#### Section VI - Configuring Luma3DS
+#### Section V - Configuring Luma3DS
 
 1. Boot your device while holding (Select) to launch the Luma configuration menu
   + If you encounter issues launching the Luma configuration menu, [follow this troubleshooting guide](https://github.com/zoogie/b9sTool/blob/master/TROUBLESHOOTING.md)
