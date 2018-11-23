@@ -14,18 +14,18 @@ We then use this DSiWare encryption key to decrypt a compatible DSiWare applicat
 
 If this key were completely random, the encryption key would be impossible to break on current computing hardware. Fortunately, the first half of the key (`movable_part1.sed`) is actually mathematically related to your device's Friend Code, allowing us to break the encryption. For information on how Seedminer works, please see [this presentation](https://zoogie.github.io/web/34⅕c3).
 
-Note that this tool requires a PC with a powerful graphics card to break your device's DSiWare encryption. If you do not have access to one of these, there exists several online helper services where a volunteer running automated software will do this for you.
+Note that this tool requires a PC with a powerful graphics card to break your device's DSiWare encryption. If you do not have access to one of these, there exists an online helper service where a volunteer running automated software will do this for you.
 
 To use the [magnet](https://wikipedia.org/wiki/Magnet_URI_scheme) links on this page, you will need a torrent client like [Deluge](http://dev.deluge-torrent.org/wiki/Download).
 
 To extract the `.7z` and `.rar` files linked on this page, you will need a file archiver like [7-Zip](http://www.7-zip.org/) or [The Unarchiver](https://theunarchiver.com/).
 
-This process will overwrite your DSiWare game's save file!
+This process will overwrite your game's save file!
 {: .notice--warning}
 
 ### What You Need
 
-* The free DSiWare game "Steel Diver: Sub Wars" from the eShop
+* The free eShop game "Steel Diver: Sub Wars" from the eShop
 * The latest release of [the Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest)
 * The latest release of [Steelhax](https://github.com/VegaRoXas/vegaroxas.github.io/raw/master/files/steelhax-installer.rar)
   +    <i class="fa fa-magnet" aria-hidden="true" title="This is a magnet link. Use a torrent client to download the file."></i> - The latest release of [Frogtool](magnet:?xt=urn:btih:ea8494d8fdf23fa43f01bd21aacc39e1153d7ab2&dn=Frogtool.3dsx&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.vanitycore.co%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=udp%3A%2F%2Fipv4.tracker.harry.lu%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fdenis.stalker.upeer.me%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.port443.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.si%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.iamhansen.xyz%3A2000%2Fannounce&tr=udp%3A%2F%2Fretracker.lanta-net.ru%3A2710%2Fannounce&tr=udp%3A%2F%2Fzephir.monocul.us%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.cypherpunks.ru%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.cyberia.is%3A6969%2Fannounce)
@@ -78,7 +78,7 @@ This process will overwrite your DSiWare game's save file!
 1. Select "Go"
 1. When prompted, use the "Register Friend" button on your device to add the friend code of the bot 3DS console
 1. Wait for the site to update
-  + If it does not, refresh the page
+  + If it does not, wait for a few minutes, then refresh the page once.
 1. Select "Continue"
 1. Wait for the process to complete
   + This can take a while (up to an hour in some cases)
