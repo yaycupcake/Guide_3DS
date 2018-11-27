@@ -78,7 +78,7 @@ This process will overwrite your game's save file!
 1. Select "Go"
 1. When prompted, use the "Register Friend" button on your device to add the friend code of the bot 3DS console
 1. Wait for the site to update
-  + If it does not, wait for a few minutes, then refresh the page once.
+  + If it does not, wait a few minutes before refreshing the page once
 1. Select "Continue"
 1. Wait for the process to complete
   + This can take a while (up to an hour in some cases)
@@ -129,7 +129,6 @@ This process will overwrite your game's save file!
 1. Select "Install boot9strap" and confirm
 1. Exit b9sTool, then power off your device
   + You may have to force power off by holding the power button
-  + Once you have finished Finalizing Setup, you may go back to Frogtool and select "RESTORE clean DS Download Play"
 
 #### Section V - Configuring Luma3DS
 
@@ -139,6 +138,15 @@ This process will overwrite your game's save file!
   + **"Show NAND or user string in System Settings"**
 1. Press (Start) to save and reboot
   + If you get a black screen, [follow this troubleshooting guide](troubleshooting#black-screen-on-sysnand-boot-after-installing-boot9strap)
+  
+#### Section VI - Restoring Download Play
+
+1. Launch "Steel Diver: Sub Wars"
+1. If the exploit was successful, your device will have loaded the Homebrew Launcher
+1. Launch Frogtool from the list of homebrew
+1. Select the "RESTORE clean DS Download Play" option
+  + This will remove the Flipnote Studio application and exploit to restore the default functionality of DS Download Play
+1. Exit Frogtool
 
 ___
 
