@@ -2,7 +2,7 @@
 <rss version="2.0">
 	<channel>
 		<title>Plailect Guide Feed</title>
-		<lastBuildDate>Sun, 26 Aug 2018 05:48:08 +0000</lastBuildDate>
+		<lastBuildDate>Tue, 27 Nov 2018 16:33:07 +0000</lastBuildDate>
 		<link>https://github.com/Plailect/Guide_3DS/</link>
 		<item>
 			<title>1.0.0_qr.png</title>
@@ -1655,81 +1655,6 @@
 			</trackers>
 		</item>
 		<item>
-			<title>2.38-0_6.1_OLD.firm</title>
-			<description>2.38-0_6.1_OLD.firm</description>
-			<guid>79DFCC3C12147F30B0D32ACF47059C64CC530AB7</guid>
-			<link>magnet:?xt=urn:btih:79DFCC3C12147F30B0D32ACF47059C64CC530AB7</link>
-			<pubDate>Fri, 19 May 2017 16:15:43 +0000</pubDate>
-			<contentLength>954368</contentLength>
-			<infoHash>79DFCC3C12147F30B0D32ACF47059C64CC530AB7</infoHash>
-			<magnetURI>magnet:?xt=urn:btih:79DFCC3C12147F30B0D32ACF47059C64CC530AB7</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:79DFCC3C12147F30B0D32ACF47059C64CC530AB7" type="application/x-bittorrent" />
-			<trackers>
-				<group order="random">
-					<tracker>
-						udp://9.rarbg.to:2710/announce
-					</tracker>
-					<tracker>
-						udp://bt.xxx-tracker.com:2710/announce
-					</tracker>
-					<tracker>
-						udp://exodus.desync.com:6969/announce
-					</tracker>
-					<tracker>
-						udp://mgtracker.org:6969/announce
-					</tracker>
-					<tracker>
-						udp://open.demonii.si:1337/announce
-					</tracker>
-					<tracker>
-						udp://public.popcorn-tracker.org:6969/announce
-					</tracker>
-					<tracker>
-						udp://thetracker.org:80/announce
-					</tracker>
-					<tracker>
-						udp://tracker.coppersurfer.tk:6969/announce
-					</tracker>
-					<tracker>
-						udp://tracker.cypherpunks.ru:6969/announce
-					</tracker>
-					<tracker>
-						udp://tracker.ds.is:6969/announce
-					</tracker>
-					<tracker>
-						udp://tracker.internetwarriors.net:1337/announce
-					</tracker>
-					<tracker>
-						udp://tracker.mg64.net:6969/announce
-					</tracker>
-					<tracker>
-						udp://tracker.open-internet.nl:6969/announce
-					</tracker>
-					<tracker>
-						udp://tracker.opentrackr.org:1337/announce
-					</tracker>
-					<tracker>
-						udp://tracker.port443.xyz:6969/announce
-					</tracker>
-					<tracker>
-						udp://tracker.qt.is:6969/announce
-					</tracker>
-					<tracker>
-						udp://tracker.tiny-vps.com:6969/announce
-					</tracker>
-					<tracker>
-						udp://tracker.torrent.eu.org:451/announce
-					</tracker>
-					<tracker>
-						udp://tracker.vanitycore.co:6969/announce
-					</tracker>
-					<tracker>
-						udp://tracker-2.msm8916.com:6969/announce
-					</tracker>
-				</group>
-			</trackers>
-		</item>
-		<item>
 			<title>2.39-0_7.0_OLD.firm</title>
 			<description>2.39-0_7.0_OLD.firm</description>
 			<guid>7E11151DE6873DE92EAE0C1052FE5B88CCDA0C07</guid>
@@ -2855,81 +2780,6 @@
 			</trackers>
 		</item>
 		<item>
-			<title>2.50-7_10.0_OLD.firm</title>
-			<description>2.50-7_10.0_OLD.firm</description>
-			<guid>63B5AB8F0EE881C71C059AB1EE9C1E0C10A5FF2C</guid>
-			<link>magnet:?xt=urn:btih:63B5AB8F0EE881C71C059AB1EE9C1E0C10A5FF2C</link>
-			<pubDate>Fri, 19 May 2017 16:15:52 +0000</pubDate>
-			<contentLength>958464</contentLength>
-			<infoHash>63B5AB8F0EE881C71C059AB1EE9C1E0C10A5FF2C</infoHash>
-			<magnetURI>magnet:?xt=urn:btih:63B5AB8F0EE881C71C059AB1EE9C1E0C10A5FF2C</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:63B5AB8F0EE881C71C059AB1EE9C1E0C10A5FF2C" type="application/x-bittorrent" />
-			<trackers>
-				<group order="random">
-					<tracker>
-						udp://9.rarbg.to:2710/announce
-					</tracker>
-					<tracker>
-						udp://bt.xxx-tracker.com:2710/announce
-					</tracker>
-					<tracker>
-						udp://exodus.desync.com:6969/announce
-					</tracker>
-					<tracker>
-						udp://mgtracker.org:6969/announce
-					</tracker>
-					<tracker>
-						udp://open.demonii.si:1337/announce
-					</tracker>
-					<tracker>
-						udp://public.popcorn-tracker.org:6969/announce
-					</tracker>
-					<tracker>
-						udp://thetracker.org:80/announce
-					</tracker>
-					<tracker>
-						udp://tracker.coppersurfer.tk:6969/announce
-					</tracker>
-					<tracker>
-						udp://tracker.cypherpunks.ru:6969/announce
-					</tracker>
-					<tracker>
-						udp://tracker.ds.is:6969/announce
-					</tracker>
-					<tracker>
-						udp://tracker.internetwarriors.net:1337/announce
-					</tracker>
-					<tracker>
-						udp://tracker.mg64.net:6969/announce
-					</tracker>
-					<tracker>
-						udp://tracker.open-internet.nl:6969/announce
-					</tracker>
-					<tracker>
-						udp://tracker.opentrackr.org:1337/announce
-					</tracker>
-					<tracker>
-						udp://tracker.port443.xyz:6969/announce
-					</tracker>
-					<tracker>
-						udp://tracker.qt.is:6969/announce
-					</tracker>
-					<tracker>
-						udp://tracker.tiny-vps.com:6969/announce
-					</tracker>
-					<tracker>
-						udp://tracker.torrent.eu.org:451/announce
-					</tracker>
-					<tracker>
-						udp://tracker.vanitycore.co:6969/announce
-					</tracker>
-					<tracker>
-						udp://tracker-2.msm8916.com:6969/announce
-					</tracker>
-				</group>
-			</trackers>
-		</item>
-		<item>
 			<title>2.50-9_10.2_NEW.firm</title>
 			<description>2.50-9_10.2_NEW.firm</description>
 			<guid>537FAC39870D796AC163D962B4F145DA101F6AB9</guid>
@@ -3980,6 +3830,156 @@
 			</trackers>
 		</item>
 		<item>
+			<title>2.38-0_6.1_OLD.firm</title>
+			<description>2.38-0_6.1_OLD.firm</description>
+			<guid>79DFCC3C12147F30B0D32ACF47059C64CC530AB7</guid>
+			<link>magnet:?xt=urn:btih:79DFCC3C12147F30B0D32ACF47059C64CC530AB7</link>
+			<pubDate>Fri, 19 May 2017 16:15:43 +0000</pubDate>
+			<contentLength>954368</contentLength>
+			<infoHash>79DFCC3C12147F30B0D32ACF47059C64CC530AB7</infoHash>
+			<magnetURI>magnet:?xt=urn:btih:79DFCC3C12147F30B0D32ACF47059C64CC530AB7</magnetURI>
+			<enclosure url="magnet:?xt=urn:btih:79DFCC3C12147F30B0D32ACF47059C64CC530AB7" type="application/x-bittorrent" />
+			<trackers>
+				<group order="random">
+					<tracker>
+						udp://9.rarbg.to:2710/announce
+					</tracker>
+					<tracker>
+						udp://bt.xxx-tracker.com:2710/announce
+					</tracker>
+					<tracker>
+						udp://exodus.desync.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://mgtracker.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://open.demonii.si:1337/announce
+					</tracker>
+					<tracker>
+						udp://public.popcorn-tracker.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://thetracker.org:80/announce
+					</tracker>
+					<tracker>
+						udp://tracker.coppersurfer.tk:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.cypherpunks.ru:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.ds.is:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.internetwarriors.net:1337/announce
+					</tracker>
+					<tracker>
+						udp://tracker.mg64.net:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.open-internet.nl:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.opentrackr.org:1337/announce
+					</tracker>
+					<tracker>
+						udp://tracker.port443.xyz:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.qt.is:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.torrent.eu.org:451/announce
+					</tracker>
+					<tracker>
+						udp://tracker.vanitycore.co:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker-2.msm8916.com:6969/announce
+					</tracker>
+				</group>
+			</trackers>
+		</item>
+		<item>
+			<title>2.50-7_10.0_OLD.firm</title>
+			<description>2.50-7_10.0_OLD.firm</description>
+			<guid>63B5AB8F0EE881C71C059AB1EE9C1E0C10A5FF2C</guid>
+			<link>magnet:?xt=urn:btih:63B5AB8F0EE881C71C059AB1EE9C1E0C10A5FF2C</link>
+			<pubDate>Fri, 19 May 2017 16:15:52 +0000</pubDate>
+			<contentLength>958464</contentLength>
+			<infoHash>63B5AB8F0EE881C71C059AB1EE9C1E0C10A5FF2C</infoHash>
+			<magnetURI>magnet:?xt=urn:btih:63B5AB8F0EE881C71C059AB1EE9C1E0C10A5FF2C</magnetURI>
+			<enclosure url="magnet:?xt=urn:btih:63B5AB8F0EE881C71C059AB1EE9C1E0C10A5FF2C" type="application/x-bittorrent" />
+			<trackers>
+				<group order="random">
+					<tracker>
+						udp://9.rarbg.to:2710/announce
+					</tracker>
+					<tracker>
+						udp://bt.xxx-tracker.com:2710/announce
+					</tracker>
+					<tracker>
+						udp://exodus.desync.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://mgtracker.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://open.demonii.si:1337/announce
+					</tracker>
+					<tracker>
+						udp://public.popcorn-tracker.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://thetracker.org:80/announce
+					</tracker>
+					<tracker>
+						udp://tracker.coppersurfer.tk:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.cypherpunks.ru:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.ds.is:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.internetwarriors.net:1337/announce
+					</tracker>
+					<tracker>
+						udp://tracker.mg64.net:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.open-internet.nl:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.opentrackr.org:1337/announce
+					</tracker>
+					<tracker>
+						udp://tracker.port443.xyz:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.qt.is:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.torrent.eu.org:451/announce
+					</tracker>
+					<tracker>
+						udp://tracker.vanitycore.co:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker-2.msm8916.com:6969/announce
+					</tracker>
+				</group>
+			</trackers>
+		</item>
+		<item>
 			<title>Acekard_2i_(HW_44)-Flashrom.zip</title>
 			<description>Acekard_2i_(HW_44)-Flashrom.zip</description>
 			<guid>D04BD19E15BF8600CCEF6540BDBD043846888132</guid>
@@ -3989,6 +3989,231 @@
 			<infoHash>D04BD19E15BF8600CCEF6540BDBD043846888132</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:D04BD19E15BF8600CCEF6540BDBD043846888132</magnetURI>
 			<enclosure url="magnet:?xt=urn:btih:D04BD19E15BF8600CCEF6540BDBD043846888132" type="application/x-bittorrent" />
+			<trackers>
+				<group order="random">
+					<tracker>
+						udp://9.rarbg.to:2710/announce
+					</tracker>
+					<tracker>
+						udp://bt.xxx-tracker.com:2710/announce
+					</tracker>
+					<tracker>
+						udp://exodus.desync.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://mgtracker.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://open.demonii.si:1337/announce
+					</tracker>
+					<tracker>
+						udp://public.popcorn-tracker.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://thetracker.org:80/announce
+					</tracker>
+					<tracker>
+						udp://tracker.coppersurfer.tk:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.cypherpunks.ru:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.ds.is:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.internetwarriors.net:1337/announce
+					</tracker>
+					<tracker>
+						udp://tracker.mg64.net:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.open-internet.nl:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.opentrackr.org:1337/announce
+					</tracker>
+					<tracker>
+						udp://tracker.port443.xyz:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.qt.is:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.torrent.eu.org:451/announce
+					</tracker>
+					<tracker>
+						udp://tracker.vanitycore.co:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker-2.msm8916.com:6969/announce
+					</tracker>
+				</group>
+			</trackers>
+		</item>
+		<item>
+			<title>DSiWare_jpn_4swordshax_injection.zip</title>
+			<description>DSiWare_jpn_4swordshax_injection.zip</description>
+			<guid>1BCC90C93DA91C9876671F6218084207DEF90DB9</guid>
+			<link>magnet:?xt=urn:btih:1BCC90C93DA91C9876671F6218084207DEF90DB9</link>
+			<pubDate>Sun, 11 Dec 2016 02:39:28 +0000</pubDate>
+			<contentLength>8664749</contentLength>
+			<infoHash>1BCC90C93DA91C9876671F6218084207DEF90DB9</infoHash>
+			<magnetURI>magnet:?xt=urn:btih:1BCC90C93DA91C9876671F6218084207DEF90DB9</magnetURI>
+			<enclosure url="magnet:?xt=urn:btih:1BCC90C93DA91C9876671F6218084207DEF90DB9" type="application/x-bittorrent" />
+			<trackers>
+				<group order="random">
+					<tracker>
+						udp://9.rarbg.to:2710/announce
+					</tracker>
+					<tracker>
+						udp://bt.xxx-tracker.com:2710/announce
+					</tracker>
+					<tracker>
+						udp://exodus.desync.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://mgtracker.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://open.demonii.si:1337/announce
+					</tracker>
+					<tracker>
+						udp://public.popcorn-tracker.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://thetracker.org:80/announce
+					</tracker>
+					<tracker>
+						udp://tracker.coppersurfer.tk:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.cypherpunks.ru:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.ds.is:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.internetwarriors.net:1337/announce
+					</tracker>
+					<tracker>
+						udp://tracker.mg64.net:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.open-internet.nl:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.opentrackr.org:1337/announce
+					</tracker>
+					<tracker>
+						udp://tracker.port443.xyz:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.qt.is:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.torrent.eu.org:451/announce
+					</tracker>
+					<tracker>
+						udp://tracker.vanitycore.co:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker-2.msm8916.com:6969/announce
+					</tracker>
+				</group>
+			</trackers>
+		</item>
+		<item>
+			<title>Old_3DS TWL_FIRM - v8817.cia</title>
+			<description>Old_3DS TWL_FIRM - v8817.cia</description>
+			<guid>17511EADB6E6F3FF22D04F90644E37BD2D96CA43</guid>
+			<link>magnet:?xt=urn:btih:17511EADB6E6F3FF22D04F90644E37BD2D96CA43</link>
+			<pubDate>Sat, 03 Sep 2016 17:26:42 +0000</pubDate>
+			<contentLength>1725696</contentLength>
+			<infoHash>17511EADB6E6F3FF22D04F90644E37BD2D96CA43</infoHash>
+			<magnetURI>magnet:?xt=urn:btih:17511EADB6E6F3FF22D04F90644E37BD2D96CA43</magnetURI>
+			<enclosure url="magnet:?xt=urn:btih:17511EADB6E6F3FF22D04F90644E37BD2D96CA43" type="application/x-bittorrent" />
+			<trackers>
+				<group order="random">
+					<tracker>
+						udp://9.rarbg.to:2710/announce
+					</tracker>
+					<tracker>
+						udp://bt.xxx-tracker.com:2710/announce
+					</tracker>
+					<tracker>
+						udp://exodus.desync.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://mgtracker.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://open.demonii.si:1337/announce
+					</tracker>
+					<tracker>
+						udp://public.popcorn-tracker.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://thetracker.org:80/announce
+					</tracker>
+					<tracker>
+						udp://tracker.coppersurfer.tk:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.cypherpunks.ru:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.ds.is:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.internetwarriors.net:1337/announce
+					</tracker>
+					<tracker>
+						udp://tracker.mg64.net:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.open-internet.nl:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.opentrackr.org:1337/announce
+					</tracker>
+					<tracker>
+						udp://tracker.port443.xyz:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.qt.is:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.torrent.eu.org:451/announce
+					</tracker>
+					<tracker>
+						udp://tracker.vanitycore.co:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker-2.msm8916.com:6969/announce
+					</tracker>
+				</group>
+			</trackers>
+		</item>
+		<item>
+			<title>R4i_Gold_3DS_(HW_A6)-Flashrom.zip</title>
+			<description>R4i_Gold_3DS_(HW_A6)-Flashrom.zip</description>
+			<guid>E1675722834B870EA64DDF1EF9CA77D78DB2BE00</guid>
+			<link>magnet:?xt=urn:btih:E1675722834B870EA64DDF1EF9CA77D78DB2BE00</link>
+			<pubDate>Tue, 20 Mar 2018 01:12:17 +0000</pubDate>
+			<contentLength>1226556</contentLength>
+			<infoHash>E1675722834B870EA64DDF1EF9CA77D78DB2BE00</infoHash>
+			<magnetURI>magnet:?xt=urn:btih:E1675722834B870EA64DDF1EF9CA77D78DB2BE00</magnetURI>
+			<enclosure url="magnet:?xt=urn:btih:E1675722834B870EA64DDF1EF9CA77D78DB2BE00" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -4667,139 +4892,64 @@
 			<trackers>
 				<group order="random">
 					<tracker>
-						udp://9.rarbg.to:2710/announce
-					</tracker>
-					<tracker>
-						udp://bt.xxx-tracker.com:2710/announce
-					</tracker>
-					<tracker>
-						udp://exodus.desync.com:6969/announce
-					</tracker>
-					<tracker>
-						udp://mgtracker.org:6969/announce
-					</tracker>
-					<tracker>
-						udp://open.demonii.si:1337/announce
-					</tracker>
-					<tracker>
-						udp://public.popcorn-tracker.org:6969/announce
-					</tracker>
-					<tracker>
-						udp://thetracker.org:80/announce
-					</tracker>
-					<tracker>
 						udp://tracker.coppersurfer.tk:6969/announce
-					</tracker>
-					<tracker>
-						udp://tracker.cypherpunks.ru:6969/announce
-					</tracker>
-					<tracker>
-						udp://tracker.ds.is:6969/announce
-					</tracker>
-					<tracker>
-						udp://tracker.internetwarriors.net:1337/announce
-					</tracker>
-					<tracker>
-						udp://tracker.mg64.net:6969/announce
-					</tracker>
-					<tracker>
-						udp://tracker.open-internet.nl:6969/announce
 					</tracker>
 					<tracker>
 						udp://tracker.opentrackr.org:1337/announce
 					</tracker>
 					<tracker>
-						udp://tracker.port443.xyz:6969/announce
+						http://tracker.opentrackr.org:1337/announce
 					</tracker>
 					<tracker>
-						udp://tracker.qt.is:6969/announce
+						udp://zer0day.ch:1337/announce
 					</tracker>
 					<tracker>
-						udp://tracker.tiny-vps.com:6969/announce
+						udp://tracker.leechers-paradise.org:6969/announce
 					</tracker>
 					<tracker>
-						udp://tracker.torrent.eu.org:451/announce
+						http://explodie.org:6969/announce
 					</tracker>
 					<tracker>
-						udp://tracker.vanitycore.co:6969/announce
+						udp://explodie.org:6969/announce
 					</tracker>
 					<tracker>
-						udp://tracker-2.msm8916.com:6969/announce
-					</tracker>
-				</group>
-			</trackers>
-		</item>
-		<item>
-			<title>DSiWare_jpn_4swordshax_injection.zip</title>
-			<description>DSiWare_jpn_4swordshax_injection.zip</description>
-			<guid>1BCC90C93DA91C9876671F6218084207DEF90DB9</guid>
-			<link>magnet:?xt=urn:btih:1BCC90C93DA91C9876671F6218084207DEF90DB9</link>
-			<pubDate>Sun, 11 Dec 2016 02:39:28 +0000</pubDate>
-			<contentLength>8664749</contentLength>
-			<infoHash>1BCC90C93DA91C9876671F6218084207DEF90DB9</infoHash>
-			<magnetURI>magnet:?xt=urn:btih:1BCC90C93DA91C9876671F6218084207DEF90DB9</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:1BCC90C93DA91C9876671F6218084207DEF90DB9" type="application/x-bittorrent" />
-			<trackers>
-				<group order="random">
-					<tracker>
-						udp://9.rarbg.to:2710/announce
+						udp://9.rarbg.com:2710/announce
 					</tracker>
 					<tracker>
-						udp://bt.xxx-tracker.com:2710/announce
+						udp://p4p.arenabg.com:1337/announce
 					</tracker>
 					<tracker>
-						udp://exodus.desync.com:6969/announce
+						http://p4p.arenabg.com:1337/announce
 					</tracker>
 					<tracker>
-						udp://mgtracker.org:6969/announce
+						udp://tracker.aletorrenty.pl:2710/announce
 					</tracker>
 					<tracker>
-						udp://open.demonii.si:1337/announce
+						http://tracker.aletorrenty.pl:2710/announce
 					</tracker>
 					<tracker>
-						udp://public.popcorn-tracker.org:6969/announce
+						http://tracker1.wasabii.com.tw:6969/announce
 					</tracker>
 					<tracker>
-						udp://thetracker.org:80/announce
+						http://tracker.baravik.org:6970/announce
 					</tracker>
 					<tracker>
-						udp://tracker.coppersurfer.tk:6969/announce
+						http://tracker.tfile.me/announce
 					</tracker>
 					<tracker>
-						udp://tracker.cypherpunks.ru:6969/announce
+						udp://torrent.gresille.org:80/announce
 					</tracker>
 					<tracker>
-						udp://tracker.ds.is:6969/announce
+						http://torrent.gresille.org/announce
 					</tracker>
 					<tracker>
-						udp://tracker.internetwarriors.net:1337/announce
-					</tracker>
-					<tracker>
-						udp://tracker.mg64.net:6969/announce
-					</tracker>
-					<tracker>
-						udp://tracker.open-internet.nl:6969/announce
-					</tracker>
-					<tracker>
-						udp://tracker.opentrackr.org:1337/announce
-					</tracker>
-					<tracker>
-						udp://tracker.port443.xyz:6969/announce
-					</tracker>
-					<tracker>
-						udp://tracker.qt.is:6969/announce
+						udp://tracker.yoshi210.com:6969/announce
 					</tracker>
 					<tracker>
 						udp://tracker.tiny-vps.com:6969/announce
 					</tracker>
 					<tracker>
-						udp://tracker.torrent.eu.org:451/announce
-					</tracker>
-					<tracker>
-						udp://tracker.vanitycore.co:6969/announce
-					</tracker>
-					<tracker>
-						udp://tracker-2.msm8916.com:6969/announce
+						udp://tracker.filetracker.pl:8089/announce
 					</tracker>
 				</group>
 			</trackers>
@@ -4817,64 +4967,64 @@
 			<trackers>
 				<group order="random">
 					<tracker>
-						udp://9.rarbg.to:2710/announce
-					</tracker>
-					<tracker>
-						udp://bt.xxx-tracker.com:2710/announce
-					</tracker>
-					<tracker>
-						udp://exodus.desync.com:6969/announce
-					</tracker>
-					<tracker>
-						udp://mgtracker.org:6969/announce
-					</tracker>
-					<tracker>
-						udp://open.demonii.si:1337/announce
-					</tracker>
-					<tracker>
-						udp://public.popcorn-tracker.org:6969/announce
-					</tracker>
-					<tracker>
-						udp://thetracker.org:80/announce
-					</tracker>
-					<tracker>
 						udp://tracker.coppersurfer.tk:6969/announce
-					</tracker>
-					<tracker>
-						udp://tracker.cypherpunks.ru:6969/announce
-					</tracker>
-					<tracker>
-						udp://tracker.ds.is:6969/announce
-					</tracker>
-					<tracker>
-						udp://tracker.internetwarriors.net:1337/announce
-					</tracker>
-					<tracker>
-						udp://tracker.mg64.net:6969/announce
-					</tracker>
-					<tracker>
-						udp://tracker.open-internet.nl:6969/announce
 					</tracker>
 					<tracker>
 						udp://tracker.opentrackr.org:1337/announce
 					</tracker>
 					<tracker>
-						udp://tracker.port443.xyz:6969/announce
+						http://tracker.opentrackr.org:1337/announce
 					</tracker>
 					<tracker>
-						udp://tracker.qt.is:6969/announce
+						udp://zer0day.ch:1337/announce
+					</tracker>
+					<tracker>
+						udp://tracker.leechers-paradise.org:6969/announce
+					</tracker>
+					<tracker>
+						http://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://9.rarbg.com:2710/announce
+					</tracker>
+					<tracker>
+						udp://p4p.arenabg.com:1337/announce
+					</tracker>
+					<tracker>
+						http://p4p.arenabg.com:1337/announce
+					</tracker>
+					<tracker>
+						udp://tracker.aletorrenty.pl:2710/announce
+					</tracker>
+					<tracker>
+						http://tracker.aletorrenty.pl:2710/announce
+					</tracker>
+					<tracker>
+						http://tracker1.wasabii.com.tw:6969/announce
+					</tracker>
+					<tracker>
+						http://tracker.baravik.org:6970/announce
+					</tracker>
+					<tracker>
+						http://tracker.tfile.me/announce
+					</tracker>
+					<tracker>
+						udp://torrent.gresille.org:80/announce
+					</tracker>
+					<tracker>
+						http://torrent.gresille.org/announce
+					</tracker>
+					<tracker>
+						udp://tracker.yoshi210.com:6969/announce
 					</tracker>
 					<tracker>
 						udp://tracker.tiny-vps.com:6969/announce
 					</tracker>
 					<tracker>
-						udp://tracker.torrent.eu.org:451/announce
-					</tracker>
-					<tracker>
-						udp://tracker.vanitycore.co:6969/announce
-					</tracker>
-					<tracker>
-						udp://tracker-2.msm8916.com:6969/announce
+						udp://tracker.filetracker.pl:8089/announce
 					</tracker>
 				</group>
 			</trackers>
@@ -5405,81 +5555,6 @@
 			</trackers>
 		</item>
 		<item>
-			<title>Old_3DS TWL_FIRM - v8817.cia</title>
-			<description>Old_3DS TWL_FIRM - v8817.cia</description>
-			<guid>17511EADB6E6F3FF22D04F90644E37BD2D96CA43</guid>
-			<link>magnet:?xt=urn:btih:17511EADB6E6F3FF22D04F90644E37BD2D96CA43</link>
-			<pubDate>Sat, 03 Sep 2016 17:26:42 +0000</pubDate>
-			<contentLength>1725696</contentLength>
-			<infoHash>17511EADB6E6F3FF22D04F90644E37BD2D96CA43</infoHash>
-			<magnetURI>magnet:?xt=urn:btih:17511EADB6E6F3FF22D04F90644E37BD2D96CA43</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:17511EADB6E6F3FF22D04F90644E37BD2D96CA43" type="application/x-bittorrent" />
-			<trackers>
-				<group order="random">
-					<tracker>
-						udp://9.rarbg.to:2710/announce
-					</tracker>
-					<tracker>
-						udp://bt.xxx-tracker.com:2710/announce
-					</tracker>
-					<tracker>
-						udp://exodus.desync.com:6969/announce
-					</tracker>
-					<tracker>
-						udp://mgtracker.org:6969/announce
-					</tracker>
-					<tracker>
-						udp://open.demonii.si:1337/announce
-					</tracker>
-					<tracker>
-						udp://public.popcorn-tracker.org:6969/announce
-					</tracker>
-					<tracker>
-						udp://thetracker.org:80/announce
-					</tracker>
-					<tracker>
-						udp://tracker.coppersurfer.tk:6969/announce
-					</tracker>
-					<tracker>
-						udp://tracker.cypherpunks.ru:6969/announce
-					</tracker>
-					<tracker>
-						udp://tracker.ds.is:6969/announce
-					</tracker>
-					<tracker>
-						udp://tracker.internetwarriors.net:1337/announce
-					</tracker>
-					<tracker>
-						udp://tracker.mg64.net:6969/announce
-					</tracker>
-					<tracker>
-						udp://tracker.open-internet.nl:6969/announce
-					</tracker>
-					<tracker>
-						udp://tracker.opentrackr.org:1337/announce
-					</tracker>
-					<tracker>
-						udp://tracker.port443.xyz:6969/announce
-					</tracker>
-					<tracker>
-						udp://tracker.qt.is:6969/announce
-					</tracker>
-					<tracker>
-						udp://tracker.tiny-vps.com:6969/announce
-					</tracker>
-					<tracker>
-						udp://tracker.torrent.eu.org:451/announce
-					</tracker>
-					<tracker>
-						udp://tracker.vanitycore.co:6969/announce
-					</tracker>
-					<tracker>
-						udp://tracker-2.msm8916.com:6969/announce
-					</tracker>
-				</group>
-			</trackers>
-		</item>
-		<item>
 			<title>R4i-SDHC_3DS_RTS-Flashrom.zip</title>
 			<description>R4i-SDHC_3DS_RTS-Flashrom.zip</description>
 			<guid>11A4A3B6DD1CEF5652B49A413D8E8C662449D819</guid>
@@ -5939,81 +6014,6 @@
 			<infoHash>C6DEE8CC9535D58284CCB8430C9AF4682C3E1EFC</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:C6DEE8CC9535D58284CCB8430C9AF4682C3E1EFC</magnetURI>
 			<enclosure url="magnet:?xt=urn:btih:C6DEE8CC9535D58284CCB8430C9AF4682C3E1EFC" type="application/x-bittorrent" />
-			<trackers>
-				<group order="random">
-					<tracker>
-						udp://9.rarbg.to:2710/announce
-					</tracker>
-					<tracker>
-						udp://bt.xxx-tracker.com:2710/announce
-					</tracker>
-					<tracker>
-						udp://exodus.desync.com:6969/announce
-					</tracker>
-					<tracker>
-						udp://mgtracker.org:6969/announce
-					</tracker>
-					<tracker>
-						udp://open.demonii.si:1337/announce
-					</tracker>
-					<tracker>
-						udp://public.popcorn-tracker.org:6969/announce
-					</tracker>
-					<tracker>
-						udp://thetracker.org:80/announce
-					</tracker>
-					<tracker>
-						udp://tracker.coppersurfer.tk:6969/announce
-					</tracker>
-					<tracker>
-						udp://tracker.cypherpunks.ru:6969/announce
-					</tracker>
-					<tracker>
-						udp://tracker.ds.is:6969/announce
-					</tracker>
-					<tracker>
-						udp://tracker.internetwarriors.net:1337/announce
-					</tracker>
-					<tracker>
-						udp://tracker.mg64.net:6969/announce
-					</tracker>
-					<tracker>
-						udp://tracker.open-internet.nl:6969/announce
-					</tracker>
-					<tracker>
-						udp://tracker.opentrackr.org:1337/announce
-					</tracker>
-					<tracker>
-						udp://tracker.port443.xyz:6969/announce
-					</tracker>
-					<tracker>
-						udp://tracker.qt.is:6969/announce
-					</tracker>
-					<tracker>
-						udp://tracker.tiny-vps.com:6969/announce
-					</tracker>
-					<tracker>
-						udp://tracker.torrent.eu.org:451/announce
-					</tracker>
-					<tracker>
-						udp://tracker.vanitycore.co:6969/announce
-					</tracker>
-					<tracker>
-						udp://tracker-2.msm8916.com:6969/announce
-					</tracker>
-				</group>
-			</trackers>
-		</item>
-		<item>
-			<title>R4i_Gold_3DS_(HW_A6)-Flashrom.zip</title>
-			<description>R4i_Gold_3DS_(HW_A6)-Flashrom.zip</description>
-			<guid>E1675722834B870EA64DDF1EF9CA77D78DB2BE00</guid>
-			<link>magnet:?xt=urn:btih:E1675722834B870EA64DDF1EF9CA77D78DB2BE00</link>
-			<pubDate>Tue, 20 Mar 2018 01:12:17 +0000</pubDate>
-			<contentLength>1226556</contentLength>
-			<infoHash>E1675722834B870EA64DDF1EF9CA77D78DB2BE00</infoHash>
-			<magnetURI>magnet:?xt=urn:btih:E1675722834B870EA64DDF1EF9CA77D78DB2BE00</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:E1675722834B870EA64DDF1EF9CA77D78DB2BE00" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -7722,6 +7722,81 @@
 					</tracker>
 					<tracker>
 						udp://tracker.vanitycore.co:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker-2.msm8916.com:6969/announce
+					</tracker>
+				</group>
+			</trackers>
+		</item>
+		<item>
+			<title>Frogtool.3dsx</title>
+			<description>Frogtool.3dsx</description>
+			<guid>F69210242E4649C69CE579360D3C83E7649E49BF</guid>
+			<link>magnet:?xt=urn:btih:F69210242E4649C69CE579360D3C83E7649E49BF</link>
+			<pubDate>Tue, 27 Nov 2018 16:32:26 +0000</pubDate>
+			<contentLength>2680348</contentLength>
+			<infoHash>F69210242E4649C69CE579360D3C83E7649E49BF</infoHash>
+			<magnetURI>magnet:?xt=urn:btih:F69210242E4649C69CE579360D3C83E7649E49BF</magnetURI>
+			<enclosure url="magnet:?xt=urn:btih:F69210242E4649C69CE579360D3C83E7649E49BF" type="application/x-bittorrent" />
+			<trackers>
+				<group order="random">
+					<tracker>
+						udp://tracker.coppersurfer.tk:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.open-internet.nl:6969/announce
+					</tracker>
+					<tracker>
+						udp://exodus.desync.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.internetwarriors.net:1337/announce
+					</tracker>
+					<tracker>
+						udp://tracker.opentrackr.org:1337/announce
+					</tracker>
+					<tracker>
+						udp://9.rarbg.to:2710/announce
+					</tracker>
+					<tracker>
+						udp://public.popcorn-tracker.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.vanitycore.co:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.mg64.net:6969/announce
+					</tracker>
+					<tracker>
+						udp://mgtracker.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://bt.xxx-tracker.com:2710/announce
+					</tracker>
+					<tracker>
+						udp://thetracker.org:80/announce
+					</tracker>
+					<tracker>
+						udp://open.demonii.si:1337/announce
+					</tracker>
+					<tracker>
+						udp://tracker.torrent.eu.org:451/announce
+					</tracker>
+					<tracker>
+						udp://tracker.qt.is:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.port443.xyz:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.ds.is:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.cypherpunks.ru:6969/announce
 					</tracker>
 					<tracker>
 						udp://tracker-2.msm8916.com:6969/announce
