@@ -14,7 +14,7 @@ We then use this DSiWare encryption key to decrypt a compatible DSiWare applicat
 
 If this key were completely random, the encryption key would be impossible to break on current computing hardware. Fortunately, the first half of the key (`movable_part1.sed`) is actually mathematically related to your device's Friend Code, allowing us to break the encryption. For information on how Seedminer works, please see [this presentation](https://zoogie.github.io/web/34⅕c3).
 
-Note that this tool requires a PC with a powerful graphics card to break your device's DSiWare encryption. If you do not have access to one of these, there exists several online helper services where a volunteer running automated software will do this for you.
+Note that this tool requires a PC with a powerful graphics card to break your device's DSiWare encryption. If you do not have access to one of these, there also exists several online helper services where a volunteer running automated software will do this for you.
 
 To use the [magnet](https://wikipedia.org/wiki/Magnet_URI_scheme) links on this page, you will need a torrent client like [Deluge](http://dev.deluge-torrent.org/wiki/Download).
 
