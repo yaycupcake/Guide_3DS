@@ -41,8 +41,9 @@ This process will overwrite your game's save file!
 1. Open the System Settings app
 1. Open the Internet Settings section
 1. Select "Nintendo DS Connections"
-1. Press "OK". If your device loads into a "Nintendo Wi-Fi Connection Setup" menu, exit this menu and proceed to step 6.
-1. If the screen stays black or appears to freeze, you will not be able to use Frogminer. You will instead need to use [ntrboot](ntrboot) to access CFW
+1. Press "OK".
+1. If your device loads into a "Nintendo Wi-Fi Connection Setup" menu, exit this menu and proceed to step 6.
+  + If the screen stays black or appears to freeze, you will not be able to use Frogminer. Return to [Get Started](get-started) and select an "All Versions" method.
 1. Power off your device
 1. Insert your SD card into your computer
 1. Create a folder named `3ds` on the root of your SD card if it does not already exist
