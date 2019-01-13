@@ -6,7 +6,7 @@ title: "A9LH to B9S"
 
 ### Required Reading
 
-'Tis page be fer existin' arm9loaderhax users to be updatin' their devices to boot9strap.
+'Tis page be fer users wit' arm9loaderhax who wanna update their devices to boot9strap.
 
 All future releases 'o Luma3DS gunna only be made in th' `.firm` format, which gunna only be workin' on systems wit' boot9strap 'n sighax. 'Tis means that if ye want to continue to be receivin' th' latest updates 'o Luma3DS, ye should use 'tis page to be updatin' ye installation.
 
@@ -14,7 +14,7 @@ To use the [magnet](https://wikipedia.org/wiki/Magnet_URI_scheme) links on this 
 
 To extract the `.7z` files linked on this page, you will need a file archiver like [7-Zip](http://www.7-zip.org/) or [The Unarchiver](https://theunarchiver.com/).
 
-If ye have a PIN enabled on Luma3DS, SafeB9SInstaller gunna be givin' ye an "OTP Crypto Fail" error unless ye temporarily disable ye PIN (ye can be re-enablin' th' PIN after th' update).
+If ye have set a PIN on Luma3DS, ye gunna be needin' to disable ye PIN temporarily, or else SafeB9SInstaller gunna give ye th' error "OTP Crypto Fail." Ye can re-enable th' PIN after th' update.
 {: .notice--warning}
 
 {% capture notice-1 %}
@@ -79,7 +79,7 @@ Fer all steps in 'tis section, overwrite any existin' files on ye SD card.
 1. Copy `boot.firm` from the latest version Luma3DS `.7z` to the root of your SD card
 1. Copy `arm9loaderhax.bin` from the v7.0.5 Luma3DS `.7z` to the root of your SD card
 1. Delete any existin' `.bin` payloads in th' `/luma/payloads/` folder on ye SD card, as they gunna be incompatible wit' boot9strap Luma3DS versions
-1. Copy `GodMode9.firm` from th' GodeMode9 `.zip` to th' `/luma/payloads/` folder on ye SD card
+1. Copy `GodMode9.firm` from th' GodMode9 `.zip` to th' `/luma/payloads/` folder on ye SD card
 1. Copy th' `gm9` folder from th' GodMode9 `.zip` to th' root 'o ye SD card
 1. Copy `SafeB9SInstaller.bin` from the SafeB9SInstaller `.zip` to the `/luma/payloads/` folder on your SD card
 1. Create a folder named `boot9strap` on th' root 'o ye SD card
@@ -113,7 +113,7 @@ Fer all steps in 'tis section, overwrite any existin' files on ye SD card.
 If, before following this guide, you already had an EmuNAND setup and would like to move the contents of your previous EmuNAND to your new SysNAND CFW, now is the time to [follow Move EmuNAND](move-emunand) before doing this section.
 {: .notice--info}
 
-1. Update ye device by settin' off to System Settin's, then "Other Settings", then goin' all th' way to th' right 'n usin' "System Update"
+1. Update your device by going to System Settings, then "Other Settings", then going all the way to the right and using "System Update"
   + Updates while usin' B9S + Luma (what ye have) be safe
   + If 'tis gives ye an error, set ye DNS settin's to "auto"
   + If this still gives you an error, [follow CTRTransfer](ctrtransfer), then try updating again
@@ -190,7 +190,7 @@ If, before following this guide, you already had an EmuNAND setup and would like
 1. Insert ye SD card into ye computer
 1. Copy `<date>_<serialnumber>_sysnand_###.bin`, `essential.exefs`, and `boot9.bin` from the `/gm9/out/` folder on your SD card to a safe location on your computer
   + Make backups in multiple locations (such as online file storage)
-  + These backups will save you from a brick and/or help you recover files from the NAND image if anything goes wrong in the future
+  + These backups gunna be savin' ye from any brick, 'n they may help ye recover files, especially th' NAND image, if anythin' be off or wrong in th' future
 1. Delete `<date>_<serialnumber>_sysnand_###.bin` and `<date>_<serialnumber>_sysnand_###.bin.sha` from the `/gm9/out/` folder on your SD card after copying it
 1. Reinsert ye SD card into ye device
 1. Press (Start) to reboot ye device
