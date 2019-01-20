@@ -2,7 +2,7 @@
 <rss version="2.0">
 	<channel>
 		<title>Plailect Guide Feed</title>
-		<lastBuildDate>Sun, 13 Jan 2019 20:44:44 +0000</lastBuildDate>
+		<lastBuildDate>Sun, 20 Jan 2019 21:28:25 +0000</lastBuildDate>
 		<link>https://github.com/Plailect/Guide_3DS/</link>
 		<item>
 			<title>1.0.0_qr.png</title>
@@ -5855,6 +5855,81 @@
 			</trackers>
 		</item>
 		<item>
+			<title>PSP2UPDAT.PUP</title>
+			<description>PSP2UPDAT.PUP</description>
+			<guid>5F2437F2141408C925FFC5D81FF76E94E1A4C493</guid>
+			<link>magnet:?xt=urn:btih:5F2437F2141408C925FFC5D81FF76E94E1A4C493</link>
+			<pubDate>Sun, 20 Jan 2019 19:20:34 +0000</pubDate>
+			<contentLength>133754368</contentLength>
+			<infoHash>5F2437F2141408C925FFC5D81FF76E94E1A4C493</infoHash>
+			<magnetURI>magnet:?xt=urn:btih:5F2437F2141408C925FFC5D81FF76E94E1A4C493</magnetURI>
+			<enclosure url="magnet:?xt=urn:btih:5F2437F2141408C925FFC5D81FF76E94E1A4C493" type="application/x-bittorrent" />
+			<trackers>
+				<group order="random">
+					<tracker>
+						udp://tracker.coppersurfer.tk:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.internetwarriors.net:1337/announce
+					</tracker>
+					<tracker>
+						udp://tracker.opentrackr.org:1337/announce
+					</tracker>
+					<tracker>
+						udp://9.rarbg.to:2710/announce
+					</tracker>
+					<tracker>
+						udp://exodus.desync.com:6969/announce
+					</tracker>
+					<tracker>
+						http://tracker3.itzmx.com:6961/announce
+					</tracker>
+					<tracker>
+						udp://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://thetracker.org:80/announce
+					</tracker>
+					<tracker>
+						udp://ipv4.tracker.harry.lu:80/announce
+					</tracker>
+					<tracker>
+						udp://denis.stalker.upeer.me:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker1.itzmx.com:8080/announce
+					</tracker>
+					<tracker>
+						udp://tracker.torrent.eu.org:451/announce
+					</tracker>
+					<tracker>
+						udp://tracker.cyberia.is:6969/announce
+					</tracker>
+					<tracker>
+						udp://open.stealth.si:80/announce
+					</tracker>
+					<tracker>
+						udp://open.demonii.si:1337/announce
+					</tracker>
+					<tracker>
+						udp://bt.xxx-tracker.com:2710/announce
+					</tracker>
+					<tracker>
+						http://tracker4.itzmx.com:2710/announce
+					</tracker>
+					<tracker>
+						udp://tracker1.wasabii.com.tw:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.port443.xyz:6969/announce
+					</tracker>
+				</group>
+			</trackers>
+		</item>
+		<item>
 			<title>ctcert.bin</title>
 			<description>ctcert.bin</description>
 			<guid>EC445A7AAE6FD62432C9CCEE091919BDA41C8283</guid>
@@ -6080,6 +6155,81 @@
 			</trackers>
 		</item>
 		<item>
+			<title>PSP2UPDAT.PUP</title>
+			<description>PSP2UPDAT.PUP</description>
+			<guid>00C942232CB847B83AC8E3A1FDEEE7F911F4B505</guid>
+			<link>magnet:?xt=urn:btih:00C942232CB847B83AC8E3A1FDEEE7F911F4B505</link>
+			<pubDate>Sun, 20 Jan 2019 19:14:16 +0000</pubDate>
+			<contentLength>133758464</contentLength>
+			<infoHash>00C942232CB847B83AC8E3A1FDEEE7F911F4B505</infoHash>
+			<magnetURI>magnet:?xt=urn:btih:00C942232CB847B83AC8E3A1FDEEE7F911F4B505</magnetURI>
+			<enclosure url="magnet:?xt=urn:btih:00C942232CB847B83AC8E3A1FDEEE7F911F4B505" type="application/x-bittorrent" />
+			<trackers>
+				<group order="random">
+					<tracker>
+						udp://tracker.coppersurfer.tk:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.internetwarriors.net:1337/announce
+					</tracker>
+					<tracker>
+						udp://tracker.opentrackr.org:1337/announce
+					</tracker>
+					<tracker>
+						udp://9.rarbg.to:2710/announce
+					</tracker>
+					<tracker>
+						udp://exodus.desync.com:6969/announce
+					</tracker>
+					<tracker>
+						http://tracker3.itzmx.com:6961/announce
+					</tracker>
+					<tracker>
+						udp://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://thetracker.org:80/announce
+					</tracker>
+					<tracker>
+						udp://ipv4.tracker.harry.lu:80/announce
+					</tracker>
+					<tracker>
+						udp://denis.stalker.upeer.me:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker1.itzmx.com:8080/announce
+					</tracker>
+					<tracker>
+						udp://tracker.torrent.eu.org:451/announce
+					</tracker>
+					<tracker>
+						udp://tracker.cyberia.is:6969/announce
+					</tracker>
+					<tracker>
+						udp://open.stealth.si:80/announce
+					</tracker>
+					<tracker>
+						udp://open.demonii.si:1337/announce
+					</tracker>
+					<tracker>
+						udp://bt.xxx-tracker.com:2710/announce
+					</tracker>
+					<tracker>
+						http://tracker4.itzmx.com:2710/announce
+					</tracker>
+					<tracker>
+						udp://tracker1.wasabii.com.tw:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.port443.xyz:6969/announce
+					</tracker>
+				</group>
+			</trackers>
+		</item>
+		<item>
 			<title>Old_3DS TWL_FIRM - v8817.cia</title>
 			<description>Old_3DS TWL_FIRM - v8817.cia</description>
 			<guid>17511EADB6E6F3FF22D04F90644E37BD2D96CA43</guid>
@@ -6300,6 +6450,81 @@
 					</tracker>
 					<tracker>
 						udp://tracker-2.msm8916.com:6969/announce
+					</tracker>
+				</group>
+			</trackers>
+		</item>
+		<item>
+			<title>keys.bin</title>
+			<description>keys.bin</description>
+			<guid>A3796F22B82B80C5FEFA8407C6FD7D71DF2C2258</guid>
+			<link>magnet:?xt=urn:btih:A3796F22B82B80C5FEFA8407C6FD7D71DF2C2258</link>
+			<pubDate>Sun, 20 Jan 2019 20:34:47 +0000</pubDate>
+			<contentLength>5636</contentLength>
+			<infoHash>A3796F22B82B80C5FEFA8407C6FD7D71DF2C2258</infoHash>
+			<magnetURI>magnet:?xt=urn:btih:A3796F22B82B80C5FEFA8407C6FD7D71DF2C2258</magnetURI>
+			<enclosure url="magnet:?xt=urn:btih:A3796F22B82B80C5FEFA8407C6FD7D71DF2C2258" type="application/x-bittorrent" />
+			<trackers>
+				<group order="random">
+					<tracker>
+						udp://tracker.coppersurfer.tk:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.internetwarriors.net:1337/announce
+					</tracker>
+					<tracker>
+						udp://tracker.opentrackr.org:1337/announce
+					</tracker>
+					<tracker>
+						udp://9.rarbg.to:2710/announce
+					</tracker>
+					<tracker>
+						udp://exodus.desync.com:6969/announce
+					</tracker>
+					<tracker>
+						http://tracker3.itzmx.com:6961/announce
+					</tracker>
+					<tracker>
+						udp://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://thetracker.org:80/announce
+					</tracker>
+					<tracker>
+						udp://ipv4.tracker.harry.lu:80/announce
+					</tracker>
+					<tracker>
+						udp://denis.stalker.upeer.me:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker1.itzmx.com:8080/announce
+					</tracker>
+					<tracker>
+						udp://tracker.torrent.eu.org:451/announce
+					</tracker>
+					<tracker>
+						udp://tracker.cyberia.is:6969/announce
+					</tracker>
+					<tracker>
+						udp://open.stealth.si:80/announce
+					</tracker>
+					<tracker>
+						udp://open.demonii.si:1337/announce
+					</tracker>
+					<tracker>
+						udp://bt.xxx-tracker.com:2710/announce
+					</tracker>
+					<tracker>
+						http://tracker4.itzmx.com:2710/announce
+					</tracker>
+					<tracker>
+						udp://tracker1.wasabii.com.tw:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.port443.xyz:6969/announce
 					</tracker>
 				</group>
 			</trackers>
