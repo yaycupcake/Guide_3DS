@@ -33,6 +33,9 @@ main:
   - 
     title: 卸载自制系统
     url: uninstall-cfw
+top:
+  - 
+    title: 本网站利用cookies在侧边栏上显示当前的操作进度并改善此站点的使用体验。
 bottom:
   - 
     title: 如果有疑问并且懂英语的话，可以到<a href="https://discord.gg/MWxPgEp">Nintendo Homebrew Discord服务器</a>上使用英文寻求帮助。(请注意，如果你身处中国大陆，你可能需要通过科学上网来访问Discord)
@@ -45,6 +48,8 @@ footer:
     title: 网站导航
   - 
     title: 为什么有广告？
+  - 
+    title: 隐私政策
 sidebar_title:
   - 
     title: 总进度
@@ -83,19 +88,19 @@ sidebar_pages:
     title: 写入 ntrboot 漏洞(使用 Powersaves)
     url: flashing-ntrboot-(powersaves)
   - 
-    title: 启动 Homebrew Launcher (通过Soundhax)
+    title: 启动 Homebrew Launcher (通过 Soundhax)
     url: homebrew-launcher-(soundhax)
   - 
     title: 启动 Homebrew Launcher(通过其他方法)
     url: homebrew-launcher-(alternatives)
   - 
-    title: 启动 Homebrew Launcher(通过Steelhax)
+    title: 启动 Homebrew Launcher(通过 Steelhax)
     url: homebrew-launcher-(steelhax)
   - 
     title: NTR与立体忍者
     url: ntr-and-cubic-ninja
   - 
-    title: 安装 boot9strap (通过2xrsa)
+    title: 安装 boot9strap (通过 2xrsa)
     url: installing-boot9strap-(2xrsa)
   - 
     title: 安装 boot9strap (通过网页浏览器)

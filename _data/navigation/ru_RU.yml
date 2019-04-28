@@ -33,6 +33,9 @@ main:
   - 
     title: Удаление кастомной прошивки
     url: uninstall-cfw
+top:
+  - 
+    title: Этот сайт использует cookies для отображения текущего прогресса в руководстве на боковой панели и для других способов улучшения сайта.
 bottom:
   - 
     title: Для поддержки на английском языке обратитесь за помощью сюда <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew on Discord</a>.
@@ -45,6 +48,8 @@ footer:
     title: Навигация по сайту
   - 
     title: Зачем реклама?
+  - 
+    title: Политика конфиденциальности
 sidebar_title:
   - 
     title: Общий прогресс

@@ -1,5 +1,5 @@
 ---
-title: "A9LH升级B9S"
+title: "A9LH 升级 B9S"
 ---
 
 {% include toc title="目录内容" %}
@@ -35,7 +35,7 @@ Luma3DS的所有未来版本将只以 `.firm` 格式制作，而这种格式只�
 
 ### 准备工作
 
-请注意，在下面所需文件中名为“secret_sector.bin”的文件，可在各版本的“data_input.zip”（这是 arm9loaderhax 破解时期所下载的文件）中找到，并且与下文所给出的文件是一模一样的。 如果你已经在计算机中存储了该文件，你就可以直接使用那个文件而不用再在下面重新下载了。
+请注意，在下面所需文件中名为“secret_sector.bin”的文件，可在各版本的“data_input.zip”（这是 arm9loaderhax 破解时期所下载的文件）中找到，并且与下文所给出的文件是一模一样的。 如果你已经在电脑中存储了该文件，你就可以直接使用那个文件而不用再在下面重新下载了。
 {: .notice--info}
 
 注意，只有在New 3DS 上，`secret_sector.bin` 才会被用来还原 arm9loaderhax 漏洞，所以这也是为什么在给原厂主机安装 boot9strap 时不需要这个文件。 如果你的主机不是 New 3DS ，则你无需下载 “secret_sector.bin”
@@ -47,9 +47,9 @@ Luma3DS的所有未来版本将只以 `.firm` 格式制作，而这种格式只�
 * 最新版 [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
 * 最新版 [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(下载标准的 boot9strap 压缩包文件，而不是带有 `devkit` 或 `ntr` 名字的文件)*
 * 最新版 [Anemone3DS](https://github.com/astronautlevel2/Anemone3DS/releases/latest) *(下载 `.cia` 文件)*
-* 最新版的 [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases/latest) *(下载 `.cia` 文件)*
+* 最新版 [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases/latest) *(下载 `.cia` 文件)*
 * 最新版 [Homebrew Launcher Wrapper](https://github.com/mariohackandglitch/homebrew_launcher_dummy/releases/latest)
-* 最新版本的 [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
+* 最新版 [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 * 最新版 [DSP1](https://github.com/zoogie/DSP1/releases/latest)
 * 最新版 [FBI](https://github.com/Steveice10/FBI/releases/latest) *(下载 `.cia` 和 `.3dsx` 文件)*
 * 最新版 [ctr-no-timeoffset](https://github.com/ihaveamac/ctr-no-timeoffset/releases/latest)
@@ -120,7 +120,7 @@ Luma3DS的所有未来版本将只以 `.firm` 格式制作，而这种格式只�
 
 #### 第五步 — 进入 Homebrew Launcher
 
-1. 启动“下载通信(Download Play)”程序 (它长这个样子 [icon]({{ "/images/download-play-icon.png" | absolute_url }})
+1. 启动“下载通信(Download Play)”程序 (它长[这样]({{ "/images/download-play-icon.png" | absolute_url }})
 1. 同时按下“L”+“下”+“Select” 键来打开 Rosalina 菜单
 1. 选择 “Miscellaneous options”
 1. 选择 “Switch the hb. title to the current app.”
@@ -156,7 +156,7 @@ Luma3DS的所有未来版本将只以 `.firm` 格式制作，而这种格式只�
 1. 如果出现修复RTC日期与时间的提示，按 “A” 键执行修复，然后设置好日期和时间，并按 “A” 继续
 1. 按 “Home” 键，打开功能菜单
 1. 选择 “Scripts...”
-1. 选择“GM9Megascript”
+1. 选择 “GM9Megascript”
 1. 选择 “Scripts from Plailect's Guide”
 1. 选择 “Setup Luma3DS to CTRNAND”
 1. 出现提示时，按 “A” 键继续
@@ -182,7 +182,7 @@ Luma3DS的所有未来版本将只以 `.firm` 格式制作，而这种格式只�
 1. 选择 “Exit”
 1. 如果提示重新锁定写入权限，按下 “A” 键来确认
 1. 移动至 `[M:] MEMORY VIRTUAL`
-1. 在`boot9.bin` 上按 “A” 键选中
+1. 在 `boot9.bin` 上按 “A” 键选中
 1. 选择 “Copy to 0:/gm9/out”
 1. 按 “A” 键继续
 1. 按 “B” 键返回到主菜单
@@ -190,7 +190,7 @@ Luma3DS的所有未来版本将只以 `.firm` 格式制作，而这种格式只�
 1. 将你的 SD 卡插入电脑
 1. 从 SD 卡的 `/gm9/out/` 文件夹中复制 `<date>_<serialnumber>_sysnand_###.bin` ， `essential.exefs`和 `boot9.bin` 到电脑中的安全的位置
   + 请在多处地方备份这些文件(比如网盘等)
-  + 如果以后机器出现任何问题，这些备份文件将是为你提供修复砖机或从 NAND 镜像恢复文件的帮手
+  + 如果以后机器出现任何问题，这些备份文件将是救你一命的稻草或从 NAND 镜像恢复文件的工具
 1. 将 `<date>_<serialnumber>_sysnand_###.bin` 和 `<date>_<serialnumber>_sysnand_###.bin.sha` 从你的 SD 卡上的 `/gm9/out/` 文件夹中复制出，随后将其删除
 1. 将SD卡重新插入你的主机
 1. 按 “Start” 键重启你的设备
@@ -202,7 +202,7 @@ ___
 
 这和系统升级不是一回事；它只会下载并提取最新的Luma3DS文件。
 
-这只会升级SD卡上的Luma3DS文件。 如果你在拔出 SD 卡的情况下开机，它则会通过你复制在 CTRNAND 里的 Luma3DS 开机。    
+这只会升级SD卡上的Luma3DS文件。 如果你在拔出 SD 卡的情况下开机，它则会通过你复制在 CTRNAND 里的 Luma3DS 文件开机。    
 {% endcapture %}
 
 <div class="notice--info">{{ notice-10 | markdownify }}</div>
@@ -216,23 +216,23 @@ ___
 
 你可以在开机时按下 “Start”+“Select”+“X” 键将ARM11的bootrom (`boot11.bin`) ，ARM9的bootrom (`boot9.bin`) 以及每台设备的独有OTP (`OTP.bin`) 导出到SD卡的 `/boot9strap/` 文件夹中（注意执行这个操作时不会出现任何提示或信息）。    
 
-你现在可以在系统启动后同时按下 “L”+“↓”+“Select” 来打开集成在Luma3DS中的Rosalina菜单。 Rosalina的完整功能列表，可以参见 [Luma3DS v8.0 更新条目] (https://github.com/AuroraWright/Luma3DS/releases/tag/v8.0)
+你现在可以在系统启动后同时按下 “L”+“↓”+“Select” 来打开集成在Luma3DS中的Rosalina菜单。 Rosalina的完整功能列表，可以参见 [Luma3DS v8.0 更新条目](https://github.com/AuroraWright/Luma3DS/releases/tag/v8.0)
 {% endcapture %}
 
 <div class="notice--info">{{ notice-6 | markdownify }}</div>
 
 {% capture notice-6 %}   
-如果你想要更换更大的 SD 卡，只需要将 SD卡格式化为 FAT32 后，将原 SD 卡文件复制到新 SD 卡即可    
+如果你想要更换更大的 SD 卡，只需要将 SD卡格式化为 FAT32 后，将原 SD 卡文件复制到新 SD 卡即可。    
 
 如果你的 SD 卡大于 32GB，那么你需要使用其他的工具来格式化 SD 卡；例如 Windows 上的 [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm)、Linux 上的 [gparted](http://gparted.org/download.php)、Mac 上的[磁盘工具程序](https://support.apple.com/en-gb/guide/disk-utility/format-a-disk-for-windows-computers-dskutl1010/mac)。    
 {% endcapture %}
 
 <div class="notice--info">{{ notice-6 | markdownify }}</div>
 
-如果要使用 [NTR CFW](https://github.com/44670/BootNTR/), 请安装[BootNTR Selector](https://gbatemp.net/threads/432911/).
+如果要使用 [NTR CFW](https://github.com/44670/BootNTR/)，请安装[BootNTR Selector](https://gbatemp.net/threads/432911/)。
 {: .notice--info}
 
-要想了解如何变更你的设备到另一个区域，参见[区域变更](region-changing) 页面。
+要想了解如何切换你的设备到另一个区域，参见[区域变更](region-changing) 页面。
 {: .notice--success}
 
 有关使用 GodMode9 的各种功能的信息，请查阅 [如何使用GodMode9](godmode9-usage) 页。
@@ -241,5 +241,5 @@ ___
 如果想知道如何使用 Luma3DS 的各种功能，参见[这个wiki](https://github.com/AuroraWright/Luma3DS/wiki/Options-and-usage).
 {: .notice--success}
 
-关于安装自定义主题、图标和启动画面的资源，请查阅 [Theme Plaza] (https://themeplaza.eu/)。
+关于安装自定义主题、图标和启动画面的资源，请查阅 [Theme Plaza](https://themeplaza.eu/)。
 {: .notice--success}
