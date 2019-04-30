@@ -12,7 +12,7 @@ To accomplish this, we use a tool called Seedminer to calculate the DSiWare encr
 
 If this key were completely random, the encryption key would be impossible to break on current computing hardware. Fortunately, the first half of the key (`movable_part1.sed`) is actually mathematically related to your device's Friend Code, allowing us to break the encryption. For information on how Seedminer works, please see [this presentation](https://zoogie.github.io/web/34⅕c3).
 
-This method uses a powerful graphics card to perform the calculations needed. A volunteer-run website exists for the purpose of assisting you with this method. A link will be provided later in the guide.
+This method uses a powerful graphics card to perform the calculations needed. A volunteer-run website is used for the purpose of assisting you with this method.
 
 ### Instructions
 
