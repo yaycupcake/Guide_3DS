@@ -6,24 +6,23 @@ title: "Seedminer"
 
 ### Lectură obligatorie
 
-Pentru a instala boot9strap pe dispozitivul dumneavoastră, exploatăm restricțiile de securitate aplicate jocurilor 'DSiWare'.
+Pentru a instala boot9strap pe dispozitivul dumneavoastră, vom exploata o neglijare în restricţiile de securitate ale aplicațiilor "DSiWare".
 
-Pentru a realiza acest lucru, folosim un program numit Seedminer pentru a calcula cheia de criptare DSiWare (movable.sed) pentru dispozitivul dumneavoastră. Folosim această cheie DSiWare pentru a decripta o aplicație compatibilă DSiWare și injectăm un exploit în el pentru a rula codul nostru (acest exploit depinde de regiunea dispozitivului).
+Pentru a realiza acest lucru, vom folosi o unealtă numită Seedminer pentru a calcula cheia de criptare DSiWare (`movable.sed`) pentru dispozitivul dumneavoastră. Apoi vom folosi această cheie de crpitare DSiWare pentru a decripta o aplicație de DSiWare compatibilă și injecta un exploit în el pentru a lansa codul nostru (exploit-ul specific depinde de regiunea dispozitivului).
 
-Dacă această cheie era complet la întâmplare, ar fi imposibil de decriptat cu tehnologia actuală. Din fericire, prima jumătate a cheii (movable_part1.sed) este asociată matematic cu Friend Code-ul dispozitivului, permițand decriptarea. Pentru informații despre cum Seedminer funcționează, urmăriți [această prezentare]
-(https://zoogie.github.io/web/34⅕c3).
+În cazul în care această cheie ar fi complet întâmplătoare, cheia de criptare ar fi imposibil de decriptat pe hardware-ul de computare existent în prezent. Din fericire, prima jumătate a cheii (`movable_part1.sed`) este de fapt matematic asociată cu Friend Code-ul dispozitivului dumneavoastră, permițând descifrarea criptării. Pentru informaţii despre cum funcţionează Seedminer, vă rugăm să consultaţi [această prezentare](https://zoogie.github.io/web/34⅕c3).
 
-Tineți cont ca această metodă are nevoie de un calculator cu o placă video puternică pentru a sparge cheia de criptare DSiWare a dispozitivului. Dacă nu aveți access la una dintre astea, există câteva servicii online unde un voluntar care rulează programe automate va face asta pentru dumneavoastră.
+Această metodă folosește o placă video puternică pentru a realiza calculele necesare. Pentru a vă ajuta în această metodă, se va folosi un site sprijinit de voluntari.
 
 ### Instrucțiuni
 
 #### Secțiunea I - Teste de compatibilitate
 
-Aceste teste nu sunt strict necesare pentru a face exploit-ul Seedminer, dar exploit-urile de mai târziu au nevoie de aceste teste făcute cu succes și va fi o pierdere de timp pentru a face Seedminer fără posibilitatea de a folosi alte exploit-uri.
+Aceste teste nu sunt strict necesare pentru a efectua exploit-ul Seedminer, exploit-urile ulterioare au nevoie ca aceste teste să fie puse în funcțiune și ar fi o pierdere de timp să se pornească Seedminer fără posibilitatea de a porni alte exploit-uri.
 
-Sunt două metode diferite care se bazează pe Seedminer (descris in detaliu în josul pagini), deci chiar dacă unul dintre aceste teste nu are succes poți folosi cealaltă metodă atâta timp cât aceasta nu eșuează.
+Există două metode diferite care se bazează pe exploit-ul Seedminer (descris in detaliu la capătul paginii), astfel încât dacă una dintre aceste teste eșuează încă puteți folosi cealaltă metodă atâta timp cât cealalta nu eșuează.
 
-#### Testul "DS Internet Settings” (folosit pentru Fredtool)
+#### Probă pentru DS Internet Settings (folosit pentru Fredtool)
 
 1. Mergeți la System Settings, apoi "Internet Settings", apoi "Nintendo DS Connections"
 1. Apăsați "OK"
@@ -88,7 +87,7 @@ ___
 
 #### Seedminer + Fredtool
 
-Această metodă de a folosi Seedminer pentru mai multă exploatare utilizează fişierul `movable.sed` pentru a decripta orice titlu de DSiWare de pe eShop cu scopul de a injecta un titlu DSiWare exploatabil în aplicaţia DS Internet Settings. Aveți nevoie sa dețineți (sau să cumpărați/descărcați) un joc DSiWare din eShop.
+Această metodă de a folosi Seedminer pentru mai multă exploatare utilizează fişierul `movable.sed` pentru a decripta orice titlu de DSiWare de pe eShop cu scopul de a injecta un titlu DSiWare exploatabil în aplicaţia DS Internet Settings. Aveți nevoie să dețineți deja (sau să cumpărați / descărcați) un joc DSiWare de pe eShop.
 
 Această metodă este compatibilă cu toate regiunile, deși numai regiunile JPN și USA au titluri DSiWare gratuite în eShop.
 
@@ -101,7 +100,7 @@ ___
 
 #### Seedminer + Steelhax + Frogtool
 
-Această metodă de a folosi Seedminer pentru mai multă exploatare utilizează fişierul `movable.sed` pentru a avea acces la Homebrew Launcher folosind exploit-ul Steelhax în sensul de a injecta un titlu DSiWare exploatabil în aplicaţia DS Download Play. Această metoda are nevoie ca tu să deți (sau să descarci) jocul gratis din eShop "Steel Diver: Sub Wars".
+Această metodă de a folosi Seedminer pentru mai multă exploatare utilizează fişierul `movable.sed` pentru a avea acces la Homebrew Launcher folosind exploit-ul Steelhax în sensul de a injecta un titlu DSiWare exploatabil în aplicaţia DS Download Play. Această metodă are nevoie ca dumneavoastră să dețineți (sau să descărcați) jocul gratuit "Steel Diver: Sub Wars" de pe eShop.
 
 Această metodă este compatibilă numai cu regiunile EUR, JPN şi SUA, şi este ceva mai complicat decât metoda de mai sus. Se recomandă doar să utilizaţi această metodă dacă aveţi un dispozitiv în regiunea EUR şi nu doriți să plătiți pentru un joc DSiWare sau dacă metoda de mai sus nu funcţionează pentru dumneavoastră pentru anumite motive.
 
