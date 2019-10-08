@@ -45,7 +45,7 @@ In many cases, running homebrew on your device is 100% free using just the Ninte
 
 **Custom Firmware** ("CFW") homebrew kullanılarak kolayca yapılamayacak ileri hacklemelerin yapılmasını sağlar. Örneğin, imzasız uygulamaları direk Ana Menünüze yüklemenize olanak verir.
 
-CFW can be set up on any console on any version (but may require additional tools / accessories for versions >11.3.0).
+CFW, herhangi bir sürümde herhangi bir konsolda kurulabilir (ancak 11.3.0 sürümlerinde büyükler için ek araçlar / aksesuarlar gerektirebilir).
 
 ## Bu rehber neleri yükleyecek?
 
@@ -66,7 +66,7 @@ For a list of each of the calculated sighax signatures, see [this gist](https://
 + Customize your HOME Menu with user-created [themes and splash screens](https://themeplaza.eu/)
 + Sahip olduğunuz oyunlar ile "ROM hack"ler kullanın
 + Ekran görüntüsü çekin
-+ Backup, edit, and restore saves for many games
+Birçok oyun için yedekleme, düzenleme ve geri yükleme
 + RetroArch veya başka çeşitli emülatörlerle eski konsolların oyunlarını oynayın. (En iyi New Nintendo 3DS ile çalışır)
 + Homebrew uygulamalarını Ana Menü'ye yükleyin
 + Oyun kartuşlarını cihaza yükleyebileceğiniz bir şekilde yedekleyip, kartuşu yanınızda taşımadan orijinal oyunlarınızı oynayın
@@ -78,7 +78,7 @@ For a list of each of the calculated sighax signatures, see [this gist](https://
 
 + **Rehbere başlamadan önce, hack işlemlerinin riskli olduğunu bilmeniz gerekir: Sistemi HER modifiye edişinizde KURTARILAMAZ bir brick oluşma ihtimali vardır. Bunlar çok nadirdir fakat oluşma şansı vardır, bundan dolayı rehberin her adımını BİREBİR takip etmeniz gerekir.**
 + If you have already hacked your 3DS before to get an EmuNAND setup, and would like to move the contents of your previous EmuNAND to your new SysNAND CFW, you should follow all instructions and restore your existing EmuNAND when prompted once you reach [Finalizing Setup](finalizing-setup).
-+ This guide will work on New 3DS, Old 3DS, New 2DS, and Old 2DS in all regions on firmware 11.10.0 or below.
++ This guide will work on New 3DS, Old 3DS, New 2DS, and Old 2DS in all regions on firmware 11.11.0 or below.
 + Her şey plana uygun giderse hiçbir veri kaybetmeden başlangıçta sahip olduğunuz her şeyi koruyacaksınız (oyunlar, NNID, save dosyaları vs. korunacak).
 + Keep your device plugged in and charged throughout the entire process to avoid data loss or damage from an unexpected power-off!
 + SD kartınız [GPT değil MBR](http://www.howtogeek.com/245610/) olmalıdır.(Cihaz içinde gelen SD kart varsayılan olarak MBR'dir).
