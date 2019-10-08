@@ -17,9 +17,11 @@ sitemap: false
 **Toate**
 
 + [A9LH către B9S](a9lh-to-b9s)
++ [BannerBomb3](bannerbomb3)
 + [Actualizare cu card de joc](cart-update)
 + [Contribuții](credits)
 + [CTRTransfer](ctrtransfer)
++ [DSiWare Dumper](dsidumper)
 + [Donaţii](donations)
 + [F3 (Linux)](f3-(linux))
 + [F3X (Mac)](f3x-(mac))
@@ -35,6 +37,7 @@ sitemap: false
 + [H2testw (Windows)](h2testw-(windows))
 + [Acasă](/)
 + [Homebrew Launcher (Alternative)](homebrew-launcher-(alternatives))
++ [Homebrew Launcher (PicHaxx)](homebrew-launcher-(pichaxx))
 + [Homebrew Launcher (SoundHax)](homebrew-launcher-(soundhax))
 + [Homebrew Launcher(Steelhax)](homebrew-launcher-(steelhax))
 + [Instalând boot9strap (2xrsa)](installing-boot9strap-(2xrsa))
@@ -44,7 +47,7 @@ sitemap: false
 + [Instalând boot9strap (Hardmod)](installing-boot9strap-(hardmod))
 + [Instalând boot9strap (MSET)](installing-boot9strap-(mset))
 + [Instalând boot9strap (ntrboot)](installing-boot9strap-(ntrboot))
-+ [Instalând boot9strap (SafeB9SInstaller)](installing-boot9strap-(SafeB9SInstaller))
++ [Instalând boot9strap (SafeB9SInstaller)](installing-boot9strap-(safeb9sinstaller))
 + [Instalând boot9strap (Soundhax)](installing-boot9strap-(soundhax))
 + [Mutare EmuNAND](move-emunand)
 + [ntrboot](ntrboot)
