@@ -17,9 +17,11 @@ sitemap: false
 **Alla**
 
 + [A9LH till B9S](a9lh-to-b9s)
++ [BannerBomb3](bannerbomb3)
 + [Cartridge Update](cart-update)
 + [Credits](credits)
 + [CTRTransfer](ctrtransfer)
++ [DSiWare Dumper](dsidumper)
 + [Donationer](donations)
 + [F3 (Linux)](f3-(linux))
 + [F3X (Mac)](f3x-(mac))
@@ -35,6 +37,7 @@ sitemap: false
 + [H2testw (Windows)](h2testw-(windows))
 + [Hem](/)
 + [Homebrew Launcher (Alternativ)](homebrew-launcher-(alternatives))
++ [Homebrew Launcher (PicHaxx)](homebrew-launcher-(pichaxx))
 + [Homebrew Launcher (Soundhax)](homebrew-launcher-(soundhax))
 + [Homebrew Launcher (Steelhax)](homebrew-launcher-(steelhax))
 + [Installing boot9strap (2xrsa)](installing-boot9strap-(2xrsa))
@@ -44,7 +47,7 @@ sitemap: false
 + [Installera boot9strap (Hardmod)](installing-boot9strap-(hardmod))
 + [Installera boot9strap (MSET)](installing-boot9strap-(mset))
 + [Installera boot9strap (ntrboot)](installing-boot9strap-(ntrboot))
-+ [Installing boot9strap (SafeB9SInstaller)](installing-boot9strap-(SafeB9SInstaller))
++ [Installing boot9strap (SafeB9SInstaller)](installing-boot9strap-(safeb9sinstaller))
 + [Installing boot9strap (Soundhax)](installing-boot9strap-(soundhax))
 + [Flytta EmuNAND](move-emunand)
 + [ntrboot](ntrboot)
