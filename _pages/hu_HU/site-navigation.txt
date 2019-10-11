@@ -17,9 +17,11 @@ sitemap: false
 **Összes**
 
 + [A9LH-ről B9S-re](a9lh-to-b9s)
++ [BannerBomb3](bannerbomb3)
 + [Frissítés kártyáról](cart-update)
 + [Közreműködők](credits)
 + [CTRTransfer](ctrtransfer)
++ [DSiWare Dumper](dsidumper)
 + [Adományok](donations)
 + [F3 (Linux)](f3-(linux))
 + [F3X (Mac)](f3x-(mac))
@@ -35,6 +37,7 @@ sitemap: false
 + [H2testw (Windows)](h2testw-(windows))
 + [Főoldal](/)
 + [Homebrew Launcher (alternatívák)](homebrew-launcher-(alternatives))
++ [Homebrew Launcher (PicHaxx)](homebrew-launcher-(pichaxx))
 + [Homebrew Launcher (Soundhax)](homebrew-launcher-(soundhax))
 + [Homebrew Launcher (Steelhax)](homebrew-launcher-(steelhax))
 + [boot9strap telepítése (2xrsa)](installing-boot9strap-(2xrsa))
@@ -44,7 +47,7 @@ sitemap: false
 + [boot9strap telepítése (Hardmod)](installing-boot9strap-(hardmod))
 + [boot9strap telepítése (MSET)](installing-boot9strap-(mset))
 + [boot9strap telepítése (ntrboot)](installing-boot9strap-(ntrboot))
-+ [Installing boot9strap (SafeB9SInstaller)](installing-boot9strap-(SafeB9SInstaller))
++ [Installing boot9strap (SafeB9SInstaller)](installing-boot9strap-(safeb9sinstaller))
 + [boot9strap telepítése (Soundhax)](installing-boot9strap-(soundhax))
 + [EmuNAND költöztetése](move-emunand)
 + [ntrboot](ntrboot)

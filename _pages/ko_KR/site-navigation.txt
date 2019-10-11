@@ -17,9 +17,11 @@ sitemap: false
 **모든 페이지**
 
 + [A9LH to B9S](a9lh-to-b9s)
++ [BannerBomb3](bannerbomb3)
 + [Cartridge Update](cart-update)
 + [기여하신 분](credits)
 + [CTRTransfer](ctrtransfer)
++ [DSiWare Dumper](dsidumper)
 + [기부](donations)
 + [F3 (Linux)](f3-(linux))
 + [F3X (Mac)](f3x-(mac))
@@ -35,6 +37,7 @@ sitemap: false
 + [H2testw (Windows)](h2testw-(windows))
 + [홈](/)
 + [Homebrew Launcher (Alternatives)](homebrew-launcher-(alternatives))
++ [Homebrew Launcher (PicHaxx)](homebrew-launcher-(pichaxx))
 + [홈브류 런처 (Soundhax)](homebrew-launcher-(soundhax))
 + [Homebrew Launcher (Steelhax)](homebrew-launcher-(steelhax))
 + [Installing boot9strap (2xrsa)](installing-boot9strap-(2xrsa))
@@ -44,7 +47,7 @@ sitemap: false
 + [Installing boot9strap (Hardmod)](installing-boot9strap-(hardmod))
 + [Installing boot9strap (MSET)](installing-boot9strap-(mset))
 + [Installing boot9strap (ntrboot)](installing-boot9strap-(ntrboot))
-+ [Installing boot9strap (SafeB9SInstaller)](installing-boot9strap-(SafeB9SInstaller))
++ [Installing boot9strap (SafeB9SInstaller)](installing-boot9strap-(safeb9sinstaller))
 + [Installing boot9strap (Soundhax)](installing-boot9strap-(soundhax))
 + [EmuNAND기반 데이터 이동](move-emunand)
 + [ntrboot](ntrboot)

@@ -8,14 +8,14 @@ title: "Installer boot9strap (Soundhax)"
 
 Soundhax (when combined with pre9otherapp) is compatible with versions 3.0.0 through 8.1.0 in the EUR, JPN, KOR, and USA regions.
 
-Pour extraire les fichiers `.7z` sur cette page, vous aurez besoin d'un programme d'archives comme [7-Zip](http://www.7-zip.org/) ou [The Unarchiver](https://theunarchiver.com).
-
 {% capture notice-1 %}
 
 Les mises à jour par cartouche vont mettre uniquement à jour les fonctionnalités principales telles que les Paramètres Systèmes, le Menu Home, etc. les mises à jour par cartouche ne vont pas mettre à jour le Studio Son Nintendo 3DS et les fonctionnalités Internet comme le Transfert Système, le Navigateur Internet, la Place Mii Streetpass ou le Nintendo eShop.
 
 Cela signifie que l’utilisation d’une mise à jour via cartouche depuis une version contenant une ancienne version du Studio Son 3DS *(< 3.0.0)* à une autre qui a introduit une version plus récente du Studio Son 3DS cassera Soundhax ! Vous aurez besoin d'une méthode alternative de lancement de l'Homebrew Launcher comme [Installer boot9strap (navigateur)](installing-boot9strap-(browser)) ou [Installer boot9strap (MSET)](installing-boot9strap-(mset)) !
 {% endcapture %}
+
+Pour extraire les fichiers `.7z` sur cette page, vous aurez besoin d'un programme d'archives comme [7-Zip](http://www.7-zip.org/) ou [The Unarchiver](https://theunarchiver.com).
 
 <div class="notice--warning">{{ notice-1 | markdownify }}</div>
 
@@ -24,7 +24,7 @@ Cela signifie que l’utilisation d’une mise à jour via cartouche depuis une 
 * The latest release of [Soundhax](http://soundhax.com) *(for your region, device, and version)*
 * La dernière version de [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
 * La dernière version de [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(boot9strap standard, ni le fichier `devkit`, ni le fichier `ntr`)*
-* La dernière version de [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(le fichier`.7z`)*
+* The v9.1 release of [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/tag/v9.1)
 * The latest release of [the Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest)
 * The latest release of [pre9otherapp](https://github.com/Pirater12/otherapp/releases/latest) *(the `.bin` file corresponding to your firmware version)*
 

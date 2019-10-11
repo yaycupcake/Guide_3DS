@@ -1,0 +1,47 @@
+---
+title: "BannerBomb3"
+---
+
+{% include toc title="Tabla de contenidos" %}
+
+### Lectura requerida
+
+Para volcar una aplicación DSiWare del sistema, aprovecharemos un fallo en la ventana de Gestión de datos DSiWare de la aplicación Configuración.
+
+Para lograrlo, usamos la clave de cifrado de tu sistema (movable.sed) para crear una copia de seguridad DSiWare que se aproveche del fallo del sistema para volcar la aplicación de Configuración de internet de DSi a la raíz de la SD.
+
+Estas instrucciones funcionan en consolas de las regiones USA, Europa, Japón y Corea, indicado por las letras U, E, J o K después de la versión del sistema.
+
+### Qué necesitas
+
+* Tu archivo `movable.sed` proveniente de haber completado [Seedminer](seedminer)
+
+#### Sección I - BannerBomb3
+1. Abre [BannerBomb3 Tool](https://bb3.bruteforcemovable.com/) en tu computadora
+1. Carga tu movable.sed usando la opción "Choose File"
+1. Haz click en "Go"
+  + Esto descargará un DSiWare vulnerable llamado `F00D43D5.bin` dentro de un archivo zip (`tadmuffin_out.zip`)
+1. If your console is powered on, power off your console
+1. Inserta tu tarjeta SD en tu computadora
+1. Ve a `Nintendo 3DS` -> `<ID0>` -> `<ID-de-32-caracteres>` -> `Nintendo DSiWare` en tu tarjeta SD
+  + La `<ID0>` en cuestión es la misma que usaste en [Seedminer](seedminer)
+  + Si `Nintendo DSiWare` no existe, créala
+1. Si ya hay archivos de copias de seguridad existentes de DSiWare (`<id-de-8-caracteres>.bin`) en esta carpeta, muévelos a tu PC
+  + Esto te dejará con una carpeta de Nintendo DSiWare vacía. Mover los archivos a tu PC asegura que no borres ninguna copia de seguridad creada intencionalmente
+1. Copia el archivo `F00D43D5.bin` de la carpeta `output\Usa_Europe_Japan_Korea\` del archivo BannerBomb3 descargado (`tadmuffin_out.zip`) a la carpeta `Nintendo DSiWare`
+1. Vuelve a insertar tu tarjeta SD en tu consola
+1. Enciende tu consola
+1. Entra a Configuración de la consola
+1. Ve a `Data Management` -> `DSiWare`
+1. Haz click en la sección de tarjeta SD
+  + Tu sistema debería parpadear el color magenta (rosa/púrpura) y luego crashear unos segundos después. Esto significa que funcionó
+1. Apaga tu consola
+1. Inserta tu tarjeta SD en tu computadora
+1. Ahora deberías tener `42383841.bin` en la raíz de la SD.  Esta es la copia de seguridad de DSiWare que usarás después en esta guía
+1. Ve a `Nintendo 3DS` -> `<ID0>` -> `<ID-de-32-caracteres>` -> `Nintendo DSiWare` en tu tarjeta SD
+  + La `<ID0>` en cuestión es la misma que usaste en [Seedminer](seedminer)
+1. Elimina `F00D43D5.bin` de la carpeta Nintendo DSiWare y de tu computadora. Este archivo ya no será necesario
+
+Continúa en [Instalar boot9strap (Fredtool)](installing-boot9strap-(fredtool))
+{: .notice--primary}
+
