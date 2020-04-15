@@ -37,12 +37,6 @@ layout: default
 
         <hr>
 
-        <center>
-          <div id="waldo-tag-4450"></div>
-        </center>
-
-        <hr>
-
         {% assign split_path = page.path | split: "/" %}
         {% assign locale = split_path[1] %}
 
@@ -61,10 +55,6 @@ layout: default
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
 
         <hr>
-
-        <center>
-          <div id="waldo-tag-4454"></div>
-        </center>
 
       </section>
 
