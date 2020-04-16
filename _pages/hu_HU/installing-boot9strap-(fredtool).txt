@@ -17,15 +17,13 @@ Ez egy jelenleg működő megvalósítása a "FIRM partitions known-plaintext" n
 * The latest release of [Frogminer_save](https://github.com/zoogie/Frogminer/releases/latest)
 * A [b9sTool](https://github.com/zoogie/b9sTool/releases/latest) legújabb kiadása
 * The latest release of [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest)
-* A [Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest) legújabb kiadása
 
 #### Első rész - Előkészületek
 
 1. Kapcsold ki a készüléked
 1. Helyezd az SD kártyád a számítógépbe
-1. Copy `boot.firm` from the Luma3DS `.zip` to the root of your SD card
+1. Copy `boot.firm` and `boot.3dsx` from the Luma3DS `.zip` to the root of your SD card
 1. Másold a `boot.nds` (B9STool) fájlt az SD kártyád gyökerébe
-1. Másold az `boot.3dsx` fájlt az SD kártyád gyökerébe
 1. Copy the `private` folder from the Frogminer_save `.zip` to the root of your SD card
 
 #### Section II - Fredtool

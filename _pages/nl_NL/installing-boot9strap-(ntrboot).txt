@@ -15,7 +15,6 @@ To use the [magnet](https://wikipedia.org/wiki/Magnet_URI_scheme) links on this 
 * The latest release of [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
 * The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(standard boot9strap; not the `devkit` file, not the `ntr` file)*
 * The latest release of [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) 
-* The latest release of [the Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest)
 
 ### Instructions
 
@@ -25,7 +24,7 @@ To use the [magnet](https://wikipedia.org/wiki/Magnet_URI_scheme) links on this 
 1. Insert your device's SD card into your computer
   + This is the SD card from your 3DS, *not* the SD card from your flashcart
 1. Copy `SafeB9SInstaller.firm` to the root of your SD card and rename it to `boot.firm`
-1. Copy `boot.3dsx` to the root of your SD card
+1. Copy `boot.3dsx` from the Luma3DS `.zip` to the root of your SD card
 1. Create a folder named `boot9strap` on the root of your SD card
 1. Copy `boot9strap.firm` and `boot9strap.firm.sha` from the boot9strap `.zip` to the `/boot9strap/` folder on your SD card
 

@@ -6,73 +6,73 @@ title: "Seedminer"
 
 ### Lecture requise
 
-To install boot9strap on your device, we exploit an oversight in the security restrictions applied to "DSiWare" applications.
+Pour installer boot9strap sur votre console, nous exploitons un oubli dans les restrictions de sécurité appliquées aux applications "DSiWare".
 
-To accomplish this, we use a tool called Seedminer to calculate the DSiWare encryption key (`movable.sed`) for your device. We then use this DSiWare encryption key to decrypt a compatible DSiWare application and inject an exploit into it to run our own code (the exact exploit used will depend on your device's region).
+Pour exploiter cette faille, nous utilisons un outil appelé Seedminer pour calculer la clé de chiffrement DSiWare (`movable.sed`) pour votre appareil. Nous utilisons alors cette clé de chiffrement DSiWare pour déchiffrer une application DSiWare compatible et injecter un exploit pour exécuter notre propre code (l'exploit exact utilisé dépendra de la région de votre appareil).
 
-If this key were completely random, the encryption key would be impossible to break on current computing hardware. Fortunately, the first half of the key (`movable_part1.sed`) is actually mathematically related to your device's Friend Code, allowing us to break the encryption. For information on how Seedminer works, please see [this presentation](https://zoogie.github.io/web/34⅕c3).
+Si cette clé était complètement aléatoire, la clé de chiffrement serait impossible à casser sur du matériel informatique actuel. Heureusement, la première moitié de la clé (`movable_part1.sed`) est en fait mathématiquement liée au code ami de votre appareil, ce qui nous permet de casser le chiffrement. Pour plus d'informations sur le fonctionnement de Seedminer, consultez [cette présentation] (https://zoogie.github.io/web/34⅕c3).
 
-This method uses a powerful graphics card to perform the calculations needed. A volunteer-run website is used for the purpose of assisting you with this method.
+Cette méthode utilise une carte graphique puissante pour effectuer les calculs nécessaires. Un site web géré par des bénévoles est utilisé dans le but de vous aider avec cette méthode.
 
 ### Instructions
 
-#### Section I - Compatibility Test
+#### Section I - Test de compatibilité
 
-While this test is not strictly necessary to perform the Seedminer exploit, the follow-up exploits to this do require this test to be performed and it would be a waste of time and effort to perform Seedminer without the ability to use the other exploits.
+Bien que ce test ne soit pas strictement nécessaire pour réaliser l'exploit Seedminer, les exploits suivants nécessitent l'exécution de ce test et cela serait une perte de temps et d'efforts de réaliser Seedminer sans la possibilité d'utiliser les autres exploits.
 
-There are two different methods for building on the Seedminer exploit (described in more detail at the bottom of this page), so even if this test fails you can still use another method.
+Il existe deux méthodes différentes pour l'exploit Seedminer (décrit plus en détail au bas de cette page), donc même si ce test échoue, vous pouvez toujours utiliser une autre méthode.
 
-#### DS Internet Settings Test (used for Fredtool)
+#### Test des Paramètres Internet DS (utilisé pour Fredtool)
 
-1. Go to System Settings, then "Internet Settings", then "Nintendo DS Connections"
-1. Press "OK"
-1. If your device loads into a "Nintendo Wi-Fi Connection Setup" menu, the test was successful
-  + If the screen stays black or appears to freeze, the test has failed and you will not be able to use the bannerbomb3 method which requires a functioning DS Internet Settings
-1. Exit this menu
+1. Allez dans les Paramètres de la console, puis "Paramètres Internet", puis "Connexions Nintendo DS"
+1. Appuyez sur "OK"
+1. Si votre console charge le menu "Configuration de la connexion Wi-Fi Nintendo", le test a réussi
+  + Si l'écran reste noir ou semble geler, le test a échoué et vous ne pourrez pas utiliser la méthode bannerbomb3 qui nécessite que l'application Connexions Nintendo DS soit fonctionnelle
+1. Quittez ce menu
 
-#### Section II - Prep Work
+#### Section II - Préparatifs
 
 1. Insérez votre carte SD dans votre ordinateur
-1. Navigate to the `Nintendo 3DS` folder on your SD card
-1. Copy the 32 character long name of the folder you see inside Nintendo 3DS
-  + Do not go inside any more folders
-  + If you see multiple folders with long, random names inside `Nintendo 3DS` without opening any other folders, perform the following:
-  + Rename the `Nintendo 3DS` folder to `BACKUP_Nintendo 3DS`
-  + Reinsert your SD card into your device and power on your device
-  + Wait for the device to generate the SD card data
-  + Power off your device and reinsert your SD card into your computer
-  + Navigate to the `Nintendo 3DS` folder on your SD card
-  + Copy the 32 character long name of the folder you see
-  + Delete the `Nintendo 3DS` folder
-  + Rename the `BACKUP_Nintendo 3DS` folder to `Nintendo 3DS`
-1. Paste your 32 character long folder name into a document you can reference later
-  + This folder name is also known as your "ID0"
+1. Naviguez vers le dossier `Nintendo 3DS` de votre carte SD
+1. Copiez le nom du dossier qui fait 32 caractères de long que vous voyez dans Nintendo 3DS
+  + N'allez plus dans aucun dossier
+  + Si vous voyez plusieurs dossiers avec des noms longs et aléatoires dans `Nintendo 3DS` sans avoir ouvert d'autres dossiers, effectuez les tâches suivantes:
+  + Renommez le dossier `Nintendo 3DS` en `BACKUP_Nintendo 3DS`
+  + Réinsérez la carte SD dans votre console et allumez-là
+  + Patientez le temps que votre console génère les données sur la carte SD
+  + Éteignez votre console et réinsérez la carte SD dans votre ordinateur
+  + Naviguez vers le dossier `Nintendo 3DS` sur votre carte SD
+  + Copiez le nom du dossier (qui fait 32 caractères de long) que vous voyez
+  + Supprimez le dossier `Nintendo 3DS`
+  + Renommez le dossier `BACKUP_Nintendo 3DS` en `Nintendo 3DS`
+1. Collez le nom du dossier (qui fait 32 caractères de long) dans un document pour pouvoir le récupérer plus tard
+  + Ce nom de dossier est aussi appelé votre "ID0"
 1. Allumez à présent votre 3DS
 1. Accédez à votre liste d’ami ([icône de visage orange] ({{"/images/friend-list-icon.png" | absolute_url}}) dans la rangée du haut de votre Menu HOME)
-  + If you receive an error and are kicked out of the menu, you either must create a new Mii or your console cannot connect to Nintendo's servers (due to a ban or connection issues)
-1. Find your Mii profile, then find the "Friend Code" field on the top screen
+  + Si vous obtenez un message d’erreur et êtes expulsé du menu, vous devrez soit créer un nouveau Mii, soit votre console ne peut pas se connecter aux serveurs de Nintendo (en raison d’un ban ou d'un problème de connexion)
+1. Trouvez le profil de votre Mii, puis trouvez le champ "Code ami" sur l'écran supérieur
 
 #### Section III - Seedminer
 
-1. Open [Bruteforce Movable](https://bruteforcemovable.com/) on your computer
-  + This site can automate the retrieval of `movable_part1.sed` (using a bot 3DS console) and the breaking of your device's DSiWare encryption (using a volunteer's computer to run Seedminer)
-  + If the automated service is nonfunctional, join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) and ask (in English) for someone there to assist you
-1. Enter your device's Friend Code (with no spaces or dashes) into the "Your friend code" field
-1. Paste your device's 32 character long folder name into the "Your ID0" field
-  + Do not attempt to enter the ID0 by hand. Ensure the ID0 is entered correctly by copying and pasting it from where you saved it in the previous section
-1. Complete the "I'm not a robot" captcha
-1. Select "Go"
-  + If the site immediately goes to step 4, download your `movable.sed` file and continue with the next section.
-1. When prompted, use the "Register Friend" button on your device to add the friend code of the bot 3DS console
-1. Wait for the site to update
-  + If it does not, wait a few minutes before refreshing the page once
-1. Once the site processes your information, you will be given the option to "Continue" or "Do another device". Click the green "Continue" button
-1. Wait for the remainder of the process to complete
-  + This is usually fast (1-5 minutes) but in some cases, can take up to half an hour.
-  + During this process, the bot you added may not show up on your 3ds. As long as the website updates, this is not an issue.
-  + If you are still waiting after half an hour, join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) and ask (in English) for someone there to assist you
-1. When the process has completed, download your `movable.sed` file from the site
-  + Keep this file as you will need it in the upcoming pages
+1. Ouvrez [Bruteforce Movable](https://bruteforcemovable.com/) sur votre ordinateur
+  + Ce site peut automatiser la récupération du fichier `movable_part1.sed` (en utilisant une console 3DS bot) et le cassage du chiffrement DSiWare de votre console (en utilisant l'ordinateur d'un volontaire pour exécuter Seedminer)
+  + Si la méthode automatique est hors-service, veuillez rejoindre [Nintendo Homebrew sur Discord](https://discord.gg/MWxPgEp) et demandez (en anglais) que quelqu'un vous aide
+1. Entrez le code ami de votre console (sans espaces ni tirets) dans le champ "Your friend code"
+1. Collez le nom du dossier de votre console (qui fait 32 caractères de long) dans le champ "Your ID0"
+  + N'essayez pas de saisir l'ID0 à la main. Assurez-vous que l'ID0 est correctement saisi en le copiant et en le collant à partir de l'endroit où vous l'avez sauvegardé dans la section précédente
+1. Complétez le captcha "Je ne suis pas un robot"
+1. Sélectionnez "Go"
+  + Si le site va immédiatement à l'étape 4, téléchargez votre fichier `movable.sed` et continuez vers la section suivante.
+1. Lorsque demandé, utilisez le bouton "Ajouter un ami" sur votre console pour ajouter le code ami de la 3DS bot
+1. Attendez que le site se mette à jour
+  + Si ce n'est pas le cas, patientez quelques minutes avant de rafraîchir la page
+1. Une fois que le site aura traité vos informations, vous aurez le choix entre "Continuer" ou "Refaire le processus pour un autre appareil". Cliquez le bouton vert "Continuer"
+1. Veuillez attendre que le reste du processus soit achevé
+  + Ceci est généralement rapide (entre 1-5 minutes) mais dans certains cas, cela peut prendre jusqu'à une demi-heure.
+  + Durant ce processus, le bot que vous avez ajouté peut ne pas apparaître sur votre 3DS. Tant que le site se met à jour, cela n'est pas un problème.
+  + Si vous êtes toujours en train d'attendre après une demi-heure, veuillez rejoindre [Nintendo Homebrew sur Discord](https://discord.gg/MWxPgEp) et demandez (en anglais) à quelqu'un de vous aider
+1. Une fois le processus terminé, téléchargez votre fichier `movable.sed` depuis le site
+  + Gardez ce fichier car vous en aurez besoin dans les pages à venir
 
 ___
 ### Méthodes
@@ -81,23 +81,23 @@ ___
 
 #### Seedminer + BannerBomb3 + Fredtool
 
-This method of using Seedminer for further exploitation uses your `movable.sed` file to decrypt any DSiWare title for the purposes of injecting an exploitable DSiWare title into the DS Internet Settings application. 
+Cette méthode d'utilisation de Seedminer pour une exploitation ultérieure utilise votre fichier `movable.sed` pour déchiffrer n'importe quel titre DSiWare afin d'injecter un titre DSiWare exploitable dans l'application Connexions Nintendo DS. 
 
-This method is compatible with all regions, though CHN region is not covered by this guide.
+Cette méthode est compatible avec toutes les régions, sauf la région CHN, qui n'est pas couverte par ce guide.
 
-This method requires that the DS Internet Settings be functioning properly (see the test at the top of this page).
+Cette méthode nécessite que l'application Connexions Nintendo DS fonctionne correctement (voir le test en haut de cette page).
 
-Continue to [BannerBomb3](bannerbomb3)
+Continuez vers [BannerBomb3](bannerbomb3)
 {: .notice--primary}
 
 ___
 
 #### Seedminer + PicHaxx + DSiDumper + Fredtool
 
-This method of using Seedminer for further exploitation uses your `movable.sed` file to gain access to the Homebrew Launcher using the PicHaxx exploit for the purpose of dumping a system DSiWare. This method requires you to already own (or download) the free "Pokemon Picross" game from the eShop.
+Cette méthode d'utilisation de Seedminer pour une exploitation ultérieure utilise votre fichier `movable.sed` pour accéder à l'Homebrew Launcher en utilisant l'exploit PicHaxx pour dumper un DSiWare système. Cette méthode requiert que vous possédiez (ou téléchargiez) le jeu gratuit "Pokémon Picross" depuis l'eShop.
 
-This method is only compatible with the EUR, JPN, and USA regions, and is somewhat more complicated than the above method. It is only recommended to use this method if you do not have a functioning DS Internet Settings application.
+Cette méthode n'est compatible qu'avec les régions EUR, JPN et USA et est un peu plus compliquée que la méthode du dessus. Il est recommandé d'utiliser cette méthode uniquement si votre application Connexions Nintendo DS n'est pas fonctionnelle.
 
-Continue to [Homebrew Launcher (PicHaxx)](homebrew-launcher-(pichaxx))
+Continuez vers [Homebrew Launcher (PicHaxx)](homebrew-launcher-(pichaxx))
 {: .notice--primary}
 

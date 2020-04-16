@@ -14,8 +14,7 @@ title: "Установка boot9strap (ntrboot)"
 * Флешкартридж с прошитым ntrboot
 * Свежая версия [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
 * Свежая версия [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(стандартный boot9strap; не `devkit-файл`, не `ntr-файл`)*
-* The latest release of [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) 
-* Свежая версия [Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest)
+* Свежая версия [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) 
 
 ### Инструкция
 
@@ -25,7 +24,7 @@ title: "Установка boot9strap (ntrboot)"
 1. Вставьте SD-карту консоли в компьютер
   + Это должна быть SD-карта вашей 3DS, *не* SD-карта вашего флешкартриджа
 1. Скопируйте `SafeB9SInstaller.firm` в корень SD-карты и переименуйте его в `boot.firm`
-1. Скопируйте `boot.3dsx` в корень SD-карты
+1. Copy `boot.3dsx` from the Luma3DS `.zip` to the root of your SD card
 1. Создайте папку `boot9strap` в корне SD-карты
 1. Скопируйте `boot9strap.firm` и `boot9strap.firm.sha` из `.zip-архива` boot9strap в папку `/boot9strap/` в корне SD-карты
 
@@ -60,7 +59,7 @@ title: "Установка boot9strap (ntrboot)"
 
 1. Вставьте SD-карту в компьютер
 1. Удалите файл `boot.firm` из корня SD-карты
-1. Copy `boot.firm` from the Luma3DS `.zip` to the root of your SD card
+1. Скопируйте файл `boot.firm` из `.zip-архива` Luma3DS в корень SD-карты
 1. Вставьте SD-карту обратно в консоль
 1. Включите консоль
 1. Ваша консоль должна загрузиться в меню конфигурации Luma3DS

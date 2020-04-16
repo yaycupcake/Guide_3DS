@@ -111,7 +111,7 @@ Se prima di seguire questa guida avevi già un'installazione EmuNAND presente e 
 1. Seleziona "Scripts from Plailect's Guide"
 1. Seleziona "Setup Luma3DS to CTRNAND"
 1. Quando richiesto, premi (A) per procedere
-1. Premi il pulsante (A) per sbloccare i permessi di scrittura di secondo livello su SysNAND, quindi inserisci la combinazione di tasti richiesta a schermo
+1. Premi il pulsante (A) per sbloccare i permessi di scrittura di primo livello su SysNAND, quindi inserisci la combinazione di tasti richiesta a schermo
 1. Premi il pulsante (A) per continuare
 
 #### Sezione VII - Pulizia della scheda SD
@@ -194,5 +194,5 @@ Per informazioni sulle varie caratteristiche di Luma3DS, leggi [la sua pagina wi
 Per informazioni su come installare temi custom, medaglie e splash screen, visita [Theme Plaza](https://themeplaza.eu/).
 {: .notice--success}
 
-Per informazioni sull'utilizzo dei codici GateShark con Luma3DS, consulta la pagina [Sharkive](https://github.com/FlagBrew/Sharkive).
+Per informazioni sull'utilizzo dei codici GateShark con Luma3DS, consulta la pagina [Checkpoint](https://github.com/FlagBrew/Checkpoint).
 {: .notice--success}

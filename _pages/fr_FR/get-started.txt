@@ -17,7 +17,7 @@ La version de votre console peut être trouvée en bas à droite de l'écran sup
 ![]({{ "/images/screenshots/system-version.png" | absolute_url }})
 {: .notice--info}
 
-**If you are unable to follow the instructions corresponding to your specific version due to missing prerequisites, then you should either update to the latest version or use the "All Versions" row for methods that work regardless of system version.**
+**Si vous ne pouvez pas suivre les instructions correspondant à votre version spécifique en raison de conditions préalables manquantes, vous devriez soit mettre à jour vers la dernière version soit regarder la ligne "Toutes les versions" pour les méthodes qui fonctionnent indépendamment de la version du système.**
 
 Pour toutes les versions, vous pouvez également faire une [Mise à jour par Cartouche](cart-update) (ou faire une mise à jour standard du système) vers une version ultérieure de la même colonne pour suivre les instructions correspondant à cette nouvelle version.
 
@@ -35,8 +35,8 @@ Avant de commencer, assurez vous que votre carte SD n'a pas d'erreurs en utilisa
 {% capture notice-1 %}
 Il y a eu des informations concernant une vague de bannissements contre les utilisateurs de CFW par Nintendo. Pour vous protéger, merci de bien faire les étapes suivantes avant de commencer ce guide:
 
-1. Allez dans les paramètres de la console, puis dans les "Paramètres Internet", puis dans "SpotPass" puis "Envoi d'informations système"
-1. Désactiver l'option "Envoyer des informations système"
+1. Allez dans les paramètres de la console, puis dans les "Paramètres Internet", puis dans "SpotPass" puis "Envoi de données d'utilisation"
+1. Désactivez l'option "Envoi de données d'utilisation"
 1. Sortez des paramètres système
 1. Accédez à votre liste d’ami ([icône de visage orange] ({{"/images/friend-list-icon.png" | absolute_url}}) dans la rangée du haut de votre menu HOME)
   + Si vous obtenez un message d’erreur et êtes sorti du menu de force, soit la liste d’ami est déjà désactivée soit votre console ne peut pas se connecter aux serveurs de Nintendo (en raison d’un ban ou un problème de connexion)
@@ -68,18 +68,18 @@ Il y a eu des informations concernant une vague de bannissements contre les util
     <tr>
       <td style="text-align: center; font-weight: bold;">1.0.0</td>
       <td style="text-align: center; font-weight: bold;">2.0.0</td>
-      <td style="text-align: center; font-weight: bold;" colspan="2">Update to latest firmware or use an "All Versions" Method</td>
+      <td style="text-align: center; font-weight: bold;" colspan="2">Mettez à jour vers la version la plus récente du logiciel système ou utilisez une méthode "Toutes Versions"</td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">2.1.0</td>
       <td style="text-align: center; font-weight: bold;">2.1.0</td>
-      <td style="text-align: center; font-weight: bold;">Update to latest firmware or use an "All Versions" Method</td>
+      <td style="text-align: center; font-weight: bold;">Mettez à jour vers la version la plus récente du logiciel système ou utilisez une méthode "Toutes Versions"</td>
       <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-(2xrsa)">Installation de boot9strap (2xrsa)</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">2.2.0</td>
       <td style="text-align: center; font-weight: bold;">2.2.0</td>
-      <td style="text-align: center; font-weight: bold;" colspan="2">Update to latest firmware or use an "All Versions" Method</td>
+      <td style="text-align: center; font-weight: bold;" colspan="2">Mettez à jour vers la version la plus récente du logiciel système ou utilisez une méthode "Toutes Versions"</td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">3.0.0</td>
@@ -92,17 +92,17 @@ Il y a eu des informations concernant une vague de bannissements contre les util
       <td style="text-align: center; font-weight: bold;" colspan="2"><a href="homebrew-launcher-(soundhax)">Homebrew Launcher (Soundhax)</a></td>
     </tr><tr>
       <td style="text-align: center; font-weight: bold;">11.4.0</td>
-      <td style="text-align: center; font-weight: bold;">11.9.0</td>
-      <td style="text-align: center; font-weight: bold;" colspan="2">Update to latest firmware or use an "All Versions" Method</td>
+      <td style="text-align: center; font-weight: bold;">11.11.0</td>
+      <td style="text-align: center; font-weight: bold;" colspan="2">Mettez à jour vers la version la plus récente du logiciel système ou utilisez une méthode "Toutes Versions"</td>
     </tr>
     <tr>
-      <td style="text-align: center; font-weight: bold;">11.10.0</td>
-      <td style="text-align: center; font-weight: bold;">11.11.0</td>
+      <td style="text-align: center; font-weight: bold;">11.12.0</td>
+      <td style="text-align: center; font-weight: bold;">11.13.0</td>
       <td style="text-align: center; font-weight: bold;" colspan="2"><a href="seedminer">Seedminer</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;" colspan="2">TOUTES LES VERSIONS <br></td>
-      <td style="text-align: center; font-weight: bold;" colspan="2"><p style="display: inline-block; margin-top: 1.3em; width: 47%"><a href="ntrboot">ntrboot</a><br><sub>(Requise un Linker Compatible)</sub></p><p style="display: inline-block; margin-top: 1.3em; vertical-align: super; width: 6%">ou</p><p style="display: inline-block; margin-top: 1.3em; width: 47%"><a href="installing-boot9strap-(hardmod)">Installer boot9strap (Hardmod)</a><br><sub>(Requise de la soudure)</sub></p></td>
+      <td style="text-align: center; font-weight: bold;" colspan="2"><p style="display: inline-block; margin-top: 1.3em; width: 47%"><a href="ntrboot">ntrboot</a><br><sub>(Nécessite un Linker Compatible)</sub></p><p style="display: inline-block; margin-top: 1.3em; vertical-align: super; width: 6%">ou</p><p style="display: inline-block; margin-top: 1.3em; width: 47%"><a href="installing-boot9strap-(hardmod)">Installer boot9strap (Hardmod)</a><br><sub>(Nécessite d'effectuer de la soudure)</sub></p></td>
     </tr>
   </tbody>
 </table>

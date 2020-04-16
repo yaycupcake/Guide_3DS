@@ -10,7 +10,6 @@ title: "התקנת boot9strap (MSET)"
 * The latest release of [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
 * The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(standard boot9strap; not the `devkit` file, not the `ntr` file)*
 * The latest release of [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) 
-* The latest release of [the Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest)
 
 ### הנחיות
 
@@ -18,8 +17,7 @@ title: "התקנת boot9strap (MSET)"
 
 1. תכבו את המכשיר
 1. תכניסו את ה-SD שלכם למחשב
-1. Copy `boot.firm` from the Luma3DS `.zip` to the root of your SD card
-1. תעתיקו את `boot.3dsx` אל שורש כרטיס ה SD
+1. Copy `boot.firm` and `boot.3dsx` from the Luma3DS `.zip` to the root of your SD card
 1. תצרו ב-SD שלכם תיקייה חדשה בשם `boot9strap`
 1. תעתיקו את`boot9strap.firm` ואת `boot9strap.firm.sha` מה `.zip` של boot9strap אל תיקיית `/boot9strap/`על כרטיס הSD שלכם
 1. מתוך הזיפ של SafeB9SInstaller, תעתיקו את הקובץ SafeB9SInstaller.dat ל-SD שלכם

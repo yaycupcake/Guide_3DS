@@ -6,31 +6,31 @@ title: "完成安装"
 
 ### 必读事项
 
-`boot.firm` 文件是 boot9strap 在加载 NAND 之后自行启动的文件，它可以是任意有效的、FRIM格式的arm9 payload。 你可以随时替换此文件，不过 Luma3DS 允许通过引导菜单加载其他 FIRM 格式的 arm9 payload。
+`boot.firm` 文件是 boot9strap 在加载 NAND 之后自行启动的文件，它可以是任意有效的、FIRM格式的 arm9 payload。 你可以随时替换此文件，不过 Luma3DS 允许通过引导菜单加载其他 FIRM 格式的 arm9 payload。
 
-本教程中，我们将使用[AuroraWright](https://github.com/AuroraWright/) 制作的 Luma3DS 来直接启动一个破解过的 SysNAND ，完全不用 EmuNAND 并简化破解3DS系统的步骤和节省SD卡的空间。
+本教程中，我们将使用 [AuroraWright](https://github.com/AuroraWright/) 制作的 Luma3DS 来直接启动一个破解过的 SysNAND ，完全不用 EmuNAND 并简化破解3DS系统的步骤和节省 SD.卡的空间。
 
 在这个过程当中，我们还会安装像下面所示的几个工具：
 
-+  **FBI** *(用来安装CIA格式的游戏和程序)*
-+  **Anemone3DS** *(安装自定义主题)*
-+ **Checkpoint** *(备份和恢复你 3DS/DS 的游戏存档)*
-+  **Luma3DS Updater** *(用来更新Luma3DS固件)*
-+  **GodMode9** *(一款多功能工具，可以处理NAND和卡带的相关功能)*
-+ **Homebrew Launcher Loader** *(启动自制程序启动器的快捷方式)*
-+  **DSP1** *(允许自制程序播放音乐)*
-+  **ctr-no-timeoffset** *(移除 rtc 偏移，让主菜单时间和 rtc 时间匹配)*
++  **FBI** *（用来安装CIA格式的游戏和程序）*
++  **Anemone3DS** *（安装自定义主题）*
++ **Checkpoint** *（备份和恢复你 3DS/DS 的游戏存档）*
++  **Luma3DS Updater** *（用来更新 Luma3DS 固件）*
++  **GodMode9** *（一款多功能工具，可以处理 NAND 和卡带的相关功能）*
++ **Homebrew Launcher Loader** *（启动 Homebrew Launcher 的快捷方式）*
++  **DSP1** *（允许自制程序播放音乐）*
++  **ctr-no-timeoffset** *（移除 rtc 偏移，让主菜单时间和 rtc 时间匹配）*
 
 ### 你需要准备点啥？
 
 * 最新版 [Anemone3DS](https://github.com/astronautlevel2/Anemone3DS/releases/latest) *(下载 `.cia` 文件)*
 * 最新版 [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases/latest) *(下载 `.cia` 文件)*
-* 最新版  [Homebrew Launcher Wrapper](https://github.com/mariohackandglitch/homebrew_launcher_dummy/releases/latest)
+* 最新版 [Homebrew Launcher Wrapper](https://github.com/mariohackandglitch/homebrew_launcher_dummy/releases/latest)
 * 最新版 [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 * 最新版 [DSP1](https://github.com/zoogie/DSP1/releases/latest)
-* 最新版 [FBI](https://github.com/Steveice10/FBI/releases/latest) *(下载 `.cia` 和 `.3dsx` 文件)*
+* 最新版 [FBI](https://github.com/Steveice10/FBI/releases/latest) *（下载 `.cia` 和 `.3dsx` 文件）*
 * 最新版 [ctr-no-timeoffset](https://github.com/ihaveamac/ctr-no-timeoffset/releases/latest)
-* 最新版 [Luma3DS Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest) *(下载后缀为 `.cia` 的文件)*
+* 最新版 [Luma3DS Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest) *（下载后缀为 `.cia` 的文件）*
 
 ### 操作步骤
 
@@ -39,40 +39,40 @@ title: "完成安装"
 1. 将设备关机
 1. 将你的 SD 卡插入电脑
 1. 检查 SD 卡的根目录是否存在一个名为 `3ds` 的文件夹，如果没有则手动新建一个
-1. 检查你的SD卡根目录是否有一个叫 `cias` 的文件夹，如果没有则手动新建一个
+1. 检查你的 SD 卡根目录是否有一个叫 `cias` 的文件夹，如果没有则手动新建一个
 1. 复制 `ctr-no-timeoffset.3dsx` 到你 SD 卡的 `/3ds/` 文件夹中
 1. 复制 `FBI.3dsx` 到你SD卡的 `/3ds/` 文件夹中
 1. 复制 `Homebrew_Launcher.cia` 到你 SD 卡的 `/cias/` 文件夹中
 1. 复制 `lumaupdater.cia` 到你 SD 卡的 `/cias/` 文件夹中
 1. 复制 `FBI.cia` 到你 SD 卡的 `/cias/` 文件夹中
-1. 复制 `DSP1.cia` 到你SD卡的 `/cias/` 文件夹中
+1. 复制 `DSP1.cia` 到你 SD 卡的 `/cias/` 文件夹中
 1. 复制 `Anemone3DS.cia` 到你 SD 卡的 `/cias/` 文件夹中
 1. 复制 `Checkpoint.cia` 到你 SD 卡的 `/cias/` 文件夹中
-1. 如果 SD 卡的 `luma` 文件夹下没有一个名为`payloads`的文件夹，那么请新建一个
+1. 如果 SD 卡的 `luma` 文件夹下没有一个名为 `payloads` 的文件夹，那么请新建一个
 1. 将 GodMode9 `.zip` 中的 `GodMode9.firm` 复制到你SD卡的 `/luma/payloads/` 文件夹中
-1. 将 GodMode9 `.zip` 中的整个`gm9` 文件夹复制到SD卡的根目录下
+1. 将 GodMode9 `.zip` 中的整个 `gm9` 文件夹复制到 SD 卡的根目录下
 1. 将 SD 卡重新插入设备
 1. 启动你的主机
 
 #### 第二步 — 更新系统
 
-如果你按照旧版的教程将你的*New 3DS* 降级到了2.1.0，你应当在执行这些步骤前[还原 NAND 备份](godmode9-usage#restoring-a-nand-backup)
+如果你按照旧版的教程将你的 *New 3DS* 降级到了2.1.0，你应当在执行这些步骤前[还原 NAND 备份](godmode9-usage#restoring-a-nand-backup)
 {: .notice--danger}
 
-如果你在看本教程之前已经破解并制作了EmuNAND 系统，而你现在想把 EmuNAND 系统中的数据迁移到 SysNAND 系统中，那么请在开始本部分操作之前先按照[迁移EmuNAND](move-emunand) 一节进行操作。
+如果你在看本教程之前已经破解并制作了EmuNAND 系统，而你现在想把 EmuNAND 系统中的数据迁移到 SysNAND 系统中，那么请在开始本部分操作之前先按照[迁移 EmuNAND](move-emunand) 一节进行操作。
 {: .notice--info}
 
 1. 进入 “系统设置(System Settings)”，接着点击“其他设置(Other Settings)”，然后移动到最右边，点击“系统升级(System Update)”来升级你的主机
-  + 你使用B9S和Luma时升级系统是安全的
+  + 你使用 B9S 和 Luma 时升级系统是安全的
   + 更新程序可能会提示“你的系统已经是最新了”而不会继续更新 如果你已经更新到了最新，这是正常的；请继续下一节
-  + 如果在更新中途出错，请将主机的DNS设置改为 “auto(自动)”
+  + 如果在更新中途出错，请将主机的 DNS 设置改为 “auto(自动)”
   + 如果仍然提示错误，请进行 [CTRTransfer](ctrtransfer)，然后再尝试一次更新
 
 #### 第三步 — 进入 Homebrew Launcher
 
 1. 启动“下载通信(Download Play)”程序 (![]({{ "/images/download-play-icon.png" | absolute_url }}){: height="24px" width="24px"})
-1. 等待到你看到两个按钮
-1. 同时按下“L”+“下”+“Select” 键来打开 Rosalina 菜单
+1. 等到你看到两个按钮
+1. 同时按下 “L”+“下”+“Select” 键来打开 Rosalina 菜单
 1. 选择 “Miscellaneous options”
 1. 选择 “Switch the hb. title to the current app.”
 1. 按 “B” 键继续
@@ -80,10 +80,10 @@ title: "完成安装"
 1. 按 “B” 键退出 Rosalina 菜单
 1. 按下 “Home” 键，然后关闭“下载通信(Download Play)”
 1. 运行“下载通信(Download Play)”程序
-1. 此时你的主机应该会启动“自制程序启动器(Homebrew Launcher)”了
+1. 此时你的主机应该会启动Homebrew Launcher了
 1. 从自制程序列表中运行 ctr-no-timeoffset
-1. 按 “A” 键来将RTS时间设置为 0
-  + (在此之后会设置) 这个操作将把 RTC 日期和时间同步为系统时间
+1. 按 “A” 键来将偏移设置为 0
+  + （之后会设置）这个操作将把 RTC 日期和时间同步为系统时间
 1. 按 “Start” 键返回到 Homebrew Launcher
 1. 从自制程序列表中找到并启动 FBI
 
@@ -91,30 +91,30 @@ title: "完成安装"
 
 1. 移动至 `SD` -> `cias`
 1. 选择 “\<current directory>”
-1. 选择“安装和删除所有CIA(Install and delete all CIAs)”选项，并按 “A” 键确认
-1. 按下“Home” 键，然后关闭“下载通信(Download Play)”
+1. 选择“安装和删除所有 CIA(Install and delete all CIAs)”选项，并按 “A” 键确认
+1. 按下 “Home” 键，然后关闭“下载通信(Download Play)”
 
-#### 第五步 — DSP 导出
+#### 第五步 — 导出 DSP
 
 1. 启动 DSP1 应用
 1. 处理完毕后，按 “B” 键自动删除该应用程序并返回到主菜单
 
-#### 第六步 — 将Luma3DS复制到CTRNAND
+#### 第六步 — 将 Luma3DS 复制到 CTRNAND
 
 1. 将设备关机
 1. 开机时按住 “Start” 键启动 GodMode9
 1. 如果提示创建重要文件备份，按下 “A” 键确认，在完成后再次按下 “A” 键来继续。
-1. 如果出现修复RTC日期与时间的提示，按 “A” 键执行修复，然后设置好日期和时间，并按 “A” 继续
+1. 如果出现修复 RTC 日期与时间的提示，按 “A” 键执行修复，然后设置好日期和时间，并按 “A” 继续
 1. 按下 “Home” 键来打开功能菜单
 1. 选择 “Scripts...”
 1. 选择 “GM9Megascript”
 1. 选择 “Scripts from Plailect's Guide”
 1. 选择 “Setup Luma3DS to CTRNAND”
 1. 出现提示时，按 “A” 键继续
-1. 按 “A” 键解锁SysNAND (lvl2) 写入权限，并根据屏幕上的提示依次按下按键
+1. 按 “A” 键解锁SysNAND (lvl1) 写入权限，并根据屏幕上的提示依次按下按键
 1. 按 “A” 键继续
 
-#### 第七步 — 清理SD卡
+#### 第七步 — 清理 SD 卡
 
 1. 选择 “Cleanup SD Card”
 1. 出现提示时，按 “A” 键继续
@@ -139,11 +139,11 @@ title: "完成安装"
 1. 按下 “Home” 键来打开功能菜单
 1. 选择 “Poweroff system” 来将设备关机
 1. 将你的 SD 卡插入到电脑
-1. 从 SD 卡的 `/gm9/out/` 文件夹中复制 `<date>_<serialnumber>_sysnand_###.bin.sha` ，`<date>_<serialnumber>_sysnand_###.bin`，`essential.exefs` 和 `boot9.bin` 到电脑中的安全的位置
-  + 请在多处地方备份这些文件(比如网盘等)
+1. 从 SD 卡的 `/gm9/out/` 文件夹中复制 `<date>_<serialnumber>_sysnand_###.bin.sha`，`<date>_<serialnumber>_sysnand_###.bin`，`essential.exefs` 和 `boot9.bin` 到电脑中的安全的位置
+  + 请在多处地方备份这些文件（比如网盘等）
   + 如果以后机器出现任何问题，这些备份文件将是为你提供修复砖机或从 NAND 镜像恢复文件的帮手
 1. 将 `<date>_<serialnumber>_sysnand_###.bin` 和 `<date>_<serialnumber>_sysnand_###.bin.sha` 从你的 SD 卡的 `/gm9/out/` 文件夹中复制出后将其删除
-1. 将SD卡重新插入你的主机
+1. 将 SD 卡重新插入你的主机
 1. 启动你的主机
 
 ___
@@ -153,23 +153,23 @@ ___
 {% capture notice-10 %}
 你现在可以使用 Luma3DS Updater 来更新你的 Luma3DS 到最新版，只需运行该程序之后按下 “A” 键。
 
-这和系统升级不是一回事；它只会下载并提取最新的Luma3DS文件。
+这和系统升级不是一回事；它只会下载并提取最新的 Luma3DS 文件。
 
-这将更新你的SD卡上的Luma3DS文件以及CTRNAND中的Luma3DS的文件，在你的设备没有SD卡时将会自动启动CTRNAND中的文件。
+这将更新你的 SD 卡上的 Luma3DS 文件以及 CTRNAND 中的 Luma3DS 的文件，在你的设备没有 SD 卡时将会自动启动 CTRNAND 中的文件。
 {% endcapture %}
 
 <div class="notice--info">{{ notice-10 | markdownify }}</div>
 
 {% capture notice-6 %}
-你的主机将会在预设下开机自动启动基于 SysNAND 的 Luma3DS 自制系统。
+你的主机将会在预设下开机自动启动基于 Luma3DS 自制固件的 SysNAND。
 
 你可以在启动时按下 “Select” 键，进入 Luma3DS 的配置菜单。
 
 你现在可以在启动时按住 “Start” 键，进入 Luma3DS 的 chainloader 菜单 (注意， Luma3DS 的 chainloader 菜单仅在检测到了多个 payload 文件时才会显示)。
 
-你可以在开机时按下 “Start”+“Select”+“X” 键将ARM11的bootrom (`boot11.bin`) ，ARM9的bootrom (`boot9.bin`) 以及每台设备的独有OTP (`OTP.bin`) 导出到SD卡的 `/boot9strap/` 文件夹中（注意执行这个操作时不会出现任何提示或信息）。
+你可以在开机时按下 “Start”+“Select”+“X” 键将ARM11的 bootrom (`boot11.bin`)，ARM9 的bootrom (`boot9.bin`) 以及每台设备的独有 OTP (`OTP.bin`) 导出到SD卡的 `/boot9strap/` 文件夹中（注意执行这个操作时不会出现任何提示或信息）。
 
-你现在可以在系统启动后同时按下 “L”+“↓”+“Select” 来打开集成在Luma3DS中的Rosalina菜单。 Rosalina的完整功能列表，可以参见 [Luma3DS v8.0 更新条目](https://github.com/AuroraWright/Luma3DS/releases/tag/v8.0)
+你现在可以在系统启动后同时按下 “L”+“↓”+“Select” 来打开集成在 Luma3DS 中的 Rosalina 菜单。 Rosalina 的完整功能列表，可以参见 [Luma3DS v8.0 更新条目](https://github.com/AuroraWright/Luma3DS/releases/tag/v8.0)
 {% endcapture %}
 
 <div class="notice--info">{{ notice-6 | markdownify }}</div>
@@ -182,10 +182,10 @@ ___
 
 <div class="notice--info">{{ notice-6 | markdownify }}</div>
 
-要想了解如何变更你的设备到另一个区域，参见[区域变更](region-changing) 页面。
+要想了解如何变更你的设备到另一个区域，参见[区域变更](region-changing)页面。
 {: .notice--success}
 
-如果想知道 GodMode9 各种功能的使用方法，请查阅 [如何使用GodMode9](godmode9-usage) 页。
+如果想知道 GodMode9 各种功能的使用方法，请查阅[如何使用GodMode9](godmode9-usage) 页。
 {: .notice--success}
 
 如果想知道如何使用 Luma3DS 的各种功能，参见[这个wiki](https://github.com/AuroraWright/Luma3DS/wiki/Options-and-usage).
@@ -194,5 +194,5 @@ ___
 关于安装自定义主题、图标和启动画面的资源，请查阅 [Theme Plaza](https://themeplaza.eu/)。
 {: .notice--success}
 
-若想在 Luma3DS 中使用 Gateshark 金手指，请参见 [Sharkive](https://github.com/FlagBrew/Sharkive)。
+若想在 Luma3DS 中使用 Gateshark 金手指，请见 [Checkpoint](https://github.com/FlagBrew/Checkpoint)。
 {: .notice--success}

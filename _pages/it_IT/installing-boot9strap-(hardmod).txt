@@ -23,7 +23,6 @@ Questo processo funziona su New 3DS, New 2DS, Old 3DS e Old 2DS su *tutte* le ve
 * L'ultima versione di [hardmod-b9s-installer](https://github.com/ihaveamac/hardmod-b9s-installer/releases/latest)
   + Gli utenti Windows possono usare il file `.exe` precompilato, mentre gli utenti Mac e Linux dovranno installare [Python 3](https://www.python.org/downloads/) per avviare il file `.py`
 * L'ultima versione di [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) 
-* L'ultima versione di [Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest)
 * Il file `.firm` per la tua console e per la tua versione di sistema:
 
 | Versione(i) | Kernel | Old 3DS o Old 2DS | New 3DS o New 2DS |
@@ -63,8 +62,7 @@ Questo processo funziona su New 3DS, New 2DS, Old 3DS e Old 2DS su *tutte* le ve
 
 1. Spegni il tuo 3DS
 1. Inserisci la scheda SD nel tuo computer
-1. Copia il file `boot.firm` dall'archivio `.zip` di Luma3DS nella directory principale della tua scheda SD
-1. Copia il file `boot.3dsx` nella directory principale della tua scheda SD
+1. Copia i file `boot.firm` e `boot.3dsx` dall'archivio `.zip` di Luma3DS nella directory principale della tua scheda SD
 1. Copia la cartella hardmod-b9s-installer dall'archivio `.zip` di hardmod-b9s-installer sul tuo computer
 1. Copia il file `.firm` scaricato nella cartella hardmod-b9s-installer sul tuo computer
 1. Rinomina il file `.firm` appena copiato in `current.firm`

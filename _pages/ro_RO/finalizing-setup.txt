@@ -64,7 +64,7 @@ Dacă, înainte să urmăriți acest ghid, aveați deja o configurare cu EmuNAND
 
 1. Actualizați dispozitivul mergând în System Settings, apoi "Other Settings", apoi mergeți spre colțul drept și folosiți "System Update"
   + Actualizările în timp ce folosiți B9S + Luma (ce aveți) sunt sigure
-  + Actualizatorul poate afișa un mesaj care zice "Your system is up to date" în loc să se actualizeze. This is normal if you are already up to date; continue with the next section
+  + Actualizatorul poate afișa un mesaj care zice "Your system is up to date" în loc să se actualizeze. Acest lucru este normal dacă sunteți deja la zi; continuați în următoarea secțiune
   + Dacă aceasta vă dă o eroare, setați setările de DNS pe "auto"
   + Dacă tot primiți o eroare, [urmați CTRTransfer](ctrtransfer), apoi încercați să actualizați din nou
 
@@ -111,7 +111,7 @@ Dacă, înainte să urmăriți acest ghid, aveați deja o configurare cu EmuNAND
 1. Selectaţi "Scripts from Plailect's Guide"
 1. Selectaţi "Setup Luma3DS to CTRNAND"
 1. Când vi se solicită, apăsaţi (A) pentru a continua
-1. Apăsați (A) ca să deblocați scrierea în SysNAND (lvl2), apoi introduceți combinația de butoane care vi se cere
+1. Apăsați (A) ca să deblocați scrierea în SysNAND (lvl1), apoi introduceți combinația de butoane care vi se cere
 1. Apăsați (A) pentru a continua
 
 #### Secțiunea VII - Curățarea cardului SD
@@ -194,5 +194,5 @@ Pentru informații despre cum să folosiți funcțiile diverse de pe Luma3DS, ve
 Pentru informaţii despre cum să instalați teme personalizate şi ecrane splash, vedeți pe [Theme Plaza](https://themeplaza.eu/).
 {: .notice--success}
 
-Pentru informații despre cum să folosiți cheat code-uri Gateshark, vedeți [Sharkive](https://github.com/FlagBrew/Sharkive).
+Pentru informații despre cum să folosiți cheat code-uri Gateshark, vedeți [Checkpoint](https://github.com/FlagBrew/Checkpoint).
 {: .notice--success}

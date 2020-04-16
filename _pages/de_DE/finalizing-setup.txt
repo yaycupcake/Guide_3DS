@@ -106,12 +106,12 @@ Wenn du vor dieser Anleitung bereits einen EmuNAND hattest und dessen Inhalte in
 1. Wenn du aufgefordert wirst, ein "essential files backup" durchzuführen, drücke (A). Drücke erneut (A) nachdem es abgeschlossen ist
 1. Wenn du aufgefordert wirst Datum und Uhrzeit der "RTC" (Real Time Clock, Echtzeituhr) zu korrigieren, drücke (A), stelle Datum und Uhrzeit ein und drücke (A) um fortzufahren
 1. Drücke  (HOME) um das Aktionsmenü aufzurufen
-1. Select "Scripts..."
+1. Wähle "Scripts"
 1. Select "GM9Megascript"
 1. Select "Scripts from Plailect's Guide"
 1. Select "Setup Luma3DS to CTRNAND"
 1. Drücke (A), wenn du dazu aufgefordert wirst, um fortzufahren
-1. Drücke (A), um SysNAND-Überschreibungen zu aktivieren. Gib danach die angezeigte Tastenkombination ein
+1. Drücke (A), um die SysNAND (Stufe 1) Bearbeitung zu aktivieren. Dann gebe die angegebene Tastenkombination ein
 1. Drücke (A) um fortzufahren
 
 #### Section VII - Cleanup SD Card
@@ -194,5 +194,5 @@ Informationen, wie du die verschiedenen Funktionen von Luma3DS nutzen kannst, fi
 Für Informationen zur Installation von benutzerdefinierten Designs, Abzeichen und Splash-Screens, schau mal auf [Theme Plaza](https://https://themeplaza.eu/) vorbei.
 {: .notice--success}
 
-For information on using Gateshark cheat codes on Luma3DS, check out [Sharkive](https://github.com/FlagBrew/Sharkive).
+For information on using Gateshark cheat codes on Luma3DS, check out [Checkpoint](https://github.com/FlagBrew/Checkpoint).
 {: .notice--success}

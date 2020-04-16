@@ -23,7 +23,6 @@ Ez működni fog a New 3DS, a New 2DS, az Old 3DS, és az Old 2DS konzolok *öss
 * A [hardmod-b9s-installer](https://github.com/ihaveamac/hardmod-b9s-installer/releases/latest) legújabb kiadása
   + A Windows felhasználók használhatják az előre összeállított `.exe`-t, míg a Mac és Linux felhasználóknak [Python 3](https://www.python.org/downloads/)-ra lesz szükségük, hogy futtatni tudják a mellékelt `.py` szkriptet
 * The latest release of [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) 
-* A [Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest) legújabb kiadása
 * A készülékednek és a verziójának megfelelő `.firm`:
 
 | Verzió(k) | Kernel | Old 3DS vagy Old 2DS | New 3DS vagy New 2DS |
@@ -63,8 +62,7 @@ Ez működni fog a New 3DS, a New 2DS, az Old 3DS, és az Old 2DS konzolok *öss
 
 1. Kapcsold ki a készüléked
 1. Helyezd az SD kártyád a számítógépbe
-1. Copy `boot.firm` from the Luma3DS `.zip` to the root of your SD card
-1. Másold az `boot.3dsx` fájlt az SD kártyád gyökerébe
+1. Copy `boot.firm` and `boot.3dsx` from the Luma3DS `.zip` to the root of your SD card
 1. Csomagold ki a hardmod-b9s-installer mappát a hardmod-b9s-installer `.zip`-ből
 1. Másold az előbbiekben letöltött `.firm` fájlt a kicsomagolt hardmod-b9s-installer mappába
 1. Nevezd át a hardmod-b9s-installer mappában található `.firm` fájlt `current.firm` névre

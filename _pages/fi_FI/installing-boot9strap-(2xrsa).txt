@@ -9,7 +9,6 @@ title: "Installing boot9strap (2xrsa)"
 * The latest release of [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
 * The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(standard boot9strap; not the `devkit` file, not the `ntr` file)*
 * The latest release of [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) 
-* The latest release of [the Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest)
 
 ### Ohjeet
 
@@ -17,8 +16,7 @@ title: "Installing boot9strap (2xrsa)"
 
 1. Sammuta konsolisi
 1. Aseta SD-korttisi tietokoneeseesi
-1. Copy `boot.firm` from the Luma3DS `.zip` to the root of your SD card
-1. Kopioi `boot.3dsx` SD-korttisi juureen
+1. Copy `boot.firm` and `boot.3dsx` from the Luma3DS `.zip` to the root of your SD card
 1. Luo `boot9strap`-niminen kansio SD-korttisi juureen
 1. Kopioi boot9strap-`.zip`-pakkauksesta `boot9strap.firm` ja `boot9strap.firm.sha` SD-korttisi `/boot9strap/`-kansioon
 1. Copy `arm9.bin` and `arm11.bin` from the SafeB9SInstaller `.zip` to the root of your SD card

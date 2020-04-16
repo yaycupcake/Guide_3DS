@@ -17,15 +17,13 @@ Tämä menetelmä käyttää FIRM-osioiden salaamatonta muotoa (known-plaintext,
 * The latest release of [Frogminer_save](https://github.com/zoogie/Frogminer/releases/latest)
 * The latest release of [b9sTool](https://github.com/zoogie/b9sTool/releases/latest)
 * The latest release of [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest)
-* The latest release of [the Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest)
 
 #### Vaihe I – Valmistelut
 
 1. Sammuta konsolisi
 1. Aseta SD-korttisi tietokoneeseesi
-1. Copy `boot.firm` from the Luma3DS `.zip` to the root of your SD card
+1. Copy `boot.firm` and `boot.3dsx` from the Luma3DS `.zip` to the root of your SD card
 1. Copy `boot.nds` (B9STool) to the root of your SD card
-1. Kopioi `boot.3dsx` SD-korttisi juureen
 1. Copy the `private` folder from the Frogminer_save `.zip` to the root of your SD card
 
 #### Section II - Fredtool

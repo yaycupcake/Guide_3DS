@@ -9,8 +9,7 @@ title: "Installer boot9strap (MSET)"
 * N'importe quelle cartouche DS qui fonctionne sur la version de votre console
 * La dernière version de [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
 * La dernière version de [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(boot9strap standard, ni le fichier `devkit`, ni le fichier `ntr`)*
-* The latest release of [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) 
-* La dernière version de [Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest)
+* La dernière version de [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) 
 
 ### Instructions
 
@@ -18,8 +17,7 @@ title: "Installer boot9strap (MSET)"
 
 1. Éteignez votre 3DS
 1. Insérez votre carte SD dans votre ordinateur
-1. Copy `boot.firm` from the Luma3DS `.zip` to the root of your SD card
-1. Copiez `boot.3dsx` à la racine de votre carte SD
+1. Copiez `boot.firm` et `boot.3dsx` depuis Luma3DS `.zip`vers la racine de votre carte SD
 1. Créez un dossier à la racine de votre carte SD nommé `boot9strap`
 1. Copiez `boot9strap.firm` et `boot9strap.firm.sha` depuis le fichier ".zip" de boot9strap vers le dossier `/boot9strap/` sur votre carte SD
 1. Copiez `SafeB9SInstaller.dat` depuis le fichier `.zip` de SafeB9SInstaller à la racine de votre carte SD
