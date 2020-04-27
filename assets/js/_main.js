@@ -141,6 +141,7 @@ $(document).ready(function(){
     "installing-boot9strap-(fredtool)": "17",
     "bannerbomb3": "18",
     "homebrew-launcher-(pichaxx)": "19",
+    "installing-boot9strap-(usm)": "20",
   };
 
   for(var method in methods){
@@ -175,6 +176,7 @@ $(document).ready(function(){
       "17": ["seedminer", "multiple-options", "installing-boot9strap-(fredtool)", "finalizing-setup"],
       "18": ["seedminer", "bannerbomb3", "installing-boot9strap-(fredtool)", "finalizing-setup"],
       "19": ["seedminer", "homebrew-launcher-(pichaxx)", "dsidumper","installing-boot9strap-(fredtool)", "finalizing-setup"],
+      "20": ["seedminer", "installing-boot9strap-(usm)", "finalizing-setup"],
     };
     unhide = unhide.concat(route[method]);
     if(typeof unhide !== 'undefined' && unhide.length > 0){
