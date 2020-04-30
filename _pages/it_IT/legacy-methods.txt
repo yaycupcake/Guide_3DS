@@ -1,0 +1,21 @@
+---
+title: "Metodi Tradizionali"
+---
+
+{% include toc title="Indice" %}
+
+### Lettura necessaria
+
+Nell'ultimo periodo ci sono stati numerosi miglioramenti e avanzamenti ai metodi di installazione di CFW.
+
+Per questo motivo, è consigliato usare il metodo più recente descritto nella sezione [Seedminer](seedminer).
+
+Ciononostante, i metodi "tradizionali", più vecchi, vengono mantenuti qui per vari motivi. Ti servirà comunque aver eseguito precedentemente [Seedminer](seedminer).
+
+Se ti dovesse servire una mano, puoi entrare nel canale [Nintendo Homebrew su Discord](https://discord.gg/MWxPgEp) e chiedere, in inglese.
+
+1. [BannerBomb3](bannerbomb3): Seedminer + BannerBomb3 + Fredtool
+1. [Pichaxx](homebrew-launcher-(pichaxx)): Seedminer + Pichaxx + DSiWare Dumper + Fredtool
+  + Pichaxx ha anche un metodo alternativo: [Frogtool](installing-boot9strap-(frogtool)): Seedminer + Pichaxx + Frogtool
+  
+Tutte queste opzioni dovrebbero condurre al termine alla sezione [Completamento dell'Installazione](finalizing-setup).

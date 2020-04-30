@@ -136,5 +136,8 @@ sidebar_pages:
     title: 安装 boot9strap（通过 Fredtool）
     url: installing-boot9strap-(fredtool)
   - 
+    title: 安装 boot9strap（通过 USM）
+    url: installing-boot9strap-(usm)
+  - 
     title: 完成安装
     url: finalizing-setup

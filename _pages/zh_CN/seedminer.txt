@@ -27,7 +27,7 @@ title: "Seedminer"
 1. 进入系统设置，然后进入“互联网设置（Internet Settings）”，然后进入“任天堂 DS 连接（Nintendo DS Connections）”
 1. 点击 “OK”
 1. 如果你的设备进入到了 “任天堂 Wi-Fi 连接设置（Nintendo Wi-Fi Connection Setup）” 菜单中，则此测试成功
-  + 如果屏幕一直黑屏或者看上去似乎死机了，那么测试失败。你将无法使用 bannerbomb3 （因为此漏洞需要能正常使用 DS 网络设置的主机）
+  + 如果屏幕一直黑屏或者看上去似乎死机了，那么测试失败。你将无法使用 bannerbomb3 方法破解（因为此漏洞需要能正常使用 DS 网络设置的主机）
 1. 退出此菜单
 
 #### 第二步 — 准备工作
@@ -75,29 +75,20 @@ title: "Seedminer"
   + 你在之后还会用到这个文件，请先把这个文件存起来
 
 ___
-### 方法
 
-___
+#### Seedminer + unSAFE_MODE
 
-#### Seedminer + BannerBomb3 + Fredtool
-
-本章节 Seedminer 将使用你的 `movable.sed` 文件来解密所有的 DSiWare 程序，以便在3DS中内置的 DS 网络设定中注入修改后的 DSiWare 程序。 
+这种将使用 Seedminer 进行进一步破解的方法使用了你的 `movable.sed` 来利用所有机型都有的 SAFE_MODE 固件来进行破解系统。
 
 这种方法与所有区域兼容，尽管神游机因为阉割了此部分所需内容并不能执行这个操作
 
-这个方法要求 DS 互联网设置正常运行。请通过此页面顶部的测试确认可以使用后再继续此教程。
-
-继续至 [BannerBomb3](bannerbomb3)
+继续至 [unSAFE_MODE](installing-boot9strap-(usm))
 {: .notice--primary}
 
 ___
 
-#### Seedminer + PicHaxx  + DSiDumper + Fredtool
+#### 传统方法
 
-本章节 Seedminer 将使用你的 `movable.sed` 文件，通过 PicHaxx 漏洞启动 Homebrew Launcher，以便获得权限来启动 Homebrew Launcher 来导出系统的 DsiWare 软件。 在进行本教程前，你必须先拥有 （或下载） eShop 中的免费的“精灵宝可梦：绘图方块（Pokemon Picross）”游戏。
+这些方法已经过时，这里建议不要使用。除非你有特殊的目的或被建议使用此方法。
 
-这个方法只适用于欧版，日版和美版的设备。而且比另一方法稍微复杂一些。 只有当你无法运行 DS 互联网设置时才建议使用此方法。
-
-继续至 [启动 Homebrew Launcher （通过PicHaxx）](homebrew-launcher-(pichaxx))
-{: .notice--primary}
-
+[传统方法](legacy-methods)
