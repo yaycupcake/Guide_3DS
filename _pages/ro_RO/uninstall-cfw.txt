@@ -41,7 +41,7 @@ Dacă ați modificat software critic sistemului (precum editarea meniului HOME, 
   + Pe un dispozitiv din ediția "New", (X) va fi 2
   + Pe un dispozitiv din ediția "Old", (X) va fi 0
 1. Selectați fișierul `.app`
-1. Selctați `NCCH Image Options`
+1. Selectaţi `NCCH Image Options`
 1. Selectați `Mount image to drive`
 1. În fereastra care apare, deschideți folderul `exefs`
 1. În acest folder, selectați fișierul `.firm`

@@ -4,7 +4,7 @@ title: "Desinstalar o CFW"
 
 {% include toc title="Table of Contents" %}
 
-### Leitura Obrigatória
+### Required Reading
 
 Isso irá remover completamente o CFW do seu dispositivo, incluindo o Boot9Strap e Luma3DS, com o propósito de restaurar o dispositivo ao padrão.
 
