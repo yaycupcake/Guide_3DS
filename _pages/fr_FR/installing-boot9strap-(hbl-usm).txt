@@ -16,8 +16,6 @@ Si vous avez un accès à l'Homebrew Launcher via un autre point d'entrée, vous
 
 Une fois le profil WiFi injecté, nous utiliserons SAFE_MODE, qui est une fonctionnalité de récupération présente sur toutes les consoles 3DS, pour activer le profil WiFi exploité.
 
-Ces instructions fonctionnent dans les régions USA, Europe, Japon et Corée indiquées par les lettres U, E, J ou K après le numéro de version de la console.
-
 Si vos boutons (L/R), (Haut sur la croix directionnelle) ou (A) ne fonctionnent pas, vous devrez utiliser une [Ancienne Méthode](legacy-methods). Pour obtenir de l'aide, rejoignez [Nintendo Homebrew sur Discord](https://discord.gg/MWxPgEp) et demandez de l'aide en anglais.
 {: .notice--danger}
 
@@ -34,7 +32,7 @@ Si vos boutons (L/R), (Haut sur la croix directionnelle) ou (A) ne fonctionnent 
 1. Sélectionnez l'option "INSTALL exploit to wifi slots 1,2,3 & shutdown"
   + Vous verrez du texte à l'écran et votre console s'éteindra
 1. Retirez la carte SD de votre console et insérez-la dans votre ordinateur
-1. Copiez le fichier `boot.firm` du fichier `.zip` de Luma3DS vers la racine de votre carte SD, en écrasant les fichiers existants si nécessaire
+1. Copiez `boot.firm` du fichier `.zip` de Luma3DS vers la racine de votre carte SD
 1. Copiez `usm.bin` de l'archive unSAFE_MODE `.zip` vers la racine de votre carte SD
 1. Réinsérez la carte SD dans votre console
 
