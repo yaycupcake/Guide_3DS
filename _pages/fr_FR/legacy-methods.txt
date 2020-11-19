@@ -8,7 +8,7 @@ title: "Anciennes Méthodes"
 
 Il y a eu de multiples améliorations et avancées dans les méthodes d'installation du CFW au cours de ces derniers temps.
 
-C'est pour cette raison qu'il est recommandé d'utiliser la méthode la plus récente que vous trouverez sur la page [Seedminer](seedminer).
+C'est pour cette raison qu'il est recommandé d'utiliser la méthode la plus récente que vous trouverez sur la page [Bien Démarrer](get-started).
 
 Cependant, des méthodes "anciennes" ou périmées sont conservées ici à diverses fins. Elles nécessiteront que vous ayez au préalable suivi [Seedminer](seedminer).
 
