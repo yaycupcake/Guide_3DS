@@ -4,7 +4,7 @@ title: "Finalizando a instalação"
 
 {% include toc title="Table of Contents" %}
 
-### Leitura Obrigatória
+### Required Reading
 
 O arquivo `boot.firm` é o que é executado pelo boot9strap depois que ele acaba de carregar a NAND, e ele pode ser qualquer payload arm9 válido no formato FIRM. Este arquivo pode ser substituído a qualquer momento, embora o Luma3DS permita a inicialização de outros payloads arm9 no formato FIRM usando o chainloader do Luma3DS.
 
@@ -26,7 +26,7 @@ Durante este processo, também configuramos alguns programas como os seguintes:
 * The latest release of [Anemone3DS](https://github.com/astronautlevel2/Anemone3DS/releases/latest) *(the `.cia` file)*
 * The latest release of [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases/latest) *(the `.cia` file)*
 * The latest release of [Homebrew Launcher Wrapper](https://github.com/mariohackandglitch/homebrew_launcher_dummy/releases/latest)
-* The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
+* The v1.9.2pre1 release of [GodMode9](https://github.com/d0k3/GodMode9/releases/tag/v1.9.2pre1)
 * The latest release of [DSP1](https://github.com/zoogie/DSP1/releases/latest)
 * The latest release of [FBI](https://github.com/Steveice10/FBI/releases/latest) *(the `.cia` and `.3dsx` files)*
 * The latest release of [ctr-no-timeoffset](https://github.com/ihaveamac/ctr-no-timeoffset/releases/latest)

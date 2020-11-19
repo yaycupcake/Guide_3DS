@@ -14,7 +14,7 @@ title: "卸载自制固件"
 
 你将无法游玩任何已安装且未签名（盗版）的游戏，请在开始本章教程之前进入系统设置内的数据管理中将它们全部删除。 你可以使用 [save manager](https://github.com/FlagBrew/Checkpoint/releases/latest) 来备份你想要备份的未签名（盗版）游戏存档。
 
-这不会影响你的 NNID和正版游戏，以及正版游戏的存档。
+这不会影响你的 NNID 和正版游戏，以及正版游戏的存档。
 
 如果你之前修改过系统的重要文件（比如修改主菜单，解除你主机的封禁等），卸载自制系统可能会导致你的设备砖机！
 {: .notice--danger}
@@ -23,7 +23,7 @@ title: "卸载自制固件"
 
 ### 你需要准备点啥？
 
-* 最新版 [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
+* v1.9.2pre1 版的 [GodMode9](https://github.com/d0k3/GodMode9/releases/tag/v1.9.2pre1)
 
 ### 操作步骤
 
@@ -42,12 +42,12 @@ title: "卸载自制固件"
   + 在 “New 3DS” 主机上，(X) 应该是2
   + 在“老型号的3DS” 上，(X) 应该是0
 1. 选择 `.app` 文件
-1. 选择 `NCCH Image Options`
+1. 选择 `NCCH image options`
 1. 选择 `Mount image to drive`
 1. 在弹出的窗口中，打开 `exefs` 文件夹
 1. 在此文件夹中，选中 `.firm` 文件
-1. 选择 “Firm Image Options”
-1. 选择 “Boot Firm”
+1. 选择 “FIRM image options”
+1. 选择 “Boot FIRM”
 1. 出现提示时，按下“A”键解密并制作副本
 1. 你应该会启动到正常的 3DS 主菜单。 如果是这样，关闭你的主机并继续下一章节。
   + 如果你没有进入到正常的 3DS主菜单，继续下面的步骤将 **会** 导致你的机器变砖。 请加入 [Nintendo Homebrew Discord 服务器](https://discord.gg/MWxPgEp) 并使用英文来请求支援。你也可以到译者的<a href="https://jq.qq.com/?_wv=1027&k=5CfEA4c">QQ群</a>寻求帮助，群号为 942052497。
@@ -85,5 +85,5 @@ ___
 所有自制固件都已经被卸载了。
 {: .notice--success}
 
-你可以将*除了*“Nintendo 3DS” 和 “DCIM” 以外的文件、文件夹从 SD 卡根目录删除。
+你可以将**除了**“Nintendo 3DS” 和 “DCIM” 以外的文件、文件夹从 SD 卡根目录删除。
 {: .notice--info}

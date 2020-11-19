@@ -26,7 +26,7 @@ title: "Завершение установки"
 * Свежая версия [Anemone3DS](https://github.com/astronautlevel2/Anemone3DS/releases/latest) *(`.cia-файл`)*
 * Свежая версия [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases/latest) *(`.cia-файл`)*
 * Свежая версия [Homebrew Launcher Wrapper](https://github.com/mariohackandglitch/homebrew_launcher_dummy/releases/latest)
-* Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
+* The v1.9.2pre1 release of [GodMode9](https://github.com/d0k3/GodMode9/releases/tag/v1.9.2pre1)
 * Свежая версия [DSP1](https://github.com/zoogie/DSP1/releases/latest)
 * Свежая версия [FBI](https://github.com/Steveice10/FBI/releases/latest) *(`.cia-файл` и `.3dsx-файл`)*
 * Свежая версия [ctr-no-timeoffset](https://github.com/ihaveamac/ctr-no-timeoffset/releases/latest)
