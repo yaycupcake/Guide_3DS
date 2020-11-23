@@ -20,9 +20,10 @@ This means that using a cartridge update from a version containing an older Nint
 ### What You Need
 
 * The latest release of [Soundhax](http://soundhax.com) *(for your region, device, and version)*
+  + If Soundhax appears in your browser as an unplayable video, press Ctrl+S or Cmd+S to save it to your computer
 * The latest release of [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
 * The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(standard boot9strap; not the `devkit` file, not the `ntr` file)*
-* The latest release of [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest)
+* The latest release of [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest)
 * The latest release of [the Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest)
 * The v1.2 release of [pre9otherapp](https://github.com/hax0kartik/pre9otherapp/releases/tag/v1.2) *(the `.bin` file corresponding to your firmware version)*
 
