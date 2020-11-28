@@ -2,6 +2,9 @@
 title: "Tack till"
 ---
 
+**Special thanks to Plailect, the original creator and maintainer of the guide!**
+{: .notice--primary}
+
 **Särskilt tack till alla från [#Cakey på Freenode](http://webchat.freenode.net/?channels=%23Cakey) för att ni är superstjärnor!**
 {: .notice--primary}
 
@@ -52,6 +55,7 @@ Kontakta mig om jag glömde dig här så lägger jag till ditt namn.
     + Mrrraou
     + Night_Fallen_Wolf
     + Normmatt
+    + Plailect
     + plutooo
     + Psi-Hate
     + RandallHoffman

@@ -2,6 +2,9 @@
 title: "致谢"
 ---
 
+**特别感谢此教程的原作者和原维护者Plailect！**
+{: .notice--primary}
+
 **特别感谢所有在 [Freenode #Cakey](http://webchat.freenode.net/?channels=%23Cakey) 成员的杰出贡献！**
 {: .notice--primary}
 
@@ -52,6 +55,7 @@ title: "致谢"
     + Mrrraou
     + Night_Fallen_Wolf
     + Normmatt
+    + Plailect
     + plutooo
     + Psi-Hate
     + RandallHoffman

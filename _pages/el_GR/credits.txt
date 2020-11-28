@@ -2,6 +2,9 @@
 title: "Συντελεστές"
 ---
 
+**Special thanks to Plailect, the original creator and maintainer of the guide!**
+{: .notice--primary}
+
 **Ευχαριστώ ιδιαίτερα όλο το [#Cakey στο Freenode](http://webchat.freenode.net/?channels=%23Cakey) που ήταν υπέροχοι!**
 {: .notice--primary}
 
@@ -52,6 +55,7 @@ title: "Συντελεστές"
     + Mrrraou
     + Night_Fallen_Wolf
     + Normmatt
+    + Plailect
     + plutooo
     + Psi-Hate
     + RandallHoffman

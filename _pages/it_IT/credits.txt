@@ -2,6 +2,9 @@
 title: "Riconoscimenti"
 ---
 
+**Un ringraziamento speciale a Plailect, il creatore e manutentore originale della guida!**
+{: .notice--primary}
+
 **Un ringraziamento speciale a tutti gli utenti di [#Cakey su Freenode](http://webchat.freenode.net/?channels=%23Cakey)! Siete fantastici!**
 {: .notice--primary}
 
@@ -52,6 +55,7 @@ Se ho dimenticato di inserirti in questa lista, contattami e ti aggiungerò.
     + Mrrraou
     + Night_Fallen_Wolf
     + Normmatt
+    + Plailect
     + plutooo
     + Psi-Hate
     + RandallHoffman

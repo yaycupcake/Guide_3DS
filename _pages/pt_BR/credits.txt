@@ -2,6 +2,9 @@
 title: "Créditos"
 ---
 
+**Special thanks to Plailect, the original creator and maintainer of the guide!**
+{: .notice--primary}
+
 **Um agradecimento especial a todos do [#Cakey na Freenode](http://webchat.freenode.net/?channels=%23Cakey) por serem o máximo!**
 {: .notice--primary}
 
@@ -52,6 +55,7 @@ Se eu esqueci de você aqui, entre em contato comigo e eu adicionarei o seu nome
     + Mrrraou
     + Night_Fallen_Wolf
     + Normmatt
+    + Plailect
     + plutooo
     + Psi-Hate
     + RandallHoffman
