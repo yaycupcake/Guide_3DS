@@ -58,6 +58,3 @@ This page is for Mac users only. If you are not on Mac, check out the [Formattin
 1. Wait for the format to finish
 1. Close Disk Utility
 1. If the SD card had any files and folders on it before the format, copy everything back from your computer
-
-### Return to [Get Started](get-started)
-{: .notice--primary}
