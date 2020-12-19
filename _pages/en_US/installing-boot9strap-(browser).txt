@@ -6,9 +6,11 @@ title: "Installing boot9strap (Browser)"
 
 ### What You Need
 
+* The latest release of [new-browserhax-xl](https://github.com/zoogie/new-browserhax-xl/releases/latest)
+* The latest release of [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest)
 * The latest release of [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
 * The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(standard boot9strap; not the `devkit` file, not the `ntr` file)*
-* The latest release of [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) 
+* The latest release of [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest) 
 
 ### Instructions
 
@@ -16,24 +18,22 @@ title: "Installing boot9strap (Browser)"
 
 1. Power off your device
 1. Insert your SD card into your computer
+1. Copy `otherapp.bin` to the root of your SD card and rename it to `arm11code.bin`
+  + If you do not see the `.bin` extension, do not add it to the end of the filename
 1. Copy `boot.firm` and `boot.3dsx` from the Luma3DS `.zip` to the root of your SD card
 1. Create a folder named `boot9strap` on the root of your SD card
-1. Copy `boot9strap.firm` and `boot9strap.firm.sha` from the boot9strap `.zip` to the `/boot9strap/` folder on your SD card
-1. Copy `SafeB9SInstaller.dat` and `Launcher.dat` from the SafeB9SInstaller `.zip` to the root of your SD card
-
-    ![]({{ "/images/screenshots/boot9strap-browser-file-layout.png" | absolute_url }})
-    {: .notice--info}
-
+1. Copy `boot9strap.firm` and `boot9strap.firm.sha` from the boot9strap `.zip` to the `boot9strap` folder on your SD card
+1. Copy `SafeB9SInstaller.bin` from the SafeB9SInstaller `.zip` to the root of your SD card
+1. In the new-browserhax-xl `.zip`, open the folder corresponding to your console's region
+  + Your console's region can be found in the final letter of the system version in System Settings: U is USA, E is EUROPE, J is JAPAN, and K is KOREA
+1. Copy `browserhax_hblauncher_ropbin_payload.bin` to the root of your SD card
 1. Reinsert your SD card into your device
 1. Power on your device
 
 #### Section II - Launching SafeB9SInstaller
 
-1. Launch the browser and go to one of the following URLs on your device
-  + `https://dukesrg.github.io/?SafeB9SInstaller.dat`
-  + `http://www.reboot.ms/3ds/load.html?Launcher.dat`
-  + `http://dukesrg.dynu.net/3ds/rop?GW17567.dat&Launcher.dat`
-  + Make sure to try each URL if the first one doesn't work (some versions cannot use the first one, and some versions cannot use the last two)
+1. Launch the browser and go to this URL on your device
+  + `https://zoogie.github.io/web/nbhax-xl/`
   + If you get an error, [follow this troubleshooting guide](troubleshooting#a-browser-based-exploit-is-not-working)
 1. If the exploit was successful, you will have booted into SafeB9SInstaller
 
@@ -50,7 +50,6 @@ title: "Installing boot9strap (Browser)"
 1. Use the (A) button and the D-Pad to turn on the following:
   + **"Show NAND or user string in System Settings"**
 1. Press (Start) to save and reboot
-  + If you get an error, just continue the next page
 
 ___
 
