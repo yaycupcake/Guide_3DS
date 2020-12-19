@@ -4,6 +4,13 @@ title: "Installing boot9strap (Browser)"
 
 {% include toc title="Table of Contents" %}
 
+### Required Reading
+
+new-browserhax-xl (when combined with universal-otherapp) is compatible with version 11.14.0 on New 3DS and New 2DS in all regions.
+
+This exploit will not work on the Old 3DS, Old 3DS XL, or Old 2DS. Please ensure that the device you are modding is an New 3DS, New 3DS XL, or New 2DS XL before continuing.
+{: .notice--warning}
+
 ### What You Need
 
 * The latest release of [new-browserhax-xl](https://github.com/zoogie/new-browserhax-xl/releases/latest)
