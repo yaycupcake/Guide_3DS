@@ -146,5 +146,8 @@ sidebar_pages:
     title: Installing boot9strap (safecerthax)
     url: installing-boot9strap-(safecerthax)
   -
+    title: Installing boot9strap (SSLoth-Browser)
+    url: installing-boot9strap-(ssloth-browser)
+  -
     title: Finalizing Setup
     url: finalizing-setup

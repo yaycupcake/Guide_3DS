@@ -1,25 +1,23 @@
 ---
-title: "Installing boot9strap (Browser)"
+title: "Installing boot9strap (SSLoth-Browser)"
 ---
 
 {% include toc title="Table of Contents" %}
 
 ### Required Reading
 
-new-browserhax-xl (when combined with universal-otherapp) is compatible with version 11.14.0 on New 3DS and New 2DS in all regions.
+SSLoth allows users on versions 11.13 and below to bypass the browser check, allowing use of new-browserhax, which can then be used in conjunction with universal-otherapp.
 
-This exploit will not work on the Old 3DS, Old 3DS XL, or Old 2DS. Please ensure that the device you are modding is a New 3DS, New 3DS XL, or New 2DS XL before continuing.
+The instructions provided only apply to the New 3DS, New 3DS XL, and New 2DS XL. Please ensure that the device you are modding is a New 3DS, New 3DS XL, or New 2DS XL before continuing.
 {: .notice--warning}
 
 ### What You Need
 
-* The latest release of [new-browserhax-xl](https://github.com/zoogie/new-browserhax-xl/releases/latest)
+* The latest release of [new-browserhax](https://github.com/zoogie/new-browserhax-xl/releases/latest)
 * The latest release of [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest)
 * The latest release of [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
 * The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(standard boot9strap; not the `devkit` file, not the `ntr` file)*
 * The latest release of [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest) 
-
-### Instructions
 
 #### Section I - Prep Work
 
@@ -31,26 +29,39 @@ This exploit will not work on the Old 3DS, Old 3DS XL, or Old 2DS. Please ensure
 1. Create a folder named `boot9strap` on the root of your SD card
 1. Copy `boot9strap.firm` and `boot9strap.firm.sha` from the boot9strap `.zip` to the `boot9strap` folder on your SD card
 1. Copy `SafeB9SInstaller.bin` from the SafeB9SInstaller `.zip` to the root of your SD card
-1. In the new-browserhax-xl `.zip`, open the folder corresponding to your console's region
+1. In the new-browserhax `.zip`, open the folder corresponding to your console's region
   + Your console's region can be found in the final letter of the system version in System Settings: U is USA, E is EUROPE, J is JAPAN, and K is KOREA
 1. Copy `browserhax_hblauncher_ropbin_payload.bin` to the root of your SD card
 1. Reinsert your SD card into your device
 1. Power on your device
 
-#### Section II - Launching SafeB9SInstaller
+#### Section II - SSLoth
+1. Launch the System Settings application
+1. Navigate to `Internet Settings` -> `Connection Settings`
+1. Click on your network connection slot and navigate to `Change Settings` -> `Next Page (right arrow)` -> `DNS`
+1. Set "Auto-Obtain DNS" to "No", then click `Detailed Setup`
+1. Set both the Primary DNS and Secondary DNS to `54.38.133.70`
+1. Click OK, then click Save
+1. When prompted, click "Test" to perform the connection test
+	+ The test should succeed
+1. Click `Back` twice to re-enter the main Settings menu
+1. Navigate to `Other Settings` -> `Date & Time` -> `Today's Date`
+1. Set the date to one day in the future, then click OK
+1. Power off your device
 
+#### Section III - Launching SafeB9SInstaller
 1. Launch the browser and go to this URL on your device
-  + `https://zoogie.github.io/web/nbhax-xl/`
+  + `https://zoogie.github.io/web/nbhax`
   + If you get an error, [follow this troubleshooting guide](troubleshooting#a-browser-based-exploit-is-not-working)
 1. If the exploit was successful, you will have booted into SafeB9SInstaller
 
-#### Section III - Installing boot9strap
+#### Section IV - Installing boot9strap
 
 1. Wait for all safety checks to complete
 1. When prompted, input the key combo given to install boot9strap
 1. Once it has completed, press (A) to reboot your device
 
-#### Section IV - Configuring Luma3DS
+#### Section V - Configuring Luma3DS
 
 1. Your device should have rebooted into the Luma3DS configuration menu
   + If you get a black screen, [follow this troubleshooting guide](troubleshooting#black-screen-on-sysnand-boot-after-installing-boot9strap)
@@ -58,7 +69,22 @@ This exploit will not work on the Old 3DS, Old 3DS XL, or Old 2DS. Please ensure
   + **"Show NAND or user string in System Settings"**
 1. Press (Start) to save and reboot
 
+#### Section VI - Restoring default DNS and date
+1. Launch the System Settings application
+1. Navigate to `Internet Settings` -> `Connection Settings`
+1. Click on your network connection slot and navigate to `Change Settings` -> `Next Page (right arrow)` -> `DNS`
+1. Set "Auto-Obtain DNS" to "Yes"
+1. Click OK, then click Save
+1. When prompted, click "Test" to perform the connection test
+	+ The test should succeed
+1. Click `Back` twice to re-enter the main Settings menu
+1. Navigate to `Other Settings` -> `Date & Time` -> `Today's Date`
+1. Set the date back to the current date, then click OK
+1. Power off your device
+
 ___
 
 ### Continue to [Finalizing Setup](finalizing-setup)
 {: .notice--primary}
+
+

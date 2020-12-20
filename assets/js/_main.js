@@ -149,6 +149,7 @@ $(document).ready(function(){
     "installing-boot9strap-(usm)": "20",
     "installing-boot9strap-(hbl-usm)": "21",
 	"installing-boot9strap-(safecerthax)": "22",
+	"installing-boot9strap-(ssloth-browser)": "23",
   };
 
   for(var device in devices){
@@ -213,6 +214,7 @@ $(document).ready(function(){
       "19": ["seedminer", "homebrew-launcher-(pichaxx)", "installing-boot9strap-(frogtool)", "finalizing-setup"],
       "20": ["seedminer", "installing-boot9strap-(usm)", "finalizing-setup"],
       "21": ["homebrew-launcher-(browserhax-2020)", "installing-boot9strap-(hbl-usm)", "finalizing-setup"],
+	  "23": ["installing-boot9strap-(ssloth-browser)", "finalizing-setup"],
     };
     var route = {
       "0": device_old,
