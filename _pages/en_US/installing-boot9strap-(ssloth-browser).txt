@@ -44,9 +44,6 @@ The instructions provided only apply to the New 3DS, New 3DS XL, and New 2DS XL.
 1. Click OK, then click Save
 1. When prompted, click "Test" to perform the connection test
 	+ The test should succeed
-1. Click `Back` twice to re-enter the main Settings menu
-1. Navigate to `Other Settings` -> `Date & Time` -> `Today's Date`
-1. Set the date to one day in the future, then click OK
 1. Power off your device
 
 #### Section III - Launching SafeB9SInstaller
@@ -69,7 +66,7 @@ The instructions provided only apply to the New 3DS, New 3DS XL, and New 2DS XL.
   + **"Show NAND or user string in System Settings"**
 1. Press (Start) to save and reboot
 
-#### Section VI - Restoring default DNS and date
+#### Section VI - Restoring default DNS
 1. Launch the System Settings application
 1. Navigate to `Internet Settings` -> `Connection Settings`
 1. Click on your network connection slot and navigate to `Change Settings` -> `Next Page (right arrow)` -> `DNS`
@@ -77,9 +74,6 @@ The instructions provided only apply to the New 3DS, New 3DS XL, and New 2DS XL.
 1. Click OK, then click Save
 1. When prompted, click "Test" to perform the connection test
 	+ The test should succeed
-1. Click `Back` twice to re-enter the main Settings menu
-1. Navigate to `Other Settings` -> `Date & Time` -> `Today's Date`
-1. Set the date back to the current date, then click OK
 1. Power off your device
 
 ___
