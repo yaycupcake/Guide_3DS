@@ -53,6 +53,8 @@ The instructions provided only apply to the New 3DS, New 3DS XL, and New 2DS XL.
 1. Launch the browser and go to this URL on your device
   + `https://zoogie.github.io/web/nbhax`
   + If you get an error, [follow this troubleshooting guide](troubleshooting#a-browser-based-exploit-is-not-working)
+1. Tap the "PROCEED TO HAXX" button
+  + If it displays a yellow screen, power your console off, then try this section again
 1. If the exploit was successful, you will have booted into SafeB9SInstaller
 
 #### Section IV - Installing boot9strap
