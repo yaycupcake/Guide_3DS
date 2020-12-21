@@ -6,14 +6,14 @@ title: "Installing boot9strap (SSLoth-Browser)"
 
 ### Required Reading
 
-SSLoth allows users on versions 11.13 and below to bypass the browser check, allowing use of new-browserhax, which can then be used in conjunction with universal-otherapp.
+SSLoth allows users on versions 11.13 and below to bypass the browser version check, allowing use of new-browserhax, which can then be used in conjunction with universal-otherapp.
 
 The instructions provided only apply to the New 3DS, New 3DS XL, and New 2DS XL. Please ensure that the device you are modding is a New 3DS, New 3DS XL, or New 2DS XL before continuing.
 {: .notice--warning}
 
 ### What You Need
 
-* The latest release of [new-browserhax](https://github.com/zoogie/new-browserhax-xl/releases/latest)
+* The latest release of [new-browserhax](https://github.com/zoogie/new-browserhax/releases/latest)
 * The latest release of [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest)
 * The latest release of [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
 * The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(standard boot9strap; not the `devkit` file, not the `ntr` file)*
