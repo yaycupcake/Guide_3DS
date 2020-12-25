@@ -6,17 +6,13 @@ title: "Installing boot9strap (SSLoth-Browser)"
 
 ### Required Reading
 
-SSLoth allows users on version 11.13.0 and below to bypass the browser version check, allowing use of new-browserhax, which can then be used in conjunction with universal-otherapp.
+SSLoth allows users on version 11.13.0 and below to bypass the browser version check, allowing use of new-browserhax or old-browserhax, which can then be used in conjunction with universal-otherapp.
 
 If you have updated your device to your current version using a cartridge, your Internet Browser will be inaccessible. If this is the case, you will need to update your device to the latest version through System Settings and then follow the method for the latest version.
 {: .notice--warning}
 
-The instructions provided only apply to the New 3DS, New 3DS XL, and New 2DS XL. Please ensure that the device you are modding is a New 3DS, New 3DS XL, or New 2DS XL before continuing.
-{: .notice--info}
-
 ### What You Need
 
-* The latest release of [new-browserhax](https://github.com/zoogie/new-browserhax/releases/latest)
 * The latest release of [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest)
 * The latest release of [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
 * The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(standard boot9strap; not the `devkit` file, not the `ntr` file)*
@@ -32,9 +28,6 @@ The instructions provided only apply to the New 3DS, New 3DS XL, and New 2DS XL.
 1. Create a folder named `boot9strap` on the root of your SD card
 1. Copy `boot9strap.firm` and `boot9strap.firm.sha` from the boot9strap `.zip` to the `boot9strap` folder on your SD card
 1. Copy `SafeB9SInstaller.bin` from the SafeB9SInstaller `.zip` to the root of your SD card
-1. In the new-browserhax `.zip`, open the folder corresponding to your console's region
-  + Your console's region can be found in the final letter of the system version in System Settings: U is USA, E is EUROPE, J is JAPAN, and K is KOREA
-1. Copy `browserhax_hblauncher_ropbin_payload.bin` to the root of your SD card
 1. Reinsert your SD card into your device
 1. Power on your device
 
@@ -52,9 +45,8 @@ The instructions provided only apply to the New 3DS, New 3DS XL, and New 2DS XL.
 #### Section III - Launching SafeB9SInstaller
 1. Launch the browser and go to this URL on your device
   + `https://zoogie.github.io/web/nbhax`
-  + If you get an error, [follow this troubleshooting guide](troubleshooting#a-browser-based-exploit-is-not-working)
 1. Tap the "PROCEED TO HAXX" button
-  + If it displays a yellow screen, power your console off, then try this section again
+  + If you get an error, [follow this troubleshooting guide](troubleshooting#a-browser-based-exploit-is-not-working)
 1. If the exploit was successful, you will have booted into SafeB9SInstaller
 
 #### Section IV - Installing boot9strap
