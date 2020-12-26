@@ -8,7 +8,7 @@ title: "Telepítés véglegesítése"
 
 A `boot.firm` nevezetű fájl az, amit maga a boot9strap elindít, amint betöltődik a NAND-ból, és ami bármilyen érvényes arm9 payload lehet, FIRM formátumban. Ezt a fájlt bármikor cserélni lehet, ugyanakkor a Luma3DS lehetővé teszi bármilyen más, FIRM formátumú arm9 payload elindítását a Luma3DS chainloader segítségével.
 
-A mi esetünkben az [AuroraWright](https://github.com/AuroraWright/)-féle Luma3DS-t fogjuk használni, hogy közvetlenül bootolhassunk egy patchelt SysNAND-ot. Ez teljesen szükségtelenné teszi bármiféle EmuNAND használatát, nagy mértékben egyszerűsítve ezzel a hackelt 3DS-ek használatát, a megspórolt SD kártya területről nem is beszélve.
+A mi esetünkben az [LumaTeam](https://github.com/LumaTeam/)-féle Luma3DS-t fogjuk használni, hogy közvetlenül bootolhassunk egy patchelt SysNAND-ot. Ez teljesen szükségtelenné teszi bármiféle EmuNAND használatát, nagy mértékben egyszerűsítve ezzel a hackelt 3DS-ek használatát, a megspórolt SD kártya területről nem is beszélve.
 
 Ezen folyamat közben további programokat is telepítünk, melyek az alábbiak:
 
@@ -27,7 +27,7 @@ Ezen folyamat közben további programokat is telepítünk, melyek az alábbiak:
 * A [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases/latest) legújabb kiadása *(a `.cia` fájl)*
 * A [Homebrew Launcher Wrapper](https://github.com/mariohackandglitch/homebrew_launcher_dummy/releases/latest) legújabb kiadása
 * A [GodMode9](https://github.com/d0k3/GodMode9/releases/tag/v1.9.2pre1) v1.9.2pre1 kiadása
-* A [DSP1](https://github.com/zoogie/DSP1/releases/latest) legújabb kiadása
+* A [DSP1](https://github.com/zoogie/DSP1/releases/latest) legújabb kiadása *(a `.cia` fájl)*
 * Az [FBI](https://github.com/Steveice10/FBI/releases/latest) legújabb kiadása *(a `.cia` és a `.3dsx` fájl is)*
 * A [ctr-no-timeoffset](https://github.com/ihaveamac/ctr-no-timeoffset/releases/latest) legújabb kiadása
 * A [Luma3DS Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest) legfrissebb változata *(a `.cia` fájl)*
@@ -177,7 +177,7 @@ Mostantól lenyomhatod az (L) + (Le) + (Select) kombinációt a rendszer futása
 {% capture notice-6 %}
 Ha szeretnél a későbbiekben nagyobb SD kártyát használni, mindössze annyit kell tenned, hogy az új SD kártyádat FAT32-re formázod, majd átmásolod a régi SD kártyád tartalmát az újra.
 
-Ha az új SD kártyád nagyobb, mint 32 GB, más eszközre lesz szükséged a formázásához. Ilyen a [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) Windows-on, a [gparted](http://gparted.org/download.php) Linuxon, illetve a [Lemezkezelő](https://support.apple.com/hu-hu/guide/disk-utility/format-a-disk-for-windows-computers-dskutl1010/mac) Mac-en.
+Ha az új SD kártyád nagyobb mint 32GB akkor egy különleges eszközt kell használnod ahoz, hogy leformázd: [guiformat (Windows)](formatting-sd-(windows)), [Disk Utility (Mac)](formatting-sd-(mac)), vagy [cfdisk (Linux)](formatting-sd-(linux)).
 {% endcapture %}
 
 <div class="notice--info">{{ notice-6 | markdownify }}</div>

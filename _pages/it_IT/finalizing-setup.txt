@@ -8,7 +8,7 @@ title: "Completamento dell'installazione"
 
 Il file `boot.firm` viene lanciato da boot9strap stesso al termine del caricamento dalla NAND, e può essere un qualunque payload arm9 valido in formato FIRM. Questo file può essere sostituito in qualunque momento, tuttavia Luma3DS permette il lancio di diversi payload arm9 in formato FIRM grazie al chainloader di Luma3DS.
 
-In questo caso, useremo Luma3DS di [AuroraWright](https://github.com/AuroraWright/) per avviare direttamente una SysNAND patchata, bypassando del tutto il bisogno di una EmuNAND. Questo semplifica l'uso di un 3DS così modificato, e permette di risparmiare spazio sulla scheda SD.
+In questo caso, useremo Luma3DS di [LumaTeam](https://github.com/LumaTeam/) per avviare direttamente una SysNAND patchata, bypassando del tutto il bisogno di una EmuNAND. Questo semplifica l'uso di un 3DS così modificato, e permette di risparmiare spazio sulla scheda SD.
 
 Durante la guida verranno anche configurate le seguenti applicazioni:
 
@@ -27,7 +27,7 @@ Durante la guida verranno anche configurate le seguenti applicazioni:
 * L'ultima versione di [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases/latest) *(il file `.cia`)*
 * L'ultima versione di [Homebrew Launcher Wrapper](https://github.com/mariohackandglitch/homebrew_launcher_dummy/releases/latest)
 * La versione v1.9.2pre1 di [GodMode9](https://github.com/d0k3/GodMode9/releases/tag/v1.9.2pre1)
-* L'ultima versione di [DSP1](https://github.com/zoogie/DSP1/releases/latest)
+* L'ultima versione di [DSP1](https://github.com/zoogie/DSP1/releases/latest) *(il file `.cia`)*
 * L'ultima versione di [FBI](https://github.com/Steveice10/FBI/releases/latest) *(i file `.cia` e `.3dsx`)*
 * Ultima versione di [ctr-no-timeoffset](https://github.com/ihaveamac/ctr-no-timeoffset/releases/latest)
 * L'ultima versione di [Luma3DS Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest) *(il file `.cia`)*
@@ -177,7 +177,7 @@ Puoi premere i pulsanti (L) + (Giù) + (Select) in qualunque momento per acceder
 {% capture notice-6 %}
 Se volessi utilizzare una scheda SD più capiente, devi solo formattare la nuova scheda SD come FAT32 e incollare all'interno della nuova scheda SD il contenuto della vecchia scheda SD.
 
-Se la tua scheda SD dispone di più di 32GB di spazio, devi utilizzare un programma diverso per formattarla, come [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) su Windows, [gparted](http://gparted.org/download.php) su Linux, o [Disk Utility](https://support.apple.com/en-gb/guide/disk-utility/format-a-disk-for-windows-computers-dskutl1010/mac) su Mac.
+Se la tua nuova scheda SD è più grande di 32GB, dovrai utilizzare un'applicazione diversa per formattarla, come [guiformat (Windows)](formatting-sd-(windows)), [Disk Utility (Mac)](formatting-sd-(mac)), o [cfdisk (Linux)](formatting-sd-(linux)).
 {% endcapture %}
 
 <div class="notice--info">{{ notice-6 | markdownify }}</div>
