@@ -24,11 +24,12 @@ Ez azt jelenti, hogy kártyafrissítés egy olyan verzióról, amelyhez régebbi
 ### Amire szükséged lesz
 
 * A [Soundhax](http://soundhax.com) legújabb kiadása *(a régiódnak, készülékednek és rendszer verziódnak megfelelő változat)*
+  + Ha a Soundhax a böngésződben nem lejátszható videónak tűnik, nyomj Ctrl+S vagy Cmd+S gombokat a gépedre mentéséhez
 * A [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest) legújabb kiadása
 * A [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) legújabb kiadása *(a sima boot9strap; nem a `devkit` fájl, nem az `ntr` fájl)*
 * A [safehax](https://github.com/TiniVi/safehax/releases/latest) legújabb kiadása *(a`.3dsx` fájl)*
 * A [udsploit](https://github.com/smealum/udsploit/releases/latest) legújabb kiadása
-* A [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) legújabb kiadása
+* Az [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest) legújabb verziója
 * Az [otherapp payload](https://smealum.github.io/3ds/#otherapp) *(a készüléked verziójának és régiójának megfelelő változat)*
 
 ### Lépések

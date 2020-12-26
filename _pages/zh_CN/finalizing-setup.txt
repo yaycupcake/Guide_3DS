@@ -8,7 +8,7 @@ title: "完成安装"
 
 `boot.firm` 文件是 boot9strap 在加载 NAND 之后自行启动的文件，它可以是任意有效的、FIRM格式的 arm9 payload。 你可以随时替换此文件，不过 Luma3DS 允许通过引导菜单加载其他 FIRM 格式的 arm9 payload。
 
-本教程中，我们将使用 [AuroraWright](https://github.com/AuroraWright/) 制作的 Luma3DS 来直接启动一个破解过的 SysNAND，完全不用 EmuNAND 并简化破解3DS系统的步骤和节省 SD 卡的空间。
+本教程中，我们将使用 [LumaTeam](https://github.com/LumaTeam/) 制作的 Luma3DS 来直接启动一个破解过的真实系统（SysNAND），完全用不到虚拟系统（EmuNAND）（简化破解3DS系统的步骤并节省 SD 卡的空间）。
 
 在这个过程当中，我们还会安装像下面所示的几个工具：
 
@@ -27,14 +27,14 @@ title: "完成安装"
 * 最新版 [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases/latest) *（下载 `.cia` 文件）*
 * 最新版 [Homebrew Launcher Wrapper](https://github.com/mariohackandglitch/homebrew_launcher_dummy/releases/latest)
 * v1.9.2pre1 版的 [GodMode9](https://github.com/d0k3/GodMode9/releases/tag/v1.9.2pre1)
-* 最新版 [DSP1](https://github.com/zoogie/DSP1/releases/latest)
+* 最新版 [DSP1](https://github.com/zoogie/DSP1/releases/latest) *（`.cia` 文件）*
 * 最新版 [FBI](https://github.com/Steveice10/FBI/releases/latest) **（下载 `.cia` 和 `.3dsx` 文件）**
 * 最新版 [ctr-no-timeoffset](https://github.com/ihaveamac/ctr-no-timeoffset/releases/latest)
 * 最新版 [Luma3DS Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest) **（下载后缀为 `.cia` 的文件）**
 
 ### 操作步骤
 
-#### 第一步 — 准备工作
+#### 第一步 – 准备工作
 
 1. 将设备关机
 1. 将你的 SD 卡插入电脑
@@ -54,7 +54,7 @@ title: "完成安装"
 1. 将 SD 卡重新插入设备
 1. 启动你的主机
 
-#### 第二步 — 更新系统
+#### 第二步 – 更新系统
 
 如果你按照旧版的教程将你的 *New 3DS* 降级到了2.1.0，你应当在执行这些步骤前[还原 NAND 备份](godmode9-usage#restoring-a-nand-backup)
 {: .notice--danger}
@@ -68,7 +68,7 @@ title: "完成安装"
   + 如果在更新中途出错，请将主机的 DNS 设置改为 “auto(自动)”
   + 如果仍然提示错误，请进行 [CTRTransfer](ctrtransfer)，然后再尝试一次更新
 
-#### 第三步 — 进入 Homebrew Launcher
+#### 第三步 – 进入 Homebrew Launcher
 
 1. 启动“下载通信(Download Play)”程序 (![]({{ "/images/download-play-icon.png" | absolute_url }}){: height="24px" width="24px"})
 1. 等到你看到两个按钮
@@ -87,19 +87,19 @@ title: "完成安装"
 1. 按 “Start” 键返回到 Homebrew Launcher
 1. 从自制程序列表中找到并启动 FBI
 
-#### 第四步 — 安装CIA
+#### 第四步 – 安装CIA
 
 1. 移动至 `SD` -> `cias`
 1. 选择 “\<current directory>”
 1. 选择“安装和删除所有 CIA(Install and delete all CIAs)”选项，并按 “A” 键确认
 1. 按下 “Home” 键，然后关闭“下载通信(Download Play)”
 
-#### 第五步 — 导出 DSP
+#### 第五步 – 导出 DSP
 
 1. 启动 DSP1 应用
 1. 处理完毕后，按 “B” 键自动删除该应用程序并返回到主菜单
 
-#### 第六步 — 将 Luma3DS 复制到 CTRNAND
+#### 第六步 – 将 Luma3DS 复制到 CTRNAND
 
 1. 将设备关机
 1. 开机时按住 “Start” 键启动 GodMode9
@@ -114,14 +114,14 @@ title: "完成安装"
 1. 按 “A” 键解锁SysNAND (lvl1) 写入权限，并根据屏幕上的提示依次按下按键
 1. 按 “A” 键继续
 
-#### 第七步 — 清理 SD 卡
+#### 第七步 – 清理 SD 卡
 
 1. 选择 “Cleanup SD Card”
 1. 出现提示时，按 “A” 键继续
 1. 按 “A” 键继续
 1. 按 “B” 键返回到主菜单
 
-#### 第七节 — 备份基础文件
+#### 第七节 – 备份基础文件
 
 1. 选择 “Backup Options”
 1. 选择 “SysNAND Backup”
@@ -175,9 +175,9 @@ ___
 <div class="notice--info">{{ notice-6 | markdownify }}</div>
 
 {% capture notice-6 %}
-如果你想要更换更大的 SD 卡，只需要将 SD卡格式化为 FAT32 后，将原 SD 卡文件复制到新 SD 卡即可
+如果你想要更换更大的 SD 卡，只需要将 SD卡格式化为 FAT32 后，将原 SD 卡文件复制到新 SD 卡即可。
 
-如果你的 SD 卡大于 32GB，那么你需要使用其他的工具来格式化 SD 卡；例如 Windows 上的 [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm)、Linux 上的 [gparted](http://gparted.org/download.php)、Mac 上的[磁盘工具程序](https://support.apple.com/en-gb/guide/disk-utility/format-a-disk-for-windows-computers-dskutl1010/mac)。
+如果你的新 SD 卡大于 32GB，那么你需要使用一个工具来格式化它。例如：Windows 上的 [guiformat](formatting-sd-(windows))，Mac 上的 [Disk Utility](formatting-sd-(mac))，Linux 上的 [cfdisk](formatting-sd-(linux))。
 {% endcapture %}
 
 <div class="notice--info">{{ notice-6 | markdownify }}</div>

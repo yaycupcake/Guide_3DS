@@ -16,7 +16,7 @@ title: "Seedminer"
 
 ### 操作步骤
 
-#### 第一步 — 准备工作
+#### 第一步 – 准备工作
 
 1. 将你的 SD 卡插入到电脑
 1. 打开你 SD 卡的 `Nintendo 3DS` 文件夹
@@ -38,7 +38,7 @@ title: "Seedminer"
   + 如果出现错误信息并被踢回到主菜单，则你需要创建一个 Mii 形象或你的设备无法连接到任天堂服务器（由于封禁或网络问题）
 1. 找到你的 Mii 个人形象，然后在上屏寻找你的“朋友代码（Friend Code）”
 
-#### 第二步 — Seedminer
+#### 第二步 – Seedminer
 
 1. 在你的电脑上打开 [Bruteforce Movable](https://seedminer.hacks.guide/)
   + 这个网站可以自动替你获取 `movable_part1.sed` 文件（通过一台由机器人操控的 3DS），并破解你主机的 DSiWare 密钥（通过某自愿者的电脑运行 Seedminer 取得）
@@ -55,7 +55,7 @@ title: "Seedminer"
 1. 一旦网页开始处理你主机的相关信息，你将可以选择“继续（Contiune）”或“破解其他设备 （Do another device）” 点击绿色的 “Continue” 按钮
 1. 等待其完成步骤中的其余部分
   + 这通常是很快的（1～5 分钟左右），但是在某些情况下可能会需要长达半小时。
-  + 在这个过程中，你之前添加的机器人 3DS 可能不会在你的 3DS 上面展示 不过只要网站还在更新，这就不是个问题。
+  + 在这个过程中，你之前添加的机器人好友可能不会在你的 3DS 上面展示 不过只要网站还在更新，这就不是个问题。
   + 如果你已经等待了半个小时，那么请加入 [Nintendo Homebrew Discord 服务器](https://discord.gg/MWxPgEp) 并使用英文求助。你也可以到译者的<a href="https://jq.qq.com/?_wv=1027&k=5CfEA4c">QQ群</a>寻求帮助，群号为942052497。
 1. 等待程序自动完成后，从站点下载 `movable.sed` 文件
   + 你在之后还会用到这个文件，请先把这个文件存起来
@@ -66,7 +66,7 @@ ___
 
 这种将使用 Seedminer 进行进一步破解的方法使用了你的 `movable.sed` 来利用所有机型都有的 SAFE_MODE 固件来进行破解系统。
 
-这个方法对除港（台）和神游版机以外的所有区域兼容。
+此方法对除神游和港（台）版外的所有区域兼容，但需要使用到肩键。
 
 继续至[安装 boot9strap（通过 USM）](installing-boot9strap-(usm))
 {: .notice--primary}
