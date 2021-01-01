@@ -4,7 +4,7 @@ title: "BannerBomb3"
 
 {% include toc title="Table des matières" %}
 
-Cette page a été marquée en tant qu'ancienne méthode car elle a été remplacée par des méthodes plus rapides et plus sûres. Vous ne devriez la suivre que si vous ne pouvez pas suivre [Installer boot9strap (USM)](installing-boot9strap-(usm)).
+Les méthodes basées sur Seedminer ont été remplacées par des méthodes plus simples et plus sûres. Veuillez retourner à [Bien Démarrer](get-started) à moins que vous n'ayez une raison légitime de suivre cette page (si vos boutons L et R sont cassés).
 {: .notice--warning}
 
 ### Lecture requise
