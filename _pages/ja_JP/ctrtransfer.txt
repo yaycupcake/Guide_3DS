@@ -2,20 +2,23 @@
 title: "CTRTransfer"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="目次" %}
 
-### Required Reading
+### 必ずお読みください
 
-This is add-on section for installing an 11.5.0 CTRTransfer image to your device.
+このページは、お使いの本体に 11.5.0 CTRTransfer をインストールする方法を解説する補足ページです。
 
-To use the [magnet](https://wikipedia.org/wiki/Magnet_URI_scheme) links on this page, you will need a torrent client like [Deluge](http://dev.deluge-torrent.org/wiki/Download).
+このページの [magnet](https://wikipedia.org/wiki/Magnet_URI_scheme) リンクを使用するには、[Deluge](http://dev.deluge-torrent.org/wiki/Download)のようなTorrentクライアントが必要です。
 
-Note that if you have any payload files other than `GodMode9.firm` in the `/luma/payloads/` folder on your SD card, holding (Start) on boot will display a "chainloader menu" where you will have to use the D-Pad and the (A) button to select "GodMode9" for these instructions. 
+SDカードの/luma/payloadsフォルダに
+godmode9.firm以外のペイロードがある場合、
+起動時に (start) を長押しするとchainloaderメニューが表示されます。
+十字キーでgodmode9を選択して　(A) ボタンを押してください。 
 
 You MUST have already installed Luma3DS and boot9strap to use this.
 {: .notice--danger}
 
-### What You Need
+### 必要なもの
 
 * The v1.9.2pre1 release of [GodMode9](https://github.com/d0k3/GodMode9/releases/tag/v1.9.2pre1)
 * The latest release of [FBI](https://github.com/Steveice10/FBI/releases/latest) *(the`.3dsx` file)*
@@ -34,7 +37,7 @@ You MUST have already installed Luma3DS and boot9strap to use this.
 
 #### Section I - Prep Work
 
-1. Power off your device
+1. 本体の電源を切ります。
 1. パソコンにSDカードを入れます
 1. Create a folder named `3ds` on the root of your SD card if it does not already exist
 1. Create a folder named `cias` on the root of your SD card if it does not already exist
@@ -56,8 +59,8 @@ You MUST have already installed Luma3DS and boot9strap to use this.
 1. Select "Transfer image to CTRNAND"
 1. If prompted, select "Transfer to SysNAND"
   + This prompt will only appear if you have an EmuNAND
-1. Press (A) to unlock SysNAND (lvl1) writing, then input the key combo given
-  + This process will take some time
+1. (A) ボタンを押し、表示されるコンボを入力することで、 SysNAND (lvl1) への書き込みを許可します
+  + この作業には少し時間がかかります
 1. Once the transfer has completed, press (A) to continue
 1. Press (B) to decline relocking write permissions if prompted
 1. Press (B) twice to return to the main menu
@@ -87,7 +90,7 @@ You MUST have already installed Luma3DS and boot9strap to use this.
 1. Press (B) to exit the Rosalina menu
 1. Press (Home), then close Download Play
 1. Launch the Download Play application
-1. Your device should load the Homebrew Launcher
+1. デバイスでHomebrew Launcherが起動されます
 
 #### Section IV - Reinstalling Tickets
 
@@ -95,7 +98,7 @@ If script found no user tickets told you to skip this section, then skip this se
 {: .notice--info}
 
 1. Launch FBI from the list of homebrew
-1. Navigate to `SD` -> `cias`
+1. SDカードのciasフォルダに移動します
 1. Return to the SD directory with (B)
 1. Select "gm9"
 1. Select "out"

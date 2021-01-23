@@ -2,13 +2,13 @@
 title: "Installing boot9strap (ntrboot)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="目次" %}
 
 ### Required Reading
 
-To use the [magnet](https://wikipedia.org/wiki/Magnet_URI_scheme) links on this page, you will need a torrent client like [Deluge](http://dev.deluge-torrent.org/wiki/Download).
+このページの [magnet](https://wikipedia.org/wiki/Magnet_URI_scheme) リンクを使用するには、[Deluge](http://dev.deluge-torrent.org/wiki/Download)のようなTorrentクライアントが必要です。
 
-### What You Need
+### 必要なもの
 
 * A magnet that triggers the sleep mode of your device (if using a folding style device)
 * Your ntrboot flashed flashcart
@@ -20,7 +20,7 @@ To use the [magnet](https://wikipedia.org/wiki/Magnet_URI_scheme) links on this 
 
 #### Section I - Prep Work
 
-1. Power off your device
+1. 本体の電源を切ります。
 1. Insert your console's SD card into your computer
   + This is the SD card from your 3DS, *not* the SD card from your flashcart
 1. Copy `SafeB9SInstaller.firm` to the root of your console's SD card and rename it to `boot.firm`
@@ -32,13 +32,13 @@ To use the [magnet](https://wikipedia.org/wiki/Magnet_URI_scheme) links on this 
     {: .notice--info}
 
 1. Reinsert your SD card into your 3DS
-1. Power on your device
+1. デバイスの電源を入れます
 
 #### Section II - ntrboot
 
 1. Use the magnet to find the spot on your device where the sleep sensor is triggered
   + This step is not needed on the old 2DS (which has a sleep mode switch)
-1. Power off your device
+1. 本体の電源を切ります。
 1. Insert your flashcart into your device
 1. Place the magnet on your device to trigger the sleep sensor
   + On old 2DS, you should instead enable the sleep mode switch
@@ -61,7 +61,7 @@ To use the [magnet](https://wikipedia.org/wiki/Magnet_URI_scheme) links on this 
 1. Delete `boot.firm` from the root of your SD card
 1. Copy `boot.firm` from the Luma3DS `.zip` to the root of your SD card
 1. Reinsert your SD card into your device
-1. Power on your device
+1. デバイスの電源を入れます
 1. Your device should have booted into the Luma3DS configuration menu
   + If you get a black screen, [follow this troubleshooting guide](troubleshooting#black-screen-on-sysnand-boot-after-installing-boot9strap)
 1. Use the (A) button and the D-Pad to turn on the following:
@@ -120,7 +120,7 @@ Do not follow this section until you have completed the rest of the instructions
 
 ##### Instructions
 
-1. Power off your device
+1. 本体の電源を切ります。
 1. パソコンにSDカードを入れます
   + This is the SD card from your 3DS, *not* the SD card from your flashcart
 1. Create a folder named `ntrboot` on the root of your SD card

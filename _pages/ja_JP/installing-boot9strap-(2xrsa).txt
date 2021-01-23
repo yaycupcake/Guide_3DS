@@ -2,9 +2,9 @@
 title: "Installing boot9strap (2xrsa)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="目次" %}
 
-### What You Need
+### 必要なもの
 
 * The latest release of [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
 * The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(standard boot9strap; not the `devkit` file, not the `ntr` file)*
@@ -14,7 +14,7 @@ title: "Installing boot9strap (2xrsa)"
 
 #### Section I - Prep Work
 
-1. Power off your device
+1. 本体の電源を切ります。
 1. パソコンにSDカードを入れます
 1. Copy `boot.firm` and `boot.3dsx` from the Luma3DS `.zip` to the root of your SD card
 1. Create a folder named `boot9strap` on the root of your SD card
@@ -25,7 +25,7 @@ title: "Installing boot9strap (2xrsa)"
     {: .notice--info}
 
 1. Reinsert your SD card into your device
-1. Power on your device
+1. デバイスの電源を入れます
 
 #### Section II - Launching SafeB9SInstaller
 
