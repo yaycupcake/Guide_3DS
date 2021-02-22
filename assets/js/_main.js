@@ -204,7 +204,7 @@ $(document).ready(function(){
 
     }
     // Can add custom routing if necessary but currently both routes are identical
-    var device_old =  ({}, device_common,{
+    var device_old =  Object.assign({}, device_common,{
       // custom routing here
       // example: "24": ["seedminer", "multiple-options", "installing-boot9strap-(pichaxx)", "finalizing-setup"],
     });
