@@ -127,6 +127,10 @@ $(document).ready(function(){
     "get-started-(new-3ds)": "1",
   };
 
+  // The pages used to lookup which route to display
+  // parsed from the location of the url
+  // the value is the key to the displayed route in the device_common/old/new variable below
+  // 
   var methods = {
     "installing-boot9strap-(2xrsa)": "0",
     "installing-boot9strap-(mset)": "1",
@@ -139,18 +143,16 @@ $(document).ready(function(){
     "flashing-ntrboot-(3ds-multi-system)": "10",
     "flashing-ntrboot-(dsi)": "11",
     "flashing-ntrboot-(nds)": "12",
-    "flashing-ntrboot-(powersaves)": "13",
     "installing-boot9strap-(hardmod)": "14",
     "seedminer": "15",
-    "homebrew-launcher-(steelhax)": "16",
     "installing-boot9strap-(fredtool)": "17",
     "bannerbomb3": "18",
     "homebrew-launcher-(pichaxx)": "19",
     "installing-boot9strap-(usm)": "20",
-    "installing-boot9strap-(hbl-usm)": "21",
-	"installing-boot9strap-(safecerthax)": "22",
-	"installing-boot9strap-(ssloth-browser)": "23",
-  };
+	  "installing-boot9strap-(safecerthax)": "22",
+	  "installing-boot9strap-(ssloth-browser)": "23",
+    "installing-boot9strap-(pichaxx)": "24",
+};
 
   for(var device in devices){
     if(window.location.href.indexOf("/" + device) > -1) {
@@ -171,29 +173,14 @@ $(document).ready(function(){
 
   if(sidebar_shown){
     var unhide = [];
-    var device_old = {
-      "0": ["installing-boot9strap-(2xrsa)", "finalizing-setup"],
-      "1": ["installing-boot9strap-(mset)", "finalizing-setup"],
-      "3": ["homebrew-launcher-(soundhax)", "installing-boot9strap-(homebrew-launcher)", "finalizing-setup"],
-      "4": ["homebrew-launcher-(alternatives)", "installing-boot9strap-(homebrew-launcher)", "finalizing-setup"],
-      "7": ["installing-boot9strap-(soundhax)", "finalizing-setup"],
-      "8": ["ntrboot", "multiple-options", "installing-boot9strap-(ntrboot)", "finalizing-setup"],
-      "9": ["ntrboot", "flashing-ntrboot-(3ds-single-system)", "installing-boot9strap-(ntrboot)", "finalizing-setup"],
-      "10": ["ntrboot", "flashing-ntrboot-(3ds-multi-system)", "installing-boot9strap-(ntrboot)", "finalizing-setup"],
-      "11": ["ntrboot", "flashing-ntrboot-(dsi)", "installing-boot9strap-(ntrboot)", "finalizing-setup"],
-      "12": ["ntrboot", "flashing-ntrboot-(nds)", "installing-boot9strap-(ntrboot)", "finalizing-setup"],
-      "13": ["ntrboot", "flashing-ntrboot-(powersaves)", "installing-boot9strap-(ntrboot)", "finalizing-setup"],
-      "14": ["installing-boot9strap-(hardmod)", "finalizing-setup"],
-      "15": ["seedminer", "multiple-options", "finalizing-setup"],
-      "16": ["seedminer", "homebrew-launcher-(steelhax)", "installing-boot9strap-(frogtool)", "finalizing-setup"],
-      "17": ["seedminer", "multiple-options", "installing-boot9strap-(fredtool)", "finalizing-setup"],
-      "18": ["seedminer", "bannerbomb3", "installing-boot9strap-(fredtool)", "finalizing-setup"],
-      "19": ["seedminer", "homebrew-launcher-(pichaxx)", "installing-boot9strap-(frogtool)", "finalizing-setup"],
-      "20": ["seedminer", "installing-boot9strap-(usm)", "finalizing-setup"],
-      "21": ["homebrew-launcher-(browserhax-2020)", "installing-boot9strap-(hbl-usm)", "finalizing-setup"],
-      "22": ["installing-boot9strap-(safecerthax)", "finalizing-setup"],
-    };
-    var device_new = {
+
+    // Common paths for navigation. Added to both routes.
+    // These values of the array will be mapped to the _data/navigation/country_lang.yml files
+    // be sure to add the relevent values to it, in the order of display. (finalizing setup last, for instance)
+    // 
+    // The key/propery name must match the value associated with the page in the methods variable above
+    //
+    var device_common = {
       "0": ["installing-boot9strap-(2xrsa)", "finalizing-setup"],
       "1": ["installing-boot9strap-(mset)", "finalizing-setup"],
       "2": ["installing-boot9strap-(browser)", "finalizing-setup"],
@@ -205,17 +192,25 @@ $(document).ready(function(){
       "10": ["ntrboot", "flashing-ntrboot-(3ds-multi-system)", "installing-boot9strap-(ntrboot)", "finalizing-setup"],
       "11": ["ntrboot", "flashing-ntrboot-(dsi)", "installing-boot9strap-(ntrboot)", "finalizing-setup"],
       "12": ["ntrboot", "flashing-ntrboot-(nds)", "installing-boot9strap-(ntrboot)", "finalizing-setup"],
-      "13": ["ntrboot", "flashing-ntrboot-(powersaves)", "installing-boot9strap-(ntrboot)", "finalizing-setup"],
       "14": ["installing-boot9strap-(hardmod)", "finalizing-setup"],
       "15": ["seedminer", "multiple-options", "finalizing-setup"],
-      "16": ["seedminer", "homebrew-launcher-(steelhax)", "installing-boot9strap-(frogtool)", "finalizing-setup"],
       "17": ["seedminer", "multiple-options", "installing-boot9strap-(fredtool)", "finalizing-setup"],
       "18": ["seedminer", "bannerbomb3", "installing-boot9strap-(fredtool)", "finalizing-setup"],
       "19": ["seedminer", "homebrew-launcher-(pichaxx)", "installing-boot9strap-(frogtool)", "finalizing-setup"],
       "20": ["seedminer", "installing-boot9strap-(usm)", "finalizing-setup"],
-      "21": ["homebrew-launcher-(browserhax-2020)", "installing-boot9strap-(hbl-usm)", "finalizing-setup"],
-	  "23": ["installing-boot9strap-(ssloth-browser)", "finalizing-setup"],
-    };
+      "22": ["installing-boot9strap-(safecerthax)", "finalizing-setup"],
+      "23": ["installing-boot9strap-(ssloth-browser)", "finalizing-setup"],
+      "24": ["seedminer", "installing-boot9strap-(pichaxx)", "finalizing-setup"],
+
+    }
+    // Can add custom routing if necessary but currently both routes are identical
+    var device_old =  Object.assign({}, device_common,{
+      // custom routing here
+      // example: "24": ["seedminer", "multiple-options", "installing-boot9strap-(pichaxx)", "finalizing-setup"],
+    });
+    var device_new = Object.assign({}, device_common,{
+      // custom routing here
+    });
     var route = {
       "0": device_old,
       "1": device_new,

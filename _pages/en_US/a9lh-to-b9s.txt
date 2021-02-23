@@ -14,19 +14,8 @@ To use the [magnet](https://wikipedia.org/wiki/Magnet_URI_scheme) links on this 
 
 To extract the `.7z` files linked on this page, you will need a file archiver like [7-Zip](http://www.7-zip.org/) or [The Unarchiver](https://theunarchiver.com/).
 
-{% capture notice-1 %}
-While we believe custom firmware is relatively safe at this time, it is important to note that it will never be "ban free".
-
-You should avoid the following actions:
-1. Piracy
-1. Cheating online
-1. Suspicious behaviour on eShop (for example, credit card chargebacks)
-
-We believe SpotPass and StreetPass are also safe for use at this time.
-
-{% endcapture %}
-
-<div class="notice--danger">{{ notice-1 | markdownify }}</div>
+While we believe that custom firmware is safe for online use, there have been online network bans in the past, primarily for cheating and suspicious eShop behavior.
+{: .notice--warning}
 
 ### What You Need
 
@@ -40,7 +29,7 @@ Note that, only on New 3DS, `secret_sector.bin` is needed to revert the arm9load
 * The latest release of [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest) 
 * The v7.0.5 release of [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/tag/v7.0.5) *(the `.7z` file)*
 * The latest release of [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
-* The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(standard boot9strap; not the `devkit` file, not the `ntr` file)*
+* The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(`boot9strap-1.3.zip`; not the `devkit` file, not the `ntr` file)*
 
 ### Instructions
 

@@ -2,9 +2,9 @@
 title: "Installing Boot9strap (Fredtool)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="目次" %}
 
-This page has been marked as a Legacy Method because it has been superseded by faster, safer methods. You should only follow it if you are unable to follow [Installing boot9strap (USM)](installing-boot9strap-(usm)).
+Seedminer-based methods have been replaced by easier, safer methods. Please return to [Get Started](get-started) unless you have a legitimate reason to follow this page (such as broken shoulder buttons).
 {: .notice--warning}
 
 ### Required Reading
@@ -13,7 +13,7 @@ This method of using Seedminer for further exploitation uses your `movable.sed` 
 
 This is a currently working implementation of the "FIRM partitions known-plaintext" exploit detailed [here](https://www.3dbrew.org/wiki/3DS_System_Flaws).
 
-### What You Need
+### 必要なもの
 
 * A DSiWare Backup (such as the one on SD root from [BannerBomb3](bannerbomb3))
 * Your `movable.sed` file from completing [Seedminer](seedminer)
@@ -21,9 +21,9 @@ This is a currently working implementation of the "FIRM partitions known-plainte
 * The latest release of [b9sTool](https://github.com/zoogie/b9sTool/releases/latest)
 * The latest release of [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest)
 
-#### Section I - Prep Work
+#### セクション I - 準備
 
-1. Power off your device
+1. 本体の電源を切ります。
 1. パソコンにSDカードを入れます
 1. Copy `boot.firm` and `boot.3dsx` from the Luma3DS `.zip` to the root of your SD card
 1. Copy `boot.nds` (B9STool) to the root of your SD card
@@ -44,8 +44,8 @@ This is a currently working implementation of the "FIRM partitions known-plainte
   + The `<ID1>` is a 32 character long folder inside of the `<ID0>`
   + If the `Nintendo DSiWare` folder does not exist, create it inside of the `<ID1>`
 1. Copy the `42383841.bin` file from the `output/hax/` folder of the downloaded DSiWare archive (`fredtool_output.zip`) to the `Nintendo DSiWare` folder
-1. Reinsert your SD card into your device
-1. Power on your device
+1. 再度、SDカードを本体に挿入してください。
+1. デバイスの電源を入れます
 1. Launch System Settings on your device
 1. Navigate to `Data Management` -> `DSiWare`
 1. Under the "SD Card" section, select the "Haxxxxxxxxx!" title
@@ -88,12 +88,12 @@ If you would prefer a visual guide to this section, one is available [here](http
 
 #### Section V - Restoring DS Connection Settings
 
-1. Power off your device
+1. 本体の電源を切ります。
 1. パソコンにSDカードを入れます
 1. Copy the `42383841.bin` file from the `output/clean/` folder of the downloaded DSiWare archive (`fredtool_output.zip`) to the `Nintendo 3DS/<ID0>/<ID1>/Nintendo DSiWare/` folder on your SD card
   + Replace the existing `42383841.bin` file
-1. Reinsert your SD card into your device
-1. Power on your device
+1. 再度、SDカードを本体に挿入してください。
+1. デバイスの電源を入れます
 1. Launch System Settings on your device
 1. Navigate to `Data Management` -> `DSiWare`
 1. Under the "SD Card" section, select the "Nintendo DSi™" title
@@ -101,5 +101,5 @@ If you would prefer a visual guide to this section, one is available [here](http
 
 ___
 
-### Continue to [Finalizing Setup](finalizing-setup)
+[セットアップを完了する](finalizing-setup) へ進みます
 {: .notice--primary}

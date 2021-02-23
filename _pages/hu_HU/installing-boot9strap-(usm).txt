@@ -4,6 +4,9 @@ title: "Boot9strap telepítése (USM)"
 
 {% include toc title="Tartalomjegyzék" %}
 
+A Seedminer alapú metódusok könnyebb, biztonságosabb metódusokkal kerültek helyettesítésre. Menj vissza a [Kezdeti lépések](get-started) oldalra, kivéve, ha valós okod van, ennek az oldalnak a használatára (mint például hibás váll-gombok).
+{: .notice--warning}
+
 ### Fontos tudnivalók
 
 Ahhoz, hogy a SAFE_MODE-ot exploitálhassuk, be kell injektálnunk egy exploitált WiFi profilt.
@@ -27,8 +30,7 @@ Ha a (Jobb/Bal Váll), (D-Pad Fel) vagy (A) gombjaid nem működnek, egy [Legacy
 #### I. rész - Előkészületek
 
 1. Ha a konzolod be van kapcsolva, most kapcsold ki
-1. Nyisd meg az [unSAFE_MODE-bb3 tool](https://usm.bruteforcemovable.com/) oldalt a számítógépeden
-  + Ha az oldal nem működik, próbáld meg [ezt](https://3ds.nhnarwhal.com/3dstools/unsafemode.php)
+1. Nyisd meg az [unSAFE_MODE-bb3 tool](https://3ds.nhnarwhal.com/3dstools/unsafemode.php/) oldalt a számítógépeden
 1. Töltsd fel a `movable.sed` fájlod a "Choose File" opcióval
 1. Kattints a "Download unSAFE_MODE-bb3 archive"-ra
   + Ez letölt egy exploit DSiWare-t `F00D43D5.bin` néven és egy SAFE_MODE exploit adatfájlt `usm.bin` néven egy zip mappán belül (`unSAFE_MODE-bb3.zip`)

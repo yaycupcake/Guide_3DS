@@ -4,7 +4,7 @@ title: "BannerBomb3"
 
 {% include toc title="Содержание" %}
 
-This page has been marked as a Legacy Method because it has been superseded by faster, safer methods. You should only follow it if you are unable to follow [Installing boot9strap (USM)](installing-boot9strap-(usm)).
+Seedminer-based methods have been replaced by easier, safer methods. Please return to [Get Started](get-started) unless you have a legitimate reason to follow this page (such as broken shoulder buttons).
 {: .notice--warning}
 
 ### Обязательно к прочтению
@@ -20,7 +20,7 @@ This page has been marked as a Legacy Method because it has been superseded by f
 * Ваш файл `movable.sed`, полученный на странице [Seedminer](seedminer)
 
 #### Часть I - BannerBomb3
-1. Перейдите по ссылке [BannerBomb3 Tool](https://bb3.bruteforcemovable.com/) на компьютере
+1. Open [BannerBomb3 Tool](https://3ds.nhnarwhal.com/3dstools/bannerbomb3.php) on your computer
 1. Загрузите свой movable.sed, используя опцию "Выберите файл"
 1. Выберите "Go"
   + Начнется загрузка эксплойта DSiWare `F00D43D5.bin` внутри zip-архива (`tadmuffin_out.zip`)

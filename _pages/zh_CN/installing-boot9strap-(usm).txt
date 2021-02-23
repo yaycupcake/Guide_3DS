@@ -4,6 +4,9 @@ title: "安装 boot9strap（通过 USM）"
 
 {% include toc title="目录内容" %}
 
+基于 Seedminer 的方法已被更简单且更安全的方法取代。 除非你有原因而不得不使用本教程，请回到[新手入门(get-started)查阅新的方法。
+{: .notice--warning}
+
 ### 必读事项
 
 为了破解系统的 SAFE_MODE 固件，我们需要注入一个已被破解的 WiFi 配置文件到主机中。
@@ -16,7 +19,7 @@ title: "安装 boot9strap（通过 USM）"
 
 这些操作可在美、欧、日、韩版的主机上工作，你可通过系统版本号末尾的 U，E，J，K 字符来区分主机版本。
 
-如果你的 L 键、R 键、↑ 键和 A 键中的其中一个按键坏了无法使用，则你只能使用[传统方法](legacy-methods)。 如需帮助，请加入 [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) 并使用英文求助。（请注意，如果你身处中国大陆，访问 Discord 可能需要科学上网），你也可以到译者的 [QQ 群](https://jq.qq.com/?_wv=1027&k=5CfEA4c)寻求帮助，群号为942052497。
+如果你的 L 键、R 键、↑ 键和 A 键中的其中一个按键坏了无法使用，则你只能使用[传统方法](legacy-methods)。 如需帮助，请加入 [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) 并使用英文求助。（请注意，如果你身处中国大陆，访问 Discord 可能需要科学上网），你也可以到译者的 [QQ 群](https://stray-soul.site/index.php/qqgroup)寻求帮助，群号为 942052497。
 {: .notice--warning}
 
 ### 你需要准备点啥？
@@ -27,8 +30,7 @@ title: "安装 boot9strap（通过 USM）"
 #### 第一步 – 准备工作
 
 1. 如果你的主机已经被你开机了，那么将其关机
-1. 在你的电脑上打开 [unSAFE_MODE-bb3 tool](https://usm.bruteforcemovable.com/) 
-  + 如果这个网站抛锚了，尝试[这个网站](https://3ds.nhnarwhal.com/3dstools/unsafemode.php)
+1. 在你的电脑上打开 [unSAFE_MODE-bb3 tool](https://3ds.nhnarwhal.com/3dstools/unsafemode.php)
 1. 点击 “选择文件” 选项，然后选择你的 movable.sed 上传
 1. 点击 “Download unSAFE_MODE-bb3 archive”
   + 这将下载一个包含了名为 `F00D43D5.bin` 的已被破解的 DSiWare 备份，和一个名为 `usm.bin` 的已被破解的 SAFE_MODE 存档的 zip 文件（`unSAFE_MODE-bb3.zip`）到你的电脑上

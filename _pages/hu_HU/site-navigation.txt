@@ -9,7 +9,9 @@ sitemap: false
 
 + [Telepítés véglegesítése](finalizing-setup)
 + [Boot9strap telepítése (Soundhax)](installing-boot9strap-(soundhax))
-+ [Seedminer](seedminer)
++ **New 3DS**: [Boot9strap telepítése (böngésző)](installing-boot9strap-(browser))
++ **Old 3DS**: [Boot9strap telepítése (safecerthax)](installing-boot9strap-(safecerthax))
+
 {% endcapture %}
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
@@ -35,6 +37,8 @@ sitemap: false
 + [SD formázás (Mac)](formatting-sd-(mac))
 + [SD formázás (Windows)](formatting-sd-(windows))
 + [Kezdeti lépések](get-started)
++ [Kezdeti lépések (New 3DS)](get-started-(new-3ds))
++ [Kezdeti lépések (Old 3DS)](get-started-(old-3ds))
 + [GodMode9 használata](godmode9-usage)
 + [H2testw (Windows)](h2testw-(windows))
 + [Főoldal](/)
@@ -46,11 +50,12 @@ sitemap: false
 + [Boot9strap telepítése (Fredtool)](installing-boot9strap-(fredtool))
 + [Boot9strap telepítése (Frogtool)](installing-boot9strap-(frogtool))
 + [Boot9strap telepítése (Hardmod)](installing-boot9strap-(hardmod))
-+ [Boot9strap telepítése (HBL-USM)](installing-boot9strap-(hbl-usm))
 + [Boot9strap telepítése (MSET)](installing-boot9strap-(mset))
 + [Boot9strap telepítése (ntrboot)](installing-boot9strap-(ntrboot))
 + [Boot9strap telepítése (SafeB9SInstaller)](installing-boot9strap-(safeb9sinstaller))
++ [Boot9strap telepítése (safecerthax)](installing-boot9strap-(safecerthax))
 + [Boot9strap telepítése (Soundhax)](installing-boot9strap-(soundhax))
++ [Boot9strap telepítése (SSLoth-Browser)](installing-boot9strap-(ssloth-browser))
 + [Boot9strap telepítése (USM)](installing-boot9strap-(usm))
 + [Legacy metódusok](legacy-methods)
 + [EmuNAND költöztetése](move-emunand)

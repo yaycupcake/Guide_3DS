@@ -8,25 +8,14 @@ title: "Mettre à jour B9S"
 
 Cette page s'adresse aux utilisateurs de boot9strap déjà présent sur leurs console afin de le mettre à jour vers la dernière version.
 
-{% capture notice-1 %}
-Bien que nous croyons que le custom firmware est relativement sûr en ce moment, il est important de noter qu'il existera toujours un risque de se faire bannir.
-
-Vous devriez éviter les actions suivantes :
-1. Le piratage
-1. La triche en ligne
-1. Comportement douteux sur l'eShop (par exemple, les oppositions sur carte bancaire après un achat sur l'eShop)
-
-Nous pensons aussi que SpotPass et StreetPass sont utilisables sans risque pour le moment.
-
-{% endcapture %}
-
-<div class="notice--danger">{{ notice-1 | markdownify }}</div>
+Bien que nous pensons que le custom firmware est sûr pour un utilisation en ligne, des cas de bannissements ont été rapportés dans le passé, principalement à cause de tricherie en ligne ou d'un comportement suspect de l'eShop.
+{: .notice--warning}
 
 ## Ce dont vous avez besoin
 
 * La dernière version de [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
 * La dernière version de [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(boot9strap standard, ni le fichier `devkit`, ni le fichier `ntr`)*
-* The latest release of [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest)
+* La dernière version de [Luma3DS] (https://github.com/LumaTeam/Luma3DS/releases/latest)
 
 ### Instructions
 
