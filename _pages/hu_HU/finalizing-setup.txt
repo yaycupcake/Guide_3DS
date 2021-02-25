@@ -15,6 +15,7 @@ Ezen folyamat közben további programokat is telepítünk, melyek az alábbiak:
 + **FBI** *(CIA formátumú játékokat és alkalmazásokat telepít)*
 + **Anemone3DS** *(egyedi témákat telepít)*
 +  **Checkpoint** *(3DS és DS játékok mentéseiről lehet biztonsági mentést készíteni és visszaállítani)*
++  **Universal-Updater** *(egy homebrew app store homebrew letöltéséhez a 3DS-re wifi-n keresztül)*
 + **GodMode9** *(sokféle dologra használható eszköz, például NAND és kártya műveletekre)*
 +  **Homebrew Launcher Loader** *(elindítja a Homebrew Launchert)*
 +  **DSP1** *(lehetővé teszi a homebrew applikációk számára a hangot)*
@@ -24,6 +25,7 @@ Ezen folyamat közben további programokat is telepítünk, melyek az alábbiak:
 
 * Az [Anemone3DS](https://github.com/astronautlevel2/Anemone3DS/releases/latest) legújabb kiadása *(a `.cia` fájl)*
 * A [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases/latest) legújabb kiadása *(a `.cia` fájl)*
+* A [Universal-Updater](https://github.com/Universal-Team/Universal-Updater/releases/latest) legújabb kiadása *(a `.cia` fájl)*
 * A [Homebrew Launcher Wrapper](https://github.com/mariohackandglitch/homebrew_launcher_dummy/releases/latest) legújabb kiadása
 * A [GodMode9](https://github.com/d0k3/GodMode9/releases/tag/v1.9.2pre1) v1.9.2pre1 kiadása
 * A [DSP1](https://github.com/zoogie/DSP1/releases/latest) legújabb kiadása *(a `.cia` fájl)*
@@ -37,6 +39,7 @@ Ezen folyamat közben további programokat is telepítünk, melyek az alábbiak:
 1. Kapcsold ki a készüléked
 1. Helyezd az SD kártyád a számítógépbe
 1. Hozz létre egy mappát `3ds` néven az SD kártyád gyökerében, ha még nem létezik ilyen
+    + Ez a mappa tárolja a homebrew applikációkat és adataikat; ez mást mint a `Nintendo 3DS` mappa, amit az eszköz automatikusan generál
 1. Hozz létre egy mappát `cias` néven az SD kártyád gyökerében, ha még nem létezik ilyen
 1. Másold a `ctr-no-timeoffset.3dsx`-et az SD kártyád `/3ds/` mappájába
 1. Másold az `FBI.3dsx` fájlt az SD kártyád `/3ds/` mappájába
@@ -45,6 +48,7 @@ Ezen folyamat közben további programokat is telepítünk, melyek az alábbiak:
 1. Másold a `DSP1.cia` fájlt az SD kártyád `/cias/` mappájába
 1. Másold az `Anemone3DS.cia` fájlt az SD kártyád `/cias/` mappájába
 1. Másold a `Checkpoint.cia` fájlt az SD kártyán található `/cias/` mappába
+1. Másold a `Universal-Updater.cia` fájlt az SD kártyád található `/cias/` mappájába
 1. Hozz létre egy mappát `payloads` néven az SD kártyád `luma` nevezetű mappájában, ha még nem létezik ilyen
 1. Másold át a `GodMode9.firm` fájlt a GodMode9 `.zip`-ből az SD kártyád `/luma/payloads/` mappájába
 1. Másold át a `gm9` mappát a GodMode9 `.zip`-ből az SD kártyád gyökerébe

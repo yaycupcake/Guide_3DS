@@ -4,19 +4,17 @@ title: "はじめに"
 
 {% include toc title="目次" %}
 
-### Required Reading
+### 必読事項
 
-The colors of the devices in the image may vary, but note the button placement and features of each device carefully to ensure you select the correct one.
-{: .notice}
-
-Click the image of your device to take you to the appropriate page.
-{: .notice--primary}
-
-Different device models, versions, and regions will require different steps to achieve the end goal of boot9strap powered Custom Firmware. This page will help you find where to start for your device.
-{: .notice--info}
-
-始める前には、[H2testw (Windows)](h2testw-(windows))、[F3 (Linux)](f3-(linux))か[F3X (Mac)](f3x-(mac))でSDカードのエラーをチェックするのは万全の策です！
+If you have hacked your 3DS in the past, or you purchased your 3DS second-hand, it is possible that your console already has custom firmware. You should [check for CFW](checking-for-cfw) before proceeding.
 {: .notice--warning}
+
+デバイスのモデル、バージョン、リージョンによって、boot9strap搭載のカスタムファームウェアの最終目標を達成するには、異なるステップが必要になります。 このページはあなたを正しい手順に導きます。
+
+デバイスの色は図で表示しているものと違うことがありますが、ボタンの位置とデバイスの機能をよく観察して選んでください。
+
+
+お使いの3DSの画像をクリックすると、適切なページに移動します。
 
 | New 3DS or New 2DS | Old 3DS or Old 2DS |
 |:-:|:-:|
