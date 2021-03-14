@@ -1,46 +1,44 @@
 ---
-title: "Legacy Methods"
+title: "他の方法"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="目次" %}
 
-### Required Reading
+### 必ずお読みください
 
-There have been multiple improvements and advancements to methods for installing CFW over the last short while.
+CFWの導入方法は、この短期間で複数の改善と進歩がありました。
 
-For this reason, it is recommended you use the most up-to-date method found on the [Get Started](get-started) page.
+そのため、可能な限り[boot9strapのインストール (USM)](installing-boot9strap-(usm)) に従うことをお勧めします。
 
-However, "legacy" or outdated methods are kept here for various purposes. They will require that you have done [Seedminer](seedminer) first.
+しかし、様々な目的のために、過去の方法がここに保管されています。 そのためには、まず[Seedminer](seedminer) をする必要があります。
 
-If you need help, join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) and ask, in English, for assistance.
+質問がある場合、[Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp)にて英語で質問して下さい。
 
-#### Section I - Compatibility Test
+####セクションⅠ－互換性テスト
 
-The following exploits make use of one of two DS-mode applications built into the 3DS: DS Internet Settings and DS Download Play.
+これからするテストは、3DSの中にある、DSインターネット設定とDSダウンロードプレイのうちのどれかを使います。
 
-If both DS Internet Settings and DS Download Play fail to work, you will have to repair them with [TWLFix-3DS](https://github.com/MechanicalDragon0687/TWLFix-3DS/releases/) using a homebrew entrypoint, such as Pichaxx.
+DSインターネット設定やDSダウンロードプレイが作動しない場合、PitchaxxなどのHomebrewエントリーポイントを用いて[TWLFix-3DS](https://github.com/MechanicalDragon0687/TWLFix-3DS/releases/)で修理する必要があります。
 
-#### DS Internet Settings Test (used for Fredtool)
+####DSインターネット設定テスト(Fredtool用)
 
-1. Go to System Settings, then "Internet Settings", then "Nintendo DS Connections"
-1. Press "OK"
-1. If your device loads into a "Nintendo Wi-Fi Connection Setup" menu, the test was successful
-  + If the screen stays black or appears to freeze, the test has failed
-1. Exit this menu
+1. 「本体設定」に進み、「インターネット設定」から「DSソフト用設定」を選択します。
+1. 「OK」を押します
+1. そのまま「Wi-Fi コネクション設定」メニューが読み込まれていれば成功です。
+  + 画面が黒いままになったりフリーズした場合は失敗です
+1. このメニューを終了します
 
-#### DS Download Play Test (used for Frogtool)
+#### DSダウンロードプレイのテスト (Frogtool用)
 
-1. Launch the Download Play application (![]({{ "/images/download-play-icon.png" | absolute_url }}){: height="24px" width="24px"})
-1. Select "Nintendo DS"
-1. If your device loads into a “Download software via DS Download Play” menu, the test was successful 
-  + If the screen stays black or appears to freeze, the test has failed
-1. Exit this menu
+1. ダウンロードプレイを開いて下さい (![]({{ "/images/download-play-icon.png" | absolute_url }}){: height="24px" width="24px"})
+1. 「ニンテンドーDS」を選択
+1. 「DSダウンロードプレイ経由でソフトウェアをダウンロード」とロードした場合は、成功です 
+  + 画面が黒いままになったりフリーズした場合は失敗です
+1. このメニューを終了します
 
 ___
 
-1. [BB3-USM](installing-boot9strap-(usm)): Seedminer + BannerBomb3 + unSAFE_MODE
-  + This method requires working shoulder buttons
 1. [BannerBomb3](bannerbomb3): Seedminer + BannerBomb3 + Fredtool
-  + This method is recommended if your shoulder buttons do not work
-1. [Pichaxx](homebrew-launcher-(pichaxx)): Seedminer + Pichaxx + Frogtool
-  + This method is recommended if your DSiWare Management menu crashes
+  + L/Rボタンが動作しない場合はこの方法をお勧めします
+1. [PicHaxx](homebrew-launcher-(pichaxx)): Seedminer + PicHaxx + Frogtool
+  + DSiウェア管理メニューがクラッシュした場合にこの方法をお勧めします。

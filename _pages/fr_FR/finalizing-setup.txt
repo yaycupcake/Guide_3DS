@@ -8,14 +8,14 @@ title: "Finalisation de l'installation"
 
 Le fichier `boot.firm` est ce qui est lancé par boot9strap lui-même après qu'il ait fini de charger depuis la NAND, et peut être n’importe quel payload arm9 valide dans le format FIRM. Ce fichier peut être remplacé à tout moment, même si Luma3DS permet le lancement d’autres payloads arm9 au format FIRM à l’aide du chainloader Luma3DS .
 
-Dans notre cas, nous utilisons Luma3DS de [AuroraWright](https://github.com/AuroraWright/) pour démarrer directement une SysNAND patchée, nous permettant de contourner complètement la nécessité d'une EmuNAND quelconque, ce qui simplifie grandement l'utilisation d'une 3DS piratée en plus d'économiser de l'espace sur votre carte SD.
+Dans notre cas, nous utilisons Luma3DS de [LumaTeam](https://github.com/LumaTeam/) pour démarrer directement une SysNAND patchée, ce qui nous permettra de contourner complètement la nécessité d'une quelconque EmuNAND, cela va grandement simplifier l'utilisation d'une 3DS hackée, en plus d'économiser de l'espace sur votre carte SD.
 
 Durant cette étape, nous allons également configurer les programmes suivants :
 
 +  **FBI** *(Permet d'installer des jeux et applications au format CIA)*
 + **Anemone3DS** *(Permet d'installer des thèmes personnalisés)*
 + ** Checkpoint ** *(Sauvegarde et restaure des fichiers de sauvegarde pour les jeux NDS et 3DS) *
-+  **Luma3DS Updater** *(Permet de mettre facilement à jour votre CFW)*
++ **Universal-Updater** *(un homebrew app store pour télécharger des homebrew depuis la 3DS via le Wi-Fi)*
 +  **GodMode9** *(Programme multifonction qui peut effectuer des opérations relatives à la NAND et aux cartouches)*
 + **Homebrew Launcher Loader** *(lance le Homebrew Launcher) *
 +  **DSP1** *(permet aux homebrews d'avoir du son)*
@@ -25,12 +25,12 @@ Durant cette étape, nous allons également configurer les programmes suivants :
 
 * La dernière version de [Anemone3DS](https://github.com/astronautlevel2/Anemone3DS/releases/latest) *(le fichier`.cia`)*
 * La dernière version de [Checkpoint] (https://github.com/FlagBrew/Checkpoint/releases/latest) *(the `.cia` file) *
+* La dernière version de [Universal-Updater](https://github.com/Universal-Team/Universal-Updater/releases/latest) *(le fichier `.cia`)*
 * La dernière version de [Homebrew Launcher Wrapper](https://github.com/mariohackandglitch/homebrew_launcher_dummy/releases/latest)
 * La version 1.9.2pre1 de [GodMode9](https://github.com/d0k3/GodMode9/releases/tag/v1.9.2pre1)
-* La dernière version de [DSP1](https://github.com/zoogie/DSP1/releases/latest)
+* La dernière version de [DSP1](https://github.com/zoogie/DSP1/releases/latest) *(le fichier `.cia`)*
 * La dernière version de [FBI](https://github.com/Steveice10/FBI/releases/latest) *(le fichier `.cia`et le fichier `.3dsx`)*
 * La dernière version de [ctr-no-timeoffset](https://github.com/ihaveamac/ctr-no-timeoffset/releases/latest)
-* La dernière version de [Luma3DS Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest) *(le fichier`.cia`)*
 
 ### Instructions
 
@@ -39,15 +39,16 @@ Durant cette étape, nous allons également configurer les programmes suivants :
 1. Éteignez votre 3DS
 1. Insérez votre carte SD dans votre ordinateur
 1. Créez un dossier nommé `3ds` à la racine de votre carte SD si celui ci n'existe pas
+    + Ce dossier stocke les applications homebrew et leurs données; il est différent du dossier `Nintendo 3DS` que la console génère automatiquement
 1. Créez un dossier nommé `cias` à la racine de votre carte SD si celui ci n'existe pas
 1. Copiez `ctr-no-timeoffset.3dsx` dans le dossier `/3ds/` de votre carte SD
 1. Copiez `FBI.3dsx` dans le dossier `/3ds/` de votre carte SD
 1. Copiez `Homebrew_Launcher.cia` vers le répertoire `/cias/` sur votre carte SD
-1. Copiez `lumaupdater.cia` vers le dossier`/cias/` sur votre carte SD
 1. Copiez `FBI.cia` vers le répertoire `/cias/` sur votre carte SD
 1. Copiez `DSP1.cia` vers le répertoire `/cias/` sur votre carte SD
 1. Copiez `Anemone3DS.cia` vers le répertoire `/cias/` sur votre carte SD
 1. Copiez `Checkpoint.cia` dans le dossier `/cias/` sur votre carte SD
+1. Copiez `Universal-Updater.cia` vers le dossier`/cias/` sur votre carte SD
 1. Créez un dossier nommé `payloads` dans le dossier `luma` sur votre carte SD, si il n’existe pas déjà
 1. Copiez le fichier `GodMode9.firm` de l'archive `.zip` de GodMode9 dans le dossier `/luma/payloads/` sur votre carte SD
 1. Copiez le dossier `gm9` de GodMode9 `.zip` à la racine de votre carte SD
@@ -102,7 +103,7 @@ Si, avant d'avoir suivi ce guide, vous aviez une installation EmuNAND et que vou
 #### Section VI - CTRNAND Luma3DS
 
 1. Éteignez votre 3DS
-1. Ouvrez Godmode9 en maintenant (Start) au démarrage
+1. Press and hold (Start), and while holding (Start), power on your device. This will launch GodMode9
 1. Si vous êtes invité à créer une sauvegarde de fichiers essentiels, appuyez sur (A) pour le faire, puis appuyez sur (A) pour continuer une fois terminé
 1. Si vous êtes invité à régler la date et l'heure du RTC, appuyez sur (A) pour le faire, puis réglez la date et l'heure, puis appuyez sur (A) pour continuer
 1. Appuyez sur (Home) pour faire apparaître le menu d’actions (action menu)
@@ -150,18 +151,8 @@ ___
 
 #### Informations et notes
 
-{% capture notice-10 %}
-Vous pouvez à présent ouvrir Luma3DS Updater et appuyer sur (A) pour mettre à jour Luma3DS dans sa dernière version.
-
-Cela est différent d'une mise à jour du système ; le programme se contente de télécharger et extraire les fichiers de la dernière version de Luma3DS.
-
-Ceci mettra à jour les fichiers de Luma3DS sur votre carte SD et dans la CTRNAND, qui est ce sur quoi la console démarre lorsqu'il n'y a aucune carte SD insérée.
-{% endcapture %}
-
-<div class="notice--info">{{ notice-10 | markdownify }}</div>
-
 {% capture notice-6 %}
-Votre console démarrera désormais Luma3DS CFW SysNAND (c'est-à-dire sur votre SysNAND avec le CFW Luma3DS) par défaut.
+Votre console démarrera désormais Luma3DS CFW par défaut.
 
 Vous pouvez maintenir (Select) lors du démarrage pour entrer dans le menu de configuration de Luma3DS.
 
@@ -177,7 +168,7 @@ Vous pouvez maintenant appuyer simultanément sur (L) + (Bas) + (Select) pour d�
 {% capture notice-6 %}
 Si vous voulez changer votre carte SD pour une plus grande capacité, il vous suffit de formater la nouvelle carte SD en FAT32 puis de copier-coller tout le contenu de l'ancienne SD vers la nouvelle.
 
-Si votre nouvelle carte SD fait plus de 32 Go, vous devrez utiliser un outil spécifique pour la formater, comme [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) pour Windows, [gparted](http://gparted.org/download.php) pour Linux, ou [Disk Utility](https://support.apple.com/en-gb/guide/disk-utility/format-a-disk-for-windows-computers-dskutl1010/mac) pour Mac.
+Si votre nouvelle carte SD fait plus de 32 Go, alors vous devez utiliser un outil différent pour la formater comme [guiformat (Windows)](formatting-sd-(windows)), [Utilitaire de disque (Mac)](formatting-sd-(mac)), ou [cfdisk (Linux)](formatting-sd-(linux)).
 {% endcapture %}
 
 <div class="notice--info">{{ notice-6 | markdownify }}</div>
@@ -191,7 +182,7 @@ Pour plus d’informations sur l’utilisation des diverses fonctionnalités de 
 Pour plus d'informations concernant les diverses fonctionnalités de Luma3DS, veuillez consulter [le wiki dédié](https://github.com/AuroraWright/Luma3DS/wiki/Options-and-usage).
 {: .notice--success}
 
-Pour plus d'informations sur l'installation des thèmes personnalisés et des splash screens (image au démarrage de la console), consultez [Theme Plaza](https://themeplaza.eu/).
+Pour plus d'informations sur l'installation des thèmes personnalisés et des splash screens (image au démarrage de la console), consultez [Theme Plaza](https://themeplaza.art/).
 {: .notice--success}
 
 Pour plus d'informations concernant l'utilisation de codes de triche Gateshark sur Luma3DS, consultez [Checkpoint](https://github.com/FlagBrew/Checkpoint).

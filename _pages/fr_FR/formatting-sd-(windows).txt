@@ -1,0 +1,43 @@
+---
+title: "Formatage de la carte SD (Windows)"
+---
+
+{% include toc title="Table des matières" %}
+
+### Lecture requise
+
+Il s'agit d'une section supplémentaire pour le formatage d'une carte SD afin que celle-ci fonctionne avec la 3DS.
+
+Si la 3DS reconnaît déjà la carte SD, il n'est pas nécessaire de suivre ce guide.
+
+Cette page est pour les utilisateurs de Windows uniquement. Si vous n'êtes pas sous Windows, consultez les pages [Formatage de la carte SD (Linux)](formatting-sd-(linux)) ou [Formatage de la carte SD (Mac)](formatting-sd-(mac)) .
+
+## Ce dont vous avez besoin
+
+* La dernière version de [guiformat](http://ridgecrop.co.uk/index.htm?guiformat.htm)
+
+### Instructions
+
+1. Insérez votre carte SD dans votre ordinateur
+1. Si la carte SD contient des fichiers et des dossiers, copiez tout dans un dossier sur votre ordinateur
+1. Exécutez `guiformat.exe`
+1. Sélectionnez la lettre de lecteur de votre carte SD pour "Drive"
+
+	Assurez-vous de choisir la bonne lettre de lecteur, sinon vous risqueriez d'effacer accidentellement le mauvais lecteur !
+	{: .notice--danger}
+
+1. Sélectionnez une taille pour "Allocation unit size"
+  + Si la carte SD fait 64 Go ou moins, choisissez 32768
+  * Si la carte SD est supérieure à 64 Go, choisissez 65536
+1. Entrez ce que vous voulez pour "Volume label"
+1. Assurez-vous que la case "Quick Format" est sélectionnée
+1. Cliquez sur "Start"
+1. Cliquez sur "OK"
+1. Attendez que le formatage soit terminé
+1. Cliquez ensuite sur "Close"
+1. Si la carte SD contenait des fichiers et des dossiers avant le formatage, recopiez les dessus depuis votre ordinateur
+
+### Erreurs courantes
+
+* Failed to open device: GetLastError()=32
+  + Fermez tout ce qui peut être utilisé par la carte SD, comme par exemple, n'importe quelle fenêtre ouverte de l'Explorateur de fichiers.

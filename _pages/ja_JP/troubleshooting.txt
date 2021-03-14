@@ -2,49 +2,52 @@
 title: "Troubleshooting"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="目次" %}
 
-### Required Reading
+### 必読事項
 
-If you are unable to boot your device, please look for the section relevant to you and follow the instructions.
+3DSを起動できない場合、その問題に関連するセクションをお調べください。
 
-If you still cannot solve your issue and need to reach out for help, please paste the contents of all relevant .log files from the root of your SD card into a [Gist](https://gist.github.com/), then come for help prepared with a detailed description of your problem and what you've tried.
+問題がどうしても解決できなくてサポートが必要な場合は、SDカードのルートにある.logファイルを[Gist](https://gist.github.com/)へ、問題の詳細と試みた解決策と一緒に送信してください。
 
-Note that if you have any payload files other than `GodMode9.firm` in the `/luma/payloads/` folder on your SD card, holding (Start) on boot will display a "chainloader menu" where you will have to use the D-Pad and the (A) button to select "GodMode9" for these instructions. 
+SDカードの/luma/payloadsフォルダに
+godmode9.firm以外のペイロードがある場合、
+起動時に (start) を長押しするとchainloaderメニューが表示されます。
+十字キーでgodmode9を選択して　(A) ボタンを押してください。 
 
-To use the [magnet](https://wikipedia.org/wiki/Magnet_URI_scheme) links on this page, you will need a torrent client like [Deluge](http://dev.deluge-torrent.org/wiki/Download).
+このページの [マグネット](https://wikipedia.org/wiki/Magnet_URI_scheme) リンクを使用するには、[Deluge](http://dev.deluge-torrent.org/wiki/Download)のようなTorrentクライアントが必要です。
 
-## DSi / DS functionality is broken after completing the guide
+## DSi / DS機能がガイドを完成したあと機能しなくなりました
 
-### What You Need
+### 必要なもの
 
-* The latest release of [TWLFix-CFW](https://github.com/MechanicalDragon0687/TWLFix-CFW/releases/latest) *(the .3dsx file)*
+* 最新版の [TWLFix-CFW](https://github.com/MechanicalDragon0687/TWLFix-CFW/releases/latest) *(the `.3dsx` file)*
 
-### Instructions
+### 手順
 
-#### Section I - Prep Work
+#### セクション I - 準備
 
-1. Power off your device
+1. デバイスの電源を切ります
 1. パソコンにSDカードを入れます
-1. Create a folder named `3ds` on the root of your SD card if it does not already exist
-1. Copy `TWLFix-CFW.3dsx` to the `/3ds/` folder on your SD card
-1. Reinsert your SD card into your device
+1. SDカードの直下に`3ds`フォルダがない場合、そのフォルダを作成します
+1. `TWLFix-CFW.3dsx`をSDカードの`/3ds/`フォルダにコピーします
+1. 再度、SDカードを本体に挿入してください。
 
-#### Section II - Fixing TWL
+#### セクション II - TWL の修正
 
-1. Open the Homebrew Launcher
-1. Launch TWLFix-CFW from the list of homebrew
-1. Press (A) to uninstall the broken TWL titles
-1. Press (Start) to reboot the device
-1. Perform a System Update by going to System Settings, then "Other Settings", then going all the way to the right and using "System Update"
-  + The update will see that the essential TWL titles have been uninstalled, and will redownload and reinstall them
-1. Once the update is complete, tap "OK" to reboot the device 
+1. Homebrew Launcherを開く
+1. HomebrewリストからTWLFix-CFWを起動します
+1. (A) を押して壊れたTWLタイトルをアンインストールします
+1. (Start) ボタンを押して本体を再起動します
+1. システム設定に移動してシステム更新を実行し、次に「その他の設定」を選択し、「システムアップデート」を使用して右に進みます。
+  + 必須のTWLタイトルがアンインストールされ、再インストールされます。
+1. アップデートが完了したら、「OK」をタップして端末を再起動します 
 
-## Cannot inject H&S on Gateway downgraded device
+## Gatewayでダウングレードしたデバイスでは「安全に使用するために」アプリをインジェクトできない
 
-This is caused by Gateway implementing a very shoddy downgrade method which leaves two versions of each app on the system. One of them is unused, but it confuses the H&S inject system, causing it to inject into the wrong one.
+その原因は、Gatewayのダウングレード方法に大きな不具合があって、システムにアプリそれぞれ二つのバージョンを残してしまったことにあります。 そのうちの1つは未使用ですが、「安全に使用するために」インジェクションシステムが混乱し、誤って未使用へインジェクトしています。
 
-1. Launch GodMode9 by holding (Start) during boot
+1. (START)ボタンを押しながらデバイスを起動させ、GodMode9を起動します。
 1. Navigate to `[1:] SYSNAND CTRNAND` -> `title` -> `00040010`
 1. ご使用のデバイスのモデルと地域によって、正しいフォルダに移動します
   + **Old 3DS or Old 2DS EUR**: `00022300` -> `content`
@@ -56,15 +59,15 @@ This is caused by Gateway implementing a very shoddy downgrade method which leav
 1. ここでは二つのappとtmdファイルのタイプがあります。一つのタイプは大文字の拡張子（`.TMD`と`.APP`）を持ちます。もう一つのタイプは小文字の拡張子（`.tmd`と`.app`）。注意します
 1. (R) を押したまま (Y) を押して新しいディレクトリを作成します
 1. Press (A) to confirm the name `newdir` (it does not matter what the folder is called)
-1. Press (A) to unlock SysNAND (lvl1) writing, then input the key combo given
-1. Press (B) to decline relocking write permissions if prompted
+1. (A) ボタンを押し、表示されるコンボを入力することで、 SysNAND (lvl1) への書き込みを許可します
+1. NANDへの書き込みのロックを求められた場合、(B) ボタンを押して拒否してください。
 1. 拡張子が大文字であるファイルそれぞれ (L) を押してマークします
 1. (Y) を押してコピーします
 1. `newdir`に移動します
 1. (Y) を押してファイルを貼り付けます
 1. 「Move path(s)」を選択します
 1. 拡張子が大文字であるファイルは、すべて`newdir`ディレクトリに移動されます
-1. Press (Start) to reboot your device
+1. (Start) ボタンを押して本体を再起動します
 1. Retry the H&S injection
 1. If this still doesn't work, move the uppercase extension files back to the `content` folder, then move the lowercase extension files to the `newdir` folder, then retry the H&S injection
 
@@ -79,37 +82,37 @@ Browser based exploits (such as browserhax or 2xrsa) are often unstable and cras
 ## Black screen on SysNAND boot
 
 1. Try booting with your SD card out, and then reinserting it after booting
-    1. Power off your device
+    1. 本体の電源を切ります。
     1. Remove your SD card from your device
-    1. Power on your device
+    1. デバイスの電源を入れます
     1. When the home menu appears, reinsert your SD card into your device
     1. If this worked, you should clear Home Menu's extdata by following these instructions:
-        1. Power off your device
-        1. Launch GodMode9 by holding (Start) during boot
-        1. Press (Home) to bring up the action menu
-        1. Select "Scripts..."
-        1. Select "GM9Megascript"
-        1. Select "Scripts from Plailect's Guide"
+        1. 本体の電源を切ります。
+        1. (START)ボタンを押しながらデバイスを起動させ、GodMode9を起動します。
+        1. (Home) ボタンを押してアクションメニューを呼び出します
+        1. "Scripts..."を選択します
+        1. "GM9Megascript"を選択します
+        1. "Scripts from Plailect's Guide"を選択します
         1. Select "Remove extdata"
         1. (A) で続行します
-        1. Press (A) to unlock SysNAND (lvl1) writing, then input the key combo given
+        1. (A) ボタンを押し、表示されるコンボを入力することで、 SysNAND (lvl1) への書き込みを許可します
         1. (A) で続行します
-        1. Press (B) to return to the main menu
-        1. Select "Exit"
-        1. Press (A) to relock write permissions if prompted
-        1. Press (Start) to reboot your device
+        1. Bキーを押してメインメニューに戻ります
+        1. "Exit"を選択します。
+        1. (A) ボタンを押すとNANDへの書き込みを再ロックできます
+        1. (Start) ボタンを押して本体を再起動します
 1. ゲームカード（フラッシュカードを含む）を外したまま起動してみます
 1. If you have a hardmod and a NAND backup, flash the backup back to SysNAND
 1. Try booting into recovery mode and updating your system
-    1. Power off your device
+    1. 本体の電源を切ります。
     1. Hold (L) + (R) + (A) + (Up)
-    1. Power on your device
+    1. デバイスの電源を入れます
     1. If you enter safe mode, update your device
 1. Your device may be bricked. For support (in English), join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp)
 
 ## Clear Home Menu extdata
 
-1. Power off your device
+1. 本体の電源を切ります。
 1. パソコンにSDカードを入れます
 1. Navigate to the `/Nintendo 3DS/<32-character-id>/<32-character-id>/extdata/00000000/` folder on your SD card
 1. Delete the extdata file corresponding to your region:
@@ -119,7 +122,7 @@ Browser based exploits (such as browserhax or 2xrsa) are often unstable and cras
   + **CHN Region**: `000000A1`
   + **KOR Region**: `000000A9`
   + **TWN Region**: `000000B1`
-1. Reinsert your SD card into your device
+1. 再度、SDカードを本体に挿入してください。
 
 ## Black screen on SysNAND boot after Installing boot9strap
 
@@ -131,20 +134,20 @@ Browser based exploits (such as browserhax or 2xrsa) are often unstable and cras
 1. Test booting GodMode9
     1. Luma3DSでは、起動時に (Start) を長押しします
 1. Try deleting home menu's extdata by following these instructions:
-    1. Power off your device
-    1. Launch GodMode9 by holding (Start) during boot
-    1. Press (Home) to bring up the action menu
-    1. Select "Scripts..."
-    1. Select "GM9Megascript"
-    1. Select "Scripts from Plailect's Guide"
+    1. 本体の電源を切ります。
+    1. (START)ボタンを押しながらデバイスを起動させ、GodMode9を起動します。
+    1. (Home) ボタンを押してアクションメニューを呼び出します
+    1. "Scripts..."を選択します
+    1. "GM9Megascript"を選択します
+    1. "Scripts from Plailect's Guide"を選択します
     1. Select "Remove extdata"
     1. (A) で続行します
-    1. Press (A) to unlock SysNAND (lvl1) writing, then input the key combo given
+    1. (A) ボタンを押し、表示されるコンボを入力することで、 SysNAND (lvl1) への書き込みを許可します
     1. (A) で続行します
-    1. Press (B) to return to the main menu
-    1. Select "Exit"
-    1. Press (A) to relock write permissions if prompted
-    1. Press (Start) to reboot your device
+    1. Bキーを押してメインメニューに戻ります
+    1. "Exit"を選択します。
+    1. (A) ボタンを押すとNANDへの書き込みを再ロックできます
+    1. (Start) ボタンを押して本体を再起動します
 1. ゲームカード（フラッシュカードを含む）を外したまま起動してみます
 1. If you previously downgraded with Gateway, ensure that you are using the latest Luma3DS version
 1. Try following [CTRTransfer](ctrtransfer)

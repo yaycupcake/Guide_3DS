@@ -60,7 +60,7 @@ If either of these tests has failed, DS mode, DS Download Play, and/or DS Connec
 #### Section III - Safety Test
 The purpose of this section is to verify that the console will boot and that critical system functions, like System Settings and the keyboard, will work once CFW is uninstalled. **If you skip this section, you may BRICK your device!**
 
-1. Launch GodMode9 by holding (Start) during boot
+1. Press and hold (Start), and while holding (Start), power on your device. This will launch GodMode9
 1. If you are prompted to create an essential files backup, press (A) to do so, then press (A) to continue once it has completed
 1. If you are prompted to fix the RTC date&time, press (A) to do so, then set the date and time, then press (A) to continue
   + Note that, if you had to fix the RTC date and time, you will have to fix the time in the System Settings as well after following this guide
@@ -84,7 +84,7 @@ If you do NOT boot into the regular 3DS Home Menu, or System Settings / your key
 
 #### Section IV - NAND Backup
 
-1. Launch GodMode9 by holding (Start) during boot
+1. Press and hold (Start), and while holding (Start), power on your device. This will launch GodMode9
 1. Press (Home) to bring up the action menu
 1. Select "Scritps..."
 1. Select "GM9Megascript"
@@ -125,10 +125,12 @@ This section will ensure that all illegitimate tickets are removed, allowing eSh
 1. Navigate to Other Settings -> Next Page (until the final page) -> Format System Memory
 1. Follow the prompts to format your 3DS
 
+
 #### Section VII - Running Uninstall Script
 This is your final opportunity to verify that all safety steps above have been followed! Please ensure that you have followed all sections on this page, **especially** `Section III - Safety Test`, before continuing.
 {: .notice--warning}
-1. Launch GodMode9 by holding (Start) during boot
+
+1. Press and hold (Start), and while holding (Start), power on your device. This will launch GodMode9
 1. Press (Home) to bring up the action menu
 1. Select "Scripts..."
 1. Select "GM9Megascript"
