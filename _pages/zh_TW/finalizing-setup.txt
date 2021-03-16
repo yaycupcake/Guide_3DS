@@ -15,7 +15,7 @@ In this case, we use Luma3DS by [LumaTeam](https://github.com/LumaTeam/) to boot
 + **FBI 管理器** *(安裝 CIA 格式的遊戲及程式)*
 +  **Anemone3DS** *(安裝自訂主題)*
 +  **Checkpoint** *(備份及還原 3DS 及 DS 遊戲之存檔)*
-+ **Luma3DS Updater** *(以便更新 Luma3DS)*
++  **Universal-Updater** *(a homebrew app store for downloading homebrew from the 3DS over wifi)*
 + **GodMode9** *(多功能工具包，用來處理 NAND 及卡帶的相關功能)*
 +  **Homebrew Launcher Loader** *(用於啟動 Homebrew Launcher)*
 +  **DSP1** *(允許自製程式播放音效)*
@@ -25,12 +25,12 @@ In this case, we use Luma3DS by [LumaTeam](https://github.com/LumaTeam/) to boot
 
 * 最新版的 [Anemone3DS](https://github.com/astronautlevel2/Anemone3DS/releases/latest) *(`.cia` 檔案)*
 * 最新版的 [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases/latest)*(`.cia` 檔案)*
+* The latest release of [Universal-Updater](https://github.com/Universal-Team/Universal-Updater/releases/latest) *(the `.cia` file)*
 * 最新版的 [Homebrew Launcher Wrapper](https://github.com/mariohackandglitch/homebrew_launcher_dummy/releases/latest)
 * The v1.9.2pre1 release of [GodMode9](https://github.com/d0k3/GodMode9/releases/tag/v1.9.2pre1)
 * The latest release of [DSP1](https://github.com/zoogie/DSP1/releases/latest) *(the `.cia` file)*
 * 最新版的 [FBI 管理器](https://github.com/Steveice10/FBI/releases/latest) *(`.cia` 及 `.3dsx` 檔案)*
 * 最新版本的 [ctr-no-timeoffset](https://github.com/ihaveamac/ctr-no-timeoffset/releases/latest)
-* 最新版的 [Luma3DS Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest) *(`.cia` 檔案)*
 
 ### 操作說明
 
@@ -39,15 +39,16 @@ In this case, we use Luma3DS by [LumaTeam](https://github.com/LumaTeam/) to boot
 1. 關閉您的主機
 1. 將 SD 卡插入至電腦中
 1. 在 SD 卡的根目錄底下建立一個新資料夾 `3ds`
+    + This folder stores homebrew applications and data; it is different from the `Nintendo 3DS` folder that the device automatically generates
 1. 在 SD 卡的根目錄底下，建立一個新資料夾 `cias`
 1. 將 `ctr-no-timeoffset.3dsx` 複製到 SD 卡中的 `/3ds/` 資料夾底下
 1. 將 `FBI.3dsx` 複製到 SD 卡中的 `/3ds/` 資料夾底下
 1. 將 `Homebrew_Launcher.cia` 複製到 SD 卡中 `/cias/` 資料夾底下
-1. 複製 `lumaupdater.cia` 檔案至 SD 卡上的 `/cias/` 資料夾中
 1. 將 `FBI.cia` 複製到 SD 卡中 `/cias/` 資料夾底下
 1. 將 `DSP1.cia` 複製到 SD 卡中 `/cias/` 資料夾底下
 1. 將 `Anemone3DS.cia` 複製到 SD 卡中 `/cias/` 資料夾底下
 1. 將 `Checkpoint.cia` 複製到 SD 卡中 `/cias/` 資料夾底下
+1. Copy `Universal-Updater.cia` to the `/cias/` folder on your SD card
 1. 在 SD 卡中的 `luma` 資料夾中建立一個另一個新資料夾 `payloads`
 1. 解壓 GodMode9 `.zip` 中的 `GodMode9.firm` 檔案到 SD 卡的 `/luma/payloads/` 資料夾中
 1. 解壓 GodMode9 `.zip` 中的 `gm9` 資料夾到 SD 卡的根目錄底下
@@ -102,7 +103,7 @@ In this case, we use Luma3DS by [LumaTeam](https://github.com/LumaTeam/) to boot
 #### 第六節 — 安裝 Luma3DS 至 CTRNAND
 
 1. 關閉您的主機
-1. 開機時按住『Start』鍵啟動 GodMode9
+1. Press and hold (Start), and while holding (Start), power on your device. This will launch GodMode9
 1. 當提示重要檔案備份時，按下『A』繼續，並在完畢後按下『A』繼續
 1. 當提示修正 RTC 日期及時間時，按『A』繼續並設定日期及時間，再按『A』繼續
 1. 按『Home』鍵以叫出主選單
@@ -150,18 +151,8 @@ ___
 
 #### 額外訊息以及注意事項
 
-{% capture notice-10 %}
-您現在可以透過 Luma3DS Updater 來更新您主機中的 Luma3DS，只要將它開啟，再按下『A』即可。
-
-這跟系統更新是不一樣的；這只會下載並解壓最新的 Luma3DS 檔案。
-
-這將更新您的 SD 卡和 CTRNAND 中的 Luma3DS 檔, 在您的裝置沒有 SD 卡時，裝置將自動載入 CTRNAND 中的檔案。
-{% endcapture %}
-
-<div class="notice--info">{{ notice-10 | markdownify }}</div>
-
 {% capture notice-6 %}
-您的主機現在在預設情況下將會自動於開機時啟動基於 SysNAND 的 Luma3DS 自製韌體。
+You will now boot Luma3DS CFW by default.
 
 您現在可以在開機時透過按住『Select』鍵進入 Luma3DS 的設定選單。
 
@@ -191,7 +182,7 @@ If your new SD card is bigger than 32GB, then you have to use a different tool t
 有關如何使用 Luma3DS 的各項功能，請見[他們的 wiki](https://github.com/AuroraWright/Luma3DS/wiki/Options-and-usage)。
 {: .notice--success}
 
-有關如何安裝自訂主題、及啟動畫面，請見 [Theme Plaza](https://themeplaza.eu/)。
+For information on installing custom themes and splash screens, check out [Theme Plaza](https://themeplaza.art/).
 {: .notice--success}
 
 For information on using Gateshark cheat codes on Luma3DS, check out [Checkpoint](https://github.com/FlagBrew/Checkpoint).

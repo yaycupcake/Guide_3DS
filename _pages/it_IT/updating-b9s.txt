@@ -8,13 +8,13 @@ title: "Aggiornare B9S"
 
 Questa pagina spiega come aggiornare la propria installazione di boot9strap all'ultima versione.
 
-While we believe that custom firmware is safe for online use, there have been online network bans in the past, primarily for cheating and suspicious eShop behavior.
+Nonostante riteniamo che l'uso di un custom firmware sia sicuro anche online, ci sono stati ban dal network online in passato, soprattutto per l'uso di cheat e comportamenti sospetti con l'eShop.
 {: .notice--warning}
 
 ### Cosa serve
 
 * L'ultima versione di [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
-* L'ultima versione di [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(la versione normale di boot9strap; non il file `devkit`, né il file `ntr`)*
+* L'ultima versione di [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(`boot9strap-1.3.zip`; non il file `devkit`, né il file `ntr`)*
 * L'ultima versione di [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest)
 
 ### Istruzioni

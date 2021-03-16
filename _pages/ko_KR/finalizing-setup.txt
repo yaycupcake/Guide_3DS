@@ -15,7 +15,7 @@ In this case, we use Luma3DS by [LumaTeam](https://github.com/LumaTeam/) to boot
 +  **FBI** *(CIA 형식의 게임 및 애플리케이션 설치)*
 +  **Anemone3DS** *(installs custom themes)*
 +  **Checkpoint** *(backs up and restores save files for 3DS and DS games)*
-+  **Luma3DS Updater** *(간단한 CFW 설치 업데이트)*
++  **Universal-Updater** *(a homebrew app store for downloading homebrew from the 3DS over wifi)*
 +  **Godmode9** *(NAND와 게임 카드의 기능을 수행할 수 있는 다목적 툴)*
 +  **Homebrew Launcher Loader** *(launches the Homebrew Launcher)*
 +  **DSP1** *(allows homebrew applications to have sound)*
@@ -25,12 +25,12 @@ In this case, we use Luma3DS by [LumaTeam](https://github.com/LumaTeam/) to boot
 
 * The latest release of [Anemone3DS](https://github.com/astronautlevel2/Anemone3DS/releases/latest) *(the `.cia` file)*
 * The latest release of [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases/latest) *(the `.cia` file)*
+* The latest release of [Universal-Updater](https://github.com/Universal-Team/Universal-Updater/releases/latest) *(the `.cia` file)*
 * The latest release of [Homebrew Launcher Wrapper](https://github.com/mariohackandglitch/homebrew_launcher_dummy/releases/latest)
 * The v1.9.2pre1 release of [GodMode9](https://github.com/d0k3/GodMode9/releases/tag/v1.9.2pre1)
 * The latest release of [DSP1](https://github.com/zoogie/DSP1/releases/latest) *(the `.cia` file)*
 * The latest release of [FBI](https://github.com/Steveice10/FBI/releases/latest) *(the `.cia` and `.3dsx` files)*
 * The latest release of [ctr-no-timeoffset](https://github.com/ihaveamac/ctr-no-timeoffset/releases/latest)
-* The latest release of [Luma3DS Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest) *(the `.cia` file)*
 
 ### Instructions
 
@@ -39,15 +39,16 @@ In this case, we use Luma3DS by [LumaTeam](https://github.com/LumaTeam/) to boot
 1. 기기를 종료해 주세요.
 1. SD 카드를 컴퓨터에 삽입해 주세요.
 1. Create a folder named `3ds` on the root of your SD card if it does not already exist
+    + This folder stores homebrew applications and data; it is different from the `Nintendo 3DS` folder that the device automatically generates
 1. SD 카드의 최상위 경로에 `cias` 폴더가 없을 경우 폴더를 만어 주세요.
 1. Copy `ctr-no-timeoffset.3dsx` to the `/3ds/` folder on your SD card
 1. Copy `FBI.3dsx` to the `/3ds/` folder on your SD card
 1. Copy `Homebrew_Launcher.cia` to the `/cias/` folder on your SD card
-1. Copy `lumaupdater.cia` to the `/cias/` folder on your SD card
 1. Copy `FBI.cia` to the `/cias/` folder on your SD card
 1. Copy `DSP1.cia` to the `/cias/` folder on your SD card
 1. Copy `Anemone3DS.cia` to the `/cias/` folder on your SD card
 1. Copy `Checkpoint.cia` to the `/cias/` folder on your SD card
+1. Copy `Universal-Updater.cia` to the `/cias/` folder on your SD card
 1. Create a folder named `payloads` in the `luma` folder on your SD card if it does not already exist
 1. Copy `GodMode9.firm` from the GodMode9 `.zip` to the `/luma/payloads/` folder on your SD card
 1. Copy the `gm9` folder from the GodMode9 `.zip` to the root of your SD card
@@ -102,7 +103,7 @@ If, before following this guide, you already had an EmuNAND setup and would like
 #### Section VI - CTRNAND Luma3DS
 
 1. 기기를 종료해 주세요.
-1. Launch GodMode9 by holding (Start) during boot
+1. Press and hold (Start), and while holding (Start), power on your device. This will launch GodMode9
 1. If you are prompted to create an essential files backup, press (A) to do so, then press (A) to continue once it has completed
 1. If you are prompted to fix the RTC date&time, press (A) to do so, then set the date and time, then press (A) to continue
 1. (Home)을 눌러 작업 메뉴를 띄워 주세요.
@@ -150,18 +151,8 @@ ___
 
 #### Information and Notes
 
-{% capture notice-10 %}
-이제 Luma3DS Updater를 열고 (A)를 누르기만 하면 Luma3DS를 최신 버전으로 업데이트할 수 있습니다.
-
-이는 본체 업데이트와 다르며 오직 최신 버전의 Luma3DS 파일을 다운로드해서 압축을 풀어줍니다.
-
-This will update the Luma3DS files on your SD card and in CTRNAND, which is what your device boots from when there is no SD card present.
-{% endcapture %}
-
-<div class="notice--info">{{ notice-10 | markdownify }}</div>
-
 {% capture notice-6 %}
-이제 Luma3DS CFW SysNAND를 기본으로 시작할 것입니다.
+You will now boot Luma3DS CFW by default.
 
 앞으로 (Select)를 누른 채 기기를 부팅시키면 Luma3DS 설정 메뉴가 실행됩니다.
 
@@ -191,7 +182,7 @@ GodMode9의 다양한 기능을 알고 싶다면[GodMode9 사용](godmode9-usage
 Luma3DS의 다양한 기능에 대해 알아보려면 [Luma3DS 위키](https://github.com/AuroraWright/Luma3DS/wiki/Options-and-usage)를 참고해 주세요.
 {: .notice--success}
 
-For information on installing custom themes and splash screens, check out [Theme Plaza](https://themeplaza.eu/).
+For information on installing custom themes and splash screens, check out [Theme Plaza](https://themeplaza.art/).
 {: .notice--success}
 
 For information on using Gateshark cheat codes on Luma3DS, check out [Checkpoint](https://github.com/FlagBrew/Checkpoint).

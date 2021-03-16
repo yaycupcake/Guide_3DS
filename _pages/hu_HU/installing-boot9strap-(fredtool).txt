@@ -4,7 +4,7 @@ title: "Boot9strap telepítése (Fredtool)"
 
 {% include toc title="Tartalomjegyzék" %}
 
-Ez az oldal Legacy metódusnak jelölt, mert vannak jobb, gyorsabb és biztonságosabb metódusok. Csak akkor szükséges követned, ha nem sikerült követni a [Boot9strap telepítése (USM)](installing-boot9strap-(usm)) fejezeteit.
+A Seedminer alapú metódusok könnyebb, biztonságosabb metódusokkal kerültek helyettesítésre. Menj vissza a [Kezdeti lépések](get-started) oldalra, kivéve, ha valós okod van, ennek az oldalnak a használatára (mint például hibás váll-gombok).
 {: .notice--warning}
 
 ### Fontos tudnivalók

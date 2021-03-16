@@ -4,7 +4,7 @@ title: "Installazione di Boot9strap (Fredtool)"
 
 {% include toc title="Indice" %}
 
-Questa pagina è stata contrassegnata come Metodo Obsoleto perché è stata sostituita da alternative più veloci e più sicure. Dovresti seguire queste istruzioni solo se non sei in grado di eseguire l'[Installazione di boot9strap (USM)](installing-boot9strap-(usm)).
+I metodi basati su Seedminer sono stati sostituiti da procedimenti più semplici e sicuri. Ritorna a [Cominciamo!](get-started) a meno che non ci siano motivi legittimi per cui tu debba seguire questa pagina (come dei tasti dorsali non funzionanti).
 {: .notice--warning}
 
 ### Lettura necessaria

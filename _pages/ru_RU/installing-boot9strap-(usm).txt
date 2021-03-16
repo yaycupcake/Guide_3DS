@@ -4,6 +4,9 @@ title: "Установка boot9strap (USM)"
 
 {% include toc title="Содержание" %}
 
+Seedminer-based methods have been replaced by easier, safer methods. Please return to [Get Started](get-started) unless you have a legitimate reason to follow this page.
+{: .notice--warning}
+
 ### Обязательно к прочтению
 
 Для того, чтобы использовать уязвимость в SAFE_MODE прошивке консоли, нам нужно внедрить модифицированный WiFi профиль.
@@ -27,8 +30,7 @@ title: "Установка boot9strap (USM)"
 #### Часть I - Подготовительные работы
 
 1. If your device is powered on, power off your device
-1. Перейдите по ссылке [unSAFE_MODE-bb3 tool](https://usm.bruteforcemovable.com/) на компьютере
-  + If this site is nonfunctional, try using [this one](https://3ds.nhnarwhal.com/3dstools/unsafemode.php)
+1. Open [unSAFE_MODE-bb3 tool](https://3ds.nhnarwhal.com/3dstools/unsafemode.php) on your computer
 1. Загрузите свой movable.sed, используя опцию "Выберите файл"
 1. Нажмите кнопку "Download unSAFE_MODE-bb3 archive"
   + This will download an exploit DSiWare called `F00D43D5.bin` and a SAFE_MODE exploit data file called `usm.bin` inside of a zip archive (`unSAFE_MODE-bb3.zip`)

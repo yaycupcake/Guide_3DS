@@ -2,76 +2,76 @@
 title: "Homebrew Launcher (Soundhax)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="目次" %}
 
-### Required Reading
+### 必読事項
 
 Homebrew Launcherには、さまざまなエントリーポイントや起動方法があります。
 
-Soundhax (when combined with the Homebrew Launcher) is compatible with versions 9.0.0 through 11.3.0 in the EUR, JPN, KOR, and USA regions.
+Soundhax (Homebrew Launcherとの組み合わせ) は、EUR、JPN、KOR、およびUSAのリージョンのバージョン9.0.0 から 11.3.0に対応しています。
 
-Ensure your device's Wireless Communication is turned on as udsploit (used in the next page) will need the wireless module to be active to function, and some devices (New 3DS, New 2DS, and Old 2DS) cannot adjust the Wireless Communication setting from the Homebrew Launcher. Wireless Communication only has to be on; connecting it to an access point is not required.
+Udsploit (次のページで使用) は、ワイヤレスモジュールを有効にして機能させる必要があり、一部のデバイス (New 3DS、New 2DS、およびOld 2DS) は、ワイヤレス通信設定をHomebrew Launcherに設定します。 ワイヤレス通信はオンにする必要があります。 アクセスポイントに接続する必要はありません。
 
 {% capture notice-1 %}
 
-Note that cartridge updates will only deliver updates to core features, such as the System Settings, Home Menu, etc. cartridge updates will not deliver updates to Nintendo 3DS Sound and Network features, such as System Transfer, Internet Browser, StreetPass Mii Plaza, or eShop.
+ゲームカード経由のアップデートでは、システム設定、ホーム メニューなどのコア機能のみが更新されますのでご注意ください。 ゲームカード経由の更新ではシステムを転送、インターネット ブラウザー、Mii 広場 e ショップなどのネットワーク機能部分とニンテンドー3DSサウンドの更新は提供されません。
 
-This means that using a cartridge update from a version containing an older Nintendo 3DS Sound version *(<2.1.0)* to one that introduced a newer Nintendo 3DS Sound version will break Soundhax! その場合、[その他の方法](homebrew-launcher-(alternatives))でHomebrew Launcherを実行しなければなりません！
+したがって、古いニンテンドー3DSサウンドを実装するバージョン *(<2.1.0)* をより高いバージョンのニンテンドー3DSサウンドを実装するバージョンまで更新すると、Soundhaxを実行できません！ その場合、[その他の方法](homebrew-launcher-(alternatives))でHomebrew Launcherを実行しなければなりません！
 {% endcapture %}
 
 <div class="notice--warning">{{ notice-1 | markdownify }}</div>
 
-### What You Need
+### 必要なもの
 
-* The latest release of [Soundhax](http://soundhax.com) *(for your region, device, and version)*
-  + If Soundhax appears in your browser as an unplayable video, press Ctrl+S or Cmd+S to save it to your computer
-* The latest release of [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
-* The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(standard boot9strap; not the `devkit` file, not the `ntr` file)*
-* The latest release of [safehax](https://github.com/TiniVi/safehax/releases/latest) *(the `.3dsx` file)*
-* The latest release of [udsploit](https://github.com/smealum/udsploit/releases/latest)
-* The latest release of [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest)
-* The [otherapp payload](https://smealum.github.io/3ds/#otherapp) *(for your region, device, and version)*
+* 最新バージョンの [Soundhax](http://soundhax.com/) *(本体に合ったリージョンとバージョンを選択してください)*
+  + 再生できないビデオとしてブラウザにSoundhaxが表示される場合は、Ctrl+SまたはCmd+Sを押してコンピュータに保存します
+* 最新安定版 [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
+* 最新版の [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(`boot9strap-1.3.zip`; `devkit`ファイルではなく、 `ntr`ファイルではありません) *
+* 最新安定版 [safehax](https://github.com/TiniVi/safehax/releases/latest) *(the `.3dsx` file)*
+* 最新のリリースの [udsploit](https://github.com/smealum/udsploit/releases/latest)
+* 最新バージョンの[Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest/)
+* [otherapp payload](https://smealum.github.io/3ds/#otherapp) *(お使いの地域とデバイスとバージョンを選択してください)*
 
-### Instructions
+### 手順
 
-1. Power off your device
+1. デバイスの電源を切ります
 1. パソコンにSDカードを入れます
-1. Create a folder named `3ds` on the root of your SD card if it does not already exist
-1. Copy the Soundhax `.m4a` to the root of your SD card
-1. Copy the otherapp payload to the root of your SD card and rename it to `otherapp.bin`
-1. Copy `boot.firm` and `boot.3dsx` from the Luma3DS `.zip` to the root of your SD card
-1. Create a folder named `boot9strap` on the root of your SD card
-1. Copy `boot9strap.firm` and `boot9strap.firm.sha` from the boot9strap `.zip` to the `/boot9strap/` folder on your SD card
-1. Copy `safehax.3dsx` to the `/3ds/` folder on your SD card
-1. Copy `udsploit.3dsx` to the `/3ds/` folder on your SD card
-1. Copy `SafeB9SInstaller.bin` from the SafeB9SInstaller `.zip` to the root of your SD card and rename `SafeB9SInstaller.bin` to `safehaxpayload.bin`
+1. SDカードの直下に`3ds`フォルダがない場合、そのフォルダを作成します
+1. SoundHaxの `.m4a` ファイルをSDカード直下にコピーします
+1. OtherappペイロードをSDカード直下にコピーし、ファイル名を `otherapp.bin` に変更します
+1. `boot.firm` と `boot.3dsx` をLuma3DSの `.zip` からSDカードのルートにコピーします
+1. `boot9strap`という名前のフォルダをSDカードのルート上に作成します。
+1. `boot9strap.firm`と`boot9strap.firm.sha`を boot9strap `.zip` ファイルから解凍し、SD カードのboot9strapフォルダにコピーします。
+1. SDカードの`/3ds/`フォルダに `safehax.3dsx` をコピーします
+1. SDカードの`/3ds/`フォルダに `udsploit.3dsx` をコピーします
+1. SafeB9SInstaller `.zip` から `SafeB9SInstaller.bin` をSDカードのルートにコピーします。そのファイルの名前を`safehaxpayload.bin`にリネームします
 
     ![]({{ "/images/screenshots/boot9strap-hb-file-layout.png" | absolute_url }})
     {: .notice--info}
 
-1. Reinsert your SD card into your device
-1. Power on your device
+1. SDカードをデバイスに再挿入します
+1. デバイスの電源を入れます
 1. ニンテンドー3DSサウンドを起動します
 
     ![]({{ "/images/screenshots/soundhax-welcome.png" | absolute_url }})
     {: .notice--info}
 
-1. If you've never opened Nintendo 3DS Sound before and get tips on how to use it from a bird icon, go through all of the bird tips, then close the app normally and relaunch it
-  + In this situation, launching Soundhax immediately would cause these tips to appear on every launch of the Nintendo 3DS Sound until this is done
+1. 以前にNintendo 3DS Soundを開けたことがない場合は、鳥のアイコンからそれを使用する方法についてのヒントを入手し、鳥のヒントをすべて確認してから、通常通りにアプリを閉じて再起動してください
+  + このような状況では、すぐにSoundhaxを起動すると、Nintendo 3DS Soundが起動するたびにこれらのヒントが表示されます
 1. `/SDCARD`に行って、「<3 nedwill 2016」を再生します
   + 何度も試行しなければならないことがあります
   + 画面がフリーズした場合、電源ボタン長押しで強制的に電源を切り、もう一度やり直してください
-  + If you get a red screen, ensure you copied `boot.3dsx` (the Homebrew Launcher) to the root of your SD card
+  + 赤い画面が表示された場合は、SDカードのルートに `boot.3dsx` (the Homebrew Launcher) をコピーしてください
 
     ![]({{ "/images/screenshots/soundhax-launch.png" | absolute_url }})
     {: .notice--info}
 
-1. If the exploit was successful, your device will have loaded the Homebrew Launcher
+1. Exploitが成功した場合、デバイスはHomebrew Launcherを起動します
 
     ![]({{ "/images/screenshots/homebrew-launcher.png" | absolute_url }})
     {: .notice--info}
 
 ___
 
-### Continue to [Installing boot9strap (SafeB9SInstaller)](installing-boot9strap-(safeb9sinstaller))
+### [boot9strapのインストール (SafeB9SInstaller)](installing-boot9strap-(safeb9sinstaller)) へ進んでください。
 {: .notice--primary}

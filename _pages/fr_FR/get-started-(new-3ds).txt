@@ -1,5 +1,5 @@
 ---
-title: "Get Started (New 3DS)"
+title: "Bien Démarrer (New 3DS)"
 ---
 
 {% include toc title="Table des matières" %}
@@ -13,7 +13,7 @@ La version de votre console peut être trouvée en bas à droite de l'écran sup
 ![]({{ "/images/screenshots/system-version.png" | absolute_url }})
 {: .notice--info}
 
-While we believe that custom firmware is safe for online use, there have been online network bans in the past, primarily for cheating and suspicious eShop behavior.
+Bien que nous pensons que le custom firmware est sûr pour un utilisation en ligne, des cas de bannissements ont été rapportés dans le passé, principalement à cause de tricherie en ligne ou d'un comportement suspect de l'eShop.
 {: .notice--warning}
 
 ### Tableau des versions
@@ -40,11 +40,11 @@ While we believe that custom firmware is safe for online use, there have been on
 	<tr>
       <td style="text-align: center; font-weight: bold;">11.4.0</td>
       <td style="text-align: center; font-weight: bold;">11.13.0</td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-(ssloth-browser)">Installing boot9strap (SSLoth-Browser)</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-(ssloth-browser)">Installation de boot9strap (SSLoth-Browser)</a></td>
     </tr>
     <tr>
-      <td style="text-align: center; font-weight: bold;" colspan="2">11.14.0 (latest version)</td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-(browser)">Installing boot9strap (Browser)</a></td>
+      <td style="text-align: center; font-weight: bold;" colspan="2">11.14.0 (dernière version)</td>
+      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-(browser)">Installation de boot9strap (Navigateur Web)</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;" colspan="2">TOUTES LES VERSIONS <br></td>
