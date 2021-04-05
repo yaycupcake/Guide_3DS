@@ -46,7 +46,7 @@ Insert the game cartridge you intend to dump into your device
   + **3DS Game Cartridge:** Press (A) on `[TitleID].trim.3ds` to select it
   + **NDS Game Cartridge:** Press (A) on `[TitleID].trim.nds` to select it
 1. Select "Copy to 0:/gm9/out"
-1. Your installable `.cia` or non-installable `.nds` formatted file will be outputted to the `/gm9/out/` folder on your SD card
+1. Your non-installable `.3ds` or `.nds` formatted file will be outputted to the `/gm9/out/` folder on your SD card
 
 ## Installing a Game Cartridge Directly to the System
 
