@@ -15,7 +15,7 @@ This page is a comprehensive guide to extracting game data from the system or th
 
 ## Updating GodMode9
 
-Some of the instructions below are only applicable to the latest version of GodMode9, and as such you should follow this section to update your copy before continuing. Overwrite any existing files.
+These instructions are written for use with GodMode9 v2.0.0 or later. If you have an older version of GodMode9, follow these instructions to update it.
 {: .notice--info}
 
 ### What You Need
