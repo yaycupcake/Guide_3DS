@@ -69,7 +69,10 @@ This should only be used if [Installing a Game Cartridge Directly to the System]
 1. Press (A) on `[TitleID].trim.3ds` to select it, then select "NCSD image options...", then select "Build CIA from file"
 1. Your installable `.cia` formatted file will be outputted to the `/gm9/out/` folder on your SD card
 
-## Dumping a Title
+## Dumping an Installed Title
+
+This allows dumping of both System- and User-installed digital titles, such as ones downloaded from the eShop.
+{: .notice--info}
 
 1. Press and hold (Start), and while holding (Start), power on your device. This will launch GodMode9
 1. Press (Home) to bring up the action menu
