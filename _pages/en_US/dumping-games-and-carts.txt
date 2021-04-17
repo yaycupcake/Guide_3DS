@@ -55,7 +55,7 @@ This will only work for 3DS games; it is not possible to install an NDS game car
 1. Navigate to `[C:] GAMECART`
 1. Press (A) on `[TitleID].trim.3ds` to select it, then select "NCSD image options...", then select "Install game image"
 1. Press (A) to unlock SysNAND (lvl1) writing, then input the key combo given
-1. Your game will now show up in the HOME menu as an installed title
+1. Once the process is complete, your game will show up in the HOME Menu as an installed title.
 
 ## Dumping a 3DS Game Cartridge to .CIA
 
