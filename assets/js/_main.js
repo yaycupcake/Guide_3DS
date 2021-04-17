@@ -219,11 +219,6 @@ $(document).ready(function(){
     if(typeof unhide !== 'undefined' && unhide.length > 0){
       unhide.push("home");
       unhide.push("get-started");
-      if(device == "0"){
-        unhide.push("get-started-(old-3ds)");
-      } else if (device == "1"){
-        unhide.push("get-started-(new-3ds)");
-      }
       var ol = $('.sidebar.sticky .nav__list .nav__items ol');
       for (var i = 0; i < unhide.length; i++){
         ol.children('li[data-name="' + unhide[i] + '"]').css("display", "");
