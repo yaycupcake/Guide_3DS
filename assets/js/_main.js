@@ -112,7 +112,7 @@ $(document).ready(function(){
 
   var sidebar_shown = true;
   var sidebar_hidden_pages = ["404", "a9lh-to-b9s", "credits", "donations", "dumping-titles-and-game-cartridges",
-							  "f3-(linux)", "f3xswift-(mac)", "faq", "file-extensions-(windows)", "get-started",
+                              "f3-(linux)", "f3xswift-(mac)", "faq", "file-extensions-(windows)", "get-started",
                               "godmode9-usage", "h2testw-(windows)", "region-changing", "site-navigation", "troubleshooting",
                               "uninstall-cfw","updating-b9s", "why-ads", "privacy-policy", "checking-for-cfw"];
 
