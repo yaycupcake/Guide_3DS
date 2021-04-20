@@ -44,7 +44,8 @@ title: "Проблемы и их решения"
 
 Это вызвано крайне некорректной процедурой понижения прошивки Gateway, которая дублирует каждое приложение в системе. Одно из них не используется, но это сбивает с толку систему интеграции в H&S, из-за чего она интегрирует FBI в неиспользуемый дубликат.
 
-1. Запустите GodMode9, держа нажатой кнопку (Start) во время загрузки
+1. Выключите консоль
+1. Press and hold (Start), and while holding (Start), power on your device. This will launch GodMode9
 1. Перейдите в `[1:] SYSNAND CTRNAND` -> `title` -> `00040010`
 1. Перейдите в папку, соответствующую вашей приставке и региону:
   + **Old 3DS или Old 2DS EUR**: `00022300` -> `content`
@@ -85,7 +86,7 @@ title: "Проблемы и их решения"
     1. Когда появится меню HOME, вставьте SD-карту обратно в консоль
     1. Если это сработало, то вам следует очистить данные меню HOME, следуя этим инструкциям:
         1. Выключите консоль
-        1. Запустите GodMode9, держа нажатой кнопку (Start) во время загрузки
+        1. Press and hold (Start), and while holding (Start), power on your device. This will launch GodMode9
         1. Нажмите кнопку (Home) для вызова меню
         1. Выберите "Scripts..."
         1. Выберите "GM9Megascript"
@@ -132,7 +133,7 @@ title: "Проблемы и их решения"
     1. Для устройства с Luma3DS, зажмите (Start) при включении
 1. Попробуйте очистить данные меню HOME, следуя этим инструкциям:
     1. Выключите консоль
-    1. Запустите GodMode9, держа нажатой кнопку (Start) во время загрузки
+    1. Press and hold (Start), and while holding (Start), power on your device. This will launch GodMode9
     1. Нажмите кнопку (Home) для вызова меню
     1. Выберите "Scripts..."
     1. Выберите "GM9Megascript"
@@ -154,4 +155,18 @@ title: "Проблемы и их решения"
 
 1. У вас брик
 1. Для восстановления вам понадобится ntrboot-совместимый флешкартридж (один из присутствующих в [этом списке](ntrboot)), либо [хардмод](https://gbatemp.net/threads/414498/) (англ.), либо ремонт / замена консоли
+1. Для поддержки (на английском языке), обратитесь за помощью на сервер [Nintendo Homebrew в Discord](https://discord.gg/MWxPgEp)
+
+## System update error after installing CFW
+
+ Occasionally, updates may fail to install after installing CFW. To fix this, reboot your device after each step of this section, then try updating again.
+
+1. Set your DNS settings to "Auto"
+1. Move closer to your WiFi router
+1. Update from Safe Mode by turning off the console, holding (Left Shoulder) + (Right Shoulder) + (D-Pad Up) + (A) on boot, and following the on-screen prompts
+1. Delete your WiFi connection, then reconnect to your WiFi again
+1. Reboot your WiFi router
+1. Connect to a different WiFi connection, like a mobile hotspot
+1. Nintendo servers may be down; Try again later
+1. If you still get an error, [follow CTRTransfer](ctrtransfer), then try again
 1. Для поддержки (на английском языке), обратитесь за помощью на сервер [Nintendo Homebrew в Discord](https://discord.gg/MWxPgEp)

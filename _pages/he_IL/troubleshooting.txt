@@ -44,7 +44,8 @@ To use the [magnet](https://wikipedia.org/wiki/Magnet_URI_scheme) links on this 
 
 זה קורה בגלל שGateway שנמכו בצורה מאוד גרועה שמשאירה 2 גרסאות של כל תוכנה על הקונסולה. אחת מהם לא בשימוש, אבל זה מבלבל את מערכת הזרקת H&S, וגורם לה להכניס את FBI לקובץ הלא נכון.
 
-1. תפתחו את GodMode9 על ידי החזקה של המקש (Start) בעת ההדלקה
+1. תכבו את המכשיר
+1. Press and hold (Start), and while holding (Start), power on your device. This will launch GodMode9
 1. לכו ל`[1:] SYSNAND CTRNAND`ואז `title` ולבסוף`00040010`
 1. נווטו אל התיקייה לפי המכשיר שלכם:
   + **Old 3DS EUR**: `00022300` -> `content או Old 2DS`
@@ -85,7 +86,7 @@ To use the [magnet](https://wikipedia.org/wiki/Magnet_URI_scheme) links on this 
     1. כשהתפריט מופיע, תחזירו את הSD אל המכשיר שלכם
     1. If this worked, you should clear Home Menu's extdata by following these instructions:
         1. תכבו את המכשיר
-        1. תפתחו את GodMode9 על ידי החזקה של המקש (Start) בעת ההדלקה
+        1. Press and hold (Start), and while holding (Start), power on your device. This will launch GodMode9
         1. תלחצו על (Home) כדי להראות את תפריט הפעולה
         1. תבחרו "Scripts..."
         1. Select "GM9Megascript"
@@ -132,7 +133,7 @@ To use the [magnet](https://wikipedia.org/wiki/Magnet_URI_scheme) links on this 
     1. עם Luma3DS, תחזיקו (Start) ותפעילו את ה3DS
 1. Try deleting home menu's extdata by following these instructions:
     1. תכבו את המכשיר
-    1. תפתחו את GodMode9 על ידי החזקה של המקש (Start) בעת ההדלקה
+    1. Press and hold (Start), and while holding (Start), power on your device. This will launch GodMode9
     1. תלחצו על (Home) כדי להראות את תפריט הפעולה
     1. תבחרו "Scripts..."
     1. Select "GM9Megascript"
@@ -154,4 +155,18 @@ To use the [magnet](https://wikipedia.org/wiki/Magnet_URI_scheme) links on this 
 
 1. חטפתם בריק
 1. You will need to get an ntrboot-comptible flashcart (one of the ones on [this list](ntrboot) or a [hardmod](https://gbatemp.net/threads/414498/), or repair / replace your device
+1. For support (in English), join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp)
+
+## System update error after installing CFW
+
+ Occasionally, updates may fail to install after installing CFW. To fix this, reboot your device after each step of this section, then try updating again.
+
+1. Set your DNS settings to "Auto"
+1. Move closer to your WiFi router
+1. Update from Safe Mode by turning off the console, holding (Left Shoulder) + (Right Shoulder) + (D-Pad Up) + (A) on boot, and following the on-screen prompts
+1. Delete your WiFi connection, then reconnect to your WiFi again
+1. Reboot your WiFi router
+1. Connect to a different WiFi connection, like a mobile hotspot
+1. Nintendo servers may be down; Try again later
+1. If you still get an error, [follow CTRTransfer](ctrtransfer), then try again
 1. For support (in English), join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp)

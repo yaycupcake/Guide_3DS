@@ -12,6 +12,9 @@ Az SD kártyád méretétől és a számítógéped sebességétől függően ez
 
 Ez az oldal Mac felhasználókra vonatkozik. Ha nem Mac-ed van, nézd meg a [H2testw (windows)](h2testw-(windows)) vagy az [F3 (Linux)](f3-(linux)) oldalt.
 
+Ha Mac-et használsz macOS 10.13 (High Sierra) vagy újabb verzióval, akkor kövesd az [F3XSwift (Mac)](f3xswift-(mac)) útmutatót helyette.
+{: .notice--primary}
+
 ### Amire szükséged lesz
 
 * Az [F3X](https://github.com/insidegui/F3X/releases/latest) legújabb kiadása

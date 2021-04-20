@@ -14,7 +14,7 @@ Durant cette étape, nous allons également configurer les programmes suivants :
 
 +  **FBI** *(Permet d'installer des jeux et applications au format CIA)*
 + **Anemone3DS** *(Permet d'installer des thèmes personnalisés)*
-+ ** Checkpoint ** *(Sauvegarde et restaure des fichiers de sauvegarde pour les jeux NDS et 3DS) *
++ **Checkpoint** *(Sauvegarde et restaure des fichiers de sauvegarde pour les jeux NDS et 3DS) *
 + **Universal-Updater** *(un homebrew app store pour télécharger des homebrew depuis la 3DS via le Wi-Fi)*
 +  **GodMode9** *(Programme multifonction qui peut effectuer des opérations relatives à la NAND et aux cartouches)*
 + **Homebrew Launcher Loader** *(lance le Homebrew Launcher) *
@@ -24,12 +24,12 @@ Durant cette étape, nous allons également configurer les programmes suivants :
 ## Ce dont vous avez besoin
 
 * La dernière version de [Anemone3DS](https://github.com/astronautlevel2/Anemone3DS/releases/latest) *(le fichier`.cia`)*
-* La dernière version de [Checkpoint] (https://github.com/FlagBrew/Checkpoint/releases/latest) *(the `.cia` file) *
+* La dernière version de [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases/latest) *(le fichier `.cia`)*
 * La dernière version de [Universal-Updater](https://github.com/Universal-Team/Universal-Updater/releases/latest) *(le fichier `.cia`)*
 * La dernière version de [Homebrew Launcher Wrapper](https://github.com/mariohackandglitch/homebrew_launcher_dummy/releases/latest)
-* La version 1.9.2pre1 de [GodMode9](https://github.com/d0k3/GodMode9/releases/tag/v1.9.2pre1)
+* La dernière version de [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 * La dernière version de [DSP1](https://github.com/zoogie/DSP1/releases/latest) *(le fichier `.cia`)*
-* La dernière version de [FBI](https://github.com/Steveice10/FBI/releases/latest) *(le fichier `.cia`et le fichier `.3dsx`)*
+* La dernière version de [FBI](https://github.com/Steveice10/FBI/releases/latest) *(le fichier `.cia` et le fichier `.3dsx`)*
 * La dernière version de [ctr-no-timeoffset](https://github.com/ihaveamac/ctr-no-timeoffset/releases/latest)
 
 ### Instructions
@@ -53,7 +53,7 @@ Durant cette étape, nous allons également configurer les programmes suivants :
 1. Copiez le fichier `GodMode9.firm` de l'archive `.zip` de GodMode9 dans le dossier `/luma/payloads/` sur votre carte SD
 1. Copiez le dossier `gm9` de GodMode9 `.zip` à la racine de votre carte SD
 1. Réinsérez votre carte SD dans votre 3DS
-1. Allumez à présent votre 3DS
+1. Allumez votre console
 
 #### Section II - Mise à jour du système
 
@@ -63,11 +63,11 @@ Si, en suivant une version précédente de ce guide, vous avez CTRTransféré vo
 Si, avant d'avoir suivi ce guide, vous aviez une installation EmuNAND et que vous souhaitez transférer le contenu de votre précédent EmuNAND sur votre nouvelle SysNAND CFW, il est temps de [Transférer votre EmuNAND](move-emunand) avant de suivre cette section.
 {: .notice--info}
 
-1. Mettez à jour votre console en vous rendant dans les Paramètres de la console, puis "Autres paramètres", puis tout à droite sur l'option "Mise à jour du Système"
+1. Mettez à jour votre console en vous rendant dans les Paramètres de la console, puis "Autres paramètres", puis tout à droite sur l'option "Mise à jour"
   + Mettre à jour tout en ayant B9S + Luma (ce que vous avez) est sans danger
   + La console peut afficher un message disant "Aucune mise à jour nécessaire" au lieu de faire une mise à jour. Ceci est normal si vous êtes déjà à jour ; continuez vers la section suivante
   + Si vous obtenez une erreur, réglez vos paramètres DNS sur "Automatique"
-  + Si cela vous donne encore une erreur, [suivez CTRTransfer](ctrtransfer), puis essayez de mettre à jour à nouveau
+  + Si le message d'erreur persiste, [suivez ce guide de dépannage](troubleshooting#system-update-error-after-installing-cfw)
 
 #### Section III - Homebrew Launcher
 
@@ -103,7 +103,8 @@ Si, avant d'avoir suivi ce guide, vous aviez une installation EmuNAND et que vou
 #### Section VI - CTRNAND Luma3DS
 
 1. Éteignez votre 3DS
-1. Press and hold (Start), and while holding (Start), power on your device. This will launch GodMode9
+1. Appuyez sur le bouton (START) et maintenez le enfoncé tout en allumant votre console. Ceci lancera GodMode9
+  + Si votre console ne démarre pas sur GodMode9, assurez-vous que le fichier `GodMode9.firm` est présent dans `/luma/payloads/` et que `payloads` est correctement écrit
 1. Si vous êtes invité à créer une sauvegarde de fichiers essentiels, appuyez sur (A) pour le faire, puis appuyez sur (A) pour continuer une fois terminé
 1. Si vous êtes invité à régler la date et l'heure du RTC, appuyez sur (A) pour le faire, puis réglez la date et l'heure, puis appuyez sur (A) pour continuer
 1. Appuyez sur (Home) pour faire apparaître le menu d’actions (action menu)
@@ -145,7 +146,7 @@ Si, avant d'avoir suivi ce guide, vous aviez une installation EmuNAND et que vou
   Ces sauvegardes vous sauveront d'un brick et/ou vous aideront à récupérer des fichiers de l'image de la NAND si quelque chose se passe mal plus tard
 1. Supprimez `<date>_<serialnumber>_sysnand_###.bin` et `<date>_<serialnumber>_sysnand_###.bin.sha` du dossier `/gm9/out/` de votre carte SD après l'avoir copiée
 1. Réinsérez votre carte SD dans votre 3DS
-1. Allumez à présent votre 3DS
+1. Allumez votre console
 
 ___
 

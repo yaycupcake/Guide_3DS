@@ -27,7 +27,7 @@ Durante este proceso, también instalaremos programas como los siguientes:
 * La última versión de [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases/latest) *(el archivo `.cia`)*
 * The latest release of [Universal-Updater](https://github.com/Universal-Team/Universal-Updater/releases/latest) *(the `.cia` file)*
 * La última versión de [Homebrew Launcher Wrapper](https://github.com/mariohackandglitch/homebrew_launcher_dummy/releases/latest)
-* La versión v1.9.2pre1 de [GodMode9](https://github.com/d0k3/GodMode9/releases/tag/v1.9.2pre1)
+* The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 * The latest release of [DSP1](https://github.com/zoogie/DSP1/releases/latest) *(the `.cia` file)*
 * La última versión de [FBI](https://github.com/Steveice10/FBI/releases/latest) *(los archivos `.cia` y `.3dsx`)*
 * La última versión de [ctr-no-timeoffset](https://github.com/ihaveamac/ctr-no-timeoffset/releases/latest)
@@ -67,7 +67,7 @@ Si, antes de seguir esta guía, ya tenías una configuración EmuNAND y deseas m
   + Actualizar la consola teniendo B9S y Luma (lo que acabas de instalar) es seguro
   + El actualizador podría mostrar un mensaje diciendo "La consola ya está actualizada" en lugar de actualizar. Esto es normal si tu consola ya está actualizada; continúa con la siguiente sección
   + Si esto te da un error, ajusta tu configuración de DNS a "obtención automática"
-  + Si esto te sigue dando un error, [sigue CTRTransfer](ctrtransfer), luego reintenta actualizar
+  + If this still gives you an error, [follow this troubleshooting guide](troubleshooting#system-update-error-after-installing-cfw)
 
 #### Sección III - Homebrew Launcher
 
@@ -104,6 +104,7 @@ Si, antes de seguir esta guía, ya tenías una configuración EmuNAND y deseas m
 
 1. Apaga tu consola
 1. Press and hold (Start), and while holding (Start), power on your device. This will launch GodMode9
+  + If you do not boot into GodMode9, ensure that `GodMode9.firm` is in `/luma/payloads/` and that `payloads` is correctly spelled
 1. Si se te pide crear copias de seguridad de archivos esenciales, presiona (A) para hacerlo y luego presiona (A) para continuar una vez que haya terminado
 1. Si se te pide fijar la fecha y hora RTC, presiona (A) para hacerlo, luego define la fecha y la hora, y después presiona (A) para continuar
 1. Presiona el botón (Home) para abrir el menú de acción

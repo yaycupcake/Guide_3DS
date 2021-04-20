@@ -29,7 +29,7 @@ Vous DEVEZ avoir déjà installé Luma3DS et boot9strap pour utiliser ceci.
 
 ## Ce dont vous avez besoin
 
-* La version 1.9.2pre1 de [GodMode9](https://github.com/d0k3/GodMode9/releases/tag/v1.9.2pre1)
+* La dernière version de [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 * La dernière version de [FBI](https://github.com/Steveice10/FBI/releases/latest) *(le fichier`.3dsx`)*
 * L'image de CTRtransfert en 11.5.0 pour votre console et la région que vous visez:
   +    <i class="fa fa-magnet" aria-hidden="true" title="Ceci est un lien magnet. Utilisez un client de torrent pour télécharger le fichier."></i> - [New 3DS ou 2DS - 11.5.0 - EUR - CTRTransfer](magnet:?xt=urn:btih:465f1048f81e8e5c651ce2a4d9df48fec88d1099&dn=11.5.0-38E_ctrtransfer_n3ds.zip&tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&tr=udp%3A%2F%2Fbt.xxx-tracker.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fmgtracker.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.si%3A1337%2Fannounce&tr=udp%3A%2F%2Fpublic.popcorn-tracker.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fthetracker.org%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.cypherpunks.ru%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.ds.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.mg64.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.port443.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.qt.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.vanitycore.co%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-2.msm8916.com%3A6969%2Fannounce)
@@ -56,7 +56,7 @@ Vous DEVEZ avoir déjà installé Luma3DS et boot9strap pour utiliser ceci.
 1. Réinsérez votre carte SD dans votre 3DS
 
 #### Section II - Sauvegarde de la NAND
-1. Ouvrez Godmode9 en maintenant (Start) au démarrage
+1. Appuyez sur le bouton (START) et maintenez le enfoncé tout en allumant votre console. Ceci lancera GodMode9
 1. Si vous êtes invité à créer une sauvegarde de fichiers essentiels, appuyez sur (A) pour le faire, puis appuyez sur (A) pour continuer une fois qu’elle a complété
 1. Si vous êtes invité à régler la date et l'heure du RTC, appuyez sur (A) pour le faire, puis réglez la date et l'heure, puis appuyez sur (A) pour continuer
   Notez que, si vous avez dû régler la date et l'heure du RTC, vous devrez également régler l'heure dans les Paramètres du système après ce guide
@@ -151,7 +151,7 @@ Si le script trouvé qu'aucun ticket utilisateur vous pouvez sautez cette sectio
 
 #### Section VII - Suppression de l'image de CTRTransfer
 
-1. Ouvrez Godmode9 en maintenant (Start) au démarrage
+1. Appuyez sur le bouton (START) et maintenez le enfoncé tout en allumant votre console. Ceci lancera GodMode9
 1. Naviguez vers `[0:] SDCARD` -> `gm9`
 1. Pressez (X) sur le `.bin` de l'image CTRTransfer pour le supprimer
 1. Appuyez sur (A) pour confirmer

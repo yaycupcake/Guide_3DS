@@ -27,7 +27,7 @@ In this case, we use Luma3DS by [LumaTeam](https://github.com/LumaTeam/) to boot
 * 最新版的 [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases/latest)*(`.cia` 檔案)*
 * The latest release of [Universal-Updater](https://github.com/Universal-Team/Universal-Updater/releases/latest) *(the `.cia` file)*
 * 最新版的 [Homebrew Launcher Wrapper](https://github.com/mariohackandglitch/homebrew_launcher_dummy/releases/latest)
-* The v1.9.2pre1 release of [GodMode9](https://github.com/d0k3/GodMode9/releases/tag/v1.9.2pre1)
+* The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 * The latest release of [DSP1](https://github.com/zoogie/DSP1/releases/latest) *(the `.cia` file)*
 * 最新版的 [FBI 管理器](https://github.com/Steveice10/FBI/releases/latest) *(`.cia` 及 `.3dsx` 檔案)*
 * 最新版本的 [ctr-no-timeoffset](https://github.com/ihaveamac/ctr-no-timeoffset/releases/latest)
@@ -67,7 +67,7 @@ In this case, we use Luma3DS by [LumaTeam](https://github.com/LumaTeam/) to boot
   + 在安裝 B9S + Luma 後，進行系統更新是很安全的
   + The updater may display a message saying "Your system is up to date" instead of updating. This is normal if you are already up to date; continue with the next section
   + 如果過程中出現錯誤，試試到 DNS 設定底下將設定改成『自動 (auto)』
-  + 如果錯誤持續，請進行 [CTRTransfer](ctrtransfer)，並再試一次
+  + If this still gives you an error, [follow this troubleshooting guide](troubleshooting#system-update-error-after-installing-cfw)
 
 #### 第三節 — Homebrew Launcher
 
@@ -104,6 +104,7 @@ In this case, we use Luma3DS by [LumaTeam](https://github.com/LumaTeam/) to boot
 
 1. 關閉您的主機
 1. Press and hold (Start), and while holding (Start), power on your device. This will launch GodMode9
+  + If you do not boot into GodMode9, ensure that `GodMode9.firm` is in `/luma/payloads/` and that `payloads` is correctly spelled
 1. 當提示重要檔案備份時，按下『A』繼續，並在完畢後按下『A』繼續
 1. 當提示修正 RTC 日期及時間時，按『A』繼續並設定日期及時間，再按『A』繼續
 1. 按『Home』鍵以叫出主選單

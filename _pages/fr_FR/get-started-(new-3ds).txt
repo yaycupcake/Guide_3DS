@@ -18,6 +18,8 @@ Bien que nous pensons que le custom firmware est sûr pour un utilisation en lig
 
 ### Tableau des versions
 
+La lettre et le nombre après la version du système (par exemple, 11.14.0-**46U**) n'ont pas d'importance dans cette table de version.
+
 <table>
   <colgroup>
     <col span="1" style="width: 10%;">

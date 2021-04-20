@@ -27,7 +27,7 @@ title: "セットアップを完了する"
 * 最新の [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases/latest) *( `.cia` ファイル)*
 * The latest release of [Universal-Updater](https://github.com/Universal-Team/Universal-Updater/releases/latest) *(the `.cia` file)*
 * 最新の[Homebrew Launcher Wrapper](https://github.com/mariohackandglitch/homebrew_launcher_dummy/releases/latest)
-* v1.9.2pre1 の[GodMode9](https://github.com/d0k3/GodMode9/releases/tag/v1.9.2pre1)
+* The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 * 最新版の [DSP1](https://github.com/zoogie/DSP1/releases/latest) *( `.cia` ファイル)*
 * 最新の[FBI](https://github.com/Steveice10/FBI/releases/latest) *(the `.cia` and `.3dsx` files)*
 * 最新の[ctr-no-timeoffset](https://github.com/ihaveamac/ctr-no-timeoffset/releases/latest)
@@ -67,7 +67,7 @@ title: "セットアップを完了する"
   + (今使っている) B9S + Luma を使用している状態での本体更新は安全です
   + 更新はせずに、「この本体は最新です。」と表示されます 本体の更新をすでにしている場合、これは当たり前のことです。次のステップの進んで下さい
   + エラーが発生した場合は、DNS設定を「自動」に設定してください
-  +引き続きエラーが発生した場合は、[CTRTransfer(ctrtransfer)] をご覧のあと、もう一度アップデートを試してください
+  + If this still gives you an error, [follow this troubleshooting guide](troubleshooting#system-update-error-after-installing-cfw)
 
 #### セクション III - Homebrew Launcher
 
@@ -104,6 +104,7 @@ title: "セットアップを完了する"
 
 1. 本体の電源を切ります。
 1. Press and hold (Start), and while holding (Start), power on your device. This will launch GodMode9
+  + If you do not boot into GodMode9, ensure that `GodMode9.firm` is in `/luma/payloads/` and that `payloads` is correctly spelled
 1. 重要なファイルのバックアップを作成するように求められたら、(A) ボタンを押して実行し、(A) ボタン を押して完了させてください。
 1. RTC日付/時刻を修正する場合、(A) ボタンを押し、日付や時刻を設定してください。終わったら、(A) を押してください。
 1. (Home) ボタンを押してアクションメニューを呼び出します

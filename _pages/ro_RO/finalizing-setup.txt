@@ -27,7 +27,7 @@ Pe parcursul acestui proces, vom instala și programe ca următoarele:
 * Ultima versiune de [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases/latest) *(fișierul `.cia`)*
 * The latest release of [Universal-Updater](https://github.com/Universal-Team/Universal-Updater/releases/latest) *(the `.cia` file)*
 * Cea mai nouă versiune de [Homebrew Launcher Wrapper](https://github.com/mariohackandglitch/homebrew_launcher_dummy/releases/latest)
-* The v1.9.2pre1 release of [GodMode9](https://github.com/d0k3/GodMode9/releases/tag/v1.9.2pre1)
+* The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 * The latest release of [DSP1](https://github.com/zoogie/DSP1/releases/latest) *(the `.cia` file)*
 * Cea mai nouă versiune de [FBI](https://github.com/Steveice10/FBI/releases/) *(fișierele `.3dsx` și `.cia`)*
 * Cea mai recentă versiune [ctr-no-timeoffset](https://github.com/ihaveamac/ctr-no-timeoffset/releases/latest)
@@ -67,7 +67,7 @@ Dacă, înainte să urmăriți acest ghid, aveați deja o configurare cu EmuNAND
   + Actualizările în timp ce folosiți B9S + Luma (ce aveți) sunt sigure
   + Actualizatorul poate afișa un mesaj care zice "Your system is up to date" în loc să se actualizeze. Acest lucru este normal dacă sunteți deja la zi; continuați în următoarea secțiune
   + Dacă aceasta vă dă o eroare, setați setările de DNS pe "auto"
-  + Dacă tot primiți o eroare, [urmați CTRTransfer](ctrtransfer), apoi încercați să actualizați din nou
+  + If this still gives you an error, [follow this troubleshooting guide](troubleshooting#system-update-error-after-installing-cfw)
 
 #### Secțiunea III - Homebrew Launcher
 
@@ -104,6 +104,7 @@ Dacă, înainte să urmăriți acest ghid, aveați deja o configurare cu EmuNAND
 
 1. Închideți dispozitivul
 1. Press and hold (Start), and while holding (Start), power on your device. This will launch GodMode9
+  + If you do not boot into GodMode9, ensure that `GodMode9.firm` is in `/luma/payloads/` and that `payloads` is correctly spelled
 1. Când vi se cere să faceți o copie de rezervă a fișierelor esențiale, apăsați (A) pentru a o realiza, apoi apăsați (A) ca să continuați după ce s-a terminat
 1. Dacă vi se cere să reparați dara și ora RTC, apăsați (A) pentru a efectua, apoi setați data și ora, apoi apăsați (A) pentru a continua
 1. Apăsați (Home) pentru a arăta meniul de acțiuni

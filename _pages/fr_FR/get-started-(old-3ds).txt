@@ -13,10 +13,12 @@ La version de votre console peut être trouvée en bas à droite de l'écran sup
 ![]({{ "/images/screenshots/system-version.png" | absolute_url }})
 {: .notice--info}
 
-Bien que nous pensons que le custom firmware est sûr pour un utilisation en ligne, des cas de bannissements ont été rapportés dans le passé, principalement à cause de tricherie en ligne ou d'un comportement suspect de l'eShop.
+Bien que nous pensons que le custom firmware soit sûr pour une utilisation en ligne, des cas de bannissements ont été rapportés dans le passé, principalement à cause de tricherie en ligne ou d'un comportement suspect de l'eShop.
 {: .notice--warning}
 
 ### Tableau des versions
+
+La lettre et le nombre après la version du système (par exemple, 11.14.0-**46U**) n'ont pas d'importance dans cette table de version.
 
 <table>
   <colgroup>

@@ -17,7 +17,7 @@ Ya DEBES tener instalado Luma3DS y boot9strap para usar esto.
 
 ### Qué necesitas
 
-* La versión v1.9.2pre1 de [GodMode9](https://github.com/d0k3/GodMode9/releases/tag/v1.9.2pre1)
+* The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 * La última versión de [FBI](https://github.com/Steveice10/FBI/releases/latest) *(el archivo `.3dsx`)*
 * La imagen CTRTransfer 11.5.0 para tu consola y región     
 *(si tu consola no corresponde a una de estas regiones, escoge la que corresponda a tu tipo de consola)*:    
@@ -46,7 +46,7 @@ Ya DEBES tener instalado Luma3DS y boot9strap para usar esto.
 
 #### Sección II - CTRTransfer
 
-1. Inicia GodMode9 manteniendo presionado (Start) mientras enciendes la consola
+1. Press and hold (Start), and while holding (Start), power on your device. This will launch GodMode9
 1. Si se te pide crear copias de seguridad de archivos esenciales, presiona (A) para hacerlo y luego presiona (A) para continuar una vez que haya terminado
 1. Si se te pide fijar la fecha y hora RTC, presiona (A) para hacerlo, luego define la fecha y la hora, y después presiona (A) para continuar
   + Ten en cuenta que, si tuviste que cambiar la fecha y hora RTC, también deberás cambiar la hora en la Configuración de la consola después de hacer esta guía
@@ -111,7 +111,7 @@ Si el script que no encontró tickets del usuario te dice que saltes esta secci�
 
 #### Sección V - Eliminar la imagen CTRTransfer
 
-1. Inicia GodMode9 manteniendo presionado (Start) mientras enciendes la consola
+1. Press and hold (Start), and while holding (Start), power on your device. This will launch GodMode9
 1. Ve a `[0:] SDCARD` -> `gm9`
 1. Presiona (X) en la imagen `.bin` de CTRTransfer para borrarla
 1. Presiona (A) para confirmar

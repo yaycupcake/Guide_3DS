@@ -29,7 +29,7 @@ title: "区域变更"
 
 ### 你需要准备点啥？
 
-* v1.9.2pre1 版的 [GodMode9](https://github.com/d0k3/GodMode9/releases/tag/v1.9.2pre1)
+* 最新版 [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 * 最新版 [FBI](https://github.com/Steveice10/FBI/releases/latest) **（下载 `.3dsx` 文件）**
 * 依据你想要切换到的区域选择合适的 CTR 转移（CTRTransfer）镜像:
   +    <i class="fa fa-magnet" aria-hidden="true" title="这是一个磁力链接。 使用BT协议下载软件来下载此文件。"></i> - [New 3DS 或 New 2DS - 11.5.0 - 欧版 - CTRTransfer](magnet:?xt=urn:btih:465f1048f81e8e5c651ce2a4d9df48fec88d1099&dn=11.5.0-38E_ctrtransfer_n3ds.zip&tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&tr=udp%3A%2F%2Fbt.xxx-tracker.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fmgtracker.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.si%3A1337%2Fannounce&tr=udp%3A%2F%2Fpublic.popcorn-tracker.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fthetracker.org%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.cypherpunks.ru%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.ds.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.mg64.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.port443.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.qt.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.vanitycore.co%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-2.msm8916.com%3A6969%2Fannounce)
@@ -56,7 +56,7 @@ title: "区域变更"
 1. 将 SD 卡重新插入你的设备
 
 #### 第二步 – 备份 NAND
-1. 开机时按住 “Start” 键启动 GodMode9
+1. 按住 “START” 键，然后将主机开机。 这会启动 GodMode9
 1. 如果提示创建重要文件备份，按下 “A” 键确认，在完成后再次按下 “A” 键来继续。
 1. 如果出现修复 RTC 日期与时间的提示，按 “A” 键执行修复，然后设置好日期和时间，并按 “A” 继续
   + 请注意，如果出现了该提示，则执行完本指南后你还需要在系统设置中重新设置时间
@@ -151,7 +151,7 @@ title: "区域变更"
 
 #### 第七步 – 删除 CTRTransfer 镜像
 
-1. 开机时按住 “Start” 键启动 GodMode9
+1. 按住 “START” 键，然后将主机开机。 这会启动 GodMode9
 1. 移动至 `[0:] SDCARD` -> `gm9`
 1. 在 CTRTransfer `.bin` 上按 “X” 来删除它
 1. 按 “A” 确认

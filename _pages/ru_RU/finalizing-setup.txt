@@ -27,7 +27,7 @@ In this case, we use Luma3DS by [LumaTeam](https://github.com/LumaTeam/) to boot
 * Свежая версия [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases/latest) *(`.cia-файл`)*
 * The latest release of [Universal-Updater](https://github.com/Universal-Team/Universal-Updater/releases/latest) *(the `.cia` file)*
 * Свежая версия [Homebrew Launcher Wrapper](https://github.com/mariohackandglitch/homebrew_launcher_dummy/releases/latest)
-* The v1.9.2pre1 release of [GodMode9](https://github.com/d0k3/GodMode9/releases/tag/v1.9.2pre1)
+* The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 * The latest release of [DSP1](https://github.com/zoogie/DSP1/releases/latest) *(the `.cia` file)*
 * Свежая версия [FBI](https://github.com/Steveice10/FBI/releases/latest) *(`.cia-файл` и `.3dsx-файл`)*
 * Свежая версия [ctr-no-timeoffset](https://github.com/ihaveamac/ctr-no-timeoffset/releases/latest)
@@ -67,7 +67,7 @@ In this case, we use Luma3DS by [LumaTeam](https://github.com/LumaTeam/) to boot
   + Обновление консоли с установленным B9S + Luma (установленых у вас) безопасно
   + Вместо начала процесса обновления может появиться сообщение "Система обновлена". Это нормально, если вы уже на последней версии прошивки; переходите к следующей части
   + При появлении ошибки, поставьте в настройках подключения, в настройках DNS "Получать DNS автоматически" в положение "Да"
-  + Если вы все еще получаете ошибку, [выполните CTRTransfer](ctrtransfer) и попробуйте обновиться еще раз
+  + If this still gives you an error, [follow this troubleshooting guide](troubleshooting#system-update-error-after-installing-cfw)
 
 #### Часть III - Homebrew Launcher
 
@@ -104,6 +104,7 @@ In this case, we use Luma3DS by [LumaTeam](https://github.com/LumaTeam/) to boot
 
 1. Выключите консоль
 1. Press and hold (Start), and while holding (Start), power on your device. This will launch GodMode9
+  + If you do not boot into GodMode9, ensure that `GodMode9.firm` is in `/luma/payloads/` and that `payloads` is correctly spelled
 1. Если вам предложат создать бэкап важных файлов, нажмите кнопку (A) чтобы сделать это, затем нажмите (A) чтобы продолжить после завершения
 1. Если вам предложат выставить RTC дату и время, нажмите кнопку (A) чтобы сделать это, настройте дату и время, затем нажмите (A) чтобы продолжить
 1. Нажмите кнопку (Home) для вызова меню

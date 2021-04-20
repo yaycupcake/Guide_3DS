@@ -44,7 +44,8 @@ Pour utiliser les liens suivants [magnet](https://fr.wikipedia.org/wiki/Magnet_(
 
 Cela vient de l'implémentation bancale faite par Gateway pour downgrader et qui laisse deux version de chaque application sur la console. L'une des deux est inutilisée, mais cela perturbe le système d'injection de H&S, provoquant l'injection dans la mauvaise version.
 
-1. Ouvrez Godmode9 en maintenant (Start) au démarrage
+1. Éteignez votre 3DS
+1. Appuyez sur le bouton (START) et maintenez le enfoncé tout en allumant votre console. Ceci lancera GodMode9
 1. Naviguez vers `[1:] SYSNAND CTRNAND` -> `title` -> `00040010`
 1. Sélectionnez le dossier correspondant à votre console et votre région:
   + **Old 3DS ou Old 2DS EUR**: `00022300` -> `content`
@@ -85,7 +86,7 @@ Les exploits basé sur le navigateur (tel que browserhax ou 2xrsa) sont parfois 
     1. Lorsque le Menu HOME apparaît, vous pouvez réinsérez votre carte SD dans votre console
     1. Si cela a fonctionné, vous devriez effacer l'exdata du Menu HOME en suivant les instructions suivantes :
         1. Éteignez votre 3DS
-        1. Ouvrez Godmode9 en maintenant (Start) au démarrage
+        1. Appuyez sur le bouton (START) et maintenez le enfoncé tout en allumant votre console. Ceci lancera GodMode9
         1. Appuyez sur (Home) pour faire apparaître le menu d’actions (action menu)
         1. Sélectionnez "Scripts"
         1. Sélectionnez "GM9Megascript"
@@ -132,7 +133,7 @@ Les exploits basé sur le navigateur (tel que browserhax ou 2xrsa) sont parfois 
     1. Avec Luma3DS, maintenez (Start) au démarrage
 1. Essayez de supprimer les données extdata du Menu HOME en suivant ces instructions :
     1. Éteignez votre 3DS
-    1. Ouvrez Godmode9 en maintenant (Start) au démarrage
+    1. Appuyez sur le bouton (START) et maintenez le enfoncé tout en allumant votre console. Ceci lancera GodMode9
     1. Appuyez sur (Home) pour faire apparaître le menu d’actions (action menu)
     1. Sélectionnez "Scripts"
     1. Sélectionnez "GM9Megascript"
@@ -154,4 +155,18 @@ Les exploits basé sur le navigateur (tel que browserhax ou 2xrsa) sont parfois 
 
 1. Votre console est brickée (H.S)
 1. Vous devrez obtenir un linker compatible avec ntrboot (parmi ceux [listés ici](ntrboot)) ou un [hardmod](https://gbatemp.net/threads/414498/), ou réparer/remplacer votre console
+1. Pour obtenir de l'aide (en anglais), rejoignez [Nintendo Homebrew sur Discord](https://discord.gg/MWxPgEp)
+
+## Erreur de mise à jour du système après l'installation du CFW
+
+ Parfois, les mises à jour peuvent échouer après l'installation du CFW. Pour résoudre ce problème, redémarrez votre console après chaque étape de cette section, puis essayez à nouveau de faire la mise à jour.
+
+1. Réglez le paramètre "Obtention automatique d'un DNS" sur "Oui"
+1. Rapprochez-vous de votre point d'accès Wi-Fi
+1. Effectuez une mise à jour depuis le mode sans échec (Safe Mode) en éteignant la console puis en maintenant les boutons (L) + (R) + (Haut sur la croix directionnelle) + (A) pendant le démarrage de la console et suivez les instructions à l'écran
+1. Supprimez votre connexion Wi-Fi, puis connectez-vous à nouveau à votre point d'accès Wi-Fi
+1. Redémarrez votre point d'accès Wi-Fi
+1. Connectez-vous à un point d'accès Wi-Fi différent, comme un point d'accès mobile
+1. Les serveurs de Nintendo sont peut-être en panne ; Réessayez plus tard
+1. Si vous recevez toujours un message d'erreur, [suivez CTRTransfer](ctrtransfer), puis réessayez
 1. Pour obtenir de l'aide (en anglais), rejoignez [Nintendo Homebrew sur Discord](https://discord.gg/MWxPgEp)

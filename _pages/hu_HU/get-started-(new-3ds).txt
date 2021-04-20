@@ -18,6 +18,8 @@ Habár hiszünk abban, hogy az egyedi firmware online használata biztonságos, 
 
 ### Verziótáblázat
 
+A betű és a szám a rendszer verziót követően (például: 11.14.0-**46U**) nem releváns ebben a verzió táblában.
+
 <table>
   <colgroup>
     <col span="1" style="width: 10%;">

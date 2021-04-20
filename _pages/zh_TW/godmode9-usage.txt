@@ -22,7 +22,7 @@ GodMode9 是個強大且可修改您主機的資料的一套軟體。 雖然您�
 
 ### 必備項目
 
-* The v1.9.2pre1 release of [GodMode9](https://github.com/d0k3/GodMode9/releases/tag/v1.9.2pre1)
+* The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 
 ### 操作說明
 
@@ -34,7 +34,7 @@ GodMode9 是個強大且可修改您主機的資料的一套軟體。 雖然您�
 
 ## 建立 NAND 備份
 
-1. 開機時按住『Start』鍵啟動 GodMode9
+1. Press and hold (Start), and while holding (Start), power on your device. This will launch GodMode9
 1. 按『Home』鍵以叫出主選單
 1. 選擇『Scripts...』
 1. 選擇『GM9Megascript』
@@ -58,7 +58,7 @@ GodMode9 是個強大且可修改您主機的資料的一套軟體。 雖然您�
 
 ## 還原 NAND 備份
 
-1. 開機時按住『Start』鍵啟動 GodMode9
+1. Press and hold (Start), and while holding (Start), power on your device. This will launch GodMode9
 1. 同時按住『R』及『B』以卸除 SD 卡
 1. 將 SD 卡插入至電腦中
 1. 從您的電腦中複製先前的 `<date>_<serialnumber>_sysnand_###.bin` 至 SD 卡中 `/gm9/out/` 資料夾中
@@ -85,7 +85,7 @@ GodMode9 是個強大且可修改您主機的資料的一套軟體。 雖然您�
 請注意，您將無法植入比『健康與警示』程式還大的檔案 (包括遊戲以及其他較大的程式)
 {: .notice--info}
 
-1. 開機時按住『Start』鍵啟動 GodMode9
+1. Press and hold (Start), and while holding (Start), power on your device. This will launch GodMode9
 1. 移動至 `[0:] SDCARD` -> `cias`
 1. 按『A』選取您的 `.cia` 檔案，並選擇『CIA image options...』，再選『Mount image to drive』
 1. 按『A』選取 `.app` 結尾的檔案，並選擇『NCCH image options』，再選『Inject to H&S』
@@ -98,7 +98,7 @@ GodMode9 是個強大且可修改您主機的資料的一套軟體。 雖然您�
 此方法只能在先前使用過 GodMode9 植入檔案至『健康與警示』程式的前提下才能使用(非 Decrypt9 或 Hourglass9)。
 {: .notice--info}
 
-1. 開機時按住『Start』鍵啟動 GodMode9
+1. Press and hold (Start), and while holding (Start), power on your device. This will launch GodMode9
 1. 按『Home』鍵以叫出主選單
 1. 選擇『More...』
 1. 選擇『Restore H&S』
@@ -115,7 +115,7 @@ GodMode9 是個強大且可修改您主機的資料的一套軟體。 雖然您�
 
 <div class="notice--info">{{ notice | markdownify }}</div>
 
-1. 開機時按住『Start』鍵啟動 GodMode9
+1. Press and hold (Start), and while holding (Start), power on your device. This will launch GodMode9
 1. 移動至 `[C:] GAMECART`
 1. 遵循以下適合您遊戲卡帶的步驟：
   + **3DS 遊戲卡帶：**按『A』選取 `[程式 ID].trim.3ds`，然後選擇『NCSD image options...』，再選『Build CIA from file』
@@ -124,7 +124,7 @@ GodMode9 是個強大且可修改您主機的資料的一套軟體。 雖然您�
 
 ## 拷貝程式
 
-1. 開機時按住『Start』鍵啟動 GodMode9
+1. Press and hold (Start), and while holding (Start), power on your device. This will launch GodMode9
 1. 移動至適合您所想要拷貝的程式種類的磁區：
   + **使用者安裝程式**：`[A:] SYSNAND SD`
   + **系統程式**：`[1:] SYSNAND CTRNAND`
@@ -143,7 +143,7 @@ GodMode9 是個強大且可修改您主機的資料的一套軟體。 雖然您�
 
 <div class="notice--info">{{ notice | markdownify }}</div>
 
-1. 開機時按住『Start』鍵啟動 GodMode9
+1. Press and hold (Start), and while holding (Start), power on your device. This will launch GodMode9
 1. 移動至 `[0:] SDCARD` -> `cias`
 1. 按『A』鍵選取您的 `.3ds` 檔案，並選擇『TMD file options...』，再選『Build CIA from file』
 1. 您可安裝的 `.cia` 檔案將被複製到您 SD 卡的 `/gm9/out/` 資料夾中
@@ -223,7 +223,7 @@ GodMode9 是個強大且可修改您主機的資料的一套軟體。 雖然您�
 
 ## 如何在不格式化主機的情況下清除 NNID
 
-1. 開機時按住『Start』鍵啟動 GodMode9
+1. Press and hold (Start), and while holding (Start), power on your device. This will launch GodMode9
 1. 按『Home』鍵以叫出主選單
 1. 選擇『Scripts...』
 1. 選擇『GM9Megascript』

@@ -20,7 +20,7 @@ godmode9.firm以外のペイロードがある場合、
 
 ### 必要なもの
 
-* v1.9.2pre1バージョンのの[GodMode9](https://github.com/d0k3/GodMode9/releases/tag/v1.9.2pre1)
+* The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 * 最新版の [FBI](https://github.com/Steveice10/FBI/releases/latest) *(”.3dsx”のファイル)*
 * お使いの機種とリージョンに対応した11.5.0 CTRTransferイメージ     
 *(機種とリージョンの両方が一致したものが下記にない場合、いずれかのリージョンから機種が一致しているものを一つ選択してください)*：    
@@ -49,7 +49,7 @@ godmode9.firm以外のペイロードがある場合、
 
 #### セクション II - CTRTransfer
 
-1. (START)ボタンを押しながらデバイスを起動させ、GodMode9を起動します。
+1. Press and hold (Start), and while holding (Start), power on your device. This will launch GodMode9
 1. 重要なファイルのバックアップを作成するように求められたら、(A) ボタンを押して実行し、(A) ボタン を押して完了させてください。
 1. RTC日付/時刻を修正するには、(A) ボタンを押し、日付や時刻を設定してください。終わったら、(A) を押して続けてください。
   +補足 RTCの日付と時刻を修正する必要がある場合は、このガイドの後にシステム設定で時刻を同じように修正する必要があります
@@ -114,7 +114,7 @@ godmode9.firm以外のペイロードがある場合、
 
 #### セクション V - CTRTransferイメージの削除
 
-1. (START)ボタンを押しながらデバイスを起動させ、GodMode9を起動します。
+1. Press and hold (Start), and while holding (Start), power on your device. This will launch GodMode9
 1. `[0:] SDCARD` -> `gm9`へ移動します。
 1. 拡張子.binのCTR Transferイメージの上でXキーを押して削除します。
 1. (A) を押して確認します

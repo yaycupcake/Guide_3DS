@@ -17,7 +17,7 @@ To use the [magnet](https://wikipedia.org/wiki/Magnet_URI_scheme) links on this 
 
 ### What You Need
 
-* The v1.9.2pre1 release of [GodMode9](https://github.com/d0k3/GodMode9/releases/tag/v1.9.2pre1)
+* The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 * The latest release of [FBI](https://github.com/Steveice10/FBI/releases/latest) *(the`.3dsx` file)*
 * קובץ ה-11.5.0 CTRTransfer image המתאים למכשיר והאיזור שלכם     
 *(אם המכשיר שלכם אינו מאחד האיזורים האלו, פשוט תבחרו אחד מהם שתואם למכשיר)*:    
@@ -46,7 +46,7 @@ To use the [magnet](https://wikipedia.org/wiki/Magnet_URI_scheme) links on this 
 
 #### חלק II - ביצוע CTRTransfer
 
-1. תפתחו את GodMode9 על ידי החזקה של המקש (Start) בעת ההדלקה
+1. Press and hold (Start), and while holding (Start), power on your device. This will launch GodMode9
 1. אם תתבקשו לעשות גיבוי של קבצים חיוניים, תלחצו (A) כדי לעשות זאת, ואז תלחצו (A) כדי להמשיך אחרי שזה סיים
 1. אם אתם מתבקשים לתקן את זמן ותאריך הRTC, תלחצו (A) כדי לעשות זאת, ואז תלחצו (A) כדי להמשיך
   + שימו לב, אם הייתם צריכים לתקן את תאריך וזמן הRTC, תצטרכו לתקן את הזמן בהגדרות המערכת גם כן אחרי המדריך הזה
@@ -111,7 +111,7 @@ To use the [magnet](https://wikipedia.org/wiki/Magnet_URI_scheme) links on this 
 
 #### חלק V - מחיקת ה CTRTransfer image
 
-1. תפתחו את GodMode9 על ידי החזקה של המקש (Start) בעת ההדלקה
+1. Press and hold (Start), and while holding (Start), power on your device. This will launch GodMode9
 1. נווטו אל `[0:] SDCARD` ושם אל `gm9`
 1. תלחצו (X) על קובץ ה`.bin` של הCTRTransfer כדי למחוק אותו
 1. תלחצו (A) כדי לאשר

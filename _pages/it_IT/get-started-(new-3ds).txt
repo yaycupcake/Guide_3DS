@@ -18,6 +18,8 @@ Nonostante riteniamo che l'uso di un custom firmware sia sicuro anche online, ci
 
 ### Tabella delle versioni
 
+La lettera e il numero dopo la versione di sistema (ad esempio, 11.14.0-**46U**) non sono rilevanti nella seguente tabella delle versioni.
+
 <table>
   <colgroup>
     <col span="1" style="width: 10%;">
