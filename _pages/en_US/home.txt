@@ -32,7 +32,7 @@ This guide will install **boot9strap + Luma3DS custom firmware** on **unmodified
 ## What do I need to know before starting?
 
 * While the risks of bricking have been minimized over the years, **we are not responsible for anything that goes wrong with your device**. Incorrect file placement will not brick your device, but reckless behavior might.
-* This guide will work on every device in the Nintendo 3DS family of consoles (including the New 3DS series and the 2DS), regardless of region or firmware.
+* This guide will work on every retail device in the Nintendo 3DS family of consoles (including the New 3DS series and the 2DS), regardless of region or firmware.
 * Following this guide alone should not result in data loss, but SD card corruption is always a possibility. You should make a backup of your SD card contents if you have important data.
 * You will need a working SD card in your 3DS, as well as the ability to write files to the SD card. The 3DS can read SD cards formatted as MBR/FAT32.
 
