@@ -136,6 +136,9 @@ If, before following this guide, you already had an EmuNAND setup and would like
 1. Select "Dump Boot9.bin & Boot11.bin"
 1. When prompted, press (A) to proceed
 1. Press (A) to continue
+1. Select "Dump essential.exefs"
+1. When prompted, press (A) to proceed
+1. Press (A) to continue
 1. Press (B) to return to the main menu
 1. Select "Exit"
 1. Press (A) to relock write permissions if prompted
