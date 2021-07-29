@@ -4,9 +4,6 @@ title: "Boot9strapの導入 (Frogtool)"
 
 {% include toc title="目次" %}
 
-Seedminerベースのメソッドは、より簡単で安全なメソッドに置き換えられました。 このページの手順に従う理由がない場合は、[始める](get-started) に戻ってください(例えば、L/Rボタンが壊れているなど)。
-{: .notice--warning}
-
 ### 必読事項
 
 今回はHomebrew LauncherにアクセスしてFrogtool ユーティリティを実行し、日本語版「うごくメモ帳」タイトルを注入します。 b9sToolを実行しboot9strapをインストールするのに使います。
@@ -73,7 +70,7 @@ Seedminerベースのメソッドは、より簡単で安全なメソッドに�
 1. (Select) を押したままデバイスを起動し、Luma3DS設定メニューを開きます
   + Luma設定メニューの起動時に問題が発生した場合は、[このトラブルシューティングガイドに従ってください](https://github.com/zoogie/b9sTool/blob/master/TROUBLESHOOTING.md)
 1. (A) ボタン とD-Padを使用し、次の設定を有効にします:
-  + **「Show NAND or user string in System Settings」**
+  + **"Show NAND or user string in System Settings"**
 1. (Start) を押してセーブして再起動します
   しばらくしたらホーム画面が表示されます 黒い画面が5分以上続く場合、[このトラブルシューティングガイドに従ってください](troubleshooting#black-screen-on-sysnand-boot-after-installing-boot9strap)
 

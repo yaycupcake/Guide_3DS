@@ -4,9 +4,6 @@ title: "Installing boot9strap (PicHaxx)"
 
 {% include toc title="目次" %}
 
-Seedminerベースのメソッドは、より簡単で安全なメソッドに置き換えられました。 このページの手順に従う理由がない場合は、[始める](get-started) に戻ってください(例えば、L/Rボタンが壊れているなど)。
-{: .notice--warning}
-
 ### 必読事項
 
 This method of using Seedminer for further exploitation uses your `movable.sed` file to write a custom save file for Pokémon Picross, which can then be used with universal-otherapp to run SafeB9SInstaller.
@@ -59,7 +56,7 @@ This method of using Seedminer for further exploitation uses your `movable.sed` 
 1. デバイスはLuma3DS設定メニューに再起動します
   + もしブラックスクリーンの場合は[トラブルシューティングガイド](troubleshooting#black-screen-on-sysnand-boot-after-installing-boot9strap) をご覧ください
 1. (A) ボタン とD-Padを使用し、次の設定を有効にします:
-  + **「Show NAND or user string in System Settings」**
+  + **"Show NAND or user string in System Settings"**
 1. (Start) を押してセーブして再起動します
   + エラーが発生した場合は、次のページに進んでください
 

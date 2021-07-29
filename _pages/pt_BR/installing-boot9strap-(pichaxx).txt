@@ -4,9 +4,6 @@ title: "Installing boot9strap (PicHaxx)"
 
 {% include toc title="Table of Contents" %}
 
-Seedminer-based methods have been replaced by easier, safer methods. Please return to [Get Started](get-started) unless you have a legitimate reason to follow this page (such as broken shoulder buttons).
-{: .notice--warning}
-
 ### Required Reading
 
 This method of using Seedminer for further exploitation uses your `movable.sed` file to write a custom save file for Pokémon Picross, which can then be used with universal-otherapp to run SafeB9SInstaller.
@@ -51,7 +48,7 @@ This method of using Seedminer for further exploitation uses your `movable.sed` 
 #### Section III - Installing boot9strap
 
 1. Espere todos as verificações de segurança finalizarem
-1. Quando solicitado, aperte a sequência de botões solicitada para instalar o boot9strap
+1. Quando solicitado, aperte a sequência de botões dada para instalar o boot9strap
 1. Quando concluído, aperte (A) para reiniciar o seu dispositivo
 
 #### Section IV - Configuring Luma3DS
