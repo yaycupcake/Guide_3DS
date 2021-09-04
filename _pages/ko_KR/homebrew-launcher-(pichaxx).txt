@@ -2,7 +2,7 @@
 title: "Homebrew Launcher (PicHaxx)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="목차" %}
 
 ### Required Reading
 
@@ -14,7 +14,7 @@ If your device already has access to the Homebrew Launcher (whether through PicH
 If you already have Pokemon Picross, this process will overwrite your game's save file!
 {: .notice--warning}
 
-### What You Need
+### 준비물
 
 * The free eShop game "Pokemon Picross"
 * Your `movable.sed` file from completing [Seedminer](seedminer)
@@ -22,9 +22,9 @@ If you already have Pokemon Picross, this process will overwrite your game's sav
 * The [otherapp payload](https://deadphoenix8091.github.io/3ds/#otherapp) *(for your region, device, and version)*
   + If your current version is 11.14.0-46, select 11.13.0-45 for your version
 
-### Instructions
+### 진행 방법
 
-#### Section I - Prep Work
+#### 섹션 I - 준비 작업
 
 1. Copy `boot.3dsx` to the root of your SD card
 1. Copy the otherapp payload to the root of your SD card and rename it to `otherapp.bin`

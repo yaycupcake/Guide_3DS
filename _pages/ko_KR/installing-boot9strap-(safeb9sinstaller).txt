@@ -2,9 +2,9 @@
 title: "Installing boot9strap (SafeB9SInstaller)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="목차" %}
 
-### Instructions
+### 진행 방법
 
 #### Section I - Launching SafeB9SInstaller
 
@@ -18,22 +18,26 @@ title: "Installing boot9strap (SafeB9SInstaller)"
   + 재생중 화면이 멈출 경우 전원 버튼을 길게 눌러서 기기를 강제로 종료시킨 후 다시 시도해 주세요.
 1. If the exploit was successful, you will have booted into SafeB9SInstaller
 
-#### Section II - Installing boot9strap
+#### 섹션 II - boot9strap 설치하기
 
 1. Wait for all safety checks to complete
 1. When prompted, input the key combo given to install boot9strap
 1. Once it has completed, press (A) to reboot your device
 
-#### Section III - Configuring Luma3DS
+#### 섹션 III - Luma3DS 설정
 
 1. Your device should have rebooted into the Luma3DS configuration menu
-  + If you get a black screen, [follow this troubleshooting guide](troubleshooting#black-screen-on-sysnand-boot-after-installing-boot9strap)
+  + If you get a black screen, [follow this troubleshooting guide](troubleshooting#boot-related-issues-on-modded-devices)
 1. Use the (A) button and the D-Pad to turn on the following:
   + **"Show NAND or user string in System Settings"**
-1. (start)를 눌러 저장하고 기기를 다시 시작해 주세요.
+1. (Start)를 눌러 저장하고 기기를 다시 시작해 주세요
   + If you get an error, just continue the next page
+
+At this point, your console will boot to Luma3DS by default as long as the SD card is inserted.
+  + Luma3DS does not look any different from the normal HOME menu. If your console has booted into the HOME menu, it is running custom firmware.
+  + On the next page, you will copy Luma3DS to internal memory so that you can boot without an SD card.
 
 ___
 
-### Continue to [Finalizing Setup](finalizing-setup)
+### [마무리 단계] (finalizing-setup) 로 계속합니다
 {: .notice--primary}

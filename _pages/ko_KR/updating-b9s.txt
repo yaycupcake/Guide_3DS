@@ -2,35 +2,35 @@
 title: "Updating B9S"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="목차" %}
 
 ### Required Reading
 
 This page is for existing boot9strap users to update their installation of boot9strap to the latest version.
 
-While we believe that custom firmware is safe for online use, there have been online network bans in the past, primarily for cheating and suspicious eShop behavior.
+우리는 온라인 사용은 문제가 없다고 믿지만, 치트 밎 의혹한 eShop 행동으로 온라인 네트워크 차단 사건들이 있었음으로, 주의하시기 바랍니다.
 {: .notice--warning}
 
-### What You Need
+### 준비물
 
 * The latest release of [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
-* The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(`boot9strap-1.3.zip`; not the `devkit` file, not the `ntr` file)*
+* 최신 버전의 [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(기본 boot9strap; `devkit`, `ntr` 파일이 아닙니다.)*
 * The latest release of [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest)
 
-### Instructions
+### 진행 방법
 
-#### Section I - Prep Work
+#### 섹션 I - 준비 작업
 
 For all steps in this section, overwrite any existing files on your SD card.
 {: .notice--info}
 
-1. SD 카드를 컴퓨터에 삽입해 주세요.
+1. SD 카드를 컴퓨터에 삽입해 주세요
 1. Create a folder named `boot9strap` on the root of your SD card
 1. Copy `boot9strap.firm` and `boot9strap.firm.sha` from the boot9strap `.zip` to the `/boot9strap/` folder on your SD card
 1. Copy `SafeB9SInstaller.firm` from the SafeB9SInstaller `.zip` to the `/luma/payloads/` folder on your SD card
 1. SD 카드를 기기에 다시 삽입해 주세요.
 
-#### Section II - Installing boot9strap
+#### 섹션 II - boot9strap 설치하기
 
 1. Launch Luma3DS chainloader menu by holding (Start) during boot
 1. Launch SafeB9SInstaller by pressing (A)
@@ -42,7 +42,7 @@ For all steps in this section, overwrite any existing files on your SD card.
 #### Section III - Update Luma3DS
 
 1. 기기를 종료해 주세요.
-1. SD 카드를 컴퓨터에 삽입해 주세요.
+1. SD 카드를 컴퓨터에 삽입해 주세요
 1. Copy `boot.firm` and `boot.3dsx` from the Luma3DS `.zip` to the root of your SD card, replacing the existing file
 1. SD 카드를 기기에 다시 삽입해 주세요.
 1. 기기를 시작해 주세요.
@@ -52,11 +52,11 @@ For all steps in this section, overwrite any existing files on your SD card.
 This section is only needed if you are prompted with the Luma3DS configuration menu after the reboot.
 {: .notice--info}
 
-1. In the Luma3DS configuration menu, use the (A) button and the D-Pad to turn on the following:    
+1. Luma3DS 구성 메뉴에서 (A) 버튼과 십자 패드를 이용 하여 밑에 나와있는 옵션들을 켜 주세요    
   + **"Show NAND or user string in System Settings"**
-1. (start)를 눌러 저장하고 기기를 다시 시작해 주세요.
+1. (Start)를 눌러 저장하고 기기를 다시 시작해 주세요
 
 ___
 
-### Continue to [Finalizing Setup](finalizing-setup)
+### [마무리 단계] (finalizing-setup) 로 계속합니다
 {: .notice--primary}

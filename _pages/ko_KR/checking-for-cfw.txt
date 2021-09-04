@@ -2,7 +2,7 @@
 title: "Checking for CFW"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="목차" %}
 
 ### Required Reading
 
@@ -13,7 +13,7 @@ If your console already has an arm9loaderhax or boot9strap based custom firmware
 If your console has a menuhax based CFW setup, you should [clear Home Menu's extdata](troubleshooting#clear-home-menu-extdata), then follow all instructions on your SysNAND.
 {: .notice--primary}
 
-### Instructions
+### 진행 방법
 
 1. Turn off your console
 1. Hold the (Select) button
@@ -31,7 +31,7 @@ If you see a Luma3DS version of 7.0.5 or lower, continue to [A9LH to B9S](a9lh-t
 If you see a Luma3DS version of 7.1, continue to [Updating B9S](updating-b9s)
 {: .notice--primary}
 
-If you see a Luma3DS version of 8.0 or greater, continue to [Restoring CFW](restoring-cfw)
+If you see a Luma3DS version of 8.0 or greater, continue to [Restoring / Updating CFW](restoring-updating-cfw)
 {: .notice--primary}
 
 If you see something not described by the above options, join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) and ask, in English, for help.

@@ -2,36 +2,285 @@
 title: "Risoluzione dei problemi"
 ---
 
-{% include toc title="Indice" %}
+{% include toc title="Indice"%}
 
-### Lettura necessaria
+Questa pagina offre consigli per la risoluzione di problemi comuni. Se non riesci a risolvere il tuo problema con i consigli su questa pagina, entra nel [canale Discord di Nintendo Homebrew](https://discord. g/MWxPgEp) e descrivi il tuo problema, indicando quello che hai già provato.
 
-Se non riesci ad avviare la tua console, consulta la sezione relativa al tuo problema e segui le istruzioni.
+---
 
-Se comunque non riesci a risolvere il tuo problema e hai bisogno di aiuto, incolla il contenuto dei file .log rilevanti dalla directory principale della tua scheda SD in un [Gist](https://gist.github.com/), successivamente fornisci una descrizione dettagliata del tuo problema e delle eventuali operazioni che hai fatto per provare a risolverlo.
+## Problemi con SafeB9SInstaller
 
-Tieni presente che se hai altri file payload oltre a `GodMode9.firm` nella cartella `/luma/payloads/` della tua scheda SD, per seguire le istruzioni riportate dovrai avviare la console tenendo (Start); apparirà un "menu chainloader" dove dovrai selezionare "GodMode9" tramite il D-Pad e il pulsante (A). 
+### SigHaxed FIRM was not installed! Check lower screen for more info.
 
-Per usare i link [magnet](https://wikipedia.org/wiki/Magnet_URI_scheme) di questa guida avrai bisogno di un client torrent come [Deluge](http://dev.deluge-torrent.org/wiki/Download).
+#### SigHaxed FIRM - File not found
 
-## Software DS / DSi non funzionante dopo aver completato la guida
+Ti mancano i file `boot9strap.firm` e `boot9strap.firm.sha` dalla cartella `boot9strap`, o la cartella `boot9strap` non è stata correttamente nominata. Scarica l'ultima versione di [boot9strap](https://github.com/SciresM/boot9strap/releases/latest), e posiziona i file `boot9strap.firm` e `boot9strap.firm.sha` nella cartella `boot9strap`. Assicurati di scaricare il file corretto (`boot9strap-1.3.zip`, e non devkit né ntr).
 
-### Cosa serve
+#### SigHaxed FIRM - invalid FIRM
 
-* L'ultima versione di [TWLFix-CFW](https://github.com/MechanicalDragon0687/TWLFix-CFW/releases/latest) *(il file .3dsx)*
+C'è un problema con i tuoi file `boot9strap.firm` e `boot9strap.firm.sha`. Ri-scarica l'ultima versione di [boot9strap](https://github.com/SciresM/boot9strap/releases/latest), e posiziona i file `boot9strap.firm` e `boot9strap.firm.sha` nella cartella `boot9strap`. Assicurati di scaricare il file corretto (`boot9strap-1.3.zip`, e non devkit né ntr).
 
-### Istruzioni
+#### Secret Sector - File not found
 
-#### Sezione I - Preparazione
+Ti manca il file `secret_sector.firm` dalla cartella `boot9strap`, o la cartella `boot9strap` non è stata correttamente nominata. Scarica [secret_sector.bin](magnet:?xt=urn:btih:15a3c97acf17d67af98ae8657cc66820cc58f655&dn=secret_sector.bin&tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&tr=udp%3A%2F%2Fbt.xxx-tracker.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fmgtracker.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.si%3A1337%2Fannounce&tr=udp%3A%2F%2Fpublic.popcorn-tracker.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fthetracker.org%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.cypherpunks.ru%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.ds.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.mg64.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.port443.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.qt.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.vanitycore.co%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-2.msm8916.com%3A6969%2Fannounce) con un client torrent, e copialo nella cartella `boot9strap`.
 
+#### Qualcos'altro
+
+Entra nel [canale Discord di Nintendo Homebrew](https://discord.gg/MWxPgEp) per ricevere assistenza, e indica il messaggio che ricevi.
+
+---
+
+## Seedminer
+
+### Bruteforce Movable salta al passo 4
+
+Il sito web ha già estratto il tuo file `movable.sed` usando la combinazione del tuo codice amico e l'ID0. Puoi già usare il file `movable.sed` che ti viene fornito.
+
+### Important! You have been locked out of the automated part1 dumper system...
+
+Il tuo codice amico non può più usare il bot perché il tuo 3DS non ha accettato correttamente la sua amicizia. Assicurati che il tuo 3DS sia connesso correttamente a Internet, quindi entra nel [canale Discord di Nintendo Homebrew](https://discord.gg/MWxPgEp) e chiedi di venire sbloccato.
+
+### We were unable to successfully complete your bruteforce request. :`(
+
+Il sito ha stabilito che il tuo file `movable.sed` non può essere decriptato. Assicurati di aver dato l'ID0 corretto al sito web. Se il tuo ID0 è corretto, allora non potrai utilizzare Seedminer e dovrai utilizzare un metodo alternativo che richiederà ulteriori giochi o hardware.
+
+---
+
+## Installazione di boot9strap (PicHaxx)
+
+### "An exception occurred" o Errdisp durante l'avvio di Picross
+
+La tua console ha già un custom firmware. Dovresti [verificare la presenza di un CFW](checking-for-cfw).
+
+### "Si è verificato un errore che ha provocato la chiusura del software..." (messaggio su riquadro bianco)
+
+C'è un problema con il tuo file `otherapp.bin`. Scarica l'ultima versione di [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest) e inseriscila nella directory principale della tua scheda SD. Non aggiungere l'estensione `.bin` se non la vedi presente.
+
+### "Si è verificato un errore. Tieni premuto il pulsante POWER per spegnere la console..." (schermo nero con testo)
+
+I tuoi file `00000001.sav` e/o `otherapp.bin` potrebbero essere mal posizionati. Assicurati che il file `00000001.sav` sia in `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `title` -> `00040000` -> `0017c100` -> `data` e che il file `otherapp.bin` sia nella directory principale della tua scheda SD.
+
+Se i tuoi file sono nelle posizioni corrette, ricrea il salvataggio usando [PicHaxx Save Tool](https://3ds.nhnarwhal.com/3dstools/pichaxx.php), poi posizionalo in `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `title` -> `00040000` -> `0017c100` -> `data`. Assicurati che il file sia chiamato esattamente `00000001.sav` e che tu abbia usato il file `movable.sed` della tua console per crearlo. Riscarica l'ultima versione di [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest) e posizionala nella directory principale della tua scheda SD. Non aggiungere l'estensione `.bin` se non la vedi presente.
+
+### Il gioco si avvia normalmente
+
+Il tuo file `00000001.sav` modificato potrebbe essere mal posizionato, o potresti aver usato il file `movable.sed` errato per la sua creazione. Ricrea il salvataggio usando [PicHaxx Save Tool](https://3ds.nhnarwhal.com/3dstools/pichaxx.php), poi posizionalo in `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `title` -> `00040000` -> `0017c100` -> `data`.
+
+### Impossibile avviare SafeB9SInstaller.bin
+
+Il file `SafeB9SInstaller.bin` è mancante o mal posizionato. Scarica l'ultima versione di [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/tag/v0.0.7) e inseriscila nella directory principale della tua scheda SD. Non aggiungere l'estensione `.bin` se non la vedi presente.
+
+### Bloccato su "Doing agbhax..."
+
+Potrebbe esserci un problema con il tuo file `otherapp.bin`. Scarica l'ultima versione di [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest) e inseriscila nella directory principale della tua scheda SD. Non aggiungere l'estensione `.bin` se non la vedi presente.
+
+### "PrepareArm9ForTwl returned error c8804631!"
+
+Dovrai seguire un metodo alternativo, come [BannerBomb3](bannerbomb3).
+
+---
+
+## Installazione di boot9strap (Soundhax)
+
+### Schermo rosso/viola/rosa e bianco dopo aver eseguito Soundhax
+
+Se la tua console è alla versione di sistema 9.4.0, 9.5.0, o 9.6.0, potresti riscontrare un bug con universal-otherapp. Segui la guida [Homebrew Launcher (Soundhax)](homebrew-launcher-(soundhax)) al suo posto.
+
+Se la tua console non ha queste versioni di sistema, probabilmente hai già un custom firmware. Dovresti [verificare la presenza di un CFW](checking-for-cfw).
+
+### "Si è verificato un errore che ha provocato la chiusura del software..." (messaggio su riquadro bianco)
+
+C'è un problema con il tuo file `otherapp.bin` (è mancante, mal posizionato o corrotto). Scarica l'ultima versione di [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest) e inseriscila nella directory principale della tua scheda SD.
+
+### "Impossibile riprodurre"
+
+Hai il file Soundhax sbagliato per la tua console e regione, o la tua console è incompatibile con Soundhax. Nell'ultimo caso, dovresti aggiornare la tua console all'ultima versione e seguire [Seedminer](seedminer).
+
+### Impossibile avviare SafeB9SInstaller.bin
+
+Il file `SafeB9SInstaller.bin` è mancante o mal posizionato. Scarica l'ultima versione di [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/tag/v0.0.7) e inseriscila nella directory principale della tua scheda SD. Non aggiungere l'estensione `.bin` se non la vedi presente.
+
+### Bloccato su "Doing agbhax..."
+
+Potrebbe esserci un problema con il tuo file `otherapp.bin`. Riscarica l'ultima versione di [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest), rinominala in `arm11code.bin`, e posizionala nella directory principale della tua scheda SD.
+
+Se hai una console taiwanese o dell'entroterra cinese (con una T o C nella stringa della versione, es. 11.14.0-##T), entra nel [canale Discord di Nintendo Homebrew](https://discord.gg/MWxPgEp) per richiedere assistenza.
+
+### "PrepareArm9ForTwl returned error c8804631!"
+
+Dovrai seguire un metodo alternativo. Entra nel [canale Discord di Nintendo Homebrew](https://discord.gg/MWxPgEp) per chiedere assistenza.
+
+## BannerBomb3
+
+### Il menu di Gestione Nintendo DSiWare non crasha
+
+Manca il file `F00D43D5.bin` da `Nintendo 3DS` -> `<ID0>` `<ID1>` -> `Nintendo DSiWare`. Assicurati che `Nintendo DSiWare` sia scritto correttamente e con gli spazi al posto giusto. Lettere maiuscole o minuscole non fanno differenza.
+
+### Gestione Nintendo DSiWare mostra un punto interrogativo
+
+Potrebbe esserci un problema con il tuo file `F00D43D5.bin` (potrebbe essere corrotto o per un diverso 3DS). Ri-crea il tuo file `F00D43D5.bin`con [BannerBomb3 tool](https://3ds.nhnarwhal.com/3dstools/bannerbomb3.php), assicurandoti di utilizzare il file `movable.sed` della tua console.
+
+### Il menu di Gestione Nintendo DSiWare crasha senza schermata viola
+
+Assicurati che il file `F00D43D5.bin` sia l'unico file presente in `Nintendo 3DS` -> `<ID0>` `<ID1>` -> `Nintendo DSiWare`. In tal caso, ricrealo con [BannerBomb3 tool](https://3ds.nhnarwhal.com/3dstools/bannerbomb3.php). Se dovesse di nuovo fallire, potrebbe essere già stato disinstallato un custom firmware su questa console in modo tale da rendere questo metodo impossibile. In tal caso, entra nel [canale Discord di Nintendo Homebrew](https://discord.gg/MWxPgEp) per chiedere assistenza.
+
+---
+
+## Installazione di boot9strap (Fredtool)
+
+### Errore nella pagina Fredtool Injector
+
+Assicurati che il file `movable.sed` e il backup DSiWare provengano dalla stessa console. La mancata corrispondenza comporterà un errore.
+
+### "Haxxxxxxxxx!" non appare
+
+C'è un problema con il tuo file `42383821.bin` (è errato, mancante, mal posizionato o corrotto). Ri-crea i tuoi file con il sito web [Fredtool](https://3ds.nhnarwhal.com/3dstools/fredtool.php) e assicurati di inserire il file `42383821.bin` file di `output.zip` -> `hax` in `Nintendo 3DS` -> `<ID0>`<ID1>` -> `Nintendo DSiWare`.
+
+### Impostazioni di collegamento DS si avvia normalmente
+
+`Haxxxxxxxxx!` non è stato copiato dalla tua scheda SD nella memoria di sistema.
+
+### Schermata nera all'avvio di Impostazioni di collegamento DS
+
+La tua applicazione Impostazioni di collegamento DS è corrotta, e avrai bisogno di accedere all'Homebrew Launcher per risolvere questo problema. Entra nel [canale Discord di Nintendo Homebrew](https://discord.gg/MWxPgEp) per chiedere assistenza.
+
+### La scheda SD è ingrigita
+
+Flipnote può richiedere molto tempo per indicizzare la tua scheda SD se ne hai una di grandi dimensioni. Aspetta qualche minuto.
+
+### La "Lenny face" non compare
+
+Non hai copiato la cartella `private` dall'archivio `.zip` di Frogminer_save nella directory principale della tua scheda SD.
+
+### Flipnote si blocca
+
+Potresti aver toccato accidentalmente il touch screen nel Flipnote modificato. Ri-entra in Impostazioni di collegamento DS e riprova, assicurandoti di non toccare accidentalmente il touch screen.
+
+### Schermata verde dopo aver incollato 
+
+Il file `boot.nds` è mancante o mal posizionato. Scarica l'ultima versione di [b9stool](https://github.com/zoogie/b9sTool/releases/latest) e posizionala nella directory principale della tua scheda SD, sostituendo quella preesistente.
+
+### Schermata bianca dopo aver incollato
+
+C'è un problema con il tuo file `boot.nds`. Ri-scarica l'ultima versione di [b9stool](https://github.com/zoogie/b9sTool/releases/latest) e posizionala nella directory principale della tua scheda SD, sostituendo quella preesistente.
+
+### Impossibile aprire il menu di configurazione di Luma3DS dopo aver eseguito b9stool
+
+È possibile che boot9strap non sia stato installato correttamente. Segui la sezione B di [questa pagina](https://github.com/zoogie/b9sTool/blob/master/TROUBLESHOOTING.md).
+
+## Completamento dell'installazione
+
+### Impossibile aggiornare la console
+
+I passaggi qui sotto possono essere seguiti in qualsiasi ordine, ma sono elencati dal più facile al più difficile da eseguire.
+
+1. Imposta le impostazioni DNS su "Auto"
+1. Avvicinati al tuo router WiFi
+1. Aggiorna tramite la Safe Mode spegnendo la console, tenendo premuti (L) + (R) + (D-Pad Su) + (A) all'avvio, e seguendo le istruzioni a schermo
+1. Elimina il profilo di connessione WiFi, quindi connettiti di nuovo alla rete WiFi
+1. Riavvia il tuo router WiFi
+1. Connettiti ad una rete WiFi alternativa, ad esempio un hotspot mobile
+1. I server Nintendo potrebbero essere irraggiungibili. Riprova più tardi
+1. Se continui a ricevere un errore, [segui la guida per il CTRTransfer](ctrtransfer), poi ritenta l'aggiornamento
+1. Se hai bisogno di aiuto (in inglese), entra nel [canale Discord di Nintendo Homebrew](https://discord.gg/MWxPgEp)
+
+### Impossibile accedere a Rosalina a causa di pulsanti rotti
+
+Scarica questo [config.bin alternativo](https://cdn.discordapp.com/attachments/196635695958196224/733384123003175074/config.bin) e posizionalo nella cartella `/luma/`. Questo cambierà la combinazione di tasti di Rosalina in (Y) + (B).
+
+### "An exception occurred" dopo aver provato ad avviare l'Homebrew Launcher tramite "Modalità download"
+
+C'è un problema con il tuo file `boot.3dsx` (è mancante, mal posizionato o corrotto). Scarica l'ultima versione dell'[Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest) e posiziona il file `boot.3dsx` nella directory principale della tua scheda SD, sostituendo qualunque file preesistente. Assicurati di non stare estraendo il file ZIP con WinRAR, in quanto è noto per causare problemi con file relativi al 3DS.
+
+### "Scripts directory not found" in GodMode9
+
+Non hai copiato la cartella `gm9` presente nell'archivio `.zip` di GodMode9 nella directory principale della tua scheda SD. Scarica l'ultima versione di [GodMode9](https://github.com/d0k3/GodMode9/releases/latest) e posiziona la cartella `gm9` nella directory principale della tua scheda SD, unendola a quella preesistente.
+
+### `essentials.exefs` mancante da `/gm9/out/`
+
+La tua console ha avuto un custom firmware in passato, quindi non ti è stato automaticamente richiesto di fare un backup. Crea un backup manualmente:
+
+1. Reinserisci la scheda SD nella tua console
+1. Premi (Start) e accendi la console continuando a tenerlo premuto. Verrà avviato GodMode9
+1. Entra nella cartella `[S:] SYSNAND VIRTUAL`
+1. Seleziona `essentials.exefs`, quindi `Copy to 0:/gm9/out/`
+1. Ora dovresti avere `essentials.exefs` in `/gm9/out/`
+
+---
+
+## Problemi correlati all'avvio su console modificate
+
+I passaggi qui dettagliati generalmente presuppongono che la tua console abbia un'installazione moderna del custom firmware (boot9strap + Luma3DS 8.0 o superiore). Se la tua console sta eseguendo una vecchia configurazione (ad esempio, qualcosa basato su arm9loaderhax o menuhax), dovresti aggiornare la tua installazione prima di seguire queste istruzioni.
+{: .notice--info}
+
+### La mia console si blocca su una schermata nera e la luce blu si spegne
+
+C'è un problema con il tuo file `boot.firm` (è mancante, mal posizionato o corrotto). Scarica [l'ultima versione di Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest) e posiziona il file `boot.firm` nella directory principale della tua scheda SD, sostituendo qualunque file preesistente. Assicurati di non stare estraendo il file ZIP con WinRAR, in quanto è noto per causare problemi con file relativi al 3DS.
+
+Se si sente un "suono scoppiettante", potenzialmente seguito dalla retroilluminazione accendersi per un istante, c'è un problema hardware con la tua console (come un cavo della retroilluminazione disconnesso). Potresti riuscire ad accendere la console tenendola in determinate posizioni.
+
+### La mia console si blocca su una schermata nera, con la luce blu fissa
+
+I passaggi qui sotto possono essere seguiti in qualsiasi ordine, ma sono elencati dal più rapido al più lungo da eseguire.
+
+1. Spegni la tua console, estrai la cartuccia di gioco se inserita, accendi la tua console, quindi attendi fino a dieci minuti. Se la tua console si avvia entro dieci minuti, il problema è stato risolto e probabilmente non avverrà più
+1. Rinomina la cartella `Nintendo 3DS` sulla tua scheda SD in `Nintendo 3DS_BACKUP`, poi tenta l'avvio. Se la tua console si avvia correttamente, c'è qualche problema con la tua cartella `Nintendo 3DS`. Prova a cancellare gli extdata del menu HOME:
+	+ Entra nella cartella `/Nintendo 3DS/<ID0>/<ID1>/extdata/00000000/`
+	+ Elimina il file extdata corrispondente alla tua regione: 
+		+ **Regione EUR**: Elimina `00000098`
+		+ **Regione JPN**: Elimina `00000082`
+		+ **Regione USA**: Elimina `0000008f`
+		+ **Regione CHN**: Elimina `000000A1`
+		+ **Regione KOR**: Elimina `000000A9`
+		+ **Regione TWN**: Elimina `000000A1`
+1. Assicurati che la tua console non abbia i gestori di eccezione ARM11 disabilitati:
+	+ Spegni la tua console
+	+ Tieni premuto (Select)
+	+ Accendi la tua console, continuando a tenere premuto il pulsante (Select)
+	+ Se la casella "Disable ARM11 exception handlers" è selezionata, deselezionala
+	+ Se la tua console mostra una schermata "An exception occured" avviandosi, segui [La mia console mostra un errore avviandosi](troubleshooting#my-device-boots-to-an-error-screen)
+1. Prova ad avviare la modalità di ripristino e ad aggiornare la console:
+	+ Spegni la tua console
+	+ Tieni premuti i pulsanti (L) + (R) + (Su) + (A)
+	+ Accendi la console
+	+ Se hai avuto successo, la console si avvierà mostrando la schermata "Aggiornamento"
+1. Segui la guida [CTRTransfer](ctrtransfer)
+1. Se hai bisogno di aiuto, chiedi pure nel [canale Discord di Nintendo Homebrew](https://discord.gg/MWxPgEp)
+
+### La mia console mostra un errore avviandosi
+
+#### "An error has occurred: Failed to apply 1 FIRM patch(es)" o "An exception has occurred -- Current process: pm"
+
+La tua versione di Luma3DS è obsoleta. Scarica l'ultima versione di [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest) e posiziona il file `boot.firm` nella directory principale della tua scheda SD, sostituendo qualunque file preesistente. Assicurati di non stare estraendo il file ZIP con WinRAR, in quanto è noto per causare problemi con file relativi al 3DS.
+
+#### "Si è verificato un errore. Tieni premuto il pulsante POWER per spegnere la console..."
+
+I gestori di eccezione ARM11 sono disabilitati, o un custom firware non è installato. Prova ad abilitare i gestori di eccezione ARM11:
+	+ Spegni la tua console
+	+ Tieni premuto (Select)
+	+ Accendi la tua console, continuando a tenere premuto il pulsante (Select)
+	+ Se la casella "Disable ARM11 exception handlers" è selezionata, deselezionala
+
+#### Qualche altro errore
+
+Per favore scatta una foto dell'errore ed entra nel [canale Discord di Nintendo Homebrew](https://discord.gg/MWxPgEp) per ricevere assistenza.
+
+### Schermata blu con "Bootrom Error"
+
+La tua console è probabilmente brickata. Dovrai acquistare una flashcart ntrboot per reinstallare boot9strap e tentare riparare la tua console. Potrebbe anche indicare un problema hardware non risolvibile. In ogni caso, entra nel [canale Discord di Nintendo Homebrew](https://discord.gg/MWxPgEp) per chiedere assistenza.
+  + È anche possibile che qualcuno abbia impostato una schermata di avvio a tempo che assomigli al messaggio di errore. Prova a lasciare la tua console accesa sulla schermata blu per cinque minuti.
+
+---
+
+## Problemi correlati a funzionalità su console modificate
+
+### La funzionalità DSi / DS è corrotta, o è stata sostituita con Flipnote Studio
+
+1. Scarica l'ultima versione di [TWLFix-CFW](https://github.com/MechanicalDragon0687/TWLFix-CFW/releases/latest) (il file `.3dsx`)
 1. Spegni il tuo 3DS
-1. Inserisci la scheda SD nel tuo computer
 1. Se assente, crea una cartella chiamata `3ds` nella directory principale della tua scheda SD
 1. Copia il file `TWLFix-CFW.3dsx` nella cartella `/3ds/` nella tua scheda SD
 1. Reinserisci la scheda SD nella tua console
-
-#### Sezione II - Riparazione dei TWL
-
 1. Avvia l'Homebrew Launcher
 1. Avvia TWLFix-CFW dalla lista degli homebrew disponibili
 1. Premi il pulsante (A) per disinstallare i titoli TWL corrotti
@@ -40,133 +289,10 @@ Per usare i link [magnet](https://wikipedia.org/wiki/Magnet_URI_scheme) di quest
   + L'aggiornamento si occuperà di disinstallare i principali titoli TWL, per riscaricarli e reinstallarli
 1. Al termine dell'aggiornamento, premi "OK" per riavviare la console 
 
-## Impossibile eseguire l'inject di "Informazioni per la salute e la sicurezza" su console downgradate tramite Gateway
+### La funzionalità di Virtual Console GBA e/o la Modalità Provvisoria è corrotta
 
-Questo problema è dovuto alla pessima implementazione da parte di Gateway di una procedura di downgrade, che duplica ogni applicazione installata nel sistema. Una di queste copie rimane inutilizzata, ma confonde il programma per l'inject di H&S e gli impedisce di modificare l'applicazione corretta.
+La tua console sta eseguendo Luma3DS/AuReiNand 6.6 o precedente, probabilmente tramite arm9loaderhax. Dovresti seguire [Da A9LH a B9S](a9lh-to-b9s) per aggiornare la tua console con un custom firmware moderno.
 
-1. Spegni il tuo 3DS
-1. Premi (Start) e accendi la console continuando a tenerlo premuto. Verrà avviato GodMode9
-1. Entra nella cartella `[1:] SYSNAND CTRNAND` -> `title` -> `00040010`
-1. Spostati nella cartella corretta a seconda della tua console e della sua regione:
-  + **Old 3DS o Old 2DS EUR**: `00022300` -> `content`
-  + **Old 3DS o Old 2DS JPN**: `00020300` -> `content`
-  + **Old 3DS o Old 2DS USA**: `00021300` -> `content`
-  + **New 3DS o New 2DS EUR**: `20022300` -> `content`
-  + **New 3DS o New 2DS JPN**: `20020300` -> `content`
-  + **New 3DS o New 2DS USA**: `20021300` -> `content`
-1. Noterai la presenza di due serie di file app e tmd, una con estensione in uppercase (`.TMD` e `.APP`), e una con estensione in lowercase (`.tmd` e `.app`)
-1. Tenendo premuto il pulsante (R), premi (Y) per creare una nuova cartella
-1. Premi (A) per confermare il nome `newdir` (il nome della cartella non ha alcuna importanza)
-1. Premi il pulsante (A) per sbloccare i permessi di scrittura di primo livello su SysNAND, quindi inserisci la combinazione di tasti richiesta a schermo
-1. Se richiesto, premi (B) per rifiutare il ritiro delle autorizzazioni di scrittura
-1. Premi il pulsante (L) su ogni file con estensione in uppercase (`.TMD` and `.APP`) per evidenziarli
-1. Premi (Y) per copiare i file
-1. Entra in `newdir`
-1. Premi (Y) per incollare i file
-1. Seleziona "Move path(s)"
-1. I file con estensione in uppercase sono ora stati spostati nella cartella `newdir`
-1. Premi (Start) per riavviare la console
-1. Riprova ad eseguire l'inject di H&S
-1. Se ancora non dovesse funzionare, riporta i file con estensione in uppercase nella cartella `content`, poi sposta i file con estensione in lowercase nella cartella `newdir`, quindi riprova l'inject di H&S
+### I giochi a modalità di memoria estesa sono corrotti
 
-## Un exploit basato sul browser di sistema non funziona
-
-Gli exploit basati sul browser (come browserhax o 2xrsa) sono instabili e crashano spesso, ma seguendo i seguenti passaggi, i problemi potrebbero venire risolti.
-
-1. Avvia il browser internet, quindi apri le sue impostazioni
-1. Clicca sul pulsante "Elimina tutti i dati salvati"
-1. Prova di nuovo ad eseguire l'exploit
-
-## Schermo nero all'avvio della SysNAND
-
-1. Prova ad accendere la console senza la scheda SD inserita, quindi reinserisci la scheda dopo l'avvio
-    1. Spegni il tuo 3DS
-    1. Rimuovi la scheda SD dal Nintendo 3DS
-    1. Accendi la console
-    1. Se appare il menu HOME, reinserisci la scheda SD nella console
-    1. Se ha funzionato, dovresti cancellare gli extdata del menu HOME con i seguenti passi:
-        1. Spegni il tuo 3DS
-        1. Premi (Start) e accendi la console continuando a tenerlo premuto. Verrà avviato GodMode9
-        1. Premi il pulsante HOME per far apparire il menu delle azioni
-        1. Seleziona "Scripts..."
-        1. Seleziona "GM9Megascript"
-        1. Seleziona "Scripts from Plailect's Guide"
-        1. Seleziona "Remove extdata"
-        1. Premi il pulsante (A) per continuare
-        1. Premi il pulsante (A) per sbloccare i permessi di scrittura di primo livello su SysNAND, quindi inserisci la combinazione di tasti richiesta a schermo
-        1. Premi il pulsante (A) per continuare
-        1. Premi (B) per ritornare al menu principale
-        1. Seleziona "Exit"
-        1. Se richiesto, premi (A) per ritirare le autorizzazioni di scrittura
-        1. Premi (Start) per riavviare la console
-1. Prova ad avviare la console senza schede di gioco inserite (flashcard incluse)
-1. Se hai un'hardmod e un backup della NAND, ripristina il backup nella SysNAND
-1. Prova ad avviare la modalità di ripristino, quindi aggiorna la console
-    1. Spegni il tuo 3DS
-    1. Tieni premuto (L) + (R) + (A) + (Su)
-    1. Accendi la console
-    1. Se entri in modalità provvisoria, aggiorna la console
-1. La console potrebbe essere brickata. Per ricevere supporto, entra nel canale [Nintendo Homebrew su Discord](https://discord.gg/MWxPgEp) (in inglese)
-
-## Cancellare gli extdata del menu Home
-
-1. Spegni il tuo 3DS
-1. Inserisci la scheda SD nel tuo computer
-1. Entra nella cartella `/Nintendo 3DS/(ID di 32 caratteri)/(ID di 32 caratteri)/extdata/00000000/` presente all'interno della tua scheda SD
-1. Elimina i file extdata corrispondenti alla tua regione:
-  + **Regione EUR**: Elimina `00000098`
-  + **Regione JPN**: Elimina `00000082`
-  + **Regione USA**: Elimina `0000008f`
-  + **Regione CHN**: Elimina `000000A1`
-  + **Regione KOR**: Elimina `000000A9`
-  + **Regione TWN**: Elimina `000000A1`
-1. Reinserisci la scheda SD nella tua console
-
-## Schermo nero all'avvio della SysNAND dopo l'installazione di boot9strap
-
-1. Assicurati che il payload funzioni
-    1. Verifica l'esistenza del file `boot.firm` nella directory principale della tua scheda SD.
-1. Prova a cancellare la configurazione di Luma e a ripristinare le impostazioni corrette
-    1. Cancella il file `/luma/config.bin` dalla tua scheda SD
-    1. Configura Luma all'avvio
-1. Prova ad avviare GodMode9
-    1. Con Luma3DS installato, tieni premuto (Start) all'avvio
-1. Prova ad eliminare gli extdata del menu HOME seguendo queste istruzioni:
-    1. Spegni il tuo 3DS
-    1. Premi (Start) e accendi la console continuando a tenerlo premuto. Verrà avviato GodMode9
-    1. Premi il pulsante HOME per far apparire il menu delle azioni
-    1. Seleziona "Scripts..."
-    1. Seleziona "GM9Megascript"
-    1. Seleziona "Scripts from Plailect's Guide"
-    1. Seleziona "Remove extdata"
-    1. Premi il pulsante (A) per continuare
-    1. Premi il pulsante (A) per sbloccare i permessi di scrittura di primo livello su SysNAND, quindi inserisci la combinazione di tasti richiesta a schermo
-    1. Premi il pulsante (A) per continuare
-    1. Premi (B) per ritornare al menu principale
-    1. Seleziona "Exit"
-    1. Se richiesto, premi (A) per ritirare le autorizzazioni di scrittura
-    1. Premi (Start) per riavviare la console
-1. Prova ad avviare la console senza schede di gioco inserite (flashcard incluse)
-1. Se in precedenza hai effettuato un downgrade tramite Gateway, assicurati di stare utilizzando l'ultima versione di Luma3DS
-1. Prova ad eseguire un [CTRTransfer](ctrtransfer)
-1. Per ricevere supporto, entra nel canale [Nintendo Homebrew su Discord](https://discord.gg/MWxPgEp) (in inglese)
-
-## Schermata blu all'avvio (errore bootrom)
-
-1. La tua console è brickata
-1. È necessaria una flashcart compatibile con ntrboot (una delle flashcart in [questa lista](ntrboot)) o un [hardmod](https://gbatemp.net/threads/414498/), oppure riparare / sostituire la tua console
-1. Per ricevere supporto, entra nel canale [Nintendo Homebrew su Discord](https://discord.gg/MWxPgEp) (in inglese)
-
-## Errore di aggiornamento del sistema dopo l'installazione del CFW
-
- Può capitare che gli aggiornamenti non vengano portati a termine dopo l'installazione di un CFW. Per risolvere questo problema, riavvia la console dopo ogni passo di questa sezione, quindi riprova ad aggiornare di nuovo.
-
-1. Imposta le impostazioni DNS su "Auto"
-1. Avvicinati al tuo router WiFi
-1. Aggiorna tramite la modalità provvisoria spegnendo la console, tenendo premuti (L) + (R) + (D-Pad Su) + (A) all'avvio, e seguendo le istruzioni a schermo
-1. Elimina il profilo di connessione WiFi, quindi connettiti di nuovo alla rete WiFi
-1. Riavvia il tuo router WiFi
-1. Connettiti ad una rete WiFi alternativa, ad esempio un hotspot mobile
-1. I server Nintendo potrebbero essere irraggiungibili. Riprova più tardi
-1. Se continui a ricevere un errore, [segui la guida per il CTRTransfer](ctrtransfer), poi ritenta l'aggiornamento
-1. Per ricevere supporto, entra nel canale [Nintendo Homebrew su Discord](https://discord.gg/MWxPgEp) (in inglese)
+Questo può verificarsi dopo un CTRTransfer o dopo un cambio di regione su Old 3DS / 2DS. Dovrai formattare la tua console per risolvere il problema.

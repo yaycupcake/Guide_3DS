@@ -2,27 +2,29 @@
 title: "Installing boot9strap (PicHaxx)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="목차" %}
 
 ### Required Reading
 
 This method of using Seedminer for further exploitation uses your `movable.sed` file to write a custom save file for Pokémon Picross, which can then be used with universal-otherapp to run SafeB9SInstaller.
 
-### What You Need
+### 준비물
 
-* The game "Pokémon Picross" (free on eShop)
+* The game "Pokémon Picross" (free on eShop) installed on your device
+  + You can scan [this QR code](http://api.qrserver.com/v1/create-qr-code/?color=000000&bgcolor=FFFFFF&data=ESHOP://50010000037815&margin=0&qzone=1&size=400x400&ecc=L) using the Nintendo 3DS Camera for a direct link to the eShop app
+  + Your SD card must be inserted in your device to install Pokémon Picross
 * Your `movable.sed` file from completing [Seedminer](seedminer)
 * The latest release of [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
-* The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(`boot9strap-1.3.zip`; not the `devkit` file, not the `ntr` file)*
+* 최신 버전의 [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(기본 boot9strap; `devkit`, `ntr` 파일이 아닙니다.)*
 * The latest release of [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest)
 * The latest release of [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest)
 
-### Instructions
+### 진행 방법
 
-#### Section I - Prep Work
+#### 섹션 I - 준비 작업
 
 1. 기기를 종료해 주세요.
-1. SD 카드를 컴퓨터에 삽입해 주세요.
+1. SD 카드를 컴퓨터에 삽입해 주세요
 1. Copy `otherapp.bin` to the root of your SD card
 1. Copy `boot.firm` and `boot.3dsx` from the Luma3DS `.zip` to the root of your SD card
 1. Create a folder named `boot9strap` on the root of your SD card
@@ -54,13 +56,16 @@ This method of using Seedminer for further exploitation uses your `movable.sed` 
 #### Section IV - Configuring Luma3DS
 
 1. Your device should have rebooted into the Luma3DS configuration menu
-  + If you get a black screen, [follow this troubleshooting guide](troubleshooting#black-screen-on-sysnand-boot-after-installing-boot9strap)
+  + If you get a black screen, [follow this troubleshooting guide](troubleshooting#boot-related-issues-on-modded-devices)
 1. Use the (A) button and the D-Pad to turn on the following:
   + **"Show NAND or user string in System Settings"**
-1. (start)를 눌러 저장하고 기기를 다시 시작해 주세요.
-  + If you get an error, just continue the next page
+1. (Start)를 눌러 저장하고 기기를 다시 시작해 주세요
+
+At this point, your console will boot to Luma3DS by default as long as the SD card is inserted.
+  + Luma3DS does not look any different from the normal HOME menu. If your console has booted into the HOME menu, it is running custom firmware.
+  + On the next page, you will copy Luma3DS to internal memory so that you can boot without an SD card.
 
 ___
 
-### Continue to [Finalizing Setup](finalizing-setup)
+### [마무리 단계] (finalizing-setup) 로 계속합니다
 {: .notice--primary}
