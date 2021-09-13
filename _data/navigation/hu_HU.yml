@@ -7,32 +7,29 @@ main:
     title: GYIK
     url: faq
   - 
-    title: Adományok
-    url: donations
-  - 
-    title: Közreműködők
-    url: credits
-  - 
-    title: B9S frissítése
-    url: updating-b9s
-  - 
-    title: A9LH-ről B9S-re
-    url: a9lh-to-b9s
-  - 
     title: Hibaelhárítás
     url: troubleshooting
   - 
-    title: Régióváltás
-    url: region-changing
+    title: CFW ellenőrzése
+    url: checking-for-cfw
   - 
     title: GodMode9 használata
     url: godmode9-usage
   - 
-    title: Oldaltérkép
-    url: site-navigation
+    title: Közreműködés
+    url: contribute
+  - 
+    title: Régió módosítás
+    url: region-changing
   - 
     title: CFW eltávolítása
     url: uninstall-cfw
+  - 
+    title: Készítők
+    url: credits
+  - 
+    title: Oldaltérkép
+    url: site-navigation
 top:
   - 
     title: A weboldal "sütiket" használ, hogy nyomon tudd követni a haladásod az oldalsó menüben, és hogy jobbá tegye az oldalt.
@@ -40,7 +37,7 @@ bottom:
   - 
     title: Ha segítségre van szükséged (angol nyelven), keresd fel a <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew-t Discord-on</a>.
   - 
-    title: Amennyiben hasznosnak véled ezt az útmutatót, elfogadunk <a href="donations">adományokat</a>.
+    title: 'Amennyiben hasznosnak véled ezt az útmutatót, elfogadunk <a href="contribute#donations">adományokat</a>.'
 footer:
   - 
     title: Forráskód

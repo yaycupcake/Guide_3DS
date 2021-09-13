@@ -23,7 +23,7 @@ This method of using Seedminer for further exploitation uses your `movable.sed` 
 
 #### 섹션 I - 준비 작업
 
-1. 기기를 종료해 주세요.
+1. 기기를 종료해 주세요
 1. SD 카드를 컴퓨터에 삽입해 주세요
 1. Copy `otherapp.bin` to the root of your SD card
 1. Copy `boot.firm` and `boot.3dsx` from the Luma3DS `.zip` to the root of your SD card
@@ -65,6 +65,8 @@ At this point, your console will boot to Luma3DS by default as long as the SD ca
   + Luma3DS does not look any different from the normal HOME menu. If your console has booted into the HOME menu, it is running custom firmware.
   + On the next page, you will copy Luma3DS to internal memory so that you can boot without an SD card.
 
+At this point, Pokémon Picross is no longer necessary and can be removed from your device.
+{: .notice--info}
 ___
 
 ### [마무리 단계] (finalizing-setup) 로 계속합니다

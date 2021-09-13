@@ -8,7 +8,7 @@ title: "Installing boot9strap (Browser)"
 
 new-browserhax-xl/old-browserhax-xl (when combined with universal-otherapp) is compatible with version 11.14.0 on all 3DS devices with Internet Browser access.
 
-### What You Need
+### 준비물
 
 * The latest release of [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest)
 * The latest release of [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
@@ -19,7 +19,7 @@ new-browserhax-xl/old-browserhax-xl (when combined with universal-otherapp) is c
 
 #### 섹션 I - 준비 작업
 
-1. 기기를 종료해 주세요.
+1. 기기를 종료해 주세요
 1. SD 카드를 컴퓨터에 삽입해 주세요
 1. Copy `otherapp.bin` to the root of your SD card and rename it to `arm11code.bin`
   + If you do not see the `.bin` extension, do not add it to the end of the filename

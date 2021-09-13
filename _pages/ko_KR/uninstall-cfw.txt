@@ -19,22 +19,22 @@ If you have modified critical system software (such as editing the home menu, un
 These instructions will only work on devices with a Luma3DS version of 8.0 or higher. If you have an older version of Luma, you must upgrade your setup before following these instructions. Follow [this page](checking-for-cfw) to find your upgrade instructions.
 {: .notice--warning}
 
-Note that if you have any payload files other than `GodMode9.firm` in the `/luma/payloads/` folder on your SD card, holding (Start) on boot will display a "chainloader menu" where you will have to use the D-Pad and the (A) button to select "GodMode9" for these instructions. 
+만약 여러분의 SD카드의 `/luma/payloads/` 폴더에서 `GodMode9.firm`이 아닌 다른 페이로드 파일이 추가로 있다면, (Start)를 누르고 부팅시에 화면에 표시되는 "chainloader menu" 에서 D패드랑 (A) 버튼으로 조작하여 "GodMode9"을 선택하여야 합니다. 
 
-### What You Need
+### 준비물
 
 * The latest release of [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest)
-* The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
+* 최신 버전의 [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 * The latest release of [DSiWare Uninstaller](https://github.com/MechanicalDragon0687/DSiWare-Uninstaller/releases/latest)
 * [safety_test.gm9]({{ base_path }}/gm9_scripts/safety_test.gm9)
 
 ### 진행 방법
 
 #### 섹션 I - 준비 작업
-1. 기기를 종료해 주세요.
-1. SD 카드를 컴퓨터에 삽입해 주세요.
+1. 기기를 종료해 주세요
+1. SD 카드를 컴퓨터에 삽입해 주세요
 1. Copy `boot.firm` and `boot.3dsx` from the Luma3DS `.zip` to the root of your SD card
-1. Copy `GodMode9.firm` from the GodMode9 `.zip` to the `/luma/payloads/` folder on your SD card
+1. SD 카드의 `/luma/payloads/`폴더에 GodMode9 `.zip`안에 압축되있는 `GodMode9.firm`을 복사해 주세요
 1. Copy the `gm9` folder from the GodMode9 `.zip` to the root of your SD card
 1. Copy `DSiWareUninstaller.3dsx` to the `/3ds/` folder on your SD card
 1. Copy `safety_test.gm9` to the `/gm9/scripts/` folder on your SD card
@@ -49,7 +49,7 @@ The purpose of this section is to check whether built-in DS mode applications wi
 1. Navigate to `Internet Settings` -> `Nintendo DS Connection Settings`, then click OK
 1. You should boot into the Nintendo DS Connection Setup menu
   + If your console displays the Japanese version of Flipnote Studio, a black screen, or an error message, the test has failed
-1. 기기를 종료해 주세요.
+1. 기기를 종료해 주세요
 
 ##### DS Download Play Test
 1. 기기를 시작해 주세요.
@@ -57,7 +57,7 @@ The purpose of this section is to check whether built-in DS mode applications wi
 1. Select "Nintendo DS"
 1. If your device loads into a "Download software via DS Download Play" menu, the test was successful
   + If your console displays the Japanese version of Flipnote Studio, a black screen, or an error message, the test has failed
-1. 기기를 종료해 주세요.
+1. 기기를 종료해 주세요
 
 If either of these tests has failed, DS mode, DS Download Play, and/or DS Connection Settings may be inaccessible once CFW is uninstalled! You should [fix DS mode](troubleshooting#dsi--ds-functionality-is-broken-after-completing-the-guide) before continuing.
 {: .notice--warning}
@@ -65,7 +65,7 @@ If either of these tests has failed, DS mode, DS Download Play, and/or DS Connec
 #### Section III - Safety Test
 The purpose of this section is to verify that the console will boot and that critical system functions, like System Settings and the keyboard, will work once CFW is uninstalled. **If you skip this section, you may BRICK your device!**
 
-1. Press and hold (Start), and while holding (Start), power on your device. This will launch GodMode9
+1. (Start)를 길게 누르고, 이 상태에서 전원을 켜 주세요. GodMode9이 실행 될 겁니다.
 1. If you are prompted to create an essential files backup, press (A) to do so, then press (A) to continue once it has completed
 1. If you are prompted to fix the RTC date&time, press (A) to do so, then set the date and time, then press (A) to continue
   + Note that, if you had to fix the RTC date and time, you will have to fix the time in the System Settings as well after following this guide
@@ -82,14 +82,14 @@ The purpose of this section is to verify that the console will boot and that cri
 1. Select "User Name"
 1. If you are able to enter a new user name, the test was successful
 	+ If the keyboard does not appear, the screen freezes, or the console crashes, the test has failed
-1. 기기를 종료해 주세요.
+1. 기기를 종료해 주세요
 
 If you do NOT boot into the regular 3DS Home Menu, or System Settings / your keyboard is inaccessible, **DO NOT continue with these instructions**! Join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) and ask (in English) for someone there to assist you.
 {: .notice--danger}  
 
 #### Section IV - NAND Backup
 
-1. Press and hold (Start), and while holding (Start), power on your device. This will launch GodMode9
+1. (Start)를 길게 누르고, 이 상태에서 전원을 켜 주세요. GodMode9이 실행 될 겁니다.
 1. (Home)을 눌러 작업 메뉴를 띄워 주세요.
 1. Select "Scripts..."
 1. Select "GM9Megascript"
@@ -145,7 +145,7 @@ This section will ensure that all illegitimate tickets are removed, allowing eSh
 This is your final opportunity to verify that all safety steps above have been followed! Please ensure that you have followed all sections on this page, **especially** `Section III - Safety Test`, before continuing.
 {: .notice--warning}
 
-1. Press and hold (Start), and while holding (Start), power on your device. This will launch GodMode9
+1. (Start)를 길게 누르고, 이 상태에서 전원을 켜 주세요. GodMode9이 실행 될 겁니다.
 1. (Home)을 눌러 작업 메뉴를 띄워 주세요.
 1. Select "Scripts..."
 1. Select "GM9Megascript"
@@ -156,7 +156,7 @@ This is your final opportunity to verify that all safety steps above have been f
 1. (A)를 눌러 진행해 주세요.
 1. (B)를 눌러 메인 메뉴로 돌아가 주세요.
 1. Select "Exit"
-1. Press (A) to relock write permissions if prompted
+1. 메세지가 표시되면, (A)를 눌러서 쓰기잠금을 확인해 주세요
 1. (start)를 눌러 기기를 다시 시작해 주세요.
 
 ___
