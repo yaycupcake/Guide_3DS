@@ -1,5 +1,18 @@
-{% include base_path %}
-{% assign split_path = page.path | split: "/" %}
-{% assign locale = split_path[1] %}
-{% assign titles = site.data.navigation[locale].footer %}
-<div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }} - <a href="https://github.com/hacks-guide/Guide_3DS">{{ titles[0].title }}</a> - <a href="site-navigation">{{ titles[1].title }}</a> - <a href="privacy-policy">{{ titles[2].title }}</a></div>
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    {% if site.data.ui-text[site.locale].follow_label %}
+      <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
+    {% endif %}
+
+    {% if site.footer.links %}
+      {% for link in site.footer.links %}
+        {% if link.label and link.url %}
+          <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer"><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i> {{ link.label }}</a></li>
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+
+    </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}</div>
