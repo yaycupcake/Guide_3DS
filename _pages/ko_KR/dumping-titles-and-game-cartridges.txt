@@ -1,5 +1,5 @@
 ---
-title: "Dumping Titles and Game Cartridges"
+title: "타이틀과 게임 카드 추출"
 ---
 
 {% include toc title="목차" %}
@@ -7,7 +7,7 @@ title: "Dumping Titles and Game Cartridges"
 스크립트와 같은 GodMode9의 지원과 업데이트와 정보를 받으려면 [GodMode9 디스코드 서버](https://discord.gg/BRcbvtFxX4)에 가입해 주세요. (영어 전용)
 {: .notice--primary}
 
-### Required Reading
+### 중요
 
 Aside from creating and restoring NAND backups, GodMode9 has the functionality to dump installed titles to an installable `.cia` file, to dump game cartridge data to a `.3ds` ROM file, and to directly install a game cartridge to the system.
 
@@ -25,25 +25,25 @@ These instructions are written for use with GodMode9 v2.0.0 or later. If you hav
 1. 기기를 종료해 주세요
 1. SD 카드를 컴퓨터에 삽입해 주세요
 1. SD 카드의 `/luma/payloads/`폴더에 GodMode9 `.zip`안에 압축되있는 `GodMode9.firm`을 복사해 주세요
-1. Copy the `gm9` folder from the GodMode9 `.zip` to the root of your SD card
-1. SD 카드를 기기에 다시 삽입해 주세요.
+1. GodMode9 `.zip`안에 압축되있는 `gm9` 폴더를 SD 카드의 루트로 복사해 주세요
+1. SD 카드를 기기에 다시 삽입해 주세요
 
-## Dumping a Game Cartridge
+## 게임 카드 추출
 
 {% capture notice %}
-Insert the game cartridge you intend to dump into your device
-  + 3DS game cartridges will be dumped to a `.3ds` format
-  + NDS game cartridges will be dumped to a `.nds` format
+기기에 추출하고자 하는 게임 카드를 삽입해 주세요
+  + 3DS 게임 카드는 `.3ds` 형식으로 추출됩니다
+  + NDS 게임 카드는 `.nds` 형식으로 추출됩니다
 {% endcapture %}
 
 <div class="notice--info">{{ notice | markdownify }}</div>
 
-1. (Start)를 길게 누르고, 이 상태에서 전원을 켜 주세요. GodMode9이 실행 될 겁니다.
+1. (Start)를 길게 누르고, 이 상태에서 전원을 켜 주세요. GodMode9이 실행 될 겁니다
 1. Navigate to `[C:] GAMECART`
 1. Follow the steps applicable to your game cartridge:
   + **3DS Game Cartridge:** Press (A) on `[TitleID].trim.3ds` to select it
   + **NDS Game Cartridge:** Press (A) on `[TitleID].trim.nds` to select it
-1. Select "Copy to 0:/gm9/out"
+1. "Copy to 0:/gm9/out"를 선택해 주세요
 1. Your non-installable `.3ds` or `.nds` formatted file will be outputted to the `/gm9/out/` folder on your SD card
 
 ## Installing a Game Cartridge Directly to the System
@@ -51,10 +51,10 @@ Insert the game cartridge you intend to dump into your device
 This will only work for 3DS games; it is not possible to install an NDS game cartridge to the system as a title.
 {: .notice--info}
 
-1. (Start)를 길게 누르고, 이 상태에서 전원을 켜 주세요. GodMode9이 실행 될 겁니다.
+1. (Start)를 길게 누르고, 이 상태에서 전원을 켜 주세요. GodMode9이 실행 될 겁니다
 1. Navigate to `[C:] GAMECART`
 1. Press (A) on `[TitleID].trim.3ds` to select it, then select "NCSD image options...", then select "Install game image"
-1. (A)를 눌려 SysNAND (lvl1) 쓰기 잠금을 풀고 주어진 키 조합을 입력해 주세요.
+1. (A)를 눌려 SysNAND (lvl1) 쓰기 잠금을 풀고 주어진 키 조합을 입력해 주세요
 1. Once the process is complete, your game will show up in the HOME Menu as an installed title.
 
 ## Dumping a 3DS Game Cartridge to .CIA
@@ -62,7 +62,7 @@ This will only work for 3DS games; it is not possible to install an NDS game car
 This should only be used if [Installing a Game Cartridge Directly to the System](#installing-a-game-cartridge-directly-to-the-system) does not work.
 {: .notice--info}
 
-1. (Start)를 길게 누르고, 이 상태에서 전원을 켜 주세요. GodMode9이 실행 될 겁니다.
+1. (Start)를 길게 누르고, 이 상태에서 전원을 켜 주세요. GodMode9이 실행 될 겁니다
 1. Navigate to `[C:] GAMECART`
 1. Press (A) on `[TitleID].trim.3ds` to select it, then select "NCSD image options...", then select "Build CIA from file"
 1. Your installable `.cia` formatted file will be outputted to the `/gm9/out/` folder on your SD card
@@ -72,8 +72,8 @@ This should only be used if [Installing a Game Cartridge Directly to the System]
 This allows dumping of both System- and User-installed digital titles, such as ones downloaded from the eShop.
 {: .notice--info}
 
-1. (Start)를 길게 누르고, 이 상태에서 전원을 켜 주세요. GodMode9이 실행 될 겁니다.
-1. (Home)을 눌러 작업 메뉴를 띄워 주세요.
+1. (Start)를 길게 누르고, 이 상태에서 전원을 켜 주세요. GodMode9이 실행 될 겁니다
+1. (Home)을 눌러 작업 메뉴를 열어 주세요
 1. Select "Title manager"
 1. Select one of the following depending on the type of title you wish to dump
   + **User Installed Title**: `[A:] SD CARD`
@@ -85,53 +85,53 @@ This allows dumping of both System- and User-installed digital titles, such as o
 
 ## Backup GBA VC Saves
 
-The game will be outputted to the `/gm9/out/` folder on your SD card with the name `<TitleID>.gbavc.sav`.
+게임은 `<TitleID>.gbavc.sav`의 이름으로 SD카드의 `/gm9/out/`폴더에 산출될 것입니다.
 {: .notice--info}
 
 To identify a `<TitleID>.gbavc.sav` file's Title ID, you can get a listing of all games on the system and their corresponding Title IDs by pressing (Home) to bring up the action menu, selecting `Title manager`, and selecting `[A:] SD CARD`.
 {: .notice--info}
 
-1. 과정대로 진행해 백업하고자 하는 GBA VC 게임 저장 데이터를 저장해 주세요.
-  + GBA VC 게임을 실행해 주세요.
-  + GBA VC 게임을 종료해 주세요.
+1. 과정대로 진행해 백업하고자 하는 GBA VC 게임 저장 데이터를 저장해 주세요
+  + GBA VC 게임을 실행해 주세요
+  + GBA VC 게임을 종료해 주세요
   + Power off your device
-  + Press and hold (Start), and while holding (Start), power on your device. GodMode9이 실행 될 겁니다.
-  + `[S:] SYSNAND VIRTUAL`로 이동해 주세요.
-  + Press (A) on `agbsave.bin` to select it
-  + Select "AGBSAVE options..."
-  + Select "Dump GBA VC save"
-  + Press (A) to continue
-  + (start)를 눌러 기기를 다시 시작해 주세요.
+  + Press and hold (Start), and while holding (Start), power on your device. GodMode9이 실행 될 겁니다
+  + `[S:] SYSNAND VIRTUAL` 폴더로 이동해 주세요
+  + `agbsave.bin`에서 (A)를 눌러 선택해 주세요
+  + "AGBSAVE options..."를 선택해 주세요
+  + "Dump GBA VC save"를 선택해 주세요
+  + (A)를 눌러 진행해 주세요
+  + (Start)를 눌러 기기를 다시 시작해 주세요
 
 ## Restore GBA VC Saves
 
 To identify a `<TitleID>.gbavc.sav` file's Title ID, you can get a listing of all games on the system and their corresponding Title IDs by pressing (Home) to bring up the action menu, selecting `Title manager`, and selecting `[A:] SD CARD`.
 {: .notice--info}
 
-1. Do the following process for each GBA VC game that you want to restore the save for:
-  + GBA VC 게임을 실행해 주세요.
-  + GBA VC 게임을 종료해 주세요.
+1. 과정대로 진행해 모든 GBA VC 게임 저장 데이터를 백업해 주세요
+  + GBA VC 게임을 실행해 주세요
+  + GBA VC 게임을 종료해 주세요
   + Power off your device
-  + Press and hold (Start), and while holding (Start), power on your device. GodMode9이 실행 될 겁니다.
-  + Navigate to `[0:] SDCARD` -> `gm9`
-  + Press (Y) on the `<TitleID>.gbavc.sav` file you wish to restore to copy it
-  + (B)를 눌러 메인 메뉴로 돌아가 주세요.
-  + `[S:] SYSNAND VIRTUAL`로 이동해 주세요.
-  + Press (A) on `agbsave.bin` to select it
-  + Select "AGBSAVE options..."
-  + Select "Inject GBA VC save"
-  + Press (A) to continue
-  + (start)를 눌러 기기를 다시 시작해 주세요.
-  + GBA VC 게임을 실행해 주세요.
-  + GBA VC 게임을 종료해 주세요.
+  + Press and hold (Start), and while holding (Start), power on your device. GodMode9이 실행 될 겁니다
+  + `[0:] SDCARD` -> `gm9`으로 이동해 주세요
+  + 복구하길 희망하는 `<TitleID>.gbavc.sav`에서 (Y)를 눌러 복사해 주세요
+  + (B)를 눌러 메인 메뉴로 돌아가 주세요
+  + `[S:] SYSNAND VIRTUAL` 폴더로 이동해 주세요
+  + `agbsave.bin`에서 (A)를 눌러 선택해 주세요
+  + "AGBSAVE options..."를 선택해 주세요
+  + "Inject GBA VC save"를 선택해 주세요
+  + (A)를 눌러 진행해 주세요
+  + (Start)를 눌러 기기를 다시 시작해 주세요
+  + GBA VC 게임을 실행해 주세요
+  + GBA VC 게임을 종료해 주세요
 
 ## Encrypting / Decrypting a .CIA file
 
 For organizational purposes, copy each `.cia` file you wish to encrypt / decrypt to the `/cias/` folder on your SD card
 {: .notice--info}
 
-1. (Start)를 길게 누르고, 이 상태에서 전원을 켜 주세요. GodMode9이 실행 될 겁니다.
-1. `[0:] SDCARD` -> `cias`로 이동해 주세요.
+1. (Start)를 길게 누르고, 이 상태에서 전원을 켜 주세요. GodMode9이 실행 될 겁니다
+1. `[0:] SDCARD` -> `cias`로 이동해 주세요
 1. Press (A) on the `.cia` file to select it, then select "CIA image options..."
 1. Select the option to perform the desired function:
     + **Encrypt to 0:/gm9/out:** Create an encrypted copy of the selected `.cia` file in the `/gm9/out/` folder on your SD card

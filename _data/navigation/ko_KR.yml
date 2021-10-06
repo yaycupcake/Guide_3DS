@@ -1,59 +1,59 @@
 ---
 main:
   - 
-    title: Home
+    title: 홈
     url: /
   - 
     title: 자주 묻는 질문
     url: faq
   - 
-    title: Troubleshooting
+    title: 문제 해결
     url: troubleshooting
   - 
-    title: Checking for CFW
+    title: CFW 확인
     url: checking-for-cfw
   - 
-    title: GodMode9 Usage
+    title: GodMode9 사용법
     url: godmode9-usage
   - 
     title: Contribute
     url: contribute
   - 
-    title: Region Changing
+    title: 지역 변경
     url: region-changing
   - 
-    title: Uninstall CFW
+    title: CFW 제거하기
     url: uninstall-cfw
   - 
-    title: Credits
+    title: 기여자
     url: credits
   - 
     title: 사이트 탐색
     url: site-navigation
 top:
   - 
-    title: This website uses cookies to display the current guide progress on the sidebar and otherwise enhance the site.
+    title: 이 사이트는 현재 진행상황을 표시하고 사용자 경험을 향상시키기 위해 쿠키를 사용합니다.
 bottom:
   - 
     title: 영어로 지원을 요청하고 싶으시면 <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew on Discord</a>에 도움을 요청해 주세요.
   - 
-    title: 'If you appreciate this guide, we accept <a href="contribute#donations">Donations</a>.'
+    title: '이 가이드가 도움이 되었다면, <a href="contribute#donations">기부해 주시면</a> 감사하겠습니다.'
 footer:
   - 
     title: 소스 코드
   - 
     title: 사이트 탐색
   - 
-    title: Privacy Policy
+    title: 개인정보 보호 정책
 sidebar_title:
   - 
-    title: Overall Progress
+    title: 전체 진행 상황
 sidebar_pages:
   - 
-    title: Home
+    title: 홈
     url: /
   - 
-    title: Get Started
+    title: 시작하기
     url: get-started
   - 
     title: Cart Update
@@ -68,19 +68,19 @@ sidebar_pages:
     title: BannerBomb3
     url: bannerbomb3
   - 
-    title: Multiple Options
+    title: 여러가지 옵션
     url: multiple-options
   - 
-    title: Flashing ntrboot (3DS Single System)
+    title: ntrboot 플래싱 (단일 3DS)
     url: flashing-ntrboot-(3ds-single-system)
   - 
-    title: Flashing ntrboot (3DS Multi System)
+    title: Ntrboot 플래싱 (3DS 두 대)
     url: flashing-ntrboot-(3ds-multi-system)
   - 
-    title: Flashing ntrboot (DSi)
+    title: ntrboot 플래싱 (DSi)
     url: flashing-ntrboot-(dsi)
   - 
-    title: Flashing ntrboot (NDS)
+    title: ntrboot 플래싱 (NDS)
     url: flashing-ntrboot-(nds)
   - 
     title: Homebrew Launcher (Soundhax)
@@ -101,35 +101,35 @@ sidebar_pages:
     title: Installing boot9strap (Hardmod)
     url: installing-boot9strap-(hardmod)
   - 
-    title: Installing boot9strap (SafeB9SInstaller)
+    title: boot9strap 설치 (SafeB9SInstaller)
     url: installing-boot9strap-(safeb9sinstaller)
   - 
     title: Installing boot9strap (MSET)
     url: installing-boot9strap-(mset)
   - 
-    title: Installing boot9strap (ntrboot)
+    title: boot9strap 설치 (ntrboot)
     url: installing-boot9strap-(ntrboot)
   - 
-    title: Installing boot9strap (Soundhax)
+    title: boot9strap 설치 (Soundhax)
     url: installing-boot9strap-(soundhax)
   - 
     title: Installing boot9strap (Frogtool)
     url: installing-boot9strap-(frogtool)
   - 
-    title: Installing boot9strap (Fredtool)
+    title: boot9strap 설치 (Fredtool)
     url: installing-boot9strap-(fredtool)
   - 
-    title: Installing boot9strap (USM)
+    title: boot9strap 설치 (USM)
     url: installing-boot9strap-(usm)
   - 
-    title: Installing boot9strap (safecerthax)
+    title: boot9strap 설치 (safecerthax)
     url: installing-boot9strap-(safecerthax)
   - 
     title: Installing boot9strap (SSLoth-Browser)
     url: installing-boot9strap-(ssloth-browser)
   - 
-    title: Installing boot9strap (PicHaxx)
+    title: boot9strap 설치 (PicHaxx)
     url: installing-boot9strap-(pichaxx)
   - 
-    title: Finalizing Setup
+    title: 마무리 단계
     url: finalizing-setup
