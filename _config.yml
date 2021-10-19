@@ -174,6 +174,7 @@ exclude:
   - gulpfile.js
   - LICENSE
   - log
+  - minimal-mistakes-jekyll.gemspec
   - node_modules
   - package.json
   - package-lock.json
@@ -182,6 +183,7 @@ exclude:
   - tmp
   - _pages/af_ZA,
   - _pages/ar_SA,
+  - _pages/bg_BG,
   - _pages/ca_ES,
   - _pages/cs_CZ,
   - _pages/da_DK,
@@ -189,11 +191,13 @@ exclude:
   - _pages/el_GR,
   - _pages/en_PT,
   # _pages/en_US,
-  - _pages/es_EM,
+  - _pages/et_EE,
+  - _pages/ca_ES,
   # - _pages/es_ES,
   # - _pages/fi_FI,
   # - _pages/fr_FR,
   # - _pages/he_IL,
+  - _pages/hr_HR,
   # - _pages/hu_HU,
   - _pages/id_ID,
   # - _pages/it_IT,

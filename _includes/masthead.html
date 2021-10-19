@@ -7,7 +7,13 @@
         {% unless logo_path == empty %}
           <a class="site-logo" href="{{ '/' | relative_url }}"><img src="{{ logo_path | relative_url }}" alt="{{ site.masthead_title | default: site.title }}"></a>
         {% endunless %}
+        <!-- <a class="site-title" href="{{ '/' | relative_url }}">
+          {{ site.masthead_title | default: site.title }}
+          {% if site.subtitle %}<span class="site-subtitle">{{ site.subtitle }}</span>{% endif %}
+        </a>
+      -->
         <ul class="visible-links">
+          <!-- modified to use multilang, guide-specific -->
           {% assign split_path = page.path | split: "/" %}
           {% assign locale = split_path[1] %}
           {% assign titles = site.data.navigation[locale].main %}
@@ -24,6 +30,7 @@
               <li class="masthead__menu-item"><a href="{{ domain }}{{ locale_var }}{{ link.url }}">{{ link.title }}</a></li>
             {% endif %}
           {% endfor %}
+          <!-- end guide specific -->
         </ul>
         {% if site.search == true %}
         <button class="search__toggle" type="button">
@@ -31,6 +38,7 @@
           <i class="fas fa-search"></i>
         </button>
         {% endif %}
+        <!-- completely redo hidden links for multilang, guide-specific -->
         <ul class="hidden-links links-menu hidden"></ul>
         <ul class="hidden-links lang-menu hidden">
           {% assign split_url = page.url | split: "/" %}
