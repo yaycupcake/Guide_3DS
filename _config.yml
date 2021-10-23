@@ -122,7 +122,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/nh-server"
+      url: "https://github.com/hacks-guide/Guide_3DS"
     # - label: "Instagram"
       # icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -138,7 +138,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/nh-server"
+      url: "https://github.com/hacks-guide/Guide_3DS"
     # - label: "GitLab"
       # icon: "fab fa-fw fa-gitlab"
       # url:
@@ -155,70 +155,71 @@ include:
   - .htaccess
   - _pages
   - _pages/en_US
-exclude:
-  - "*.sublime-project"
-  - "*.sublime-workspace"
-  - vendor
-  - .asset-cache
-  - .bundle
-  - .jekyll-assets-cache
-  - .sass-cache
-  - assets/js/plugins
-  - assets/js/_main.js
-  - assets/js/vendor
-  - Capfile
-  - CHANGELOG
-  - config
-  - Gemfile
-  - Gruntfile.js
-  - gulpfile.js
-  - LICENSE
-  - log
-  - minimal-mistakes-jekyll.gemspec
-  - node_modules
-  - package.json
-  - package-lock.json
-  - Rakefile
-  - README
-  - tmp
-  - _pages/af_ZA,
-  - _pages/ar_SA,
-  - _pages/bg_BG,
-  - _pages/ca_ES,
-  - _pages/cs_CZ,
-  - _pages/da_DK,
-  # - _pages/de_DE,
-  - _pages/el_GR,
-  - _pages/en_PT,
+exclude: [
+  "*.sublime-project",
+  "*.sublime-workspace",
+  vendor,
+  .asset-cache,
+  .bundle,
+  .jekyll-assets-cache,
+  .sass-cache,
+  assets/js/plugins,
+  assets/js/_main.js,
+  assets/js/vendor,
+  Capfile,
+  CHANGELOG,
+  config,
+  Gemfile,
+  Gruntfile.js,
+  gulpfile.js,
+  LICENSE,
+  log,
+  minimal-mistakes-jekyll.gemspec,
+  node_modules,
+  package.json,
+  package-lock.json,
+  Rakefile,
+  README,
+  tmp,
+  _pages/af_ZA,
+  _pages/ar_SA,
+  _pages/bg_BG,
+  _pages/ca_ES,
+  _pages/cs_CZ,
+  _pages/da_DK,
+  # _pages/de_DE,
+  _pages/el_GR,
+  _pages/en_PT,
   # _pages/en_US,
-  - _pages/et_EE,
-  - _pages/ca_ES,
-  # - _pages/es_ES,
-  # - _pages/fi_FI,
-  # - _pages/fr_FR,
-  # - _pages/he_IL,
-  - _pages/hr_HR,
-  # - _pages/hu_HU,
-  - _pages/id_ID,
-  # - _pages/it_IT,
-  # - _pages/ja_JP,
-  - _pages/ko_KR,
-  - _pages/ms_MY,
-  - _pages/no_NO,
-  - _pages/nl_NL,
-  # - _pages/pl_PL,
-  # - _pages/pt_BR,
-  - _pages/pt_PT,
-  # - _pages/ro_RO,
-  # - _pages/ru_RU,
-  - _pages/sr_SP,
-  - _pages/sv_SE,
-  - _pages/th_TH,
-  - _pages/tr_TR,
-  - _pages/uk_UA,
-  - _pages/vi_VN,
-  # - _pages/zh_CN,
-  # - _pages/zh_TW,
+  _pages/et_EE,
+  _pages/ca_ES,
+  # _pages/es_ES,
+  # _pages/fi_FI,
+  # _pages/fr_FR,
+  # _pages/he_IL,
+  _pages/hr_HR,
+  # _pages/hu_HU,
+  _pages/id_ID,
+  # _pages/it_IT,
+  # _pages/ja_JP,
+  _pages/ko_KR,
+  _pages/ms_MY,
+  _pages/no_NO,
+  _pages/nl_NL,
+  # _pages/pl_PL,
+  # _pages/pt_BR,
+  _pages/pt_PT,
+  # _pages/ro_RO,
+  # _pages/ru_RU,
+  _pages/sr_SP,
+  _pages/sv_SE,
+  _pages/th_TH,
+  _pages/tr_TR,
+  _pages/uk_UA,
+  _pages/vi_VN,
+  # _pages/zh_CN,
+  # _pages/zh_TW,
+]
 
 keep_files:
   - .git
@@ -254,10 +255,10 @@ sass:
 
 
 # Outputting
-permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+# permalink: /:categories/:title/
+# paginate: 5 # amount of posts to show
+# paginate_path: /page:num/
+# timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)

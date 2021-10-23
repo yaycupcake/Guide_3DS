@@ -220,6 +220,7 @@ $(document).ready(function() {
 	  "installing-boot9strap-(safecerthax)": "22",
 	  "installing-boot9strap-(ssloth-browser)": "23",
     "installing-boot9strap-(pichaxx)": "24",
+    "installing-boot9strap-(kartdlphax)": "25",
   };
 
   for(var device in devices){
@@ -271,6 +272,7 @@ $(document).ready(function() {
       "22": ["installing-boot9strap-(safecerthax)", "finalizing-setup"],
       "23": ["installing-boot9strap-(ssloth-browser)", "finalizing-setup"],
       "24": ["seedminer", "installing-boot9strap-(pichaxx)", "finalizing-setup"],
+      "25": ["installing-boot9strap-(kartdlphax)", "finalizing-setup"],
 
     }
     // Can add custom routing if necessary but currently both routes are identical
