@@ -14,11 +14,11 @@ Ez az oldal hibaelhárítási tanácsokat ad sűrűn előforduló problémákhoz
 
 #### SigHaxed FIRM - File not found
 
-Hiányzik a `boot9strap.firm` és a `boot9strap.firm.sha` fájl a `boot9strap` mappából vagy a `boot9strap` mappa neve hibás. Töltsd le a [boot9strap](https://github.com/SciresM/boot9strap/releases/latest), legutolsó kiadását és rakd a `boot9strap.firm` és a `boot9strap.firm.sha` fájlt a `boot9strap` mappába. Legyél biztos abban, hogy jó fájt töltesz le (`boot9strap-1.3.zip`, nem a devkit, nem az ntr).
+Hiányzik a `boot9strap.firm` és a `boot9strap.firm.sha` fájl a `boot9strap` mappából vagy a `boot9strap` mappa neve hibás. Töltsd le a [boot9strap](https://github.com/SciresM/boot9strap/releases/download/1.3/boot9strap-1.3.zip), legutolsó kiadását és rakd a `boot9strap.firm` és a `boot9strap.firm.sha` fájlt a `boot9strap` mappába.
 
 #### SigHaxed FIRM - invalid FIRM
 
-Probléma van a `boot9strap.firm` és a `boot9strap.firm.sha` fájlokkal. Töltsd le újra a [boot9strap](https://github.com/SciresM/boot9strap/releases/latest), legutolsó kiadását és rakd a `boot9strap.firm` és a `boot9strap.firm.sha` fájlt a `boot9strap` mappába. Legyél biztos abban, hogy jó fájt töltesz le (`boot9strap-1.3.zip`, nem a devkit, nem az ntr).
+Probléma van a `boot9strap.firm` és a `boot9strap.firm.sha` fájlokkal. Töltsd le újra a [boot9strap](https://github.com/SciresM/boot9strap/releases/download/1.3/boot9strap-1.3.zip), legutolsó kiadását és rakd a `boot9strap.firm` és a `boot9strap.firm.sha` fájlt a `boot9strap` mappába.
 
 #### Secret Sector - File not found
 
@@ -80,7 +80,7 @@ Alternatív metódusra van szükséged. mint például a [BannerBomb3](bannerbom
 
 ---
 
-## boot9strap telepítése (Soundhax)
+## Boot9strap telepítése (Soundhax)
 
 ### Piros/lila/rózsaszín és fehér képernyő a Soundhax futtatása után
 
@@ -110,6 +110,16 @@ Ha tajvani vagy kínai egységed van (T vagy C a verzió stringben, pl. 11.14.0-
 
 Alternatív metódust kell követned. Csatlakozz a [Nintendo Homebrew-hoz a Discord-on](https://discord.gg/MWxPgEp) segítségért.
 
+---
+
+## Boot9strap telepítése (USM)
+
+### A DSiWare Management menü összeomlik az USM menü megjelenése nélkül
+
+Biztosítsd, hogy az `F00D43D5.bin` az egyetlen fájl a `Nintendo 3DS` -> `<ID0>` `<ID1>` -> `Nintendo DSiWare` mappában. Ha így van, hozd létre újra az [unSAFE_MODE Exploit Injector](https://3ds.nhnarwhal.com/3dstools/unsafemode.php) segítségével. Ha ez sikertelen, az egyedi firmware lehetséges, hogy úgy lett eltávolítva erről az eszközről, hogy lehetetlenné teszi ennek a metódusnak a végrehajtását. Ha ez az eset, csatlakozz a [Nintendo Homebrew-hoz a Discord-on](https://discord.gg/MWxPgEp) segítségért.
+
+---
+
 ## BannerBomb3
 
 ### A DSiWare Management menü nem omlik össze
@@ -126,7 +136,7 @@ Biztosítsd, hogy az `F00D43D5.bin` az egyetlen fájl a `Nintendo 3DS` -> `<ID0>
 
 ---
 
-## boot9strap telepítése (Fredtool)
+## Boot9strap telepítése (Fredtool)
 
 ### Hiba a Fredtool Injector oldalon
 

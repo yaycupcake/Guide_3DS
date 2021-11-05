@@ -6,9 +6,7 @@ title: "Seedminer"
 
 ### Lettura necessaria
 
-Per installare boot9strap nella tua console, ne ricaviamo la sua chiave di crittografia univoca.
-
-Utilizzeremo perciò un'applicazione chiamata Seedminer per calcolare la chiave di criptazione (`movable.sed`) dei DSiWare della tua console. Useremo quindi questa chiave per decriptare un'applicazione DSiWare compatibile, per poi iniettarci un exploit che eseguirà il nostro codice (il tipo di exploit dipenderà dalla regione della tua console).
+Per installare boot9strap nella tua console, ne ricaviamo la sua chiave di crittografia univoca. A questo scopo, utilizziamo uno strumento chiamato Seedminer per calcolare la chiave di crittografia (mobile.sed) della tua console, che possiamo quindi utilizzare per creare un file di salvataggio personalizzato o un backup DSiWare per sbloccare ulteriormente la console.
 
 Se questa chiave fosse completamente casuale, la chiave di criptazione sarebbe impossibile da calcolare con l'hardware correntemente disponibile. Per fortuna, la prima metà (`movable_part1.sed`) è matematicamente correlata al Codice Amico della tua console, e questo ci permette di infrangere la sua sicurezza. Per ulteriori informazioni sul funzionamento di Seedminer, è possibile consultare [questa presentazione](https://zoogie.github.io/web/34⅕c3).
 
@@ -70,11 +68,11 @@ Questo metodo usa Seedminer per servirsi ulteriormente del tuo file `movable.sed
 Prosegui con l'[Installazione di boot9strap (PicHaxx)](installing-boot9strap-(pichaxx))
 {: .notice--primary}
 
-#### BannerBomb3 + Fredtool
+#### Installazione di boot9strap (unSAFE_MODE)
 
-Seedminer utilizza il tuo file `movable.sed` per creare un backup DSiWare modificato che inganna la console ad eseguire il dump dei DSiWare di sistema.
+Seedminer utilizza il tuo file `movable.sed` per sfruttare gli exploit presenti nel firmware SAFE_MODE presente in ogni console 3DS.
 
 Questo metodo è consigliato solo se per qualche motivo non sei in grado di seguire la procedura di PicHaxx + universal-otherapp.
 
-Prosegui con [BannerBomb3](bannerbomb3)
+Prosegui con l'[Installazione di boot9strap (USM)](installing-boot9strap-(usm))
 {: .notice--warning}

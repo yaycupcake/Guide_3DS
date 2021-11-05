@@ -14,11 +14,11 @@ Questa pagina offre consigli per la risoluzione di problemi comuni. Se non riesc
 
 #### SigHaxed FIRM - File not found
 
-Ti mancano i file `boot9strap.firm` e `boot9strap.firm.sha` dalla cartella `boot9strap`, o la cartella `boot9strap` non è stata correttamente nominata. Scarica l'ultima versione di [boot9strap](https://github.com/SciresM/boot9strap/releases/latest), e posiziona i file `boot9strap.firm` e `boot9strap.firm.sha` nella cartella `boot9strap`. Assicurati di scaricare il file corretto (`boot9strap-1.3.zip`, e non devkit né ntr).
+Ti mancano i file `boot9strap.firm` e `boot9strap.firm.sha` dalla cartella `boot9strap`, o la cartella `boot9strap` non è stata correttamente nominata. Scarica l'ultima versione di [boot9strap](https://github.com/SciresM/boot9strap/releases/download/1.3/boot9strap-1.3.zip), e posiziona i file `boot9strap.firm` e `boot9strap.firm.sha` nella cartella `boot9strap`.
 
 #### SigHaxed FIRM - invalid FIRM
 
-C'è un problema con i tuoi file `boot9strap.firm` e `boot9strap.firm.sha`. Ri-scarica l'ultima versione di [boot9strap](https://github.com/SciresM/boot9strap/releases/latest), e posiziona i file `boot9strap.firm` e `boot9strap.firm.sha` nella cartella `boot9strap`. Assicurati di scaricare il file corretto (`boot9strap-1.3.zip`, e non devkit né ntr).
+C'è un problema con i tuoi file `boot9strap.firm` e `boot9strap.firm.sha`. Ri-scarica l'ultima versione di [boot9strap](https://github.com/SciresM/boot9strap/releases/download/1.3/boot9strap-1.3.zip), e posiziona i file `boot9strap.firm` e `boot9strap.firm.sha` nella cartella `boot9strap`.
 
 #### Secret Sector - File not found
 
@@ -109,6 +109,16 @@ Se hai una console taiwanese o dell'entroterra cinese (con una T o C nella strin
 ### "PrepareArm9ForTwl returned error c8804631!"
 
 Dovrai seguire un metodo alternativo. Entra nel [canale Discord di Nintendo Homebrew](https://discord.gg/MWxPgEp) per chiedere assistenza.
+
+---
+
+## Installazione di boot9strap (USM)
+
+### Il menu di Gestione Nintendo DSiWare crasha senza mostrare il menu USM
+
+Assicurati che il file `F00D43D5.bin` sia l'unico file presente in `Nintendo 3DS` -> `<ID0>` `<ID1>` -> `Nintendo DSiWare`. In tal caso, ricrealo con [unSAFE_MODE Exploit Injector](https://3ds.nhnarwhal.com/3dstools/unsafemode.php). Se dovesse di nuovo fallire, potrebbe essere già stato disinstallato un custom firmware su questa console in modo tale da rendere questo metodo impossibile. In tal caso, entra nel [canale Discord di Nintendo Homebrew](https://discord.gg/MWxPgEp) per chiedere assistenza.
+
+---
 
 ## BannerBomb3
 
