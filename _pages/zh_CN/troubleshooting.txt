@@ -128,61 +128,62 @@ title: "故障排查"
 
 ### DSiWare 数据管理里面显示了一个问号图标的程序
 
-你放的 `F00D43D5.bin` 文件可能有问题（损坏或被用于错误的 3DS）。 Re-create your `F00D43D5.bin`file with the [BannerBomb3 tool](https://3ds.nhnarwhal.com/3dstools/bannerbomb3.php), ensuring that you use the `movable.sed` file for your console.
+你放的 `F00D43D5.bin` 文件可能有问题（损坏或被用于错误的 3DS）。 使用 [BannerBomb3 Tool](https://3ds.nhnarwhal.com/3dstools/bannerbomb3.php) 重新创建 `F00D43D5.bin`文件，且确保你使用的 `movable.sed` 文件是你这台主机的。
 
-### DSiWare Management menu crashes without purple screen
+### DSiWare 数据管理菜单没有闪烁紫屏就崩溃了
 
-确保 `F00D43D5.bin` 是 `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `Nintendo DSiWare` 里面的唯一文件。 If it is, then re-create it with the [BannerBomb3 tool](https://3ds.nhnarwhal.com/3dstools/bannerbomb3.php). 如果还是不行，则可能是因为自制固件在此主机上被卸载过一次，从而导致此方法失效。 如果是这样，请加入 [Nintendo Homebrew Discord 服务器](https://discord.gg/MWxPgEp)以寻求帮助。
+确保 `F00D43D5.bin` 是 `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `Nintendo DSiWare` 里面的唯一文件。 如果确定没问题的话，尝试重新使用 [BannerBomb3 tool](https://3ds.nhnarwhal.com/3dstools/bannerbomb3.php) 重新创建文件。 如果还是不行，则可能是因为自制固件在此主机上被卸载过一次，从而导致此方法失效。 如果是这样，请加入 [Nintendo Homebrew Discord 服务器](https://discord.gg/MWxPgEp)以寻求帮助。
 
 ---
 
-## Installing boot9strap (Fredtool)
+## 安装 boot9strap（通过 Fredtool）
 
-### Error on Fredtool Injector page
+### Fredtool 注入页报错
 
-Ensure that your `movable.sed` and DSiWare backup come from the same console. A mismatch will result in an error.
+请确认 `movable.sed` 和 DSiWare 备份是从同一台主机导出的。 如果不匹配就会报错。
 
-### "Haxxxxxxxxx!" does not appear
+### 没有出现 “Haxxxxxxxxx!”
 
-There is an issue with your `42383821.bin` file (it is incorrect, missing, misplaced, or corrupted). Re-create your files with the [Fredtool](https://3ds.nhnarwhal.com/3dstools/fredtool.php) website and ensure that you place the `42383821.bin` file from `output.zip` -> `hax` in `Nintendo 3DS` -> `<ID0>` `<ID1>` -> `Nintendo DSiWare`.
+你放的 `42383821.bin` 文件有问题（丢失、放错位置或者损坏）。 使用 [Fredtool](https://3ds.nhnarwhal.com/3dstools/fredtool.php) 重新创建文件，确保 `42383821.bin` 是从 `output.zip` -> `hax` 取出来的，且放在了 `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `Nintendo DSiWare` 中。
 
-### DS Connection Settings launches normally
+### DS 连接设置正常启动了
 
-`Haxxxxxxxxx!` was not copied from your SD card to your system memory.
+`Haxxxxxxxxx!` 没有被从 SD 卡中复制到系统内部存储。
 
-### Black screen when launching DS Connection Settings
 
-Your DS Connection Settings application is broken, and you will need Homebrew Launcher access to fix this issue. 如需帮助，请加入 [Nintendo Homebrew Discord 服务器](https://discord.gg/MWxPgEp)。
+### 启动 DS 连接设置黑屏
 
-### SD card is grayed out
+你主机的 DS 连接设置程序损坏了，你需要想办法获得启动 Homebrew Launcher 的权限才能修复它。 如需帮助，请加入 [Nintendo Homebrew Discord 服务器](https://discord.gg/MWxPgEp)。
 
-Flipnote may take a long time to index your card if you have a large SD card. Let it sit for a few minutes.
+### SD 卡选项是灰色的
+
+如果你用的内存卡特别大的话，Flipnote 可能需要花很长时间来索引内存卡。 等它几分钟。
 
 ### 找不到 “( ͡° ͜ʖ ͡°)”
 
-You did not copy the `private` folder from the Frogminer_save `.zip` to the root of your SD card.
+你忘了从 Frogminer_save `.zip` 压缩包中复制 `private` 文件夹到内存卡的根目录了。
 
-### Flipnote is frozen
+### Flipnote 卡死
 
-You may have accidentally touched the touch screen while in the modified Flipnote. Re-enter DS Connection Settings and try again, ensuring that you don't accidentally use the touchscreen.
+你在操作过程中可能误触了其它的东西。 重新进入 DS 连接设置并重试。
 
-### Green screen after pasting 
+### 操作后卡在了绿屏 
 
-The file `boot.nds` is missing or misplaced. 下载最新版本的 [b9stool](https://github.com/zoogie/b9sTool/releases/latest) 并将 `boot.nds` 放在你 SD 卡的根目录中，如有存在相同文件请替换。
+`boot.nds` 文件丢失或位置错误。 下载最新版本的 [b9stool](https://github.com/zoogie/b9sTool/releases/latest) 并将 `boot.nds` 放在你 SD 卡的根目录中，如有存在相同文件请替换。
 
-### White screen after pasting
+### 操作后卡在了白屏
 
-There is an issue with your `boot.nds` file. Re-download the latest release of [b9stool](https://github.com/zoogie/b9sTool/releases/latest) and place `boot.nds` on the root of your SD card, replacing the existing one.
+这说明你放的 `boot.nds` 文件有问题。 重新下载最新版本的 [b9stool](https://github.com/zoogie/b9sTool/releases/latest) 并将 `boot.nds` 放在你 SD 卡的根目录中，如有存在相同文件请替换。
 
-### Unable to open Luma3DS configuration menu after running b9stool
+### 运行 b9stool 后无法打开  Luma3DS 配置菜单
 
-It is possible that boot9strap was not successfully installed. Follow section B of [this page](https://github.com/zoogie/b9sTool/blob/master/TROUBLESHOOTING.md).
+可能是因为 Boot9strap 没有成功安装。 请查阅[此页面](https://github.com/zoogie/b9sTool/blob/master/TROUBLESHOOTING.md)的 B 章节。
 
-## Finalizing Setup
+## 完成安装
 
-### Unable to update device
+### 无法更新主机
 
-The steps below can be attempted in any order, but are listed from easiest to hardest to perform.
+以下是可以尝试的解决方法，按从简单到困难的顺序排列。
 
 1. 将 DNS 设置为“自动（Auto）”
 1. 将主机靠近 WiFi 路由器
@@ -192,101 +193,101 @@ The steps below can be attempted in any order, but are listed from easiest to ha
 1. 连接其他的 WiFi，比如移动热点
 1. Nintendo 服务器可能临时下线，稍后再试
 1. 如果仍然提示错误，请进行 [CTRTransfer](ctrtransfer)，然后再尝试一次更新
-1. For further support (in English), join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp)
+1. 如需援助，请加入 [Nintendo Homebrew Discord 服务器](https://discord.gg/MWxPgEp)并说英文求助。（请注意，如果你身处中国大陆，访问 Discord 可能需要科学上网），你也可以到译者的 [QQ 群](https://stray-soul.site/index.php/qqgroup)寻求帮助，群号为 942052497。
 
-### Unable to enter Rosalina due to broken button(s)
+### 主机中对应打开 Rosalina 菜单组合键的按钮坏了，无法打开菜单
 
-Download this [alternate config.bin](https://cdn.discordapp.com/attachments/196635695958196224/733384123003175074/config.bin) and place it in `/luma/`. This will change the Rosalina key combination to (Y) + (B).
+下载这个[备用 config.bin](https://cdn.discordapp.com/attachments/196635695958196224/733384123003175074/config.bin)，然后将其放在 SD 卡的 `/luma/` 文件夹中。 这样会把 Rosalina 菜单组合键改成 “Y” + “B”。
 
-### "An exception occurred" after trying to launch Homebrew Launcher via Download Play
+### 尝试通过下载通信（Download Play）启动 Homebrew Launcher 时出现了 “An exception occurred” 报错
 
-There is an issue with your `boot.3dsx` file (it is missing, misplaced, or corrupted). Download the latest release of [the Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest) and place `boot.3dsx` on the root of your SD card, replacing any existing file. Make sure you are extracting the ZIP file with any tool other than WinRAR, as it is known to cause issues with 3DS-related files.
+你放的 `boot.3dsx` 文件有问题（丢失、放错位置或者损坏）。 下载最新版本的 [Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest) 并将 `boot.3dsx` 放在你 SD 卡的根目录中，如有存在相同文件请替换。 请不要用 WinRAR 解压 ZIP 文件，我们目前已知这会导致与 3DS 有关的文件出错。
 
-### "Scripts directory not found" in GodMode9
+### GodMode9 提示 “Scripts directory not found”
 
-You did not copy the `gm9` folder from the GodMode9 `.zip` to the root of your SD card. Download the latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/latest) and place the `gm9` folder on the root of your SD card, merging it with the existing one.
+你没有把 GodMode9 `.zip` 中的整个 `gm9` 文件夹复制到 SD 卡的根目录下。 下载最新版本的 [GodMode9](https://github.com/d0k3/GodMode9/releases/latest) 并将 `gm9` 文件夹解压至你 SD 卡的根目录中，如有存在相同文件请替换。
 
-### `essentials.exefs` missing from `/gm9/out/`
+### `/gm9/out/` 中缺少 `essentials.exefs` 文件
 
-Your device had custom firmware in the past, so you were not automatically prompted to make a backup. Make a backup manually:
+你的主机曾经安装过自制固件，所以工具没有自动提示进行备份。 手动备份：
 
 1. 将 SD 卡重新插入你的主机
 1. 按住 “START” 键，然后将主机开机。 这会启动 GodMode9
 1. 进入到 `[S:] SYSNAND VIRTUAL`
-1. Select `essentials.exefs`, then `Copy to 0:/gm9/out/`
-1. You should now have `essentials.exefs` in `/gm9/out/`
+1. 选择 `essentials.exefs`，然后选择 `Copy to 0:/gm9/out/`
+1. 现在 `/gm9/out/` 文件夹里应该有 `essentials.exefs` 文件了
 
 ---
 
-## Boot-related issues on modded devices
+## 破解主机上与引导相关的问题
 
-The steps detailed here generally assume that your device has a modern custom firmware setup (boot9strap + Luma3DS 8.0 or greater). If your console is running an older homebrew setup (for example, something based on arm9loaderhax or menuhax), you should update your setup before trying these instructions.
+此处列出的操作方法将假设你的主机安装了最新的自制固件（boot9strap + Luma3DS 8.0 或更高版本）。 如果你的主机还在用旧版的自制固件（例如基于 arm9loaderhax 或 menuhax 的东西），则你应该在继续操作前先升级自制固件。
 {: .notice--info}
 
-### My device gets stuck on a black screen, and the blue light turns off
+### 主机开机只闪一下蓝灯
 
-There is an issue with your `boot.firm` file (it is missing, misplaced, or corrupted). Download the [latest release of Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest) and place `boot.firm` on the root of your SD card, replacing any existing file. Make sure you are extracting the ZIP file with any tool other than WinRAR, as it is known to cause issues with 3DS-related files.
+你放的 `boot.firm` 文件有问题（丢失、放错位置或者损坏）。 下载最新版本的 (https://github.com/LumaTeam/Luma3DS/releases/latest) 并将 `boot.firm` 放在你 SD 卡的根目录中，如有存在相同文件请替换。 请不要用 WinRAR 解压 ZIP 文件，我们目前已知这会导致与 3DS 有关的文件出错。
 
-If you hear a "popping sound", potentially accompanied with the backlight turning on for a split second, there is a hardware issue with your device (such as a disconnected backlight cable). You may be able to get your device to boot by holding it at certain angles.
+如果你在开机的时候听到了“啪”的一声，然后蓝灯熄灭，则代表你的主机可能有硬件上的问题了。（如：背光排线断开） 你的主机或许能在开盖特定角度的情况下开机。
 
-### My device gets stuck on a black screen, with a static blue light
+### 主机开机黑屏，蓝灯常亮
 
-The steps below can be attempted in any order, but are listed from least to most time-consuming.
+你可以把下面所列出的方法都试试，此处将方法从最省时到最耗时的顺序排列。
 
-1. Power off your device, eject the game cartridge if inserted, power on your device, then wait up to ten minutes. If your device boots within ten minutes, the issue has been fixed and is unlikely to reoccur
-1. Rename the `Nintendo 3DS` folder on your SD card to `Nintendo 3DS_BACKUP`, then attempt to boot. If your device successfully boots, there is some issue within your `Nintendo 3DS` folder. Try clearing home menu extdata:
-	+ Navigate to `/Nintendo 3DS/<ID0>/<ID1>/extdata/00000000/`
-	+ Delete the extdata file corresponding to your region: 
+1. 将主机强制关机，拔出游戏卡带（若有），然后再次打开主机等待十分钟。 如果你的主机在十分钟内成功开机，则这个问题就自行修复了，且不太会再次发生
+1. 将 SD 卡上的 `Nintendo 3DS` 文件夹重命名为 `Nintendo 3DS_BACKUP`，然后尝试启动主机。 如果成功开机了，则 `Nintendo 3DS` 文件夹有问题。 尝试清理主菜单的 extdata：
+	+ 进入到 `/Nintendo 3DS/<ID0>/<ID1>/extdata/00000000/`
+	+ 根据你的系统区域删除对应的文件夹： 
 		+ **欧版**: `00000098`
 		+ **日版**: `000000082`
 		+ **美版**: `000008f`
 		+ **中国版（神游版）**: `000000A1`
 		+ **韩版**: `000000A9`
 		+ **台湾版**: `000000B1`
-1. Ensure that your device does not have ARM11 exception handlers disabled:
+1. 请确保你没有将 Luma 设置中的 “ARM11 exception handlers disabled” 选项打开：
 	+ 将主机关机
-	+ Hold (Select)
-	+ Power on your device, while still holding (Select)
-	+ If the "Disable ARM11 exception handlers" box is checked, uncheck it
-	+ If your device now boots to the "An exception occured" screen, follow [My device boots to an error screen](troubleshooting#my-device-boots-to-an-error-screen)
-1. Try booting into recovery mode and updating your system:
+	+ 按住 “Select” 键
+	+ 在按住 “Select” 键的同时按下电源键开机
+	+ 如果 “ARM11 exception handlers disabled” 已被勾选，则请取消勾选它
+	+ 如果现在开机会出现 “An exception occured” 的报错，请按照 [主机开机报错](troubleshooting#my-device-boots-to-an-error-screen)进行操作
+1. 尝试启动到恢复模式并升级系统：
 	+ 将主机关机
-	+ Hold (Left Shoulder) + (Right Shoulder) + (D-Pad Up) + (A)
-	+ Power on your device
-	+ If you were successful, the device will boot to an "update your system" screen
-1. Follow the [CTRTransfer](ctrtransfer) guide
-1. For further support, ask for help at [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp)
+	+ 按住 “L” + “R” + “↑” + "A" 四个键
+	+ 将主机开机
+	+ 如果成功，主机将自动进入“系统更新”界面
+1. 尝试做 [CTRTransfer](trtransfer) 
+1. 如需援助，请加入 [Nintendo Homebrew Discord 服务器](https://discord.gg/MWxPgEp)并使用英文求助。（请注意，如果你身处中国大陆，访问 Discord 可能需要科学上网），你也可以到译者的 [QQ 群](https://stray-soul.site/index.php/qqgroup) 寻求帮助，群号为 942052497。
 
-### My device boots to an error screen
+### 主机开机报错
 
-#### "An error has occurred: Failed to apply 1 FIRM patch(es)" or "An exception has occurred -- Current process: pm"
+“An error has occurred: Failed to apply 1 FIRM patch(es)” 或 “An exception has occurred -- Current process: pm”
 
-Your Luma3DS version is outdated. Download the latest release of [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest) and place `boot.firm` on the root of your SD card, replacing any existing file. Make sure you are extracting the ZIP file with any tool other than WinRAR, as it is known to cause issues with 3DS-related files.
+你主机的 Luma3DS 版本已过时。 下载最新版本的 [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest) 并将 `boot.firm` 放在你 SD 卡的根目录中，如有存在相同文件请替换。 请不要用 WinRAR 解压 ZIP 文件，我们目前已知这会导致与 3DS 有关的文件出错。
 
-#### "An error has occurred. Hold down the POWER button to turn off the power..."
+#### “An error has occurred. Hold down the POWER button to turn off the power...”
 
-ARM11 exception handlers are disabled, or custom firmware is not installed. Try enabling ARM11 exception handlers:
+ARM11 异常处理器已被禁用，或主机未安装自制固件。 尝试启用 ARM11 异常处理器：
 	+ 将主机关机
-	+ Hold (Select)
-	+ Power on your device, while still holding (Select)
-	+ If the "Disable ARM11 exception handlers" box is checked, uncheck it
+	+ 按住 “Select” 键
+	+ 在按住 “Select” 键的同时按下电源键开机
+	+ 如果 “ARM11 exception handlers disabled” 已被勾选，则请取消勾选它
 
-#### Some other error
+#### 其他错误
 
-Please take a photo of the error and join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) for assistance.
+请对报错拍照，然后加入 [Nintendo Homebrew Discord 服务器](https://discord.gg/MWxPgEp)并说英文以获取援助。（请注意，如果你身处中国大陆，访问 Discord 可能需要科学上网），你也可以到译者的 [QQ 群](https://stray-soul.site/index.php/qqgroup)寻求帮助，群号为 942052497。
 
-### Blue "Bootrom Error" screen
+### “Bootrom Error” 蓝屏
 
-Your device is likely hard-bricked. You will need to buy an ntrboot flashcart to reinstall boot9strap in order to attempt to fix your device. This may also indicate a hardware issue which cannot be fixed. In any case, join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) for assistance.
-  + It is also possible that someone has set a boot-time splash screen that just looks like a brick. Try leaving your device powered on, waiting on the blue screen, for five minutes.
+你的主机可能由于硬件问题变砖了。 你可能需要买一张支持 ntrboot 的烧录卡来重新安装 boot9strap 以尝试修复主机。 这也可能是无法修复的硬件问题。 无论如何，请先加入 [Nintendo Homebrew Discord 服务器](https://discord.gg/MWxPgEp) 并说英文求助。（请注意，如果你身处中国大陆，访问 Discord 可能需要科学上网），你也可以到译者的 [QQ 群](https://stray-soul.site/index.php/qqgroup)寻求帮助，群号为 942052497。
+  + 还有可能有人设了一个看上去就像变砖了的开机画面。 尝试将主机开机，在蓝屏上等 5 分钟。
 
 ---
 
-## Functionality-related issues on modded devices
+## 破解主机的功能相关问题
 
-### DSi / DS functionality is broken, or has been replaced with Flipnote Studio
+### DSi / DS 功能损坏，或变成了 Flipnote Studio
 
-1. Download the latest release of [TWLFix-CFW](https://github.com/MechanicalDragon0687/TWLFix-CFW/releases/latest) (the `.3dsx` file)
+1. * 下载最新版的 [TWLFix-CFW](https://github.com/MechanicalDragon0687/TWLFix-CFW/releases/latest) （下载 `.3dsx` 文件）
 1. 关闭你的主机的电源
 1. 检查 SD 卡的根目录是否存在一个名为 `3ds` 的文件夹，如果没有则手动新建一个
 1. 复制 `TWLFix-CFW.3dsx` 到你内存卡的 `/3ds/` 文件夹
@@ -299,10 +300,10 @@ Your device is likely hard-bricked. You will need to buy an ntrboot flashcart to
   + 更新程序将检查到你主机基本的 TWL 程序被卸载，然后它将重新安装它们
 1. 更新完成后，点击 “OK” 来重启主机 
 
-### GBA Virtual Console and/or Safe Mode functionality is broken
+### GBA VC 无法运行，或无法进入安全模式
 
-Your device is running Luma3DS/AuReiNand 6.6 or older, likely via arm9loaderhax. You should follow [A9LH to B9S](a9lh-to-b9s) to update your device to a modern custom firmware environment.
+你的主机正在使用 Luma3DS / AuReiNand 6.6 或更老的版本，而且像是 arm9loaderhax 破解的。 你应该按照 [A9LH 升级 B9S](a9lh-to-b9s) 将主机更新到最新的自制固件环境。
 
-### Extended memory mode games are broken
+### 扩展内存模式游戏无法运行
 
-This can occur after a CTRTransfer or region change on Old 3DS / 2DS. You will need to system format your device to fix this issue.
+旧版 3DS / 2DS 在做完 CTRTransfer 或区域变更之后可能会出现这个问题。 你需要初始化主机才能解决这个问题。
