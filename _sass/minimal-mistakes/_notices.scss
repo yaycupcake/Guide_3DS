@@ -47,10 +47,11 @@
   }
 
   a {
-    color: mix(#000, $notice-color, 10%);
+    // guide specific linking
+    color: mix(#fff, $notice-color, 30%);
 
     &:hover {
-      color: mix(#000, $notice-color, 50%);
+      color: mix(#fff, $notice-color, 70%);
     }
   }
 
