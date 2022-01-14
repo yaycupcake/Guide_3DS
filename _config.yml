@@ -20,7 +20,7 @@ title                    : "3DS Hacks Guide"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Nintendo Homebrew"
-description              : "Full sighax CFW Guide"
+description              : "A complete guide to 3DS custom firmware"
 url                      : "https://3ds.hacks.guide" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 enforce_ssl              : "3ds.hacks.guide"
 baseurl                  : # the subpath of your site, e.g. "/blog"
