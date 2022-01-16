@@ -9,7 +9,7 @@ title: "CFW 복구 / 업데이트"
 This page prepares consoles with an existing modern boot9strap installation for reinstallation and/or updating of custom firmware applications. It can also be used in the event of a lost or corrupted SD card.
 
 ### 준비물
-* The latest release of [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest)
+*최신 버전의 [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest)
 * 최신 버전의 [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 
 ### 진행 방법
@@ -20,7 +20,7 @@ This page prepares consoles with an existing modern boot9strap installation for 
 1. Copy `boot.3dsx` and `boot.firm` from the Luma3DS `.zip` to the root of your SD card
   + The root of the SD card refers to the initial directory on your SD card where you can see the Nintendo 3DS folder, but are not inside of it
 1. Copy `GodMode9.firm` from the GodMode9 `.zip` to the `/luma/payloads/` folder on your SD card, replacing any existing file
-  + If the `luma` or `payloads` folder doesn't exist, create them
+  + 'luma' 또는 'payloads' 폴더가 없다면, 만들어 주세요
 1. Copy the `gm9` folder from the GodMode9 `.zip` to the root of your SD card, merging it with any existing folder and replacing any existing files
 1. SD 카드를 기기에 다시 삽입해 주세요
 
@@ -28,7 +28,7 @@ This page prepares consoles with an existing modern boot9strap installation for 
 
 1. Turn on your device
 	* You should now see a Luma3DS configuration menu
-1. Use the (A) button and the D-Pad to turn on the following:
+1. (A) 버튼과 십자 패드을 이용해 다음 설정을 설정해 주세요:
 	* **"Show NAND or user string in System Settings"**
 1. (Start)를 눌러 저장하고 기기를 다시 시작해 주세요
 

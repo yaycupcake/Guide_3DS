@@ -1,5 +1,5 @@
 ---
-title: "故障排查"
+title: "问题排查"
 ---
 
 {% include toc title="目录"%}
@@ -76,7 +76,13 @@ title: "故障排查"
 
 ### “PrepareArm9ForTwl returned error c8804631!”
 
-你需要用其他的替代方法，如 [BannerBomb3](bannerbomb3)。
+你需要换个方法，比如[安装 boot9strap（通过 USM）](installing-boot9strap-(usm))。
+
+### 无法挂载 SD 卡（Failed to mount the SD card!）
+
+备份好你 SD 卡上的文件，然后根据你的操作系统选择一个工具来重新格式化 SD 卡为 FAT32 格式：[Windows](formatting-sd-(windows))、[macOS](formatting-sd-(mac))、[Linux](formatting-sd-(linux))。 目前已知 MiniTool 和 HP 格式化工具格出来的 SD 卡给 3DS 使用会出问题。
+
+如果还是不行，尝试换一张 SD 卡。
 
 ---
 
@@ -102,13 +108,19 @@ title: "故障排查"
 
 ### 卡在了 “Doing agbhax...”
 
-这可能说明你放的 `otherapp.bin` 文件有问题。 重新下载最新版本的 [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest) 并重命名为 `arm11code.bin`，然后将其放在你 SD 卡的根目录中。
+这可能说明你放的 `otherapp.bin` 文件有问题。 重新下载最新版本的 [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest) 并将其放在你 SD 卡的根目录中。
 
-如果你的主机是港台版或神游版的（系统版本号后缀为 T 或 C，例如：11.14.0-##T），请加入 [Nintendo Homebrew Discord 服务器](https://discord.gg/MWxPgEp)使用英文寻求帮助。
+如果你的主机是港台版或神游版的（系统版本号后缀为 T 或 C，例如：11.3.0-##T），请加入 [Nintendo Homebrew Discord 服务器](https://discord.gg/MWxPgEp)使用英文寻求帮助。
 
 ### “PrepareArm9ForTwl returned error c8804631!”
 
 你需要换一种替代方法。 如需帮助，请加入 [Nintendo Homebrew Discord 服务器](https://discord.gg/MWxPgEp)。
+
+### 无法挂载 SD 卡（Failed to mount the SD card!）
+
+备份好你 SD 卡上的文件，然后根据你的操作系统选择一个工具来重新格式化 SD 卡为 FAT32 格式：[Windows](formatting-sd-(windows))、[macOS](formatting-sd-(mac))、[Linux](formatting-sd-(linux))。 目前已知 MiniTool 和 HP 格式化工具格出来的 SD 卡给 3DS 使用会出问题。
+
+如果还是不行，尝试换一张 SD 卡。
 
 ---
 
@@ -237,7 +249,7 @@ title: "故障排查"
 1. 将主机强制关机，拔出游戏卡带（若有），然后再次打开主机等待十分钟。 如果你的主机在十分钟内成功开机，则这个问题就自行修复了，且不太会再次发生
 1. 将 SD 卡上的 `Nintendo 3DS` 文件夹重命名为 `Nintendo 3DS_BACKUP`，然后尝试启动主机。 如果成功开机了，则 `Nintendo 3DS` 文件夹有问题。 尝试清理主菜单的 extdata：
 	+ 进入到 `/Nintendo 3DS/<ID0>/<ID1>/extdata/00000000/`
-	+ 根据你的系统区域删除对应的文件夹： 
+	+ 根据你的 3DS 系统区域删除对应的文件夹： 
 		+ **欧版**: `00000098`
 		+ **日版**: `000000082`
 		+ **美版**: `000008f`
@@ -307,3 +319,32 @@ ARM11 异常处理器已被禁用，或主机未安装自制固件。 尝试启�
 ### 扩展内存模式游戏无法运行
 
 旧版 3DS / 2DS 在做完 CTRTransfer 或区域变更之后可能会出现这个问题。 你需要初始化主机才能解决这个问题。
+
+---
+
+## 其他问题
+
+### 清除主菜单的外部存储
+
+1. 将主机关机
+1. 将你的 SD 卡插入到电脑
+1. 打开你 SD 卡的 `/Nintendo 3DS/<ID0>/<ID1>/extdata/00000000/` 文件夹
+1. 根据你的 3DS 系统区域删除对应的文件夹：
+  + **欧版**: `00000098`
+  + **日版**: `000000082`
+  + **美版**: `000008f`
+  + **中国版（神游版）**: `000000A1`
+  + **韩版**: `000000A9`
+  + **台湾版**: `000000B1`
+1. 将SD卡重新插入你的主机
+
+### 清除主菜单的主题数据
+
+1. 将主机关机
+1. 将你的 SD 卡插入到电脑
+1. 按顺序依次进入你 SD 卡内的文件夹：/Nintendo 3DS/<ID0>/<ID1>/extdata/00000000/
+2. 删除对应你的 3DS 区域的文件夹：
+  + **欧版**：`000002ce`
+  + **日版**：`000002cc`
+  + **美版**：`000002cd`
+1. 将SD卡重新插入你的主机

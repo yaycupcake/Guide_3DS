@@ -14,8 +14,8 @@ title: "boot9strap 설치 (ntrboot)"
 * A magnet that triggers the sleep mode of your device (if using a folding style device)
 * Your ntrboot flashed flashcart
 * The latest release of [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
-* The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/download/1.3/boot9strap-1.3.zip)
-* The latest release of [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest) 
+* 최신 버전의 [boot9strap](https://github.com/SciresM/boot9strap/releases/download/1.3/boot9strap-1.3.zip)
+*최신 버전의 [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest) 
 
 ### 진행 방법
 
@@ -45,9 +45,9 @@ title: "boot9strap 설치 (ntrboot)"
   + On old 2DS, you should instead enable the sleep mode switch
 1. Hold (Start) + (Select) + (X) + (Power) for several seconds, then release the buttons
   + It may take a few attempts to get this to work because the positioning is awkward
-1. If the exploit was successful, you will have booted into SafeB9SInstaller
+1. 익스플로잇이 성공적이었다면 SafeB9SInstaller로 부팅되었을 것입니다
 
-#### Section III - Installing boot9strap
+#### 섹션 III - boot9strap 설치하기
 
 1. 모든 안전 검사가 끝날 때까지 기다려 주세요
 1. Remove the magnet from your device
@@ -56,19 +56,19 @@ title: "boot9strap 설치 (ntrboot)"
 1. Once it has completed, force your device to power off by holding down the power button
   + Your device will only boot to the SafeB9SInstaller screen until the next section is completed
 
-#### Section IV - Configuring Luma3DS
+#### 섹션 IV - Luma3DS 설정
 
 1. SD 카드를 컴퓨터에 삽입해 주세요
 1. Delete `boot.firm` from the root of your SD card
 1. Copy `boot.firm` from the Luma3DS `.zip` to the root of your SD card
 1. SD 카드를 기기에 다시 삽입해 주세요
 1. 기기를 시작해 주세요.
-1. Your device should have booted into the Luma3DS configuration menu
-  + If you get a black screen, [follow this troubleshooting guide](troubleshooting#boot-related-issues-on-modded-devices)
-1. Use the (A) button and the D-Pad to turn on the following:
+1. 기기는 Luma3DS 구성 메뉴로 부팅되었을 겁니다
+  + 검은 화면이 보인다면 이 [문제 해결 가이드](troubleshooting#boot-related-issues-on-modded-devices) 를 참고해 주세요
+1. (A) 버튼과 십자 패드을 이용해 다음 설정을 설정해 주세요:
   + **"Show NAND or user string in System Settings"**
 1. (Start)를 눌러 저장하고 기기를 다시 시작해 주세요
-  + If you get an error, just continue the next page
+  + 만약 오류가 나더라도 그냥 다음으로 넘어가 주세요
 
 이제 기기는 SD 카드가 삽입되 있는 한 Luma3DS를 기본으로 부팅 됩니다.
   + Luma3DS는 HOME 메뉴하고 똑같이 보입니다. 만약 기기가 HOME 메뉴로 부팅 됬다면 커스텀 펌웨어가 설치되 있습니다.
@@ -141,6 +141,6 @@ Do not follow this section until you have completed the rest of the instructions
   + 만약 윗화면에 리스트에 플래시카드가 없다면 각각의 옵션의 정보를 보기 위해 아랫화면을 보아 주세요
 1. Select "Restore Flash"
 1. Press (A) to proceed
-1. 완료될 때까지 기다려 주세요.
+1. 완료될 때까지 기다려 주세요
 1. (A)를 눌러 메인 메뉴로 돌아가 주세요
 1. Press (B) to power off your device

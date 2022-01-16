@@ -76,7 +76,13 @@ Probléma lehet az `otherapp.bin` fájloddal. Töltsd le a legutolsó kiadását
 
 ### "PrepareArm9ForTwl returned error c8804631!"
 
-Alternatív metódusra van szükséged. mint például a [BannerBomb3](bannerbomb3).
+Más metódust kell, használnod, mint például a [Boot9strap telepítése (USM)](installing-boot9strap-(usm)).
+
+### Failed to mount the SD card!
+
+Mentsd az adataidat, majd formázd újra az SD kártyád FAT32 formátumra, az ajánlott alkalmazással az operációs rendszerednek megfelelően. ([Windows](formatting-sd-(windows)), [macOS](formatting-sd-(mac)), [Linux](formatting-sd-(linux))). A MiniTool-ról és a HP formázó eszközökről ismert, hogy problémákat okoznak a 3DS SD kártyákkal.
+
+Ha ez sikertelen, próbálkozz egy másik SD kártyával.
 
 ---
 
@@ -102,13 +108,19 @@ A `SafeB9SInstaller.bin` fájl hiányzik, vagy rossz helyen van. Töltsd le a le
 
 ### Lefagyás a "Doing agbhax..." során
 
-Probléma lehet az `otherapp.bin` fájloddal. Töltsd le újra a legutolsó kiadását az [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest)-nak nevezd át `arm11code.bin`-re és rakd az SD kártyád gyökerébe.
+Probléma lehet az `otherapp.bin` fájloddal. Töltsd le újra a legutolsó kiadását az [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest)-nak és rakd az SD kártyád gyökerébe.
 
-Ha tajvani vagy kínai egységed van (T vagy C a verzió stringben, pl. 11.14.0-##T), csatlakozz a [Nintendo Homebrew-hoz a Discord-on](https://discord.gg/MWxPgEp) segítségért.
+Ha tajvani vagy kínai egységed van (T vagy C a verzió stringben, pl. 11.3.0-##T), csatlakozz a [Nintendo Homebrew-hoz a Discord-on](https://discord.gg/MWxPgEp) segítségért.
 
 ### "PrepareArm9ForTwl returned error c8804631!"
 
 Alternatív metódust kell követned. Csatlakozz a [Nintendo Homebrew-hoz a Discord-on](https://discord.gg/MWxPgEp) segítségért.
+
+### Failed to mount the SD card!
+
+Mentsd az adataidat, majd formázd újra az SD kártyád FAT32 formátumra, az ajánlott alkalmazással az operációs rendszerednek megfelelően. ([Windows](formatting-sd-(windows)), [macOS](formatting-sd-(mac)), [Linux](formatting-sd-(linux))). A MiniTool-ról és a HP formázó eszközökről ismert, hogy problémákat okoznak a 3DS SD kártyákkal.
+
+Ha ez sikertelen, próbálkozz egy másik SD kártyával.
 
 ---
 
@@ -236,7 +248,7 @@ Az alábbi lépések tetszőleges sorrendben hajthatók végre, azonban a lista 
 1. Kapcsold ki a készülékedet, vedd ki a játék cartridge-t ha van bennem, majd kapcsold be az eszközöd és vár tíz percet. Ha az eszközöd bebootol tíz percen belül, a probléma elhárult és nem fog valószínűleg újra előfordulni
 1. + Nevezd át a `Nintendo 3DS` mappát az SD kártyádon `Nintendo 3DS_BACKUP` névre és próbálj meg bootolni. Ha az eszközöd sikeresen bootol, problémák vannak a `Nintendo 3DS` könyvtáraddal. Próbáld meg kitakarítani a home menu extdata-t:
 	+ Navigálj a `/Nintendo 3DS/<ID0>/<ID1>/extdata/00000000/` mappába
-	+ Töröld a régiódhoz tartozó extdata fájlt: 
+	+ Töröld a 3DS régiódhoz tartozó extdata fájlt: 
 		+ **EUR régió**: `00000098`
 		+ **JPN régió**: `00000082`
 		+ **USA régió**: `0000008f`
@@ -306,3 +318,32 @@ Az eszközöd Luma3DS/AuReiNand 6.6 vagy régebbi verziót futtat, valószínűl
 ### Kibővített memória módú (Extended memory mode) játékok hibásak
 
 Ez egy CTRTransfer vagy régió csere után fordulhat elő Old 3DS / 2DS eszközökön. Rendszer formáznod kell az eszközödet javításhoz.
+
+---
+
+## Egyéb hibaelhárítás
+
+### Home menu extdata törlése
+
+1. Kapcsold ki a készüléked
+1. Helyezd az SD kártyád a számítógépbe
+1. Navigálj a `/Nintendo 3DS/<ID0>/<ID1>/extdata/00000000/` könyvtárba az SD kártyádon
+1. Töröld a 3DS régiódhoz tartozó extdata fájlt:
+  + **EUR régió**: `00000098`
+  + **JPN régió**: `00000082`
+  + **USA régió**: `0000008f`
+  + **CHN régió**: `000000A1`
+  + **KOR régió**: `000000A9`
+  + **TWN régió**: `000000B1`
+1. Tedd vissza az SD kártyád a készülékedbe
+
+### Home menu téma adat törlése
+
+1. Kapcsold ki a készüléked
+1. Helyezd az SD kártyád a számítógépbe
+1. + Navigálj a következő mappába az SD kártyádon: `/Nintendo 3DS/<ID0>/<ID1>/extdata/00000000/` mappába
+2. Töröld a 3DS régiódhoz tartozó mappát:
+  + **EUR régió**: `000002ce`
+  + **JPN régió**: `000002cc`
+  + **USA régió**: `000002cd`
+1. Tedd vissza az SD kártyád a készülékedbe
