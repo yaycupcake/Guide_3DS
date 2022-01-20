@@ -2,52 +2,43 @@
 <rss version="2.0">
 	<channel>
 		<title>Plailect Guide Feed</title>
-		<lastBuildDate>Thu, 20 Jan 2022 07:04:58 +0000</lastBuildDate>
+		<lastBuildDate>Thu, 20 Jan 2022 09:30:51 +0000</lastBuildDate>
 		<link>https://github.com/Plailect/Guide_3DS/</link>
 		<item>
-			<title>11.15.0-47E_ctrtransfer_n3ds.zip</title>
-			<description>11.15.0-47E_ctrtransfer_n3ds.zip</description>
-			<guid>2A39586A0A10D1F0A9470B082EF1453E502B2425</guid>
-			<link>magnet:?xt=urn:btih:2A39586A0A10D1F0A9470B082EF1453E502B2425</link>
-			<pubDate>Thu, 20 Jan 2022 04:51:42 +0000</pubDate>
-			<contentLength>1059905633</contentLength>
-			<infoHash>2A39586A0A10D1F0A9470B082EF1453E502B2425</infoHash>
-			<magnetURI>magnet:?xt=urn:btih:2A39586A0A10D1F0A9470B082EF1453E502B2425</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:2A39586A0A10D1F0A9470B082EF1453E502B2425" type="application/x-bittorrent" />
+			<title>11.15.0-41K_ctrtransfer_n3ds.zip</title>
+			<description>11.15.0-41K_ctrtransfer_n3ds.zip</description>
+			<guid>E247B21E1F81F76ACF6D3140DA45DA858E76F1F6</guid>
+			<link>magnet:?xt=urn:btih:E247B21E1F81F76ACF6D3140DA45DA858E76F1F6</link>
+			<pubDate>Thu, 20 Jan 2022 08:46:24 +0000</pubDate>
+			<contentLength>1061172892</contentLength>
+			<infoHash>E247B21E1F81F76ACF6D3140DA45DA858E76F1F6</infoHash>
+			<magnetURI>magnet:?xt=urn:btih:E247B21E1F81F76ACF6D3140DA45DA858E76F1F6</magnetURI>
+			<enclosure url="magnet:?xt=urn:btih:E247B21E1F81F76ACF6D3140DA45DA858E76F1F6" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
-						udp://bt2.archive.org:6969/announce
-					</tracker>
-					<tracker>
-						udp://exodus.desync.com:6969/announce
-					</tracker>
-					<tracker>
-						udp://open.stealth.si:80/announce
-					</tracker>
-					<tracker>
-						udp://tracker.bitsearch.to:1337/announce
+						udp://open.tracker.cl:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker.opentrackr.org:1337/announce
 					</tracker>
 					<tracker>
-						udp://tracker.pomf.se:80/announce
+						udp://9.rarbg.com:2810/announce
 					</tracker>
 					<tracker>
-						udp://tracker.torrent.eu.org:451/announce
+						udp://exodus.desync.com:6969/announce
 					</tracker>
 					<tracker>
 						udp://www.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
-						udp://open.tracker.cl:1337/announce
-					</tracker>
-					<tracker>
-						udp://9.rarbg.com:2810/announce
+						udp://tracker.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
 						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.pomf.se:80/announce
 					</tracker>
 					<tracker>
 						udp://tracker.openbittorrent.com:6969/announce
@@ -57,6 +48,9 @@
 					</tracker>
 					<tracker>
 						udp://tracker.dler.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.bitsearch.to:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker-udp.gbitt.info:80/announce
@@ -71,10 +65,166 @@
 						udp://opentor.org:2710/announce
 					</tracker>
 					<tracker>
+						udp://open.stealth.si:80/announce
+					</tracker>
+					<tracker>
 						udp://mts.tvbit.co:6969/announce
 					</tracker>
 					<tracker>
 						udp://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://bt2.archive.org:6969/announce
+					</tracker>
+				</group>
+			</trackers>
+		</item>
+		<item>
+			<title>11.15.0-41K_ctrtransfer_o3ds.zip</title>
+			<description>11.15.0-41K_ctrtransfer_o3ds.zip</description>
+			<guid>90D6689106751B057616D32445442FC1B7370E38</guid>
+			<link>magnet:?xt=urn:btih:90D6689106751B057616D32445442FC1B7370E38</link>
+			<pubDate>Thu, 20 Jan 2022 08:39:09 +0000</pubDate>
+			<contentLength>739391989</contentLength>
+			<infoHash>90D6689106751B057616D32445442FC1B7370E38</infoHash>
+			<magnetURI>magnet:?xt=urn:btih:90D6689106751B057616D32445442FC1B7370E38</magnetURI>
+			<enclosure url="magnet:?xt=urn:btih:90D6689106751B057616D32445442FC1B7370E38" type="application/x-bittorrent" />
+			<trackers>
+				<group order="random">
+					<tracker>
+						udp://open.tracker.cl:1337/announce
+					</tracker>
+					<tracker>
+						udp://tracker.opentrackr.org:1337/announce
+					</tracker>
+					<tracker>
+						udp://9.rarbg.com:2810/announce
+					</tracker>
+					<tracker>
+						udp://exodus.desync.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://www.torrent.eu.org:451/announce
+					</tracker>
+					<tracker>
+						udp://tracker.torrent.eu.org:451/announce
+					</tracker>
+					<tracker>
+						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.pomf.se:80/announce
+					</tracker>
+					<tracker>
+						udp://tracker.openbittorrent.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.moeking.me:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.dler.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.bitsearch.to:1337/announce
+					</tracker>
+					<tracker>
+						udp://tracker-udp.gbitt.info:80/announce
+					</tracker>
+					<tracker>
+						udp://retracker.netbynet.ru:2710/announce
+					</tracker>
+					<tracker>
+						udp://retracker.lanta-net.ru:2710/announce
+					</tracker>
+					<tracker>
+						udp://opentor.org:2710/announce
+					</tracker>
+					<tracker>
+						udp://open.stealth.si:80/announce
+					</tracker>
+					<tracker>
+						udp://mts.tvbit.co:6969/announce
+					</tracker>
+					<tracker>
+						udp://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://bt2.archive.org:6969/announce
+					</tracker>
+				</group>
+			</trackers>
+		</item>
+		<item>
+			<title>11.15.0-47E_ctrtransfer_n3ds.zip</title>
+			<description>11.15.0-47E_ctrtransfer_n3ds.zip</description>
+			<guid>2A39586A0A10D1F0A9470B082EF1453E502B2425</guid>
+			<link>magnet:?xt=urn:btih:2A39586A0A10D1F0A9470B082EF1453E502B2425</link>
+			<pubDate>Thu, 20 Jan 2022 04:51:42 +0000</pubDate>
+			<contentLength>1059905633</contentLength>
+			<infoHash>2A39586A0A10D1F0A9470B082EF1453E502B2425</infoHash>
+			<magnetURI>magnet:?xt=urn:btih:2A39586A0A10D1F0A9470B082EF1453E502B2425</magnetURI>
+			<enclosure url="magnet:?xt=urn:btih:2A39586A0A10D1F0A9470B082EF1453E502B2425" type="application/x-bittorrent" />
+			<trackers>
+				<group order="random">
+					<tracker>
+						udp://open.tracker.cl:1337/announce
+					</tracker>
+					<tracker>
+						udp://tracker.opentrackr.org:1337/announce
+					</tracker>
+					<tracker>
+						udp://9.rarbg.com:2810/announce
+					</tracker>
+					<tracker>
+						udp://exodus.desync.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://www.torrent.eu.org:451/announce
+					</tracker>
+					<tracker>
+						udp://tracker.torrent.eu.org:451/announce
+					</tracker>
+					<tracker>
+						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.pomf.se:80/announce
+					</tracker>
+					<tracker>
+						udp://tracker.openbittorrent.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.moeking.me:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.dler.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.bitsearch.to:1337/announce
+					</tracker>
+					<tracker>
+						udp://tracker-udp.gbitt.info:80/announce
+					</tracker>
+					<tracker>
+						udp://retracker.netbynet.ru:2710/announce
+					</tracker>
+					<tracker>
+						udp://retracker.lanta-net.ru:2710/announce
+					</tracker>
+					<tracker>
+						udp://opentor.org:2710/announce
+					</tracker>
+					<tracker>
+						udp://open.stealth.si:80/announce
+					</tracker>
+					<tracker>
+						udp://mts.tvbit.co:6969/announce
+					</tracker>
+					<tracker>
+						udp://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://bt2.archive.org:6969/announce
 					</tracker>
 				</group>
 			</trackers>
@@ -92,37 +242,28 @@
 			<trackers>
 				<group order="random">
 					<tracker>
-						udp://bt2.archive.org:6969/announce
-					</tracker>
-					<tracker>
-						udp://exodus.desync.com:6969/announce
-					</tracker>
-					<tracker>
-						udp://open.stealth.si:80/announce
-					</tracker>
-					<tracker>
-						udp://tracker.bitsearch.to:1337/announce
+						udp://open.tracker.cl:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker.opentrackr.org:1337/announce
 					</tracker>
 					<tracker>
-						udp://tracker.pomf.se:80/announce
+						udp://9.rarbg.com:2810/announce
 					</tracker>
 					<tracker>
-						udp://tracker.torrent.eu.org:451/announce
+						udp://exodus.desync.com:6969/announce
 					</tracker>
 					<tracker>
 						udp://www.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
-						udp://open.tracker.cl:1337/announce
-					</tracker>
-					<tracker>
-						udp://9.rarbg.com:2810/announce
+						udp://tracker.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
 						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.pomf.se:80/announce
 					</tracker>
 					<tracker>
 						udp://tracker.openbittorrent.com:6969/announce
@@ -132,6 +273,9 @@
 					</tracker>
 					<tracker>
 						udp://tracker.dler.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.bitsearch.to:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker-udp.gbitt.info:80/announce
@@ -146,10 +290,16 @@
 						udp://opentor.org:2710/announce
 					</tracker>
 					<tracker>
+						udp://open.stealth.si:80/announce
+					</tracker>
+					<tracker>
 						udp://mts.tvbit.co:6969/announce
 					</tracker>
 					<tracker>
 						udp://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://bt2.archive.org:6969/announce
 					</tracker>
 				</group>
 			</trackers>
@@ -167,37 +317,28 @@
 			<trackers>
 				<group order="random">
 					<tracker>
-						udp://bt2.archive.org:6969/announce
-					</tracker>
-					<tracker>
-						udp://exodus.desync.com:6969/announce
-					</tracker>
-					<tracker>
-						udp://open.stealth.si:80/announce
-					</tracker>
-					<tracker>
-						udp://tracker.bitsearch.to:1337/announce
+						udp://open.tracker.cl:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker.opentrackr.org:1337/announce
 					</tracker>
 					<tracker>
-						udp://tracker.pomf.se:80/announce
+						udp://9.rarbg.com:2810/announce
 					</tracker>
 					<tracker>
-						udp://tracker.torrent.eu.org:451/announce
+						udp://exodus.desync.com:6969/announce
 					</tracker>
 					<tracker>
 						udp://www.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
-						udp://open.tracker.cl:1337/announce
-					</tracker>
-					<tracker>
-						udp://9.rarbg.com:2810/announce
+						udp://tracker.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
 						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.pomf.se:80/announce
 					</tracker>
 					<tracker>
 						udp://tracker.openbittorrent.com:6969/announce
@@ -207,6 +348,9 @@
 					</tracker>
 					<tracker>
 						udp://tracker.dler.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.bitsearch.to:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker-udp.gbitt.info:80/announce
@@ -221,10 +365,16 @@
 						udp://opentor.org:2710/announce
 					</tracker>
 					<tracker>
+						udp://open.stealth.si:80/announce
+					</tracker>
+					<tracker>
 						udp://mts.tvbit.co:6969/announce
 					</tracker>
 					<tracker>
 						udp://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://bt2.archive.org:6969/announce
 					</tracker>
 				</group>
 			</trackers>
@@ -242,37 +392,28 @@
 			<trackers>
 				<group order="random">
 					<tracker>
-						udp://bt2.archive.org:6969/announce
-					</tracker>
-					<tracker>
-						udp://exodus.desync.com:6969/announce
-					</tracker>
-					<tracker>
-						udp://open.stealth.si:80/announce
-					</tracker>
-					<tracker>
-						udp://tracker.bitsearch.to:1337/announce
+						udp://open.tracker.cl:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker.opentrackr.org:1337/announce
 					</tracker>
 					<tracker>
-						udp://tracker.pomf.se:80/announce
+						udp://9.rarbg.com:2810/announce
 					</tracker>
 					<tracker>
-						udp://tracker.torrent.eu.org:451/announce
+						udp://exodus.desync.com:6969/announce
 					</tracker>
 					<tracker>
 						udp://www.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
-						udp://open.tracker.cl:1337/announce
-					</tracker>
-					<tracker>
-						udp://9.rarbg.com:2810/announce
+						udp://tracker.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
 						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.pomf.se:80/announce
 					</tracker>
 					<tracker>
 						udp://tracker.openbittorrent.com:6969/announce
@@ -282,6 +423,9 @@
 					</tracker>
 					<tracker>
 						udp://tracker.dler.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.bitsearch.to:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker-udp.gbitt.info:80/announce
@@ -296,10 +440,16 @@
 						udp://opentor.org:2710/announce
 					</tracker>
 					<tracker>
+						udp://open.stealth.si:80/announce
+					</tracker>
+					<tracker>
 						udp://mts.tvbit.co:6969/announce
 					</tracker>
 					<tracker>
 						udp://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://bt2.archive.org:6969/announce
 					</tracker>
 				</group>
 			</trackers>
@@ -317,37 +467,28 @@
 			<trackers>
 				<group order="random">
 					<tracker>
-						udp://bt2.archive.org:6969/announce
-					</tracker>
-					<tracker>
-						udp://exodus.desync.com:6969/announce
-					</tracker>
-					<tracker>
-						udp://open.stealth.si:80/announce
-					</tracker>
-					<tracker>
-						udp://tracker.bitsearch.to:1337/announce
+						udp://open.tracker.cl:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker.opentrackr.org:1337/announce
 					</tracker>
 					<tracker>
-						udp://tracker.pomf.se:80/announce
+						udp://9.rarbg.com:2810/announce
 					</tracker>
 					<tracker>
-						udp://tracker.torrent.eu.org:451/announce
+						udp://exodus.desync.com:6969/announce
 					</tracker>
 					<tracker>
 						udp://www.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
-						udp://open.tracker.cl:1337/announce
-					</tracker>
-					<tracker>
-						udp://9.rarbg.com:2810/announce
+						udp://tracker.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
 						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.pomf.se:80/announce
 					</tracker>
 					<tracker>
 						udp://tracker.openbittorrent.com:6969/announce
@@ -357,6 +498,9 @@
 					</tracker>
 					<tracker>
 						udp://tracker.dler.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.bitsearch.to:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker-udp.gbitt.info:80/announce
@@ -371,10 +515,16 @@
 						udp://opentor.org:2710/announce
 					</tracker>
 					<tracker>
+						udp://open.stealth.si:80/announce
+					</tracker>
+					<tracker>
 						udp://mts.tvbit.co:6969/announce
 					</tracker>
 					<tracker>
 						udp://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://bt2.archive.org:6969/announce
 					</tracker>
 				</group>
 			</trackers>
@@ -392,37 +542,28 @@
 			<trackers>
 				<group order="random">
 					<tracker>
-						udp://bt2.archive.org:6969/announce
-					</tracker>
-					<tracker>
-						udp://exodus.desync.com:6969/announce
-					</tracker>
-					<tracker>
-						udp://open.stealth.si:80/announce
-					</tracker>
-					<tracker>
-						udp://tracker.bitsearch.to:1337/announce
+						udp://open.tracker.cl:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker.opentrackr.org:1337/announce
 					</tracker>
 					<tracker>
-						udp://tracker.pomf.se:80/announce
+						udp://9.rarbg.com:2810/announce
 					</tracker>
 					<tracker>
-						udp://tracker.torrent.eu.org:451/announce
+						udp://exodus.desync.com:6969/announce
 					</tracker>
 					<tracker>
 						udp://www.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
-						udp://open.tracker.cl:1337/announce
-					</tracker>
-					<tracker>
-						udp://9.rarbg.com:2810/announce
+						udp://tracker.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
 						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.pomf.se:80/announce
 					</tracker>
 					<tracker>
 						udp://tracker.openbittorrent.com:6969/announce
@@ -432,6 +573,9 @@
 					</tracker>
 					<tracker>
 						udp://tracker.dler.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.bitsearch.to:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker-udp.gbitt.info:80/announce
@@ -446,10 +590,91 @@
 						udp://opentor.org:2710/announce
 					</tracker>
 					<tracker>
+						udp://open.stealth.si:80/announce
+					</tracker>
+					<tracker>
 						udp://mts.tvbit.co:6969/announce
 					</tracker>
 					<tracker>
 						udp://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://bt2.archive.org:6969/announce
+					</tracker>
+				</group>
+			</trackers>
+		</item>
+		<item>
+			<title>11.15.0-4C_ctrtransfer_o3ds.zip</title>
+			<description>11.15.0-4C_ctrtransfer_o3ds.zip</description>
+			<guid>F71D2379E577DB22D7F14A656BCA7BF2EB5243F8</guid>
+			<link>magnet:?xt=urn:btih:F71D2379E577DB22D7F14A656BCA7BF2EB5243F8</link>
+			<pubDate>Thu, 20 Jan 2022 09:26:37 +0000</pubDate>
+			<contentLength>760714632</contentLength>
+			<infoHash>F71D2379E577DB22D7F14A656BCA7BF2EB5243F8</infoHash>
+			<magnetURI>magnet:?xt=urn:btih:F71D2379E577DB22D7F14A656BCA7BF2EB5243F8</magnetURI>
+			<enclosure url="magnet:?xt=urn:btih:F71D2379E577DB22D7F14A656BCA7BF2EB5243F8" type="application/x-bittorrent" />
+			<trackers>
+				<group order="random">
+					<tracker>
+						udp://open.tracker.cl:1337/announce
+					</tracker>
+					<tracker>
+						udp://tracker.opentrackr.org:1337/announce
+					</tracker>
+					<tracker>
+						udp://9.rarbg.com:2810/announce
+					</tracker>
+					<tracker>
+						udp://exodus.desync.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://www.torrent.eu.org:451/announce
+					</tracker>
+					<tracker>
+						udp://tracker.torrent.eu.org:451/announce
+					</tracker>
+					<tracker>
+						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.pomf.se:80/announce
+					</tracker>
+					<tracker>
+						udp://tracker.openbittorrent.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.moeking.me:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.dler.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.bitsearch.to:1337/announce
+					</tracker>
+					<tracker>
+						udp://tracker-udp.gbitt.info:80/announce
+					</tracker>
+					<tracker>
+						udp://retracker.netbynet.ru:2710/announce
+					</tracker>
+					<tracker>
+						udp://retracker.lanta-net.ru:2710/announce
+					</tracker>
+					<tracker>
+						udp://opentor.org:2710/announce
+					</tracker>
+					<tracker>
+						udp://open.stealth.si:80/announce
+					</tracker>
+					<tracker>
+						udp://mts.tvbit.co:6969/announce
+					</tracker>
+					<tracker>
+						udp://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://bt2.archive.org:6969/announce
 					</tracker>
 				</group>
 			</trackers>
@@ -467,37 +692,28 @@
 			<trackers>
 				<group order="random">
 					<tracker>
-						udp://bt2.archive.org:6969/announce
-					</tracker>
-					<tracker>
-						udp://exodus.desync.com:6969/announce
-					</tracker>
-					<tracker>
-						udp://open.stealth.si:80/announce
-					</tracker>
-					<tracker>
-						udp://tracker.bitsearch.to:1337/announce
+						udp://open.tracker.cl:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker.opentrackr.org:1337/announce
 					</tracker>
 					<tracker>
-						udp://tracker.pomf.se:80/announce
+						udp://9.rarbg.com:2810/announce
 					</tracker>
 					<tracker>
-						udp://tracker.torrent.eu.org:451/announce
+						udp://exodus.desync.com:6969/announce
 					</tracker>
 					<tracker>
 						udp://www.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
-						udp://open.tracker.cl:1337/announce
-					</tracker>
-					<tracker>
-						udp://9.rarbg.com:2810/announce
+						udp://tracker.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
 						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.pomf.se:80/announce
 					</tracker>
 					<tracker>
 						udp://tracker.openbittorrent.com:6969/announce
@@ -507,6 +723,9 @@
 					</tracker>
 					<tracker>
 						udp://tracker.dler.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.bitsearch.to:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker-udp.gbitt.info:80/announce
@@ -521,10 +740,16 @@
 						udp://opentor.org:2710/announce
 					</tracker>
 					<tracker>
+						udp://open.stealth.si:80/announce
+					</tracker>
+					<tracker>
 						udp://mts.tvbit.co:6969/announce
 					</tracker>
 					<tracker>
 						udp://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://bt2.archive.org:6969/announce
 					</tracker>
 				</group>
 			</trackers>
@@ -542,37 +767,28 @@
 			<trackers>
 				<group order="random">
 					<tracker>
-						udp://bt2.archive.org:6969/announce
-					</tracker>
-					<tracker>
-						udp://exodus.desync.com:6969/announce
-					</tracker>
-					<tracker>
-						udp://open.stealth.si:80/announce
-					</tracker>
-					<tracker>
-						udp://tracker.bitsearch.to:1337/announce
+						udp://open.tracker.cl:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker.opentrackr.org:1337/announce
 					</tracker>
 					<tracker>
-						udp://tracker.pomf.se:80/announce
+						udp://9.rarbg.com:2810/announce
 					</tracker>
 					<tracker>
-						udp://tracker.torrent.eu.org:451/announce
+						udp://exodus.desync.com:6969/announce
 					</tracker>
 					<tracker>
 						udp://www.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
-						udp://open.tracker.cl:1337/announce
-					</tracker>
-					<tracker>
-						udp://9.rarbg.com:2810/announce
+						udp://tracker.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
 						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.pomf.se:80/announce
 					</tracker>
 					<tracker>
 						udp://tracker.openbittorrent.com:6969/announce
@@ -582,6 +798,9 @@
 					</tracker>
 					<tracker>
 						udp://tracker.dler.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.bitsearch.to:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker-udp.gbitt.info:80/announce
@@ -596,10 +815,16 @@
 						udp://opentor.org:2710/announce
 					</tracker>
 					<tracker>
+						udp://open.stealth.si:80/announce
+					</tracker>
+					<tracker>
 						udp://mts.tvbit.co:6969/announce
 					</tracker>
 					<tracker>
 						udp://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://bt2.archive.org:6969/announce
 					</tracker>
 				</group>
 			</trackers>
@@ -617,37 +842,28 @@
 			<trackers>
 				<group order="random">
 					<tracker>
-						udp://bt2.archive.org:6969/announce
-					</tracker>
-					<tracker>
-						udp://exodus.desync.com:6969/announce
-					</tracker>
-					<tracker>
-						udp://open.stealth.si:80/announce
-					</tracker>
-					<tracker>
-						udp://tracker.bitsearch.to:1337/announce
+						udp://open.tracker.cl:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker.opentrackr.org:1337/announce
 					</tracker>
 					<tracker>
-						udp://tracker.pomf.se:80/announce
+						udp://9.rarbg.com:2810/announce
 					</tracker>
 					<tracker>
-						udp://tracker.torrent.eu.org:451/announce
+						udp://exodus.desync.com:6969/announce
 					</tracker>
 					<tracker>
 						udp://www.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
-						udp://open.tracker.cl:1337/announce
-					</tracker>
-					<tracker>
-						udp://9.rarbg.com:2810/announce
+						udp://tracker.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
 						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.pomf.se:80/announce
 					</tracker>
 					<tracker>
 						udp://tracker.openbittorrent.com:6969/announce
@@ -657,6 +873,9 @@
 					</tracker>
 					<tracker>
 						udp://tracker.dler.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.bitsearch.to:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker-udp.gbitt.info:80/announce
@@ -671,10 +890,16 @@
 						udp://opentor.org:2710/announce
 					</tracker>
 					<tracker>
+						udp://open.stealth.si:80/announce
+					</tracker>
+					<tracker>
 						udp://mts.tvbit.co:6969/announce
 					</tracker>
 					<tracker>
 						udp://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://bt2.archive.org:6969/announce
 					</tracker>
 				</group>
 			</trackers>
@@ -692,37 +917,28 @@
 			<trackers>
 				<group order="random">
 					<tracker>
-						udp://bt2.archive.org:6969/announce
-					</tracker>
-					<tracker>
-						udp://exodus.desync.com:6969/announce
-					</tracker>
-					<tracker>
-						udp://open.stealth.si:80/announce
-					</tracker>
-					<tracker>
-						udp://tracker.bitsearch.to:1337/announce
+						udp://open.tracker.cl:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker.opentrackr.org:1337/announce
 					</tracker>
 					<tracker>
-						udp://tracker.pomf.se:80/announce
+						udp://9.rarbg.com:2810/announce
 					</tracker>
 					<tracker>
-						udp://tracker.torrent.eu.org:451/announce
+						udp://exodus.desync.com:6969/announce
 					</tracker>
 					<tracker>
 						udp://www.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
-						udp://open.tracker.cl:1337/announce
-					</tracker>
-					<tracker>
-						udp://9.rarbg.com:2810/announce
+						udp://tracker.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
 						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.pomf.se:80/announce
 					</tracker>
 					<tracker>
 						udp://tracker.openbittorrent.com:6969/announce
@@ -732,6 +948,9 @@
 					</tracker>
 					<tracker>
 						udp://tracker.dler.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.bitsearch.to:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker-udp.gbitt.info:80/announce
@@ -746,10 +965,16 @@
 						udp://opentor.org:2710/announce
 					</tracker>
 					<tracker>
+						udp://open.stealth.si:80/announce
+					</tracker>
+					<tracker>
 						udp://mts.tvbit.co:6969/announce
 					</tracker>
 					<tracker>
 						udp://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://bt2.archive.org:6969/announce
 					</tracker>
 				</group>
 			</trackers>
@@ -767,37 +992,28 @@
 			<trackers>
 				<group order="random">
 					<tracker>
-						udp://bt2.archive.org:6969/announce
-					</tracker>
-					<tracker>
-						udp://exodus.desync.com:6969/announce
-					</tracker>
-					<tracker>
-						udp://open.stealth.si:80/announce
-					</tracker>
-					<tracker>
-						udp://tracker.bitsearch.to:1337/announce
+						udp://open.tracker.cl:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker.opentrackr.org:1337/announce
 					</tracker>
 					<tracker>
-						udp://tracker.pomf.se:80/announce
+						udp://9.rarbg.com:2810/announce
 					</tracker>
 					<tracker>
-						udp://tracker.torrent.eu.org:451/announce
+						udp://exodus.desync.com:6969/announce
 					</tracker>
 					<tracker>
 						udp://www.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
-						udp://open.tracker.cl:1337/announce
-					</tracker>
-					<tracker>
-						udp://9.rarbg.com:2810/announce
+						udp://tracker.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
 						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.pomf.se:80/announce
 					</tracker>
 					<tracker>
 						udp://tracker.openbittorrent.com:6969/announce
@@ -807,6 +1023,9 @@
 					</tracker>
 					<tracker>
 						udp://tracker.dler.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.bitsearch.to:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker-udp.gbitt.info:80/announce
@@ -821,10 +1040,16 @@
 						udp://opentor.org:2710/announce
 					</tracker>
 					<tracker>
+						udp://open.stealth.si:80/announce
+					</tracker>
+					<tracker>
 						udp://mts.tvbit.co:6969/announce
 					</tracker>
 					<tracker>
 						udp://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://bt2.archive.org:6969/announce
 					</tracker>
 				</group>
 			</trackers>
@@ -842,37 +1067,28 @@
 			<trackers>
 				<group order="random">
 					<tracker>
-						udp://bt2.archive.org:6969/announce
-					</tracker>
-					<tracker>
-						udp://exodus.desync.com:6969/announce
-					</tracker>
-					<tracker>
-						udp://open.stealth.si:80/announce
-					</tracker>
-					<tracker>
-						udp://tracker.bitsearch.to:1337/announce
+						udp://open.tracker.cl:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker.opentrackr.org:1337/announce
 					</tracker>
 					<tracker>
-						udp://tracker.pomf.se:80/announce
+						udp://9.rarbg.com:2810/announce
 					</tracker>
 					<tracker>
-						udp://tracker.torrent.eu.org:451/announce
+						udp://exodus.desync.com:6969/announce
 					</tracker>
 					<tracker>
 						udp://www.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
-						udp://open.tracker.cl:1337/announce
-					</tracker>
-					<tracker>
-						udp://9.rarbg.com:2810/announce
+						udp://tracker.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
 						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.pomf.se:80/announce
 					</tracker>
 					<tracker>
 						udp://tracker.openbittorrent.com:6969/announce
@@ -882,6 +1098,9 @@
 					</tracker>
 					<tracker>
 						udp://tracker.dler.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.bitsearch.to:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker-udp.gbitt.info:80/announce
@@ -896,10 +1115,16 @@
 						udp://opentor.org:2710/announce
 					</tracker>
 					<tracker>
+						udp://open.stealth.si:80/announce
+					</tracker>
+					<tracker>
 						udp://mts.tvbit.co:6969/announce
 					</tracker>
 					<tracker>
 						udp://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://bt2.archive.org:6969/announce
 					</tracker>
 				</group>
 			</trackers>
@@ -917,37 +1142,28 @@
 			<trackers>
 				<group order="random">
 					<tracker>
-						udp://bt2.archive.org:6969/announce
-					</tracker>
-					<tracker>
-						udp://exodus.desync.com:6969/announce
-					</tracker>
-					<tracker>
-						udp://open.stealth.si:80/announce
-					</tracker>
-					<tracker>
-						udp://tracker.bitsearch.to:1337/announce
+						udp://open.tracker.cl:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker.opentrackr.org:1337/announce
 					</tracker>
 					<tracker>
-						udp://tracker.pomf.se:80/announce
+						udp://9.rarbg.com:2810/announce
 					</tracker>
 					<tracker>
-						udp://tracker.torrent.eu.org:451/announce
+						udp://exodus.desync.com:6969/announce
 					</tracker>
 					<tracker>
 						udp://www.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
-						udp://open.tracker.cl:1337/announce
-					</tracker>
-					<tracker>
-						udp://9.rarbg.com:2810/announce
+						udp://tracker.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
 						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.pomf.se:80/announce
 					</tracker>
 					<tracker>
 						udp://tracker.openbittorrent.com:6969/announce
@@ -957,6 +1173,9 @@
 					</tracker>
 					<tracker>
 						udp://tracker.dler.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.bitsearch.to:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker-udp.gbitt.info:80/announce
@@ -971,10 +1190,16 @@
 						udp://opentor.org:2710/announce
 					</tracker>
 					<tracker>
+						udp://open.stealth.si:80/announce
+					</tracker>
+					<tracker>
 						udp://mts.tvbit.co:6969/announce
 					</tracker>
 					<tracker>
 						udp://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://bt2.archive.org:6969/announce
 					</tracker>
 				</group>
 			</trackers>
@@ -992,37 +1217,28 @@
 			<trackers>
 				<group order="random">
 					<tracker>
-						udp://bt2.archive.org:6969/announce
-					</tracker>
-					<tracker>
-						udp://exodus.desync.com:6969/announce
-					</tracker>
-					<tracker>
-						udp://open.stealth.si:80/announce
-					</tracker>
-					<tracker>
-						udp://tracker.bitsearch.to:1337/announce
+						udp://open.tracker.cl:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker.opentrackr.org:1337/announce
 					</tracker>
 					<tracker>
-						udp://tracker.pomf.se:80/announce
+						udp://9.rarbg.com:2810/announce
 					</tracker>
 					<tracker>
-						udp://tracker.torrent.eu.org:451/announce
+						udp://exodus.desync.com:6969/announce
 					</tracker>
 					<tracker>
 						udp://www.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
-						udp://open.tracker.cl:1337/announce
-					</tracker>
-					<tracker>
-						udp://9.rarbg.com:2810/announce
+						udp://tracker.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
 						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.pomf.se:80/announce
 					</tracker>
 					<tracker>
 						udp://tracker.openbittorrent.com:6969/announce
@@ -1032,6 +1248,9 @@
 					</tracker>
 					<tracker>
 						udp://tracker.dler.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.bitsearch.to:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker-udp.gbitt.info:80/announce
@@ -1046,10 +1265,16 @@
 						udp://opentor.org:2710/announce
 					</tracker>
 					<tracker>
+						udp://open.stealth.si:80/announce
+					</tracker>
+					<tracker>
 						udp://mts.tvbit.co:6969/announce
 					</tracker>
 					<tracker>
 						udp://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://bt2.archive.org:6969/announce
 					</tracker>
 				</group>
 			</trackers>
@@ -1067,37 +1292,28 @@
 			<trackers>
 				<group order="random">
 					<tracker>
-						udp://bt2.archive.org:6969/announce
-					</tracker>
-					<tracker>
-						udp://exodus.desync.com:6969/announce
-					</tracker>
-					<tracker>
-						udp://open.stealth.si:80/announce
-					</tracker>
-					<tracker>
-						udp://tracker.bitsearch.to:1337/announce
+						udp://open.tracker.cl:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker.opentrackr.org:1337/announce
 					</tracker>
 					<tracker>
-						udp://tracker.pomf.se:80/announce
+						udp://9.rarbg.com:2810/announce
 					</tracker>
 					<tracker>
-						udp://tracker.torrent.eu.org:451/announce
+						udp://exodus.desync.com:6969/announce
 					</tracker>
 					<tracker>
 						udp://www.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
-						udp://open.tracker.cl:1337/announce
-					</tracker>
-					<tracker>
-						udp://9.rarbg.com:2810/announce
+						udp://tracker.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
 						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.pomf.se:80/announce
 					</tracker>
 					<tracker>
 						udp://tracker.openbittorrent.com:6969/announce
@@ -1107,6 +1323,9 @@
 					</tracker>
 					<tracker>
 						udp://tracker.dler.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.bitsearch.to:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker-udp.gbitt.info:80/announce
@@ -1121,10 +1340,16 @@
 						udp://opentor.org:2710/announce
 					</tracker>
 					<tracker>
+						udp://open.stealth.si:80/announce
+					</tracker>
+					<tracker>
 						udp://mts.tvbit.co:6969/announce
 					</tracker>
 					<tracker>
 						udp://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://bt2.archive.org:6969/announce
 					</tracker>
 				</group>
 			</trackers>
@@ -1142,37 +1367,28 @@
 			<trackers>
 				<group order="random">
 					<tracker>
-						udp://bt2.archive.org:6969/announce
-					</tracker>
-					<tracker>
-						udp://exodus.desync.com:6969/announce
-					</tracker>
-					<tracker>
-						udp://open.stealth.si:80/announce
-					</tracker>
-					<tracker>
-						udp://tracker.bitsearch.to:1337/announce
+						udp://open.tracker.cl:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker.opentrackr.org:1337/announce
 					</tracker>
 					<tracker>
-						udp://tracker.pomf.se:80/announce
+						udp://9.rarbg.com:2810/announce
 					</tracker>
 					<tracker>
-						udp://tracker.torrent.eu.org:451/announce
+						udp://exodus.desync.com:6969/announce
 					</tracker>
 					<tracker>
 						udp://www.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
-						udp://open.tracker.cl:1337/announce
-					</tracker>
-					<tracker>
-						udp://9.rarbg.com:2810/announce
+						udp://tracker.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
 						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.pomf.se:80/announce
 					</tracker>
 					<tracker>
 						udp://tracker.openbittorrent.com:6969/announce
@@ -1182,6 +1398,9 @@
 					</tracker>
 					<tracker>
 						udp://tracker.dler.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.bitsearch.to:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker-udp.gbitt.info:80/announce
@@ -1196,10 +1415,16 @@
 						udp://opentor.org:2710/announce
 					</tracker>
 					<tracker>
+						udp://open.stealth.si:80/announce
+					</tracker>
+					<tracker>
 						udp://mts.tvbit.co:6969/announce
 					</tracker>
 					<tracker>
 						udp://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://bt2.archive.org:6969/announce
 					</tracker>
 				</group>
 			</trackers>
@@ -1217,37 +1442,28 @@
 			<trackers>
 				<group order="random">
 					<tracker>
-						udp://bt2.archive.org:6969/announce
-					</tracker>
-					<tracker>
-						udp://exodus.desync.com:6969/announce
-					</tracker>
-					<tracker>
-						udp://open.stealth.si:80/announce
-					</tracker>
-					<tracker>
-						udp://tracker.bitsearch.to:1337/announce
+						udp://open.tracker.cl:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker.opentrackr.org:1337/announce
 					</tracker>
 					<tracker>
-						udp://tracker.pomf.se:80/announce
+						udp://9.rarbg.com:2810/announce
 					</tracker>
 					<tracker>
-						udp://tracker.torrent.eu.org:451/announce
+						udp://exodus.desync.com:6969/announce
 					</tracker>
 					<tracker>
 						udp://www.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
-						udp://open.tracker.cl:1337/announce
-					</tracker>
-					<tracker>
-						udp://9.rarbg.com:2810/announce
+						udp://tracker.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
 						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.pomf.se:80/announce
 					</tracker>
 					<tracker>
 						udp://tracker.openbittorrent.com:6969/announce
@@ -1257,6 +1473,9 @@
 					</tracker>
 					<tracker>
 						udp://tracker.dler.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.bitsearch.to:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker-udp.gbitt.info:80/announce
@@ -1271,10 +1490,16 @@
 						udp://opentor.org:2710/announce
 					</tracker>
 					<tracker>
+						udp://open.stealth.si:80/announce
+					</tracker>
+					<tracker>
 						udp://mts.tvbit.co:6969/announce
 					</tracker>
 					<tracker>
 						udp://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://bt2.archive.org:6969/announce
 					</tracker>
 				</group>
 			</trackers>
@@ -1292,37 +1517,28 @@
 			<trackers>
 				<group order="random">
 					<tracker>
-						udp://bt2.archive.org:6969/announce
-					</tracker>
-					<tracker>
-						udp://exodus.desync.com:6969/announce
-					</tracker>
-					<tracker>
-						udp://open.stealth.si:80/announce
-					</tracker>
-					<tracker>
-						udp://tracker.bitsearch.to:1337/announce
+						udp://open.tracker.cl:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker.opentrackr.org:1337/announce
 					</tracker>
 					<tracker>
-						udp://tracker.pomf.se:80/announce
+						udp://9.rarbg.com:2810/announce
 					</tracker>
 					<tracker>
-						udp://tracker.torrent.eu.org:451/announce
+						udp://exodus.desync.com:6969/announce
 					</tracker>
 					<tracker>
 						udp://www.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
-						udp://open.tracker.cl:1337/announce
-					</tracker>
-					<tracker>
-						udp://9.rarbg.com:2810/announce
+						udp://tracker.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
 						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.pomf.se:80/announce
 					</tracker>
 					<tracker>
 						udp://tracker.openbittorrent.com:6969/announce
@@ -1332,6 +1548,9 @@
 					</tracker>
 					<tracker>
 						udp://tracker.dler.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.bitsearch.to:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker-udp.gbitt.info:80/announce
@@ -1346,10 +1565,16 @@
 						udp://opentor.org:2710/announce
 					</tracker>
 					<tracker>
+						udp://open.stealth.si:80/announce
+					</tracker>
+					<tracker>
 						udp://mts.tvbit.co:6969/announce
 					</tracker>
 					<tracker>
 						udp://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://bt2.archive.org:6969/announce
 					</tracker>
 				</group>
 			</trackers>
@@ -1367,37 +1592,28 @@
 			<trackers>
 				<group order="random">
 					<tracker>
-						udp://bt2.archive.org:6969/announce
-					</tracker>
-					<tracker>
-						udp://exodus.desync.com:6969/announce
-					</tracker>
-					<tracker>
-						udp://open.stealth.si:80/announce
-					</tracker>
-					<tracker>
-						udp://tracker.bitsearch.to:1337/announce
+						udp://open.tracker.cl:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker.opentrackr.org:1337/announce
 					</tracker>
 					<tracker>
-						udp://tracker.pomf.se:80/announce
+						udp://9.rarbg.com:2810/announce
 					</tracker>
 					<tracker>
-						udp://tracker.torrent.eu.org:451/announce
+						udp://exodus.desync.com:6969/announce
 					</tracker>
 					<tracker>
 						udp://www.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
-						udp://open.tracker.cl:1337/announce
-					</tracker>
-					<tracker>
-						udp://9.rarbg.com:2810/announce
+						udp://tracker.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
 						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.pomf.se:80/announce
 					</tracker>
 					<tracker>
 						udp://tracker.openbittorrent.com:6969/announce
@@ -1407,6 +1623,9 @@
 					</tracker>
 					<tracker>
 						udp://tracker.dler.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.bitsearch.to:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker-udp.gbitt.info:80/announce
@@ -1421,10 +1640,16 @@
 						udp://opentor.org:2710/announce
 					</tracker>
 					<tracker>
+						udp://open.stealth.si:80/announce
+					</tracker>
+					<tracker>
 						udp://mts.tvbit.co:6969/announce
 					</tracker>
 					<tracker>
 						udp://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://bt2.archive.org:6969/announce
 					</tracker>
 				</group>
 			</trackers>
@@ -1442,37 +1667,28 @@
 			<trackers>
 				<group order="random">
 					<tracker>
-						udp://bt2.archive.org:6969/announce
-					</tracker>
-					<tracker>
-						udp://exodus.desync.com:6969/announce
-					</tracker>
-					<tracker>
-						udp://open.stealth.si:80/announce
-					</tracker>
-					<tracker>
-						udp://tracker.bitsearch.to:1337/announce
+						udp://open.tracker.cl:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker.opentrackr.org:1337/announce
 					</tracker>
 					<tracker>
-						udp://tracker.pomf.se:80/announce
+						udp://9.rarbg.com:2810/announce
 					</tracker>
 					<tracker>
-						udp://tracker.torrent.eu.org:451/announce
+						udp://exodus.desync.com:6969/announce
 					</tracker>
 					<tracker>
 						udp://www.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
-						udp://open.tracker.cl:1337/announce
-					</tracker>
-					<tracker>
-						udp://9.rarbg.com:2810/announce
+						udp://tracker.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
 						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.pomf.se:80/announce
 					</tracker>
 					<tracker>
 						udp://tracker.openbittorrent.com:6969/announce
@@ -1482,6 +1698,9 @@
 					</tracker>
 					<tracker>
 						udp://tracker.dler.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.bitsearch.to:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker-udp.gbitt.info:80/announce
@@ -1496,10 +1715,16 @@
 						udp://opentor.org:2710/announce
 					</tracker>
 					<tracker>
+						udp://open.stealth.si:80/announce
+					</tracker>
+					<tracker>
 						udp://mts.tvbit.co:6969/announce
 					</tracker>
 					<tracker>
 						udp://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://bt2.archive.org:6969/announce
 					</tracker>
 				</group>
 			</trackers>
@@ -1517,37 +1742,28 @@
 			<trackers>
 				<group order="random">
 					<tracker>
-						udp://bt2.archive.org:6969/announce
-					</tracker>
-					<tracker>
-						udp://exodus.desync.com:6969/announce
-					</tracker>
-					<tracker>
-						udp://open.stealth.si:80/announce
-					</tracker>
-					<tracker>
-						udp://tracker.bitsearch.to:1337/announce
+						udp://open.tracker.cl:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker.opentrackr.org:1337/announce
 					</tracker>
 					<tracker>
-						udp://tracker.pomf.se:80/announce
+						udp://9.rarbg.com:2810/announce
 					</tracker>
 					<tracker>
-						udp://tracker.torrent.eu.org:451/announce
+						udp://exodus.desync.com:6969/announce
 					</tracker>
 					<tracker>
 						udp://www.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
-						udp://open.tracker.cl:1337/announce
-					</tracker>
-					<tracker>
-						udp://9.rarbg.com:2810/announce
+						udp://tracker.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
 						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.pomf.se:80/announce
 					</tracker>
 					<tracker>
 						udp://tracker.openbittorrent.com:6969/announce
@@ -1557,6 +1773,9 @@
 					</tracker>
 					<tracker>
 						udp://tracker.dler.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.bitsearch.to:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker-udp.gbitt.info:80/announce
@@ -1571,10 +1790,166 @@
 						udp://opentor.org:2710/announce
 					</tracker>
 					<tracker>
+						udp://open.stealth.si:80/announce
+					</tracker>
+					<tracker>
 						udp://mts.tvbit.co:6969/announce
 					</tracker>
 					<tracker>
 						udp://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://bt2.archive.org:6969/announce
+					</tracker>
+				</group>
+			</trackers>
+		</item>
+		<item>
+			<title>2.45-5_8.1_NEW.firm</title>
+			<description>2.45-5_8.1_NEW.firm</description>
+			<guid>BAB35D663D1316E037985B002BECD47F187F0F31</guid>
+			<link>magnet:?xt=urn:btih:BAB35D663D1316E037985B002BECD47F187F0F31</link>
+			<pubDate>Thu, 20 Jan 2022 08:14:52 +0000</pubDate>
+			<contentLength>995328</contentLength>
+			<infoHash>BAB35D663D1316E037985B002BECD47F187F0F31</infoHash>
+			<magnetURI>magnet:?xt=urn:btih:BAB35D663D1316E037985B002BECD47F187F0F31</magnetURI>
+			<enclosure url="magnet:?xt=urn:btih:BAB35D663D1316E037985B002BECD47F187F0F31" type="application/x-bittorrent" />
+			<trackers>
+				<group order="random">
+					<tracker>
+						udp://open.tracker.cl:1337/announce
+					</tracker>
+					<tracker>
+						udp://tracker.opentrackr.org:1337/announce
+					</tracker>
+					<tracker>
+						udp://9.rarbg.com:2810/announce
+					</tracker>
+					<tracker>
+						udp://exodus.desync.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://www.torrent.eu.org:451/announce
+					</tracker>
+					<tracker>
+						udp://tracker.torrent.eu.org:451/announce
+					</tracker>
+					<tracker>
+						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.pomf.se:80/announce
+					</tracker>
+					<tracker>
+						udp://tracker.openbittorrent.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.moeking.me:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.dler.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.bitsearch.to:1337/announce
+					</tracker>
+					<tracker>
+						udp://tracker-udp.gbitt.info:80/announce
+					</tracker>
+					<tracker>
+						udp://retracker.netbynet.ru:2710/announce
+					</tracker>
+					<tracker>
+						udp://retracker.lanta-net.ru:2710/announce
+					</tracker>
+					<tracker>
+						udp://opentor.org:2710/announce
+					</tracker>
+					<tracker>
+						udp://open.stealth.si:80/announce
+					</tracker>
+					<tracker>
+						udp://mts.tvbit.co:6969/announce
+					</tracker>
+					<tracker>
+						udp://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://bt2.archive.org:6969/announce
+					</tracker>
+				</group>
+			</trackers>
+		</item>
+		<item>
+			<title>2.46-0_9.0_NEW.firm</title>
+			<description>2.46-0_9.0_NEW.firm</description>
+			<guid>62089EDA709232A20C03C73064F18714E19476B6</guid>
+			<link>magnet:?xt=urn:btih:62089EDA709232A20C03C73064F18714E19476B6</link>
+			<pubDate>Thu, 20 Jan 2022 08:14:52 +0000</pubDate>
+			<contentLength>991232</contentLength>
+			<infoHash>62089EDA709232A20C03C73064F18714E19476B6</infoHash>
+			<magnetURI>magnet:?xt=urn:btih:62089EDA709232A20C03C73064F18714E19476B6</magnetURI>
+			<enclosure url="magnet:?xt=urn:btih:62089EDA709232A20C03C73064F18714E19476B6" type="application/x-bittorrent" />
+			<trackers>
+				<group order="random">
+					<tracker>
+						udp://open.tracker.cl:1337/announce
+					</tracker>
+					<tracker>
+						udp://tracker.opentrackr.org:1337/announce
+					</tracker>
+					<tracker>
+						udp://9.rarbg.com:2810/announce
+					</tracker>
+					<tracker>
+						udp://exodus.desync.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://www.torrent.eu.org:451/announce
+					</tracker>
+					<tracker>
+						udp://tracker.torrent.eu.org:451/announce
+					</tracker>
+					<tracker>
+						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.pomf.se:80/announce
+					</tracker>
+					<tracker>
+						udp://tracker.openbittorrent.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.moeking.me:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.dler.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.bitsearch.to:1337/announce
+					</tracker>
+					<tracker>
+						udp://tracker-udp.gbitt.info:80/announce
+					</tracker>
+					<tracker>
+						udp://retracker.netbynet.ru:2710/announce
+					</tracker>
+					<tracker>
+						udp://retracker.lanta-net.ru:2710/announce
+					</tracker>
+					<tracker>
+						udp://opentor.org:2710/announce
+					</tracker>
+					<tracker>
+						udp://open.stealth.si:80/announce
+					</tracker>
+					<tracker>
+						udp://mts.tvbit.co:6969/announce
+					</tracker>
+					<tracker>
+						udp://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://bt2.archive.org:6969/announce
 					</tracker>
 				</group>
 			</trackers>
@@ -1592,37 +1967,28 @@
 			<trackers>
 				<group order="random">
 					<tracker>
-						udp://bt2.archive.org:6969/announce
-					</tracker>
-					<tracker>
-						udp://exodus.desync.com:6969/announce
-					</tracker>
-					<tracker>
-						udp://open.stealth.si:80/announce
-					</tracker>
-					<tracker>
-						udp://tracker.bitsearch.to:1337/announce
+						udp://open.tracker.cl:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker.opentrackr.org:1337/announce
 					</tracker>
 					<tracker>
-						udp://tracker.pomf.se:80/announce
+						udp://9.rarbg.com:2810/announce
 					</tracker>
 					<tracker>
-						udp://tracker.torrent.eu.org:451/announce
+						udp://exodus.desync.com:6969/announce
 					</tracker>
 					<tracker>
 						udp://www.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
-						udp://open.tracker.cl:1337/announce
-					</tracker>
-					<tracker>
-						udp://9.rarbg.com:2810/announce
+						udp://tracker.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
 						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.pomf.se:80/announce
 					</tracker>
 					<tracker>
 						udp://tracker.openbittorrent.com:6969/announce
@@ -1632,6 +1998,9 @@
 					</tracker>
 					<tracker>
 						udp://tracker.dler.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.bitsearch.to:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker-udp.gbitt.info:80/announce
@@ -1646,10 +2015,91 @@
 						udp://opentor.org:2710/announce
 					</tracker>
 					<tracker>
+						udp://open.stealth.si:80/announce
+					</tracker>
+					<tracker>
 						udp://mts.tvbit.co:6969/announce
 					</tracker>
 					<tracker>
 						udp://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://bt2.archive.org:6969/announce
+					</tracker>
+				</group>
+			</trackers>
+		</item>
+		<item>
+			<title>2.48-3_9.3_NEW.firm</title>
+			<description>2.48-3_9.3_NEW.firm</description>
+			<guid>778878E336C61F079D7B146C1AFC08289A18357E</guid>
+			<link>magnet:?xt=urn:btih:778878E336C61F079D7B146C1AFC08289A18357E</link>
+			<pubDate>Thu, 20 Jan 2022 08:14:52 +0000</pubDate>
+			<contentLength>987136</contentLength>
+			<infoHash>778878E336C61F079D7B146C1AFC08289A18357E</infoHash>
+			<magnetURI>magnet:?xt=urn:btih:778878E336C61F079D7B146C1AFC08289A18357E</magnetURI>
+			<enclosure url="magnet:?xt=urn:btih:778878E336C61F079D7B146C1AFC08289A18357E" type="application/x-bittorrent" />
+			<trackers>
+				<group order="random">
+					<tracker>
+						udp://open.tracker.cl:1337/announce
+					</tracker>
+					<tracker>
+						udp://tracker.opentrackr.org:1337/announce
+					</tracker>
+					<tracker>
+						udp://9.rarbg.com:2810/announce
+					</tracker>
+					<tracker>
+						udp://exodus.desync.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://www.torrent.eu.org:451/announce
+					</tracker>
+					<tracker>
+						udp://tracker.torrent.eu.org:451/announce
+					</tracker>
+					<tracker>
+						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.pomf.se:80/announce
+					</tracker>
+					<tracker>
+						udp://tracker.openbittorrent.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.moeking.me:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.dler.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.bitsearch.to:1337/announce
+					</tracker>
+					<tracker>
+						udp://tracker-udp.gbitt.info:80/announce
+					</tracker>
+					<tracker>
+						udp://retracker.netbynet.ru:2710/announce
+					</tracker>
+					<tracker>
+						udp://retracker.lanta-net.ru:2710/announce
+					</tracker>
+					<tracker>
+						udp://opentor.org:2710/announce
+					</tracker>
+					<tracker>
+						udp://open.stealth.si:80/announce
+					</tracker>
+					<tracker>
+						udp://mts.tvbit.co:6969/announce
+					</tracker>
+					<tracker>
+						udp://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://bt2.archive.org:6969/announce
 					</tracker>
 				</group>
 			</trackers>
@@ -1667,37 +2117,28 @@
 			<trackers>
 				<group order="random">
 					<tracker>
-						udp://bt2.archive.org:6969/announce
-					</tracker>
-					<tracker>
-						udp://exodus.desync.com:6969/announce
-					</tracker>
-					<tracker>
-						udp://open.stealth.si:80/announce
-					</tracker>
-					<tracker>
-						udp://tracker.bitsearch.to:1337/announce
+						udp://open.tracker.cl:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker.opentrackr.org:1337/announce
 					</tracker>
 					<tracker>
-						udp://tracker.pomf.se:80/announce
+						udp://9.rarbg.com:2810/announce
 					</tracker>
 					<tracker>
-						udp://tracker.torrent.eu.org:451/announce
+						udp://exodus.desync.com:6969/announce
 					</tracker>
 					<tracker>
 						udp://www.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
-						udp://open.tracker.cl:1337/announce
-					</tracker>
-					<tracker>
-						udp://9.rarbg.com:2810/announce
+						udp://tracker.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
 						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.pomf.se:80/announce
 					</tracker>
 					<tracker>
 						udp://tracker.openbittorrent.com:6969/announce
@@ -1707,6 +2148,9 @@
 					</tracker>
 					<tracker>
 						udp://tracker.dler.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.bitsearch.to:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker-udp.gbitt.info:80/announce
@@ -1721,10 +2165,91 @@
 						udp://opentor.org:2710/announce
 					</tracker>
 					<tracker>
+						udp://open.stealth.si:80/announce
+					</tracker>
+					<tracker>
 						udp://mts.tvbit.co:6969/announce
 					</tracker>
 					<tracker>
 						udp://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://bt2.archive.org:6969/announce
+					</tracker>
+				</group>
+			</trackers>
+		</item>
+		<item>
+			<title>2.49-0_9.5_NEW.firm</title>
+			<description>2.49-0_9.5_NEW.firm</description>
+			<guid>626D4BE82D7CD1A0684AE56F54740DBE5061BC58</guid>
+			<link>magnet:?xt=urn:btih:626D4BE82D7CD1A0684AE56F54740DBE5061BC58</link>
+			<pubDate>Thu, 20 Jan 2022 08:14:52 +0000</pubDate>
+			<contentLength>987136</contentLength>
+			<infoHash>626D4BE82D7CD1A0684AE56F54740DBE5061BC58</infoHash>
+			<magnetURI>magnet:?xt=urn:btih:626D4BE82D7CD1A0684AE56F54740DBE5061BC58</magnetURI>
+			<enclosure url="magnet:?xt=urn:btih:626D4BE82D7CD1A0684AE56F54740DBE5061BC58" type="application/x-bittorrent" />
+			<trackers>
+				<group order="random">
+					<tracker>
+						udp://open.tracker.cl:1337/announce
+					</tracker>
+					<tracker>
+						udp://tracker.opentrackr.org:1337/announce
+					</tracker>
+					<tracker>
+						udp://9.rarbg.com:2810/announce
+					</tracker>
+					<tracker>
+						udp://exodus.desync.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://www.torrent.eu.org:451/announce
+					</tracker>
+					<tracker>
+						udp://tracker.torrent.eu.org:451/announce
+					</tracker>
+					<tracker>
+						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.pomf.se:80/announce
+					</tracker>
+					<tracker>
+						udp://tracker.openbittorrent.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.moeking.me:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.dler.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.bitsearch.to:1337/announce
+					</tracker>
+					<tracker>
+						udp://tracker-udp.gbitt.info:80/announce
+					</tracker>
+					<tracker>
+						udp://retracker.netbynet.ru:2710/announce
+					</tracker>
+					<tracker>
+						udp://retracker.lanta-net.ru:2710/announce
+					</tracker>
+					<tracker>
+						udp://opentor.org:2710/announce
+					</tracker>
+					<tracker>
+						udp://open.stealth.si:80/announce
+					</tracker>
+					<tracker>
+						udp://mts.tvbit.co:6969/announce
+					</tracker>
+					<tracker>
+						udp://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://bt2.archive.org:6969/announce
 					</tracker>
 				</group>
 			</trackers>
@@ -1742,37 +2267,28 @@
 			<trackers>
 				<group order="random">
 					<tracker>
-						udp://bt2.archive.org:6969/announce
-					</tracker>
-					<tracker>
-						udp://exodus.desync.com:6969/announce
-					</tracker>
-					<tracker>
-						udp://open.stealth.si:80/announce
-					</tracker>
-					<tracker>
-						udp://tracker.bitsearch.to:1337/announce
+						udp://open.tracker.cl:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker.opentrackr.org:1337/announce
 					</tracker>
 					<tracker>
-						udp://tracker.pomf.se:80/announce
+						udp://9.rarbg.com:2810/announce
 					</tracker>
 					<tracker>
-						udp://tracker.torrent.eu.org:451/announce
+						udp://exodus.desync.com:6969/announce
 					</tracker>
 					<tracker>
 						udp://www.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
-						udp://open.tracker.cl:1337/announce
-					</tracker>
-					<tracker>
-						udp://9.rarbg.com:2810/announce
+						udp://tracker.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
 						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.pomf.se:80/announce
 					</tracker>
 					<tracker>
 						udp://tracker.openbittorrent.com:6969/announce
@@ -1782,6 +2298,9 @@
 					</tracker>
 					<tracker>
 						udp://tracker.dler.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.bitsearch.to:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker-udp.gbitt.info:80/announce
@@ -1796,10 +2315,91 @@
 						udp://opentor.org:2710/announce
 					</tracker>
 					<tracker>
+						udp://open.stealth.si:80/announce
+					</tracker>
+					<tracker>
 						udp://mts.tvbit.co:6969/announce
 					</tracker>
 					<tracker>
 						udp://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://bt2.archive.org:6969/announce
+					</tracker>
+				</group>
+			</trackers>
+		</item>
+		<item>
+			<title>2.50-11_10.4_NEW.firm</title>
+			<description>2.50-11_10.4_NEW.firm</description>
+			<guid>8F6522179498E3E23C811155C247C1BF58C5C430</guid>
+			<link>magnet:?xt=urn:btih:8F6522179498E3E23C811155C247C1BF58C5C430</link>
+			<pubDate>Thu, 20 Jan 2022 08:14:52 +0000</pubDate>
+			<contentLength>991232</contentLength>
+			<infoHash>8F6522179498E3E23C811155C247C1BF58C5C430</infoHash>
+			<magnetURI>magnet:?xt=urn:btih:8F6522179498E3E23C811155C247C1BF58C5C430</magnetURI>
+			<enclosure url="magnet:?xt=urn:btih:8F6522179498E3E23C811155C247C1BF58C5C430" type="application/x-bittorrent" />
+			<trackers>
+				<group order="random">
+					<tracker>
+						udp://open.tracker.cl:1337/announce
+					</tracker>
+					<tracker>
+						udp://tracker.opentrackr.org:1337/announce
+					</tracker>
+					<tracker>
+						udp://9.rarbg.com:2810/announce
+					</tracker>
+					<tracker>
+						udp://exodus.desync.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://www.torrent.eu.org:451/announce
+					</tracker>
+					<tracker>
+						udp://tracker.torrent.eu.org:451/announce
+					</tracker>
+					<tracker>
+						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.pomf.se:80/announce
+					</tracker>
+					<tracker>
+						udp://tracker.openbittorrent.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.moeking.me:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.dler.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.bitsearch.to:1337/announce
+					</tracker>
+					<tracker>
+						udp://tracker-udp.gbitt.info:80/announce
+					</tracker>
+					<tracker>
+						udp://retracker.netbynet.ru:2710/announce
+					</tracker>
+					<tracker>
+						udp://retracker.lanta-net.ru:2710/announce
+					</tracker>
+					<tracker>
+						udp://opentor.org:2710/announce
+					</tracker>
+					<tracker>
+						udp://open.stealth.si:80/announce
+					</tracker>
+					<tracker>
+						udp://mts.tvbit.co:6969/announce
+					</tracker>
+					<tracker>
+						udp://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://bt2.archive.org:6969/announce
 					</tracker>
 				</group>
 			</trackers>
@@ -1817,37 +2417,28 @@
 			<trackers>
 				<group order="random">
 					<tracker>
-						udp://bt2.archive.org:6969/announce
-					</tracker>
-					<tracker>
-						udp://exodus.desync.com:6969/announce
-					</tracker>
-					<tracker>
-						udp://open.stealth.si:80/announce
-					</tracker>
-					<tracker>
-						udp://tracker.bitsearch.to:1337/announce
+						udp://open.tracker.cl:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker.opentrackr.org:1337/announce
 					</tracker>
 					<tracker>
-						udp://tracker.pomf.se:80/announce
+						udp://9.rarbg.com:2810/announce
 					</tracker>
 					<tracker>
-						udp://tracker.torrent.eu.org:451/announce
+						udp://exodus.desync.com:6969/announce
 					</tracker>
 					<tracker>
 						udp://www.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
-						udp://open.tracker.cl:1337/announce
-					</tracker>
-					<tracker>
-						udp://9.rarbg.com:2810/announce
+						udp://tracker.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
 						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.pomf.se:80/announce
 					</tracker>
 					<tracker>
 						udp://tracker.openbittorrent.com:6969/announce
@@ -1857,6 +2448,9 @@
 					</tracker>
 					<tracker>
 						udp://tracker.dler.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.bitsearch.to:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker-udp.gbitt.info:80/announce
@@ -1871,10 +2465,91 @@
 						udp://opentor.org:2710/announce
 					</tracker>
 					<tracker>
+						udp://open.stealth.si:80/announce
+					</tracker>
+					<tracker>
 						udp://mts.tvbit.co:6969/announce
 					</tracker>
 					<tracker>
 						udp://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://bt2.archive.org:6969/announce
+					</tracker>
+				</group>
+			</trackers>
+		</item>
+		<item>
+			<title>2.50-1_9.6_NEW.firm</title>
+			<description>2.50-1_9.6_NEW.firm</description>
+			<guid>D6C28DBE1217A711F2214821804668CE7E131295</guid>
+			<link>magnet:?xt=urn:btih:D6C28DBE1217A711F2214821804668CE7E131295</link>
+			<pubDate>Thu, 20 Jan 2022 08:14:52 +0000</pubDate>
+			<contentLength>995328</contentLength>
+			<infoHash>D6C28DBE1217A711F2214821804668CE7E131295</infoHash>
+			<magnetURI>magnet:?xt=urn:btih:D6C28DBE1217A711F2214821804668CE7E131295</magnetURI>
+			<enclosure url="magnet:?xt=urn:btih:D6C28DBE1217A711F2214821804668CE7E131295" type="application/x-bittorrent" />
+			<trackers>
+				<group order="random">
+					<tracker>
+						udp://open.tracker.cl:1337/announce
+					</tracker>
+					<tracker>
+						udp://tracker.opentrackr.org:1337/announce
+					</tracker>
+					<tracker>
+						udp://9.rarbg.com:2810/announce
+					</tracker>
+					<tracker>
+						udp://exodus.desync.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://www.torrent.eu.org:451/announce
+					</tracker>
+					<tracker>
+						udp://tracker.torrent.eu.org:451/announce
+					</tracker>
+					<tracker>
+						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.pomf.se:80/announce
+					</tracker>
+					<tracker>
+						udp://tracker.openbittorrent.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.moeking.me:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.dler.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.bitsearch.to:1337/announce
+					</tracker>
+					<tracker>
+						udp://tracker-udp.gbitt.info:80/announce
+					</tracker>
+					<tracker>
+						udp://retracker.netbynet.ru:2710/announce
+					</tracker>
+					<tracker>
+						udp://retracker.lanta-net.ru:2710/announce
+					</tracker>
+					<tracker>
+						udp://opentor.org:2710/announce
+					</tracker>
+					<tracker>
+						udp://open.stealth.si:80/announce
+					</tracker>
+					<tracker>
+						udp://mts.tvbit.co:6969/announce
+					</tracker>
+					<tracker>
+						udp://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://bt2.archive.org:6969/announce
 					</tracker>
 				</group>
 			</trackers>
@@ -1892,37 +2567,28 @@
 			<trackers>
 				<group order="random">
 					<tracker>
-						udp://bt2.archive.org:6969/announce
-					</tracker>
-					<tracker>
-						udp://exodus.desync.com:6969/announce
-					</tracker>
-					<tracker>
-						udp://open.stealth.si:80/announce
-					</tracker>
-					<tracker>
-						udp://tracker.bitsearch.to:1337/announce
+						udp://open.tracker.cl:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker.opentrackr.org:1337/announce
 					</tracker>
 					<tracker>
-						udp://tracker.pomf.se:80/announce
+						udp://9.rarbg.com:2810/announce
 					</tracker>
 					<tracker>
-						udp://tracker.torrent.eu.org:451/announce
+						udp://exodus.desync.com:6969/announce
 					</tracker>
 					<tracker>
 						udp://www.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
-						udp://open.tracker.cl:1337/announce
-					</tracker>
-					<tracker>
-						udp://9.rarbg.com:2810/announce
+						udp://tracker.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
 						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.pomf.se:80/announce
 					</tracker>
 					<tracker>
 						udp://tracker.openbittorrent.com:6969/announce
@@ -1932,6 +2598,9 @@
 					</tracker>
 					<tracker>
 						udp://tracker.dler.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.bitsearch.to:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker-udp.gbitt.info:80/announce
@@ -1946,10 +2615,91 @@
 						udp://opentor.org:2710/announce
 					</tracker>
 					<tracker>
+						udp://open.stealth.si:80/announce
+					</tracker>
+					<tracker>
 						udp://mts.tvbit.co:6969/announce
 					</tracker>
 					<tracker>
 						udp://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://bt2.archive.org:6969/announce
+					</tracker>
+				</group>
+			</trackers>
+		</item>
+		<item>
+			<title>2.50-7_10.0_NEW.firm</title>
+			<description>2.50-7_10.0_NEW.firm</description>
+			<guid>A603569254EBD6E6AE4DE447458144BDA97281C2</guid>
+			<link>magnet:?xt=urn:btih:A603569254EBD6E6AE4DE447458144BDA97281C2</link>
+			<pubDate>Thu, 20 Jan 2022 08:14:52 +0000</pubDate>
+			<contentLength>991232</contentLength>
+			<infoHash>A603569254EBD6E6AE4DE447458144BDA97281C2</infoHash>
+			<magnetURI>magnet:?xt=urn:btih:A603569254EBD6E6AE4DE447458144BDA97281C2</magnetURI>
+			<enclosure url="magnet:?xt=urn:btih:A603569254EBD6E6AE4DE447458144BDA97281C2" type="application/x-bittorrent" />
+			<trackers>
+				<group order="random">
+					<tracker>
+						udp://open.tracker.cl:1337/announce
+					</tracker>
+					<tracker>
+						udp://tracker.opentrackr.org:1337/announce
+					</tracker>
+					<tracker>
+						udp://9.rarbg.com:2810/announce
+					</tracker>
+					<tracker>
+						udp://exodus.desync.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://www.torrent.eu.org:451/announce
+					</tracker>
+					<tracker>
+						udp://tracker.torrent.eu.org:451/announce
+					</tracker>
+					<tracker>
+						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.pomf.se:80/announce
+					</tracker>
+					<tracker>
+						udp://tracker.openbittorrent.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.moeking.me:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.dler.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.bitsearch.to:1337/announce
+					</tracker>
+					<tracker>
+						udp://tracker-udp.gbitt.info:80/announce
+					</tracker>
+					<tracker>
+						udp://retracker.netbynet.ru:2710/announce
+					</tracker>
+					<tracker>
+						udp://retracker.lanta-net.ru:2710/announce
+					</tracker>
+					<tracker>
+						udp://opentor.org:2710/announce
+					</tracker>
+					<tracker>
+						udp://open.stealth.si:80/announce
+					</tracker>
+					<tracker>
+						udp://mts.tvbit.co:6969/announce
+					</tracker>
+					<tracker>
+						udp://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://bt2.archive.org:6969/announce
 					</tracker>
 				</group>
 			</trackers>
@@ -1967,37 +2717,28 @@
 			<trackers>
 				<group order="random">
 					<tracker>
-						udp://bt2.archive.org:6969/announce
-					</tracker>
-					<tracker>
-						udp://exodus.desync.com:6969/announce
-					</tracker>
-					<tracker>
-						udp://open.stealth.si:80/announce
-					</tracker>
-					<tracker>
-						udp://tracker.bitsearch.to:1337/announce
+						udp://open.tracker.cl:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker.opentrackr.org:1337/announce
 					</tracker>
 					<tracker>
-						udp://tracker.pomf.se:80/announce
+						udp://9.rarbg.com:2810/announce
 					</tracker>
 					<tracker>
-						udp://tracker.torrent.eu.org:451/announce
+						udp://exodus.desync.com:6969/announce
 					</tracker>
 					<tracker>
 						udp://www.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
-						udp://open.tracker.cl:1337/announce
-					</tracker>
-					<tracker>
-						udp://9.rarbg.com:2810/announce
+						udp://tracker.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
 						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.pomf.se:80/announce
 					</tracker>
 					<tracker>
 						udp://tracker.openbittorrent.com:6969/announce
@@ -2007,6 +2748,9 @@
 					</tracker>
 					<tracker>
 						udp://tracker.dler.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.bitsearch.to:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker-udp.gbitt.info:80/announce
@@ -2021,10 +2765,91 @@
 						udp://opentor.org:2710/announce
 					</tracker>
 					<tracker>
+						udp://open.stealth.si:80/announce
+					</tracker>
+					<tracker>
 						udp://mts.tvbit.co:6969/announce
 					</tracker>
 					<tracker>
 						udp://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://bt2.archive.org:6969/announce
+					</tracker>
+				</group>
+			</trackers>
+		</item>
+		<item>
+			<title>2.50-9_10.2_NEW.firm</title>
+			<description>2.50-9_10.2_NEW.firm</description>
+			<guid>537FAC39870D796AC163D962B4F145DA101F6AB9</guid>
+			<link>magnet:?xt=urn:btih:537FAC39870D796AC163D962B4F145DA101F6AB9</link>
+			<pubDate>Thu, 20 Jan 2022 08:14:52 +0000</pubDate>
+			<contentLength>991232</contentLength>
+			<infoHash>537FAC39870D796AC163D962B4F145DA101F6AB9</infoHash>
+			<magnetURI>magnet:?xt=urn:btih:537FAC39870D796AC163D962B4F145DA101F6AB9</magnetURI>
+			<enclosure url="magnet:?xt=urn:btih:537FAC39870D796AC163D962B4F145DA101F6AB9" type="application/x-bittorrent" />
+			<trackers>
+				<group order="random">
+					<tracker>
+						udp://open.tracker.cl:1337/announce
+					</tracker>
+					<tracker>
+						udp://tracker.opentrackr.org:1337/announce
+					</tracker>
+					<tracker>
+						udp://9.rarbg.com:2810/announce
+					</tracker>
+					<tracker>
+						udp://exodus.desync.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://www.torrent.eu.org:451/announce
+					</tracker>
+					<tracker>
+						udp://tracker.torrent.eu.org:451/announce
+					</tracker>
+					<tracker>
+						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.pomf.se:80/announce
+					</tracker>
+					<tracker>
+						udp://tracker.openbittorrent.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.moeking.me:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.dler.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.bitsearch.to:1337/announce
+					</tracker>
+					<tracker>
+						udp://tracker-udp.gbitt.info:80/announce
+					</tracker>
+					<tracker>
+						udp://retracker.netbynet.ru:2710/announce
+					</tracker>
+					<tracker>
+						udp://retracker.lanta-net.ru:2710/announce
+					</tracker>
+					<tracker>
+						udp://opentor.org:2710/announce
+					</tracker>
+					<tracker>
+						udp://open.stealth.si:80/announce
+					</tracker>
+					<tracker>
+						udp://mts.tvbit.co:6969/announce
+					</tracker>
+					<tracker>
+						udp://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://bt2.archive.org:6969/announce
 					</tracker>
 				</group>
 			</trackers>
@@ -2042,37 +2867,28 @@
 			<trackers>
 				<group order="random">
 					<tracker>
-						udp://bt2.archive.org:6969/announce
-					</tracker>
-					<tracker>
-						udp://exodus.desync.com:6969/announce
-					</tracker>
-					<tracker>
-						udp://open.stealth.si:80/announce
-					</tracker>
-					<tracker>
-						udp://tracker.bitsearch.to:1337/announce
+						udp://open.tracker.cl:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker.opentrackr.org:1337/announce
 					</tracker>
 					<tracker>
-						udp://tracker.pomf.se:80/announce
+						udp://9.rarbg.com:2810/announce
 					</tracker>
 					<tracker>
-						udp://tracker.torrent.eu.org:451/announce
+						udp://exodus.desync.com:6969/announce
 					</tracker>
 					<tracker>
 						udp://www.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
-						udp://open.tracker.cl:1337/announce
-					</tracker>
-					<tracker>
-						udp://9.rarbg.com:2810/announce
+						udp://tracker.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
 						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.pomf.se:80/announce
 					</tracker>
 					<tracker>
 						udp://tracker.openbittorrent.com:6969/announce
@@ -2082,6 +2898,9 @@
 					</tracker>
 					<tracker>
 						udp://tracker.dler.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.bitsearch.to:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker-udp.gbitt.info:80/announce
@@ -2096,10 +2915,91 @@
 						udp://opentor.org:2710/announce
 					</tracker>
 					<tracker>
+						udp://open.stealth.si:80/announce
+					</tracker>
+					<tracker>
 						udp://mts.tvbit.co:6969/announce
 					</tracker>
 					<tracker>
 						udp://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://bt2.archive.org:6969/announce
+					</tracker>
+				</group>
+			</trackers>
+		</item>
+		<item>
+			<title>2.51-0_11.0_NEW.firm</title>
+			<description>2.51-0_11.0_NEW.firm</description>
+			<guid>4ECF0ED64F3EF94914542E7AD1ABA336AAE771C4</guid>
+			<link>magnet:?xt=urn:btih:4ECF0ED64F3EF94914542E7AD1ABA336AAE771C4</link>
+			<pubDate>Thu, 20 Jan 2022 08:14:52 +0000</pubDate>
+			<contentLength>999424</contentLength>
+			<infoHash>4ECF0ED64F3EF94914542E7AD1ABA336AAE771C4</infoHash>
+			<magnetURI>magnet:?xt=urn:btih:4ECF0ED64F3EF94914542E7AD1ABA336AAE771C4</magnetURI>
+			<enclosure url="magnet:?xt=urn:btih:4ECF0ED64F3EF94914542E7AD1ABA336AAE771C4" type="application/x-bittorrent" />
+			<trackers>
+				<group order="random">
+					<tracker>
+						udp://open.tracker.cl:1337/announce
+					</tracker>
+					<tracker>
+						udp://tracker.opentrackr.org:1337/announce
+					</tracker>
+					<tracker>
+						udp://9.rarbg.com:2810/announce
+					</tracker>
+					<tracker>
+						udp://exodus.desync.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://www.torrent.eu.org:451/announce
+					</tracker>
+					<tracker>
+						udp://tracker.torrent.eu.org:451/announce
+					</tracker>
+					<tracker>
+						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.pomf.se:80/announce
+					</tracker>
+					<tracker>
+						udp://tracker.openbittorrent.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.moeking.me:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.dler.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.bitsearch.to:1337/announce
+					</tracker>
+					<tracker>
+						udp://tracker-udp.gbitt.info:80/announce
+					</tracker>
+					<tracker>
+						udp://retracker.netbynet.ru:2710/announce
+					</tracker>
+					<tracker>
+						udp://retracker.lanta-net.ru:2710/announce
+					</tracker>
+					<tracker>
+						udp://opentor.org:2710/announce
+					</tracker>
+					<tracker>
+						udp://open.stealth.si:80/announce
+					</tracker>
+					<tracker>
+						udp://mts.tvbit.co:6969/announce
+					</tracker>
+					<tracker>
+						udp://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://bt2.archive.org:6969/announce
 					</tracker>
 				</group>
 			</trackers>
@@ -2117,37 +3017,28 @@
 			<trackers>
 				<group order="random">
 					<tracker>
-						udp://bt2.archive.org:6969/announce
-					</tracker>
-					<tracker>
-						udp://exodus.desync.com:6969/announce
-					</tracker>
-					<tracker>
-						udp://open.stealth.si:80/announce
-					</tracker>
-					<tracker>
-						udp://tracker.bitsearch.to:1337/announce
+						udp://open.tracker.cl:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker.opentrackr.org:1337/announce
 					</tracker>
 					<tracker>
-						udp://tracker.pomf.se:80/announce
+						udp://9.rarbg.com:2810/announce
 					</tracker>
 					<tracker>
-						udp://tracker.torrent.eu.org:451/announce
+						udp://exodus.desync.com:6969/announce
 					</tracker>
 					<tracker>
 						udp://www.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
-						udp://open.tracker.cl:1337/announce
-					</tracker>
-					<tracker>
-						udp://9.rarbg.com:2810/announce
+						udp://tracker.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
 						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.pomf.se:80/announce
 					</tracker>
 					<tracker>
 						udp://tracker.openbittorrent.com:6969/announce
@@ -2157,6 +3048,9 @@
 					</tracker>
 					<tracker>
 						udp://tracker.dler.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.bitsearch.to:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker-udp.gbitt.info:80/announce
@@ -2171,10 +3065,91 @@
 						udp://opentor.org:2710/announce
 					</tracker>
 					<tracker>
+						udp://open.stealth.si:80/announce
+					</tracker>
+					<tracker>
 						udp://mts.tvbit.co:6969/announce
 					</tracker>
 					<tracker>
 						udp://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://bt2.archive.org:6969/announce
+					</tracker>
+				</group>
+			</trackers>
+		</item>
+		<item>
+			<title>2.51-2_11.1_NEW.firm</title>
+			<description>2.51-2_11.1_NEW.firm</description>
+			<guid>307993B2B7B78502827458D6C6E78B75BEA6EB41</guid>
+			<link>magnet:?xt=urn:btih:307993B2B7B78502827458D6C6E78B75BEA6EB41</link>
+			<pubDate>Thu, 20 Jan 2022 08:14:52 +0000</pubDate>
+			<contentLength>999424</contentLength>
+			<infoHash>307993B2B7B78502827458D6C6E78B75BEA6EB41</infoHash>
+			<magnetURI>magnet:?xt=urn:btih:307993B2B7B78502827458D6C6E78B75BEA6EB41</magnetURI>
+			<enclosure url="magnet:?xt=urn:btih:307993B2B7B78502827458D6C6E78B75BEA6EB41" type="application/x-bittorrent" />
+			<trackers>
+				<group order="random">
+					<tracker>
+						udp://open.tracker.cl:1337/announce
+					</tracker>
+					<tracker>
+						udp://tracker.opentrackr.org:1337/announce
+					</tracker>
+					<tracker>
+						udp://9.rarbg.com:2810/announce
+					</tracker>
+					<tracker>
+						udp://exodus.desync.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://www.torrent.eu.org:451/announce
+					</tracker>
+					<tracker>
+						udp://tracker.torrent.eu.org:451/announce
+					</tracker>
+					<tracker>
+						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.pomf.se:80/announce
+					</tracker>
+					<tracker>
+						udp://tracker.openbittorrent.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.moeking.me:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.dler.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.bitsearch.to:1337/announce
+					</tracker>
+					<tracker>
+						udp://tracker-udp.gbitt.info:80/announce
+					</tracker>
+					<tracker>
+						udp://retracker.netbynet.ru:2710/announce
+					</tracker>
+					<tracker>
+						udp://retracker.lanta-net.ru:2710/announce
+					</tracker>
+					<tracker>
+						udp://opentor.org:2710/announce
+					</tracker>
+					<tracker>
+						udp://open.stealth.si:80/announce
+					</tracker>
+					<tracker>
+						udp://mts.tvbit.co:6969/announce
+					</tracker>
+					<tracker>
+						udp://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://bt2.archive.org:6969/announce
 					</tracker>
 				</group>
 			</trackers>
@@ -2192,37 +3167,28 @@
 			<trackers>
 				<group order="random">
 					<tracker>
-						udp://bt2.archive.org:6969/announce
-					</tracker>
-					<tracker>
-						udp://exodus.desync.com:6969/announce
-					</tracker>
-					<tracker>
-						udp://open.stealth.si:80/announce
-					</tracker>
-					<tracker>
-						udp://tracker.bitsearch.to:1337/announce
+						udp://open.tracker.cl:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker.opentrackr.org:1337/announce
 					</tracker>
 					<tracker>
-						udp://tracker.pomf.se:80/announce
+						udp://9.rarbg.com:2810/announce
 					</tracker>
 					<tracker>
-						udp://tracker.torrent.eu.org:451/announce
+						udp://exodus.desync.com:6969/announce
 					</tracker>
 					<tracker>
 						udp://www.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
-						udp://open.tracker.cl:1337/announce
-					</tracker>
-					<tracker>
-						udp://9.rarbg.com:2810/announce
+						udp://tracker.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
 						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.pomf.se:80/announce
 					</tracker>
 					<tracker>
 						udp://tracker.openbittorrent.com:6969/announce
@@ -2232,6 +3198,9 @@
 					</tracker>
 					<tracker>
 						udp://tracker.dler.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.bitsearch.to:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker-udp.gbitt.info:80/announce
@@ -2246,10 +3215,91 @@
 						udp://opentor.org:2710/announce
 					</tracker>
 					<tracker>
+						udp://open.stealth.si:80/announce
+					</tracker>
+					<tracker>
 						udp://mts.tvbit.co:6969/announce
 					</tracker>
 					<tracker>
 						udp://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://bt2.archive.org:6969/announce
+					</tracker>
+				</group>
+			</trackers>
+		</item>
+		<item>
+			<title>2.52-0_11.2_NEW.firm</title>
+			<description>2.52-0_11.2_NEW.firm</description>
+			<guid>337E4618D30F9A84DD172B8E91F87451653C23B6</guid>
+			<link>magnet:?xt=urn:btih:337E4618D30F9A84DD172B8E91F87451653C23B6</link>
+			<pubDate>Thu, 20 Jan 2022 08:14:52 +0000</pubDate>
+			<contentLength>999424</contentLength>
+			<infoHash>337E4618D30F9A84DD172B8E91F87451653C23B6</infoHash>
+			<magnetURI>magnet:?xt=urn:btih:337E4618D30F9A84DD172B8E91F87451653C23B6</magnetURI>
+			<enclosure url="magnet:?xt=urn:btih:337E4618D30F9A84DD172B8E91F87451653C23B6" type="application/x-bittorrent" />
+			<trackers>
+				<group order="random">
+					<tracker>
+						udp://open.tracker.cl:1337/announce
+					</tracker>
+					<tracker>
+						udp://tracker.opentrackr.org:1337/announce
+					</tracker>
+					<tracker>
+						udp://9.rarbg.com:2810/announce
+					</tracker>
+					<tracker>
+						udp://exodus.desync.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://www.torrent.eu.org:451/announce
+					</tracker>
+					<tracker>
+						udp://tracker.torrent.eu.org:451/announce
+					</tracker>
+					<tracker>
+						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.pomf.se:80/announce
+					</tracker>
+					<tracker>
+						udp://tracker.openbittorrent.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.moeking.me:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.dler.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.bitsearch.to:1337/announce
+					</tracker>
+					<tracker>
+						udp://tracker-udp.gbitt.info:80/announce
+					</tracker>
+					<tracker>
+						udp://retracker.netbynet.ru:2710/announce
+					</tracker>
+					<tracker>
+						udp://retracker.lanta-net.ru:2710/announce
+					</tracker>
+					<tracker>
+						udp://opentor.org:2710/announce
+					</tracker>
+					<tracker>
+						udp://open.stealth.si:80/announce
+					</tracker>
+					<tracker>
+						udp://mts.tvbit.co:6969/announce
+					</tracker>
+					<tracker>
+						udp://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://bt2.archive.org:6969/announce
 					</tracker>
 				</group>
 			</trackers>
@@ -2267,37 +3317,28 @@
 			<trackers>
 				<group order="random">
 					<tracker>
-						udp://bt2.archive.org:6969/announce
-					</tracker>
-					<tracker>
-						udp://exodus.desync.com:6969/announce
-					</tracker>
-					<tracker>
-						udp://open.stealth.si:80/announce
-					</tracker>
-					<tracker>
-						udp://tracker.bitsearch.to:1337/announce
+						udp://open.tracker.cl:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker.opentrackr.org:1337/announce
 					</tracker>
 					<tracker>
-						udp://tracker.pomf.se:80/announce
+						udp://9.rarbg.com:2810/announce
 					</tracker>
 					<tracker>
-						udp://tracker.torrent.eu.org:451/announce
+						udp://exodus.desync.com:6969/announce
 					</tracker>
 					<tracker>
 						udp://www.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
-						udp://open.tracker.cl:1337/announce
-					</tracker>
-					<tracker>
-						udp://9.rarbg.com:2810/announce
+						udp://tracker.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
 						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.pomf.se:80/announce
 					</tracker>
 					<tracker>
 						udp://tracker.openbittorrent.com:6969/announce
@@ -2307,6 +3348,9 @@
 					</tracker>
 					<tracker>
 						udp://tracker.dler.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.bitsearch.to:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker-udp.gbitt.info:80/announce
@@ -2321,10 +3365,91 @@
 						udp://opentor.org:2710/announce
 					</tracker>
 					<tracker>
+						udp://open.stealth.si:80/announce
+					</tracker>
+					<tracker>
 						udp://mts.tvbit.co:6969/announce
 					</tracker>
 					<tracker>
 						udp://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://bt2.archive.org:6969/announce
+					</tracker>
+				</group>
+			</trackers>
+		</item>
+		<item>
+			<title>2.53-0_11.3_NEW.firm</title>
+			<description>2.53-0_11.3_NEW.firm</description>
+			<guid>53363AB66F877D9EDF33F55E6ABC3CCF72819191</guid>
+			<link>magnet:?xt=urn:btih:53363AB66F877D9EDF33F55E6ABC3CCF72819191</link>
+			<pubDate>Thu, 20 Jan 2022 08:14:52 +0000</pubDate>
+			<contentLength>999424</contentLength>
+			<infoHash>53363AB66F877D9EDF33F55E6ABC3CCF72819191</infoHash>
+			<magnetURI>magnet:?xt=urn:btih:53363AB66F877D9EDF33F55E6ABC3CCF72819191</magnetURI>
+			<enclosure url="magnet:?xt=urn:btih:53363AB66F877D9EDF33F55E6ABC3CCF72819191" type="application/x-bittorrent" />
+			<trackers>
+				<group order="random">
+					<tracker>
+						udp://open.tracker.cl:1337/announce
+					</tracker>
+					<tracker>
+						udp://tracker.opentrackr.org:1337/announce
+					</tracker>
+					<tracker>
+						udp://9.rarbg.com:2810/announce
+					</tracker>
+					<tracker>
+						udp://exodus.desync.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://www.torrent.eu.org:451/announce
+					</tracker>
+					<tracker>
+						udp://tracker.torrent.eu.org:451/announce
+					</tracker>
+					<tracker>
+						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.pomf.se:80/announce
+					</tracker>
+					<tracker>
+						udp://tracker.openbittorrent.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.moeking.me:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.dler.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.bitsearch.to:1337/announce
+					</tracker>
+					<tracker>
+						udp://tracker-udp.gbitt.info:80/announce
+					</tracker>
+					<tracker>
+						udp://retracker.netbynet.ru:2710/announce
+					</tracker>
+					<tracker>
+						udp://retracker.lanta-net.ru:2710/announce
+					</tracker>
+					<tracker>
+						udp://opentor.org:2710/announce
+					</tracker>
+					<tracker>
+						udp://open.stealth.si:80/announce
+					</tracker>
+					<tracker>
+						udp://mts.tvbit.co:6969/announce
+					</tracker>
+					<tracker>
+						udp://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://bt2.archive.org:6969/announce
 					</tracker>
 				</group>
 			</trackers>
@@ -2342,37 +3467,28 @@
 			<trackers>
 				<group order="random">
 					<tracker>
-						udp://bt2.archive.org:6969/announce
-					</tracker>
-					<tracker>
-						udp://exodus.desync.com:6969/announce
-					</tracker>
-					<tracker>
-						udp://open.stealth.si:80/announce
-					</tracker>
-					<tracker>
-						udp://tracker.bitsearch.to:1337/announce
+						udp://open.tracker.cl:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker.opentrackr.org:1337/announce
 					</tracker>
 					<tracker>
-						udp://tracker.pomf.se:80/announce
+						udp://9.rarbg.com:2810/announce
 					</tracker>
 					<tracker>
-						udp://tracker.torrent.eu.org:451/announce
+						udp://exodus.desync.com:6969/announce
 					</tracker>
 					<tracker>
 						udp://www.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
-						udp://open.tracker.cl:1337/announce
-					</tracker>
-					<tracker>
-						udp://9.rarbg.com:2810/announce
+						udp://tracker.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
 						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.pomf.se:80/announce
 					</tracker>
 					<tracker>
 						udp://tracker.openbittorrent.com:6969/announce
@@ -2382,6 +3498,9 @@
 					</tracker>
 					<tracker>
 						udp://tracker.dler.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.bitsearch.to:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker-udp.gbitt.info:80/announce
@@ -2396,10 +3515,91 @@
 						udp://opentor.org:2710/announce
 					</tracker>
 					<tracker>
+						udp://open.stealth.si:80/announce
+					</tracker>
+					<tracker>
 						udp://mts.tvbit.co:6969/announce
 					</tracker>
 					<tracker>
 						udp://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://bt2.archive.org:6969/announce
+					</tracker>
+				</group>
+			</trackers>
+		</item>
+		<item>
+			<title>2.54-0_11.4_NEW.firm</title>
+			<description>2.54-0_11.4_NEW.firm</description>
+			<guid>3B59DD43EEC3EDB133555F58D1180BFB196ACBB4</guid>
+			<link>magnet:?xt=urn:btih:3B59DD43EEC3EDB133555F58D1180BFB196ACBB4</link>
+			<pubDate>Thu, 20 Jan 2022 08:14:52 +0000</pubDate>
+			<contentLength>999424</contentLength>
+			<infoHash>3B59DD43EEC3EDB133555F58D1180BFB196ACBB4</infoHash>
+			<magnetURI>magnet:?xt=urn:btih:3B59DD43EEC3EDB133555F58D1180BFB196ACBB4</magnetURI>
+			<enclosure url="magnet:?xt=urn:btih:3B59DD43EEC3EDB133555F58D1180BFB196ACBB4" type="application/x-bittorrent" />
+			<trackers>
+				<group order="random">
+					<tracker>
+						udp://open.tracker.cl:1337/announce
+					</tracker>
+					<tracker>
+						udp://tracker.opentrackr.org:1337/announce
+					</tracker>
+					<tracker>
+						udp://9.rarbg.com:2810/announce
+					</tracker>
+					<tracker>
+						udp://exodus.desync.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://www.torrent.eu.org:451/announce
+					</tracker>
+					<tracker>
+						udp://tracker.torrent.eu.org:451/announce
+					</tracker>
+					<tracker>
+						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.pomf.se:80/announce
+					</tracker>
+					<tracker>
+						udp://tracker.openbittorrent.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.moeking.me:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.dler.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.bitsearch.to:1337/announce
+					</tracker>
+					<tracker>
+						udp://tracker-udp.gbitt.info:80/announce
+					</tracker>
+					<tracker>
+						udp://retracker.netbynet.ru:2710/announce
+					</tracker>
+					<tracker>
+						udp://retracker.lanta-net.ru:2710/announce
+					</tracker>
+					<tracker>
+						udp://opentor.org:2710/announce
+					</tracker>
+					<tracker>
+						udp://open.stealth.si:80/announce
+					</tracker>
+					<tracker>
+						udp://mts.tvbit.co:6969/announce
+					</tracker>
+					<tracker>
+						udp://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://bt2.archive.org:6969/announce
 					</tracker>
 				</group>
 			</trackers>
@@ -2417,37 +3617,28 @@
 			<trackers>
 				<group order="random">
 					<tracker>
-						udp://bt2.archive.org:6969/announce
-					</tracker>
-					<tracker>
-						udp://exodus.desync.com:6969/announce
-					</tracker>
-					<tracker>
-						udp://open.stealth.si:80/announce
-					</tracker>
-					<tracker>
-						udp://tracker.bitsearch.to:1337/announce
+						udp://open.tracker.cl:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker.opentrackr.org:1337/announce
 					</tracker>
 					<tracker>
-						udp://tracker.pomf.se:80/announce
+						udp://9.rarbg.com:2810/announce
 					</tracker>
 					<tracker>
-						udp://tracker.torrent.eu.org:451/announce
+						udp://exodus.desync.com:6969/announce
 					</tracker>
 					<tracker>
 						udp://www.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
-						udp://open.tracker.cl:1337/announce
-					</tracker>
-					<tracker>
-						udp://9.rarbg.com:2810/announce
+						udp://tracker.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
 						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.pomf.se:80/announce
 					</tracker>
 					<tracker>
 						udp://tracker.openbittorrent.com:6969/announce
@@ -2457,6 +3648,9 @@
 					</tracker>
 					<tracker>
 						udp://tracker.dler.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.bitsearch.to:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker-udp.gbitt.info:80/announce
@@ -2471,10 +3665,91 @@
 						udp://opentor.org:2710/announce
 					</tracker>
 					<tracker>
+						udp://open.stealth.si:80/announce
+					</tracker>
+					<tracker>
 						udp://mts.tvbit.co:6969/announce
 					</tracker>
 					<tracker>
 						udp://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://bt2.archive.org:6969/announce
+					</tracker>
+				</group>
+			</trackers>
+		</item>
+		<item>
+			<title>2.55-0_11.8_NEW.firm</title>
+			<description>2.55-0_11.8_NEW.firm</description>
+			<guid>97DC6BA91ED243596ADB744CC20DAA610C10FCAB</guid>
+			<link>magnet:?xt=urn:btih:97DC6BA91ED243596ADB744CC20DAA610C10FCAB</link>
+			<pubDate>Thu, 20 Jan 2022 08:14:52 +0000</pubDate>
+			<contentLength>999424</contentLength>
+			<infoHash>97DC6BA91ED243596ADB744CC20DAA610C10FCAB</infoHash>
+			<magnetURI>magnet:?xt=urn:btih:97DC6BA91ED243596ADB744CC20DAA610C10FCAB</magnetURI>
+			<enclosure url="magnet:?xt=urn:btih:97DC6BA91ED243596ADB744CC20DAA610C10FCAB" type="application/x-bittorrent" />
+			<trackers>
+				<group order="random">
+					<tracker>
+						udp://open.tracker.cl:1337/announce
+					</tracker>
+					<tracker>
+						udp://tracker.opentrackr.org:1337/announce
+					</tracker>
+					<tracker>
+						udp://9.rarbg.com:2810/announce
+					</tracker>
+					<tracker>
+						udp://exodus.desync.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://www.torrent.eu.org:451/announce
+					</tracker>
+					<tracker>
+						udp://tracker.torrent.eu.org:451/announce
+					</tracker>
+					<tracker>
+						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.pomf.se:80/announce
+					</tracker>
+					<tracker>
+						udp://tracker.openbittorrent.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.moeking.me:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.dler.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.bitsearch.to:1337/announce
+					</tracker>
+					<tracker>
+						udp://tracker-udp.gbitt.info:80/announce
+					</tracker>
+					<tracker>
+						udp://retracker.netbynet.ru:2710/announce
+					</tracker>
+					<tracker>
+						udp://retracker.lanta-net.ru:2710/announce
+					</tracker>
+					<tracker>
+						udp://opentor.org:2710/announce
+					</tracker>
+					<tracker>
+						udp://open.stealth.si:80/announce
+					</tracker>
+					<tracker>
+						udp://mts.tvbit.co:6969/announce
+					</tracker>
+					<tracker>
+						udp://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://bt2.archive.org:6969/announce
 					</tracker>
 				</group>
 			</trackers>
@@ -2492,37 +3767,28 @@
 			<trackers>
 				<group order="random">
 					<tracker>
-						udp://bt2.archive.org:6969/announce
-					</tracker>
-					<tracker>
-						udp://exodus.desync.com:6969/announce
-					</tracker>
-					<tracker>
-						udp://open.stealth.si:80/announce
-					</tracker>
-					<tracker>
-						udp://tracker.bitsearch.to:1337/announce
+						udp://open.tracker.cl:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker.opentrackr.org:1337/announce
 					</tracker>
 					<tracker>
-						udp://tracker.pomf.se:80/announce
+						udp://9.rarbg.com:2810/announce
 					</tracker>
 					<tracker>
-						udp://tracker.torrent.eu.org:451/announce
+						udp://exodus.desync.com:6969/announce
 					</tracker>
 					<tracker>
 						udp://www.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
-						udp://open.tracker.cl:1337/announce
-					</tracker>
-					<tracker>
-						udp://9.rarbg.com:2810/announce
+						udp://tracker.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
 						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.pomf.se:80/announce
 					</tracker>
 					<tracker>
 						udp://tracker.openbittorrent.com:6969/announce
@@ -2532,6 +3798,9 @@
 					</tracker>
 					<tracker>
 						udp://tracker.dler.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.bitsearch.to:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker-udp.gbitt.info:80/announce
@@ -2546,10 +3815,16 @@
 						udp://opentor.org:2710/announce
 					</tracker>
 					<tracker>
+						udp://open.stealth.si:80/announce
+					</tracker>
+					<tracker>
 						udp://mts.tvbit.co:6969/announce
 					</tracker>
 					<tracker>
 						udp://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://bt2.archive.org:6969/announce
 					</tracker>
 				</group>
 			</trackers>
@@ -2567,37 +3842,28 @@
 			<trackers>
 				<group order="random">
 					<tracker>
-						udp://bt2.archive.org:6969/announce
-					</tracker>
-					<tracker>
-						udp://exodus.desync.com:6969/announce
-					</tracker>
-					<tracker>
-						udp://open.stealth.si:80/announce
-					</tracker>
-					<tracker>
-						udp://tracker.bitsearch.to:1337/announce
+						udp://open.tracker.cl:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker.opentrackr.org:1337/announce
 					</tracker>
 					<tracker>
-						udp://tracker.pomf.se:80/announce
+						udp://9.rarbg.com:2810/announce
 					</tracker>
 					<tracker>
-						udp://tracker.torrent.eu.org:451/announce
+						udp://exodus.desync.com:6969/announce
 					</tracker>
 					<tracker>
 						udp://www.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
-						udp://open.tracker.cl:1337/announce
-					</tracker>
-					<tracker>
-						udp://9.rarbg.com:2810/announce
+						udp://tracker.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
 						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.pomf.se:80/announce
 					</tracker>
 					<tracker>
 						udp://tracker.openbittorrent.com:6969/announce
@@ -2607,6 +3873,9 @@
 					</tracker>
 					<tracker>
 						udp://tracker.dler.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.bitsearch.to:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker-udp.gbitt.info:80/announce
@@ -2621,10 +3890,16 @@
 						udp://opentor.org:2710/announce
 					</tracker>
 					<tracker>
+						udp://open.stealth.si:80/announce
+					</tracker>
+					<tracker>
 						udp://mts.tvbit.co:6969/announce
 					</tracker>
 					<tracker>
 						udp://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://bt2.archive.org:6969/announce
 					</tracker>
 				</group>
 			</trackers>
@@ -2642,37 +3917,28 @@
 			<trackers>
 				<group order="random">
 					<tracker>
-						udp://bt2.archive.org:6969/announce
-					</tracker>
-					<tracker>
-						udp://exodus.desync.com:6969/announce
-					</tracker>
-					<tracker>
-						udp://open.stealth.si:80/announce
-					</tracker>
-					<tracker>
-						udp://tracker.bitsearch.to:1337/announce
+						udp://open.tracker.cl:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker.opentrackr.org:1337/announce
 					</tracker>
 					<tracker>
-						udp://tracker.pomf.se:80/announce
+						udp://9.rarbg.com:2810/announce
 					</tracker>
 					<tracker>
-						udp://tracker.torrent.eu.org:451/announce
+						udp://exodus.desync.com:6969/announce
 					</tracker>
 					<tracker>
 						udp://www.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
-						udp://open.tracker.cl:1337/announce
-					</tracker>
-					<tracker>
-						udp://9.rarbg.com:2810/announce
+						udp://tracker.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
 						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.pomf.se:80/announce
 					</tracker>
 					<tracker>
 						udp://tracker.openbittorrent.com:6969/announce
@@ -2682,6 +3948,9 @@
 					</tracker>
 					<tracker>
 						udp://tracker.dler.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.bitsearch.to:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker-udp.gbitt.info:80/announce
@@ -2696,10 +3965,16 @@
 						udp://opentor.org:2710/announce
 					</tracker>
 					<tracker>
+						udp://open.stealth.si:80/announce
+					</tracker>
+					<tracker>
 						udp://mts.tvbit.co:6969/announce
 					</tracker>
 					<tracker>
 						udp://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://bt2.archive.org:6969/announce
 					</tracker>
 				</group>
 			</trackers>
@@ -2717,37 +3992,28 @@
 			<trackers>
 				<group order="random">
 					<tracker>
-						udp://bt2.archive.org:6969/announce
-					</tracker>
-					<tracker>
-						udp://exodus.desync.com:6969/announce
-					</tracker>
-					<tracker>
-						udp://open.stealth.si:80/announce
-					</tracker>
-					<tracker>
-						udp://tracker.bitsearch.to:1337/announce
+						udp://open.tracker.cl:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker.opentrackr.org:1337/announce
 					</tracker>
 					<tracker>
-						udp://tracker.pomf.se:80/announce
+						udp://9.rarbg.com:2810/announce
 					</tracker>
 					<tracker>
-						udp://tracker.torrent.eu.org:451/announce
+						udp://exodus.desync.com:6969/announce
 					</tracker>
 					<tracker>
 						udp://www.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
-						udp://open.tracker.cl:1337/announce
-					</tracker>
-					<tracker>
-						udp://9.rarbg.com:2810/announce
+						udp://tracker.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
 						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.pomf.se:80/announce
 					</tracker>
 					<tracker>
 						udp://tracker.openbittorrent.com:6969/announce
@@ -2757,6 +4023,9 @@
 					</tracker>
 					<tracker>
 						udp://tracker.dler.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.bitsearch.to:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker-udp.gbitt.info:80/announce
@@ -2771,10 +4040,16 @@
 						udp://opentor.org:2710/announce
 					</tracker>
 					<tracker>
+						udp://open.stealth.si:80/announce
+					</tracker>
+					<tracker>
 						udp://mts.tvbit.co:6969/announce
 					</tracker>
 					<tracker>
 						udp://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://bt2.archive.org:6969/announce
 					</tracker>
 				</group>
 			</trackers>
@@ -2792,37 +4067,28 @@
 			<trackers>
 				<group order="random">
 					<tracker>
-						udp://bt2.archive.org:6969/announce
-					</tracker>
-					<tracker>
-						udp://exodus.desync.com:6969/announce
-					</tracker>
-					<tracker>
-						udp://open.stealth.si:80/announce
-					</tracker>
-					<tracker>
-						udp://tracker.bitsearch.to:1337/announce
+						udp://open.tracker.cl:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker.opentrackr.org:1337/announce
 					</tracker>
 					<tracker>
-						udp://tracker.pomf.se:80/announce
+						udp://9.rarbg.com:2810/announce
 					</tracker>
 					<tracker>
-						udp://tracker.torrent.eu.org:451/announce
+						udp://exodus.desync.com:6969/announce
 					</tracker>
 					<tracker>
 						udp://www.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
-						udp://open.tracker.cl:1337/announce
-					</tracker>
-					<tracker>
-						udp://9.rarbg.com:2810/announce
+						udp://tracker.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
 						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.pomf.se:80/announce
 					</tracker>
 					<tracker>
 						udp://tracker.openbittorrent.com:6969/announce
@@ -2832,6 +4098,9 @@
 					</tracker>
 					<tracker>
 						udp://tracker.dler.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.bitsearch.to:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker-udp.gbitt.info:80/announce
@@ -2846,10 +4115,16 @@
 						udp://opentor.org:2710/announce
 					</tracker>
 					<tracker>
+						udp://open.stealth.si:80/announce
+					</tracker>
+					<tracker>
 						udp://mts.tvbit.co:6969/announce
 					</tracker>
 					<tracker>
 						udp://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://bt2.archive.org:6969/announce
 					</tracker>
 				</group>
 			</trackers>
@@ -2867,37 +4142,28 @@
 			<trackers>
 				<group order="random">
 					<tracker>
-						udp://bt2.archive.org:6969/announce
-					</tracker>
-					<tracker>
-						udp://exodus.desync.com:6969/announce
-					</tracker>
-					<tracker>
-						udp://open.stealth.si:80/announce
-					</tracker>
-					<tracker>
-						udp://tracker.bitsearch.to:1337/announce
+						udp://open.tracker.cl:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker.opentrackr.org:1337/announce
 					</tracker>
 					<tracker>
-						udp://tracker.pomf.se:80/announce
+						udp://9.rarbg.com:2810/announce
 					</tracker>
 					<tracker>
-						udp://tracker.torrent.eu.org:451/announce
+						udp://exodus.desync.com:6969/announce
 					</tracker>
 					<tracker>
 						udp://www.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
-						udp://open.tracker.cl:1337/announce
-					</tracker>
-					<tracker>
-						udp://9.rarbg.com:2810/announce
+						udp://tracker.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
 						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.pomf.se:80/announce
 					</tracker>
 					<tracker>
 						udp://tracker.openbittorrent.com:6969/announce
@@ -2907,6 +4173,9 @@
 					</tracker>
 					<tracker>
 						udp://tracker.dler.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.bitsearch.to:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker-udp.gbitt.info:80/announce
@@ -2921,10 +4190,16 @@
 						udp://opentor.org:2710/announce
 					</tracker>
 					<tracker>
+						udp://open.stealth.si:80/announce
+					</tracker>
+					<tracker>
 						udp://mts.tvbit.co:6969/announce
 					</tracker>
 					<tracker>
 						udp://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://bt2.archive.org:6969/announce
 					</tracker>
 				</group>
 			</trackers>
@@ -2942,37 +4217,28 @@
 			<trackers>
 				<group order="random">
 					<tracker>
-						udp://bt2.archive.org:6969/announce
-					</tracker>
-					<tracker>
-						udp://exodus.desync.com:6969/announce
-					</tracker>
-					<tracker>
-						udp://open.stealth.si:80/announce
-					</tracker>
-					<tracker>
-						udp://tracker.bitsearch.to:1337/announce
+						udp://open.tracker.cl:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker.opentrackr.org:1337/announce
 					</tracker>
 					<tracker>
-						udp://tracker.pomf.se:80/announce
+						udp://9.rarbg.com:2810/announce
 					</tracker>
 					<tracker>
-						udp://tracker.torrent.eu.org:451/announce
+						udp://exodus.desync.com:6969/announce
 					</tracker>
 					<tracker>
 						udp://www.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
-						udp://open.tracker.cl:1337/announce
-					</tracker>
-					<tracker>
-						udp://9.rarbg.com:2810/announce
+						udp://tracker.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
 						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.pomf.se:80/announce
 					</tracker>
 					<tracker>
 						udp://tracker.openbittorrent.com:6969/announce
@@ -2982,6 +4248,9 @@
 					</tracker>
 					<tracker>
 						udp://tracker.dler.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.bitsearch.to:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker-udp.gbitt.info:80/announce
@@ -2996,10 +4265,16 @@
 						udp://opentor.org:2710/announce
 					</tracker>
 					<tracker>
+						udp://open.stealth.si:80/announce
+					</tracker>
+					<tracker>
 						udp://mts.tvbit.co:6969/announce
 					</tracker>
 					<tracker>
 						udp://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://bt2.archive.org:6969/announce
 					</tracker>
 				</group>
 			</trackers>
@@ -3017,37 +4292,28 @@
 			<trackers>
 				<group order="random">
 					<tracker>
-						udp://bt2.archive.org:6969/announce
-					</tracker>
-					<tracker>
-						udp://exodus.desync.com:6969/announce
-					</tracker>
-					<tracker>
-						udp://open.stealth.si:80/announce
-					</tracker>
-					<tracker>
-						udp://tracker.bitsearch.to:1337/announce
+						udp://open.tracker.cl:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker.opentrackr.org:1337/announce
 					</tracker>
 					<tracker>
-						udp://tracker.pomf.se:80/announce
+						udp://9.rarbg.com:2810/announce
 					</tracker>
 					<tracker>
-						udp://tracker.torrent.eu.org:451/announce
+						udp://exodus.desync.com:6969/announce
 					</tracker>
 					<tracker>
 						udp://www.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
-						udp://open.tracker.cl:1337/announce
-					</tracker>
-					<tracker>
-						udp://9.rarbg.com:2810/announce
+						udp://tracker.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
 						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.pomf.se:80/announce
 					</tracker>
 					<tracker>
 						udp://tracker.openbittorrent.com:6969/announce
@@ -3057,6 +4323,9 @@
 					</tracker>
 					<tracker>
 						udp://tracker.dler.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.bitsearch.to:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker-udp.gbitt.info:80/announce
@@ -3071,10 +4340,16 @@
 						udp://opentor.org:2710/announce
 					</tracker>
 					<tracker>
+						udp://open.stealth.si:80/announce
+					</tracker>
+					<tracker>
 						udp://mts.tvbit.co:6969/announce
 					</tracker>
 					<tracker>
 						udp://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://bt2.archive.org:6969/announce
 					</tracker>
 				</group>
 			</trackers>
@@ -3092,37 +4367,28 @@
 			<trackers>
 				<group order="random">
 					<tracker>
-						udp://bt2.archive.org:6969/announce
-					</tracker>
-					<tracker>
-						udp://exodus.desync.com:6969/announce
-					</tracker>
-					<tracker>
-						udp://open.stealth.si:80/announce
-					</tracker>
-					<tracker>
-						udp://tracker.bitsearch.to:1337/announce
+						udp://open.tracker.cl:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker.opentrackr.org:1337/announce
 					</tracker>
 					<tracker>
-						udp://tracker.pomf.se:80/announce
+						udp://9.rarbg.com:2810/announce
 					</tracker>
 					<tracker>
-						udp://tracker.torrent.eu.org:451/announce
+						udp://exodus.desync.com:6969/announce
 					</tracker>
 					<tracker>
 						udp://www.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
-						udp://open.tracker.cl:1337/announce
-					</tracker>
-					<tracker>
-						udp://9.rarbg.com:2810/announce
+						udp://tracker.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
 						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.pomf.se:80/announce
 					</tracker>
 					<tracker>
 						udp://tracker.openbittorrent.com:6969/announce
@@ -3132,6 +4398,9 @@
 					</tracker>
 					<tracker>
 						udp://tracker.dler.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.bitsearch.to:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker-udp.gbitt.info:80/announce
@@ -3146,10 +4415,16 @@
 						udp://opentor.org:2710/announce
 					</tracker>
 					<tracker>
+						udp://open.stealth.si:80/announce
+					</tracker>
+					<tracker>
 						udp://mts.tvbit.co:6969/announce
 					</tracker>
 					<tracker>
 						udp://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://bt2.archive.org:6969/announce
 					</tracker>
 				</group>
 			</trackers>
@@ -3167,37 +4442,28 @@
 			<trackers>
 				<group order="random">
 					<tracker>
-						udp://bt2.archive.org:6969/announce
-					</tracker>
-					<tracker>
-						udp://exodus.desync.com:6969/announce
-					</tracker>
-					<tracker>
-						udp://open.stealth.si:80/announce
-					</tracker>
-					<tracker>
-						udp://tracker.bitsearch.to:1337/announce
+						udp://open.tracker.cl:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker.opentrackr.org:1337/announce
 					</tracker>
 					<tracker>
-						udp://tracker.pomf.se:80/announce
+						udp://9.rarbg.com:2810/announce
 					</tracker>
 					<tracker>
-						udp://tracker.torrent.eu.org:451/announce
+						udp://exodus.desync.com:6969/announce
 					</tracker>
 					<tracker>
 						udp://www.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
-						udp://open.tracker.cl:1337/announce
-					</tracker>
-					<tracker>
-						udp://9.rarbg.com:2810/announce
+						udp://tracker.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
 						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.pomf.se:80/announce
 					</tracker>
 					<tracker>
 						udp://tracker.openbittorrent.com:6969/announce
@@ -3207,6 +4473,9 @@
 					</tracker>
 					<tracker>
 						udp://tracker.dler.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.bitsearch.to:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker-udp.gbitt.info:80/announce
@@ -3221,10 +4490,16 @@
 						udp://opentor.org:2710/announce
 					</tracker>
 					<tracker>
+						udp://open.stealth.si:80/announce
+					</tracker>
+					<tracker>
 						udp://mts.tvbit.co:6969/announce
 					</tracker>
 					<tracker>
 						udp://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://bt2.archive.org:6969/announce
 					</tracker>
 				</group>
 			</trackers>
@@ -3242,37 +4517,28 @@
 			<trackers>
 				<group order="random">
 					<tracker>
-						udp://bt2.archive.org:6969/announce
-					</tracker>
-					<tracker>
-						udp://exodus.desync.com:6969/announce
-					</tracker>
-					<tracker>
-						udp://open.stealth.si:80/announce
-					</tracker>
-					<tracker>
-						udp://tracker.bitsearch.to:1337/announce
+						udp://open.tracker.cl:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker.opentrackr.org:1337/announce
 					</tracker>
 					<tracker>
-						udp://tracker.pomf.se:80/announce
+						udp://9.rarbg.com:2810/announce
 					</tracker>
 					<tracker>
-						udp://tracker.torrent.eu.org:451/announce
+						udp://exodus.desync.com:6969/announce
 					</tracker>
 					<tracker>
 						udp://www.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
-						udp://open.tracker.cl:1337/announce
-					</tracker>
-					<tracker>
-						udp://9.rarbg.com:2810/announce
+						udp://tracker.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
 						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.pomf.se:80/announce
 					</tracker>
 					<tracker>
 						udp://tracker.openbittorrent.com:6969/announce
@@ -3282,6 +4548,9 @@
 					</tracker>
 					<tracker>
 						udp://tracker.dler.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.bitsearch.to:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker-udp.gbitt.info:80/announce
@@ -3296,10 +4565,16 @@
 						udp://opentor.org:2710/announce
 					</tracker>
 					<tracker>
+						udp://open.stealth.si:80/announce
+					</tracker>
+					<tracker>
 						udp://mts.tvbit.co:6969/announce
 					</tracker>
 					<tracker>
 						udp://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://bt2.archive.org:6969/announce
 					</tracker>
 				</group>
 			</trackers>
@@ -3317,37 +4592,28 @@
 			<trackers>
 				<group order="random">
 					<tracker>
-						udp://bt2.archive.org:6969/announce
-					</tracker>
-					<tracker>
-						udp://exodus.desync.com:6969/announce
-					</tracker>
-					<tracker>
-						udp://open.stealth.si:80/announce
-					</tracker>
-					<tracker>
-						udp://tracker.bitsearch.to:1337/announce
+						udp://open.tracker.cl:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker.opentrackr.org:1337/announce
 					</tracker>
 					<tracker>
-						udp://tracker.pomf.se:80/announce
+						udp://9.rarbg.com:2810/announce
 					</tracker>
 					<tracker>
-						udp://tracker.torrent.eu.org:451/announce
+						udp://exodus.desync.com:6969/announce
 					</tracker>
 					<tracker>
 						udp://www.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
-						udp://open.tracker.cl:1337/announce
-					</tracker>
-					<tracker>
-						udp://9.rarbg.com:2810/announce
+						udp://tracker.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
 						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.pomf.se:80/announce
 					</tracker>
 					<tracker>
 						udp://tracker.openbittorrent.com:6969/announce
@@ -3357,6 +4623,9 @@
 					</tracker>
 					<tracker>
 						udp://tracker.dler.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.bitsearch.to:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker-udp.gbitt.info:80/announce
@@ -3371,10 +4640,16 @@
 						udp://opentor.org:2710/announce
 					</tracker>
 					<tracker>
+						udp://open.stealth.si:80/announce
+					</tracker>
+					<tracker>
 						udp://mts.tvbit.co:6969/announce
 					</tracker>
 					<tracker>
 						udp://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://bt2.archive.org:6969/announce
 					</tracker>
 				</group>
 			</trackers>
@@ -3392,37 +4667,28 @@
 			<trackers>
 				<group order="random">
 					<tracker>
-						udp://bt2.archive.org:6969/announce
-					</tracker>
-					<tracker>
-						udp://exodus.desync.com:6969/announce
-					</tracker>
-					<tracker>
-						udp://open.stealth.si:80/announce
-					</tracker>
-					<tracker>
-						udp://tracker.bitsearch.to:1337/announce
+						udp://open.tracker.cl:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker.opentrackr.org:1337/announce
 					</tracker>
 					<tracker>
-						udp://tracker.pomf.se:80/announce
+						udp://9.rarbg.com:2810/announce
 					</tracker>
 					<tracker>
-						udp://tracker.torrent.eu.org:451/announce
+						udp://exodus.desync.com:6969/announce
 					</tracker>
 					<tracker>
 						udp://www.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
-						udp://open.tracker.cl:1337/announce
-					</tracker>
-					<tracker>
-						udp://9.rarbg.com:2810/announce
+						udp://tracker.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
 						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.pomf.se:80/announce
 					</tracker>
 					<tracker>
 						udp://tracker.openbittorrent.com:6969/announce
@@ -3432,6 +4698,9 @@
 					</tracker>
 					<tracker>
 						udp://tracker.dler.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.bitsearch.to:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker-udp.gbitt.info:80/announce
@@ -3446,10 +4715,16 @@
 						udp://opentor.org:2710/announce
 					</tracker>
 					<tracker>
+						udp://open.stealth.si:80/announce
+					</tracker>
+					<tracker>
 						udp://mts.tvbit.co:6969/announce
 					</tracker>
 					<tracker>
 						udp://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://bt2.archive.org:6969/announce
 					</tracker>
 				</group>
 			</trackers>
@@ -3467,37 +4742,28 @@
 			<trackers>
 				<group order="random">
 					<tracker>
-						udp://bt2.archive.org:6969/announce
-					</tracker>
-					<tracker>
-						udp://exodus.desync.com:6969/announce
-					</tracker>
-					<tracker>
-						udp://open.stealth.si:80/announce
-					</tracker>
-					<tracker>
-						udp://tracker.bitsearch.to:1337/announce
+						udp://open.tracker.cl:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker.opentrackr.org:1337/announce
 					</tracker>
 					<tracker>
-						udp://tracker.pomf.se:80/announce
+						udp://9.rarbg.com:2810/announce
 					</tracker>
 					<tracker>
-						udp://tracker.torrent.eu.org:451/announce
+						udp://exodus.desync.com:6969/announce
 					</tracker>
 					<tracker>
 						udp://www.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
-						udp://open.tracker.cl:1337/announce
-					</tracker>
-					<tracker>
-						udp://9.rarbg.com:2810/announce
+						udp://tracker.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
 						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.pomf.se:80/announce
 					</tracker>
 					<tracker>
 						udp://tracker.openbittorrent.com:6969/announce
@@ -3507,6 +4773,9 @@
 					</tracker>
 					<tracker>
 						udp://tracker.dler.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.bitsearch.to:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker-udp.gbitt.info:80/announce
@@ -3521,10 +4790,16 @@
 						udp://opentor.org:2710/announce
 					</tracker>
 					<tracker>
+						udp://open.stealth.si:80/announce
+					</tracker>
+					<tracker>
 						udp://mts.tvbit.co:6969/announce
 					</tracker>
 					<tracker>
 						udp://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://bt2.archive.org:6969/announce
 					</tracker>
 				</group>
 			</trackers>
@@ -3542,37 +4817,28 @@
 			<trackers>
 				<group order="random">
 					<tracker>
-						udp://bt2.archive.org:6969/announce
-					</tracker>
-					<tracker>
-						udp://exodus.desync.com:6969/announce
-					</tracker>
-					<tracker>
-						udp://open.stealth.si:80/announce
-					</tracker>
-					<tracker>
-						udp://tracker.bitsearch.to:1337/announce
+						udp://open.tracker.cl:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker.opentrackr.org:1337/announce
 					</tracker>
 					<tracker>
-						udp://tracker.pomf.se:80/announce
+						udp://9.rarbg.com:2810/announce
 					</tracker>
 					<tracker>
-						udp://tracker.torrent.eu.org:451/announce
+						udp://exodus.desync.com:6969/announce
 					</tracker>
 					<tracker>
 						udp://www.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
-						udp://open.tracker.cl:1337/announce
-					</tracker>
-					<tracker>
-						udp://9.rarbg.com:2810/announce
+						udp://tracker.torrent.eu.org:451/announce
 					</tracker>
 					<tracker>
 						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.pomf.se:80/announce
 					</tracker>
 					<tracker>
 						udp://tracker.openbittorrent.com:6969/announce
@@ -3582,6 +4848,9 @@
 					</tracker>
 					<tracker>
 						udp://tracker.dler.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.bitsearch.to:1337/announce
 					</tracker>
 					<tracker>
 						udp://tracker-udp.gbitt.info:80/announce
@@ -3596,10 +4865,16 @@
 						udp://opentor.org:2710/announce
 					</tracker>
 					<tracker>
+						udp://open.stealth.si:80/announce
+					</tracker>
+					<tracker>
 						udp://mts.tvbit.co:6969/announce
 					</tracker>
 					<tracker>
 						udp://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://bt2.archive.org:6969/announce
 					</tracker>
 				</group>
 			</trackers>
