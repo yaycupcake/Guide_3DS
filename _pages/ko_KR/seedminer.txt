@@ -6,37 +6,37 @@ title: "Seedminer"
 
 ### 중요
 
-To install boot9strap on your device, we derive your device's unique encryption key. To accomplish this, we use a tool called Seedminer to calculate the data encryption key (movable.sed) for your device, which we can then use to create a custom save file or DSiWare backup to further exploit your device.
+boot9Strap을 설치하려면 우선 각 기기의 고유 암호화 키를 알아내야합니다. To accomplish this, we use a tool called Seedminer to calculate the data encryption key (movable.sed) for your device.
 
-If this key were completely random, the encryption key would be impossible to break on current computing hardware. Fortunately, the first half of the key (`movable_part1.sed`) is actually mathematically related to your device's Friend Code, allowing us to break the encryption. For information on how Seedminer works, please see [this presentation](https://zoogie.github.io/web/34⅕c3).
+For information on how Seedminer works, see [this presentation](https://zoogie.github.io/web/34⅕c3).
 
-This method uses a powerful graphics card to perform the calculations needed. A volunteer-run website is used for the purpose of assisting you with this method.
+이 방법은 원래 혼자 할 경우 강력한 계산력을 가진 그래픽카드를 사용해야 합니다. 이 가이드에서는 다른 사람들이 기부하는 계산력을 제공하는 웹사이트를 사용할 것입니다.
 
 ### 진행 방법
 
 #### 섹션 I - 준비 작업
 
 1. SD 카드를 컴퓨터에 삽입해 주세요
-1. Navigate to the `Nintendo 3DS` folder on your SD card
-1. Copy the 32 character long name of the folder you see inside Nintendo 3DS
-  + Do not go inside any more folders
-  + If you see multiple folders with long, random names inside `Nintendo 3DS` without opening any other folders, perform the following:
-  + Rename the `Nintendo 3DS` folder to `BACKUP_Nintendo 3DS`
-  + Reinsert your SD card into your device and power on your device
+1. SD 카드의 `Nintendo 3DS` 폴더를 열어 주세요
+1. `Nintendo 3DS` 폴더 내 32글자의 폴더 이름을 복사해 주세요
+  + 다른 폴더 안에 들어가지 마세요
+  + 만약 이러한 폴더가 여러가지가 존재 한다면, 다음을 진행해 주세요:
+  + `Nintendo 3DS` 폴더를 `BACKUP_Nintendo 3DS` 폴더로 이름을 변경해 주세요
+  + SD 카드를 기기에 다시 삽입하고 기기를 시작해 주세요
   + Wait for the device to generate the SD card data
-  + Power off your device and reinsert your SD card into your computer
-  + Navigate to the `Nintendo 3DS` folder on your SD card
-  + Copy the 32 character long name of the folder you see
-  + Delete the `Nintendo 3DS` folder
-  + Rename the `BACKUP_Nintendo 3DS` folder to `Nintendo 3DS`
-1. Paste your 32 character long folder name into a document you can reference later
-  + This folder name is also known as your "ID0"
-1. 기기를 시작해 주세요.
-1. Go to your Friend List (the [orange Face Icon]({{ "/images/friend-list-icon.png" | absolute_url }}) in the top row of your Home Menu)
-  + If you receive an error and are kicked out of the menu, you either must create a new Mii or your device cannot connect to Nintendo's servers (due to a ban or connection issues)
+  + 전원을 끄고 SD 카드를 컴퓨터에 삽입해 주세요
+  + SD 카드의 `Nintendo 3DS` 폴더를 열어 주세요
+  + 보이는 32글자의 폴더 이름을 복사해 주세요
+  + `Nintendo 3DS` 폴더를 삭제해 주세요
+  + `BACKUP_Nintendo 3DS` 폴더를 `Nintendo 3DS` 폴더로 이름을 변경해 주세요
+1. 32글자 폴더 이름을 문서 어딘가에 저장해 주세요 (나중에 사용하도록)
+  + 이 이름을 "ID0"라고도 부릅니다
+1. 기기를 시작해 주세요
+1. 친구 목록 (홈 메뉴 맨 위에 있는 [노란 얼굴 아이콘]({{ "/images/friend-list-icon.png" | absolute_url }})) 을 눌러 주세요
+  + 만일 오류가 발생하고 메뉴 밖으로 튕겨져 나갔더라면, 기기가 닌텐도의 서버에 연결하지 못했기 때문입니다.(기기 밴 또는 연결 문제로 인하여)
 1. Find your Mii profile, then find the "Friend Code" field on the top screen
 
-#### Section II - Seedminer
+#### 섹션 II - seedminer
 
 1. Open [Bruteforce Movable](https://seedminer.hacks.guide/) on your computer
   + This site can automate the retrieval of `movable_part1.sed` (using a bot 3DS console) and the breaking of your device's DSiWare encryption (using a volunteer's computer to run Seedminer)
@@ -59,20 +59,24 @@ This method uses a powerful graphics card to perform the calculations needed. A 
 
 ___
 
-#### PicHaxx + universal-otherapp (Recommended)
+### Next Steps
 
-This method of using Seedminer for further exploitation uses your `movable.sed` file to write a custom save file for Pokémon Picross, which can then be used in conjunction with universal-otherapp to install custom firmware.
+Once you have your device's encryption key (`movable.sed`), you will use it in conjunction with other exploits to install custom firmware on your 3DS. Select an exploit below.
 
-This route requires the Pokémon Picross application (free on eShop), and thus requires eShop access and a 3DS with a region of USA, EUR, or JPN.
+#### PicHaxx + universal-otherapp (추천)
 
-Continue to [Installing boot9strap (PicHaxx)](installing-boot9strap-(pichaxx))
+더 깊은 모딩을 위한 Seedminer의 이 사용법은, 포켓몬스터 피크로스의 커스텀 세이브 파일을 `movable.sed` 파일을 사용해서 작성해, universal-otherapp과 같이 써서 SafeB9SInstaller를 실행하는 방식입니다.
+
+이 작업은 포켓몬스터 피크로스가 필요하며 (e숍에 무료), e숍을 사용할 수 있어야 햐며, USA / EUR / JPN 지역 3DS가 필요합니다.
+
+[boot9strap 설치 (PicHaxx)](installing-boot9strap-(pichaxx))로 계속합니다
 {: .notice--primary}
 
-#### Installing boot9strap (unSAFE_MODE)
+#### boot9strap 설치 (unSAFE_MODE)
 
-This method of using Seedminer for further exploitation uses your `movable.sed` file to take advantage of exploits in the SAFE_MODE firmware present in all 3DS units.
+더 깊은 모딩을 위한 Seedminer의 이 사용법은, 모든 3DS 기기에 존제하는 SAFE_MODE 펌웨어의 익스플로잇을 사용하는 방식입니다.
 
-This route is only recommended if you are for some reason unable to follow the PicHaxx + universal-otherapp route.
+이 작업은 위 PicHaxx + universal-otherapp 작업이 불가능할 시에만 추천됩니다.
 
-Continue to [Installing boot9strap (USM)](installing-boot9strap-(usm))
+[boot9strap 설치 (USM)](installing-boot9strap-(usm))로 계속합니다
 {: .notice--warning}
