@@ -10,14 +10,14 @@ The file `boot.firm` is what is launched by boot9strap itself after it finishes 
 
 On this page, we will make critical system file backups and install the following homebrew programs:
 
-+  **FBI** *(installs CIA formatted games and applications)*
++  **FBI** *(installs CIA formatted applications)*
 +  **Anemone3DS** *(installs custom themes)*
 +  **Checkpoint** *(backs up and restores save files for 3DS and DS games)*
-+  **Universal-Updater** *(a homebrew app store for downloading homebrew from the 3DS over wifi)*
++  **Universal-Updater** *(a homebrew app store for downloading homebrew from the 3DS over Wi-Fi)*
 +  **GodMode9** *(multipurpose tool which can do NAND and cartridge functions)*
 +  **Homebrew Launcher Loader** *(launches the Homebrew Launcher)*
 +  **DSP1** *(allows homebrew applications to have sound)*
-+  **ctr-no-timeoffset** *(removes the RTC offset so that the home menu and RTC timestamps match)*
++  **ctr-no-timeoffset** *(sets the Home Menu time to match the internal Real-Time Clock)*
 
 It is not recommended to skip downloading any of these applications, as many of them will be used later on this page.
 {: .notice--warning}
@@ -161,7 +161,7 @@ You're done! Custom firmware is now fully configured on your device.
 Here are some keycombos that you should know:
 
 - Holding (Select) on boot will launch the Luma3DS configuration menu.
-- Holding (Start) on boot will launch the GodMode9, or if you have multiple payloads in `/luma/payloads/`, the Luma3DS chainloader.
+- Holding (Start) on boot will launch GodMode9, or if you have multiple payloads in `/luma/payloads/`, the Luma3DS chainloader.
 - By default, pressing (Left Shoulder) + (Down D-Pad) + (Select) while in 3DS mode will open the Rosalina menu, where you can check system information, take screenshots, enable cheats, and more. This can be changed from the Rosalina menu.
 - Holding (Start) + (Select) + (X) on boot will dump `boot9.bin`, `boot11.bin`, and `otp.bin` to the `boot9strap` folder on your SD card.
 {% endcapture %}
