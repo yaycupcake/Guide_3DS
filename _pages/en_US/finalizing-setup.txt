@@ -30,14 +30,14 @@ If your previous CFW setup was EmuNAND-based and you wish to move the contents o
 
 ### What You Need
 
-**CIA Files**
+**CIA Files** (get the `.cia` file)
 * The latest release of [Anemone3DS](https://github.com/astronautlevel2/Anemone3DS/releases/latest)
 * The v3.7.4 release of [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases/tag/v3.7.4)
 * The latest release of [FBI](https://github.com/Steveice10/FBI/releases/latest)
 * The latest release of [Homebrew Launcher Wrapper](https://github.com/mariohackandglitch/homebrew_launcher_dummy/releases/latest)
 * The latest release of [Universal-Updater](https://github.com/Universal-Team/Universal-Updater/releases/latest)
 
-**3DSX files**
+**3DSX files** (get the `.3dsx` file)
 * The latest release of [ctr-no-timeoffset](https://github.com/ihaveamac/ctr-no-timeoffset/releases/latest)
 * The latest release of [DSP1](https://github.com/zoogie/DSP1/releases/latest)
 
