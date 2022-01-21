@@ -2,8 +2,83 @@
 <rss version="2.0">
 	<channel>
 		<title>Plailect Guide Feed</title>
-		<lastBuildDate>Thu, 20 Jan 2022 09:30:51 +0000</lastBuildDate>
+		<lastBuildDate>Fri, 21 Jan 2022 02:47:01 +0000</lastBuildDate>
 		<link>https://github.com/Plailect/Guide_3DS/</link>
+		<item>
+			<title>11.15.0-39T_ctrtransfer_o3ds.zip</title>
+			<description>11.15.0-39T_ctrtransfer_o3ds.zip</description>
+			<guid>19F978D42B0D9590BC742D7598EFA45091567CEE</guid>
+			<link>magnet:?xt=urn:btih:19F978D42B0D9590BC742D7598EFA45091567CEE</link>
+			<pubDate>Fri, 21 Jan 2022 02:46:22 +0000</pubDate>
+			<contentLength>748174777</contentLength>
+			<infoHash>19F978D42B0D9590BC742D7598EFA45091567CEE</infoHash>
+			<magnetURI>magnet:?xt=urn:btih:19F978D42B0D9590BC742D7598EFA45091567CEE</magnetURI>
+			<enclosure url="magnet:?xt=urn:btih:19F978D42B0D9590BC742D7598EFA45091567CEE" type="application/x-bittorrent" />
+			<trackers>
+				<group order="random">
+					<tracker>
+						udp://open.tracker.cl:1337/announce
+					</tracker>
+					<tracker>
+						udp://tracker.opentrackr.org:1337/announce
+					</tracker>
+					<tracker>
+						udp://9.rarbg.com:2810/announce
+					</tracker>
+					<tracker>
+						udp://exodus.desync.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://www.torrent.eu.org:451/announce
+					</tracker>
+					<tracker>
+						udp://tracker.torrent.eu.org:451/announce
+					</tracker>
+					<tracker>
+						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.pomf.se:80/announce
+					</tracker>
+					<tracker>
+						udp://tracker.openbittorrent.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.moeking.me:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.dler.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.bitsearch.to:1337/announce
+					</tracker>
+					<tracker>
+						udp://tracker-udp.gbitt.info:80/announce
+					</tracker>
+					<tracker>
+						udp://retracker.netbynet.ru:2710/announce
+					</tracker>
+					<tracker>
+						udp://retracker.lanta-net.ru:2710/announce
+					</tracker>
+					<tracker>
+						udp://opentor.org:2710/announce
+					</tracker>
+					<tracker>
+						udp://open.stealth.si:80/announce
+					</tracker>
+					<tracker>
+						udp://mts.tvbit.co:6969/announce
+					</tracker>
+					<tracker>
+						udp://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://bt2.archive.org:6969/announce
+					</tracker>
+				</group>
+			</trackers>
+		</item>
 		<item>
 			<title>11.15.0-41K_ctrtransfer_n3ds.zip</title>
 			<description>11.15.0-41K_ctrtransfer_n3ds.zip</description>
