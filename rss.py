@@ -30,12 +30,13 @@ with open(rss, "w") as xml:
                 infohash = hashlib.sha1(bencodepy.encode(tor[b"info"])).hexdigest().upper()
                 magp = {"xt": "urn:btih:{0}".format(infohash), "dn": tor[b"info"][b"name"], "xl": tor[b"info"][b"length"]}
                 magstr = urllib.parse.urlencode(magp)
-                for anncl in tor[b"announce-list"]:
-                    if isinstance(anncl, list):
-                        for annc in anncl:
-                            trackers.append(annc.decode("utf-8"))
-                    else:
-                        trackers.append(anncl.decode("utf-8"))
+                if b'announce-list' in tor:
+                    for anncl in tor[b'announce-list']:
+                        if isinstance(anncl, list):
+                            for annc in anncl:
+                                trackers.append(annc.decode("utf-8"))
+                        else:
+                            trackers.append(anncl.decode("utf-8"))
                 length = tor[b"info"][b"length"]
                 name = tor[b"info"][b"name"].decode("utf-8")
                 ts = tor[b"creation date"]
