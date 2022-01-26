@@ -22,7 +22,7 @@ C'è un problema con i tuoi file `boot9strap.firm` e `boot9strap.firm.sha`. Ri-s
 
 #### Secret Sector - File not found
 
-Ti manca il file `secret_sector.firm` dalla cartella `boot9strap`, o la cartella `boot9strap` non è stata correttamente nominata. Download [secret_sector.bin](magnet:?xt=urn:btih:15a3c97acf17d67af98ae8657cc66820cc58f655&dn=secret_sector.bin&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2ftracker.lelux.fi%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.loadbt.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.monitorit4.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.ololosh.space%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.pomf.se%3a80%2fannounce&tr=udp%3a%2f%2ftracker.srv00.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.theoks.net%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2fopen.tracker.cl%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.zerobytes.xyz%3a1337%2fannounce&tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&tr=udp%3a%2f%2fvibe.sleepyinternetfun.xyz%3a1738%2fannounce&tr=udp%3a%2f%2fwww.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce&tr=http%3a%2f%2fopenbittorrent.com%3a80%2fannounce) using a torrent client, and place it in the `boot9strap` folder.
+Ti manca il file `secret_sector.firm` dalla cartella `boot9strap`, o la cartella `boot9strap` non è stata correttamente nominata. Scarica [secret_sector.bin](magnet:?xt=urn:btih:15a3c97acf17d67af98ae8657cc66820cc58f655&dn=secret_sector.bin&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2ftracker.lelux.fi%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.loadbt.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.monitorit4.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.ololosh.space%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.pomf.se%3a80%2fannounce&tr=udp%3a%2f%2ftracker.srv00.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.theoks.net%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2fopen.tracker.cl%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.zerobytes.xyz%3a1337%2fannounce&tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&tr=udp%3a%2f%2fvibe.sleepyinternetfun.xyz%3a1738%2fannounce&tr=udp%3a%2f%2fwww.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce&tr=http%3a%2f%2fopenbittorrent.com%3a80%2fannounce) con un client torrent, e posizionalo nella cartella `boot9strap`.
 
 #### Qualcos'altro
 
@@ -32,23 +32,23 @@ Entra nel [canale Discord di Nintendo Homebrew](https://discord.gg/MWxPgEp) per 
 
 ## Seedminer
 
-### Multiple long folder names in Nintendo 3DS folder
+### Multiple cartelle dal nome lungo nella cartella Nintendo 3DS
 
 ![]({{ "/images/screenshots/multiple-id0.png" | absolute_url }})
 {: .notice--info}
 
-This occurs when you use your SD card in multiple 3DS devices and is intended to prevent inadvertantly merging data that would not be valid on another devices. To figure out which long folder name is correct for your 3DS, follow these instructions:
+Questo si verifica quando si utilizza la scheda SD in più console 3DS ed accade per prevenire l'unione involontaria di dati non validi su console diverse. Per capire quale cartella dal nome lungo sia quella corretta per il tuo 3DS, segui queste istruzioni:
 
-1. Rename the `Nintendo 3DS` folder to `BACKUP_Nintendo 3DS`
-1. Reinsert your SD card into your device and power on your device
-1. Wait for the device to generate the SD card data
-	+ Your applications will have disappeared. This is normal and will be resolved shortly
-1. Power off your device and reinsert your SD card into your computer
+1. Rinomina la cartella `Nintendo 3DS` in `BACKUP_Nintendo 3DS`
+1. Reinserisci la tua scheda SD nella console, e accendila
+1. Attendi che la console generi i dati nella scheda SD
+	+ Le tue applicazioni saranno scomparse. È normale e verrà risolto a breve
+1. Spegni la console e reinserisci la scheda SD nel tuo computer
 1. Entra nella cartella `Nintendo 3DS` della tua scheda SD
-1. Copy the 32 character long name of the folder you see
-	+ This is your true ID0 that you will use in [Section II of Seedminer](seedminer#section-ii---seedminer)
-1. Delete the `Nintendo 3DS` folder
-1. Rename the `BACKUP_Nintendo 3DS` folder to `Nintendo 3DS`
+1. Copia la stringa di 32 caratteri del nome della cartella qui presente
+	+ Questo è il tuo ID0 corretto che userai nella [Sezione II di Seedminer](seedminer#section-ii---seedminer)
+1. Elimina la cartella `Nintendo 3DS`
+1. Rinomina la cartella `BACKUP_Nintendo 3DS` in `Nintendo 3DS`
 
 ### Bruteforce Movable salta al passo 4
 
@@ -94,13 +94,13 @@ Potrebbe esserci un problema con il tuo file `otherapp.bin`. Scarica l'ultima ve
 
 ### "PrepareArm9ForTwl returned error c8804631!"
 
-You will need to follow an alternate method, like [Installing boot9strap (USM)](installing-boot9strap-(usm)).
+Dovrai seguire un metodo alternativo, come [Installazione di boot9strap (USM)](installing-boot9strap-(usm)).
 
-### Failed to mount the SD card!
+### Impossibile caricare la scheda SD!
 
-Back up your data and reformat your SD card as FAT32 with the recommended tool depending on your operating system ([Windows](formatting-sd-(windows)), [macOS](formatting-sd-(mac)), [Linux](formatting-sd-(linux))). MiniTool and the HP formatting tool are known to cause issues with 3DS SD cards.
+Effettua il backup dei tuoi dati e riformatta la tua scheda SD come FAT32 con lo strumento consigliato a seconda del sistema operativo ([Windows](formatting-sd-(windows)), [macOS](formatting-sd-(mac)), [Linux](formatting-sd-(linux))). MiniTool e lo strumento di formattazione HP sono noti per causare problemi con schede SD 3DS.
 
-If this is unsuccessful, try using another SD card.
+Se il problema non si risolve, prova ad usare un'altra scheda SD.
 
 ---
 
@@ -128,17 +128,17 @@ Il file `SafeB9SInstaller.bin` è mancante o mal posizionato. Scarica l'ultima v
 
 Potrebbe esserci un problema con il tuo file `otherapp.bin`. Riscarica l'ultima versione di [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest) e posizionala nella directory principale della tua scheda SD.
 
-If you have a Taiwanese or Mainland Chinese unit (with a T or C in the version string, ie. 11.3.0-##T), join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) for assistance.
+Se hai una console taiwanese o dell'entroterra cinese (con una T o C nella stringa della versione, es. 11.3.0-##T), entra nel [canale Discord di Nintendo Homebrew](https://discord.gg/MWxPgEp) per richiedere assistenza.
 
 ### "PrepareArm9ForTwl returned error c8804631!"
 
 Dovrai seguire un metodo alternativo. Entra nel [canale Discord di Nintendo Homebrew](https://discord.gg/MWxPgEp) per chiedere assistenza.
 
-### Failed to mount the SD card!
+### Impossibile caricare la scheda SD!
 
-Back up your data and reformat your SD card as FAT32 with the recommended tool depending on your operating system ([Windows](formatting-sd-(windows)), [macOS](formatting-sd-(mac)), [Linux](formatting-sd-(linux))). MiniTool and the HP formatting tool are known to cause issues with 3DS SD cards.
+Effettua il backup dei tuoi dati e riformatta la tua scheda SD come FAT32 con lo strumento consigliato a seconda del sistema operativo ([Windows](formatting-sd-(windows)), [macOS](formatting-sd-(mac)), [Linux](formatting-sd-(linux))). MiniTool e lo strumento di formattazione HP sono noti per causare problemi con schede SD 3DS.
 
-If this is unsuccessful, try using another SD card.
+Se il problema non si risolve, prova ad usare un'altra scheda SD.
 
 ---
 
@@ -266,7 +266,7 @@ I passaggi qui sotto possono essere seguiti in qualsiasi ordine, ma sono elencat
 1. Spegni la tua console, estrai la cartuccia di gioco se inserita, accendi la tua console, quindi attendi fino a dieci minuti. Se la tua console si avvia entro dieci minuti, il problema è stato risolto e probabilmente non avverrà più
 1. Rinomina la cartella `Nintendo 3DS` sulla tua scheda SD in `Nintendo 3DS_BACKUP`, poi tenta l'avvio. Se la tua console si avvia correttamente, c'è qualche problema con la tua cartella `Nintendo 3DS`. Prova a cancellare gli extdata del menu HOME:
 	+ Entra nella cartella `/Nintendo 3DS/<ID0>/<ID1>/extdata/00000000/`
-	+ Delete the extdata file corresponding to your 3DS region: 
+	+ Elimina il file extdata corrispondente alla regione del tuo 3DS: 
 		+ **Regione EUR**: Elimina `00000098`
 		+ **Regione JPN**: Elimina `00000082`
 		+ **Regione USA**: Elimina `0000008f`
@@ -339,14 +339,14 @@ Questo può verificarsi dopo un CTRTransfer o dopo un cambio di regione su Old 3
 
 ---
 
-## Other troubleshooting
+## Risoluzione di problemi ulteriori
 
-### Clear home menu extdata
+### Pulizia degli extdata del menu HOME
 
 1. Spegni il tuo 3DS
 1. Inserisci la scheda SD nel tuo computer
-1. Navigate to the `/Nintendo 3DS/<ID0>/<ID1>/extdata/00000000/` folder on your SD card
-1. Delete the extdata file corresponding to your 3DS region:
+1. Entra nella cartella `/Nintendo 3DS/(ID di 32 caratteri)/(ID di 32 caratteri)/extdata/00000000/` presente all'interno della tua scheda SD
+1. Elimina il file extdata corrispondente alla regione del tuo 3DS:
   + **Regione EUR**: Elimina `00000098`
   + **Regione JPN**: Elimina `00000082`
   + **Regione USA**: Elimina `0000008f`
@@ -355,13 +355,13 @@ Questo può verificarsi dopo un CTRTransfer o dopo un cambio di regione su Old 3
   + **Regione TWN**: Elimina `000000A1`
 1. Reinserisci la scheda SD nella tua console
 
-### Clear home menu theme data
+### Pulizia dei dati dei temi del menu HOME
 
 1. Spegni il tuo 3DS
 1. Inserisci la scheda SD nel tuo computer
-1. Navigate to the following folder on your SD card: /Nintendo 3DS/<ID0>/<ID1>/extdata/00000000/
-2. Delete the corresponding folder for your 3DS region:
-  + **EUR Region**: `000002ce`
-  + **JPN Region**: `000002cc`
-  + **USA Region**: `000002cd`
+1. Vai alla seguente cartella sulla tua scheda SD: /Nintendo 3DS/(ID di 32 caratteri)/(ID di 32 caratteri)/extdata/00000000/
+2. Elimina la cartella corrispondente per la tua regione 3DS:
+  + **Regione EUR**: Elimina `000002ce`
+  + **Regione JPN**: Elimina `000002cc`
+  + **Regione USA**: Elimina `000002cd`
 1. Reinserisci la scheda SD nella tua console
