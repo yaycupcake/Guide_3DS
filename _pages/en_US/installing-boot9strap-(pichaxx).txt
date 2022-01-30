@@ -67,7 +67,7 @@ This method of using Seedminer for further exploitation uses your `movable.sed` 
 
 1. Wait for all safety checks to complete
 1. When prompted, input the key combo given to install boot9strap
-1. Once it has completed, press (A) to reboot your device
+1. Once it has been completed, press (A) to reboot your device
 
 #### Section IV - Configuring Luma3DS
 

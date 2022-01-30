@@ -50,7 +50,7 @@ This method uses a powerful graphics card to perform the calculations needed. A 
   + This is usually fast (1-5 minutes) but in some cases, can take up to half an hour
   + During this process, the bot you added may not show up on your 3DS. As long as the website updates, this is not an issue
   + If you are still waiting after half an hour, join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) and ask (in English) for someone there to assist you
-1. When the process has completed, download your `movable.sed` file from the site
+1. When the process has been completed, download your `movable.sed` file from the site
   + Keep this file as you will need it in the upcoming pages
 
 ___

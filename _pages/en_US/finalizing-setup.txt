@@ -164,7 +164,7 @@ You're done! Custom firmware is now fully configured on your device.
 #### Information and Notes
 
 {% capture notice-6 %}
-Here are some keycombos that you should know:
+Here are some key combos that you should know:
 
 - Holding (Select) on boot will launch the Luma3DS configuration menu.
 - Holding (Start) on boot will launch GodMode9, or if you have multiple payloads in `/luma/payloads/`, the Luma3DS chainloader.

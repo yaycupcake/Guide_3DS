@@ -10,7 +10,7 @@ This page offers troubleshooting advice for commonly encountered issues. If you 
 
 ## Issues with SafeB9SInstaller
 
-### SigHaxed FIRM was not installed! Check lower screen for more info.
+### SigHaxed FIRM was not installed! Check the lower screen for more info.
 
 #### SigHaxed FIRM - File not found
 
@@ -37,7 +37,7 @@ Join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) for assistance, 
 ![]({{ "/images/screenshots/multiple-id0.png" | absolute_url }})
 {: .notice--info}
 
-This occurs when you use your SD card in multiple 3DS devices and is intended to prevent inadvertantly merging data that would not be valid on another devices. To figure out which long folder name is correct for your 3DS, follow these instructions:
+This occurs when you use your SD card in multiple 3DS devices and is intended to prevent inadvertently merging data that would not be valid on other devices. To figure out which long folder name is correct for your 3DS, follow these instructions:
 
 1. Rename the `Nintendo 3DS` folder to `BACKUP_Nintendo 3DS`
 1. Reinsert your SD card into your device and power on your device
@@ -278,7 +278,7 @@ The steps below can be attempted in any order, but are listed from least to most
 	+ Hold (Select)
 	+ Power on your device, while still holding (Select)
 	+ If the "Disable ARM11 exception handlers" box is checked, uncheck it
-	+ If your device now boots to the "An exception occured" screen, follow [My device boots to an error screen](troubleshooting#my-device-boots-to-an-error-screen)
+	+ If your device now boots to the "An exception occurred" screen, follow [My device boots to an error screen](troubleshooting#my-device-boots-to-an-error-screen)
 1. Try booting into recovery mode and updating your system:
 	+ Power off your device
 	+ Hold (Left Shoulder) + (Right Shoulder) + (D-Pad Up) + (A)
@@ -307,14 +307,14 @@ Please take a photo of the error and join [Nintendo Homebrew on Discord](https:/
 
 ### Blue "Bootrom Error" screen
 
-Your device is likely hard-bricked. You will need to buy an ntrboot flashcart to reinstall boot9strap in order to attempt to fix your device. This may also indicate a hardware issue which cannot be fixed. In any case, join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) for assistance.
+Your device is likely hard-bricked. You will need to buy an ntrboot flashcart to reinstall boot9strap in order to attempt to fix your device. This may also indicate a hardware issue that cannot be fixed. In any case, join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) for assistance.
   + It is also possible that someone has set a boot-time splash screen that just looks like a brick. Try leaving your device powered on, waiting on the blue screen, for five minutes.
 
 ---
 
 ## Functionality-related issues on modded devices
 
-### DSi / DS functionality is broken, or has been replaced with Flipnote Studio
+### DSi / DS functionality is broken or has been replaced with Flipnote Studio
 
 1. Download the latest release of [TWLFix-CFW](https://github.com/MechanicalDragon0687/TWLFix-CFW/releases/latest) (the `.3dsx` file)
 1. Power off your device
