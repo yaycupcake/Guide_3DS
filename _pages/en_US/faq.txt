@@ -76,7 +76,7 @@ title: "FAQ"
 **A:** You will need to [dump the updates](dumping-titles-and-game-cartridges) from a 3DS that has the updates installed. The Nintendo eShop only contains updates for the console's region (a Japanese 3DS will only have updates for Japanese games).
 
 <a name="faq_problem" />**Q:** *Help! Something bad happened and now I cannot boot...*    
-**A:** Please look at the [troubleshooting guide](troubleshooting). **Uninstalling CFW, when your device is in an unbootable state, is not recommended, as it is very likely to lead to a brick**.
+**A:** Please look at the [troubleshooting guide](troubleshooting). **Uninstalling CFW when your device is in an unbootable state is not recommended, as it is very likely to lead to a brick**.
 
 # menuhax / A9LH / Gateway FAQ
 
