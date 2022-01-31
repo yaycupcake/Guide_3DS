@@ -13,7 +13,7 @@ This is never the solution to fix any issues you may be encountering with your C
 
 Any unsigned (illegitimate) games will be rendered unusable and should be manually removed before starting this process by using the Data Management section of the System Settings. Use a [save manager](https://github.com/FlagBrew/Checkpoint/releases/latest) to back up any saves for these unsigned (illegitimate) games you care about.
 
-If you have modified critical system software (such as editing the home menu, unbanning your console, region changing, etc.), uninstalling CFW WILL BRICK your device! Ensure that you follow all sections of this page.
+If you have modified critical system software (such as editing the HOME Menu, unbanning your console, region changing, etc.), uninstalling CFW WILL BRICK your device! Ensure that you follow all sections of this page.
 {: .notice--danger}
 
 These instructions will only work on devices with a Luma3DS version of 8.0 or higher. If you have an older version of Luma, you must upgrade your setup before following these instructions. Follow [this page](checking-for-cfw) to find your upgrade instructions.
@@ -73,8 +73,8 @@ The purpose of this section is to verify that the console will boot and that cri
 1. Select "Scripts..."
 1. Select "safety_test"
 1. Read the text on-screen and press (A) to continue
-1. You should boot into the regular 3DS Home Menu (any custom theme is irrelevant). If you do, continue these instructions
-  + If you do not boot into the regular 3DS home menu (black screen, error screen, etc.), uninstalling CFW **WILL BRICK YOUR DEVICE!** 
+1. You should boot into the regular 3DS HOME Menu (any custom theme is irrelevant). If you do, continue these instructions
+  + If you do not boot into the regular 3DS HOME Menu (black screen, error screen, etc.), uninstalling CFW **WILL BRICK YOUR DEVICE!** 
 1. Launch the System Settings Application
 	+ If the console crashes at this point, the test has failed
 1. Select "Other Settings"
@@ -84,7 +84,7 @@ The purpose of this section is to verify that the console will boot and that cri
 	+ If the keyboard does not appear, the screen freezes, or the console crashes, the test has failed
 1. Power off your device
 
-If you do NOT boot into the regular 3DS Home Menu, or System Settings / your keyboard is inaccessible, **DO NOT continue with these instructions**! Join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) and ask (in English) for someone there to assist you.
+If you do NOT boot into the regular 3DS HOME Menu, or System Settings / your keyboard is inaccessible, **DO NOT continue with these instructions**! Join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) and ask (in English) for someone there to assist you.
 {: .notice--danger}  
 
 #### Section IV - NAND Backup

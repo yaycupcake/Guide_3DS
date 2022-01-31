@@ -264,7 +264,7 @@ If you hear a "popping sound", potentially accompanied with the backlight turnin
 The steps below can be attempted in any order, but are listed from least to most time-consuming.
 
 1. Power off your device, eject the game cartridge if inserted, power on your device, then wait up to ten minutes. If your device boots within ten minutes, the issue has been fixed and is unlikely to reoccur
-1. Rename the `Nintendo 3DS` folder on your SD card to `Nintendo 3DS_BACKUP`, then attempt to boot. If your device successfully boots, there is some issue within your `Nintendo 3DS` folder. Try clearing home menu extdata:
+1. Rename the `Nintendo 3DS` folder on your SD card to `Nintendo 3DS_BACKUP`, then attempt to boot. If your device successfully boots, there is some issue within your `Nintendo 3DS` folder. Try clearing HOME Menu extdata:
 	+ Navigate to `/Nintendo 3DS/<ID0>/<ID1>/extdata/00000000/`
 	+ Delete the extdata file corresponding to your 3DS region: 
 		+ **EUR Region**: `00000098`
@@ -341,7 +341,7 @@ This can occur after a CTRTransfer or region change on Old 3DS / 2DS. You will n
 
 ## Other troubleshooting
 
-### Clear home menu extdata
+### Clear HOME Menu extdata
 
 1. Power off your device
 1. Insert your SD card into your computer
@@ -355,7 +355,7 @@ This can occur after a CTRTransfer or region change on Old 3DS / 2DS. You will n
   + **TWN Region**: `000000B1`
 1. Reinsert your SD card into your device
 
-### Clear home menu theme data
+### Clear HOME Menu theme data
 
 1. Power off your device
 1. Insert your SD card into your computer
