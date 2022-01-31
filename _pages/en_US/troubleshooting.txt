@@ -10,7 +10,7 @@ This page offers troubleshooting advice for commonly encountered issues. If you 
 
 ## Issues with SafeB9SInstaller
 
-### SigHaxed FIRM was not installed! Check the lower screen for more info.
+### SigHaxed FIRM was not installed! Check lower screen for more info.
 
 #### SigHaxed FIRM - File not found
 

@@ -53,7 +53,7 @@ To use the [magnet](https://wikipedia.org/wiki/Magnet_URI_scheme) links on this 
 1. Remove the magnet from your device
   + On old 2DS, you should instead disable the sleep mode switch
 1. When prompted, input the key combo given on the top screen to install boot9strap
-1. Once it has been completed, force your device to power off by holding down the power button
+1. Once it is completed, force your device to power off by holding down the power button
   + Your device will only boot to the SafeB9SInstaller screen until the next section is completed
 
 #### Section IV - Configuring Luma3DS
