@@ -129,7 +129,7 @@ Performing a CTRTransfer may break extended memory mode games (Monster Hunter, S
 
 #### Section V - Reinstalling Tickets
 
-If the script found no user tickets told you to skip this section, then skip this section
+If the script found no user tickets and told you to skip this section, you can skip this section.
 {: .notice--info}
 
 1. Launch FBI from the list of homebrew
