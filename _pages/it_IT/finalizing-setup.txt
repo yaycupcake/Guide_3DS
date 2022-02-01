@@ -19,7 +19,7 @@ In questa pagina realizzeremo backup di file di sistema critici e installeremo i
 +  **DSP1** *(permette alle applicazioni homebrew di avere il sonoro)*
 + **ctr-no-timeoffset** *(modifica l'orologio del menu HOME perché corrisponda all'orologio in tempo reale interno)*
 
-È consigliato non saltare il download di alcuna di queste applicazioni, in quanto molte verranno utilizzate successivamente in questa stessa pagina.
+È consigliato non saltare il download di alcuna di queste applicazioni, in quanto molte verranno utilizzate successivamente in questa stessa pagina. Al termine di questa pagina, la scheda SD verrà ripulita rimuovendo i file di installazione non più necessari.
 {: .notice--warning}
 
 Se il tuo **New 3DS** era alla versione del software 2.1.0 prima di seguire questa guida, dovresti [ripristinare il tuo backup NAND](godmode9-usage#restoring-a-nand-backup) prima di continuare.
@@ -62,6 +62,8 @@ Se la tua precedente installazione CFW era basata su EmuNAND e desideri spostare
     {: .notice--info}
     ![]({{ "/images/screenshots/godmode9-location.png" | absolute_url }})
     {: .notice--info}
+
+Questi screenshot indicano la minima struttura che la scheda SD deve avere per proseguire in questa pagina. Potresti avere file o cartelle ulteriori nella tua scheda SD, a seconda della tua precedente configurazione o del metodo che hai seguito.
 
 #### Sezione II - Aggiornare il Sistema
 

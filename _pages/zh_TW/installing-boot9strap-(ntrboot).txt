@@ -23,7 +23,7 @@ title: "安裝 boot9strap (透過 ntrboot)"
 1. 關閉您的主機
 1. 將您主機的 SD 卡插入至電腦中
   + 這指的是 3DS 的 SD 卡，*非*燒錄卡中的 SD 卡
-1. Copy `SafeB9SInstaller.firm` from the SafeB9SInstaller `.zip` to the root of your SD card and rename it to `boot.firm`
+1. 解壓 SafeB9SInstaller `.zip` 中的 `SafeB9SInstaller.firm` 到 SD 卡的根目錄下，並將其重新命名為 `boot.firm`
   + 「SD 卡的根目錄」指的是你的 SD 卡含有 Nintendo 3DS 資料夾的目錄，而非該資料夾內部
 1. 解壓 Luma3DS `.zip` 內的 `boot.firm` 與`boot.3dsx`到 SD 卡的根目錄底下
 1. 在 SD 卡的根目錄底下建立一個新的資料夾 `boot9strap`
@@ -70,8 +70,8 @@ title: "安裝 boot9strap (透過 ntrboot)"
 1. 按『Start』鍵以存檔並重新啟動系統
   + 如果您遇到了錯誤訊息，繼續到下一頁即可
 
-At this point, your console will boot to Luma3DS by default as long as the SD card is inserted.
-  + Luma3DS does not look any different from the normal HOME menu. If your console has booted into the HOME menu, it is running custom firmware.
+在這之後，您的主機會在插入 SD 卡的情況下自動啟動 Luma3DS。
+  + Luma3DS 不會特別在 HOME 主選單中新增任何特別的東西。 如果你的主機已經啟動到了主選單，這代表自製韌體已經在運行了。
   + On the next page, you will copy Luma3DS to internal memory so that you can boot without an SD card.
 
 ___

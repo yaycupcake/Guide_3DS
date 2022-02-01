@@ -74,7 +74,7 @@ Tu consola ya tiene Custom Firmware instalado. Deberías ir a [Comprobación de 
 
 Hay un problema con el archivo `otherapp.bin`. Descarga la última versión de [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest) y coloca el archivo en la raíz de tu tarjeta SD. No añadas manualmente la extensión `.bin` al archivo si ves que no la tiene.
 
-### "Ha ocurrido un error. Mantén pulsado el botón POWER para apagar la consola..." (pantalla negra con texto)
+### "An error has occurred. Mantén pulsado el botón POWER para apagar la consola..." (pantalla negra con texto)
 
 Los archivos `00000001.sav` y/o `otherapp.bin` pueden estar fuera de lugar. Asegúrate de que el archivo `00000001.sav` está en `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `title` -> `00040000` -> `0017c100` -> `data`, y que el archivo `otherapp.bin` está en la raíz de la tarjeta SD.
 
@@ -146,7 +146,7 @@ If this is unsuccessful, try using another SD card.
 
 ### El menú de Gestión de DSiWare crashea sin mostrar el menú de USM
 
-Asegúrate de que el archivo `F00D43D5.bin` es el único archivo presente en `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `Nintendo DSiWare`. Si lo es, entonces vuelve a crear el archivo con [unSAFE_MODE Exploit Injector](https://3ds.nhnarwhal.com/3dstools/unsafemode.php). Si sigue fallando, entonces es posible que se haya instalado y desinstalado Custom Firmware en la consola, de una manera que no permite impide ejecutar este método. En este caso, entra al [Discord de Nintendo Homebrew](https://discord.gg/MWxPgEp) para obtener ayuda.
+Ensure that `F00D43D5.bin` is the only file in `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `Nintendo DSiWare`. Si lo es, entonces vuelve a crear el archivo con [unSAFE_MODE Exploit Injector](https://3ds.nhnarwhal.com/3dstools/unsafemode.php). Si sigue fallando, entonces es posible que se haya instalado y desinstalado Custom Firmware en la consola, de una manera que no permite impide ejecutar este método. En este caso, entra al [Discord de Nintendo Homebrew](https://discord.gg/MWxPgEp) para obtener ayuda.
 
 ---
 
@@ -154,7 +154,7 @@ Asegúrate de que el archivo `F00D43D5.bin` es el único archivo presente en `Ni
 
 ### El menú de Gestión de DSiWare no crashea
 
-Falta el archivo `F00D43D5.bin` en la carpeta `Nintendo 3DS` -> `<ID0>` `<ID1>` -> `Nintendo DSiWare`. Asegúrate de que `Nintendo DSiWare` está correctamente escrito y espaciado. Las mayúsculas/minúsculas no importan.
+`F00D43D5.bin` is missing from `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `Nintendo DSiWare`. Asegúrate de que `Nintendo DSiWare` está correctamente escrito y espaciado. Las mayúsculas/minúsculas no importan.
 
 ### Gestión de DSiWare muestra un signo de interrogación
 
@@ -162,7 +162,7 @@ Puede haber un problema con el archivo `F00D43D5.bin` (puede estar corrupto o pr
 
 ### El menú de Gestión de DSiWare crashea sin mostrar la pantalla morada
 
-Asegúrate de que el archivo `F00D43D5.bin` es el único archivo presente en `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `Nintendo DSiWare`. Si lo es, entonces vuelve a crear el archivo con [BannerBomb3](https://3ds.nhnarwhal.com/3dstools/bannerbomb3.php). Si sigue fallando, entonces es posible que se haya instalado y desinstalado Custom Firmware en la consola, de una manera que no permite impide ejecutar este método. En este caso, entra al [Discord de Nintendo Homebrew](https://discord.gg/MWxPgEp) para obtener ayuda.
+Ensure that `F00D43D5.bin` is the only file in `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `Nintendo DSiWare`. Si lo es, entonces vuelve a crear el archivo con [BannerBomb3](https://3ds.nhnarwhal.com/3dstools/bannerbomb3.php). Si sigue fallando, entonces es posible que se haya instalado y desinstalado Custom Firmware en la consola, de una manera que no permite impide ejecutar este método. En este caso, entra al [Discord de Nintendo Homebrew](https://discord.gg/MWxPgEp) para obtener ayuda.
 
 ---
 
@@ -174,7 +174,7 @@ Asegúrate de que tu archivo `movable.sed` y la copia de seguridad de DSiWare pr
 
 ### "Haxxxxxxxxx!" no aparece en la pantalla
 
-Hay un problema con el archivo `42383821.bin` (es incorrecto, no está presente, está mal colocado o está corrupto). Vuelve a crear tus archivos con el sitio web de [Fredtool](https://3ds.nhnarwhal.com/3dstools/fredtool.php) y asegúrate de colocar el archivo `42383821.bin` presente en `output.zip` -> `hax` en la ruta `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `Nintendo DSiWare`.
+Hay un problema con el archivo `42383821.bin` (es incorrecto, no está presente, está mal colocado o está corrupto). Re-create your files with the [Fredtool](https://3ds.nhnarwhal.com/3dstools/fredtool.php) website and ensure that you place the `42383821.bin` file from `output.zip` -> `hax` in `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `Nintendo DSiWare`.
 
 ### El menú de Conexiones de Nintendo DS inicia normalmente
 
@@ -296,10 +296,10 @@ Tu versión de Luma3DS está desactualizada. Descarga la última versión de [Lu
 #### "Ha ocurrido un error. Mantén pulsado el botón POWER para apagar la consola."
 
 Tienes activada la opción "Disable ARM11 exception handlers", o directamente no tienes custom firmware instalado. Intenta activar las excepciones de ARM11:
-	+ Apaga tu consola
-	+ Mantén presionado (Select)
-	+ Enciende la consola mientras mantienes presionado (Select)
-	+ Si la opción "Disable ARM11 exception handlers" está marcada, desmárcala
+  + Apaga tu consola
+  + Mantén presionado (Select)
+  + Enciende la consola mientras mantienes presionado (Select)
+  + Si la opción "Disable ARM11 exception handlers" está marcada, desmárcala
 
 #### Otro error
 
@@ -359,7 +359,7 @@ Esto puede ocurrir después de un CTRTransfer o al cambiar de región en Old 3DS
 
 1. Apaga tu consola
 1. Inserta tu tarjeta SD en tu computadora
-1. Navigate to the following folder on your SD card: /Nintendo 3DS/<ID0>/<ID1>/extdata/00000000/
+1. Navigate to the `/Nintendo 3DS/<ID0>/<ID1>/extdata/00000000/` folder on your SD card
 2. Delete the corresponding folder for your 3DS region:
   + **EUR Region**: `000002ce`
   + **JPN Region**: `000002cc`
