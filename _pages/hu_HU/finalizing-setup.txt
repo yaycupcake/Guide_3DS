@@ -19,7 +19,7 @@ Ezen az oldalon kritikus rendszer mentéseket fogunk csinálni és a következő
 +  **DSP1** *(lehetővé teszi a homebrew applikációk számára a hangot)*
 + **ctr-no-timeoffset** *(beállítja, hogy a kezdőlap órája megegyezzen a rendszer valós idejű órájával)*
 
-Nem ajánlott ezeket az alkalmazásokat nem letölteni, mert mindegyik még használva lesz ezen az oldalon.
+Nem ajánlott ezeket az alkalmazásokat nem letölteni, mert mindegyik még használva lesz ezen az oldalon. Ennek az oldalnak a végén az SD kártyádról el lesznek távolítva a felesleges telepítő fájlok.
 {: .notice--warning}
 
 Ha az **új 3DS** konzolod a 2.1.0 firmware-en volt, a [NAND-ról készült bizonsági másolatot állítsd vissza](godmode9-usage#nand-ról-készült-bizonsági-másolat-visszaállítása) mielőtt tovább mennél.
@@ -62,6 +62,8 @@ Ha az előző egyedi firmware rendszered EmuNAND alapú volt és szeretnéd az E
     {: .notice--info}
     ![]({{ "/images/screenshots/godmode9-location.png" | absolute_url }})
     {: .notice--info}
+
+Ezek a képernyőképek mutatják az SD kártya minimális elrendezését ahhoz, hogy ezt az útmutatót követni tudd. Lehetnek extra fájljaid és mappáid az SD kártyádon, függően a korábbi telepítésedtől vagy metódustól, amit követtél.
 
 #### II. rész - A rendszer frissítése
 
@@ -172,8 +174,8 @@ Néhány billentyű kombináció amit ismerned kell:
 
 <div class="notice--info">{{ notice-6 | markdownify }}</div>
 
-See [here](https://3ds.eiphax.tech/tips.html) for some suggestions on things to do with custom firmware.
+Nézd meg [ezt](https://3ds.eiphax.tech/tips.html) ötletekért, hogy mit tudsz csinálni az egyedi firmware-rel.
 {: .notice--info}
 
-For information on using GodMode9's various features, check out the [GodMode9 Usage](godmode9-usage) and [Dumping Titles and Game Cartridges](dumping-titles-and-game-cartridges) pages.
+Információkért a GodMode9 különféle funkcióiról olvasd el a [GodMode9 használata](godmode9-usage) és a [Címek és Játék Cartridge-ek dumpolása](dumping-titles-and-game-cartridges) című leírásokat.
 {: .notice--info}

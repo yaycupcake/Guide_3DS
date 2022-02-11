@@ -74,7 +74,7 @@ This occurs when you use your SD card in multiple 3DS devices and is intended to
 
 这说明你放的 `otherapp.bin` 文件有问题。 下载最新版本的 [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest) 并将其放在你 SD 卡的根目录中。 不要在没有看到 `.bin` 后缀的时候手动重命名它。
 
-### “An error has occurred. Hold down the POWER button to turn off the power..."（黑屏，下屏显示白底的文字）
+### "An error has occurred. Hold down the POWER button to turn off the power..."（黑屏，下屏显示白底的文字）
 
 你可能把 `00000001.sav` 和（或者） `otherapp.bin` 文件的位置搞错了。 确保 `00000001.sav` 放在了 `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `title` -> `00040000` -> `0017c100` -> `data` 中，`otherapp.bin` 放在了 SD 卡的根目录中。
 
@@ -146,7 +146,7 @@ This occurs when you use your SD card in multiple 3DS devices and is intended to
 
 ### DSiWare 数据管理菜单崩溃，而非跳转至 USM 菜单
 
-确保 `F00D43D5.bin` 是 `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `Nintendo DSiWare` 里面的唯一文件。 如果确定没问题的话，尝试重新使用 [unSAFE_MODE 漏洞注入器](https://3ds.nhnarwhal.com/3dstools/unsafemode.php)重新创建文件。 如果还是不行，则可能是因为自制固件在此主机上被卸载过一次，从而导致此方法失效。 如果是这样，请加入 [Nintendo Homebrew Discord 服务器](https://discord.gg/MWxPgEp)以寻求帮助。
+Ensure that `F00D43D5.bin` is the only file in `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `Nintendo DSiWare`. 如果确定没问题的话，尝试重新使用 [unSAFE_MODE 漏洞注入器](https://3ds.nhnarwhal.com/3dstools/unsafemode.php)重新创建文件。 如果还是不行，则可能是因为自制固件在此主机上被卸载过一次，从而导致此方法失效。 如果是这样，请加入 [Nintendo Homebrew Discord 服务器](https://discord.gg/MWxPgEp)以寻求帮助。
 
 ---
 
@@ -154,7 +154,7 @@ This occurs when you use your SD card in multiple 3DS devices and is intended to
 
 ### DSiWare 数据管理没有崩溃
 
-`F00D43D5.bin` 没有放进 `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `Nintendo DSiWare`。 请确保 `Nintendo DSiWare` 拼写和空格位置正确。 不区分大小写。
+`F00D43D5.bin` is missing from `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `Nintendo DSiWare`. 请确保 `Nintendo DSiWare` 拼写和空格位置正确。 不区分大小写。
 
 ### DSiWare 数据管理里面显示了一个问号图标的程序
 
@@ -162,7 +162,7 @@ This occurs when you use your SD card in multiple 3DS devices and is intended to
 
 ### DSiWare 数据管理菜单没有闪烁紫屏就崩溃了
 
-确保 `F00D43D5.bin` 是 `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `Nintendo DSiWare` 里面的唯一文件。 如果确定没问题的话，尝试重新使用 [BannerBomb3 tool](https://3ds.nhnarwhal.com/3dstools/bannerbomb3.php) 重新创建文件。 如果还是不行，则可能是因为自制固件在此主机上被卸载过一次，从而导致此方法失效。 如果是这样，请加入 [Nintendo Homebrew Discord 服务器](https://discord.gg/MWxPgEp)以寻求帮助。
+Ensure that `F00D43D5.bin` is the only file in `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `Nintendo DSiWare`. 如果确定没问题的话，尝试重新使用 [BannerBomb3 tool](https://3ds.nhnarwhal.com/3dstools/bannerbomb3.php) 重新创建文件。 如果还是不行，则可能是因为自制固件在此主机上被卸载过一次，从而导致此方法失效。 如果是这样，请加入 [Nintendo Homebrew Discord 服务器](https://discord.gg/MWxPgEp)以寻求帮助。
 
 ---
 
@@ -174,7 +174,7 @@ This occurs when you use your SD card in multiple 3DS devices and is intended to
 
 ### 没有出现 “Haxxxxxxxxx!”
 
-你放的 `42383821.bin` 文件有问题（丢失、放错位置或者损坏）。 使用 [Fredtool](https://3ds.nhnarwhal.com/3dstools/fredtool.php) 重新创建文件，确保 `42383821.bin` 是从 `output.zip` -> `hax` 取出来的，且放在了 `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `Nintendo DSiWare` 中。
+你放的 `42383821.bin` 文件有问题（丢失、放错位置或者损坏）。 Re-create your files with the [Fredtool](https://3ds.nhnarwhal.com/3dstools/fredtool.php) website and ensure that you place the `42383821.bin` file from `output.zip` -> `hax` in `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `Nintendo DSiWare`.
 
 ### DS 连接设置正常启动了
 
@@ -297,10 +297,10 @@ This occurs when you use your SD card in multiple 3DS devices and is intended to
 #### “An error has occurred. Hold down the POWER button to turn off the power...”
 
 ARM11 异常处理器已被禁用，或主机未安装自制固件。 尝试启用 ARM11 异常处理器：
-	+ 将主机关机
-	+ 按住 “Select” 键
-	+ 在按住 “Select” 键的同时按下电源键开机
-	+ 如果 “ARM11 exception handlers disabled” 已被勾选，则请取消勾选它
+  + 将主机关机
+  + 按住 “Select” 键
+  + 在按住 “Select” 键的同时按下电源键开机
+  + 如果 “ARM11 exception handlers disabled” 已被勾选，则请取消勾选它
 
 #### 其他错误
 
@@ -360,7 +360,7 @@ ARM11 异常处理器已被禁用，或主机未安装自制固件。 尝试启�
 
 1. 将主机关机
 1. 将你的 SD 卡插入到电脑
-1. 按顺序依次进入你 SD 卡内的文件夹：/Nintendo 3DS/<ID0>/<ID1>/extdata/00000000/
+1. 打开你 SD 卡的 `/Nintendo 3DS/<ID0>/<ID1>/extdata/00000000/` 文件夹
 2. 删除对应你的 3DS 区域的文件夹：
   + **欧版**：`000002ce`
   + **日版**：`000002cc`
