@@ -28,7 +28,7 @@ Ez a módszer egy erős grafikus kártyát használ a szükséges számítások 
   + Ez a mappa "ID0" néven is ismert
 1. Kapcsold be a készülékedet
   + Az SD kártyádnak nem kell behelyzve lennie ennél a pontnál
-1. Válaszd a Friend List opciót (a [narancsszínű fej ikon]({{ "/images/friend-list-icon.png" | absolute_url }}) a Home Menu felső sávján)
+1. Válaszd a Friend List opciót (a [narancsszínű fej ikon]({{ "/images/friend-list-icon.png" | absolute_url }}) a HOME Menü felső sávján)
   + Ha hibaüzenetet kapsz, és visszadob a menübe, vagy új Mii-t kell csinálnod, vagy a konzolod nem tud csatlakozni a Nintendo szervereihez (kitiltás, vagy kapcsolódási hiba miatt)
 1. Keresd meg a Mii profilodat, ott találod a "Friend Code" mezőt a felső képernyőn
 

@@ -96,7 +96,7 @@ Un CTRTransfer potrebbe rendere inutilizzabili i giochi in modalità memoria est
 
 #### Sezione IV - Ripristino dei Ticket
 
-Se lo script non ha trovato alcun ticket dell'utente, salta questa sezione
+Se lo script non ha trovato alcun ticket dell'utente, puoi saltare questa sezione.
 {: .notice--info}
 
 1. Avvia FBI dalla lista degli homebrew disponibili

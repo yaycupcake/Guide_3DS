@@ -4,7 +4,7 @@ title: "疑難排解"
 
 {% include toc title="條目內容" %}
 
-This page offers troubleshooting advice for commonly encountered issues. If you are unable to solve your issue with the advice on this page, please join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) and describe your issue, including what you have already tried.
+本頁提供常見問題的疑難解答及建議。 如果您無法透過本頁解決你的問題，請加入 [Discord 上的 Nintendo Homebrew 伺服器](https://discord.gg/MWxPgEp)，並以英文敘述你的問題，以及您已經嘗試過的步驟。
 
 ---
 
@@ -22,11 +22,11 @@ This page offers troubleshooting advice for commonly encountered issues. If you 
 
 #### Secret Sector - File not found
 
-你忘記把 `secret_sector.firm` 放進 SD 卡根目錄的 `boot9strap` 資料夾了，或是創建 `boot9strap` 資料夾的時候打錯了名字。 用 BT 下載 [secret_sector.bin](magnet:?xt=urn:btih:15a3c97acf17d67af98ae8657cc66820cc58f655&dn=secret_sector.bin&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2ftracker.lelux.fi%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.loadbt.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.monitorit4.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.ololosh.space%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.pomf.se%3a80%2fannounce&tr=udp%3a%2f%2ftracker.srv00.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.theoks.net%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2fopen.tracker.cl%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.zerobytes.xyz%3a1337%2fannounce&tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&tr=udp%3a%2f%2fvibe.sleepyinternetfun.xyz%3a1738%2fannounce&tr=udp%3a%2f%2fwww.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce&tr=http%3a%2f%2fopenbittorrent.com%3a80%2fannounce)，並將其放至 `boot9strap` 資料夾中。
+You are missing `secret_sector.bin` from the `boot9strap` folder, or the `boot9strap` folder is misnamed. 用 BT 下載 [secret_sector.bin](magnet:?xt=urn:btih:15a3c97acf17d67af98ae8657cc66820cc58f655&dn=secret_sector.bin&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2ftracker.lelux.fi%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.loadbt.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.monitorit4.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.ololosh.space%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.pomf.se%3a80%2fannounce&tr=udp%3a%2f%2ftracker.srv00.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.theoks.net%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2fopen.tracker.cl%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.zerobytes.xyz%3a1337%2fannounce&tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&tr=udp%3a%2f%2fvibe.sleepyinternetfun.xyz%3a1738%2fannounce&tr=udp%3a%2f%2fwww.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce&tr=http%3a%2f%2fopenbittorrent.com%3a80%2fannounce)，並將其放至 `boot9strap` 資料夾中。
 
 #### 其他
 
-Join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) for assistance, and describe the message that you see.
+請在 [Discord 上的 Nintendo Homebrew 伺服器](https://discord.gg/MWxPgEp)以英文尋求協助，並敘述您所看到的錯誤訊息。
 
 ---
 
@@ -37,18 +37,18 @@ Join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) for assistance, 
 ![]({{ "/images/screenshots/multiple-id0.png" | absolute_url }})
 {: .notice--info}
 
-This occurs when you use your SD card in multiple 3DS devices and is intended to prevent inadvertantly merging data that would not be valid on another devices. To figure out which long folder name is correct for your 3DS, follow these instructions:
+This occurs when you use your SD card in multiple 3DS devices and is intended to prevent inadvertently merging data that would not be valid on other devices. 若要確定哪個資料夾屬於您 3DS 的，請按照以下說明操作：
 
-1. Rename the `Nintendo 3DS` folder to `BACKUP_Nintendo 3DS`
-1. Reinsert your SD card into your device and power on your device
-1. Wait for the device to generate the SD card data
-	+ Your applications will have disappeared. This is normal and will be resolved shortly
-1. Power off your device and reinsert your SD card into your computer
+1. 將 `Nintendo 3DS` 資料夾重新命名為 `BACKUP_Nintendo 3DS`
+1. 將您的 SD 卡插回至您的裝置中並開機
+1. 等待您的裝置生成 SD 卡中的資料
+	+ 您先前所安裝的應用程式會暫時消失。 這是正常的，且待會就會恢復正常。
+1. 關機並將 SD 卡插回電腦中
 1. 移動至 SD 卡的 `Nintendo 3DS` 資料夾中
 1. 複製含有 32 字元的資料夾的名稱
-	+ This is your true ID0 that you will use in [Section II of Seedminer](seedminer#section-ii---seedminer)
+	+ 這也就是您裝置的 ID0 序號，可適用於 [Seedminer 第二章節部分的步驟](seedminer#section-ii---seedminer)
 1. 刪除 `Nintendo 3DS` 資料夾
-1. Rename the `BACKUP_Nintendo 3DS` folder to `Nintendo 3DS`
+1. 將 `BACKUP_Nintendo 3DS` 資料夾重新命名為 `Nintendo 3DS`
 
 ### Bruteforce Movable 直接跳到了 Step 4
 
@@ -70,15 +70,15 @@ The website has determined that your `movable.sed` cannot be brute-forced. Ensur
 
 你的主機已經破解過了。 請先[檢查是否已安裝自製韌體](checking-for-cfw) 。
 
-### “An error has occurred, forcing the software to close...”（螢幕下方出現強制關閉程式的訊息框）
+### 『An error has occurred, forcing the software to close...』（出現白色的訊息框）
 
-這代表您所使用的 `otherapp.bin` 檔案有問題。 下載最新版本的 [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest) 並將其放在你 SD 卡的根目錄中。 Do not add the `.bin` extension if you do not already see it.
+這代表您所使用的 `otherapp.bin` 檔案有問題。 下載最新版本的 [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest) 並將其放在你 SD 卡的根目錄中。 如果您的電腦沒有顯示 `.bin` 的副檔名，請勿手動新增。
 
-### "An error has occurred. Hold down the POWER button to turn off the power..." (black screen with text)
+### 『An error has occurred. Hold down the POWER button to turn off the power...』(螢幕出現黑屏及上述訊息)
 
 Your `00000001.sav` and/or `otherapp.bin` files may be misplaced. Ensure that `00000001.sav` is in `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `title` -> `00040000` -> `0017c100` -> `data` and that `otherapp.bin` is on the root of your SD card.
 
-If your files are in the correct locations, re-create the save using the [PicHaxx Save Tool](https://3ds.nhnarwhal.com/3dstools/pichaxx.php), then place it in `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `title` -> `00040000` -> `0017c100` -> `data`. 確保它是用你主機的 `movable.sed` 檔案建立的，且檔案已經準確命名為了 `00000001.sav`。 Re-download the latest release of [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest) and place it on the root of your SD card. Do not add the `.bin` extension if you do not already see it.
+If your files are in the correct locations, re-create the save using the [PicHaxx Save Tool](https://3ds.nhnarwhal.com/3dstools/pichaxx.php), then place it in `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `title` -> `00040000` -> `0017c100` -> `data`. 確保它是用你主機的 `movable.sed` 檔案建立的，且檔案已經準確命名為了 `00000001.sav`。 Re-download the latest release of [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest) and place it on the root of your SD card. 如果您的電腦沒有顯示 `.bin` 的副檔名，請勿手動新增。
 
 ### 遊戲正常啟動了
 
@@ -86,11 +86,11 @@ Your modified `00000001.sav` file may be misplaced, or you may have used the wro
 
 ### 出現『Failed to open SafeB9SInstaller.bin』的錯誤訊息
 
-The file `SafeB9SInstaller.bin` is missing or misplaced. 下載最新版本的 [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/tag/v0.0.7) 並將其放在你 SD 卡的根目錄中。 Do not add the `.bin`extension if you do not already see it.
+The file `SafeB9SInstaller.bin` is missing or misplaced. 下載最新版本的 [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/tag/v0.0.7) 並將其放在你 SD 卡的根目錄中。 如果您的電腦沒有顯示 `.bin` 的副檔名，請勿手動新增。
 
 ### 卡在『Doing agbhax...』的步驟
 
-There may be an issue with your `otherapp.bin` file. 下載最新版本的 [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest) 並將其放在你 SD 卡的根目錄中。 Do not add the `.bin` extension if you do not already see it.
+There may be an issue with your `otherapp.bin` file. 下載最新版本的 [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest) 並將其放在你 SD 卡的根目錄中。 如果您的電腦沒有顯示 `.bin` 的副檔名，請勿手動新增。
 
 ### "PrepareArm9ForTwl returned error c8804631!"
 
@@ -98,9 +98,9 @@ You will need to follow an alternate method, like [Installing boot9strap (USM)](
 
 ### 無法掛載 SD 卡（Failed to mount the SD card!）
 
-Back up your data and reformat your SD card as FAT32 with the recommended tool depending on your operating system ([Windows](formatting-sd-(windows)), [macOS](formatting-sd-(mac)), [Linux](formatting-sd-(linux))). MiniTool and the HP formatting tool are known to cause issues with 3DS SD cards.
+Back up your data and reformat your SD card as FAT32 with the recommended tool depending on your operating system ([Windows](formatting-sd-(windows)), [macOS](formatting-sd-(mac)), [Linux](formatting-sd-(linux))). MiniTool 及 HP 格式化工具為已知可能會造成 3DS SD 卡相關問題的工具。
 
-If this is unsuccessful, try using another SD card.
+若仍無法正常使用，請試著使用另一張 SD 卡。
 
 ---
 
@@ -108,13 +108,13 @@ If this is unsuccessful, try using another SD card.
 
 ### 跑 Soundhax 時出現紅/紫/粉/白屏
 
-If your device is on system version 9.4.0, 9.5.0, or 9.6.0, you may be encountering a bug with universal-otherapp. Follow [Homebrew Launcher (Soundhax)](homebrew-launcher-(soundhax)) instead.
+如果你的主機系統版本在 9.4.0、9.5.0 和 9.6.0 之間，則你可能是遇到了 universal-otherapp 的一個 bug，請使用[啟動 Homebrew Launcher（透過 Soundhax）](homebrew-launcher-(soundhax)) 替代方法安裝自製韌體。
 
-If your device is not on those firmwares, it likely indicates that you already have custom firmware. 請先[檢查是否已安裝自製韌體](checking-for-cfw) 。
+如果你的系統版本沒有在這個區間中，則你的主機可能已經安裝過了自製韌體。 請先[檢查是否已安裝自製韌體](checking-for-cfw) 。
 
-### “An error has occurred, forcing the software to close...”（螢幕下方出現強制關閉程式的訊息框）
+### 『An error has occurred, forcing the software to close...』（出現白色的訊息框）
 
-There is an issue with your `otherapp.bin` file (it is missing, misplaced, or corrupted). 下載最新版本的 [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest) 並將其放在你 SD 卡的根目錄中。
+您所使用的 `otherapp.bin` 檔案有問題（如遺失、放錯位置或者損壞）。 下載最新版本的 [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest) 並將其放在你 SD 卡的根目錄中。
 
 ### 出現『Could not play』的錯誤訊息
 
@@ -122,7 +122,7 @@ You have the wrong Soundhax file for your device and region, or your device is i
 
 ### 出現『Failed to open SafeB9SInstaller.bin』的錯誤訊息
 
-The file `SafeB9SInstaller.bin` is missing or misplaced. 下載最新版本的 [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/tag/v0.0.7) 並將其放在你 SD 卡的根目錄中。 Do not add the `.bin`extensoin if you do not already see it.
+`SafeB9SInstaller.bin` 檔案遺失或放在了錯誤的位置。 下載最新版本的 [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/tag/v0.0.7) 並將其放在你 SD 卡的根目錄中。 如果您的電腦沒有顯示 `.bin` 的副檔名，請勿手動新增。
 
 ### 卡在『Doing agbhax...』的步驟
 
@@ -136,9 +136,9 @@ You will need to follow an alternate method. Join [Nintendo Homebrew on Discord]
 
 ### 無法掛載 SD 卡（Failed to mount the SD card!）
 
-Back up your data and reformat your SD card as FAT32 with the recommended tool depending on your operating system ([Windows](formatting-sd-(windows)), [macOS](formatting-sd-(mac)), [Linux](formatting-sd-(linux))). MiniTool and the HP formatting tool are known to cause issues with 3DS SD cards.
+Back up your data and reformat your SD card as FAT32 with the recommended tool depending on your operating system ([Windows](formatting-sd-(windows)), [macOS](formatting-sd-(mac)), [Linux](formatting-sd-(linux))). MiniTool 及 HP 格式化工具為已知可能會造成 3DS SD 卡相關問題的工具。
 
-If this is unsuccessful, try using another SD card.
+若仍無法正常使用，請試著使用另一張 SD 卡。
 
 ---
 
@@ -158,7 +158,7 @@ If this is unsuccessful, try using another SD card.
 
 ### DSiWare 資料管理選單裡面出現了一個問號圖案的程式
 
-您所使用的 `F00D43D5.bin` 檔案可能有問題（損壞或用於錯誤的 3DS 主機）。 使用 [BannerBomb3 Tool](https://3ds.nhnarwhal.com/3dstools/bannerbomb3.php) 重新創建 `F00D43D5.bin` 檔案，且確保您所使用的 `movable.sed` 檔案是你這台主機的。
+您所使用的 `F00D43D5.bin` 檔案可能有問題（損壞或用於錯誤的 3DS 主機）。 Re-create your `F00D43D5.bin` file with the [BannerBomb3 tool](https://3ds.nhnarwhal.com/3dstools/bannerbomb3.php), ensuring that you use the `movable.sed` file for your console.
 
 ### DSiWare 資料管理選單沒有閃爍紫屏就當機了
 
@@ -264,7 +264,7 @@ If this is unsuccessful, try using another SD card.
 以下是可以嘗試的解決方法，按最省時到最耗時的順序排列。
 
 1. 將主機強制關機，如果有遊戲卡帶請將其拔出，並再次開機，等待約十分鐘左右。 如果您的主機在十分鐘內成功開機，那就代表這個問題已經自行修復了，且不太可能會再次發生
-1. 將 SD 卡上的 `Nintendo 3DS` 資料夾重命名為 `Nintendo 3DS_BACKUP`，然後試著開機。 如果成功開機了，則 `Nintendo 3DS` 資料夾中的內容是有問題的。 試試看刪除 HOME 主選單的外存 (extdata)：
+1. 將 SD 卡上的 `Nintendo 3DS` 資料夾重命名為 `Nintendo 3DS_BACKUP`，然後試著開機。 如果成功開機了，則 `Nintendo 3DS` 資料夾中的內容是有問題的。 Try clearing HOME Menu extdata:
 	+ 移動至 `/Nintendo 3DS/<ID0>/<ID1>/extdata/00000000/`
 	+ 依照您的 3DS 區域刪除下列外存檔案: 
 		+ **歐版**: `00000098`
@@ -278,7 +278,7 @@ If this is unsuccessful, try using another SD card.
 	+ 按住「Select」鍵
 	+ 在開機時按住「Select」鍵
 	+ 如果『ARM11 exception handlers disabled』已被勾選，請取消勾選
-	+ 如果現在開機出現『An exception occured』的錯誤訊息，請按照 [主機開機發生錯誤](troubleshooting#my-device-boots-to-an-error-screen) 的疑難排解進行操作
+	+ If your device now boots to the "An exception occurred" screen, follow [My device boots to an error screen](troubleshooting#my-device-boots-to-an-error-screen)
 1. 試試看透過還原模式更新您的系統:
 	+ 關閉您的主機
 	+ 按住「L」鍵 +「R」鍵 +「上」鍵 +「A」鍵
@@ -307,14 +307,14 @@ ARM11 異常處理器已被關閉，或主機尚未安裝自製韌體。 試著�
 
 ### 出現『Bootrom Error』的錯誤藍屏
 
-Your device is likely hard-bricked. You will need to buy an ntrboot flashcart to reinstall boot9strap in order to attempt to fix your device. This may also indicate a hardware issue which cannot be fixed. In any case, join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) for assistance.
-  + It is also possible that someone has set a boot-time splash screen that just looks like a brick. Try leaving your device powered on, waiting on the blue screen, for five minutes.
+您的主機可能已被硬磚。 您得需要購買一張附有 ntrboot 的燒錄卡來重新安裝 boot9strap 以便嘗試修復您的主機。 This may also indicate a hardware issue that cannot be fixed. 不論如何，請加入 [Discord 上的 Nintendo Homebrew 伺服器](https://discord.gg/MWxPgEp) 尋求幫助。
+  + 也有可能是有人惡作劇，把您主機的開機畫面改成像是磚機的畫面。 請試著將您的主機開機，並留置個五分鐘。
 
 ---
 
 ## 改機後出現主機功能相關的問題
 
-### DSi / DS 功能損壞，或變成了 Flipnote Studio
+### DSi / DS functionality is broken or has been replaced with Flipnote Studio
 
 1. * 下載最新版的 [TWLFix-CFW](https://github.com/MechanicalDragon0687/TWLFix-CFW/releases/latest) *(`.3dsx` 檔案)*
 1. 關閉您的主機
@@ -341,7 +341,7 @@ Your device is likely hard-bricked. You will need to buy an ntrboot flashcart to
 
 ## 其他疑難排解
 
-### 清除 Home 選單外存
+### Clear HOME Menu extdata
 
 1. 關閉您的主機
 1. 將 SD 卡插入至電腦中
@@ -355,7 +355,7 @@ Your device is likely hard-bricked. You will need to buy an ntrboot flashcart to
   + **台灣版**: `000000B1`
 1. 將 SD 卡插回主機中
 
-### 清除 Home 選單主題資料
+### Clear HOME Menu theme data
 
 1. 關閉您的主機
 1. 將 SD 卡插入至電腦中

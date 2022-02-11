@@ -4,7 +4,7 @@ title: "Finalizing Setup"
 
 {% include toc title="Table of Contents" %}
 
-### Obligatorisk läsning
+### Required Reading
 
 The file `boot.firm` is what is launched by boot9strap itself after it finishes loading off of NAND. In this case, we are using Luma3DS by [LumaTeam](https://github.com/LumaTeam/) to patch the device, allowing it to run homebrew software.
 
@@ -17,7 +17,7 @@ On this page, we will make critical system file backups and install the followin
 +  **GodMode9** *(multipurpose tool which can do NAND and cartridge functions)*
 +  **Homebrew Launcher Loader** *(launches the Homebrew Launcher)*
 +  **DSP1** *(allows homebrew applications to have sound)*
-+  **ctr-no-timeoffset** *(sets the Home Menu time to match the internal Real-Time Clock)*
++  **ctr-no-timeoffset** *(sets the HOME Menu time to match the internal Real-Time Clock)*
 
 It is not recommended to skip downloading any of these applications, as many of them will be used later on this page. At the end of this page, your SD card will be cleaned up by removing unnecessary installation files.
 {: .notice--warning}
@@ -164,7 +164,7 @@ You're done! Custom firmware is now fully configured on your device.
 #### Information and Notes
 
 {% capture notice-6 %}
-Here are some keycombos that you should know:
+Here are some key combos that you should know:
 
 - Holding (Select) on boot will launch the Luma3DS configuration menu.
 - Holding (Start) on boot will launch GodMode9, or if you have multiple payloads in `/luma/payloads/`, the Luma3DS chainloader.

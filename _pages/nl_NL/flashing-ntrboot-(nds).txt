@@ -2,7 +2,7 @@
 title: "Flashing ntrboot (NDS)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Inhoudsopgave" %}
 
 ### Required Reading
 
@@ -10,7 +10,7 @@ Before proceeding, ensure you have read all of the information on [ntrboot](ntrb
 
 This method requires temporary access to a Nintendo DS or Nintendo DS Lite that is compatible with your flashcart. This method uses the flashcart to run the ntrboot flasher `.nds` file on your NDS.
 
-Note that in some rare circumstances, it may be possible for the flashing process to **brick** a counterfeit flashcart and render it permanently unusable. This is unlikely, but nevertheless only original listed flashcarts are supported. To reduce the chance of receiving a counterfeit card, it is recommended that you use a reputable site to buy your flashcart (such as [NDS Card](http://www.nds-card.net/))
+Note that in some rare circumstances, it may be possible for the flashing process to **brick** a counterfeit flashcart and render it permanently unusable. This is unlikely, but nevertheless, only original listed flashcarts are supported. To reduce the chance of receiving a counterfeit card, it is recommended that you use a reputable site to buy your flashcart (such as [NDS Card](http://www.nds-card.net/))
 {: .notice--danger}
 
 ### What You Need
@@ -22,7 +22,7 @@ Note that in some rare circumstances, it may be possible for the flashing proces
 * The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/download/1.3/boot9strap-1.3-ntr.zip) 
 * The latest release of [ntrboot_flasher_nds](https://github.com/jason0597/ntrboot_flasher_nds/releases/latest)
 
-### Instructions
+### Instructies
 
 #### Section I - Prep Work
 

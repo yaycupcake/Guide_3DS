@@ -2,7 +2,7 @@
 title: "Dumping Titles and Game Cartridges"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Inhoudsopgave" %}
 
 For support (in English) with GodMode9, as well as help with scripting and to get updates and info, join [GodMode9 on Discord](https://discord.gg/BRcbvtFxX4).
 {: .notice--primary}
@@ -20,7 +20,7 @@ These instructions are written for use with GodMode9 v2.0.0 or later. If you hav
 
 * The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 
-### Instructions
+### Instructies
 
 1. Schakel je 3ds uit
 1. Plaats je SD kaart in je computer
@@ -92,7 +92,7 @@ The game will be outputted to the `/gm9/out/` folder on your SD card with the na
 To identify a `<TitleID>.gbavc.sav` file's Title ID, you can get a listing of all games on the system and their corresponding Title IDs by pressing (Home) to bring up the action menu, selecting `Title manager`, and selecting `[A:] SD CARD`.
 {: .notice--info}
 
-1. Doe het volgende proces voor elk GBA VC spel waarvan je een backup van de save wil maken:
+1. Do the following process for each GBA VC game that you want to back up the save for:
   + Start het GBA VC spel
   + Sluit het spel af
   + Power off your device
