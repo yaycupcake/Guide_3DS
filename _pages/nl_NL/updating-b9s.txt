@@ -4,22 +4,22 @@ title: "B9S updaten"
 
 {% include toc title="Inhoudsopgave" %}
 
-### Required Reading
+### Verplicht te lezen
 
-This page is for existing boot9strap users to update their installation of boot9strap to the latest version.
+Deze pagina is bedoeld voor bestaande boot9strap gebruikers om hun installatie van boot9strap bij te werken naar de nieuwste versie.
 
 While we believe that custom firmware is safe for online use, there have been online network bans in the past, primarily for cheating and suspicious eShop behavior.
 {: .notice--warning}
 
-### What You Need
+### Wat je nodig hebt
 
-* The latest release of [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
-* The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(`boot9strap-1.3.zip`; not the `devkit` file, not the `ntr` file)*
-* The latest release of [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest)
+* De nieuwste versie van [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
+* De nieuwste versie van [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(`boot9strap-1.3.zip`; niet het `devkit` bestand, niet het `ntr` bestand)*
+* De nieuwste versie van [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest)
 
 ### Instructies
 
-#### Section I - Prep Work
+#### Deel I - Voorbereiding
 
 For all steps in this section, overwrite any existing files on your SD card.
 {: .notice--info}
@@ -39,9 +39,9 @@ For all steps in this section, overwrite any existing files on your SD card.
 
 1. Zet je 3DS aan
   + This should automatically launch SafeB9SInstaller
-1. Wait for all safety checks to complete
-1. When prompted, input the key combo given to install boot9strap
-1. Once it is completed, force your device to power off by holding down the power button
+1. Wacht tot het installatieprogramma alle veiligheidscontroles gedaan heeft
+1. Wanneer erom gevraagd word druk je de juiste knoppen in om boot9strap te installeren
+1. Zodra het is voltooid, forceer je je apparaat uit te schakelen door de power knop ingedrukt te houden
   + Your device will only boot to the SafeB9SInstaller screen until the next section is completed
 
 #### Section III - Update Luma3DS
@@ -51,7 +51,7 @@ For all steps in this section, overwrite any existing files on your SD card.
 1. Stop je SD kaart terug in je 3DS
 1. Zet je 3DS aan
 
-#### Section IV - Configuring Luma3DS
+#### Deel IV - Luma3DS configureren
 
 This section is only needed if you are prompted with the Luma3DS configuration menu after the reboot.
 {: .notice--info}
@@ -62,5 +62,5 @@ This section is only needed if you are prompted with the Luma3DS configuration m
 
 ___
 
-### Continue to [Finalizing Setup](finalizing-setup)
+### Doorgaan naar [Installatie voltooien](finalizing-setup)
 {: .notice--primary}

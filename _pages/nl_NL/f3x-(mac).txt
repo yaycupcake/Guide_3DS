@@ -4,7 +4,7 @@ title: "F3X (Mac)"
 
 {% include toc title="Inhoudsopgave" %}
 
-### Required Reading
+### Verplicht te lezen
 
 This is an add-on section for checking your SD card for errors using F3X.
 
@@ -15,9 +15,9 @@ Deze pagina is alleen voor Mac-gebruikers. Als je geen Mac gebruikt, zie dan de 
 If you're using a Mac on macOS 10.13 (High Sierra) and above, follow [F3XSwift (Mac)](f3xswift-(mac)) instead.
 {: .notice--primary}
 
-### What You Need
+### Wat je nodig hebt
 
-* The latest release of [F3X](https://github.com/insidegui/F3X/releases/latest)
+* De nieuwste versie van [F3X](https://github.com/insidegui/F3X/releases/latest)
 
 ### Instructies
 

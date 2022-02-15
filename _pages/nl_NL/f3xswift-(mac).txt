@@ -4,7 +4,7 @@ title: "F3XSwift (Mac)"
 
 {% include toc title="Inhoudsopgave" %}
 
-### Required Reading
+### Verplicht te lezen
 
 This is an add-on section for checking your SD card for errors using F3XSwift.
 
@@ -15,9 +15,9 @@ Deze pagina is alleen voor Mac-gebruikers. If you are not on Mac, check out the 
 F3XSwift is only compatible with macOS 10.13 (High Sierra) and above. If you have an older version of macOS, follow [F3X (Mac)](f3x-(mac)) instead.
 {: .notice--primary}
 
-### What You Need
+### Wat je nodig hebt
 
-* The latest release of [F3XSwift](https://github.com/vrunkel/F3XSwift/releases/latest)
+* De nieuwste versie van [F3XSwift](https://github.com/vrunkel/F3XSwift/releases/latest)
 
 ### Instructies
 

@@ -16,28 +16,28 @@ title: "Installing boot9strap (SafeB9SInstaller)"
   + If you get a "PM INIT FAILED" error, make sure you ran udsploit with Wireless Communication turned on
   + If you *still* get a "PM INIT FAILED" error, try using the [r19 release of safehax](https://github.com/TiniVi/safehax/releases/tag/r19)
   + Als het vastloopt, zet het apparaat dan gewoon uit door de power knop ingedrukt te houden, probeer het daarna opnieuw
-1. If the exploit was successful, you will have booted into SafeB9SInstaller
+1. Als de exploit succesvol was, zal je SafeB9SInstaller hebben opgestart
 
 #### Section II - Installing boot9strap
 
-1. Wait for all safety checks to complete
-1. When prompted, input the key combo given to install boot9strap
-1. Once it is complete, press (A) to reboot your device
+1. Wacht tot het installatieprogramma alle veiligheidscontroles gedaan heeft
+1. Wanneer erom gevraagd word druk je de juiste knoppen in om boot9strap te installeren
+1. Zodra het voltooid is, druk op (A) om je apparaat opnieuw op te starten
 
-#### Section III - Configuring Luma3DS
+#### Deel III - Luma3DS configureren
 
 1. Your device should have rebooted into the Luma3DS configuration menu
-  + If you get a black screen, [follow this troubleshooting guide](troubleshooting#boot-related-issues-on-modded-devices)
-1. Use the (A) button and the D-Pad to turn on the following:
+  + Als je een zwart scherm krijgt, [volg dan deze handleiding voor probleemoplossingen](troubleshooting#boot-related-issues-on-modded-devices)
+1. Selecteer de volgende opties met de D-pad en de (A) knop:
   + **"Show NAND or user string in System Settings"**
 1. Druk op (Start) om op te slaan en opnieuw op te starten
-  + If you get an error, just continue to the next page
+  + Als je een foutmelding krijgt, ga dan gewoon door naar de volgende pagina
 
-At this point, your console will boot to Luma3DS by default as long as the SD card is inserted.
-  + Luma3DS does not look any different from the normal HOME Menu. If your console has booted into the HOME Menu, it is running custom firmware.
-  + On the next page, you will copy Luma3DS to internal memory so that you can boot without an SD card.
+Op dit moment zal je console standaard opstarten naar Luma3DS zolang de SD-kaart geplaatst is.
+  + Luma3DS ziet er niet anders uit dan het normale HOME Menu. Als je console in het HOME Menu is opgestart, gebruikt hij custom firmware.
+  + Op de volgende pagina kopieer je Luma3DS naar het interne geheugen, zodat je het kan opstarten zonder SD-kaart.
 
 ___
 
-### Continue to [Finalizing Setup](finalizing-setup)
+### Doorgaan naar [Installatie voltooien](finalizing-setup)
 {: .notice--primary}
