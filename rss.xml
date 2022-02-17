@@ -2,7 +2,7 @@
 <rss version="2.0">
 	<channel>
 		<title>Plailect Guide Feed</title>
-		<lastBuildDate>Sat, 22 Jan 2022 00:04:37 +0000</lastBuildDate>
+		<lastBuildDate>Thu, 17 Feb 2022 10:49:57 +0000</lastBuildDate>
 		<link>https://github.com/Plailect/Guide_3DS/</link>
 		<item>
 			<title>11.15.0-39T_ctrtransfer_o3ds.zip</title>
@@ -380,81 +380,6 @@
 			</trackers>
 		</item>
 		<item>
-			<title>11.15.0-47J_ctrtransfer_n3ds.zip</title>
-			<description>11.15.0-47J_ctrtransfer_n3ds.zip</description>
-			<guid>FC2E3D2191ED5BCCB5182BCC4C3D24DB68E15812</guid>
-			<link>magnet:?xt=urn:btih:FC2E3D2191ED5BCCB5182BCC4C3D24DB68E15812</link>
-			<pubDate>Thu, 20 Jan 2022 05:08:48 +0000</pubDate>
-			<contentLength>1042101140</contentLength>
-			<infoHash>FC2E3D2191ED5BCCB5182BCC4C3D24DB68E15812</infoHash>
-			<magnetURI>magnet:?xt=urn:btih:FC2E3D2191ED5BCCB5182BCC4C3D24DB68E15812</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:FC2E3D2191ED5BCCB5182BCC4C3D24DB68E15812" type="application/x-bittorrent" />
-			<trackers>
-				<group order="random">
-					<tracker>
-						udp://open.tracker.cl:1337/announce
-					</tracker>
-					<tracker>
-						udp://tracker.opentrackr.org:1337/announce
-					</tracker>
-					<tracker>
-						udp://9.rarbg.com:2810/announce
-					</tracker>
-					<tracker>
-						udp://exodus.desync.com:6969/announce
-					</tracker>
-					<tracker>
-						udp://www.torrent.eu.org:451/announce
-					</tracker>
-					<tracker>
-						udp://tracker.torrent.eu.org:451/announce
-					</tracker>
-					<tracker>
-						udp://tracker.tiny-vps.com:6969/announce
-					</tracker>
-					<tracker>
-						udp://tracker.pomf.se:80/announce
-					</tracker>
-					<tracker>
-						udp://tracker.openbittorrent.com:6969/announce
-					</tracker>
-					<tracker>
-						udp://tracker.moeking.me:6969/announce
-					</tracker>
-					<tracker>
-						udp://tracker.dler.org:6969/announce
-					</tracker>
-					<tracker>
-						udp://tracker.bitsearch.to:1337/announce
-					</tracker>
-					<tracker>
-						udp://tracker-udp.gbitt.info:80/announce
-					</tracker>
-					<tracker>
-						udp://retracker.netbynet.ru:2710/announce
-					</tracker>
-					<tracker>
-						udp://retracker.lanta-net.ru:2710/announce
-					</tracker>
-					<tracker>
-						udp://opentor.org:2710/announce
-					</tracker>
-					<tracker>
-						udp://open.stealth.si:80/announce
-					</tracker>
-					<tracker>
-						udp://mts.tvbit.co:6969/announce
-					</tracker>
-					<tracker>
-						udp://explodie.org:6969/announce
-					</tracker>
-					<tracker>
-						udp://bt2.archive.org:6969/announce
-					</tracker>
-				</group>
-			</trackers>
-		</item>
-		<item>
 			<title>11.15.0-47J_ctrtransfer_o3ds.zip</title>
 			<description>11.15.0-47J_ctrtransfer_o3ds.zip</description>
 			<guid>7B88ADF3F47D036BCDEE987F6597770EAAFDD8DD</guid>
@@ -755,6 +680,81 @@
 			</trackers>
 		</item>
 		<item>
+			<title>11.15.0-47J_ctrtransfer_n3ds.zip</title>
+			<description>11.15.0-47J_ctrtransfer_n3ds.zip</description>
+			<guid>986B454CAB2D9F27DAA63D4291F61AED039871D2</guid>
+			<link>magnet:?xt=urn:btih:986B454CAB2D9F27DAA63D4291F61AED039871D2</link>
+			<pubDate>Thu, 17 Feb 2022 10:48:16 +0000</pubDate>
+			<contentLength>1042101140</contentLength>
+			<infoHash>986B454CAB2D9F27DAA63D4291F61AED039871D2</infoHash>
+			<magnetURI>magnet:?xt=urn:btih:986B454CAB2D9F27DAA63D4291F61AED039871D2</magnetURI>
+			<enclosure url="magnet:?xt=urn:btih:986B454CAB2D9F27DAA63D4291F61AED039871D2" type="application/x-bittorrent" />
+			<trackers>
+				<group order="random">
+					<tracker>
+						udp://open.tracker.cl:1337/announce
+					</tracker>
+					<tracker>
+						udp://tracker.opentrackr.org:1337/announce
+					</tracker>
+					<tracker>
+						udp://9.rarbg.com:2810/announce
+					</tracker>
+					<tracker>
+						udp://exodus.desync.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://www.torrent.eu.org:451/announce
+					</tracker>
+					<tracker>
+						udp://tracker.torrent.eu.org:451/announce
+					</tracker>
+					<tracker>
+						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.pomf.se:80/announce
+					</tracker>
+					<tracker>
+						udp://tracker.openbittorrent.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.moeking.me:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.dler.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.bitsearch.to:1337/announce
+					</tracker>
+					<tracker>
+						udp://tracker-udp.gbitt.info:80/announce
+					</tracker>
+					<tracker>
+						udp://retracker.netbynet.ru:2710/announce
+					</tracker>
+					<tracker>
+						udp://retracker.lanta-net.ru:2710/announce
+					</tracker>
+					<tracker>
+						udp://opentor.org:2710/announce
+					</tracker>
+					<tracker>
+						udp://open.stealth.si:80/announce
+					</tracker>
+					<tracker>
+						udp://mts.tvbit.co:6969/announce
+					</tracker>
+					<tracker>
+						udp://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://bt2.archive.org:6969/announce
+					</tracker>
+				</group>
+			</trackers>
+		</item>
+		<item>
 			<title>2.56-0_11.12_NEW.firm</title>
 			<description>2.56-0_11.12_NEW.firm</description>
 			<guid>6584DF5DA826B79DB027CCA5A6A193599ACF3C1D</guid>
@@ -989,231 +989,6 @@
 			<infoHash>BB03C194C6B3FE0753DFEC0C52EF7E25936D669B</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:BB03C194C6B3FE0753DFEC0C52EF7E25936D669B</magnetURI>
 			<enclosure url="magnet:?xt=urn:btih:BB03C194C6B3FE0753DFEC0C52EF7E25936D669B" type="application/x-bittorrent" />
-			<trackers>
-				<group order="random">
-					<tracker>
-						udp://open.tracker.cl:1337/announce
-					</tracker>
-					<tracker>
-						udp://tracker.opentrackr.org:1337/announce
-					</tracker>
-					<tracker>
-						udp://9.rarbg.com:2810/announce
-					</tracker>
-					<tracker>
-						udp://exodus.desync.com:6969/announce
-					</tracker>
-					<tracker>
-						udp://www.torrent.eu.org:451/announce
-					</tracker>
-					<tracker>
-						udp://tracker.torrent.eu.org:451/announce
-					</tracker>
-					<tracker>
-						udp://tracker.tiny-vps.com:6969/announce
-					</tracker>
-					<tracker>
-						udp://tracker.pomf.se:80/announce
-					</tracker>
-					<tracker>
-						udp://tracker.openbittorrent.com:6969/announce
-					</tracker>
-					<tracker>
-						udp://tracker.moeking.me:6969/announce
-					</tracker>
-					<tracker>
-						udp://tracker.dler.org:6969/announce
-					</tracker>
-					<tracker>
-						udp://tracker.bitsearch.to:1337/announce
-					</tracker>
-					<tracker>
-						udp://tracker-udp.gbitt.info:80/announce
-					</tracker>
-					<tracker>
-						udp://retracker.netbynet.ru:2710/announce
-					</tracker>
-					<tracker>
-						udp://retracker.lanta-net.ru:2710/announce
-					</tracker>
-					<tracker>
-						udp://opentor.org:2710/announce
-					</tracker>
-					<tracker>
-						udp://open.stealth.si:80/announce
-					</tracker>
-					<tracker>
-						udp://mts.tvbit.co:6969/announce
-					</tracker>
-					<tracker>
-						udp://explodie.org:6969/announce
-					</tracker>
-					<tracker>
-						udp://bt2.archive.org:6969/announce
-					</tracker>
-				</group>
-			</trackers>
-		</item>
-		<item>
-			<title>R4i-SDHC_3DS_RTS_B9S-Flashrom.zip</title>
-			<description>R4i-SDHC_3DS_RTS_B9S-Flashrom.zip</description>
-			<guid>DC5AEEB4BFFFD09D10F1D9F20179DF3E74223FD1</guid>
-			<link>magnet:?xt=urn:btih:DC5AEEB4BFFFD09D10F1D9F20179DF3E74223FD1</link>
-			<pubDate>Thu, 20 Jan 2022 04:21:03 +0000</pubDate>
-			<contentLength>971781</contentLength>
-			<infoHash>DC5AEEB4BFFFD09D10F1D9F20179DF3E74223FD1</infoHash>
-			<magnetURI>magnet:?xt=urn:btih:DC5AEEB4BFFFD09D10F1D9F20179DF3E74223FD1</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:DC5AEEB4BFFFD09D10F1D9F20179DF3E74223FD1" type="application/x-bittorrent" />
-			<trackers>
-				<group order="random">
-					<tracker>
-						udp://open.tracker.cl:1337/announce
-					</tracker>
-					<tracker>
-						udp://tracker.opentrackr.org:1337/announce
-					</tracker>
-					<tracker>
-						udp://9.rarbg.com:2810/announce
-					</tracker>
-					<tracker>
-						udp://exodus.desync.com:6969/announce
-					</tracker>
-					<tracker>
-						udp://www.torrent.eu.org:451/announce
-					</tracker>
-					<tracker>
-						udp://tracker.torrent.eu.org:451/announce
-					</tracker>
-					<tracker>
-						udp://tracker.tiny-vps.com:6969/announce
-					</tracker>
-					<tracker>
-						udp://tracker.pomf.se:80/announce
-					</tracker>
-					<tracker>
-						udp://tracker.openbittorrent.com:6969/announce
-					</tracker>
-					<tracker>
-						udp://tracker.moeking.me:6969/announce
-					</tracker>
-					<tracker>
-						udp://tracker.dler.org:6969/announce
-					</tracker>
-					<tracker>
-						udp://tracker.bitsearch.to:1337/announce
-					</tracker>
-					<tracker>
-						udp://tracker-udp.gbitt.info:80/announce
-					</tracker>
-					<tracker>
-						udp://retracker.netbynet.ru:2710/announce
-					</tracker>
-					<tracker>
-						udp://retracker.lanta-net.ru:2710/announce
-					</tracker>
-					<tracker>
-						udp://opentor.org:2710/announce
-					</tracker>
-					<tracker>
-						udp://open.stealth.si:80/announce
-					</tracker>
-					<tracker>
-						udp://mts.tvbit.co:6969/announce
-					</tracker>
-					<tracker>
-						udp://explodie.org:6969/announce
-					</tracker>
-					<tracker>
-						udp://bt2.archive.org:6969/announce
-					</tracker>
-				</group>
-			</trackers>
-		</item>
-		<item>
-			<title>R4iSDHC.com_20XX-Flashrom.zip</title>
-			<description>R4iSDHC.com_20XX-Flashrom.zip</description>
-			<guid>D16817F7FDD0EAC18D71D2EBD73D51315389D90E</guid>
-			<link>magnet:?xt=urn:btih:D16817F7FDD0EAC18D71D2EBD73D51315389D90E</link>
-			<pubDate>Thu, 20 Jan 2022 04:09:31 +0000</pubDate>
-			<contentLength>971551</contentLength>
-			<infoHash>D16817F7FDD0EAC18D71D2EBD73D51315389D90E</infoHash>
-			<magnetURI>magnet:?xt=urn:btih:D16817F7FDD0EAC18D71D2EBD73D51315389D90E</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:D16817F7FDD0EAC18D71D2EBD73D51315389D90E" type="application/x-bittorrent" />
-			<trackers>
-				<group order="random">
-					<tracker>
-						udp://open.tracker.cl:1337/announce
-					</tracker>
-					<tracker>
-						udp://tracker.opentrackr.org:1337/announce
-					</tracker>
-					<tracker>
-						udp://9.rarbg.com:2810/announce
-					</tracker>
-					<tracker>
-						udp://exodus.desync.com:6969/announce
-					</tracker>
-					<tracker>
-						udp://www.torrent.eu.org:451/announce
-					</tracker>
-					<tracker>
-						udp://tracker.torrent.eu.org:451/announce
-					</tracker>
-					<tracker>
-						udp://tracker.tiny-vps.com:6969/announce
-					</tracker>
-					<tracker>
-						udp://tracker.pomf.se:80/announce
-					</tracker>
-					<tracker>
-						udp://tracker.openbittorrent.com:6969/announce
-					</tracker>
-					<tracker>
-						udp://tracker.moeking.me:6969/announce
-					</tracker>
-					<tracker>
-						udp://tracker.dler.org:6969/announce
-					</tracker>
-					<tracker>
-						udp://tracker.bitsearch.to:1337/announce
-					</tracker>
-					<tracker>
-						udp://tracker-udp.gbitt.info:80/announce
-					</tracker>
-					<tracker>
-						udp://retracker.netbynet.ru:2710/announce
-					</tracker>
-					<tracker>
-						udp://retracker.lanta-net.ru:2710/announce
-					</tracker>
-					<tracker>
-						udp://opentor.org:2710/announce
-					</tracker>
-					<tracker>
-						udp://open.stealth.si:80/announce
-					</tracker>
-					<tracker>
-						udp://mts.tvbit.co:6969/announce
-					</tracker>
-					<tracker>
-						udp://explodie.org:6969/announce
-					</tracker>
-					<tracker>
-						udp://bt2.archive.org:6969/announce
-					</tracker>
-				</group>
-			</trackers>
-		</item>
-		<item>
-			<title>R4i_Gold_3DS_(HW_8)-Flashrom.zip</title>
-			<description>R4i_Gold_3DS_(HW_8)-Flashrom.zip</description>
-			<guid>E56429289034529F05023B3D4722ED66F6270338</guid>
-			<link>magnet:?xt=urn:btih:E56429289034529F05023B3D4722ED66F6270338</link>
-			<pubDate>Thu, 20 Jan 2022 04:43:09 +0000</pubDate>
-			<contentLength>587929</contentLength>
-			<infoHash>E56429289034529F05023B3D4722ED66F6270338</infoHash>
-			<magnetURI>magnet:?xt=urn:btih:E56429289034529F05023B3D4722ED66F6270338</magnetURI>
-			<enclosure url="magnet:?xt=urn:btih:E56429289034529F05023B3D4722ED66F6270338" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
@@ -4655,6 +4430,156 @@
 			</trackers>
 		</item>
 		<item>
+			<title>R4i-SDHC_3DS_RTS_B9S-Flashrom.zip</title>
+			<description>R4i-SDHC_3DS_RTS_B9S-Flashrom.zip</description>
+			<guid>DC5AEEB4BFFFD09D10F1D9F20179DF3E74223FD1</guid>
+			<link>magnet:?xt=urn:btih:DC5AEEB4BFFFD09D10F1D9F20179DF3E74223FD1</link>
+			<pubDate>Thu, 20 Jan 2022 04:21:03 +0000</pubDate>
+			<contentLength>971781</contentLength>
+			<infoHash>DC5AEEB4BFFFD09D10F1D9F20179DF3E74223FD1</infoHash>
+			<magnetURI>magnet:?xt=urn:btih:DC5AEEB4BFFFD09D10F1D9F20179DF3E74223FD1</magnetURI>
+			<enclosure url="magnet:?xt=urn:btih:DC5AEEB4BFFFD09D10F1D9F20179DF3E74223FD1" type="application/x-bittorrent" />
+			<trackers>
+				<group order="random">
+					<tracker>
+						udp://open.tracker.cl:1337/announce
+					</tracker>
+					<tracker>
+						udp://tracker.opentrackr.org:1337/announce
+					</tracker>
+					<tracker>
+						udp://9.rarbg.com:2810/announce
+					</tracker>
+					<tracker>
+						udp://exodus.desync.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://www.torrent.eu.org:451/announce
+					</tracker>
+					<tracker>
+						udp://tracker.torrent.eu.org:451/announce
+					</tracker>
+					<tracker>
+						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.pomf.se:80/announce
+					</tracker>
+					<tracker>
+						udp://tracker.openbittorrent.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.moeking.me:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.dler.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.bitsearch.to:1337/announce
+					</tracker>
+					<tracker>
+						udp://tracker-udp.gbitt.info:80/announce
+					</tracker>
+					<tracker>
+						udp://retracker.netbynet.ru:2710/announce
+					</tracker>
+					<tracker>
+						udp://retracker.lanta-net.ru:2710/announce
+					</tracker>
+					<tracker>
+						udp://opentor.org:2710/announce
+					</tracker>
+					<tracker>
+						udp://open.stealth.si:80/announce
+					</tracker>
+					<tracker>
+						udp://mts.tvbit.co:6969/announce
+					</tracker>
+					<tracker>
+						udp://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://bt2.archive.org:6969/announce
+					</tracker>
+				</group>
+			</trackers>
+		</item>
+		<item>
+			<title>R4iSDHC.com_20XX-Flashrom.zip</title>
+			<description>R4iSDHC.com_20XX-Flashrom.zip</description>
+			<guid>D16817F7FDD0EAC18D71D2EBD73D51315389D90E</guid>
+			<link>magnet:?xt=urn:btih:D16817F7FDD0EAC18D71D2EBD73D51315389D90E</link>
+			<pubDate>Thu, 20 Jan 2022 04:09:31 +0000</pubDate>
+			<contentLength>971551</contentLength>
+			<infoHash>D16817F7FDD0EAC18D71D2EBD73D51315389D90E</infoHash>
+			<magnetURI>magnet:?xt=urn:btih:D16817F7FDD0EAC18D71D2EBD73D51315389D90E</magnetURI>
+			<enclosure url="magnet:?xt=urn:btih:D16817F7FDD0EAC18D71D2EBD73D51315389D90E" type="application/x-bittorrent" />
+			<trackers>
+				<group order="random">
+					<tracker>
+						udp://open.tracker.cl:1337/announce
+					</tracker>
+					<tracker>
+						udp://tracker.opentrackr.org:1337/announce
+					</tracker>
+					<tracker>
+						udp://9.rarbg.com:2810/announce
+					</tracker>
+					<tracker>
+						udp://exodus.desync.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://www.torrent.eu.org:451/announce
+					</tracker>
+					<tracker>
+						udp://tracker.torrent.eu.org:451/announce
+					</tracker>
+					<tracker>
+						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.pomf.se:80/announce
+					</tracker>
+					<tracker>
+						udp://tracker.openbittorrent.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.moeking.me:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.dler.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.bitsearch.to:1337/announce
+					</tracker>
+					<tracker>
+						udp://tracker-udp.gbitt.info:80/announce
+					</tracker>
+					<tracker>
+						udp://retracker.netbynet.ru:2710/announce
+					</tracker>
+					<tracker>
+						udp://retracker.lanta-net.ru:2710/announce
+					</tracker>
+					<tracker>
+						udp://opentor.org:2710/announce
+					</tracker>
+					<tracker>
+						udp://open.stealth.si:80/announce
+					</tracker>
+					<tracker>
+						udp://mts.tvbit.co:6969/announce
+					</tracker>
+					<tracker>
+						udp://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://bt2.archive.org:6969/announce
+					</tracker>
+				</group>
+			</trackers>
+		</item>
+		<item>
 			<title>R4i_Gold_3DS_(HW_4)-Flashrom.zip</title>
 			<description>R4i_Gold_3DS_(HW_4)-Flashrom.zip</description>
 			<guid>A742778ADE94B4A0B877CC481BA0F1A4120262DA</guid>
@@ -4664,6 +4589,81 @@
 			<infoHash>A742778ADE94B4A0B877CC481BA0F1A4120262DA</infoHash>
 			<magnetURI>magnet:?xt=urn:btih:A742778ADE94B4A0B877CC481BA0F1A4120262DA</magnetURI>
 			<enclosure url="magnet:?xt=urn:btih:A742778ADE94B4A0B877CC481BA0F1A4120262DA" type="application/x-bittorrent" />
+			<trackers>
+				<group order="random">
+					<tracker>
+						udp://open.tracker.cl:1337/announce
+					</tracker>
+					<tracker>
+						udp://tracker.opentrackr.org:1337/announce
+					</tracker>
+					<tracker>
+						udp://9.rarbg.com:2810/announce
+					</tracker>
+					<tracker>
+						udp://exodus.desync.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://www.torrent.eu.org:451/announce
+					</tracker>
+					<tracker>
+						udp://tracker.torrent.eu.org:451/announce
+					</tracker>
+					<tracker>
+						udp://tracker.tiny-vps.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.pomf.se:80/announce
+					</tracker>
+					<tracker>
+						udp://tracker.openbittorrent.com:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.moeking.me:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.dler.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://tracker.bitsearch.to:1337/announce
+					</tracker>
+					<tracker>
+						udp://tracker-udp.gbitt.info:80/announce
+					</tracker>
+					<tracker>
+						udp://retracker.netbynet.ru:2710/announce
+					</tracker>
+					<tracker>
+						udp://retracker.lanta-net.ru:2710/announce
+					</tracker>
+					<tracker>
+						udp://opentor.org:2710/announce
+					</tracker>
+					<tracker>
+						udp://open.stealth.si:80/announce
+					</tracker>
+					<tracker>
+						udp://mts.tvbit.co:6969/announce
+					</tracker>
+					<tracker>
+						udp://explodie.org:6969/announce
+					</tracker>
+					<tracker>
+						udp://bt2.archive.org:6969/announce
+					</tracker>
+				</group>
+			</trackers>
+		</item>
+		<item>
+			<title>R4i_Gold_3DS_(HW_8)-Flashrom.zip</title>
+			<description>R4i_Gold_3DS_(HW_8)-Flashrom.zip</description>
+			<guid>E56429289034529F05023B3D4722ED66F6270338</guid>
+			<link>magnet:?xt=urn:btih:E56429289034529F05023B3D4722ED66F6270338</link>
+			<pubDate>Thu, 20 Jan 2022 04:43:09 +0000</pubDate>
+			<contentLength>587929</contentLength>
+			<infoHash>E56429289034529F05023B3D4722ED66F6270338</infoHash>
+			<magnetURI>magnet:?xt=urn:btih:E56429289034529F05023B3D4722ED66F6270338</magnetURI>
+			<enclosure url="magnet:?xt=urn:btih:E56429289034529F05023B3D4722ED66F6270338" type="application/x-bittorrent" />
 			<trackers>
 				<group order="random">
 					<tracker>
