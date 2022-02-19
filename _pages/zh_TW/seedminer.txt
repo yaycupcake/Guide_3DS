@@ -43,6 +43,7 @@ title: "Seedminer"
 1. 選擇『Go』
   + 如果網站直接跳到了步驟四，則代表之前已完成了您先前所請求的暴力破解。 您可直接下載 `movable.sed` 並直接跳到下一節。 不需要再度將機器人加至好友。
 1. 如提示時，在您的主機中的『好友註冊 (Register Friend)』新增機器人 3DS 的好友代碼
+  + The name of the bot does not matter
 1. 等待網站更新
   + 如果遲遲尚未更新，請在刷新頁面前等待個幾分鐘
 1. 網站處理完資料後，將會自動進行『Step 2: Bruteforce』
@@ -50,7 +51,7 @@ title: "Seedminer"
   + 這通常是很快的 (1~5分左右)，但在某些情況下可能需要長達半小時。
   + 在等待過程中，您剛所新增的機器 3DS 可能不會在您的 3DS 主機上顯示。 不過只要網站還有在刷新，這就不是個問題。
   + 若您等了半小時遲遲沒有結果，那麼請加入[Nintendo Homebrew Discord 伺服器](https://discord.gg/MWxPgEp)使用英文來請求幫助
-1. When the process is completed, download your `movable.sed` file from the site
+1. 當該程序結束時下載您的 `movable.sed` 檔案
   + 您在待會還會用到該檔案，請先將其保留
 
 ___

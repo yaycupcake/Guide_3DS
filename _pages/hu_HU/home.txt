@@ -45,5 +45,5 @@ Az útmutató:
 
 ___
 
-## Tovább a [kezdeti lépésekhez](get-started)
+### Tovább a [kezdeti lépésekhez](get-started)
 {: .notice--primary}

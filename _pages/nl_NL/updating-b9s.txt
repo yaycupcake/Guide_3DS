@@ -8,7 +8,7 @@ title: "B9S updaten"
 
 Deze pagina is bedoeld voor bestaande boot9strap gebruikers om hun installatie van boot9strap bij te werken naar de nieuwste versie.
 
-While we believe that custom firmware is safe for online use, there have been online network bans in the past, primarily for cheating and suspicious eShop behavior.
+Terwijl we wel geloven dat custom firmware veilig is voor online gebruik, zijn er in het verleden toch online bans opgetreden. Deze werden voornamelijk veroorzaakt door vals spelen en verdacht eShop gedrag.
 {: .notice--warning}
 
 ### Wat je nodig hebt
@@ -29,13 +29,13 @@ For all steps in this section, overwrite any existing files on your SD card.
 1. Kopieer `boot9strap.firm` en `boot9strap.firm.sha` van de boot9strap `.zip` naar de `/boot9strap/` map op je SD-kaart
 1. Copy `SafeB9SInstaller.firm` from the SafeB9SInstaller `.zip` to the root of your SD card and rename it to `boot.firm`
   + If a `boot.firm` already exists, replace it
-1. Stop je SD kaart terug in je 3DS
+1. Stop je SD-kaart terug in je 3DS
 
     ![]({{ "/images/screenshots/updateb9s-root-layout.png" | absolute_url }})
     {: .notice--info}
 
 
-#### Section II - Installing boot9strap
+#### Deel II - Boot9strap installeren
 
 1. Zet je 3DS aan
   + This should automatically launch SafeB9SInstaller
@@ -56,7 +56,7 @@ For all steps in this section, overwrite any existing files on your SD card.
 This section is only needed if you are prompted with the Luma3DS configuration menu after the reboot.
 {: .notice--info}
 
-1. In the Luma3DS configuration menu, use the (A) button and the D-Pad to turn on the following:    
+1. In het Luma3DS configuratiemenu, gebruik de (A) knop en de D-Pad om het volgende aan te zetten:    
   + **"Show NAND or user string in System Settings"**
 1. Druk op (Start) om op te slaan en opnieuw op te starten
 

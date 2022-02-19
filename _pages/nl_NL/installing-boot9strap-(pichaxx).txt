@@ -8,6 +8,9 @@ title: "Boot9strap installeren (PicHaxx)"
 
 Deze methode om Seedminer te gebruiken voor verdere exploitatie maakt gebruik van je `movable.sed` bestand om een aangepast opslagbestand te schrijven voor Pokémon Picross, dat vervolgens kan worden gebruikt met universal-otherapp om SafeB9SInstaller uit te voeren.
 
+Dit proces zal je Pokémon Picross save bestand overschrijven, als je er een hebt. Als je je Pokémon Picross save bestand wilt behouden, moet je een back-up maken van je `00000001.sav` bestand voordat je het overschrijft.
+{: .notice--warning}
+
 ### Wat je nodig hebt
 
 * Het spel "Pokémon Picross" (gratis op eShop) geïnstalleerd op je apparaat
@@ -34,7 +37,7 @@ Deze methode om Seedminer te gebruiken voor verdere exploitatie maakt gebruik va
 1. Schakel je 3DS uit
 1. Plaats je SD kaart in je computer
 1. Kopieer `otherapp.bin` naar de hoofdmap van je SD-kaart
-  + De root van de SD-kaart verwijst naar de bovenste map van de SD-kaart, waarin je alle mappen op de SD-kaart kunt zien, waaronder de Nintendo 3DS map
+  + De hoofdmap van de SD-kaart verwijst naar de bovenste map van de SD-kaart, waarin je alle mappen op de SD-kaart kunt zien, waaronder de Nintendo 3DS map, zonder je in de Nintendo 3DS map te bevinden
 1. Kopieer `boot.firm` en `boot.3dsx` van de Luma3DS `.zip` naar de hoofdmap van je SD-kaart
 1. Maak een map genaamd `boot9strap` op de hoofdmap van je SD-kaart
 1. Kopieer `boot9strap.firm` en `boot9strap.firm.sha` van de boot9strap `.zip` naar de `/boot9strap/` map op je SD-kaart
@@ -82,7 +85,7 @@ Op dit moment zal je console standaard opstarten naar Luma3DS zolang de SD-kaart
   + Luma3DS ziet er niet anders uit dan het normale HOME Menu. Als je console in het HOME Menu is opgestart, gebruikt hij custom firmware.
   + Op de volgende pagina kopieer je Luma3DS naar het interne geheugen, zodat je het kan opstarten zonder SD-kaart.
 
-Op dit moment is Pokémon Picross niet meer nodig en kan deze verwijderd worden van je apparaat.
+Op dit moment is Pokémon Picross niet meer nodig en kan deze verwijderd worden van je apparaat. Als je het spel wil spelen, herstel jouw `00000001.sav` back-up of download het spel opnieuw van de Nintendo eShop.
 {: .notice--info}
 ___
 

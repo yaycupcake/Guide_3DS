@@ -8,29 +8,31 @@ title: "Regio veranderen"
 
 Dit is een extra gedeelte om de regio te veranderen van je CFW SysNAND. Dit wordt gedaan door het installeren van de 11.15.0 CTRTransfer image voor de regio waarnaar je wilt overschakelen.
 
-Note that region changing is almost completely unnecessary since Luma3DS supports out-of-region games and individual title [Locale Emulation](https://github.com/AuroraWright/Luma3DS/wiki/Optional-features). Additionally, running NDS games with alternative out-of-region languages is supported by [TWiLightMenu++](https://github.com/DS-Homebrew/TWiLightMenu/releases).
-
-Om de [magnet](https://wikipedia.org/wiki/Magnet_URI_scheme) links op deze pagina te gebruiken, zul je een torrent client zoals [Deluge](http://dev.deluge-torrent.org/wiki/Download) nodig hebben.
+Merk wel op dat je regio veranderen bijna altijd compleet onnodig zal zijn omdat Luma3DS ook spellen uit een andere regio kan spelen, en ook individuele [Lokale emulatie](https://github.com/LumaTeam/Luma3DS/wiki/Optional-features). Additionally, running NDS games with alternative out-of-region languages is supported by [TWiLightMenu++](https://github.com/DS-Homebrew/TWiLightMenu/releases).
 
 Merk op dat als je andere payload bestanden dan `GodMode9.firm` in de `/luma/payloads/` map op je SD-kaart hebt, je bij het ingedrukt houden van (Start) bij het opstarten een "chainloader menu" opent die je kan navigeren met de D-Pad en met de (A) knop "GodMode9" kaHin selecteren. Dit geld voor al deze instructies.
 
-This process will unlink your NNID from the system because it will no longer be compatible with your NNID. NNIDs are locked to the region of your device that created them and cannot be transferred between regions.
-{: .notice--warning}
+{% capture notice-6 %}
+Als je de regio van je apparaat verandert:
 
-After this process, **you will not be able to access the eShop**. This includes any feature that uses an NNID, such as game updates, purchasing DLC, or online play in certain games. Region changing to your original region will usually not fix this issue.
-{: .notice--warning}
++ Je NNID, als je er een hebt, wordt ontkoppeld. NNID's zijn vergrendeld aan de regio waarin ze gemaakt zijn.
++ You may not be able to access the eShop, even if you [delete your eShop account](https://en-americas-support.nintendo.com/app/answers/detail/a_id/74/~/how-to-delete-a-nintendo-eshop-account) beforehand. This is because certain titles tend to remain linked to the 3DS, even after account deletion (especially on New 3DS).
+	+ The eShop contains not only games, but also game updates and DLC. Updates zijn meestal vereist om online te spelen.
++ **You will not be able to uninstall custom firmware without bricking the device!** If you intend to uninstall custom firmware in the future, you **MUST** restore your NAND backup that was created before the region change.
+{% endcapture %}
 
-Let wel op dat af en toe de eShop, zonder goede reden, nog steeds niet werkt voor de systemen waarop het wel zou moeten werken. Dit ligt helemaal bij de servers van Nintendo en ik heb hier totaal geen controle over. Additionally, note that occasionally the eShop will inexplicably work for devices that it should not (such as some New 3DSs). De oorzaak hiervoor is momenteel onbekend.
-
-Het veranderen van je regio met behulp van CTRTransfer (dit is de methode die hier gebruikt wordt) blijkt "reboot patches" kapot te maken. The cause for this is unknown, but Old 3DS users, for now, will be unable to play extended memory mode games (such as Monster Hunter, Super Smash Bros, and Pokémon Sun / Moon) until they format their devices.
+<div class="notice--danger">{{ notice-6 | markdownify }}</div>
 
 You MUST have already installed Luma3DS and boot9strap to use this.
 {: .notice--danger}
 
-Performing a CTRTransfer may break extended memory mode games (Monster Hunter, Super Smash Bros, Pokemon Sun/Moon) on Old 3DS/2DS devices. If this occurs, you will need to format the device (using TinyFormat or System Settings) to fix the issue.
+Het uitvoeren van een regio verandering kan de extended memory mode voor spellen (Monster Hunter, Super Smash Bros, Pokemon Sun/Moon) op Old 3DS/2DS apparaten breken. If this occurs, you will need to format the device (using TinyFormat or System Settings) to fix the issue.
 {: .notice--warning}
 
 ### Wat je nodig hebt
+
+De CTRTransfer links vereisen een torrent client om ze te downloaden, zoals [Deluge](http://dev.deluge-torrent.org/wiki/Download) of [qBitTorrent](https://www.qbittorrent.org/download.php).
+{: .notice--warning}
 
 * De nieuwste versie van [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 * De nieuwste versie van [FBI](https://github.com/Steveice10/FBI/releases/latest) *(het`.3dsx` bestand)*
@@ -56,8 +58,8 @@ Performing a CTRTransfer may break extended memory mode games (Monster Hunter, S
 1. Maak een map genaamd "3ds" op de hoofdmap van je SD-kaart als die nog niet bestaat
 1. Kopieer `GodMode9.firm` van de GodMode9 `.zip` naar de `/luma/payloads/` map op je SD-kaart
 1. Copy the `gm9` folder from the GodMode9 `.zip` to the root of your SD card
-1. Copy the 11.15.0 CTRTransfer image `.bin` from the CTRTransfer `.zip` to the `/gm9/` folder on your SD card
-1. Copy `FBI.3dsx` to the `/3ds/` folder on your SD card
+1. Kopieer de 11.15.0 CTRTransfer image `.bin` van de CTRTransfer `.zip` naar de `/gm9/` map op je SD-kaart
+1. Kopieer `FBI.3dsx` naar de `/3ds/` map op je SD-kaart
 1. Stop je SD kaart terug in je 3DS
 
 #### Section II - NAND Backup
