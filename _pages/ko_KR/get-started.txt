@@ -23,11 +23,11 @@ title: "시작하기"
 
 #### 섹션 III - 방법 선택
 
-Use the version table below to select a method. 몇 가지 참고:
-  + The version table below is *inclusive*. For example, "from 11.4.0 to 11.14.0" includes 11.4.0, 11.14.0, and all versions in between.
-  + Software versions do not work the same as decimals. Versions 11.10.0 and above are newer than 11.3.0, and are therefore not compatible with Soundhax.
-  + The number and letter after the system version are not important.
-  + No matter the method you follow, the end result is the same (boot9strap+Luma3DS custom firmware setup on the latest firmware).
+다음 테이블을 사용해 방법을 선택해 주세요. 몇 가지 참고:
+  + 이 테이블은 포함적이며, "11.4.0 에서 11.14.0까지" 는 11.4.0, 11.14.0, 그리고 그 사이에 모든 버전을 의미 합니다.
+  + 소프트웨어 버전은 소수점이 아닙니다. 버전 11.10.0 하고 그 이상은 11.3.0보다 더 최신이며, Soundhax하고 호환되지 않습니다.
+  + 시스템 버전 다음에 번호와 글자는 중요하지 않습니다.
+  + 어떠한 방법을 선택을 해도 결과는 똑같습니다 (최신 시스템 버전하고 boot9strap + Luma3DS 커스텀 펌웨어).
 
 <table>
   <colgroup>
@@ -37,7 +37,7 @@ Use the version table below to select a method. 몇 가지 참고:
   <thead>
     <tr>
       <th style="text-align: center">시스템 버전</th>
-      <th style="text-align: center">동작</th>
+      <th style="text-align: center">방법</th>
     </tr>
   </thead>
   <tbody>
