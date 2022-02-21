@@ -70,7 +70,7 @@ This process will overwrite your Pokémon Picross save file, if you have one. If
 
 1. 모든 안전 검사가 끝날 때까지 기다려 주세요
 1. 메시지가 나타나면, boot9strap을 설치하기 위하여 화면에 주어진 키 조합을 입력해 주세요
-1. Once it is complete, press (A) to reboot your device
+1. 작업이 완료되면, (A) 를 눌려 기기를 재부팅해 주세요
 
 #### 섹션 IV - Luma3DS 설정
 
