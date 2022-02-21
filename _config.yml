@@ -703,3 +703,5 @@ defaults:
       type: pages
     values:
       permalink: /zh_TW/index:output_ext
+
+theme: jekyll-theme-merlot
