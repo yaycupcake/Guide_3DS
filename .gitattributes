@@ -8,3 +8,8 @@ CHANGELOG.md                    text merge=union
 docs/_docs/18-history.md        text merge=union
 
 *.md                            text
+*.txt                           text
+*.gm9                           text
+
+# probably not required, but CRLF is the default for Windows
+images/browserconfig.xml        text eol=crlf
