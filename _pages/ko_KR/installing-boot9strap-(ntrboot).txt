@@ -23,9 +23,9 @@ title: "boot9strap 설치 (ntrboot)"
 
 1. 기기를 종료해 주세요
 1. 기기의 SD 카드를 컴퓨터에 삽입해 주세요
-  + 이것은 3DS의 SD 카드입니다, 플래시카트의 SD 카드가 아닙니다
-1. SafeB9SInstaller `.zip`의 `SafeB9SInstaller.firm`을 SD 카드의 루트에 복사하고 `boot.firm`으로 이름 변경해 주세요
-  + SD 카드의 루트는 SD 카드를 열 때 보이는 디렉토리이고, Nintendo 3DS 폴더가 보이지만 그 안에 않 들어가 있는 상태의 폴더 입니다
+  + 이것은 3DS의 SD 카드이며, 플래시카트의 SD 카드가 아닙니다
+1. SafeB9SInstaller `.zip`의 `SafeB9SInstaller.firm`을 SD 카드의 루트에 복사하고 `boot.firm`으로 이름을 변경해 주세요
+  + SD 카드의 루트는 SD 카드를 열 때 보이는 디렉토리이고, Nintendo 3DS 폴더가 보이지만 그 안에 들어가 있지 않은 상태의 폴더입니다
 1. Luma3DS `.zip`안에 있는 `boot.3dsx`을 SD 카드의 루트에 복사해 주세요
 1. SD 카드이 루트에 `boot9strap` 라는 이름으로 새 폴더를 생성해 주세요
 1. SD 카드에 있는 `/boot9strap/` 폴더에 boot9strap `.zip` 파일 안에 압축되있는 `boot9strap.firm`과 `boot9strap.firm.sha`을 복사해 주세요
@@ -39,7 +39,7 @@ title: "boot9strap 설치 (ntrboot)"
 ##### 섹션 II - ntrboot
 
 1. 자석을 이용해 당신의 기기에서 슬립센서가 작동하는 지점을 찾으세요
-  이 단계는 구형 2DS에서 필효하지 않습니다 (슬립모드 스위치가 있는 모델)
+  + 이 단계는 구형 2DS에서 필효하지 않습니다 (슬립모드 스위치가 있는 모델)
 1. 기기를 종료해 주세요
 1. 플래시카트를 기기에 삽입해 주세요
 1. 자석을 기기에 놓아 슬립센서를 작동시켜 주세요
@@ -54,7 +54,7 @@ title: "boot9strap 설치 (ntrboot)"
 1. 자석을 3DS로 부터 제거해 주세요
   + 구형 2DS에서는, 이것 대신 슬립모드 스위치를 꺼 주세요
 1. 메시지가 나타나면, boot9strap을 설치하기 위하여 화면에 주어진 키 조합을 입력해 주세요
-1. Once it is completed, force your device to power off by holding down the power button
+1. 이 작업이 끝나면, 전원 버튼을 길게 눌러 기기를 종료해 주세요
   + 다음 작업이 완료되기 전까지는 기기는 SafeB9SInstaller로만 부팅 됩니다
 
 #### 섹션 IV - Luma3DS 설정
@@ -69,10 +69,10 @@ title: "boot9strap 설치 (ntrboot)"
 1. (A) 버튼과 십자 패드을 이용해 다음 설정을 설정해 주세요:
   + **"Show NAND or user string in System Settings"**
 1. (Start)를 눌러 저장하고 기기를 다시 시작해 주세요
-  + If you get an error, just continue to the next page
+  + 만약 오류가 나더라도 그냥 다음으로 넘어가 주세요
 
 이제 기기는 SD 카드가 삽입되 있는 한 Luma3DS를 기본으로 부팅 됩니다.
-  + Luma3DS does not look any different from the normal HOME Menu. If your console has booted into the HOME Menu, it is running custom firmware.
+  + Luma3DS는 보통 HOME 메뉴와 똑같이 보입니다. 만약 기기가 HOME 메뉴로 부팅되었다면, 커스텀 펌웨어가 설치되어 있습니다.
   + 다음 페이지에서는 SD 카드 없이 부팅 할 수 있도록 Luma3DS를 내장 메모리로 설치할 것 입니다.
 
 ___
@@ -84,7 +84,7 @@ ___
 
 다음 단계는 플래시카트를 원상복구를 하기 위한 선택 사항 섹션입니다 (원래 기능으로 되돌리기 위한).
 
-Acekard 2i는 ntrboot 익스플로잇이 설치된 상태에도 `.nds` 파일을 실행하는 기능을 유지합니다. 이것은 Acekard 2i가 NDS 혹은 커스텀펌웨어 3DS에 있을때만 적용됩니다! Acekard 2i에 ntrboot 익스플로잇이 설치되어 있는 동안, DSi또는 순정 3DS에서는 `.nds` 파일을 실행할 수 없습니다.
+Acekard 2i는 ntrboot 익스플로잇이 설치된 상태에도 `.nds` 파일을 실행하는 기능을 유지합니다. 이것은 Acekard 2i가 NDS 혹은 커스텀 펌웨어 3DS에 있을때만 적용됩니다! Acekard 2i에 ntrboot 익스플로잇이 설치되어 있는 동안, DSi 또는 순정 3DS에서는 `.nds` 파일을 실행할 수 없습니다.
 
 이 페이지의 남은 진행단계를 완료한 후 진행해 주시기 바랍니다.
 
@@ -96,7 +96,7 @@ Acekard 2i는 ntrboot 익스플로잇이 설치된 상태에도 `.nds` 파일을
 * 플래시카트에 부합하는 플래시롬 백업
   + 만약 [ntrboot 플래싱 (3DS 두 대)](flashing-ntrboot-(3ds-multi-system))를 따랐다면, 플래시롬이 이미 올바른 위치에 있고 다운로드할 필요가 없습니다
   + 만약 [ntrboot 플래싱 (단일 3DS)](flashing-ntrboot-(3ds-single-system)), 또는 [ntrboot 플래싱 (NDS)](flashing-ntrboot-(nds))를 따랐다면, 플래시롬이 이미 올바른 위치에 있고 다운로드할 필요가 없습니다
-  + 만약 가진 카트의 HW 수정버전을 모른다면, 각각 시도해 보세요. Only the correct one will allow your flashcart to launch properly from the HOME Menu, but flashing the wrong one will not brick the cart
+  + 만약 가진 카트의 HW 수정버전을 모른다면, 각각 시도해 보세요. 올바른 것만 HOME 메뉴에서 플래시카트가 올바르게 실행되게 할 것이고, 잘못된 것을 선택하면 실행되지 않을 것입니다.
 
 | 플래시카드 | 하드웨어 수정버전 | 플래시롬 |
 |-|:-:|:-:|
@@ -128,7 +128,7 @@ Acekard 2i는 ntrboot 익스플로잇이 설치된 상태에도 `.nds` 파일을
 
 1. 기기를 종료해 주세요
 1. SD 카드를 컴퓨터에 삽입해 주세요
-  + 이것은 3DS의 SD 카드입니다, 플래시카트의 SD 카드가 아닙니다
+  + 이것은 3DS의 SD 카드이며, 플래시카트의 SD 카드가 아닙니다
 1. SD 카드의 루트에 'ntrboot' 폴더를 생성해 주세요
 1. flashrom backup `.zip`의 `.bin` 파일을 SD 카드 루트에 있는 `/ntrboot/` 폴더에 복사해 주세요
 1. SD 카드 내 `luma` 폴더에 `payloads` 폴더가 없을 경우 폴더를 만들어 주세요

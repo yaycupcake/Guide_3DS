@@ -43,7 +43,7 @@ title: "Seedminer"
 1. 点击 “Go”
   + 如果网站直接跳到了 step 4，则代表网站先前已经完成过你的破解请求了。 你可以直接下载 `movable.sed` 然后继续下一步。 你无需再次添加机器人
 1. 当提示时，在你主机中的“好友注册（Register Friend）”中，添加网页给出的朋友代码
-  + The name of the bot does not matter
+  + 机器人的昵称是什么不重要，如果要求输入，请随便输入一个
 1. 等待网站更新
   + 如果一直没有更新，请在刷新网页前等待几分钟。
 1. 处理信息完毕后，网页将自动进行 “Step 2: Brutefforce”
@@ -62,9 +62,9 @@ ___
 
 #### PicHaxx + universal-otherapp（推荐）
 
-此方法利用由 Seedminer 取得的 `movable.sed` 文件，把为宝可梦绘图方块（Pokémon Picross）自制的存档写入游戏，然后利用 universal-otherapp 安装自制固件。
+此方法利用由 Seedminer 取得的 `movable.sed` 文件，把为《宝可梦：绘图方块》（Pokémon Picross）自制的存档写入游戏，然后利用 universal-otherapp 安装自制固件。
 
-此方法需要宝可梦绘图方块（Pokémon Picross，可在 eShop 中免费下载），所以只有能够访问 eShop 且主机区域为美版、欧版或日版的主机才能做这个。
+此方法需要《宝可梦：绘图方块》（Pokémon Picross，可在 eShop 中免费下载），所以只有能够访问 eShop 且主机区域为美版、欧版或日版的主机才能做这个。
 
 继续至[安装 boot9strap（通过 Pichaxx）](installing-boot9strap-(pichaxx))
 {: .notice--primary}
