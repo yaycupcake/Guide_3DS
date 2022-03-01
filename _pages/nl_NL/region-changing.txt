@@ -8,7 +8,7 @@ title: "Regio veranderen"
 
 Dit is een extra gedeelte om de regio te veranderen van je CFW SysNAND. Dit wordt gedaan door het installeren van de 11.15.0 CTRTransfer image voor de regio waarnaar je wilt overschakelen.
 
-Merk wel op dat je regio veranderen bijna altijd compleet onnodig zal zijn omdat Luma3DS ook spellen uit een andere regio kan spelen, en ook individuele [Lokale emulatie](https://github.com/LumaTeam/Luma3DS/wiki/Optional-features). Additionally, running NDS games with alternative out-of-region languages is supported by [TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu/releases).
+Merk wel op dat je regio veranderen bijna altijd compleet onnodig zal zijn omdat Luma3DS ook spellen uit een andere regio kan spelen, en ook individuele [Lokale emulatie](https://github.com/LumaTeam/Luma3DS/wiki/Optional-features). Daarnaast worden ook NDS spellen uit andere regio's ondersteund door [TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu/releases).
 
 Merk op dat als je andere payload bestanden dan `GodMode9.firm` in de `/luma/payloads/` map op je SD-kaart hebt, je bij het ingedrukt houden van (Start) bij het opstarten een "chainloader menu" opent die je kan navigeren met de D-Pad en met de (A) knop "GodMode9" kaHin selecteren. Dit geld voor al deze instructies.
 
@@ -23,10 +23,10 @@ Als je de regio van je apparaat verandert:
 
 <div class="notice--danger">{{ notice-6 | markdownify }}</div>
 
-You MUST have already installed Luma3DS and boot9strap to use this.
+Je MOET Luma3ds en boot9strap al geïnstalleerd hebben om dit te kunnen gebruiken.
 {: .notice--danger}
 
-Het uitvoeren van een regio verandering kan de extended memory mode voor spellen (Monster Hunter, Super Smash Bros, Pokemon Sun/Moon) op Old 3DS/2DS apparaten breken. If this occurs, you will need to format the device (using TinyFormat or System Settings) to fix the issue.
+Het uitvoeren van een regio verandering kan de extended memory mode voor spellen (Monster Hunter, Super Smash Bros, Pokemon Sun/Moon) op Old 3DS/2DS apparaten breken. Als dit gebeurt, moet je het apparaat formatteren (met behulp van TinyFormat of Systeeminstellingen) om het probleem op te lossen.
 {: .notice--warning}
 
 ### Wat je nodig hebt
@@ -64,7 +64,7 @@ De CTRTransfer links vereisen een torrent client om ze te downloaden, zoals [Del
 
 #### Section II - NAND Backup
 1. Terwijl je (Start) ingedrukt houdt, zet je jouw apparaat aan. Dit zal GodMode9 starten
-1. If you are prompted to create an essential files backup, press (A) to do so, then press (A) to continue once it is completed
+1. Als je gevraagd wordt om essentiële bestanden te back-uppen, druk dan op (A) om dit te doen, druk vervolgens op (A) om verder te gaan zodra het voltooid is
 1. If you are prompted to fix the RTC date&time, press (A) to do so, then set the date and time, then press (A) to continue
   + Note that, if you had to fix the RTC date and time, you will have to fix the time in the System Settings as well after this guide
 1. Druk op de (Home) knop om het actiemenu te openen
@@ -131,7 +131,7 @@ De CTRTransfer links vereisen een torrent client om ze te downloaden, zoals [Del
 
 #### Section V - Reinstalling Tickets
 
-If the script found no user tickets and told you to skip this section, you can skip this section.
+Als het script geen user tickets heeft gevonden en je heeft verteld dit gedeelte over te slaan, kunt je het overslaan.
 {: .notice--info}
 
 1. Start FBI uit de lijst met homebrew
