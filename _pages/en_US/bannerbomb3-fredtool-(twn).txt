@@ -8,7 +8,7 @@ title: "BannerBomb3 + Fredtool (TWN)"
 
 To dump system DSiWare, we exploit a flaw in the DSiWare Data Management window of the Settings application.
 
-To accomplish this, we use your system's encryption key (movable.sed) to build a DSiWare backup that exploits the system in order to dump the DSi Internet Settings application to the SD root.
+To accomplish this, we use your system's encryption key (movable.sed) to build a DSiWare backup that exploits the system to dump the DSi Internet Settings application to the SD root.
 
 Once you have a DSiWare backup, an exploitable DSiWare title can be injected into DS Download Play, which can be used to install custom firmware.
 
@@ -74,8 +74,8 @@ If you see a configuration menu, you already have CFW, and continuing with these
 1. Launch System Settings on your device
 1. Navigate to `Data Management` -> `DSiWare` -> `SD Card`
 1. Wait a while
-     + The following should happen, in this order: A progress swirl, a short freeze, the bottom screen turning purple, the music stopping, then the devie showing an error message and rebooting
-    + If you did not see the purple screen or you saw a grey question mark icon, then something went wrong
+     + The following should happen, in this order: A progress swirl, a short freeze, the bottom screen turning purple, the music stopping, then the device showing an error message and rebooting
+    + If you did not see the purple screen, then something went wrong
 1. You should now have the file `42383821.bin` on the root of your SD card
 1. Navigate to `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `Nintendo DSiWare` on your SD card 
 1. Delete all of the `.bin` files in the `Nintendo DSiWare` folder
