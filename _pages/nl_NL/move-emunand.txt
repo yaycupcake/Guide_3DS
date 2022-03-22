@@ -10,7 +10,7 @@ Dit is de add-on-sectie voor het verplaatsen van een oude EmuNAND naar je nieuwe
 
 Merk op dat als je andere payload bestanden dan `GodMode9.firm` in de `/luma/payloads/` map op je SD-kaart hebt, je bij het ingedrukt houden van (Start) bij het opstarten een "chainloader menu" opent die je kan navigeren met de D-Pad en met de (A) knop "GodMode9" kaHin selecteren. Dit geld voor al deze instructies.
 
-You MUST have already installed Luma3DS and boot9strap to use this.
+Je MOET Luma3ds en boot9strap al geïnstalleerd hebben om dit te kunnen gebruiken.
 {: .notice--danger}
 
 ### Wat je nodig hebt
@@ -26,7 +26,7 @@ You MUST have already installed Luma3DS and boot9strap to use this.
 1. Schakel je 3DS uit
 1. Plaats je SD kaart in je computer
 1. Kopieer `GodMode9.firm` van de GodMode9 `.zip` naar de `/luma/payloads/` map op je SD-kaart
-1. Copy the `gm9` folder from the GodMode9 `.zip` to the root of your SD card
+1. Kopieer de `gm9` map uit de GodMode9 `.zip` naar de hoofdmap van de SD-kaart
 1. Stop je SD kaart terug in je 3DS
 
 #### Section II - Backup SysNAND DSiWare Saves
@@ -35,7 +35,7 @@ Als je geen DSiWare spellen of saves hebt die je wilt behouden, kan je dit deel 
 {: .notice--info}
 
 1. Open GodMode9 door (Start) ingedrukt te houden bij het opstarten van je 3DS
-1. If you are prompted to create an essential files backup, press (A) to do so, then press (A) to continue once it is completed
+1. Als je gevraagd wordt om essentiële bestanden te back-uppen, druk dan op (A) om dit te doen, druk vervolgens op (A) om verder te gaan zodra het voltooid is
 1. If you are prompted to fix the RTC date&time, press (A) to do so, then set the date and time, then press (A) to continue
   + Note that, if you had to fix the RTC date and time, you will have to fix the time in the System Settings as well after this guide
 1. Navigeer naar `[2:] SYSNAND TWLN` -> `title`
@@ -51,7 +51,7 @@ Als je geen GBA VC spellen of saves hebt die je wat uit maken, kan je dit deel o
 Dit is niet nodig voor elke andere soort van Virtual Console spellen (GBC, NES, etc)
 {: .notice--info}
 
-The game will be outputted to the `/gm9/out/` folder on your SD card with the name `<TitleID>.gbavc.sav`.
+Het spel zal in de `/gm9/out/` folder op je SD-kaart geplaatst worden met de naam `<TitleID>.gbavc.sav`.
 {: .notice--info}
 
 To identify a `<TitleID>.gbavc.sav` file's Title ID, you can get a listing of all games on the system and their corresponding Title IDs by hovering over `[A:] SYSNAND SD`, holding (R) and pressing (A) at the same time, then selecting "Search for titles".
@@ -66,7 +66,7 @@ To identify a `<TitleID>.gbavc.sav` file's Title ID, you can get a listing of al
   + Druk op (Y) op `agbsave.bin` om deze te selecteren
   + Selecteer "AGBSAVE options..."
   + Selecteer "Dump GBA VC save"
-  + Press (A) to continue
+  + Druk op (A) om door te gaan
   + Druk op (Start) om je 3DS opnieuw op te starten
 
 #### Section IV - Copy EmuNAND to SysNAND
@@ -114,14 +114,14 @@ To identify a `<TitleID>.gbavc.sav` file's Title ID, you can get a listing of al
   + Sluit het spel af
   + Start je 3DS terwijl je (Start) ingedrukt houdt om het Luma3DS chainloader menu te openen
   + Open GodMode9 door op (A) te drukken
-  + Navigate to `[0:] SDCARD` -> `gm9`
+  + Navigeer naar `[0:] SDCARD`-> `gm9`
   + Press (Y) on the `<TitleID>.gbavc.sav` file you wish to restore to copy it
   + Druk op (B) om terug te gaan naar het hoofdmenu
   + Navigeer naar `[S:] SYSNAND VIRTUAL`
   + Druk op (Y) op `agbsave.bin` om deze te selecteren
   + Selecteer "AGBSAVE options..."
   + Selecteer "Inject GBA VC save"
-  + Press (A) to continue
+  + Druk op (A) om door te gaan
   + Druk op (Start) om je 3DS opnieuw op te starten
   + Start het GBA VC spel
   + Sluit het spel af

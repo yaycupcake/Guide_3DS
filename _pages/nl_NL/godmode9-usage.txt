@@ -18,7 +18,7 @@ Merk op dat als je andere payload bestanden dan `GodMode9.firm` in de `/luma/pay
 
 GodMode9 is krachtige software die in staat is om zo goed als alles op je console te wijzigen. Though many of these modifications are locked behind a permissions system, and it is impossible to accidentally perform dangerous actions without deliberately unlocking permissions, you should still follow instructions carefully and keep backups just in case.
 
-## Updating GodMode9
+## GodMode9 updaten
 
 Sommige van deze instructies zijn alleen toepasbaar op de nieuwste versie van GodMode9 en daarom volg je best dit gedeelte om je versie te updaten. Overwrite any existing files.
 {: .notice--info}
@@ -71,7 +71,7 @@ Sommige van deze instructies zijn alleen toepasbaar op de nieuwste versie van Go
 1. Selecteer "Restore Options"
 1. Select "SysNAND Restore (safe)"
 1. Select your NAND backup
-1. Press (A) to unlock SysNAND (lvl3) writing, then input the key combo given
+1. Druk op (A) om SysNAND (lvl3) writing te ontgrendelen en voer daarna de toetsencombinatie in die wordt gegeven
   + This will not overwrite your boot9strap installation
   + Dit proces zal enige tijd duren
 1. Druk op (A) om door te gaan

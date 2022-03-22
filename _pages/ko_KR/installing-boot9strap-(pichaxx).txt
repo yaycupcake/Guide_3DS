@@ -8,7 +8,7 @@ title: "boot9strap 설치 (PicHaxx)"
 
 더 깊은 모딩을 위한 Seedminer의 이 사용법은, 포켓몬 피크로스의 커스텀 세이브 파일을 `movable.sed` 파일을 사용해서 작성해, universal-otherapp과 같이 써서 SafeB9SInstaller를 실행하는 방식입니다.
 
-This process will overwrite your Pokémon Picross save file, if you have one. If you wish to preserve your Pokémon Picross game data, you should make a backup of your `00000001.sav` file before overwriting it.
+이 과정은, 만약 이미 있다면, Pokémon Picross 저장 데이터를 덮어쓸 것 입니다. 이 저장 데이터를 보존하고 싶으시다면 `00000001.sav` 파일을 백업 해 주시는 것을 권장합니다.
 {: .notice--warning}
 
 ### 준비물
@@ -63,29 +63,30 @@ This process will overwrite your Pokémon Picross save file, if you have one. If
 	
 1. SD 카드를 기기에 다시 삽입해 주세요
 1. 기기를 시작해 주세요.
-1. "포켓몬 피크로스"를 열어 주세요
+1. Launch "Pokémon Picross"
 1. 익스플로잇이 성공적이었다면 SafeB9SInstaller로 부팅되었을 것입니다
+  + If you get an error message, [follow this troubleshooting guide](troubleshooting#installing-boot9strap-pichaxx)
 
 #### 섹션 III - boot9strap 설치하기
 
-1. 모든 안전 검사가 끝날 때까지 기다려 주세요
 1. 메시지가 나타나면, boot9strap을 설치하기 위하여 화면에 주어진 키 조합을 입력해 주세요
-1. Once it is complete, press (A) to reboot your device
+  + If the top screen is blank, reboot your device and re-launch Pokémon Picross
+1. 작업이 완료되면, (A) 를 눌려 기기를 재부팅해 주세요
 
 #### 섹션 IV - Luma3DS 설정
 
 1. 기기는 Luma3DS 구성 메뉴로 부팅되었을 겁니다
-  + You can access the Luma3DS configuration menu at any time by powering off, holding SELECT, then powering on your device while still holding SELECT
+  + Luma3DS 구성 메뉴는 전원이 꺼져 있는 상태에서, SELECT를 길게 누르며 전원을 켜주시면 열 수 있습니다
   + 검은 화면이 보인다면 이 [문제 해결 가이드](troubleshooting#boot-related-issues-on-modded-devices) 를 참고해 주세요
 1. (A) 버튼과 십자 패드을 이용해 다음 설정을 설정해 주세요:
   + **"Show NAND or user string in System Settings"**
 1. (Start)를 눌러 저장하고 기기를 다시 시작해 주세요
 
 이제 기기는 SD 카드가 삽입되 있는 한 Luma3DS를 기본으로 부팅 됩니다.
-  + Luma3DS does not look any different from the normal HOME Menu. If your console has booted into the HOME Menu, it is running custom firmware.
+  + Luma3DS는 보통 HOME 메뉴와 똑같이 보입니다. 만약 기기가 HOME 메뉴로 부팅되었다면, 커스텀 펌웨어가 설치되어 있습니다.
   + 다음 페이지에서는 SD 카드 없이 부팅 할 수 있도록 Luma3DS를 내장 메모리로 설치할 것 입니다.
 
-이 시점에서, 포켓몬 피크로스는 필요가 없으며, 기기에서 제거하셔도 됩니다. If you wish to play the game, restore your `00000001.sav` backup or re-download the game from the Nintendo eShop.
+이 시점에서, 포켓몬 피크로스는 필요가 없으며, 기기에서 제거하셔도 됩니다. 만약 이 게임을 즐기고 싶으시다면, 이전에 백업한 `00000001.sav` 파일을 복구하거나, 게임을 e숍에서 다시 다운로드 하시면 됩니다.
 {: .notice--info}
 ___
 

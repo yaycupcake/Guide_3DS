@@ -12,6 +12,16 @@ Ciò renderà più facile cercare i file citati nel resto della guida.
 
 ### Istruzioni
 
+#### Windows 11
+
+1. Avvia Esplora Risorse aprendo una qualsiasi cartella, come ad esempio la tua stessa scheda SD
+1. Clicca sul menu "Visualizza" nella barra superiore
+1. Vai su "Mostra"
+1. Clicca su "Estensioni nomi file" per abilitarla
+
+    ![]({{ "/images/screenshots/windows-11-file-extensions.png" | absolute_url }})
+    {: .notice--info}
+
 #### Windows 10 / 8.1 / 8
 
 1. Avvia Esplora Risorse aprendo una qualsiasi cartella, come ad esempio la tua stessa scheda SD
@@ -35,5 +45,5 @@ Ciò renderà più facile cercare i file citati nel resto della guida.
     ![]({{ "/images/screenshots/windows-7-folder-options.png" | absolute_url }})
     {: .notice--info}
 
-### Ritorna a [Cominciamo!](get-started)
+### Prosegui con [Cominciamo!](get-started)
 {: .notice--primary}

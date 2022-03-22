@@ -8,17 +8,17 @@ title: "Cambiare regione"
 
 In questa sezione aggiuntiva verrà spiegato come cambiare regionalità su SysNAND con CFW. Per questo scopo, verrà eseguito un CTRTransfer alla versione 11.15.0 della regione alla quale si desidera passare.
 
-Note that region changing is almost completely unnecessary since Luma3DS supports out-of-region games and individual title [Locale Emulation](https://github.com/LumaTeam/Luma3DS/wiki/Optional-features). Inoltre, è possibile avviare giochi NDS con lingue alternative [TWiLightMenu++](https://github.com/DS-Homebrew/TWiLightMenu/releases).
+Tuttavia, il cambio della regione è quasi completamente inutile in quanto Luma3DS supporta l'avvio di giochi di altre regioni e l'[Emulazione Regionale](https://github.com/LumaTeam/Luma3DS/wiki/Optional-features) su titoli individuali. Inoltre, è possibile avviare giochi NDS con lingue alternative [TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu/releases).
 
 Tieni presente che se hai altri file payload oltre a `GodMode9.firm` nella cartella `/luma/payloads/` della tua scheda SD, per seguire le istruzioni riportate dovrai avviare la console tenendo (Start); apparirà un "menu chainloader" dove dovrai selezionare "GodMode9" tramite il D-Pad e il pulsante (A).
 
 {% capture notice-6 %}
-If you change the region of your device:
+Se cambi la regione della tua console:
 
-+ Your NNID, if you have one, will be unlinked. NNIDs are locked to the region that they were created in.
-+ You may not be able to access the eShop, even if you [delete your eShop account](https://en-americas-support.nintendo.com/app/answers/detail/a_id/74/~/how-to-delete-a-nintendo-eshop-account) beforehand. This is because certain titles tend to remain linked to the 3DS, even after account deletion (especially on New 3DS).
-	+ The eShop contains not only games, but also game updates and DLC. Updates are usually required for online play.
-+ **You will not be able to uninstall custom firmware without bricking the device!** If you intend to uninstall custom firmware in the future, you **MUST** restore your NAND backup that was created before the region change.
++ Il tuo NNID, se ne hai uno, sarà scollegato. I NNNID sono assegnati alla regione in cui sono stati creati.
++ Potresti non essere in grado di accedere all'eShop, anche se [elimini il tuo account eShop](https://en-americas-support.nintendo.com/app/answers/detail/a_id/74/~/how-to-delete-a-nintendo-eshop-account). Questo accade perché alcuni titoli rimangono collegati al 3DS, anche dopo la cancellazione dell'account (specialmente su New 3DS).
+	+ L'eShop contiene non solo giochi, ma anche aggiornamenti di gioco e DLC. Gli aggiornamenti sono di solito necessari per il gioco online.
++ **Non sarai in grado di disinstallare un custom firmware senza brickare la console!** Se hai intenzione di disinstallare il custom firmware in futuro, **DEVI** ripristinare il backup della NAND creato prima del cambiamento di regione.
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-6 | markdownify }}</div>
@@ -26,12 +26,12 @@ If you change the region of your device:
 DEVI aver già installato Luma3DS e boot9strap per poter proseguire.
 {: .notice--danger}
 
-Performing a region change may break extended memory mode games (Monster Hunter, Super Smash Bros, Pokemon Sun/Moon) on Old 3DS/2DS devices. Se dovesse accadere, sarà necessario formattare la console (tramite TinyFormat o Impostazioni della console) per risolvere il problema.
+Un cambio di regione potrebbe rendere inutilizzabili i giochi in modalità memoria estesa (Monster Hunter, Super Smash Bros, Pokemon Sole/Luna) su console Old 3DS/2DS. Se dovesse accadere, sarà necessario formattare la console (tramite TinyFormat o Impostazioni della console) per risolvere il problema.
 {: .notice--warning}
 
 ### Cosa serve
 
-The CTRTransfer links require a torrent client to download, like [Deluge](http://dev.deluge-torrent.org/wiki/Download) or [qBitTorrent](https://www.qbittorrent.org/download.php).
+I link CTRTransfer richiedono un client torrent da scaricare, come [Deluge](http://dev.deluge-torrent.org/wiki/Download) o [qBitTorrent](https://www.qbittorrent.org/download.php).
 {: .notice--warning}
 
 * L'ultima versione di [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
@@ -144,7 +144,6 @@ Se lo script non ha trovato alcun ticket dell'utente, puoi saltare questa sezion
   + Seleziona "Install and delete all tickets"
   + Attendi. Il sistema sembrerà essersi bloccato, dagli del tempo per eseguire l'operazione.
   + Premi il pulsante (A) per confermare
-  + Premi il pulsante (B) per rifiutare l'installazione di ticket dal CDN.
 1. Premi il pulsante HOME per uscire da FBI
 
 #### Section VI - Area di residenza

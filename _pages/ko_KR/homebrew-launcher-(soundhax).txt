@@ -6,7 +6,7 @@ title: "Homebrew Launcher (Soundhax)"
 
 ### 중요
 
-The Homebrew Launcher has many different entrypoints (methods of launching).
+Homebrew Launcher에는 다양한 엔트리 포인트 (실행 방법)이 있습니다.
 
 Soundhax는 (Homebrew Launcher와 사용할 때) 유럽, 일본, 한국, 미국 지역의 9.0.0 이상 11.3.0이하에 사용 가능합니다.
 

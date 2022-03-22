@@ -30,7 +30,7 @@ kartdlphax 是马里奥赛车 7 中下载通信模式中的一个漏洞。 它�
 #### 第一步 – 准备工作（源 3DS）
 
 1. 在你的电脑中插入你的**源 3DS** 的 SD 卡
-1. 复制 Luma 3GX Loader Edition 的 `boot.firm` 到**源 3DS** 的 SD 卡根目录
+1. 复制 Luma 3GX Loader Edition 的 `boot.firm` 到**源 3DS** 的 SD 卡根目录，替换当前已有的文件
   + 根目录指的是你点进 SD 卡看到的目录，你可以在这个目录下看到 Nintendo 3DS 文件夹，但请不要点进去
 1. 复制 kartdlphax 的 `plugin.3gx` 到**源3DS** 的 SD 卡上对应你所拥有的马里奥赛车 7 区域版本的文件夹：
   - 美版： `luma/plugins/0004000000030800`
@@ -59,19 +59,18 @@ kartdlphax 是马里奥赛车 7 中下载通信模式中的一个漏洞。 它�
   - 请确保你已经打开了无线连接
   - kartdlphax 应该会提示你它正在运行
 1. 依次点击 `Local Multiplayer` -> `Create Group`
-  - If the source 3DS freezes at this point and you are using a cartridge, try [installing the cartridge to the system](dumping-titles-and-game-cartridges#installing-a-game-cartridge-directly-to-the-system)
+  - 如果你用的是游戏卡带，且源 3DS 此时卡住了，那么请尝试 [将卡带中的游戏安装到系统中](dumping-titles-and-game-cartridges#installing-a-game-cartridge-directly-to-the-system)
 1. 启动**目标 3DS **
   - 请确保你已经打开了无线连接
 1. 在**目标 3DS**上，打开下载通信（Download Play）应用 (![]({{ "/images/download-play-icon.png" | absolute_url }}){: height="24px" width="24px"})，然后选择 “Nintendo 3DS”
 1. 加入由**源 3DS** 创建的群组
 1. 待**源 3DS** 检测到**目标 3DS** 后，点击“开始”
-1. 多人游戏加载完成后，依次点击“大奖赛” -> “50cc”->（任何角色）-> “蘑菇杯”
+1. 多人游戏加载完成后，依次点击 `大奖赛` -> `50cc` ->（任何角色）-> `蘑菇杯` -> `OK`
 1. 稍等一会儿（百分比应该会显示在**源 3DS** 上）
 1. 如果漏洞执行成功，**目标 3DS** 将会进入到 SafeB9SInstaller
 
 #### 第四步 – SafeB9SInstaller
 
-1. 等待所有检查完成
 1. 出现提示时，按照上屏的提示输入按键组合来安装 boot9strap
 1. 安装完成后，按下 “A” 键重启主机
 

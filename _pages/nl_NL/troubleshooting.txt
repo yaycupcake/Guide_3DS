@@ -10,7 +10,7 @@ This page offers troubleshooting advice for commonly encountered issues. If you 
 
 ## Issues with SafeB9SInstaller
 
-### SigHaxed FIRM was not installed! Check lower screen for more info.
+### SigHaxed FIRM was not installed! Kijk naar het onderste scherm voor meer informatie.
 
 #### SigHaxed FIRM - File not found
 
@@ -20,7 +20,7 @@ You are missing `boot9strap.firm` and `boot9strap.firm.sha` from the `boot9strap
 
 There is an issue with your `boot9strap.firm` and `boot9strap.firm.sha` files. Download de nieuwste versie van [boot9strap](https://github.com/SciresM/boot9strap/releases/download/1.3/boot9strap-1.3.zip) opnieuw en plaats `boot9strap.firm` en `boot9strap.firm.sha` in de `boot9strap` map.
 
-#### Secret Sector - File not found
+#### Secret Sector - Bestand niet gevonden
 
 Je mist `secret_sector.bin` van de `boot9strap` map, of de `boot9strap` map heeft niet de juiste naam. Download [secret_sector.bin](magnet:?xt=urn:btih:15a3c97acf17d67af98ae8657cc66820cc58f655&dn=secret_sector.bin&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2ftracker.lelux.fi%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.loadbt.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.monitorit4.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.ololosh.space%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.pomf.se%3a80%2fannounce&tr=udp%3a%2f%2ftracker.srv00.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.theoks.net%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2fopen.tracker.cl%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.zerobytes.xyz%3a1337%2fannounce&tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&tr=udp%3a%2f%2fvibe.sleepyinternetfun.xyz%3a1738%2fannounce&tr=udp%3a%2f%2fwww.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce&tr=http%3a%2f%2fopenbittorrent.com%3a80%2fannounce) met behulp van een torrent client en plaats het in de `boot9strap` map.
 
@@ -66,6 +66,12 @@ The website has determined that your `movable.sed` cannot be brute-forced. Ensur
 
 ## Installing boot9strap (PicHaxx)
 
+### "An error has occurred. Hold down the POWER button to turn off the power..." (black screen with text)
+
+Your `00000001.sav` and/or `otherapp.bin` files may be misplaced. Zorg ervoor dat `00000001.sav` zich in `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `title` -> `00040000` -> `0017c100` -> `data` bevindt en dat `otherapp.bin` in de hoofdmap van je SD-kaart zit.
+
+If your files are in the correct locations, re-create the save using the [PicHaxx Save Tool](https://3ds.nhnarwhal.com/3dstools/pichaxx.php), then place it in `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `title` -> `00040000` -> `0017c100` -> `data`. Ensure that the file is named exactly `00000001.sav` and that you used your console's `movable.sed` to create it. Download de nieuwste versie van [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest) opnieuw en plaats het op de hoofdmap van je SD-kaart. Do not add the `.bin` extension if you do not already see it.
+
 ### "An exception occurred" or Errdisp when opening Picross
 
 Your device already has custom firmware. You should [check for CFW](checking-for-cfw).
@@ -74,15 +80,9 @@ Your device already has custom firmware. You should [check for CFW](checking-for
 
 There is an issue with your `otherapp.bin` file. Download de nieuwste versie van [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest) en plaats het op de hoofdmap van je SD-kaart. Do not add the `.bin` extension if you do not already see it.
 
-### "An error has occurred. Hold down the POWER button to turn off the power..." (black screen with text)
-
-Your `00000001.sav` and/or `otherapp.bin` files may be misplaced. Ensure that `00000001.sav` is in `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `title` -> `00040000` -> `0017c100` -> `data` and that `otherapp.bin` is on the root of your SD card.
-
-If your files are in the correct locations, re-create the save using the [PicHaxx Save Tool](https://3ds.nhnarwhal.com/3dstools/pichaxx.php), then place it in `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `title` -> `00040000` -> `0017c100` -> `data`. Ensure that the file is named exactly `00000001.sav` and that you used your console's `movable.sed` to create it. Download de nieuwste versie van [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest) opnieuw en plaats het op de hoofdmap van je SD-kaart. Do not add the `.bin` extension if you do not already see it.
-
 ### Game starts normally
 
-Your modified `00000001.sav` file may be misplaced, or you may have used the wrong `movable.sed` when creating it. Re-create the save using the [PicHaxx Save Tool](https://3ds.nhnarwhal.com/3dstools/pichaxx.php), then place it in `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `title` -> `00040000` -> `0017c100` -> `data`.
+Your modified `00000001.sav` file may be misplaced, or you may have used the wrong `movable.sed` when creating it. Maak opnieuw je `movable.sed` via [Bruteforce Movable](https://seedminer.hacks.guide) aan, maak dan opnieuw de save aan met [PicHaxx Save Tool](https://3ds.nhnarwhal.com/3dstools/pichaxx.php) en plaats de gemaakte file (`00000001.sav`) in `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `title` -> `00040000` -> `0017c100` -> `data`.
 
 ### Failed to open SafeB9SInstaller.bin
 

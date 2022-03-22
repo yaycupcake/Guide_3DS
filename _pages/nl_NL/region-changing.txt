@@ -8,7 +8,7 @@ title: "Regio veranderen"
 
 Dit is een extra gedeelte om de regio te veranderen van je CFW SysNAND. Dit wordt gedaan door het installeren van de 11.15.0 CTRTransfer image voor de regio waarnaar je wilt overschakelen.
 
-Merk wel op dat je regio veranderen bijna altijd compleet onnodig zal zijn omdat Luma3DS ook spellen uit een andere regio kan spelen, en ook individuele [Lokale emulatie](https://github.com/LumaTeam/Luma3DS/wiki/Optional-features). Additionally, running NDS games with alternative out-of-region languages is supported by [TWiLightMenu++](https://github.com/DS-Homebrew/TWiLightMenu/releases).
+Merk wel op dat je regio veranderen bijna altijd compleet onnodig zal zijn omdat Luma3DS ook spellen uit een andere regio kan spelen, en ook individuele [Lokale emulatie](https://github.com/LumaTeam/Luma3DS/wiki/Optional-features). Daarnaast worden ook NDS spellen uit andere regio's ondersteund door [TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu/releases).
 
 Merk op dat als je andere payload bestanden dan `GodMode9.firm` in de `/luma/payloads/` map op je SD-kaart hebt, je bij het ingedrukt houden van (Start) bij het opstarten een "chainloader menu" opent die je kan navigeren met de D-Pad en met de (A) knop "GodMode9" kaHin selecteren. Dit geld voor al deze instructies.
 
@@ -16,17 +16,17 @@ Merk op dat als je andere payload bestanden dan `GodMode9.firm` in de `/luma/pay
 Als je de regio van je apparaat verandert:
 
 + Je NNID, als je er een hebt, wordt ontkoppeld. NNID's zijn vergrendeld aan de regio waarin ze gemaakt zijn.
-+ You may not be able to access the eShop, even if you [delete your eShop account](https://en-americas-support.nintendo.com/app/answers/detail/a_id/74/~/how-to-delete-a-nintendo-eshop-account) beforehand. This is because certain titles tend to remain linked to the 3DS, even after account deletion (especially on New 3DS).
-	+ The eShop contains not only games, but also game updates and DLC. Updates zijn meestal vereist om online te spelen.
-+ **You will not be able to uninstall custom firmware without bricking the device!** If you intend to uninstall custom firmware in the future, you **MUST** restore your NAND backup that was created before the region change.
++ Je hebt mogelijk geen toegang tot de eShop, zelfs niet als je [je eShop account verwijdert](https://en-americas-support.nintendo.com/app/answers/detail/a_id/74/~/how-to-delete-a-nintendo-account) vooraf. Dit komt doordat bepaalde titels vaak gekoppeld blijven aan de 3DS, zelfs na het verwijderen van de account (met name op New 3DS).
+	+ De eShop bevat niet alleen spellen, maar ook spel updates en DLC. Updates zijn meestal vereist om online te spelen.
++ **Je kunt custom firmware niet verwijderen zonder het apparaat te bricken! * Als je custom firmware wilt deïnstalleren in de toekomst, zul je je NAND backup herstellen die gemaakt was voordat je de regio veranderde.
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-6 | markdownify }}</div>
 
-You MUST have already installed Luma3DS and boot9strap to use this.
+Je MOET Luma3ds en boot9strap al geïnstalleerd hebben om dit te kunnen gebruiken.
 {: .notice--danger}
 
-Het uitvoeren van een regio verandering kan de extended memory mode voor spellen (Monster Hunter, Super Smash Bros, Pokemon Sun/Moon) op Old 3DS/2DS apparaten breken. If this occurs, you will need to format the device (using TinyFormat or System Settings) to fix the issue.
+Het uitvoeren van een regio verandering kan de extended memory mode voor spellen (Monster Hunter, Super Smash Bros, Pokemon Sun/Moon) op Old 3DS/2DS apparaten breken. Als dit gebeurt, moet je het apparaat formatteren (met behulp van TinyFormat of Systeeminstellingen) om het probleem op te lossen.
 {: .notice--warning}
 
 ### Wat je nodig hebt
@@ -36,7 +36,7 @@ De CTRTransfer links vereisen een torrent client om ze te downloaden, zoals [Del
 
 * De nieuwste versie van [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 * De nieuwste versie van [FBI](https://github.com/Steveice10/FBI/releases/latest) *(het`.3dsx` bestand)*
-* The 11.15.0 CTRTransfer image for your device and the region that you want to change to:
+* De 11.15.0 CTRTransfer image voor jouw apparaat en de regio waar je naar wilt veranderen:
   +    <i class="fa fa-magnet" aria-hidden="true" title="Dit is een magnet link. Gebruik een torrent client om dit bestand te downloaden."></i> - [New 3DS or 2DS - 11.15.0 - EUR - CTRTransfer](magnet:?xt=urn:btih:2a39586a0a10d1f0a9470b082ef1453e502b2425&xt=urn:btmh:12205090f0a43a956bd7449658ee0580949d15ae112c80007fb2ef42e3265b6c5f6c&dn=11.15.0-47E_ctrtransfer_n3ds.zip&tr=udp%3a%2f%2fopen.tracker.cl%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce&tr=udp%3a%2f%2fwww.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.pomf.se%3a80%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.dler.org%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.bitsearch.to%3a1337%2fannounce&tr=udp%3a%2f%2ftracker-udp.gbitt.info%3a80%2fannounce&tr=udp%3a%2f%2fretracker.netbynet.ru%3a2710%2fannounce&tr=udp%3a%2f%2fretracker.lanta-net.ru%3a2710%2fannounce&tr=udp%3a%2f%2fopentor.org%3a2710%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=udp%3a%2f%2fmts.tvbit.co%3a6969%2fannounce&tr=udp%3a%2f%2fexplodie.org%3a6969%2fannounce&tr=udp%3a%2f%2fbt2.archive.org%3a6969%2fannounce)    
   +    <i class="fa fa-magnet" aria-hidden="true" title="Dit is een magnet link. Gebruik een torrent client om dit bestand te downloaden."></i> - [New 3DS or 2DS - 11.15.0 - JPN - CTRTransfer](magnet:?xt=urn:btih:fc2e3d2191ed5bccb5182bcc4c3d24db68e15812&xt=urn:btmh:12201a25a42df00ad774448584c59aee3257adbc59bc68805398dad045cb036a709e&dn=11.15.0-47J_ctrtransfer_n3ds.zip&tr=udp%3a%2f%2fopen.tracker.cl%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce&tr=udp%3a%2f%2fwww.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.pomf.se%3a80%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.dler.org%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.bitsearch.to%3a1337%2fannounce&tr=udp%3a%2f%2ftracker-udp.gbitt.info%3a80%2fannounce&tr=udp%3a%2f%2fretracker.netbynet.ru%3a2710%2fannounce&tr=udp%3a%2f%2fretracker.lanta-net.ru%3a2710%2fannounce&tr=udp%3a%2f%2fopentor.org%3a2710%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=udp%3a%2f%2fmts.tvbit.co%3a6969%2fannounce&tr=udp%3a%2f%2fexplodie.org%3a6969%2fannounce&tr=udp%3a%2f%2fbt2.archive.org%3a6969%2fannounce)    
   +    <i class="fa fa-magnet" aria-hidden="true" title="Dit is een magnet link. Gebruik een torrent client om dit bestand te downloaden."></i> - [New 3DS or 2DS - 11.15.0 - KOR - CTRTransfer](magnet:?xt=urn:btih:e247b21e1f81f76acf6d3140da45da858e76f1f6&xt=urn:btmh:122008168a003666c14783998d1dd82ac02d1b3be902efa75cf5a03ee47da1fecd73&dn=11.15.0-41K_ctrtransfer_n3ds.zip&tr=udp%3a%2f%2fopen.tracker.cl%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce&tr=udp%3a%2f%2fwww.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.pomf.se%3a80%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.dler.org%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.bitsearch.to%3a1337%2fannounce&tr=udp%3a%2f%2ftracker-udp.gbitt.info%3a80%2fannounce&tr=udp%3a%2f%2fretracker.netbynet.ru%3a2710%2fannounce&tr=udp%3a%2f%2fretracker.lanta-net.ru%3a2710%2fannounce&tr=udp%3a%2f%2fopentor.org%3a2710%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=udp%3a%2f%2fmts.tvbit.co%3a6969%2fannounce&tr=udp%3a%2f%2fexplodie.org%3a6969%2fannounce&tr=udp%3a%2f%2fbt2.archive.org%3a6969%2fannounce)    
@@ -57,14 +57,14 @@ De CTRTransfer links vereisen een torrent client om ze te downloaden, zoals [Del
 1. Plaats je SD kaart in je computer
 1. Maak een map genaamd "3ds" op de hoofdmap van je SD-kaart als die nog niet bestaat
 1. Kopieer `GodMode9.firm` van de GodMode9 `.zip` naar de `/luma/payloads/` map op je SD-kaart
-1. Copy the `gm9` folder from the GodMode9 `.zip` to the root of your SD card
+1. Kopieer de `gm9` map uit de GodMode9 `.zip` naar de hoofdmap van je SD-kaart
 1. Kopieer de 11.15.0 CTRTransfer image `.bin` van de CTRTransfer `.zip` naar de `/gm9/` map op je SD-kaart
 1. Kopieer `FBI.3dsx` naar de `/3ds/` map op je SD-kaart
 1. Stop je SD kaart terug in je 3DS
 
-#### Section II - NAND Backup
+#### Deel II - NAND back-up
 1. Terwijl je (Start) ingedrukt houdt, zet je jouw apparaat aan. Dit zal GodMode9 starten
-1. If you are prompted to create an essential files backup, press (A) to do so, then press (A) to continue once it is completed
+1. Als je gevraagd wordt om essentiële bestanden te back-uppen, druk dan op (A) om dit te doen, druk vervolgens op (A) om verder te gaan zodra het voltooid is
 1. If you are prompted to fix the RTC date&time, press (A) to do so, then set the date and time, then press (A) to continue
   + Note that, if you had to fix the RTC date and time, you will have to fix the time in the System Settings as well after this guide
 1. Druk op de (Home) knop om het actiemenu te openen
@@ -88,7 +88,7 @@ De CTRTransfer links vereisen een torrent client om ze te downloaden, zoals [Del
 1. Stop je SD kaart terug in je 3DS
   + If your SD card was not detected, hold (R) and press (B) at the same time to remount it
   
-#### Section III - CTRTransfer
+#### Deel III - CTRTransfer
 
 1. Navigeer naar `[0:] SDCARD`-> `gm9`
 1. Druk op (A) op de CTRTransfer `.bin` om deze te selecteren
@@ -116,7 +116,7 @@ De CTRTransfer links vereisen een torrent client om ze te downloaden, zoals [Del
   + Updaten terwijl je gebruik maakt van B9S + Luma (wat jij hebt) is veilig
   + Als dit je een foutmelding geeft, zet dan je DNS instellingen op "auto"
 
-#### Section IV - Launching FBI
+#### Deel IV - FBI starten
 
 1. Start de Download Play applicatie (dit [icoon]({{ "/images/download-play-icon.png" | absolute_url }})
 1. Druk tegelijkertijd op (L) + (Down) + (Select) om het Rosalina menu te openen
@@ -129,9 +129,9 @@ De CTRTransfer links vereisen een torrent client om ze te downloaden, zoals [Del
 1. Open de Download Play app
 1. Nu zou je console de Homebrew Launcher moeten openen
 
-#### Section V - Reinstalling Tickets
+#### Deel V - Tickets opnieuw installeren
 
-If the script found no user tickets and told you to skip this section, you can skip this section.
+Als het script geen user tickets heeft gevonden en je heeft verteld dit gedeelte over te slaan, kunt je het overslaan.
 {: .notice--info}
 
 1. Start FBI uit de lijst met homebrew
@@ -144,7 +144,6 @@ If the script found no user tickets and told you to skip this section, you can s
   + Selecteer "Install and delete all tickets"
   + Wacht. Het systeem lijkt misschien vast te lopen, maar geef het wat tijd.
   + Druk op (A) om het te bevestigen
-  + Druk op (B) om het installeren van tickets van CDN te weigeren.
 1. Druk op (Home) om FBI af te sluiten
 
 #### Section VI - Region settings

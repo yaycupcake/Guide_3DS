@@ -259,6 +259,7 @@ $(document).ready(function() {
       "11": ["seedminer", "installing-boot9strap-(usm)", "finalizing-setup"],
       "12": ["seedminer", "installing-boot9strap-(pichaxx)", "finalizing-setup"],
       "13": ["installing-boot9strap-(kartdlphax)", "finalizing-setup"],
+      "14": ["seedminer", "bannerbomb3-fredtool-(twn)", "finalizing-setup"],
     }
     // Can add custom routing if necessary but currently both routes are identical
     var device_old =  Object.assign({}, device_common,{

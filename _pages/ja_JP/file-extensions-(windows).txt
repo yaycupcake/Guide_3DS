@@ -12,6 +12,16 @@ title: "ファイル拡張子 (Windows)"
 
 ### 手順
 
+#### Windows 11
+
+1. エクスプローラでSD カード等の任意のディレクトリを開きます。
+1. Click the "View" option in the toolbar
+1. Go to "Show"
+1. Click "File name extensions" to enable it
+
+    ![]({{ "/images/screenshots/windows-11-file-extensions.png" | absolute_url }})
+    {: .notice--info}
+
 #### Windows 10 / 8.1 / 8
 
 1. エクスプローラでSD カード等の任意のディレクトリを開きます。
@@ -35,5 +45,5 @@ title: "ファイル拡張子 (Windows)"
     ![]({{ "/images/screenshots/windows-7-folder-options.png" | absolute_url }})
     {: .notice--info}
 
-### [はじめに](get-started) に戻る
+### Continue to [Get Started](get-started)
 {: .notice--primary}
