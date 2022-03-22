@@ -83,7 +83,10 @@ sidebar_pages:
     title: 启动 Homebrew Launcher（通过 Soundhax）
     url: homebrew-launcher-(soundhax)
   - 
-    title: 安装 boot9strap （通过硬改）
+    title: BannerBomb3 + Fredtool（仅港台版）
+    url: bannerbomb3-fredtool-(twn)
+  - 
+    title: 安装 boot9strap（通过硬改）
     url: installing-boot9strap-(hardmod)
   - 
     title: 安装 boot9strap（通过 SafeB9SInstaller）
@@ -92,7 +95,7 @@ sidebar_pages:
     title: 安装 boot9strap（通过 ntrboot）
     url: installing-boot9strap-(ntrboot)
   - 
-    title: 安装 boot9strap （通过 Soundhax）
+    title: 安装 boot9strap（通过 Soundhax）
     url: installing-boot9strap-(soundhax)
   - 
     title: 安装 boot9strap（通过 Fredtool）

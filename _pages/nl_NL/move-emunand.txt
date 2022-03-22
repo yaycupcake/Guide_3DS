@@ -29,7 +29,7 @@ Je MOET Luma3ds en boot9strap al geïnstalleerd hebben om dit te kunnen gebruike
 1. Kopieer de `gm9` map uit de GodMode9 `.zip` naar de hoofdmap van de SD-kaart
 1. Stop je SD kaart terug in je 3DS
 
-#### Section II - Backup SysNAND DSiWare Saves
+#### Deel II - Back-up maken van SysNAND DSiWare Saves
 
 Als je geen DSiWare spellen of saves hebt die je wilt behouden, kan je dit deel overslaan.
 {: .notice--info}
@@ -43,7 +43,7 @@ Als je geen DSiWare spellen of saves hebt die je wilt behouden, kan je dit deel 
   + Dit proces kan even duren als je veel DSiWare spellen hebt
 1. Druk twee keer op (B) om terug te gaan naar het hoofdmenu
 
-#### Section III - Backup GBA VC Saves
+#### Deel II - Back-up maken van GBA VC saves
 
 Als je geen GBA VC spellen of saves hebt die je wat uit maken, kan je dit deel overslaan.
 {: .notice--info}
@@ -69,25 +69,25 @@ To identify a `<TitleID>.gbavc.sav` file's Title ID, you can get a listing of al
   + Druk op (A) om door te gaan
   + Druk op (Start) om je 3DS opnieuw op te starten
 
-#### Section IV - Copy EmuNAND to SysNAND
+#### Deel IV - EmuNAND naar SysNAND kopiëren
 
 1. Open GodMode9 door (Start) ingedrukt te houden bij het opstarten van je 3DS
 1. Navigeer naar `[E:] EMUNAND VIRTUAL`
 1. Druk op (A) op `nand.bin` om het te selecteren, selecteer vervolgens "NAND image options...", en selecteer dan "Restore SysNAND (safe)"
 1. Druk op (A) om SysNAND overwriting te ontgrendelen en voer daarna de toetsencombinatie in die wordt gegeven
-  + This will not overwrite your boot9strap installation
+  + Dit zal niet je boot9strap installatie overschrijven
 1. Voer de gegeven combinatie van knoppen in om SysNAND (lvl1) writing in te schakelen
   + Dit proces zal enige tijd duren
 1. Als het klaar is, druk op (A) om door te gaan
 1. Druk op (B) om het opnieuw vergrendelen van schrijfrechten te weigeren
 1. Druk op (B) om terug te gaan naar het hoofdmenu
 
-#### Section V - Restore DSiWare Saves
+#### Deel V - DSiWare saves herstellen
 
 Als je geen backup DSiWare Saves hebt gemaakt, kan je dit overslaan.
 {: .notice--info}
 
-1. Navigate to `[0:] SDCARD` -> `gm9` -> `out`
+1. Navigeer naar `[0:] SDCARD`-> `gm9` -> `out`
 1. Druk op (Y) op de `00030004` map om deze te kopiëren
 1. Druk twee keer op (B) om terug te gaan naar het hoofdmenu
 1. Navigeer naar `[2:] SYSNAND TWLN` -> `title`
@@ -99,7 +99,7 @@ Als je geen backup DSiWare Saves hebt gemaakt, kan je dit overslaan.
 1. Druk op (B) om het opnieuw vergrendelen van schrijfrechten te weigeren
 1. Druk twee keer op (B) om terug te gaan naar het hoofdmenu
 
-#### Section VI - Restore GBA VC Saves
+#### Deel VI - GBA VC saves herstellen
 
 Als je geen backup GBA VC Saves hebt gemaakt, kan je dit overslaan.
 {: .notice--info}
@@ -127,7 +127,7 @@ To identify a `<TitleID>.gbavc.sav` file's Title ID, you can get a listing of al
   + Sluit het spel af
 1. Open GodMode9 door (Start) ingedrukt te houden bij het opstarten van je 3DS
 
-#### Section VII - Backup SysNAND
+#### Deel VII - Backup SysNAND
 
 1. Druk op de (Home) knop om het actiemenu te openen
 1. Selecteer "Scripts..."
@@ -149,7 +149,7 @@ To identify a `<TitleID>.gbavc.sav` file's Title ID, you can get a listing of al
 1. Verwijder `<date>_<serialnumber>_sysnand_###.bin` en `<date>_<serialnumber>_sysnand_###.bin.sha` van de `/gm9/out/` map op je SD-kaart nadat je ze hebt gekopieerd
 1. **Maak een backup van elk bestand op je SD kaart naar een map op je computer; alle bestanden zullen verwijderd worden in de volgende stappen**
 
-#### Section VIII - Format SD card
+#### Deel VIII - SD-kaart formatteren
 
 1. Stop je SD kaart terug in je 3DS
 1. Druk op de (Home) knop om het actiemenu te openen
@@ -167,7 +167,7 @@ To identify a `<TitleID>.gbavc.sav` file's Title ID, you can get a listing of al
   + Ensure you replace the `boot.firm` file on your SD card with the one from your backup
 1. Stop je SD kaart terug in je 3DS
 1. Druk (A) om je SD kaart te remounten
-1. Press (Start) to reboot
+1. Druk op (Start) om te herstarten
 1. Wanneer je een zwart scherm hebt, [volg dan deze foutoplossingshadleiding](troubleshooting#ts_sys_down)
 
 ___
