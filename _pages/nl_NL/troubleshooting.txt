@@ -32,7 +32,7 @@ Sluit je aan bij [Nintendo Homebrew op Discord](https://discord.gg/MWxPgEp) voor
 
 ## Seedminer
 
-### Multiple long folder names in Nintendo 3DS folder
+### Meerdere lange mapnamen in de Nintendo 3DS map
 
 ![]({{ "/images/screenshots/multiple-id0.png" | absolute_url }})
 {: .notice--info}
@@ -47,7 +47,7 @@ Dit gebeurt wanneer je je SD-kaart in meerdere 3DS systemen gebruikt en is bedoe
 1. Ga naar de `Nintendo 3DS` map op je SD-kaart
 1. Copy the 32 character long name of the folder you see
 	+ This is your true ID0 that you will use in [Section II of Seedminer](seedminer#section-ii---seedminer)
-1. Delete the `Nintendo 3DS` folder
+1. Verwijder de `Nintendo 3DS` map
 1. Rename the `BACKUP_Nintendo 3DS` folder to `Nintendo 3DS`
 
 ### Bruteforce movable overslaan naar stap 4
@@ -70,7 +70,7 @@ The website has determined that your `movable.sed` cannot be brute-forced. Ensur
 
 Your `00000001.sav` and/or `otherapp.bin` files may be misplaced. Zorg ervoor dat `00000001.sav` zich in `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `title` -> `00040000` -> `0017c100` -> `data` bevindt en dat `otherapp.bin` in de hoofdmap van je SD-kaart zit.
 
-If your files are in the correct locations, re-create the save using the [PicHaxx Save Tool](https://3ds.nhnarwhal.com/3dstools/pichaxx.php), then place it in `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `title` -> `00040000` -> `0017c100` -> `data`. Ensure that the file is named exactly `00000001.sav` and that you used your console's `movable.sed` to create it. Download de nieuwste versie van [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest) opnieuw en plaats het op de hoofdmap van je SD-kaart. Do not add the `.bin` extension if you do not already see it.
+If your files are in the correct locations, re-create the save using the [PicHaxx Save Tool](https://3ds.nhnarwhal.com/3dstools/pichaxx.php), then place it in `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `title` -> `00040000` -> `0017c100` -> `data`. Ensure that the file is named exactly `00000001.sav` and that you used your console's `movable.sed` to create it. Download de nieuwste versie van [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest) opnieuw en plaats het op de hoofdmap van je SD-kaart. Voeg de `.bin` extensie niet toe als je het nog niet ziet.
 
 ### "An exception occurred" of Errdisp bij het openen van Picross
 
@@ -78,7 +78,7 @@ Your device already has custom firmware. You should [check for CFW](checking-for
 
 ## "An error has occured, forcing the software to close..." (wit berichtveld)
 
-There is an issue with your `otherapp.bin` file. Download de nieuwste versie van [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest) en plaats het op de hoofdmap van je SD-kaart. Do not add the `.bin` extension if you do not already see it.
+Er is een probleem met je `otherapp.bin` bestand. Download de nieuwste versie van [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest) en plaats het op de hoofdmap van je SD-kaart. Voeg de `.bin` extensie niet toe als je het nog niet ziet.
 
 ### Spel start normaal op
 
@@ -86,11 +86,11 @@ Your modified `00000001.sav` file may be misplaced, or you may have used the wro
 
 ### Kan SafeB9SInstaller.bin niet openen
 
-The file `SafeB9SInstaller.bin` is missing or misplaced. Download de nieuwste versie van [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/tag/v0.0.7) en plaats het op de hoofdmap van je SD-kaart. Do not add the `.bin` extension if you do not already see it.
+The file `SafeB9SInstaller.bin` is missing or misplaced. Download de nieuwste versie van [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/tag/v0.0.7) en plaats het op de hoofdmap van je SD-kaart. Voeg de `.bin` extensie niet toe als je het nog niet ziet.
 
 ### Bevroren op "Doing agbhax..."
 
-There may be an issue with your `otherapp.bin` file. Download de nieuwste versie van [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest) en plaats het op de hoofdmap van je SD-kaart. Do not add the `.bin` extension if you do not already see it.
+There may be an issue with your `otherapp.bin` file. Download de nieuwste versie van [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest) en plaats het op de hoofdmap van je SD-kaart. Voeg de `.bin` extensie niet toe als je het nog niet ziet.
 
 ### "PrepareArm9ForTwl returned error c8804631!"
 
@@ -122,7 +122,7 @@ You have the wrong Soundhax file for your device and region, or your device is i
 
 ### Failed to open SafeB9SInstaller.bin
 
-The file `SafeB9SInstaller.bin` is missing or misplaced. Download de nieuwste versie van [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/tag/v0.0.7) en plaats het op de hoofdmap van je SD-kaart. Do not add the `.bin` extension if you do not already see it.
+The file `SafeB9SInstaller.bin` is missing or misplaced. Download de nieuwste versie van [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/tag/v0.0.7) en plaats het op de hoofdmap van je SD-kaart. Voeg de `.bin` extensie niet toe als je het nog niet ziet.
 
 ### Bevroren op "Doing agbhax..."
 
@@ -132,7 +132,7 @@ If you have a Taiwanese or Mainland Chinese unit (with a T or C in the version s
 
 ### "PrepareArm9ForTwl returned error c8804631!"
 
-You will need to follow an alternate method. Join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) for assistance.
+You will need to follow an alternate method. Sluit je aan bij [Nintendo Homebrew op Discord](https://discord.gg/MWxPgEp) voor hulp.
 
 ### Failed to mount the SD card!
 
@@ -172,17 +172,17 @@ Ensure that `F00D43D5.bin` is the only file in `Nintendo 3DS` -> `<ID0>` -> `<ID
 
 Ensure that your `movable.sed` and DSiWare backup come from the same console. A mismatch will result in an error.
 
-### "Haxxxxxxxxx!" does not appear
+### "Haxxxxxxxxx!" verschijnt niet
 
 There is an issue with your `42383821.bin` file (it is incorrect, missing, misplaced, or corrupted). Re-create your files with the [Fredtool](https://3ds.nhnarwhal.com/3dstools/fredtool.php) website and ensure that you place the `42383821.bin` file from `output.zip` -> `hax` in `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `Nintendo DSiWare`.
 
-### DS Connection Settings launches normally
+### DS Connection Settings start normaal op
 
 `Haxxxxxxxxx!` was not copied from your SD card to your system memory.
 
-### Black screen when launching DS Connection Settings
+### Zwart scherm bij het opstarten van DS Connection Settings
 
-Your DS Connection Settings application is broken, and you will need Homebrew Launcher access to fix this issue. Join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) for assistance.
+Your DS Connection Settings application is broken, and you will need Homebrew Launcher access to fix this issue. Sluit je aan bij [Nintendo Homebrew op Discord](https://discord.gg/MWxPgEp) voor hulp.
 
 ### SD-kaart is grijs gemaakt
 
@@ -196,7 +196,7 @@ You did not copy the `private` folder from the Frogminer_save `.zip` to the root
 
 You may have accidentally touched the touch screen while in the modified Flipnote. Re-enter DS Connection Settings and try again, ensuring that you don't accidentally use the touchscreen.
 
-### Green screen after pasting 
+### Groen scherm na plakken 
 
 The file `boot.nds` is missing or misplaced. Download de nieuwste versie van [b9stool](https://github.com/zoogie/b9sTool/releases/latest) en plaats `boot.nds` op de hoofdmap van je SD-kaart, ter vervanging van het bestaande bestand.
 
@@ -204,13 +204,13 @@ The file `boot.nds` is missing or misplaced. Download de nieuwste versie van [b9
 
 There is an issue with your `boot.nds` file. Download de nieuwste versie van [b9stool](https://github.com/zoogie/b9sTool/releases/latest) opnieuw en plaats `boot.nds` op de hoofdmap van je SD-kaart, ter vervanging van het bestaande bestand.
 
-### Unable to open Luma3DS configuration menu after running b9stool
+### Kan het Luma3DS configuratie menu niet openen na het uitvoeren van b9stool
 
 It is possible that boot9strap was not successfully installed. Follow section B of [this page](https://github.com/zoogie/b9sTool/blob/master/TROUBLESHOOTING.md).
 
-## Finalizing Setup
+## Installatie voltooien
 
-### Unable to update device
+### Kan apparaat niet bijwerken
 
 The steps below can be attempted in any order, but are listed from easiest to hardest to perform.
 
@@ -224,11 +224,11 @@ The steps below can be attempted in any order, but are listed from easiest to ha
 1. If you still get an error, [follow CTRTransfer](ctrtransfer), then try again
 1. For further support (in English), join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp)
 
-### Unable to enter Rosalina due to broken button(s)
+### Niet in staat om Rosalina te openen door defecte knop(pen)
 
 Download this [alternate config.bin](https://cdn.discordapp.com/attachments/196635695958196224/733384123003175074/config.bin) and place it in `/luma/`. This will change the Rosalina key combination to (Y) + (B).
 
-### "An exception occurred" after trying to launch Homebrew Launcher via Download Play
+### "An exception occurred" na het proberen starten van de Homebrew Launcher via Download Play
 
 There is an issue with your `boot.3dsx` file (it is missing, misplaced, or corrupted). Download de nieuwste versie van [de Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest) en plaats `boot.3dsx` op de hoofdmap van je SD-kaart, ter vervanging van elk bestaand bestand. Make sure you are extracting the ZIP file with any tool other than WinRAR, as it is known to cause issues with 3DS-related files.
 
@@ -236,7 +236,7 @@ There is an issue with your `boot.3dsx` file (it is missing, misplaced, or corru
 
 You did not copy the `gm9` folder from the GodMode9 `.zip` to the root of your SD card. Download de nieuwste versie van [GodMode9](https://github.com/d0k3/GodMode9/releases/latest) en plaats de `gm9` map op de hoofdmap van je SD-kaart, voeg deze samen met de bestaande bestanden.
 
-### `essentials.exefs` missing from `/gm9/out/`
+### `essentials.exefs` ontbreekt in `/gm9/out/`
 
 Your device had custom firmware in the past, so you were not automatically prompted to make a backup. Make a backup manually:
 

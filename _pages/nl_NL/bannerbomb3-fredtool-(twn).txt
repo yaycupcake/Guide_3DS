@@ -12,7 +12,7 @@ To accomplish this, we use your system's encryption key (movable.sed) to build a
 
 Once you have a DSiWare backup, an exploitable DSiWare title can be injected into DS Download Play, which can be used to install custom firmware.
 
-These instructions are for Taiwanese consoles ONLY (as indicated by a T at the end of the system version, e.g. 11.15.0-39T)! If your console is from any other region, [choose another method](seedminer#next-steps).
+These instructions are for Taiwanese consoles ONLY (as indicated by a T at the end of the system version, e.g. 11.15.0-39T)! Als je console uit een andere regio komt, [kies dan een andere methode](seedminer#next-steps).
 {: .notice--warning}
 
 ### Wat je nodig hebt
@@ -45,7 +45,7 @@ Als je een configuratiemenu ziet, heb je al CFW en zal het doorgaan met deze ins
 ![]({{ "/images/screenshots/fredtool-root-layout.png" | absolute_url }})
 {: .notice--info}
 
-#### Section III - BannerBomb3
+#### Deel III - BannerBomb3
 
 1. Open the [DSIHaxInjector V2](https://jenkins.nelthorya.net/job/DSIHaxInjector%20v2/build?delay=0sec) website on your computer
 1. Under the "Username" field, enter any alphanumeric name (no spaces or special characters)
@@ -76,7 +76,7 @@ Als je een configuratiemenu ziet, heb je al CFW en zal het doorgaan met deze ins
 1. Wacht even
      + The following should happen, in this order: A progress swirl, a short freeze, the bottom screen turning purple, the music stopping, then the device showing an error message and rebooting
     + If you did not see the purple screen, then something went wrong
-1. You should now have the file `42383821.bin` on the root of your SD card
+1. Je zou nu het bestand `42383821.bin` op de hoofdmap van je SD-kaart moeten hebben
 1. Navigeer naar `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `Nintendo DSiWare` op je SD-kaart 
 1. Verwijder alle `.bin` bestanden in de `Nintendo DSiWare` map
 
@@ -97,7 +97,7 @@ Als je een configuratiemenu ziet, heb je al CFW en zal het doorgaan met deze ins
 1. Zet je 3DS aan
 1. Open System Settings op je apparaat
 1. Navigeer naar `Data Management` -> `DSiWare`
-1. Under the “SD Card” section, select the “Haxxxxxxxxx!” title
+1. Onder het "SD-kaart" gedeelte selecteer de titel "Haxxxxxxxxx!"
 1. Selecteer "Copy" en selecteer dan "OK”
 1. Verlaat Systeeminstellingen
 1. Launch Download Play on your device (the orange icon with a 3DS on it)
@@ -127,7 +127,7 @@ Als je liever een visuele handleiding hebt in dit deel, is er [hier](https://zoo
     + Mogelijk moet je de power knop een tijdje inhouden om zo je console uit te zetten
     + Als je het Luma Configuration scherm ziet, ga dan verder zonder je 3DS uit te schakelen
 
-#### Section VI - Configuring Luma3DS
+#### Deel VI - Luma3DS configureren
 
 1. Start je 3DS terwijl je (Select) ingedrukt houdt om het Luma configuratiemenu te openen
     + If you encounter issues launching the Luma configuration menu, follow [this troubleshooting guide](https://github.com/zoogie/b9sTool/blob/master/TROUBLESHOOTING.md)
@@ -146,7 +146,7 @@ Als je liever een visuele handleiding hebt in dit deel, is er [hier](https://zoo
 1. Zet je 3DS aan
 1. Open System Settings op je apparaat
 1. Navigeer naar `Data Management` -> `DSiWare`
-1. Under the “SD Card” section, select the “Haxxxxxxxxx!” title
+1. Onder het "SD-kaart" gedeelte selecteer de titel "Haxxxxxxxxx!"
 1. Selecteer "Copy" en selecteer dan "OK”
 1. Verlaat Systeeminstellingen
 1. Schakel je 3DS uit
