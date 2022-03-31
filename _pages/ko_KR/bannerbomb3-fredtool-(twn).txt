@@ -8,19 +8,19 @@ title: "BannerBomb3 + Fredtool (TWN)"
 
 시스템 DSiWare를 덤프 하기 위해, DSiWare 데이터 관리 설정 창에 취약점을 악용합니다.
 
-To accomplish this, we use your system's encryption key (movable.sed) to build a DSiWare backup that exploits the system to dump the DSi Internet Settings application to the SD root.
+이것은 시스템의 암호화 키 (movable.sed)를 이용해 DSiWare 백업을 만들어 DSi 인터넷 설정을 SD 카드 루트에 덤프할 수 있도록 만듭니다.
 
 Once you have a DSiWare backup, an exploitable DSiWare title can be injected into DS Download Play, which can be used to install custom firmware.
 
 These instructions are for Taiwanese consoles ONLY (as indicated by a T at the end of the system version, e.g. 11.15.0-39T)! If your console is from any other region, [choose another method](seedminer#next-steps).
 {: .notice--warning}
 
-### What you need
+### 준비물
 
-- Your `movable.sed` file completing [Seedminer](seedminer)
-- The latest release of [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest)
-- The latest release of [b9stool](https://github.com/zoogie/b9sTool/releases/latest)
-- The latest release of [Frogminer_save](https://github.com/zoogie/Frogminer/releases/latest)
+- [Seedminer](seedminer)에서 받은 `movable.sed` 파일
+- 최신 버전의 [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest)
+- 최신 버전의 [b9stool](https://github.com/zoogie/b9sTool/releases/latest)
+- 최신 버전의 [Frogminer_save](https://github.com/zoogie/Frogminer/releases/latest)
 
 #### 섹션 I - CFW 확인
 
@@ -45,7 +45,7 @@ These instructions are for Taiwanese consoles ONLY (as indicated by a T at the e
 ![]({{ "/images/screenshots/fredtool-root-layout.png" | absolute_url }})
 {: .notice--info}
 
-#### Section III - BannerBomb3
+#### 섹션 III - BannerBomb3
 
 1. Open the [DSIHaxInjector V2](https://jenkins.nelthorya.net/job/DSIHaxInjector%20v2/build?delay=0sec) website on your computer
 1. Under the "Username" field, enter any alphanumeric name (no spaces or special characters)
@@ -55,8 +55,8 @@ These instructions are for Taiwanese consoles ONLY (as indicated by a T at the e
 1. Click the "output_(name).zip" link
 1. SD 카드의 `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `Nintendo DSiWare` 폴더로 이동해 주세요 
     +  `<ID0>` is the same as the one you used in Seedminer
-    + `<ID1>` is a 32-character folder inside of `<ID0>`
-    + If the `Nintendo DSiWare` folder does not exist, then create it
+    + 이 `<ID1>`은 `<ID0>` 폴더 안에 존재하는 32자리의 이름을 갖춘 폴더입니다
+    + 만약 `Nintendo DSiWare` 폴더가 존재하지 않다면, 만들어 주세요
 1. If there is anything currently in the `Nintendo DSiWare` folder, move it elsewhere for safekeeping
 1. Open the output_(name) `.zip` file and navigate to `China_Taiwan` -> `output_setup`
 1. Copy all six `.bin` files to the `Nintendo DSiWare` folder
@@ -80,7 +80,7 @@ These instructions are for Taiwanese consoles ONLY (as indicated by a T at the e
 1. SD 카드의 `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `Nintendo DSiWare` 폴더로 이동해 주세요 
 1. Delete all of the `.bin` files in the `Nintendo DSiWare` folder
 
-#### Section IV - Fredtool
+##### 섹션 IV - Fredtool
 
 1. Open the [DSIHaxInjector_new](https://jenkins.nelthorya.net/job/DSIHaxInjector_new/build?delay=0sec) website on your computer
 1. Under the "Username" field, enter any alphanumeric name (no spaces or special characters)
@@ -97,14 +97,14 @@ These instructions are for Taiwanese consoles ONLY (as indicated by a T at the e
 1. 기기를 시작해 주세요.
 1. 기기에서 본체 설정을 열어 주세요
 1. `데이터 관리` -> `DSiWare` 메뉴를 열어 주세요
-1. Under the “SD Card” section, select the “Haxxxxxxxxx!” title
-1. Select “Copy”, then select “OK”
-1. Exit System Settings
+1. "SD 카드" 섹션에서 "Haxxxxxxxxx!" 타이틀을 선택해 주세요
+1. "Copy"를 선택한 후 "OK"를 선택해 주세요
+1. 본체 설정을 종료해 주세요
 1. Launch Download Play on your device (the orange icon with a 3DS on it)
 1. "Nintendo DS"를 선택해 주세요 
-1. If the exploit was successful, your 3DS will have loaded into the JPN version of Flipnote Studio
+1. 만약 익스플로잇이 성공적이었다면, 기기는 JPN 버전의 Flipnote Studio를 실행할 겁니다
 
-#### Section V - Flipnote Exploit
+#### 섹션 V - Flipnote 익스플로잇
 
 만약 이 섹션의 비주얼 가이드를 선호한다면, [여기서] (https://zoogie.github.io/web/flipnote_directions/) 그 중 하나를 보실 수가 있습니다.
 {: .notice--info}
@@ -121,16 +121,16 @@ These instructions are for Taiwanese consoles ONLY (as indicated by a T at the e
 1. "A"가 들어가 있는 네 번째 버튼을 눌러 주세요
 1. 익스플로잇이 성공적이었다면 b9sTool을 실행했을 것입니다
 1. Using the D-Pad, move to “Install boot9strap”
-    + If you miss this step, the system will exit to home menu instead of installing boot9strap and you will need to open DS Download Play and start over from the beginning of this section
-1. Press (A), then press START and SELECT at the same time to begin the process
-1. Once completed and the bottom screen says “done.”, exit b9sTool, then power off your device
+    + 이 댄계을 놓쳤다면, 시스템은 boot9strap을 설치하는 대신 HOME 메뉴로 나갈 것이고, 다시 DS 다운로드 플레이를 열어서 섹션 V의 처음부터 시작해야 할 것입니다
+1. (A) 버튼을 누른 후, START와 SELECT를 동시에 눌러 작업을 실행해 주세요
+1. 완료되고 아래 화면에 "done."이라고 표시되면, b9sTool를 종료하고 기기의 전원을 꺼 주세요
     + 전원버튼을 계속 눌러 강제종료를 해야 할 수도 있습니다
-    + If you see the Luma Configuration screen, continue with the guide without powering off
+    + Luma3DS 설정 메뉴가 표시되면, 전원을 끄지 말고 그냥 진행해 주세요
 
-#### Section VI - Configuring Luma3DS
+#### 섹션 VI - Luma3DS 설정
 
 1. (Select) 를 누른 채 기기를 부팅해 LumaDS 설정 메뉴로 들어가 주세요
-    + If you encounter issues launching the Luma configuration menu, follow [this troubleshooting guide](https://github.com/zoogie/b9sTool/blob/master/TROUBLESHOOTING.md)
+    + 만약 Luma3DS 설정 메뉴가 표시 안되면, [이 문제 해결 가이드 (영어)](https://github.com/zoogie/b9sTool/blob/master/TROUBLESHOOTING.md)를 참고해 주시기 바랍니다
     + If the blue light on your 3DS powers on and off, you are missing `boot.firm` from the root of your SD card
 1. (A) 버튼과 십자 패드을 이용해 다음 설정을 설정해 주세요:
     + “Show NAND or user string in System Settings”
@@ -146,9 +146,9 @@ These instructions are for Taiwanese consoles ONLY (as indicated by a T at the e
 1. 기기를 시작해 주세요.
 1. 기기에서 본체 설정을 열어 주세요
 1. `데이터 관리` -> `DSiWare` 메뉴를 열어 주세요
-1. Under the “SD Card” section, select the “Haxxxxxxxxx!” title
-1. Select “Copy”, then select “OK”
-1. Exit System Settings
+1. "SD 카드" 섹션에서 "Haxxxxxxxxx!" 타이틀을 선택해 주세요
+1. "Copy"를 선택한 후 "OK"를 선택해 주세요
+1. 본체 설정을 종료해 주세요
 1. 기기를 종료해 주세요
 
 ___
