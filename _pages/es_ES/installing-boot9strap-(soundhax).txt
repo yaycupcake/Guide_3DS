@@ -13,7 +13,7 @@ Soundhax (en combinación con universal-otherapp) es compatible con las versione
 * La última versión de [Soundhax](http://soundhax.com) *(correspondiente a tu consola, región y versión)*
   + Si Soundhax aparece en tu navegador como un vídeo no reproducible, presiona Ctrl+S o Cmd+S para guardarlo en tu computadora
 * La última versión de [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
-* La versión más reciente de [boot9strap](https://github.com/SciresM/boot9strap/releases/download/1.3/boot9strap-1.3.zip)
+* The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/download/1.4/boot9strap-1.4.zip)
 * La versión más reciente de [Luma3DS] (https://github.com/LumaTeam/Luma3DS/releases/latest)
 * La ultima versión de [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest)
 
@@ -50,7 +50,6 @@ Soundhax (en combinación con universal-otherapp) es compatible con las versione
 1. Ve a `/SDCARD`, y luego reproduce "<3 nedwill 2016"
   + Esto podría tomar varios intentos
   + Si se congela, fuerza el apagado de la consola manteniendo presionado el botón de apagado y luego intenta el proceso de nuevo
-  + Si tu consola se queda con la pantalla en rojo y blanco *y a la vez* se encuentra en versión de firmware 9.4.0, 9.5.0 o 9.6.0, prueba a seguir [Homebrew Launcher (Soundhax)](homebrew-launcher-(soundhax))
 
     ![]({{ "/images/screenshots/soundhax-launch.png" | absolute_url }})
     {: .notice--info}

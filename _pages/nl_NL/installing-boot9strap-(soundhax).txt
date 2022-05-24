@@ -13,7 +13,7 @@ Soundhax (wanneer gecombineerd met universal-otherapp) is compatibel met versies
 * De nieuwste versie van [Soundhax](http://soundhax.com) *(voor jouw regio, apparaat en versie)*
   + Als Soundhax als een niet afspeelbare video in je browser wordt weergegeven, druk dan op Ctrl+S of Cmd+S om het op te slaan op je computer
 * De nieuwste versie van [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
-* De nieuwste versie van [boot9strap](https://github.com/SciresM/boot9strap/releases/download/1.3/boot9strap-1.3.zip)
+* De nieuwste versie van [boot9strap](https://github.com/SciresM/boot9strap/releases/download/1.4/boot9strap-1.4.zip)
 * De nieuwste versie van [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest)
 * De nieuwste versie van [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest)
 
@@ -50,7 +50,6 @@ Soundhax (wanneer gecombineerd met universal-otherapp) is compatibel met versies
 1. Ga naar `/SDCARD`, en speel dan "<3 nedwill 2016" af
   + Dit kan meerdere pogingen nodig hebben
   + Als het bevriest, forceer de console om uit te schakelen door de power knop ingedrukt te houden, probeer het dan opnieuw
-  + Als je console een rood en wit scherm laat zien *en* je console draait op systeemversie 9.4.0, 9.5.0, of 9.6.0, probeer dan [Homebrew Launcher (Soundhax)](homebrew-launcher-(soundhax)) te volgen
 
     ![]({{ "/images/screenshots/soundhax-launch.png" | absolute_url }})
     {: .notice--info}
