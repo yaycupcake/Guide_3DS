@@ -253,9 +253,17 @@ Je console had al custom firmware in het verleden, dus werd je niet automatisch 
 De instructies die hier vermeld worden gaan er van uit dat je console een moderne custom firmware setup heeft (boot9strap + Luma3DS 8.0 of hoger). Als je console een oudere homebrew setup heeft (bijvoorbeeld iets gebaseerd op arm9loaderhax of menuhax), dan moet je updaten voor je deze instructies probeert.
 {: .notice--info}
 
-### Mijn apparaat zit vast op een zwart scherm en het blauwe licht gaat uit
+### Mijn apparaat schakelt uit wanneer ik het probeer aan te zetten, of de notificatie LED toont een kleur bij het opstarten
 
-Er is een probleem met je `boot.firm` bestand (het ontbreekt, werd misplaatst of is corrupted). Download de nieuwste versie van [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest) en plaats `boot.firm` op de hoofdmap van je SD-kaart, ter vervanging van het bestaande bestand. Zorg ervoor dat je het ZIP-bestand uitpakt met een andere tool dan WinRAR, omdat het bekend is dat het problemen veroorzaakt met 3DS-gerelateerde bestanden.
+Er is een probleem met je `boot.firm` bestand. Als je [boot9strap 1.4](https://github.com/SciresM/boot9strap/releases/tag/1.4) gebruikt, kan je 3DS notificatie LED een bepaalde kleur flashen. Deze kleur wordt gebruikt om problemen met je `boot.firm` bestand op SD-kaart of intern geheugen te diagnosticeren. Bij oudere versies van boot9strap zal het blauwe licht bijna onmiddellijk uitgeschakeld worden wanneer je je apparaat probeert op te starten.
+
+Als de notificatie LED knippert:
+
+-**Wit**: Je 3DS was niet in staat om `boot.firm` te vinden op je SD-kaart of in je interne geheugen.
+-**Magenta**: Je 3DS was niet in staat om `boot.firm` te vinden op je SD-kaart. Het kon `boot.firm` vinden in het interne geheugen, maar het bestand is beschadigd.
+-**Red**: Je 3DS kon `boot.firm` vinden op je SD-kaart en in je interne geheugen, maar beide bestanden zijn beschadigd.
+
+Je kunt een nieuw `boot.firm` bestand krijgen door de [nieuwste versie van Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest) te downloaden, het uitpakken en `boot.firm` plaatsen op de hoofdmap van je SD-kaart. Indien je `boot.firm` bestand consequent gedetecteerd wordt als beschadigd, controleer je best je SD-kaart op fouten ([Windows](h2testw-(windows)), [Linux](f3-(linux)), of [macOS](f3xswift-(mac))). Houd er ook rekening mee dat de 3DS problemen heeft met bestanden die zijn uitgepakt met WinRAR.
 
 Als je een "pop" hoort, mogelijks samen met de achtergrondverlichting die eventjes aanschiet, is er een hardware probleem met je console (zoals een achtergrondlicht kabel die niet aangesloten is). Je zou je apparaat kunnen laten opstarten door het op bepaalde hoeken vast te houden.
 
