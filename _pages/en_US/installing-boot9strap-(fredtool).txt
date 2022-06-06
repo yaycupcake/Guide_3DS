@@ -16,7 +16,7 @@ This is a currently working implementation of the "FIRM partitions known-plainte
 * Your `movable.sed` file from completing [Seedminer](seedminer)
 * The latest release of [Frogminer_save](https://github.com/zoogie/Frogminer/releases/latest) (`Frogminer_save.zip`)
 * The latest release of [b9sTool](https://github.com/zoogie/b9sTool/releases/latest) (`boot.nds`)
-* The latest release of [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest) (the Luma3DS `.zip` file that isn't source code)
+* The latest release of [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest) (the Luma3DS `.zip` file)
 
 #### Section I - CFW Check
 
