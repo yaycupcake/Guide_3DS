@@ -24,7 +24,7 @@ kartdlphax 是马里奥赛车 7 中下载通信模式中的一个漏洞。 它�
 在**目标 3DS**（你试图破解的 3DS）上：
 
 * 最新版 [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
-* The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/download/1.4/boot9strap-1.4.zip)
+* 最新版 [boot9strap](https://github.com/SciresM/boot9strap/releases/download/1.4/boot9strap-1.4.zip)
 * 最新版 [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest)
 
 #### 第一步 – 准备工作（源 3DS）
@@ -69,21 +69,17 @@ kartdlphax 是马里奥赛车 7 中下载通信模式中的一个漏洞。 它�
 1. 稍等一会儿（百分比应该会显示在**源 3DS** 上）
 1. 如果漏洞执行成功，**目标 3DS** 将会进入到 SafeB9SInstaller
 
-#### 第四步 – SafeB9SInstaller
+#### 第四步 – 安装 boot9strap
 
 1. 出现提示时，按照上屏的提示输入按键组合来安装 boot9strap
 1. 安装完成后，按下 “A” 键重启主机
-
-#### 第五步 – 配置 Luma3DS
-
 1. 你的目标 3DS 应该已经重启到 Luma3DS 的配置菜单中
-  + 你可以随时在主机关机的情况下，按住 SELECT 键，然后按下电源键开机来进入 Luma3DS 配置菜单
-1. 使用方向键和 “A” 键来启用以下设置：
-  - **“Show NAND or user string in System Settings”**
+  + If your target 3DS shuts down when you try to power it on, ensure that you have copied `boot.firm` from the Luma3DS `.zip` to the root of your SD card
+1. 按下 “Start” 键保存设置并重启
 
-现在，你的主机会在插入 SD 卡的情况下自动启动 Luma3ds。
+At this point, your console will boot to Luma3DS by default.
   + Luma3DS 不会给正常的主菜单增添任何看上去十分特别的东西。 如果你的主机现在已经启动到主菜单了，说明自制固件已经在运行了。
-  + 在下一页中，我们将会教你复制 Luma3DS 到内部存储当中，使得主机能在没有 SD 卡的情况下启动系统。
+  + On the next page, you will install useful homebrew applications to complete your setup.
   + 接下来的步骤中将**不再**需要使用**源 3DS** 来完成。
 
 ___

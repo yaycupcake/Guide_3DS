@@ -20,7 +20,7 @@ boot9strap 将会在 NAND 里的内容加载完成后启动 `boot.firm` 文件�
 建议不要跳过下载以上列出的任何程序，因为等会就需要用到它们 我们将在本页结尾处清理你在破解过程中产生的无用文件。
 {: .notice--warning}
 
-如果你的 **New 3DS** 在做本手册之前很早一段时间通过一些手段降级到了 2.1.0，则你应该在继续前先[还原你的 NAND 备份](godmode9-usage#restoring-a-nand-backup)。
+If your **New 3DS** was on version 2.1.0 before following this guide, you should [restore your NAND backup](godmode9-usage#restoring-a-nand-backup) before continuing.
 {: .notice--warning}
 
 如果你的主机先前破解过，且先前的破解是基于 EmuNAND 的，并且现在你希望将你的 EmuNAND/RedNAND 移植至 SysNAND，请在继续前进行[移植 EmuNAND](move-emunand)。 如果你不知道 EmuNAND 是啥的话，大概你也不需要做这个了。
@@ -132,11 +132,6 @@ boot9strap 将会在 NAND 里的内容加载完成后启动 `boot.firm` 文件�
   + 如果你遇到了错误, 请确保你的 SD 卡上至少有 1.3GB 的可用空间
 1. 按 “A” 键继续
 1. 按 “B” 键返回到主菜单
-1. 选择 “Dump Options”
-1. 选择 “Dump Boot9.bin & Boot11.bin”
-1. 出现提示时，按 “A” 键继续
-1. 按 “A” 键继续
-1. 按下 “B” 键返回到主菜单
 1. 选择 “Exit”
 1. 如果提示重新锁定写入权限，按下 “A” 键来确认
 1. 进入到 `[S:] SYSNAND VIRTUAL`
@@ -147,10 +142,12 @@ boot9strap 将会在 NAND 里的内容加载完成后启动 `boot.firm` 文件�
 1. 按下 “Home” 键来打开功能菜单
 1. 选择 “Poweroff system” 来将主机关机
 1. 将你的 SD 卡插入到电脑
-1. 从 `/gm9/out/` 复制 `<date>_<serialnumber>_sysnand_###.bin`、`<date>_<serialnumber>_sysnand_###.bin.sha`、`essential.exefs`、`<serialnumber>_boot9_###.bin` 和`<serialnumber>_boot11_###.bin` 到你电脑上安全的位置
-  + 请在多处地方备份这些文件（比如网盘等）
+1. Copy the `/luma/backups/` folder on your SD card to a safe location on your computer
+1. Copy `<date>_<serialnumber>_sysnand_###.bin`, `<date>_<serialnumber>_sysnand_###.bin.sha`, and `essential.exefs` from the `/gm9/out/` folder on your SD card to a safe location on your computer
+  + Copy these backups to multiple locations (such as online file storage, an external hard drive, etc.)
   + 如果以后机器出现任何问题，这些备份文件将是为你提供修复砖机或从 NAND 镜像恢复文件的帮手
 1. 将 `<date>_<serialnumber>_sysnand_###.bin` 和 `<date>_<serialnumber>_sysnand_###.bin.sha` 从你的 SD 卡的 `/gm9/out/` 文件夹中复制出后将其删除
+  + The other backup files are negligible in size and may be kept on your SD card for ease of access
 1. 将 SD 卡重新插入你的主机
 1. 启动你的主机
 
@@ -167,7 +164,7 @@ ___
 - 关机时按住 “Select” 键，然后按下电源键开机以进入 Luma3DS 的配置菜单。
 - 关机时按住 “Start” 键，然后按下电源键开机以启动 Godmode9；如果 `/luma/payloads/` 文件夹下有多个 payload 文件，则会自动进入 Luma3DS chainloader。
 - 默认情况下，在主机开机时按下 L + ↓ + SELECT 键将会打开 Rosalina 菜单，它有用来检查系统信息、截屏、开启金手指等等的功能。 Rosalina 菜单的快捷键可以在其中更改。
-- Holding (Start) + (Select) + (X) on boot will make the notification LED show a color for debug purposes. See the [changelog](https://github.com/SciresM/boot9strap/releases/tag/1.4) for a list.
+- 按住 START + SELECT + X，然后按下电源键，通知灯将会亮起某种颜色，可用于调试问题。 参见[更新日志](https://github.com/SciresM/boot9strap/releases/tag/1.4)以获取信息。
 {% endcapture %}
 
 <div class="notice--info">{{ notice-6 | markdownify }}</div>

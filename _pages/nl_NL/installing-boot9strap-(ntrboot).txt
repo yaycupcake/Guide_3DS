@@ -63,15 +63,14 @@ Om de [magnet](https://wikipedia.org/wiki/Magnet_URI_scheme) links op deze pagin
 1. Stop je SD kaart terug in je 3DS
 1. Zet je 3DS aan
 1. Je apparaat zou het Luma3DS configuratie scherm moeten laten zien
-  + Als je een zwart scherm krijgt, [volg dan deze handleiding voor probleemoplossingen](troubleshooting#boot-related-issues-on-modded-devices)
-1. Selecteer de volgende opties met de D-pad en de (A) knop:
-  + **"Show NAND or user string in System Settings"**
+  + Als je apparaat afsluit als je het probeert aan te zetten, zorg er dan voor dat je `boot.firm` hebt gekopieerd van de Luma3DS `.zip` naar de hoofdmap van je SD-kaart
 1. Druk op (Start) om op te slaan en opnieuw op te starten
   + Als je een foutmelding krijgt, ga dan gewoon door naar de volgende pagina
 
-Op dit moment zal je console standaard opstarten naar Luma3DS zolang de SD kaart geplaatst is.
+Op dit moment zal je console standaard opstarten naar Luma3DS.
   + Luma3DS ziet er niet anders uit dan het normale HOME Menu. Als je console in het HOME Menu is opgestart, gebruikt hij custom firmware.
-  + Op de volgende pagina kopieer je Luma3DS naar intern geheugen, zodat je het kan opstarten zonder SD kaart.
+  + Op de volgende pagina zal je handige homebrew applicaties installeren om je installatie te voltooien.
+
 
 ___
 
