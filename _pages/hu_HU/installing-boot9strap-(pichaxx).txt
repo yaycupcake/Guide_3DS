@@ -17,10 +17,10 @@ Ennek a folyamatnak a során a Pokémon Picross mentése felülírásra kerül, 
   + Beolvashatod [ezt a QR kódot](http://api.qrserver.com/v1/create-qr-code/?color=000000&bgcolor=FFFFFF&data=ESHOP://50010000037815&margin=0&qzone=1&size=400x400&ecc=L) a Nintendo 3DS Camera appal egy közvetlen linkért az eShop app-ra
   + Az SD kártyád be kell legyen helyezve az eszközödbe a Pokémon Picross telepítéséhez
 * A `movable.sed` fájlodra a [Seedminer](seedminer)-ből
-* A [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest) legújabb kiadása
-* A [boot9strap](https://github.com/SciresM/boot9strap/releases/download/1.4/boot9strap-1.4.zip) legújabb kiadása
-* Az [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest) legújabb verziója
-* A [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest) legújabb kiadása
+* A [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/download/v0.0.7/SafeB9SInstaller-20170605-122940.zip) legfrisseb verziója (közvetlen letöltés)
+* A [boot9strap](https://github.com/SciresM/boot9strap/releases/download/1.4/boot9strap-1.4.zip) legfrisseb verziója (közvetlen letöltés)
+* A [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest) legújabb kiadása (a Luma3DS `.zip` fájl)
+* A [universal-otherapp] legújabb kiadása (https://github.com/TuxSH/universal-otherapp/releases/latest) (`otherapp.bin`)
 
 ### Lépések
 
@@ -73,12 +73,12 @@ Ennek a folyamatnak a során a Pokémon Picross mentése felülírásra kerül, 
   + Ha felső képernyő üres, indítsd újra az eszközödet, majd indítsd el újra a Pokémon Picross-t
 1. Ha ez elkészült, nyomd meg az (A) gombot az eszközöd újraindításához
 1. A készülékednek az előzőekben a Luma3DS-be kellett bootolnia
-  + If your device shuts down when you try to power it on, ensure that you have copied `boot.firm` from the Luma3DS `.zip` to the root of your SD card
+  + Ha a készüléked kikapcsol amikor bekapcsolod, bizonyosodj meg róla, hogy átmásoltad-e a `boot.firm` fájlt a Luma3DS `.zip` fájlból az SD kártya gyökerébe
 1. Mentéshez és újraindításhoz nyomd meg a (Start) gombot
 
-At this point, your console will boot to Luma3DS by default.
+Ezen a ponton a konzolod alapértelmezetten bebootol a Luma3DS-be.
   + A Luma3DS nem néz ki másként, mint a normál HOME Menü. Ha a konzolod bebootolt a HOME Menübe, akkor egyedi firmware-t futtat.
-  + On the next page, you will install useful homebrew applications to complete your setup.
+  + A következő oldalon hasznos homebrew alkalmaásokat telepítünk, hogy teljessé tegyük a telepítésedet.
 
 
 Ezen a ponton a Pokémon Picross tovább már nem szükséges, eltávolítható az eszközödről. Ha szeretnél játszani a játékkal, állítsd vissza a `00000001.sav` mentésed vagy töltsd le újra a játékot a Nintendo eShop-ból.

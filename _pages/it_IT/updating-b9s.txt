@@ -13,9 +13,9 @@ Nonostante riteniamo che l'uso di un custom firmware sia sicuro anche online, ci
 
 ### Cosa serve
 
-* L'ultima versione di [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
-* L'ultima versione di [boot9strap](https://github.com/SciresM/boot9strap/releases/download/1.4/boot9strap-1.4.zip)
-* L'ultima versione di [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest)
+* L'ultima versione di [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/download/v0.0.7/SafeB9SInstaller-20170605-122940.zip) (download diretto)
+* L'ultima versione di [boot9strap](https://github.com/SciresM/boot9strap/releases/download/1.4/boot9strap-1.4.zip) (download diretto)
+* L'ultima versione di [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest) (il file `.zip` di Luma3DS)
 
 ### Istruzioni
 
@@ -50,7 +50,7 @@ Se durante questa sezione ti verrà chiesto di sovrascrivere dei file sulla tua 
 1. Copia i file `boot.firm` e `boot.3dsx` dall'archivio `.zip` di Luma3DS nella directory principale della tua scheda SD, sostituendo il file esistente
 1. Reinserisci la scheda SD nella tua console
 1. Accendi la console
-1. If your device has booted into the Luma3DS configuration menu, press (Start) to save and reboot
+1. Se la tua console si è avviata nel menu di configurazione di Luma3DS, premi (Start) per salvare e riavviare
 
 ___
 

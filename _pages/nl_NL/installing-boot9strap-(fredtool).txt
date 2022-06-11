@@ -12,11 +12,11 @@ Dit is een momenteel werkende uitvoering van de "FIRM partitions known-plaintext
 
 ### Wat je nodig hebt
 
-* Een DSiWare back-up (zoals die op de hoofdmap van je SD-kaart van [BannerBomb3](bannerbomb3))
+* A DSiWare Backup (You should have one on the root of your SD card from following [BannerBomb3](bannerbomb3))
 * je `movable.sed` bestand van het voltooien van [Seedminer](seedminer)
-* De nieuwste versie van [Frogminer_save](https://github.com/zoogie/Frogminer/releases/latest)
-* De nieuwste versie van [b9sTool](https://github.com/zoogie/b9sTool/releases/latest)
-* De nieuwste versie van [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest)
+* The latest release of [Frogminer_save](https://github.com/zoogie/Frogminer/releases/latest) (`Frogminer_save.zip`)
+* The latest release of [b9sTool](https://github.com/zoogie/b9sTool/releases/latest) (`boot.nds`)
+* The latest release of [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest) (the Luma3DS `.zip` file)
 
 #### Deel I - CFW Controle
 
@@ -89,13 +89,13 @@ Als je liever een visuele handleiding hebt in dit deel, is er [hier](https://zoo
   + Als je apparaat afsluit als je het probeert aan te zetten, zorg er dan voor dat je `boot.firm` hebt gekopieerd van de Luma3DS `.zip` naar de hoofdmap van je SD-kaart
   + If you see the Luma Configuration screen, press (Start) to reboot, then continue with the guide
 
-#### Section V - Luma3DS Verification
+#### Deel V - Luma3DS verificatie
 
 1. Schakel je 3DS uit
 1. Plaats je SD kaart in je computer
-1. Verify that a `luma` folder exists and that `config.ini` is inside of it
+1. Controleer dat een `luma` map bestaat en dat `config.ini` erin zit
   + Het bestaan van deze mappen en bestanden bevestigt dat Luma3DS is geïnstalleerd
-  + If you do not see the `luma` folder or `config.ini`, [follow this troubleshooting guide](https://github.com/zoogie/b9sTool/blob/master/TROUBLESHOOTING.md)
+  + Als je de `luma` map of `config.ini` niet ziet, [volg dan deze handleiding voor probleemoplossingen](https://github.com/zoogie/b9sTool/blob/master/TROUBLESHOOTING.md)
 
 Op dit moment zal je console standaard opstarten naar Luma3DS.
   + Luma3DS ziet er niet anders uit dan het normale HOME Menu. Als je console in het HOME Menu is opgestart, gebruikt hij custom firmware.

@@ -11,21 +11,18 @@ Questa pagina prepara una console con un'installazione moderna preesistente di b
 La scheda SD deve essere formattata come FAT32 per seguire questa guida, altrimenti il 3DS non sarà in grado di riconoscerla. Se la scheda SD non è ancora formattata correttamente, utilizzare una di queste pagine per formattarla, a seconda del sistema operativo: [Windows](formatting-sd-(windows)), [Mac](formatting-sd-(mac)), [Linux](formatting-sd-(linux)).
 
 ### Cosa serve
-* L'ultima versione di [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest)
+* L'ultima versione di [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest) (il file `.zip` di Luma3DS)
 
 ### Istruzioni
 
 1. Inserisci la scheda SD nel tuo computer
 1. Copia i file `boot.3dsx` e `boot.firm` dall'archivio `.zip` di Luma3DS nella directory principale della tua scheda SD, sovrascrivendo eventuali file già preesistenti
   + La directory principale della scheda SD è la cartella della tua scheda SD in cui è possibile visualizzare la cartella Nintendo 3DS, ma non il suo interno
-1. Copia il file `GodMode9.firm` dall'archivio `.zip` di GodMode9 dentro la cartella `/luma/payloads/` della tua scheda SD, sostituendo qualunque file preesistente
-  + Se le cartelle `luma` o `payloads` non esistono, creale
-1. Copia la cartella `gm9` dall'archivio `.zip` di GodMode9 nella directory principale della tua scheda SD, unendola a qualsiasi altra cartella preesistente e sostituendo qualsiasi file preesistente
 1. Reinserisci la scheda SD nella tua console
 1. Accendi la console
-  + If you see the Luma3DS configuration menu, press (Start) to save and reboot
+  + Se vedi il menu di configurazione di Luma3DS, premi (Start) per salvare e riavviare
 
-The latest version of Luma3DS has now been installed on your SD card and on internal memory.
+La versione più recente di Luma3DS è ora installata sulla scheda SD e nella memoria interna.
 {: .notice--success}
 ___
 

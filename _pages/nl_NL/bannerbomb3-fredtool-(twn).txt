@@ -18,9 +18,9 @@ Deze instructies zijn alleen voor Taiwanese consoles (zoals aangegeven door een 
 ### Wat je nodig hebt
 
 - je `movable.sed` bestand van het voltooien van [Seedminer](seedminer)
-- De nieuwste versie van [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest)
-- De nieuwste versie van [b9stool](https://github.com/zoogie/b9sTool/releases/latest)
-- De nieuwste versie van [Frogminer_save](https://github.com/zoogie/Frogminer/releases/latest)
+- The latest release of [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest) (the Luma3DS `.zip` file)
+- The latest release of [b9stool](https://github.com/zoogie/b9sTool/releases/latest) (`boot.nds`)
+- The latest release of [Frogminer_save](https://github.com/zoogie/Frogminer/releases/latest) (`Frogminer_save.zip`)
 
 #### Deel I - CFW Controle
 
@@ -134,7 +134,7 @@ Als je liever een visuele handleiding hebt in dit deel, is er [hier](https://zoo
 1. Plaats je SD kaart in je computer
 1. Verify that a `luma` folder exists and that `config.ini` is inside of it
   + Het bestaan van deze mappen en bestanden bevestigt dat Luma3DS is geïnstalleerd
-  + If you do not see the `luma` folder or `config.ini`, [follow this troubleshooting guide](https://github.com/zoogie/b9sTool/blob/master/TROUBLESHOOTING.md)
+  + Als je de `luma` map of `config.ini` niet ziet, [volg dan deze handleiding voor probleemoplossingen](https://github.com/zoogie/b9sTool/blob/master/TROUBLESHOOTING.md)
 
 Op dit moment zal je console standaard opstarten naar Luma3DS.
   + Luma3DS ziet er niet anders uit dan het normale HOME Menu. Als je console in het HOME Menu is opgestart, gebruikt hij custom firmware.

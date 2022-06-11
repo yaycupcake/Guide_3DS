@@ -12,9 +12,9 @@ Per usare i link [magnet](https://wikipedia.org/wiki/Magnet_URI_scheme) di quest
 
 * Un magnete che ponga la console in modalità riposo (in caso sia del tipo a chiusura)
 * La flashcart con installato ntrboot
-* L'ultima versione di [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
-* L'ultima versione di [boot9strap](https://github.com/SciresM/boot9strap/releases/download/1.4/boot9strap-1.4.zip)
-* L'ultima versione di [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest) 
+* L'ultima versione di [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/download/v0.0.7/SafeB9SInstaller-20170605-122940.zip) (download diretto)
+* L'ultima versione di [boot9strap](https://github.com/SciresM/boot9strap/releases/download/1.4/boot9strap-1.4.zip) (download diretto)
+* L'ultima versione di [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest) (il file `.zip` di Luma3DS)
 
 ### Istruzioni
 
@@ -63,13 +63,13 @@ Per usare i link [magnet](https://wikipedia.org/wiki/Magnet_URI_scheme) di quest
 1. Reinserisci la scheda SD nella tua console
 1. Accendi la console
 1. La tua console dovrebbe avviarsi all'interno del menu di configurazione di Luma3DS
-  + If your device shuts down when you try to power it on, ensure that you have copied `boot.firm` from the Luma3DS `.zip` to the root of your SD card
+  + Se la console dovesse spegnersi quando provi ad accenderla, assicurati di aver copiato il file `boot.firm` dall'archivio `.zip` di Luma3DS nella directory principale della tua scheda SD
 1. Premi (Start) per salvare e riavviare il 3DS
   + Se ottieni un errore, continua comunque alla pagina successiva
 
-At this point, your console will boot to Luma3DS by default.
+A questo punto, la console avvierà sempre Luma3DS.
   + Luma3DS non è diverso dal normale menu HOME. Se la console avvia il menu HOME, vuol dire che sta eseguendo il custom firmware.
-  + On the next page, you will install useful homebrew applications to complete your setup.
+  + Nella pagina successiva installerai applicazioni homebrew utili per completare la tua installazione.
 
 
 ___
@@ -89,7 +89,7 @@ Non seguire questa parte finché non avrai completato tutte le altre istruzioni 
 
 ##### Cosa serve
 
-* L'ultima versione di [ntrboot_flasher](https://github.com/ntrteam/ntrboot_flasher/releases/latest)
+* L'ultima versione di [ntrboot_flasher](https://github.com/ntrteam/ntrboot_flasher/releases/latest) (`ntrboot_flasher.firm`)
 * Il backup della flashrom per la tua flashcart
   + Se hai seguito la guida [Flash di ntrboot (Con più 3DS)](flashing-ntrboot-(3ds-multi-system)), la flashrom di backup sarà già presente nella cartella corretta e non sarà necessario riscaricarla
   + Se hai seguito la guida [Flash di ntrboot (Singolo 3DS)](flashing-ntrboot-(3ds-single-system)) o [Flash di ntrboot (NDS)](flashing-ntrboot-(nds)), il backup della flashrom sarà già presente nella scheda SD della tua flashcart, e dovrà essere copiato nella posizione indicata di seguito
