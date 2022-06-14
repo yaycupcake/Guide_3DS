@@ -86,7 +86,7 @@ Your modified `00000001.sav` file may be misplaced, or you may have used the wro
 
 ### 出現『Failed to open SafeB9SInstaller.bin』的錯誤訊息
 
-`SafeB9SInstaller.bin` 檔案遺失或放在了錯誤的位置。 下載最新版本的 [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/tag/v0.0.7) 並將其放在你 SD 卡的根目錄中。 如果您的電腦沒有顯示 `.bin` 的副檔名，請勿手動新增。
+`SafeB9SInstaller.bin` 檔案遺失或放在了錯誤的位置。 Download the latest release of [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/download/v0.0.7/SafeB9SInstaller-20170605-122940.zip) and place it on the root of your SD card. 如果您的電腦沒有顯示 `.bin` 的副檔名，請勿手動新增。
 
 ### 卡在『Doing agbhax...』的步驟
 
@@ -108,7 +108,7 @@ Back up your data and reformat your SD card as FAT32 with the recommended tool d
 
 ### 跑 Soundhax 時出現紅/紫/粉/白屏
 
-如果你的主機系統版本在 9.4.0、9.5.0 和 9.6.0 之間，則你可能是遇到了 universal-otherapp 的一個 bug，請使用[啟動 Homebrew Launcher(透過 Soundhax)](homebrew-launcher-(soundhax)) 替代方法安裝自製韌體。
+If your device is on system version 9.4.0, 9.5.0, or 9.6.0, you may be encountering a bug with an old version of universal-otherapp. Download the latest version from [here](https://github.com/TuxSH/universal-otherapp/releases/latest).
 
 如果你的系統版本沒有在這個區間中，則你的主機可能已經安裝過了自製韌體。 請先[檢查是否已安裝自製韌體](checking-for-cfw) 。
 
@@ -122,7 +122,7 @@ You have the wrong Soundhax file for your device and region, or your device is i
 
 ### 出現『Failed to open SafeB9SInstaller.bin』的錯誤訊息
 
-`SafeB9SInstaller.bin` 檔案遺失或放在了錯誤的位置。 下載最新版本的 [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/tag/v0.0.7) 並將其放在你 SD 卡的根目錄中。 如果您的電腦沒有顯示 `.bin` 的副檔名，請勿手動新增。
+`SafeB9SInstaller.bin` 檔案遺失或放在了錯誤的位置。 Download the latest release of [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/download/v0.0.7/SafeB9SInstaller-20170605-122940.zip) and place it on the root of your SD card. 如果您的電腦沒有顯示 `.bin` 的副檔名，請勿手動新增。
 
 ### 卡在『Doing agbhax...』的步驟
 
@@ -226,11 +226,11 @@ Back up your data and reformat your SD card as FAT32 with the recommended tool d
 
 ### 主機對應打開 Rosalina 選單組合鍵的按鈕壞了，無法打開選單
 
-下載這個[備用 config.bin](https://cdn.discordapp.com/attachments/196635695958196224/733384123003175074/config.bin) 檔案，並將其放在 SD 卡的 `/luma/` 資料夾中。 這將會把 Rosalina 選單組合鍵改成「Y」+「B」。
+Download this [alternate config.ini](https://cdn.discordapp.com/attachments/196635695958196224/982798396265988186/config.ini) and place it in `/luma/`. 這將會把 Rosalina 選單組合鍵改成「Y」+「B」。
 
 ### 嘗試透過『下載通信 (Download Play)』程式啟動 Homebrew Launcher 時出現了「An exception occurred」的錯誤訊息
 
-您所使用的 `boot.3dx` 檔案有問題(如遺失、放錯位置或者損壞)。 下載最新版本的 [Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest) 並將 `boot.3dsx` 放在你 SD 卡的根目錄中，如有存在相同檔案請替換。 請不要用 WinRAR 解壓 ZIP 檔案；目前已知使用此軟體會導致與 3DS 有關的檔案的問題。
+您所使用的 `boot.3dx` 檔案有問題(如遺失、放錯位置或者損壞)。 Download the latest release of [the Homebrew Launcher](https://github.com/devkitPro/3ds-hbmenu/releases/latest) and place `boot.3dsx` on the root of your SD card, replacing any existing file. 請不要用 WinRAR 解壓 ZIP 檔案；目前已知使用此軟體會導致與 3DS 有關的檔案的問題。
 
 ### GodMode9 提示『Scripts directory not found』
 

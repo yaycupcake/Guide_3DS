@@ -86,7 +86,7 @@ El archivo `00000001.sav` modificado puede estar fuera de lugar, o puedes haber 
 
 ### Error al abrir SafeB9SInstaller.bin
 
-Falta el archivo `SafeB9SInstaller.bin` o está fuera de lugar. Descarga la última versión de [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/tag/v0.0.7) y coloca el archivo en la raíz de tu tarjeta SD. No añadas manualmente la extensión `.bin` al archivo si ves que no la tiene.
+Falta el archivo `SafeB9SInstaller.bin` o está fuera de lugar. Download the latest release of [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/download/v0.0.7/SafeB9SInstaller-20170605-122940.zip) and place it on the root of your SD card. No añadas manualmente la extensión `.bin` al archivo si ves que no la tiene.
 
 ### La pantalla se queda en "Doing agbhax..."
 
@@ -108,7 +108,7 @@ If this is unsuccessful, try using another SD card.
 
 ### La pantalla se queda en rojo/violeta/rosa o en blanco después de ejecutar Soundhax
 
-Si tu consola está en la versión 9.4.0, 9.5.0, o 9.6.0, es posible que estés encontrando un bug con universal-otherapp. Sigue [Homebrew Launcher (Soundhax)](homebrew-launcher-(soundhax)) en lugar de esta sección.
+If your device is on system version 9.4.0, 9.5.0, or 9.6.0, you may be encountering a bug with an old version of universal-otherapp. Download the latest version from [here](https://github.com/TuxSH/universal-otherapp/releases/latest).
 
 Si tu consola no está en esas versiones y ocurre esto, indica que posiblemente ya tengas custom firmware instalado. Deberías ir a [Comprobación de CFW](checking-for-cfw) antes de continuar.
 
@@ -122,7 +122,7 @@ Tienes el archivo de Soundhax incorrecto para tu consola y región, o tu consola
 
 ### Error al abrir SafeB9SInstaller.bin
 
-Falta el archivo `SafeB9SInstaller.bin` o está fuera de lugar. Descarga la última versión de [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/tag/v0.0.7) y coloca el archivo en la raíz de tu tarjeta SD. No añadas manualmente la extensión `.bin` al archivo si ves que no la tiene.
+Falta el archivo `SafeB9SInstaller.bin` o está fuera de lugar. Download the latest release of [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/download/v0.0.7/SafeB9SInstaller-20170605-122940.zip) and place it on the root of your SD card. No añadas manualmente la extensión `.bin` al archivo si ves que no la tiene.
 
 ### La pantalla se queda en "Doing agbhax..."
 
@@ -226,11 +226,11 @@ Los pasos siguientes se pueden intentar en cualquier orden, pero están ordenado
 
 ### No se puede entrar al menú de Rosalina debido a botón(es) que no funciona(n)
 
-Descarga este [config.bin](https://cdn.discordapp.com/attachments/196635695958196224/733384123003175074/config.bin) alternativo y colócalo en la carpeta `/luma/`. Esto cambiará la combinación de botones de Rosalina a (Y) + (B).
+Download this [alternate config.ini](https://cdn.discordapp.com/attachments/196635695958196224/982798396265988186/config.ini) and place it in `/luma/`. Esto cambiará la combinación de botones de Rosalina a (Y) + (B).
 
 ### Se muestra "Ha ocurrido un error" luego de intentar iniciar el Homebrew Launcher a través de la aplicación de Modo Descarga
 
-Hay un problema con el archivo `boot.3dsx` (falta, está mal colocado o está corrupto). Descarga la última versión del [Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest) y coloca el archivo `boot.3dsx` en la raíz de la tarjeta SD, sobreescribiendo el existente si lo hay. Asegúrate de extraer el archivo ZIP con cualquier herramienta que no sea WinRAR, ya que se sabe que causa problemas con los archivos relacionados con 3DS.
+Hay un problema con el archivo `boot.3dsx` (falta, está mal colocado o está corrupto). Download the latest release of [the Homebrew Launcher](https://github.com/devkitPro/3ds-hbmenu/releases/latest) and place `boot.3dsx` on the root of your SD card, replacing any existing file. Asegúrate de extraer el archivo ZIP con cualquier herramienta que no sea WinRAR, ya que se sabe que causa problemas con los archivos relacionados con 3DS.
 
 ### "Scripts directory not found" en GodMode9
 
