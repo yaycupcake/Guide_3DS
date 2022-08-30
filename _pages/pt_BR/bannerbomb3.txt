@@ -1,5 +1,5 @@
 ---
-BannerBomb3
+title: "BannerBomb3"
 ---
 
 {% include toc title="Tabela de Conteúdo" %}
