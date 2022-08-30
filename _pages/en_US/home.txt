@@ -9,6 +9,9 @@ header:
 excerpt: "A complete guide to 3DS custom firmware, <br /> from stock to boot9strap.<br />"
 ---
 
+11.16.0-48 was recently released. If you have installed CFW in the past, it is highly recommended to follow [Checking for CFW](checking-for-cfw) to make sure your custom firmware is up-to-date.
+{: .notice--warning}
+
 Thoroughly read all of the introductory pages (including this one!) before proceeding.
 {: .notice--info}
 
