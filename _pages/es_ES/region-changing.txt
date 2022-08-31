@@ -6,7 +6,7 @@ title: "Cambio de Región"
 
 ### Lectura requerida
 
-This is an add-on section for region changing your CFW SysNAND. This is done by installing the 11.15.0 CTRTransfer image for the region you want to switch to.
+This is an add-on section for region changing your CFW SysNAND. This is done by installing the 11.15.0 CTRTransfer image for the region you want to switch to. After installing the image, you can update your device normally to the latest firmware (11.16.0).
 
 Note that region changing is almost completely unnecessary since Luma3DS supports out-of-region games and individual title [Locale Emulation](https://github.com/LumaTeam/Luma3DS/wiki/Optional-features). Additionally, running NDS games with alternative out-of-region languages is supported by [TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu/releases).
 
@@ -118,7 +118,7 @@ To use the [magnet](https://wikipedia.org/wiki/Magnet_URI_scheme) links on this 
 
 #### Sección IV - Iniciar FBI
 
-1. Inicia la aplicación Modo Descarga (este [ícono]({{ "/images/download-play-icon.png" | absolute_url }})
+1. Launch the Download Play application (this [icon]({{ "/images/download-play-icon.png" | absolute_url }}))
 1. Presiona (L) + (Abajo) + (Select) a la vez para abrir el menú de Rosalina
 1. Selecciona "Miscellaneous options"
 1. Selecciona "Switch the hb. title to the current app."
