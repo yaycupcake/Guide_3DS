@@ -212,8 +212,9 @@ $(document).ready(function() {
     "installing-boot9strap-(fredtool)": "9",
     "bannerbomb3": "10",
     "installing-boot9strap-(usm)": "11",
-	  "installing-boot9strap-(pichaxx)": "12",
+	"homebrew-launcher-(pichaxx)": "12",
     "installing-boot9strap-(kartdlphax)": "13",
+	"bannerbomb3-fredtool-(twn)": "14",
   };
 
   for(var device in devices){
@@ -257,7 +258,7 @@ $(document).ready(function() {
       "9": ["seedminer", "multiple-options", "installing-boot9strap-(fredtool)", "finalizing-setup"],
       "10": ["seedminer", "bannerbomb3", "installing-boot9strap-(fredtool)", "finalizing-setup"],
       "11": ["seedminer", "installing-boot9strap-(usm)", "finalizing-setup"],
-      "12": ["seedminer", "installing-boot9strap-(pichaxx)", "finalizing-setup"],
+      "12": ["seedminer", "homebrew-launcher-(pichaxx)", "installing-boot9strap-(hbl-usm)", "finalizing-setup"],
       "13": ["installing-boot9strap-(kartdlphax)", "finalizing-setup"],
       "14": ["seedminer", "bannerbomb3-fredtool-(twn)", "finalizing-setup"],
     }
