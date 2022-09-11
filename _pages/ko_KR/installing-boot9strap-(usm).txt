@@ -16,9 +16,6 @@ SAFE_MODE 펌웨어를 해킹하기 위해, 익스플로잇이 되어있는 Wi-F
 
 이 설명서는 미주, 유럽, 일본, 그리고 한국 지역 기기들 (시스템 버전 다음 글짜가 U, E, J, 아니면 K 인 경우) 와 호환됩니다.
 
-만약 (L/R 어깨 버튼), (위 십자 패드), 또는 (A) 버튼이 동작되지 않다면, [다른 Seedminer 방법](bannerbomb3)을 따라야 합니다. 이 방법에 도움이 필요하다면, [Discord의 Nintendo Homebrew](https://discord.gg/MWxPgEp)에서 영어로 도움을 요청해 주세요.
-{: .notice--warning}
-
 ### 준비물
 
 * [Seedminer](seedminer)에서 받은 `movable.sed` 파일
@@ -44,12 +41,11 @@ SAFE_MODE 펌웨어를 해킹하기 위해, 익스플로잇이 되어있는 Wi-F
   + ![]({{ "/images/screenshots/usm-root-layout.png" | absolute_url }})
     {: .notice--info}
 
-1. SD 카드의 `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `Nintendo DSiWare` 폴더로 이동해 주세요
+1. Navigate to `Nintendo 3DS` -> `<ID0>` -> `<ID1>` on your SD card
   + 이 `<ID0>`는 [Seedminer](seedminer)에서 사용한 것과 같습니다
   + 이 `<ID1>`은 `<ID0>` 폴더 안에 존재하는 32 자리의 이름을 갖춘 폴더 입니다
-  + `Nintendo DSiWare` 폴더가 존재하지 않다면, `<ID1>` 폴더 안에 생성해 주세요
-1. 만약 다른 DSiWare 백업 파일 (`<8자리-id>.bin`)이 존재 한다면, PC로 옮겨 주세요
-  + 이러하여 비어 있는 `Nintendo DSiWare` 폴더가 있을 겁니다. 직접 만든 백업을 실수로 지우지 않도록 PC로 이동 하는게 좋습니다
+1. Create a folder named `Nintendo DSiWare` inside of the `<ID1>`
+  + If you already had the folder *and* there are any existing DSiWare backup files (`<8-character-id>.bin`) inside, copy them to your PC and remove them from your SD card
 1. `F00D43D5.bin` 파일을 `unSAFE_MODE.zip` 에서 `Nintendo DSiWare` 폴더로 복사해 주세요
 
     ![]({{ "/images/screenshots/dsiware-save-location.png" | absolute_url }})
@@ -63,10 +59,14 @@ SAFE_MODE 펌웨어를 해킹하기 위해, 익스플로잇이 되어있는 Wi-F
 1. `데이터 관리` -> `DSiWare` 메뉴를 열어 주세요
 1. SD 카드 섹션을 열어 주세요
   + 화면에 메뉴가 표시될 겁니다
+  + If this step causes your device to crash, [follow this troubleshooting guide](troubleshooting#dsiware-management-menu-crashes-without-showing-usm-menu)
 1. "Inject haxx"를 선택해 주세요
   + 기기가 자동으로 종료될 겁니다
 
 #### 섹션 III - unSAFE_MODE
+
+만약 (L/R 어깨 버튼), (위 십자 패드), 또는 (A) 버튼이 동작되지 않다면, [다른 Seedminer 방법](bannerbomb3)을 따라야 합니다. 이 방법에 도움이 필요하다면, [Discord의 Nintendo Homebrew](https://discord.gg/MWxPgEp)에서 영어로 도움을 요청해 주세요.
+{: .notice--warning}
 
 1. 전원이 꺼져 있는 상태에서 (L 어깨) + (R 어깨) + (십자 Up) + (A) 를 길게 눌르고, 누르는 상태에서 (전원)을 눌러 주세요
   + 안전 모드로 부팅 될 때 까지 버튼들을 눌러 주세요

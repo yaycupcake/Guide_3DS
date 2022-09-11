@@ -16,9 +16,6 @@ Amint a WiFi profil injektálásra került, a SAFE_MODE-ot fogjuk használni, am
 
 Az utasítások az Amerikai, Európai, Japán és Koreai régiójú konzolokon működnek, amik a rendszer verzió mögött egy U, E, J vagy K betű jelöl.
 
-Ha a (Jobb/Bal Váll), (D-Pad Fel) vagy (A) gombjaid nem működnek, [a Seedminer egy alternatív ágát](bannerbomb3) kell követned. Ha támogatásra van szükséged az anyaggal kapcsolatosan, csatlakozz a [Nintendo Homebrew-hoz Discord-on](https://discord.gg/MWxPgEp) és kérj, angolul, támogatást.
-{: .notice--warning}
-
 ### Amire szükséged lesz
 
 * A `movable.sed` fájlodra a [Seedminer](seedminer)-ből
@@ -44,12 +41,11 @@ Ha a (Jobb/Bal Váll), (D-Pad Fel) vagy (A) gombjaid nem működnek, [a Seedmine
   + ![]({{ "/images/screenshots/usm-root-layout.png" | absolute_url }})
     {: .notice--info}
 
-1. Navigálj a `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `Nintendo DSiWare` mappába az SD kártyán
+1. Navigate to `Nintendo 3DS` -> `<ID0>` -> `<ID1>` on your SD card
   + Az `<ID0>` ugyanaz, mint amit a [Seedminer](seedminer)-nél használtál
   + Az `<ID1>` egy 32 karakter hosszú nevű mappa az `<ID0>` mappában
-  + Ha a `Nintendo DSiWare` mappa nem létezik, hozd létre az `<ID1>` mappában
-1. Ha van más DSiWare mentés fájl (`<8-character-id>.bin`) ebben a mappában, helyezd át őket a számítógépedre
-  + Így egy üres DSiWare mappát fogsz kapni. Ha áthelyezed a fájlokat a számítógépedre, az segít abban, hogy ne törölj ki semmilyen fontos mentést
+1. Create a folder named `Nintendo DSiWare` inside of the `<ID1>`
+  + If you already had the folder *and* there are any existing DSiWare backup files (`<8-character-id>.bin`) inside, copy them to your PC and remove them from your SD card
 1. Másold `F00D43D5.bin` fájlt az `unSAFE_MODE.zip`-ből a `Nintendo DSiWare` mappába
 
     ![]({{ "/images/screenshots/dsiware-save-location.png" | absolute_url }})
@@ -63,10 +59,14 @@ Ha a (Jobb/Bal Váll), (D-Pad Fel) vagy (A) gombjaid nem működnek, [a Seedmine
 1. Navigálj ide: `Data Management` -> `DSiWare`
 1. Kattints az SD kártya részre
   + Az eszközödnek egy menüt kell mutatnia egy kevés szöveggel
+  + If this step causes your device to crash, [follow this troubleshooting guide](troubleshooting#dsiware-management-menu-crashes-without-showing-usm-menu)
 1. Válaszd az "Inject haxx" opciót
   + Az eszközöd automatikusan ki fog kapcsolni
 
 #### III. rész - unSAFE_MODE
+
+Ha a (Jobb/Bal Váll), (D-Pad Fel) vagy (A) gombjaid nem működnek, [a Seedminer egy alternatív ágát](bannerbomb3) kell követned. Ha támogatásra van szükséged az anyaggal kapcsolatosan, csatlakozz a [Nintendo Homebrew-hoz Discord-on](https://discord.gg/MWxPgEp) és kérj, angolul, támogatást.
+{: .notice--warning}
 
 1. Az eszközöd kikapcsolt állapotában tartsd nyomva a következő gombokat: (Bal Váll) + (Jobb Váll) + (D-Pad Fel) + (A), majd nyomd meg a (Power)-t
   + Tartsd nyomva a gombokat, amiíg a konzol be nem bootol a Safe Mode-ba

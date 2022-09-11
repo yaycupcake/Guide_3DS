@@ -16,9 +16,6 @@ Assim que o perfil Wi-Fi for injetado, usaremos o SAFE_MODE, que é um recurso d
 
 Essas instruções funcionam nas versões de consoles EUA, Europa, Japão e Coréia, indicadas pelas letras U, E, J ou K após a versão do sistema.
 
-Se os seus botões (Gatilho Esquerdo/Direito), (Botão direcional pra cima), ou (A) não funcionarem, você precisará seguir [um ramo alternativo de Seedminer](bannerbomb3). Para obter ajuda com isso, entre no [Discord do Nintendo Homebrew](https://discord.gg/MWxPgEp) e peça, em inglês, por ajuda.
-{: .notice--warning}
-
 ### O que é necessário
 
 * Seu arquivo `movable.sed` obtido por completar [Seedminer](seedminer)
@@ -44,12 +41,11 @@ Se os seus botões (Gatilho Esquerdo/Direito), (Botão direcional pra cima), ou 
   + ![]({{ "/images/screenshots/usm-root-layout.png" | absolute_url }})
     {: .notice--info}
 
-1. Navegue até `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `Nintendo DSiWare` no seu cartão SD
+1. Navigate to `Nintendo 3DS` -> `<ID0>` -> `<ID1>` on your SD card
   + O `<ID0>` será o mesmo que você usou em [Seedminer](seedminer)
   + O `<ID1>` é uma pasta de 32 caracteres dentro do `<ID0>`
-  Se `Nintendo DSiWare` não existir, crie-o dentro do `<ID1>`
-1. Se existirem quaisquer arquivos de backup do DSiWare (`<8-character-id>.bin`) dentro dessa pasta, mova eles para o seu computador
-  + Isso deixará a sua pasta Nintendo DSiWare vazia. Mover os arquivos para seu PC garante que você não exclua nenhum backup intencional
+1. Create a folder named `Nintendo DSiWare` inside of the `<ID1>`
+  + If you already had the folder *and* there are any existing DSiWare backup files (`<8-character-id>.bin`) inside, copy them to your PC and remove them from your SD card
 1. Copie o arquivo `F00D43D5.bin` do `unSAFE_MODE.zip` para a pasta `Nintendo DSiWare`
 
     ![]({{ "/images/screenshots/dsiware-save-location.png" | absolute_url }})
@@ -63,10 +59,14 @@ Se os seus botões (Gatilho Esquerdo/Direito), (Botão direcional pra cima), ou 
 1. Navegue para `Gerenciador de Dados` -> `DSiWare`
 1. Clique na seção do cartão SD
   + Seu dispositivo deve mostrar um menu com algum texto
+  + Se esta etapa fazer com que seu dispositivo trave, [siga este guia de troubleshooting](troubleshooting#dsiware-management-menu-crashes-without-showing-usm-menu)
 1. Selecione "Inject haxx"
   + Seu dispositivo será desligado automaticamente
 
 #### Seção III - unSAFE_MODE
+
+Se os seus botões (Gatilho Esquerdo/Direito), (Botão direcional pra cima), ou (A) não funcionarem, você precisará seguir [um ramo alternativo de Seedminer](bannerbomb3). Para obter ajuda com isso, entre no [Discord do Nintendo Homebrew](https://discord.gg/MWxPgEp) e peça, em inglês, por ajuda.
+{: .notice--warning}
 
 1. Com o seu dispositivo ainda desligado, segure os seguintes botões: (Gatilho Esquerdo) + (Gatilho Direito) + (Botão direcional pra cima) + (A), depois pressione (Power)
   + Continue segurando os botões até o dispositivo iniciar o Safe Mode

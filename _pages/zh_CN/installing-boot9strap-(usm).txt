@@ -16,9 +16,6 @@ title: "安装 boot9strap（通过 USM）"
 
 这些操作可在美、欧、日、韩版的主机上工作，你可通过系统版本号末尾的 U，E，J，K 字符来区分主机版本。
 
-如果你的主机 L 键、R 键、↑ 键和 A 键中有一个坏了无法使用，则你只能使用[替代方法](bannerbomb3)。 如需帮助，请加入 [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) 并使用英文求助。（请注意，如果你身处中国大陆，访问 Discord 可能需要科学上网），你也可以到译者的 [QQ 群](https://stray-soul.site/index.php/qqgroup)寻求帮助，群号为 942052497。
-{: .notice--warning}
-
 ### 你需要准备点啥？
 
 * 你在 [Seedminer](seedminer) 步骤中获得的 `movable.sed` 文件
@@ -44,12 +41,11 @@ title: "安装 boot9strap（通过 USM）"
   + ![]({{ "/images/screenshots/usm-root-layout.png" | absolute_url }})
     {: .notice--info}
 
-1. 打开内存卡的 `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `Nintendo DSiWare` 文件夹
+1. Navigate to `Nintendo 3DS` -> `<ID0>` -> `<ID1>` on your SD card
   + 这个 `<ID0>` 和你在 [Seedminer](seedminer) 章节中打开的一样
   + `<ID1>` 是一个在 `<ID0>` 文件夹内，另一个 32 位字符长的文件夹
-  + 如果里面没有 `Nintendo DSiWare` 文件夹，请在 `<ID1>` 文件夹内创建它
-1. 如果这文件夹中有其他的 DSiWare 备份文件 (`<8位字符id>.bin`)，将它们移动到你的电脑上备份
-  + 这文件夹应该会成为空文件夹。 将这些文件移动到电脑上备份可防止你删除了你有意保留的东西
+1. Create a folder named `Nintendo DSiWare` inside of the `<ID1>`
+  + If you already had the folder *and* there are any existing DSiWare backup files (`<8-character-id>.bin`) inside, copy them to your PC and remove them from your SD card
 1. 从 `unSAFE_MODE.zip` 压缩文件中解压 `F00D43D5.bin` 到 `Nintendo DSiWare` 文件夹下
 
     ![]({{ "/images/screenshots/dsiware-save-location.png" | absolute_url }})
@@ -63,10 +59,14 @@ title: "安装 boot9strap（通过 USM）"
 1. 进入到 `数据管理（Data Management）` -> `DSiWare`
 1. 点击 SD 卡部分
   + 主机应该会显示一个菜单
+  + If this step causes your device to crash, [follow this troubleshooting guide](troubleshooting#dsiware-management-menu-crashes-without-showing-usm-menu)
 1. 选择 “Inject haxx”
   + 主机将会自动关机
 
 #### 第三步 – unSAFE_MODE
+
+如果你的主机 L 键、R 键、↑ 键和 A 键中有一个坏了无法使用，则你只能使用[替代方法](bannerbomb3)。 如需帮助，请加入 [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) 并使用英文求助。（请注意，如果你身处中国大陆，访问 Discord 可能需要科学上网），你也可以到译者的 [QQ 群](https://stray-soul.site/index.php/qqgroup)寻求帮助，群号为 942052497。
+{: .notice--warning}
 
 1. 将你的主机置于关机状态，按住 L + R + ↑ + A 按键，然后按下电源键
   + 按住这几个按钮，直到主机进入安全模式

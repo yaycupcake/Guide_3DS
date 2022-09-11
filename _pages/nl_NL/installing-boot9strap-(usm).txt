@@ -16,9 +16,6 @@ Wanneer het wifi profiel geïnjecteerd is, gebruiken we SAFE_MODE, een herstelfu
 
 Deze instructies werken aan de consoles van de VS, Europa, Japan en Korea zoals aangegeven in de letters U, E, J, of K na de systeemversie.
 
-If your (Right/Left Shoulder), (D-Pad Up), or (A) buttons do not work, you will need to follow [an alternate branch of Seedminer](bannerbomb3). For assistance with this matter, join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) and ask, in English, for help.
-{: .notice--warning}
-
 ### Wat je nodig hebt
 
 * je `movable.sed` bestand van het voltooien van [Seedminer](seedminer)
@@ -44,12 +41,11 @@ If your (Right/Left Shoulder), (D-Pad Up), or (A) buttons do not work, you will 
   + ![]({{ "/images/screenshots/usm-root-layout.png" | absolute_url }})
     {: .notice--info}
 
-1. Navigeer naar `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `Nintendo DSiWare` op je SD-kaart
+1. Navigate to `Nintendo 3DS` -> `<ID0>` -> `<ID1>` on your SD card
   + `<ID0>` zal dezelfde zijn die je bij deze stap hebt gebruikt: [Seedminer](seedminer)
   + `<ID1>` is een reeks van 32 characters lang en bevindt zich in de map van de `<ID0>`
-  + Als `Nintendo DSiWare` niet bestaat, creëer het binnen de `<ID1>`
-1. Als er al DSiWare backup bestanden ("<8-character>.bin") in deze folder bestaan, verplaats ze dan naar je PC
-  + Nu heb je een lege Nintendo DSiWare map over. De bestanden verplaatsen naar je PC zal ervoor zorgen dat je niet opzettelijk back-ups verwijdert
+1. Create a folder named `Nintendo DSiWare` inside of the `<ID1>`
+  + If you already had the folder *and* there are any existing DSiWare backup files (`<8-character-id>.bin`) inside, copy them to your PC and remove them from your SD card
 1. Kopieer het `F00D43D5.bin` bestand van `unSAFE_MODE.zip` naar de `Nintendo DSiWare` map
 
     ![]({{ "/images/screenshots/dsiware-save-location.png" | absolute_url }})
@@ -63,10 +59,14 @@ If your (Right/Left Shoulder), (D-Pad Up), or (A) buttons do not work, you will 
 1. Navigeer naar `Data Management` -> `DSiWare`
 1. Klik op de SD-kaart tab
   + Je apparaat zou een menu met tekst moeten tonen
+  + If this step causes your device to crash, [follow this troubleshooting guide](troubleshooting#dsiware-management-menu-crashes-without-showing-usm-menu)
 1. Selecteer "Inject haxx"
   + Je apparaat zal automatisch uitschakelen
 
 #### Deel III - unSAFE_MODE
+
+If your (Right/Left Shoulder), (D-Pad Up), or (A) buttons do not work, you will need to follow [an alternate branch of Seedminer](bannerbomb3). For assistance with this matter, join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) and ask, in English, for help.
+{: .notice--warning}
 
 1. Als je apparaat nog steeds uitgeschakeld is, houd de volgende knoppen ingedrukt: (Left Shoulder) + (Right Shoulder) + (D-Pad Up) + (A), en druk daarna op (Power)
   + Blijf de knoppen ingedrukt houden totdat het apparaat opstart in Safe Mode
@@ -102,7 +102,7 @@ Op dit moment zal je console standaard opstarten naar Luma3DS.
   + Your device will automatically reboot
 1. Schakel je 3DS uit
 1. Plaats je SD kaart in je computer
-1. Ga naar `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `Nintendo DSiWare` op je SD-kaart
+1. Navigeer naar `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `Nintendo DSiWare` op je SD-kaart
 1. Verwijder `F00D43D5.bin` uit je Nintendo DSiWare map
 
 ___
