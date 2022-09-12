@@ -41,11 +41,11 @@ Queste istruzioni funzionano su console americane, europee, giapponesi e coreane
   + ![]({{ "/images/screenshots/usm-root-layout.png" | absolute_url }})
     {: .notice--info}
 
-1. Navigate to `Nintendo 3DS` -> `<ID0>` -> `<ID1>` on your SD card
+1. Nella tua scheda SD, entra in `Nintendo 3DS` -> `<ID0>` -> `<ID1>`
   + Questo `<ID0>` sarà lo stesso che hai utilizzato in [Seedminer](seedminer)
   + `<ID1>` è una cartella dal nome lungo 32 caratteri all'interno di `<ID0>`
-1. Create a folder named `Nintendo DSiWare` inside of the `<ID1>`
-  + If you already had the folder *and* there are any existing DSiWare backup files (`<8-character-id>.bin`) inside, copy them to your PC and remove them from your SD card
+1. Crea una cartella chiamata `Nintendo DSiWare` all'interno di `<ID1>`
+  + Se hai già la cartella *e* sono già presenti dei file di backup DSiWare (`<id-a-8-caratteri>.bin`) all'interno, copiali sul PC e rimuovili dalla scheda SD
 1. Copia il file `F00D43D5.bin` da `unSAFE_MODE.zip` nella cartella `Nintendo DSiWare`
 
     ![]({{ "/images/screenshots/dsiware-save-location.png" | absolute_url }})
@@ -59,7 +59,7 @@ Queste istruzioni funzionano su console americane, europee, giapponesi e coreane
 1. Entra in `Gestione dati` -> `DSiWare`
 1. Clicca sulla sezione Scheda SD
   + La tua console dovrebbe mostrare un menu con del testo
-  + If this step causes your device to crash, [follow this troubleshooting guide](troubleshooting#dsiware-management-menu-crashes-without-showing-usm-menu)
+  + Se questo passaggio causa il crash della tua console, [segui questa guida per risolvere il problema](troubleshooting#dsiware-management-menu-crashes-without-showing-usm-menu)
 1. Seleziona "Inject haxx"
   + La tua console si spegnerà automaticamente
 
@@ -99,7 +99,7 @@ A questo punto, la console avvierà sempre Luma3DS.
 1. Clicca sulla sezione Scheda SD
   + La tua console dovrebbe mostrare un menu con del testo
 1. Seleziona "Restore slots"
-  + Your device will automatically reboot
+  + La tua console si riavvierà automaticamente
 1. Spegni il tuo 3DS
 1. Inserisci la scheda SD nel tuo computer
 1. Nella tua scheda SD, entra in `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `Nintendo DSiWare`
