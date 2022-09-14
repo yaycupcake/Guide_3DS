@@ -200,21 +200,20 @@ $(document).ready(function() {
   // the value is the key to the displayed route in the device_common/old/new variable below
   // 
   var methods = {
-    "homebrew-launcher-(soundhax)": "0",
-    "installing-boot9strap-(soundhax)": "1",
-    "ntrboot": "2",
-    "flashing-ntrboot-(3ds-single-system)": "3",
-    "flashing-ntrboot-(3ds-multi-system)": "4",
-    "flashing-ntrboot-(dsi)": "5",
-    "flashing-ntrboot-(nds)": "6",
-    "installing-boot9strap-(hardmod)": "7",
-    "seedminer": "8",
-    "installing-boot9strap-(fredtool)": "9",
-    "bannerbomb3": "10",
-    "installing-boot9strap-(usm)": "11",
-	"homebrew-launcher-(pichaxx)": "12",
-    "installing-boot9strap-(kartdlphax)": "13",
-	"bannerbomb3-fredtool-(twn)": "14",
+    "installing-boot9strap-(soundhax)": "0",
+    "ntrboot": "1",
+    "flashing-ntrboot-(3ds-single-system)": "2",
+    "flashing-ntrboot-(3ds-multi-system)": "3",
+    "flashing-ntrboot-(dsi)": "4",
+    "flashing-ntrboot-(nds)": "5",
+    "installing-boot9strap-(hardmod)": "6",
+    "seedminer": "7",
+    "installing-boot9strap-(fredtool)": "8",
+    "bannerbomb3": "9",
+    "installing-boot9strap-(usm)": "10",
+	  "homebrew-launcher-(pichaxx)": "11",
+    "installing-boot9strap-(kartdlphax)": "12",
+	  "bannerbomb3-fredtool-(twn)": "13",
   };
 
   for(var device in devices){
@@ -246,21 +245,20 @@ $(document).ready(function() {
     // The key/propery name must match the value associated with the page in the methods variable above
     //
     var device_common = {
-      "0": ["homebrew-launcher-(soundhax)", "installing-boot9strap-(safeb9sinstaller)", "finalizing-setup"],
-      "1": ["installing-boot9strap-(soundhax)", "finalizing-setup"],
-      "2": ["ntrboot", "multiple-options", "installing-boot9strap-(ntrboot)", "finalizing-setup"],
-      "3": ["ntrboot", "flashing-ntrboot-(3ds-single-system)", "installing-boot9strap-(ntrboot)", "finalizing-setup"],
-      "4": ["ntrboot", "flashing-ntrboot-(3ds-multi-system)", "installing-boot9strap-(ntrboot)", "finalizing-setup"],
-      "5": ["ntrboot", "flashing-ntrboot-(dsi)", "installing-boot9strap-(ntrboot)", "finalizing-setup"],
-      "6": ["ntrboot", "flashing-ntrboot-(nds)", "installing-boot9strap-(ntrboot)", "finalizing-setup"],
-      "7": ["installing-boot9strap-(hardmod)", "finalizing-setup"],
-      "8": ["seedminer", "multiple-options", "finalizing-setup"],
-      "9": ["seedminer", "multiple-options", "installing-boot9strap-(fredtool)", "finalizing-setup"],
-      "10": ["seedminer", "bannerbomb3", "installing-boot9strap-(fredtool)", "finalizing-setup"],
-      "11": ["seedminer", "installing-boot9strap-(usm)", "finalizing-setup"],
-      "12": ["seedminer", "homebrew-launcher-(pichaxx)", "installing-boot9strap-(hbl-usm)", "finalizing-setup"],
-      "13": ["installing-boot9strap-(kartdlphax)", "finalizing-setup"],
-      "14": ["seedminer", "bannerbomb3-fredtool-(twn)", "finalizing-setup"],
+      "0": ["installing-boot9strap-(soundhax)", "finalizing-setup"],
+      "1": ["ntrboot", "multiple-options", "installing-boot9strap-(ntrboot)", "finalizing-setup"],
+      "2": ["ntrboot", "flashing-ntrboot-(3ds-single-system)", "installing-boot9strap-(ntrboot)", "finalizing-setup"],
+      "3": ["ntrboot", "flashing-ntrboot-(3ds-multi-system)", "installing-boot9strap-(ntrboot)", "finalizing-setup"],
+      "4": ["ntrboot", "flashing-ntrboot-(dsi)", "installing-boot9strap-(ntrboot)", "finalizing-setup"],
+      "5": ["ntrboot", "flashing-ntrboot-(nds)", "installing-boot9strap-(ntrboot)", "finalizing-setup"],
+      "6": ["installing-boot9strap-(hardmod)", "finalizing-setup"],
+      "7": ["seedminer", "multiple-options", "finalizing-setup"],
+      "8": ["seedminer", "multiple-options", "installing-boot9strap-(fredtool)", "finalizing-setup"],
+      "9": ["seedminer", "bannerbomb3", "installing-boot9strap-(fredtool)", "finalizing-setup"],
+      "10": ["seedminer", "installing-boot9strap-(usm)", "finalizing-setup"],
+      "11": ["seedminer", "homebrew-launcher-(pichaxx)", "installing-boot9strap-(hbl-usm)", "finalizing-setup"],
+      "12": ["installing-boot9strap-(kartdlphax)", "finalizing-setup"],
+      "13": ["seedminer", "bannerbomb3-fredtool-(twn)", "finalizing-setup"],
     }
     // Can add custom routing if necessary but currently both routes are identical
     var device_old =  Object.assign({}, device_common,{
