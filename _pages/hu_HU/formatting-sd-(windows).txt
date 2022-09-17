@@ -62,3 +62,6 @@ Ez az oldal Windows felhasználókra vonatkozik. Ha nem Windows rendszeren vagy,
 
 * Failed to open device: GetLastError()=32
   + Csukj le mindent, ami esetleg használhatja az SD kártyát, mint például bármelyik Fájlkezelő ablak.
+
+* GetLastError()=1117
+  + Az SD kártyád írás védelmi kapcsolója lehet, hogy [be van állítva](/images/sdlock.png). A zárat felfelé kell tolni, hogy engedélyezd az írást az SD kártyára (beleértve a formázást is).

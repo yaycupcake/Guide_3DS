@@ -16,6 +16,9 @@ SAFE_MODE 펌웨어를 해킹하기 위해, 익스플로잇이 되어있는 Wi-F
 
 이 설명서는 미주, 유럽, 일본, 그리고 한국 지역 기기들 (시스템 버전 다음 글짜가 U, E, J, 아니면 K 인 경우) 와 호환됩니다.
 
+만약 (L/R 어깨 버튼), (위 십자 패드), 또는 (A) 버튼이 동작되지 않다면, [다른 Seedminer 방법](bannerbomb3)을 따라야 합니다. 이 방법에 도움이 필요하다면, [Discord의 Nintendo Homebrew](https://discord.gg/MWxPgEp)에서 영어로 도움을 요청해 주세요.
+{: .notice--warning}
+
 ### 준비물
 
 * [Seedminer](seedminer)에서 받은 `movable.sed` 파일
@@ -54,7 +57,7 @@ SAFE_MODE 펌웨어를 해킹하기 위해, 익스플로잇이 되어있는 Wi-F
 #### 섹션 II - BannerBomb3
 
 1. SD 카드를 기기에 다시 삽입해 주세요
-1. 기기를 시작해 주세요.
+1. 기기를 시작해 주세요
 1. 기기에서 본체 설정을 열어 주세요
 1. `데이터 관리` -> `DSiWare` 메뉴를 열어 주세요
 1. SD 카드 섹션을 열어 주세요
@@ -65,18 +68,16 @@ SAFE_MODE 펌웨어를 해킹하기 위해, 익스플로잇이 되어있는 Wi-F
 
 #### 섹션 III - unSAFE_MODE
 
-만약 (L/R 어깨 버튼), (위 십자 패드), 또는 (A) 버튼이 동작되지 않다면, [다른 Seedminer 방법](bannerbomb3)을 따라야 합니다. 이 방법에 도움이 필요하다면, [Discord의 Nintendo Homebrew](https://discord.gg/MWxPgEp)에서 영어로 도움을 요청해 주세요.
-{: .notice--warning}
-
-1. 전원이 꺼져 있는 상태에서 (L 어깨) + (R 어깨) + (십자 Up) + (A) 를 길게 눌르고, 누르는 상태에서 (전원)을 눌러 주세요
+1. With your device still powered off, hold the following buttons: (Left Shoulder) + (Right Shoulder) + (D-Pad Up) + (A), and while holding these buttons together, power on your device
   + 안전 모드로 부팅 될 때 까지 버튼들을 눌러 주세요
+  + If you're unable to get into Safe Mode after multiple attempts, one of your buttons may be failing or broken. If this is the case, you will need to follow [an alternate branch of Seedminer](bannerbomb3). 이 방법에 도움이 필요하다면, [Discord의 Nintendo Homebrew](https://discord.gg/MWxPgEp)에서 영어로 도움을 요청해 주세요.
 1. "OK"를 선택해서 업데이트를 확인해 주세요
   + 실제로 업데이트를 하는 것은 아닙니다. 이것은 익스플로잇의 일부입니다
 1. "동의함"를 눌러서 이용 약관에 동의해 주세요
 1. 이 업데이트는 에러 코드 `003-1099` 와 같이 실패를 할 겁니다. 이것은 의도적 행동입니다
 1. When asked "Would you like to configure Internet settings?", select "Yes"
 1. 이 화면에서, `접솔 경로 1` -> `설정 변경` -> `다음 페이지 (오른쪽 화살표)` -> `Proxy 설정` -> `세부 설정` 으로 이동해 주세요
-  + [이 (영어) 사진](https://uwuu.ca/images/safemode_highlighted.png)처럼 하시면 됩니다
+  + This is a [visual representation](/images/safemode_highlighted.png)
 1. 익스플로잇이 성공적이었다면 SafeB9SInstaller로 부팅되었을 것입니다
 
 #### 섹션 IV - boot9strap 설치
