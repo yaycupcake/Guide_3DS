@@ -3,17 +3,14 @@ title: "BannerBomb3"
 ---
 
 {% include toc title="Table of Contents" %}
-{% include text-expand.html %}
 
 <details>
 <summary><em>Technical Details (optional)</em></summary>
-
 <p>To dump system DSiWare, we exploit a flaw in the DSiWare Data Management window of the Settings application.</p>
-
 <p>To accomplish this, we use your system's encryption key (movable.sed) to build a DSiWare backup that exploits the system in order to dump the DSi Internet Settings application to the SD root.</p>
-
 <p>For a more technical explanation, see <a href="https://github.com/zoogie/Bannerbomb3">here</a>.</p>
 </details>
+{: .notice--info}
 
 ### Compatibility Notes
 

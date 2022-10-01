@@ -3,13 +3,12 @@ title: "Homebrew Launcher (PicHaxx)"
 ---
 
 {% include toc title="Table of Contents" %}
-{% include text-expand.html %}
 
 <details>
 <summary><em>Technical Details (optional)</em></summary>
-
 This method of using Seedminer for further exploitation uses your <code>movable.sed</code> file to write a custom save file for Pokémon Picross, which can then be used with unSAFE_MODE (via Homebrew Launcher) to run SafeB9SInstaller.
 </details>
+{: .notice--info}
 
 ### Compatibility Notes
 
