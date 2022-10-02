@@ -36,7 +36,7 @@ In this section, you will copy the files needed to trigger the BannerBomb3 explo
 1. Navigate to `Nintendo 3DS` -> `<ID0>` -> `<ID1>` on your SD card
   + `<ID0>` is the 32-letter folder name that you copied in [Seedminer](seedminer)
   + `<ID1>` is a 32-letter folder inside of the `<ID0>`
-  + ![]({{ "/images/screenshots/bb3/dsiware-location-1.png" | absolute_url }}){: .notice--info}
+  ![]({{ "/images/screenshots/bb3/dsiware-location-1.png" | absolute_url }}){: .notice--info}
 1. Create a folder named `Nintendo DSiWare` inside of the `<ID1>`
   + If you already had the folder *and* there are any existing DSiWare backup files (`<8-character-id>.bin`) inside, copy them to your PC and remove them from your SD card
 1. Copy the `F00D43D5.bin` file from `BannerBomb3.zip` to the `Nintendo DSiWare` folder
@@ -57,7 +57,6 @@ In this section, you will trigger the BannerBomb3 exploit using the DSiWare Mana
 1. Insert your SD card into your computer
 1. You should now have `42383841.bin` on the root of your SD card. Copy this file to somewhere on your computer, as you will use it on the next page
 1. Navigate to `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `Nintendo DSiWare` on your SD card
-    ![]({{ "/images/screenshots/bb3/dsiware-location-2.png" | absolute_url }}){: .notice--info} 
 1. Delete `F00D43D5.bin` from your Nintendo DSiWare folder and from your computer. This file will not be needed anymore
 
 

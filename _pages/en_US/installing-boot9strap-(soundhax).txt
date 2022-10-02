@@ -41,8 +41,11 @@ In this section, you will copy the files needed to trigger both Soundhax and uni
 1. Reinsert your SD card into your device
 1. Power on your device
 
-    ![]({{ "/images/screenshots/uosoundhax-root-layout.png" | absolute_url }})
-    {: .notice--info}
+![]({{ "/images/screenshots/uosoundhax-root-layout.png" | absolute_url }})
+{: .notice--info}
+
+![]({{ "/images/screenshots/boot9strap-folder.png" | absolute_url }})
+{: .notice--info}
 
 #### Section II - Launching SafeB9SInstaller
 

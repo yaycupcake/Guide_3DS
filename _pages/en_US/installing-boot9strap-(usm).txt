@@ -46,10 +46,11 @@ In this section, you will copy the files needed to trigger the BannerBomb3 and u
 1. Copy `SafeB9SInstaller.bin` from the SafeB9SInstaller `.zip` to the root of your SD card
 1. Copy `usm.bin` from `unSAFE_MODE.zip` to the root of your SD card
     ![]({{ "/images/screenshots/bb3/usm-root-layout.png" | absolute_url }}){: .notice--info}
+    ![]({{ "/images/screenshots/boot9strap-folder.png" | absolute_url }}){: .notice--info}
 1. Navigate to `Nintendo 3DS` -> `<ID0>` -> `<ID1>` on your SD card
   + `<ID0>` is the 32-letter folder name that you copied in [Seedminer](seedminer)
   + `<ID1>` is a 32-letter folder inside of the `<ID0>`
-  + ![]({{ "/images/screenshots/bb3/dsiware-location-1.png" | absolute_url }}){: .notice--info}
+  ![]({{ "/images/screenshots/bb3/dsiware-location-1.png" | absolute_url }}){: .notice--info}
 1. Create a folder named `Nintendo DSiWare` inside of the `<ID1>`
   + If you already had the folder *and* there are any existing DSiWare backup files (`<8-character-id>.bin`) inside, copy them to your PC and remove them from your SD card
 1. Copy the `F00D43D5.bin` file from `unSAFE_MODE.zip` to the `Nintendo DSiWare` folder
@@ -82,7 +83,7 @@ In this section, you will enter Safe Mode (a feature available on all 3DS family
 1. Press "I accept" to accept the terms and conditions
 1. The update will eventually fail, with the error code `003-1099`. This is intended behaviour
 1. When asked "Would you like to configure Internet settings?", select "Yes"
-1. On the following menu, navigate to `Connection 1` -> `Change Settings` -> `Next Page (right arrow)` -> `Proxy Settings` -> `Detailed Setup` ([image](/images/screeshots/bb3/safemode_highlighted.png))
+1. On the following menu, navigate to `Connection 1` -> `Change Settings` -> `Next Page (right arrow)` -> `Proxy Settings` -> `Detailed Setup` ([image](/images/screenshots/bb3/safemode_highlighted.png))
 1. If the exploit was successful, your device will have booted into SafeB9SInstaller
 
 #### Section IV - Installing boot9strap
@@ -112,7 +113,6 @@ In this section, you will trigger the BannerBomb3 exploit a second time so that 
 1. Power off your device
 1. Insert your SD card into your computer
 1. Navigate to `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `Nintendo DSiWare` on your SD card
-    ![]({{ "/images/screenshots/bb3/dsiware-location-2.png" | absolute_url }}){: .notice--info} 
 1. Delete `F00D43D5.bin` from your Nintendo DSiWare folder and from your computer. This file will not be needed anymore
 
 ___
