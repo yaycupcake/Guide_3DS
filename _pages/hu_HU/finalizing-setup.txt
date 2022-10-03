@@ -20,7 +20,7 @@ Ezen az oldalon kritikus rendszer mentéseket fogunk csinálni és a következő
 Nem ajánlott ezeket az alkalmazásokat nem letölteni, mert mindegyik még használva lesz ezen az oldalon. Ennek az oldalnak a végén az SD kártyádról el lesznek távolítva a felesleges telepítő fájlok.
 {: .notice--warning}
 
-### Compatibility Notes
+### Kompatibilitási megjegyzések
 
 Ha az **új 3DS** konzolod a 2.1.0 verzión volt, a [NAND-ról készült bizonsági másolatot állítsd vissza](godmode9-usage#nand-ról-készült-bizonsági-másolat-visszaállítása) mielőtt tovább mennél.
 {: .notice--warning}
@@ -41,7 +41,7 @@ Ha az előző egyedi firmware rendszered EmuNAND alapú volt és szeretnéd az E
 
 #### I. rész - Előkészületek
 
-In this section, you will copy the files necessary to follow the rest of the instructions on this page.
+Ebben a fejezetben fel fogod másolni az ahhoz szükséges fájlokat, hogy kövesd a lépéseket ezen az oldalon.
 
 1. Kapcsold ki a készüléked
 1. Helyezd az SD kártyád a számítógépbe
@@ -56,7 +56,7 @@ In this section, you will copy the files necessary to follow the rest of the ins
 1. Tedd vissza az SD kártyád a készülékedbe
 1. Kapcsold be a készülékedet
 
-The screenshots below indicate the minimum SD card layout that is required to follow this page. Lehetnek extra fájljaid és mappáid az SD kártyádon, függően a korábbi telepítésedtől vagy metódustól, amit követtél.
+Az alábbi képernyőképek mutatják az SD kártya minimális elrendezését ahhoz, hogy ezt az útmutatót követni tudd. Lehetnek extra fájljaid és mappáid az SD kártyádon, függően a korábbi telepítésedtől vagy metódustól, amit követtél.
 
 ![]({{ "/images/screenshots/finalizing-root-layout.png" | absolute_url }})
 {: .notice--info}
@@ -68,7 +68,7 @@ The screenshots below indicate the minimum SD card layout that is required to fo
 
 #### II. rész - A rendszer frissítése
 
-In this section, you will update your system to the latest version, which is safe to do with custom firmware.
+Ebben a fejezetben frissíteni fogod a rendszered a legutolsó verzióra, ami biztonságos az egyedi firmware-rel.
 
 1. Frissítsd az eszközödet következőképp. Lépj be a System Settings-be, majd az "Other settings"-be, ahol addig lépkedj jobbra, amíg a végére nem érsz. Itt válaszd a "System Update" opciót.
   + B9S és Luma használatakor (mint esetedben) biztonságosak a rendszerfrissítések
@@ -78,7 +78,7 @@ In this section, you will update your system to the latest version, which is saf
 
 #### III. rész - Homebrew Launcher
 
-In this section, you will temporarily replace Download Play with Homebrew Launcher (which we need to launch FBI). Download Play will automatically go back to normal once you reboot your device.
+Ebben a fejezetben átmenetileg le fogod cserélni a Download Play-t a Homebrew Launcher-rel (ami szükséges az FBI indításához). A Download Play automatikusan visszaáll normálisra, amint újrabootolod az eszközödet.
 
 1. Indítsd el a Download Play alkalmazást (![]({{ "/images/download-play-icon.png" | absolute_url }}){: height="24px" width="24px"})
 1. Várj, amíg `Nintendo 3DS` és `Nintendo DS` gombokat nem látsz
@@ -94,7 +94,7 @@ In this section, you will temporarily replace Download Play with Homebrew Launch
 
 #### IV. rész - RTC és DSP telepítése
 
-In this section, you will sync your 3DS internal clock with the actual time and dump the sound firmware (which is necesssary for some homebrew software to use sound properly).
+Ebben a fejezetben szinkronizálni fogod a 3DS belső óráját az aktuális időhöz és dumpolni a hang firmware-t (ami szükséges néhány homebrew alkalmazáshoz, hogy a hangot megfelelően használja).
 
 1. Nyomd le az (L) + (D-Pad le) + (Select) gombokat egyszerre a Rosalina menü megnyitásához
 1. Válaszd ki a "Miscellaneous options"-t
@@ -107,7 +107,7 @@ In this section, you will sync your 3DS internal clock with the actual time and 
 
 #### V. rész - CIA fájlok telepítése
 
-In this section, you will install several useful homebrew applications to HOME Menu.
+Ebben a fejezetben fel fogsz telepíteni néhány hasznos homebrew alkalmazást a HOME Menube.
 
 1. Indítsd el az FBI-t a homebrew listából
 1. Menj ide: `SD` -> `cias`
@@ -117,7 +117,7 @@ In this section, you will install several useful homebrew applications to HOME M
 
 #### VI. rész - Luma3DS telepítése CTRNAND-ba
 
-In this section, you will use a script to copy some of Luma3DS's files to internal memory so that they can be accessed, even without an SD card inserted.
+Ebben a fejezetben egy szkriptet fogsz használni, hogy bemásold a Luma3DS néhány fájlját a belső memóriába, így elérhetők még akkor is, ha nincs SD kártya behelyezve.
 
 1. Kapcsold ki a készüléked
 1. Nyomd le és tartsd nyomva a (Start) gombot, és a (Start) nyomva tartása mellett kapcsold be az eszközödet. Ez elindítja a GodMode9-et
@@ -135,7 +135,7 @@ In this section, you will use a script to copy some of Luma3DS's files to intern
 
 #### VII. rész - Takarítás az SD kártyán
 
-In this section, you will use a script to remove some unnecessary files from your SD card.
+Ebben a fejezetben egy szkriptet fogsz használni arra, hogy eltávolítsd a felesleges fájlokat az SD kártyádról.
 
 1. Válaszd ezt: "Cleanup SD Card"
 1. Amikor kéri, nyomd meg az (A) gombot a folytatáshoz
@@ -144,7 +144,7 @@ In this section, you will use a script to remove some unnecessary files from you
 
 #### VIII. rész - Backup Essential Files
 
-In this section, you will make backups of flies that can be used to recover from softwaer bricks or to recover data.
+Ebben a fejezetben mentés fájlokat fogsz készíteni, amik a helyreállításhoz használhatók, ha szoftveres brickelés történik, vagy ha helyre szeretnéd állítani az adatokat.
 
 1. Válaszd ezt: "Backup Options"
 1. Válaszd ezt: "SysNAND Backup"
