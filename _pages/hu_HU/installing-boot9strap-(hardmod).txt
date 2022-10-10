@@ -6,6 +6,9 @@ title: "Boot9strap telepítése (Hardmod)"
 
 ### Fontos tudnivalók
 
+A lépések ezen az oldalon nem fognak működni, ha a legutolsó (11.16.0) firmware-en. Ha közvetlenül lettél erre az oldalra linkelve, [térj vissza a Kezdeti lépésekhez](get-started) vagy csatlakozz a [Nintendo Homebrew csatornához a Discord-on](https://discord.gg/MWxPgEp) és kérj angolul segítséget.
+{: .notice--warning}
+
 [Itt](https://gbatemp.net/threads/414498/) található egy kiváló útmutató arról, hogyan hajtsd végre a hardmodot (hardveres módosítást).
 
 Ez egy jelenleg működő megvalósítása a "FIRM partitions known-plaintext" néven ismert exploitnak, amiről részletesebben olvashatsz [itt](https://www.3dbrew.org/wiki/3DS_System_Flaws).
