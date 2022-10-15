@@ -126,7 +126,7 @@ Ha ez sikertelen, próbálkozz egy másik SD kártyával.
 
 ## BannerBomb3
 
-### DSiWare Management menu crashes without showing BB3 multihax menu
+### A DSiWare Management menü összeomlik a BB3 multihax menü megjelenése nélkül
 
 Biztosítsd, hogy az `F00D43D5.bin` az egyetlen fájl a `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `Nintendo DSiWare` mappában. Ha így van, hozd létre újra a [BannerBomb3 Injector](http://3dstools.nhnarwhal.com/#/bb3gen) segítségével. 
 
@@ -154,7 +154,7 @@ unSAFE_MODE is not installed. Follow the instructions on your page to install un
 
 The file `usm.bin` is missing or misplaced. Download the latest release of [unSAFE_MODE](https://github.com/zoogie/unSAFE_MODE/releases/download/v1.3/usm.bin) and place `usm.bin` on the root of your SD card. Ne add hozzá a `.bin` kiterjesztést, ha nem látod.
 
-There is also a possibility that the console doesn't read your SD card. Make sure it is inserted and formatted correctly.
+There is also a possibility that the console isn't reading your SD card. Make sure it is inserted and formatted correctly.
 
 ### Failed to open SafeB9SInstaller.bin
 
@@ -180,7 +180,7 @@ You forgot to delete `F00D43D5.bin` from the SD card. Navigate to `Nintendo 3DS`
 
 ### A "Haxxxxxxxxx!" nem jelenik meg
 
-Probléma van a `42383821.bin` fájloddal (nem jó, hiányzik, rossz helyen van vagy sérült). Hozd létre újra a fájljaid a [Fredtool](https://3ds.nhnarwhal.com/3dstools/fredtool.php) weboldallal és rakd a `42383821.bin` fájlt `output.zip` -> `hax`-ból a `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `Nintendo DSiWare` könyvtárba.
+Probléma van a `42383821.bin` fájloddal (nem jó, hiányzik, rossz helyen van vagy sérült). Hozd létre újra a fájljaid a [DSIHaxInjector_new](https://jenkins.nelthorya.net/job/DSIHaxInjector_new/build?delay=0sec) weboldallal és rakd a `42383821.bin` fájlt `output.zip` -> `hax`-ból a `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `Nintendo DSiWare` könyvtárba.
 
 ### DS Connection Settings normálisan indul
 

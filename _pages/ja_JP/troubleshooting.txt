@@ -154,7 +154,7 @@ unSAFE_MODE is not installed. Follow the instructions on your page to install un
 
 The file `usm.bin` is missing or misplaced. Download the latest release of [unSAFE_MODE](https://github.com/zoogie/unSAFE_MODE/releases/download/v1.3/usm.bin) and place `usm.bin` on the root of your SD card. Do not add the `.bin` extension if you do not already see it.
 
-There is also a possibility that the console doesn't read your SD card. Make sure it is inserted and formatted correctly.
+There is also a possibility that the console isn't reading your SD card. Make sure it is inserted and formatted correctly.
 
 ### Failed to open SafeB9SInstaller.bin
 
@@ -180,7 +180,7 @@ You forgot to delete `F00D43D5.bin` from the SD card. Navigate to `Nintendo 3DS`
 
 ### "Haxxxxxxxxx!" does not appear
 
-There is an issue with your `42383821.bin` file (it is incorrect, missing, misplaced, or corrupted). Re-create your files with the [Fredtool](https://3ds.nhnarwhal.com/3dstools/fredtool.php) website and ensure that you place the `42383821.bin` file from `output.zip` -> `hax` in `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `Nintendo DSiWare`.
+There is an issue with your `42383821.bin` file (it is incorrect, missing, misplaced, or corrupted). Re-create your files with the [DSIHaxInjector_new](https://jenkins.nelthorya.net/job/DSIHaxInjector_new/build?delay=0sec) website and ensure that you place the `42383821.bin` file from `output.zip` -> `hax` in `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `Nintendo DSiWare`.
 
 ### DS Connection Settings launches normally
 
