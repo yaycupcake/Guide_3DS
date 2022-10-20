@@ -5,7 +5,7 @@ title: "Installing boot9strap (HBL-USM)"
 {% include toc title="Inhalt" %}
 
 <details>
-<summary><em>Technical Details (optional)</em></summary>
+<summary><em>Technische Details (optional)</em></summary>
 <p>In order to exploit the SAFE_MODE firmware of our system, we need to inject an exploited WiFi profile.</p>
 <p>As we already have Homebrew access, we can use slotTool to do this.</p>
 <p>Once the WiFi profile has been injected, we will use SAFE_MODE, which is a recovery feature present on all 3DS consoles, to activate the exploited WiFi profile.</p>
@@ -13,15 +13,15 @@ title: "Installing boot9strap (HBL-USM)"
 </details>
 {: .notice--info}
 
-### Compatibility Notes
+### Kompatibilitätshinweise
 
 If your (Right/Left Shoulder), (D-Pad Up) or (A) buttons do not work, join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) and ask, in English, for help.
 {: .notice--danger}
 
 ### Was du brauchst
 
-* The latest release of [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/download/v0.0.7/SafeB9SInstaller-20170605-122940.zip) (direct download)
-* The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/download/1.4/boot9strap-1.4.zip) (direct download)
+* Die neueste Version vom [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/download/v0.0.7/SafeB9SInstaller-20170605-122940.zip) (Direkter Download)
+* Die neueste Version von [boot9strap](https://github.com/SciresM/boot9strap/releases/download/1.4/boot9strap-1.4.zip) (Direkter Download)
 * The latest release of [unSAFE_MODE](https://github.com/zoogie/unSAFE_MODE/releases/latest)
   * You may already have this from a prior section of the guide
 
@@ -69,7 +69,7 @@ In this section, you will install custom firmware onto your device.
 
 1. When prompted, input the key combo given on the top screen to install boot9strap
   + If the top screen is blank, power off your device and re-do Section III
-1. Once it is complete, press (A) to reboot your device
+1. Sobald dies abgeschlossen ist, drücke (A) um das Gerät neuzustarten
 1. Dein Gerät sollte neu starten und die Luma3DS Konfiguration anzeigen
   + If your device shuts down when you try to power it on, ensure that you have copied `boot.firm` from the Luma3DS `.zip` to the root of your SD card
 1. Drücke (Start) zum Speichern und neustarten
@@ -80,7 +80,7 @@ At this point, your console will boot to Luma3DS by default.
 
 #### Section IV - Restoring WiFi Configuration Profiles
 
-In this section, you will enter the Homebrew Launcher (this time using custom firmware) so that you can restore the Wi-Fi connection slots that were overwritten in Section II.
+In this section, you will enter the Homebrew Launcher (this time using custom firmware) so that you can restore the Wi-Fi connection slots that were overwritten in Section I.
 
 1. Starte die Download-Spiel Anwendung
 1. Wait until you see the two buttons

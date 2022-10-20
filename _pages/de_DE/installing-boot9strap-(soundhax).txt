@@ -5,12 +5,12 @@ title: "Installation von boot9strap (Soundhax)"
 {% include toc title="Inhalt" %}
 
 <details>
-<summary><em>Technical Details (optional)</em></summary>
+<summary><em>Technische Details (optional)</em></summary>
 <p>For technical details on the exploits that you will be using on this page, see <a href="https://github.com/nedwill/soundhax">here</a> (Soundhax) and <a href="https://github.com/TuxSH/universal-otherapp/">here</a> (universal-otherapp).</p>
 </details>
 {: .notice--info}
 
-### Compatibility Notes
+### Kompatibilitätshinweise
 
 Soundhax (when combined with universal-otherapp) is compatible with versions 1.0.0 through 11.3.0 in all regions.
 
@@ -18,9 +18,9 @@ Soundhax (when combined with universal-otherapp) is compatible with versions 1.0
 
 * The latest release of [Soundhax](http://soundhax.com) *(for your region, device, and version)*
   + If Soundhax appears in your browser as an unplayable video, press Ctrl+S or Cmd+S to save it to your computer
-* The latest release of [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/download/v0.0.7/SafeB9SInstaller-20170605-122940.zip) (direct download)
-* The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/download/1.4/boot9strap-1.4.zip) (direct download)
-* The latest release of [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest) (the Luma3DS `.zip` file)
+* Die neueste Version vom [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/download/v0.0.7/SafeB9SInstaller-20170605-122940.zip) (Direkter Download)
+* Die neueste Version von [boot9strap](https://github.com/SciresM/boot9strap/releases/download/1.4/boot9strap-1.4.zip) (Direkter Download)
+* Die neueste Version von [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest) (die Luma3DS `.zip` Datei)
 * The latest release of [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest) (`otherapp.bin`)
 
 ### Anleitung
@@ -74,7 +74,7 @@ In this section, you will launch Soundhax through the Nintendo 3DS Sound app, wh
 In this section, you will install custom firmware onto your device.
 
 1. When prompted, input the key combo given on the top screen to install boot9strap
-1. Once it is complete, press (A) to reboot your device
+1. Sobald dies abgeschlossen ist, drücke (A) um das Gerät neuzustarten
 1. Dein Gerät sollte neu starten und die Luma3DS Konfiguration anzeigen
   + If your device shuts down when you try to power it on, ensure that you have copied `boot.firm` from the Luma3DS `.zip` to the root of your SD card
 1. Drücke (Start) zum Speichern und neustarten

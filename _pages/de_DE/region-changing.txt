@@ -4,7 +4,7 @@ title: "Wechseln der Region"
 
 {% include toc title="Inhalt" %}
 
-### Required Reading
+### Lesen erforderlich
 
 This is an add-on section for region changing your CFW SysNAND. This is done by installing the 11.15.0 CTRTransfer image for the region you want to switch to. After installing the image, you can update your device normally to the latest firmware (11.16.0).
 
@@ -31,7 +31,7 @@ Performing a region change may break extended memory mode games (Monster Hunter,
 
 ### Was du brauchst
 
-To use the [magnet](https://wikipedia.org/wiki/Magnet_URI_scheme) links on this page, you will need a torrent client like [qBittorrent](https://www.qbittorrent.org/download.php) or [Deluge](http://dev.deluge-torrent.org/wiki/Download).
+Um die [magnet](https://wikipedia.org/wiki/Magnet_URI_scheme)-Links auf dieser Seite zu verwenden, benötigst du einen Torrent-Client, wie [qBittorrent](https://www.qbittorrent.org/download.php) oder [Deluge](http://dev.deluge-torrent.org/wiki/Download).
 {: .notice--warning}
 
 * The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/latest) (the GodMode9 `.zip` file)

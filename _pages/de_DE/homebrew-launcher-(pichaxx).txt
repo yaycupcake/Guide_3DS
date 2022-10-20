@@ -5,12 +5,12 @@ title: "Homebrew Launcher (PicHaxx)"
 {% include toc title="Inhalt" %}
 
 <details>
-<summary><em>Technical Details (optional)</em></summary>
+<summary><em>Technische Details (optional)</em></summary>
 This method of using Seedminer for further exploitation uses your <code>movable.sed</code> file to write a custom save file for Pokémon Picross, which can then be used with unSAFE_MODE (via Homebrew Launcher) to run SafeB9SInstaller. For information on PicHaxx itself, see <a href="https://github.com/zoogie/pichaxx">here</a>.
 </details>
 {: .notice--info}
 
-### Compatibility Notes
+### Kompatibilitätshinweise
 
 These instructions work on USA, Europe, and Japan consoles as indicated by the letters U, E, or J after the system version.
 
@@ -25,7 +25,7 @@ This process will overwrite your Pokémon Picross save file, if you have one. If
   + You can scan [this QR code](http://api.qrserver.com/v1/create-qr-code/?color=000000&bgcolor=FFFFFF&data=ESHOP://50010000037815&margin=0&qzone=1&size=400x400&ecc=L) using the Nintendo 3DS Camera for a direct link to the eShop app
   + Your SD card must be inserted in your device to install Pokémon Picross
 * Your `movable.sed` file from completing [Seedminer](seedminer)
-* The latest release of [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest) (the Luma3DS `.zip` file)
+* Die neueste Version von [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest) (die Luma3DS `.zip` Datei)
 * The latest release of [unSAFE_MODE](https://github.com/zoogie/unSAFE_MODE/releases/latest) (the RELEASE `.zip` file)
 
 ### Anleitung
@@ -57,7 +57,7 @@ In this section, you will create a hacked Pokémon Picross save file that, when 
 1. Select "Build and Download"
 1. Wait for the process to complete
 1. Navigate to `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `title` -> `00040000` -> `0017c100` -> `data` on your SD card
-  + The `<ID0>` will be the same one that you used in [Seedminer](seedminer)
+  + Diese `<ID0>` ist dieselbe die du bei [Seedminer](seedminer) verwendet hast
   + The `<ID1>` is a 32 character long folder inside of the `<ID0>`
 1. Copy the newly downloaded `00000001.sav` file to the `data` folder on your SD card
   + Overwrite the old save file when prompted
