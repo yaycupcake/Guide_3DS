@@ -1,23 +1,23 @@
 ---
-title: "Installing boot9strap (SSLoth-Browser)"
+title: "Boot9strap telepítése (SSLoth-Browser)"
 ---
 
 {% include toc title="Tartalomjegyzék" %}
 
 <details>
 <summary><em>Technikai részletek (opcionális)</em></summary>
-<p>In order to exploit the Browser application, we need to bypass the browser version check, which is designed to disallow the use of the browser without updating to the latest system version.</p>
-<p>A public proxy server is available, which, with the help of the SSLoth exploit, can bypass this check.</p>
-<p>Once the bypass is active, an exploit webpage will be accessible which will do the rest of the job.</p>
-<p>For technical details on the exploits that you will be using on this page, see <a href="https://github.com/MrNbaYoh/3ds-ssloth">here</a> (SSLoth) and <a href="https://github.com/TuxSH/universal-otherapp/">here</a> (universal-otherapp).</p>
+<p>A Browser alkalmazás exploit-olásához ki kell kapcsolni a verzió ellenőrzést, ami úgy lett megtervezve, hogy ne engedje a böngésző használatát a nélkül, hogy előtte frissítenénk a rendszert a legfrissebb verzióra.</p>
+<p>Egy publikus proxy szerver elérhető, ami az SSLoth exploit segítségével ki tudja iktatni ezt az ellenőrzést.</p>
+<p>Ha ez a kiiktatás aktív, egy exploit weboldal elérhető, ami elvégzi a többi részét a feladatnak.</p>
+<p>A technikai részleteiért az ezen az oldalon használt exploit-oknak tekintsd meg <a href="https://github.com/MrNbaYoh/3ds-ssloth">ezt</a> (SSLoth) és <a href="https://github.com/TuxSH/universal-otherapp/">ezt</a> (universal-otherapp) az oldalt</p>
 </details>
 {: .notice--info}
 
 ### Kompatibilitási megjegyzések
 
-SSLoth allows users on version 11.13.0 and below to bypass the browser version check, allowing the use of new-browserhax or old-browserhax (compatible with versions 11.4.0 through 11.13.0 in all regions), which can then be used in conjunction with universal-otherapp.
+Az SSLoth lehetővé teszi a 11.13.0 és alatti verziók számára, hogy megkerüld a böngésző verzió ellenőrzést, ezáltal lehetővé tegye a new-browserhax vagy az old-browserhax (kompatibilis a 11.4.0 verziótól 11.13.0-ig minden régió esetén) használatát, amik az universal-otherapp-pal együtt használhatók.
 
-If you have updated your device to your current version using a cartridge, your Internet Browser will be inaccessible. If this is the case, you will need to update your device to the latest version through System Settings and then follow the method for the latest version.
+Ha frissítetted az eszközödet az aktuális verzióra, cartridge használatával, az Internet Browser-ed nem lesz elérhető. Ha ez az eset áll fenn, frissítened kell az eszközödet az utolsó verzióra a System Settings-en keresztül, és a legutolsó verzióhoz készült metódust használnod.
 {: .notice--warning}
 
 ### Amire szükséged lesz
@@ -29,13 +29,13 @@ If you have updated your device to your current version using a cartridge, your 
 
 #### I. rész - Előkészületek
 
-In this section, you will copy the files needed to trigger both browserhax and universal-otherapp.
+Ebben a fejezetben fel fogod másolni a fájlokat, amik a browserhax és az universal-otherapp kiváltásához szükségesek.
 
 1. Kapcsold ki a készüléked
 1. Helyezd az SD kártyád a számítógépbe
-1. Copy `otherapp.bin` to the root of your SD card and rename it to `arm11code.bin`
+1. Másold az `otherapp.bin`-t az SD kártyád gyökerébe, majd nevezd át `arm11code.bin` névre
   + Az SD kártya gyökere a kezdőkönyvtárt jelenti az SD kártyán, ahol látható a Nintendo 3DS könyvtár, de nem vagyunk benne
-  + If you do not see the `.bin` extension, do not add it to the end of the filename
+  +Ha nem látod a `.bin` kiterjesztést ne add kézzel hozzá a fájl végéhez
 1. Másold át a `boot.firm` és `boot.3dsx` fájlt a Luma3DS `.zip`-ből az SD kártya gyökerébe
 1. Hozz létre egy mappát `boot9strap` néven az SD kártya gyökerében
 1. Másold át a `boot9strap.firm` fájlt és a `boot9strap.firm.sha` fájlt a boot9strap `.zip` fájlból az SD kártyád `/boot9strap/` mappájába
@@ -43,29 +43,29 @@ In this section, you will copy the files needed to trigger both browserhax and u
 1. Tedd vissza az SD kártyád a készülékedbe
 1. Kapcsold be a készülékedet
 
-#### Section II - SSLoth
+#### II. rész - SSLoth
 
-In this section, you will change your Internet connection settings to use a proxy network designed to bypass the browser version check, allowing the browser to function without a system update. This will allow you to access the browser exploit webpage in the next section.
+Ebben a fejezetben módosítani fogod az Internet kapcsolat beállításokat hogy egy proxy hálózatot használj, ami úgy lett megtervezve, hogy kikerülje a browser verzió ellenőrzést, lehetővé téve a browser műlödését rendszer frissítés nélkül. Ez lehetővé teszi, hogy hozzáférj a browser exploit weboldalhoz a következő fejezetben.
 
-1. Launch the System Settings application
-1. Navigate to `Internet Settings` -> `Connection Settings`
-1. Click on your network connection slot and navigate to `Change Settings` -> `Next Page (right arrow)` -> `Proxy Settings`
-1. Set "Proxy Settings" to "Yes", then click `Detailed Setup`
-1. Set the Proxy Server to `192.9.234.11`, and the Port to `8080`
-1. Click OK, then click Save
-1. When prompted, click "Test" to perform the connection test
-  + The test should succeed
-1. Click "OK" to continue
-1. Press "Back" twice, then "Close" to go back to the HOME Menu
+1. Indítsd el a System Settings alkalmazást
+1. Navigálj az `Internet Settings` -> `Connection Settings` opciókhoz
+1. Kattints a saját hálózati kapcsolatodra és navigálj a `Change Settings` -> `Next Page (jobb nyíl)` -> `Proxy Settings` opcióhoz
+1. Állítsd az "Proxy Settings"-t "Yes"-re majd kattints a `Detailed Setup`-ra
+1. Állítsd be a Proxy Server-t `192.9.234.11`-re, és a Port-ot `8080`-ra
+1. Kattints az OK-ra, majd kattints a Save-re
+1. Amikor kérdezi, kattints a "Test"-re a kapcsolat ellenőrzéséhez
+  + A tesztnek sikeresnek kell lennie
+1. Kattintson az OK gombra a folytatáshoz
+1. Nyomj a "Back"-re kétszer, majd a "Close"-ra, hogy visszajuszz a HOME Menübe
 
-#### Section III - Launching SafeB9SInstaller
+#### III. rész - A SafeB9SInstaller indítása
 
-In this section, you will visit the browser exploit webpage, which will use universal-otherapp to launch the boot9strap (custom firmware) installer.
+Ebben a fejezetben meg fogod látogatni a browser exploit weboldalt, ami az universal-otherapp-ot fogja használni a boot9strap (egyedi firmware) telepítő indításához.
 
-1. On the HOME Menu, press the Left and Right shoulder buttons together to open the camera
-    + If you are unable to open the camera, open the Internet Browser and manually type the URL instead (`https://zoogie.github.io/web/nbhax/`)
-1. Tap the QR code button and scan [this QR code](http://api.qrserver.com/v1/create-qr-code/?color=000000&bgcolor=FFFFFF&data=https%3A%2F%2Fzoogie.github.io%2Fweb%2Fnbhax&qzone=1&margin=0&size=400x400&ecc=L)
-  + If you get an error, [follow this troubleshooting guide](troubleshooting#installing-boot9strap-ssloth-browser)
+1. A HOME menüben nyomd meg a bal és jobb váll gombokat egyszerre, hogy megnyisd a kamerát
+    + Ha nem tudod megnyitni a kamerát, nyisd meg az Internet Browser-t kézzel, és írd be az URL-t e helyett. (`https://zoogie.github.io/web/nbhax/`)
+1. Érintsd meg a QR Code gombot és olvasd le [ezt a QR kódot](http://api.qrserver.com/v1/create-qr-code/?color=000000&bgcolor=FFFFFF&data=https%3A%2F%2Fzoogie.github.io%2Fweb%2Fnbhax&qzone=1&margin=0&size=400x400&ecc=L)
+  + Ha hibát kapsz, [nézd át ezt a hibaelhárítási útmutatót](troubleshooting#installing-boot9strap-ssloth-browser)
 1. Ha az exploit sikerrel járt, készüléked bebootolja a SafeB9SInstallert
 
 #### IV. rész - boot9strap telepítése
@@ -83,17 +83,17 @@ Ezen a ponton a konzolod alapértelmezetten bebootol a Luma3DS-be.
   + A Luma3DS nem néz ki másként, mint a normál HOME Menü. Ha a konzolod bebootolt a HOME Menübe, akkor egyedi firmware-t futtat.
   + A következő oldalon hasznos homebrew alkalmaásokat telepítünk, hogy teljessé tegyük a telepítésedet.
 
-#### Section V - Restoring default proxy
+#### V. rész - A Proxy beállítás alaphelyzetbe állítása
 
-In this section, you will restore the Internet settings back to normal.
+Ebben a fejezetben vissza fogod állítani az internet beállításokat a normálisra.
 
-1. Launch the System Settings application
-1. Navigate to `Internet Settings` -> `Connection Settings`
-1. Click on your network connection slot and navigate to `Change Settings` -> `Next Page (right arrow)` -> `Proxy Settings`
-1. Set "Proxy Settings" to "No"
-1. Click OK, then click Save
-1. When prompted, click "Test" to perform the connection test
-	+ The test should succeed
+1. Indítsd el a System Settings alkalmazást
+1. Navigálj az `Internet Settings` -> `Connection Settings` opciókhoz
+1. Kattints a saját hálózati kapcsolatodra és navigálj a `Change Settings` -> `Next Page (jobb nyíl)` -> `Proxy Settings` opcióhoz
+1. Állítsd a "Proxy Settings"-t "No"-ra
+1. Kattints az OK-ra, majd kattints a Save-re
+1. Amikor kérdezi, kattints a "Test"-re a kapcsolat ellenőrzéséhez
+	+ A tesztnek sikeresnek kell lennie
 1. Kapcsold ki a készüléked
 
 ___
