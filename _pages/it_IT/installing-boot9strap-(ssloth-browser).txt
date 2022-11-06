@@ -53,9 +53,9 @@ In this section, you will change your Internet connection settings to use a prox
 1. Set "Proxy Settings" to "Yes", then click `Detailed Setup`
 1. Set the Proxy Server to `192.9.234.11`, and the Port to `8080`
 1. Click OK, then click Save
-1. When prompted, click "Test" to perform the connection test
-  + The test should succeed
-1. Click "OK" to continue
+1. Quando richiesto, clicca su "Test" per eseguire il test di connessione
+  + Il test dovrebbe andare a buon fine
+1. Clicca "OK" per continuare
 1. Press "Back" twice, then "Close" to go back to the HOME Menu
 
 #### Section III - Launching SafeB9SInstaller
@@ -65,7 +65,7 @@ In this section, you will visit the browser exploit webpage, which will use univ
 1. On the HOME Menu, press the Left and Right shoulder buttons together to open the camera
     + If you are unable to open the camera, open the Internet Browser and manually type the URL instead (`https://zoogie.github.io/web/nbhax/`)
 1. Tap the QR code button and scan [this QR code](http://api.qrserver.com/v1/create-qr-code/?color=000000&bgcolor=FFFFFF&data=https%3A%2F%2Fzoogie.github.io%2Fweb%2Fnbhax&qzone=1&margin=0&size=400x400&ecc=L)
-  + If you get an error, [follow this troubleshooting guide](troubleshooting#installing-boot9strap-ssloth-browser)
+  + Se ottieni un errore, [segui questa guida per risolvere il problema](troubleshooting#installing-boot9strap-ssloth-browser)
 1. Se l'exploit è andato a buon fine, si avvierà SafeB9SInstaller
 
 #### Sezione IV - Installazione di boot9strap
@@ -92,8 +92,8 @@ In this section, you will restore the Internet settings back to normal.
 1. Click on your network connection slot and navigate to `Change Settings` -> `Next Page (right arrow)` -> `Proxy Settings`
 1. Set "Proxy Settings" to "No"
 1. Click OK, then click Save
-1. When prompted, click "Test" to perform the connection test
-	+ The test should succeed
+1. Quando richiesto, clicca su "Test" per eseguire il test di connessione
+	+ Il test dovrebbe andare a buon fine
 1. Spegni il tuo 3DS
 
 ___
