@@ -70,7 +70,7 @@ A weboldal úgy találta, hogy a `movable.sed`-ed nem brute-force-olható. Ellen
 
 A `00000001.sav` és/vagy `otherapp.bin` fájljaid rossz helyre lehettek rakva. Biztosítsd, hogy a `00000001.sav` a `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `title` -> `00040000` -> `0017c100` -> `data` mappában legyen és az `otherapp.bin` pedig az SD kártyád gyökerében.
 
-Ha a fájljaid jó helyen vannak, hozd létre újra a mentéseket a [PicHaxx Save Tool](https://3ds.nhnarwhal.com/3dstools/pichaxx.php) használatával, majd rakd őket a `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `title` -> `00040000` -> `0017c100` -> `data` mappába. Ügyelj arra, hogy a fájl pontosan `00000001.sav` nevű legyen és hogy a konzolod `movable.sed`-jét használd a létrehozáshoz. Töltsd le újra a legutolsó kiadását az [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest)-nak és rakd az SD kártyád gyökerébe. Ne add hozzá a `.bin` kiterjesztést, ha nem látod.
+Ha a fájljaid jó helyen vannak, hozd létre újra a mentéseket a [PicHaxx Save Tool](https://3dstools.nhnarwhal.com/#/pichaxx) használatával, majd rakd őket a `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `title` -> `00040000` -> `0017c100` -> `data` mappába. Ügyelj arra, hogy a fájl pontosan `00000001.sav` nevű legyen és hogy a konzolod `movable.sed`-jét használd a létrehozáshoz. Töltsd le újra a legutolsó kiadását az [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest)-nak és rakd az SD kártyád gyökerébe. Ne add hozzá a `.bin` kiterjesztést, ha nem látod.
 
 ### "An exception occurred" vagy Errdisp a Picross megnyitásakor
 
@@ -82,7 +82,7 @@ Probléma van az `otherapp.bin` fájloddal. Töltsd le a legutolsó kiadását a
 
 ### A játék normálisan indul
 
-A `00000001.sav` fájlod rossz helyen van, vagy nem a jó `movable.sed` fájlt használtad a létrehozásához. Generáld újra a `movable.sed` állományod a [Bruteforce Movable](https://seedminer.hacks.guide)-vel, tmajd hozd létre újra a mentést [PicHaxx Save Tool](https://3ds.nhnarwhal.com/3dstools/pichaxx.php) eszközzel és rakd az eredmény fájlt (`00000001.sav`) a `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `title` -> `00040000` -> `0017c100` -> `data` mappába.
+A `00000001.sav` fájlod rossz helyen van, vagy nem a jó `movable.sed` fájlt használtad a létrehozásához. Generáld újra a `movable.sed` állományod a [Bruteforce Movable](https://seedminer.hacks.guide)-vel, tmajd hozd létre újra a mentést [PicHaxx Save Tool](https://3dstools.nhnarwhal.com/#/pichaxx) eszközzel és rakd az eredmény fájlt (`00000001.sav`) a `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `title` -> `00040000` -> `0017c100` -> `data` mappába.
 
 ---
 
@@ -120,6 +120,14 @@ Ha ez sikertelen, próbálkozz egy másik SD kártyával.
 
 Ez valószínűleg azt jelzi, hogy már van egyedi firmware-ed. Érdemes elvégezned a [CFW ellenőrzését](checking-for-cfw).
 
+### "An error has occurred. Hold down the POWER button to turn off the power..." (fekete képernyő szöveggel)
+
+The file `arm11code.bin` is missing or misplaced. Download the latest release of [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest), place `otherapp.bin` on the root of your SD card and rename it to `arm11code.bin`. Ne add hozzá a `.bin` kiterjesztést, ha nem látod.
+
+### "An error has occurred, forcing the software to close..." (fehér üzenet doboz)
+
+There is an issue with your `arm11code.bin` file. Download the latest release of [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest), place `otherapp.bin` on the root of your SD card and rename it to `arm11code.bin`. Ne add hozzá a `.bin` kiterjesztést, ha nem látod.
+
 ### A browserhax QR kód vagy URL megnyitásásakor összeomlik
 
 A böngésző alapú exploitok (mint például ez) gyakran instabilak és sokszor lefagynak, de néha megjavíthatók az alábbi lépések végrehajtásával.
@@ -131,6 +139,24 @@ A böngésző alapú exploitok (mint például ez) gyakran instabilak és sokszo
 ### A böngésző megnyitásakor rendszer frissítést szeretne helyette
 
 Az SSLoth proxy nem lett megfelelően konfigurálva. Csináld újra az SSLoth fejezetet erről az oldalról.
+
+### Error 032-0420 a böngésző megnyitásával próbálkozáskor
+
+Kövesd az alábbi lépéseket:
+
+1. Indítsd el a System Settings alkalmazást
+1. Navigálj az `Internet Settings` -> `Connection Settings` opciókhoz
+1. Kattints a saját hálózati kapcsolatodra és navigálj a `Change Settings` -> `Next Page (jobb nyíl)` -> `Proxy Settings` opcióhoz
+1. Állítsd a "Proxy Settings"-t "No"-ra
+1. Kattints az OK-ra, majd kattints a Save-re
+1. Amikor kérdezi, kattints a "Test"-re a kapcsolat ellenőrzéséhez
+  + A tesztnek sikeresnek kell lennie
+1. Kattintson az OK gombra a folytatáshoz
+1. Nyomj a "Back"-re kétszer, majd a "Close"-ra, hogy visszajuszz a HOME Menübe
+1. Nyisd meg az Internet Browser-t egyszer
+1. Ha kérdezi a rendszer frissítést, nyomj OK-t
+  + Ez nem fogja frissíteni a rendszert
+1. Kezd előlről a [II. résszel](installing-boot9strap-(ssloth-browser).html#section-ii---ssloth)
 
 ### Failed to open SafeB9SInstaller.bin
 

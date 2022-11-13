@@ -70,7 +70,7 @@ El sitio web ha determinado que tu `movable.sed` no puede ser minado. Asegúrate
 
 Los archivos `00000001.sav` y/o `otherapp.bin` pueden estar fuera de lugar. Asegúrate de que el archivo `00000001.sav` está en `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `title` -> `00040000` -> `0017c100` -> `data`, y que el archivo `otherapp.bin` está en la raíz de la tarjeta SD.
 
-Si los archivos están en las ubicaciones correctas, vuelve a crear el archivo de guardado con [PicHaxx Save Tool](https://3ds.nhnarwhal.com/3dstools/pichaxx.php), luego colócalo en `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `title` -> `00040000` -> `0017c100` -> `data`. Asegúrate de que el archivo se llama exactamente `00000001.sav` y que utilizaste el `movable.sed` correspondiente a tu consola para crearlo. Vuelve a descargar la última versión de [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest) y coloca el archivo en la raíz de la tarjeta SD. No añadas manualmente la extensión `.bin` al archivo si ves que no la tiene.
+If your files are in the correct locations, re-create the save using the [PicHaxx Save Tool](https://3dstools.nhnarwhal.com/#/pichaxx), then place it in `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `title` -> `00040000` -> `0017c100` -> `data`. Asegúrate de que el archivo se llama exactamente `00000001.sav` y que utilizaste el `movable.sed` correspondiente a tu consola para crearlo. Vuelve a descargar la última versión de [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest) y coloca el archivo en la raíz de la tarjeta SD. No añadas manualmente la extensión `.bin` al archivo si ves que no la tiene.
 
 ### "An exception occurred" o Errdisp al abrir Picross
 
@@ -82,7 +82,7 @@ Hay un problema con el archivo `otherapp.bin`. Download the latest release of [u
 
 ### El juego comienza normalmente
 
-El archivo `00000001.sav` modificado puede estar fuera de lugar, o puedes haber usado el `movable.sed` incorrecto al crearlo. Re-generate your `movable.sed` from [Bruteforce Movable](https://seedminer.hacks.guide), then re-create the save using the [PicHaxx Save Tool](https://3ds.nhnarwhal.com/3dstools/pichaxx.php) and place the resulting file (`00000001.sav`) in `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `title` -> `00040000` -> `0017c100` -> `data`.
+El archivo `00000001.sav` modificado puede estar fuera de lugar, o puedes haber usado el `movable.sed` incorrecto al crearlo. Re-generate your `movable.sed` from [Bruteforce Movable](https://seedminer.hacks.guide), then re-create the save using the [PicHaxx Save Tool](https://3dstools.nhnarwhal.com/#/pichaxx) and place the resulting file (`00000001.sav`) in `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `title` -> `00040000` -> `0017c100` -> `data`.
 
 ---
 
@@ -120,6 +120,14 @@ If this is unsuccessful, try using another SD card.
 
 This likely indicates that you already have custom firmware. Deberías ir a [Comprobación de CFW](checking-for-cfw) antes de continuar.
 
+### "An error has occurred. Mantén pulsado el botón POWER para apagar la consola..." (pantalla negra con texto)
+
+The file `arm11code.bin` is missing or misplaced. Download the latest release of [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest), place `otherapp.bin` on the root of your SD card and rename it to `arm11code.bin`. No añadas manualmente la extensión `.bin` al archivo si ves que no la tiene.
+
+### "Ha ocurrido un problema, el programa se cerrará ahora..." (cuadro de mensaje blanco)
+
+There is an issue with your `arm11code.bin` file. Download the latest release of [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest), place `otherapp.bin` on the root of your SD card and rename it to `arm11code.bin`. No añadas manualmente la extensión `.bin` al archivo si ves que no la tiene.
+
 ### Opening the browserhax QR code or URL crashes
 
 Browser based exploits (such as this one) are often unstable and crash frequently, but they can sometimes be fixed by doing the following steps.
@@ -131,6 +139,24 @@ Browser based exploits (such as this one) are often unstable and crash frequentl
 ### Opening the browser prompts for a system update instead
 
 The SSLoth proxy was incorrectly configured. Re-do the SSLoth section on the page.
+
+### Error 032-0420 when trying to open the browser
+
+Follow these steps in order:
+
+1. Launch the System Settings application
+1. Navigate to `Internet Settings` -> `Connection Settings`
+1. Click on your network connection slot and navigate to `Change Settings` -> `Next Page (right arrow)` -> `Proxy Settings`
+1. Set "Proxy Settings" to "No"
+1. Click OK, then click Save
+1. When prompted, click "Test" to perform the connection test
+  + The test should succeed
+1. Click "OK" to continue
+1. Press "Back" twice, then "Close" to go back to the HOME Menu
+1. Open the Internet Browser once
+1. If prompted about a system update, press OK
+  + This won't actually update the system
+1. Start again from [Section II](installing-boot9strap-(ssloth-browser).html#section-ii---ssloth)
 
 ### Error al abrir SafeB9SInstaller.bin
 
