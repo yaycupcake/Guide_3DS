@@ -51,6 +51,8 @@ Se durante questa sezione ti verrà chiesto di sovrascrivere dei file sulla tua 
 1. Reinserisci la scheda SD nella tua console
 1. Accendi la console
 1. Se la tua console si è avviata nel menu di configurazione di Luma3DS, premi (Start) per salvare e riavviare
+  + Il menu di configurazione di Luma3DS contiene le impostazioni per il custom firmware Luma3DS. Molte di queste impostazioni possono essere utili per la personalizzazione o per debug
+  + Ai fini di questa guida, queste impostazioni rimarranno sui valori predefiniti
 
 ___
 

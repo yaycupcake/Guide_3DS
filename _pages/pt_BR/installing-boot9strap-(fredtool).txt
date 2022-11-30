@@ -108,22 +108,20 @@ Nesta seção, você executará uma série de passos muito específicos dentro d
 1. Toque na quarta caixa com a letra "A" nela
 1. Se o exploit for bem sucedido, seu dispositivo irá abrir o b9sTool
 1. Usando os botões direcionais, mova para "Install boot9strap"
-  + If you miss this step, the system will exit to HOME Menu instead of installing boot9strap and you will need to open System Settings, then start over from Step 6 of Section IV
+  + Se você perder esta etapa, o sistema vai sair para o Menu HOME ao invés de instalar o boot9strap e você precisará abrir as Configurações do Sistema, entao começar novamente a partir do Passo 6 da seção IV
 1. Pressione (A), depois pressione START e SELECT ao mesmo tempo para iniciar o processo
 1. Quando for concluído e a tela inferior dizer "done", saia do b9sTool, então desligue o seu dispositivo
   + Você pode ter que forçar o desligamento segurando o botão power
   + Se seu dispositivo desligar quando você tentar ligá-lo, certifique-se de que você copiou `boot.firm` do `.zip` do Luma3DS para a raiz do seu cartão SD
-  + Caso veja a tela de configuração do Luma, aperte (Start) para reiniciar, depois continue com o guia
+  + Se você ver a tela de configuração do Luma, desligue seu dispositivo e continue para a próxima seção
 
-#### Seção VI - Verificação do Luma3DS
+#### Seção VI - Configuração do Luma3DS
 
-Devido à natureza do exploit usado, é possível ocasionalmente (mas raramente) que o boot9strap não seja instalado. Esta seção irá verificar se o boot9strap foi instalado com sucesso ao ver se alguns arquivos que são normalmente automaticamente gerados pelo Luma3DS foram criados.
-
-1. Desligue seu dispositivo
-1. Insira o cartão SD no seu computador
-1. Verifique se a pasta `luma` existe e se `config.ini` está dentro dela
-  + A existência destas pastas e arquivos confirma que o Luma3DS está instalado
-  + Se você não ver a pasta `luma` ou `config.ini`, [siga este guia de troubleshooting](https://github.com/zoogie/b9sTool/blob/master/TROUBLESHOOTING.md)
+1. Pressione e segure (Select), enquanto segura (Select), ligue seu dispositivo. Isso iniciará a configuração do Luma3DS
+  + O menu de configuração do Luma3DS são configurações para o custom firmware do Luma3DS. Muitas dessas configurações podem ser úteis para personalização ou depuração
+  + Para a finalidade deste guia, estas configurações serão deixadas nas configurações padrão
+  + Se você inicializar no Menu HOME, [siga este guia de troubleshooting](https://github.com/zoogie/b9sTool/blob/master/TROUBLESHOOTING.md)
+1. Aperte (Start) para salvar e reiniciar
 
 Neste momento, o seu console iniciará no Luma3DS por padrão.
   + O Luma3DS não é diferente do Menu HOME normal. Se seu console foi inicializado no HOME Menu, ele está executando custom firmware.
