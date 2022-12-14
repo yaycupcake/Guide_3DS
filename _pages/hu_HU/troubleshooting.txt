@@ -50,7 +50,7 @@ Ez akkor fordul elő, ha az SD kártyáda több 3DS eszközben használod, és a
 1. Töröld a `Nintendo 3DS` mappát
 1. + Nevezd át a `BACKUP_Nintendo 3DS` mappát `Nintendo 3DS` névre
 
-### Bruteforce Movable átugorja a 4. lépést
+### Bruteforce Movable a 4. lépésre ugrik
 
 A weboldal már kibányászta a `movable.sed` fájlod friend code-od és az ID0 kombinációjának használatával. Használhatod a `movable.sed`-et amit biztosított számodra.
 
@@ -126,7 +126,7 @@ A `arm11code.bin` fájl hiányzik, vagy rossz helyen van. Töltsd le a legutols�
 
 ### "An error has occurred, forcing the software to close..." (fehér üzenet doboz)
 
-There is an issue with your `arm11code.bin` file. Töltsd le a legutolsó kiadását az [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest)-nak és rakd az `otherapp.bin` fájlt az SD kártyád gyökerébe, majd nevezd át `arm11code.bin`-re. Ne add hozzá a `.bin` kiterjesztést, ha nem látod.
+Probléma van az arm11code.bin` fájloddal. Töltsd le a legutolsó kiadását az [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest)-nak és rakd az `otherapp.bin` fájlt az SD kártyád gyökerébe, majd nevezd át `arm11code.bin`-re. Ne add hozzá a `.bin` kiterjesztést, ha nem látod.
 
 ### A browserhax QR kód vagy URL megnyitásásakor összeomlik
 
@@ -319,7 +319,7 @@ Az eszközödnek volt egyedi firmware-je a múltban, így nem lett automatikusan
 Az itt leírt lépések általában feltételezik, hogy az eszközöd modern egyedi firmware telepítéssel rendelkezik (boot9strap + Luma3DS 8.0 vagy nagyobb). Ha a konzolod régebbi homebrew telepítés (például valami ami arm9loaderhax vagy menuhax alapú), frissítened kell a telepítésed, mielőtt kipróbálod ezeket a lépéseket.
 {: .notice--info}
 
-### Az eszközöm kikapcsol, ha megpróbálom bekapcoslni és/vagy az értestő led egy színt mutat bootoláskor
+### Az eszközöm kikapcsol, ha megpróbálom bekapcoslni és/vagy az értesítő led egy színt mutat bootoláskor
 
 Probléma van az `boot.firm` fájloddal. Ha [boot9strap 1.4](https://github.com/SciresM/boot9strap/releases/tag/1.4)-et futtatsz, akkor a 3DS-ed értestő LED-je egy adott sznt villogtat. Ez a szín a `boot.firm` problémák diagnosztizálását segíti az SD kártyán vagy a belső memóriában. Régebbi boot9strap verziókon a kék fény azonnal kikapcsol, ha megpróbálod bekapcsolni az eszközt.
 

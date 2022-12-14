@@ -75,7 +75,7 @@ El propósito de esta sección es comprobar si las aplicaciones integradas del m
   + Si tu consola muestra la versión japonesa de Flipnote Studio, una pantalla en negro, o un mensaje de error; significa que esta prueba ha fallado
 1. Apaga tu consola
 
-Si cualquiera de estas pruebas falla, ¡el modo DS, el Modo Descarga DS y/o la Configuración de conexión de DS podrían ser inaccesibles una vez que el CFW sea desinstalado! Deberías [reparar el modo DS](troubleshooting#dsi--ds-functionality-is-broken-or-has-been-replaced-with-flipnote-studio) antes de continuar.
+Si cualquiera de estas pruebas falla, ¡el modo DS, el Modo Descarga DS y/o la Configuración de conexión de DS podrían ser inaccesibles una vez que el CFW sea desinstalado! You should [fix DS mode](troubleshooting#dsi--ds-functionality-is-broken-or-has-been-replaced-with-flipnote-studio) before continuing.
 {: .notice--warning}
 
 #### Sección III - Prueba de Seguridad
