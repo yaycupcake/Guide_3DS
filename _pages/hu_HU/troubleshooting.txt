@@ -69,7 +69,7 @@ Csatlakozz a [Nintendo Homebrew Discord-on](https://discord.gg/MWxPgEp) csatorn�
 ![]({{ "/images/screenshots/multiple-id0.png" | absolute_url }})
 {: .notice--info}
 
-Ez akkor fordul elő, ha az SD kártyáda több 3DS eszközben használod, és a célja, hogy megakadályozza a nem szándékos adat egyesítést olyan adattal, ami nem lenne érvényes másik eszközön. Ahhoz, hogy megtaláld melyik hosszú mappa név a helyes a 3DS-edhez, kövesd a következő lépéseket:
+Ez akkor fordul elő, ha az SD kártyádat több 3DS eszközben használod, és a célja, hogy megakadályozza a nem szándékos adat egyesítést olyan adattal, ami nem lenne érvényes másik eszközön. Ahhoz, hogy megtaláld melyik hosszú mappa név a helyes a 3DS-edhez, kövesd a következő lépéseket:
 
 1. Nevezd át a `Nintendo 3DS` mappát `BACKUP_Nintendo 3DS` névre
 1. Tedd vissza az SD kártyát a készülékedbe, és kapcsold be
@@ -85,7 +85,7 @@ Ez akkor fordul elő, ha az SD kártyáda több 3DS eszközben használod, és a
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
-<summary><u>Bruteforce Movable skips to step 4</u></summary>
+<summary><u>Bruteforce Movable a 4. lépésre ugrik</u></summary>
 
 A weboldal már kibányászta a `movable.sed` fájlod friend code-od és az ID0 kombinációjának használatával. Használhatod a `movable.sed`-et amit biztosított számodra.
 {% endcapture %}
@@ -108,7 +108,7 @@ A weboldal úgy találta, hogy a `movable.sed`-ed nem brute-force-olható. Ellen
 ## BannerBomb3
 
 {% capture compat %}
-<summary><u>DSiWare Management menu crashes without showing BB3 multihax menu</u></summary>
+<summary><u>A DSiWare Management menü összeomlik a BB3 multihax menü megjelenése nélkül</u></summary>
 Biztosítsd, hogy az `F00D43D5.bin` az egyetlen fájl a `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `Nintendo DSiWare` mappában. Ha így van, hozd létre újra a [BannerBomb3 Injector](http://3dstools.nhnarwhal.com/#/bb3gen) segítségével. 
 
 Továbbá légy biztos abban, hogy a `bb3.bin` fájl megtalálható az SD kártyád gyökerében. Ha hiányzik, töltsd le a legutolsó kiadását az [Bannerbomb3](https://github.com/lifehackerhansol/Bannerbomb3/releases/download/v3.0-lhs1/bb3.bin)-nak (közvetlen letöltés), és másold a `bb3.bin` fájlt az SD kártyád gyökerébe.
@@ -118,14 +118,14 @@ Ha ezen megoldások egyike sem javítja ezt a probélmát, akkor az egyedi firmw
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
-<summary><u>DSiWare Management menu does not crash</u></summary>
+<summary><u>A DSiWare Management menü nem omlik össze</u></summary>
 
 Az `F00D43D5.bin` hiányzik a `Nintendo 3DS` -> `<ID0>` - > `<ID1>` -> `Nintendo DSiWare` mappából. Ellenőrizd, hogy a `Nintendo DSiWare` helyesen írt és szóközölt. Nagybetű/kisbetű nem számít.
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
-<summary><u>DSiWare Management shows a question mark</u></summary>
+<summary><u>A DSiWare Management egy kérdőjelet mutat</u></summary>
 
 Probléma van az `F00D43D5.bin` fájloddal (hibás vagy másik 3DS-hez tartozik). Hozd létre újra az `F00D43D5.bin` fájlod a [BannerBomb3 Injector](http://3dstools.nhnarwhal.com/#/bb3gen) segítségével, biztosítva azt, hogy a konzolod `movable.sed` fájlját használod hozzá.
 {% endcapture %}
@@ -134,14 +134,14 @@ Probléma van az `F00D43D5.bin` fájloddal (hibás vagy másik 3DS-hez tartozik)
 ## Boot9strap telepítése (USM)
 
 {% capture compat %}
-<summary><u>Safe Mode system update succeeds instead of giving error 003-1099</u></summary>
+<summary><u>A Safe Mode rendszer frissítés sikerül a 003-1099 hiba helyett</u></summary>
 
-unSAFE_MODE nincs telepítve. [Follow the instructions](installing-boot9strap-(usm)] to install it.
+unSAFE_MODE nincs telepítve. [Kövesd a lépéseket](installing-boot9strap-(usm)] a teleptéséhez.
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
-<summary><u>Red screen after selecting "Detailed Setup"</u></summary>
+<summary><u>Piros képernyő a "Detailed Setup" kiválasztását követően</u></summary>
 
 A `usm.bin` fájl hiányzik, vagy rossz helyen van. Töltsd le a legutolsó kiadását az [unSAFE_MODE](https://github.com/zoogie/unSAFE_MODE/releases/download/v1.3/usm.bin)-nek és rakd `usm.bin` fájlt az SD kártyád gyökerébe. Ne add hozzá a `.bin` kiterjesztést, ha nem látod.
 
@@ -168,63 +168,63 @@ Ha ez sikertelen, próbálkozz egy másik SD kártyával.
 ## Boot9strap telepítése (Fredtool)
 
 {% capture compat %}
-<summary><u>Error on Fredtool Injector page</u></summary>
+<summary><u>Hiba a Fredtool Injector oldalon</u></summary>
 
 Biztosítsd, hogy a `movable.sed` és a DSiWare mentés ugyanarról a konzolról származik. Egy eltérés hibához vezet.
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
-<summary><u>Unable to select "Haxxxxxxxxx!" because the BB3 multihax menu appears</u></summary>
+<summary><u>Nem lehetséges a "Haxxxxxxxxx!" kiválasztása, mert a BB3 multihax menü jelenik meg</u></summary>
 
 Elfelejtetted törölni az `F00D43D5.bin` az SD kártyáról. Navigálj a `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `Nintendo DSiWare` mappába az SD kártyán és töröld az `F00D43D5.bin` fájlt.
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
-<summary><u>"Haxxxxxxxxx!" does not appear</u></summary>
+<summary><u>A "Haxxxxxxxxx!" nem jelenik meg</u></summary>
 
 Probléma van a `42383821.bin` fájloddal (nem jó, hiányzik, rossz helyen van vagy sérült). Hozd létre újra a fájljaid a [DSIHaxInjector_new](https://jenkins.nelthorya.net/job/DSIHaxInjector_new/build?delay=0sec) weboldallal és rakd a `42383821.bin` fájlt `output.zip` -> `hax`-ból a `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `Nintendo DSiWare` könyvtárba.
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
-<summary><u>DS Connection Settings launches normally</u></summary>
+<summary><u>DS Connection Settings normálisan indul</u></summary>
 
 A `Haxxxxxxxxx!` nem lett átmásolva az SD kártyádról a rendszer memóriába.
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
-<summary><u>Black screen when launching DS Connection Settings</u></summary>
+<summary><u>Fekete képernyő a DS Connection Settings indításakor</u></summary>
 
 A DS Connection Settings alkalmazásod sérült, és szükséged van Homebrew Launcher hozzáférésre, hogy javítsd ezt a problémát. Csatlakozz a [Nintendo Homebrew-hoz a Discord-on](https://discord.gg/MWxPgEp) segítségért.
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
-<summary><u>SD card is grayed out in Flipnote</u></summary>
+<summary><u>Az SD kártya kiszürkített a Flipnote-ban</u></summary>
 
 A Flipnote-nak hosszú időre lehet szüksége a kártya indexeléséhez, ha nagy méretű SD kártyád van. Várj még néhány percet.
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
-<summary><u>Lenny face does not appear in SD card section</u></summary>
+<summary><u>Lenny arc nem jelenik meg az SD kártya szekcióban</u></summary>
 
 Nem másoltad át a `private` mappát a Frogminer_save `.zip`-ből az SD kártyád gyökerébe.
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
-<summary><u>Flipnote freezes</u></summary>
+<summary><u>A Flipnote lefagy</u></summary>
 
 Véletlenül hozzáértél az érintőképernyőhöz, miközben bent voltál a módosított Flipnote-ban. Add meg újra DS Connection Settings értékeit és próbáld újra, biztosítva azt hogy véletlenül sem használod az érintőképernyőt.
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
-<summary><u>Green screen after pasting</u></summary>
+<summary><u>Zöld képernyő beillesztés után</u></summary>
 
 A `boot.nds` fájl hiányzik, vagy rossz helyen van. Töltsd le a legutolsó kiadását az [b9stool](https://github.com/zoogie/b9sTool/releases/latest)-nak és rakd a `boot.nds` fájlt az SD kártyád gyökerébe, felülírva a létező fájlt.
 {% endcapture %}
@@ -232,13 +232,13 @@ A `boot.nds` fájl hiányzik, vagy rossz helyen van. Töltsd le a legutolsó kia
 
 
 {% capture compat %}
-<summary><u>White screen after pasting</u></summary>
+<summary><u>Fehér képernyő beillesztés után</u></summary>
 Probléma van az `boot.nds` fájloddal. Töltsd le újra a legutolsó kiadását az [b9stool](https://github.com/zoogie/b9sTool/releases/latest)-nak és rakd a `boot.nds` fájlt az SD kártyád gyökerébe, felülírva a létező fájlt.
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
-<summary><u>Unable to open Luma3DS configuration menu after running B9STool</u></summary>
+<summary><u>Nem lehetséges a Luma3DS konfigurációs menü megnyitása B9STool futtatása után</u></summary>
 
 Elképzelhető, hogy a boot9strap telepítése sikertelen volt. Kövesd a B fejezetét [ennek az oldalnak](https://github.com/zoogie/b9sTool/blob/master/TROUBLESHOOTING.md).
 {% endcapture %}
@@ -247,7 +247,7 @@ Elképzelhető, hogy a boot9strap telepítése sikertelen volt. Kövesd a B feje
 ## Homebrew Launcher (PicHaxx)
 
 {% capture compat %}
-<summary><u>"An error has occurred. Hold down the POWER button to turn off the power..." (black screen with text)</u></summary>
+<summary><u>"An error has occurred. Hold down the POWER button to turn off the power..." (fekete képernyő szöveggel)</u></summary>
 
 A `00000001.sav` és/vagy `otherapp.bin` fájljaid rossz helyre lehettek rakva. Biztosítsd, hogy a `00000001.sav` a `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `title` -> `00040000` -> `0017c100` -> `data` mappában legyen és az `otherapp.bin` pedig az SD kártyád gyökerében.
 
@@ -256,21 +256,21 @@ Ha a fájljaid jó helyen vannak, hozd létre újra a mentéseket a [PicHaxx Sav
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
-<summary><u>"An exception occurred" or Errdisp when opening Picross</u></summary>
+<summary><u>"An exception occurred" vagy Errdisp a Picross megnyitásakor</u></summary>
 
 Az eszközöd már rendelkezik egyedi firmware-rel. Érdemes elvégezned a [CFW ellenőrzését](checking-for-cfw).
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
-<summary><u>"An error has occurred, forcing the software to close..." (white message box)</u></summary>
+<summary><u>"An error has occurred, forcing the software to close..." (fehér üzenet doboz)</u></summary>
 
 Probléma van az `otherapp.bin` fájloddal. Töltsd le a legutolsó kiadását az [unSAFE_MODE](https://github.com/zoogie/unSAFE_MODE/releases/latest)-nak és rakd a konzolodra releváns `.bin` fájlt az `otherapps_with_CfgS` mappából az SD kártyád gyökerébe, majd nevezd át `otherapp.bin`-re. Ne add hozzá a `.bin` kiterjesztést, ha nem látod.
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
-<summary><u>Game starts normally</u></summary>
+<summary><u>A játék normálisan indul</u></summary>
 
 A `00000001.sav` fájlod rossz helyen van, vagy nem a jó `movable.sed` fájlt használtad a létrehozásához. Generáld újra a `movable.sed` állományod a [Bruteforce Movable](https://seedminer.hacks.guide)-vel, tmajd hozd létre újra a mentést [PicHaxx Save Tool](https://3dstools.nhnarwhal.com/#/pichaxx) eszközzel és rakd az eredmény fájlt (`00000001.sav`) a `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `title` -> `00040000` -> `0017c100` -> `data` mappába.
 {% endcapture %}
@@ -279,7 +279,7 @@ A `00000001.sav` fájlod rossz helyen van, vagy nem a jó `movable.sed` fájlt h
 ## Boot9strap telepítése (Soundhax)
 
 {% capture compat %}
-<summary><u>Red/purple/pink and white screen after running Soundhax</u></summary>
+<summary><u>Piros/lila/rózsaszín és fehér képernyő a Soundhax futtatása után</u></summary>
 
 Ha a rendszer verziód 9.4.0, 9.5.0, vagy 9.6.0, hibát tapasztalhatsz az universal-otherapp egy régebbi verziójával. Töltsd le a legfrissebb verziót [innen](https://github.com/TuxSH/universal-otherapp/releases/latest).
 
@@ -288,7 +288,7 @@ Ha nem ezeken a firmware verziókon van az eszközöd, akkor valószínűleg azt
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
-<summary><u>"An error has occurred, forcing the software to close..." (white message box)</u></summary>
+<summary><u>"An error has occurred, forcing the software to close..." (fehér üzenet doboz)</u></summary>
 
 Probléma van a `otherapp.bin` fájloddal (nem jó, hiányzik, rossz helyen van vagy sérült). Töltsd le a legutolsó kiadását az [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest)-nak és rakd az SD kártyád gyökerébe.
 {% endcapture %}
@@ -319,14 +319,14 @@ Ha ez sikertelen, próbálkozz egy másik SD kártyával.
 ## Boot9strap telepítése (SSLoth-Browser)
 
 {% capture compat %}
-<summary><u>Red/purple/pink and white screen after running Browserhax</u></summary>
+<summary><u>Piros/lila/rózsaszín és fehér képernyő a browserhax futtatása után</u></summary>
 
 Ez valószínűleg azt jelzi, hogy már van egyedi firmware-ed. Érdemes elvégezned a [CFW ellenőrzését](checking-for-cfw).
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
-<summary><u>"An error has occurred. Hold down the POWER button to turn off the power..." (black screen with text)</u></summary>
+<summary><u>"An error has occurred. Hold down the POWER button to turn off the power..." (fekete képernyő szöveggel)</u></summary>
 
 A `arm11code.bin` fájl hiányzik, vagy rossz helyen van. Töltsd le a legutolsó kiadását az [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest)-nak és rakd az `otherapp.bin` fájlt az SD kártyád gyökerébe, majd nevezd át `arm11code.bin`-re. Ne add hozzá a `.bin` kiterjesztést, ha nem látod.
 {% endcapture %}
@@ -334,14 +334,14 @@ A `arm11code.bin` fájl hiányzik, vagy rossz helyen van. Töltsd le a legutols�
 
 
 {% capture compat %}
-<summary><u>"An error has occurred, forcing the software to close..." (white message box)</u></summary>
+<summary><u>"An error has occurred, forcing the software to close..." (fehér üzenet doboz)</u></summary>
 
 Probléma van az arm11code.bin` fájloddal. Töltsd le a legutolsó kiadását az [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest)-nak és rakd az `otherapp.bin` fájlt az SD kártyád gyökerébe, majd nevezd át `arm11code.bin`-re. Ne add hozzá a `.bin` kiterjesztést, ha nem látod.
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
-<summary><u>Opening the browserhax QR code or URL crashes</u></summary>
+<summary><u>A browserhax QR kód vagy URL megnyitásásakor összeomlik</u></summary>
 
 A böngésző alapú exploitok (mint például ez) gyakran instabilak és sokszor lefagynak, de néha megjavíthatók az alábbi lépések végrehajtásával.
 
@@ -352,14 +352,14 @@ A böngésző alapú exploitok (mint például ez) gyakran instabilak és sokszo
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
-<summary><u>System Update prompt when opening browser</u></summary>
+<summary><u>Rendszerfrissítés (System Update) ugrik fel, amikor megnyitom a böngészőt</u></summary>
 
 Az SSLoth proxy nem lett megfelelően konfigurálva. Csináld újra az SSLoth fejezetet erről az oldalról.
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
-<summary><u>Error 032-0420 when opening browser</u></summary>
+<summary><u>Error 032-0420 hiba a böngésző megnyitásakor</u></summary>
 
 Kövesd az alábbi lépéseket:
 
@@ -387,7 +387,7 @@ A `SafeB9SInstaller.bin` fájl hiányzik, vagy rossz helyen van. Töltsd le a le
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
-<summary><u>Frozen on "Doing agbhax..."</u></summary>
+<summary><u>Lefagyás a "Doing agbhax..." üzenetnél</u></summary>
 Probléma lehet az arm11code.bin` fájloddal. Töltsd le újra a legutolsó kiadását az [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest)-nak és rakd a fájlt az SD kártyád gyökerébe, majd nevezd át `arm11code.bin`-re. Ne add hozzá a `.bin` kiterjesztést, ha nem látod.
 
 Ha tajvani egységed van (T a verzió stringben, pl. 11.3.0-##T), akkor nem követheted ezeket a lépéseket, frissítened kell a konzolt és a [Seedminer](seedminer)-t kell használnod helyette.
@@ -416,7 +416,7 @@ Ha ez sikertelen, próbálkozz egy másik SD kártyával.
 ## Telepítés véglegesítése
 
 {% capture compat %}
-<summary><u>Unable to update device</u></summary>
+<summary><u>Sikertelen az eszköz frissítése</u></summary>
 
 Az alábbi lépések tetszőleges sorrendben hajthatók végre, azonban a lista a legkönnyebbtől a legnehezebben végrehajthatóig van összeállítva.
 
@@ -433,21 +433,21 @@ Az alábbi lépések tetszőleges sorrendben hajthatók végre, azonban a lista 
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
-<summary><u>Unable to enter Rosalina menu due to broken Left Shoulder / Down D-Pad / Select button(s)</u></summary>
+<summary><u>Nem sikerül belépni a Rosalina menübe, hibás Bal váll / D-Pad Le / Select gomb(ok) miatt</u></summary>
 
 Töltsd le ezt az [alternatív config.ini fájlt](https://cdn.discordapp.com/attachments/196635695958196224/733384123003175074/config.bin) és rakd a `/luma/` mappába. Ez módosítja a Rosalina billentyű kombinációt (X) + (Y)-ra.
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
-<summary><u>"An exception occurred" after trying to launch Homebrew Launcher from Download Play</u></summary>
+<summary><u>"An exception occurred" miután megpróbálom elindítani a Homebrew Launcher-t a Download Play-ből</u></summary>
 
 Probléma van a `boot.3dsx` fájloddal (nem jó, hiányzik, rossz helyen van vagy sérült). Töltsd le a legutolsó kiadását a [Homebrew Launcher](https://github.com/devkitPro/3ds-hbmenu/releases/latest)-nek és rakd a `boot.3dsx` fájlt az SD kártyád gyökerébe, felülírva bármilyen létező fájlt. Legyél biztos abban, hogy a ZIP fájlt más eszközzel csomagolod ki, mint a WinRAR, mert ismert, hogy problémái vannak a 3DS-sel kapcsolatos fájlokkal.
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
-<summary><u>"Scripts directory not found" in GodMode9</u></summary>
+<summary><u>"Scripts directory not found" a GodMode9-ben</u></summary>
 
 Nem másoltad át a `gm9` mappát a GodMode9 `.zip`-ből az SD kártyád gyökerébe. Töltsd le a legutolsó kiadását az [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)-nek és rakd a `gm9` mappát az SD kártyád gyökerébe, egyesítve (mergelve) a létezővel.
 {% endcapture %}
@@ -455,15 +455,15 @@ Nem másoltad át a `gm9` mappát a GodMode9 `.zip`-ből az SD kártyád gyöker
 
 ---
 
-## Boot issues on devices with custom firmware
+## Boot problémák egyedi firmware-rel rendelkező eszközökön
 
 Az itt leírt lépések általában feltételezik, hogy az eszközöd modern egyedi firmware telepítéssel rendelkezik (boot9strap + Luma3DS 8.0 vagy nagyobb). Ha a konzolod régebbi homebrew telepítés (például valami ami arm9loaderhax vagy menuhax alapú), frissítened kell a telepítésed, mielőtt kipróbálod ezeket a lépéseket.
 {: .notice--info}
 
-### Power/notification light indicators
+### Táp/értesítő LED fény indikátorok
 
 {% capture compat %}
-<summary><u>My device powers off when I try to turn it on, and/or the notification LED shows a color on boot</u></summary>
+<summary><u>Az eszközöm kikapcsol, ha megpróbálom bekapcsolni és/vagy az értesítő LED egy színt mutat bootoláskor</u></summary>
 
 Probléma van az `boot.firm` fájloddal. Ha [boot9strap 1.4](https://github.com/SciresM/boot9strap/releases/tag/1.4)-et futtatsz, akkor a 3DS-ed értestő LED-je egy adott sznt villogtat. Ez a szín a `boot.firm` problémák diagnosztizálását segíti az SD kártyán vagy a belső memóriában. Régebbi boot9strap verziókon a kék fény azonnal kikapcsol, ha megpróbálod bekapcsolni az eszközt.
 
@@ -480,11 +480,11 @@ Ha hallod a "pattanó hangot", ami potenciálisan a háttérvilágítás bekapcs
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
-<summary><u>My device gets stuck on a black screen with blue power light staying on</u></summary>
+<summary><u>Az eszközöm fekete képernyőn ragad, a kék power led bekapcsolva marad</u></summary>
 
 Az alábbi lépések tetszőleges sorrendben hajthatók végre, azonban a lista a legrövidebbtől a legtöbb időt igénylőig van összeállítva.
 
-1. Power off your device, remove the SD card, re-insert it, then power on your device.
+1. Kapcsold ki a készülékedet, vedd ki majd tedd vissz az SD kártyát, majd kapcsold be újra az eszközöd.
 1. Kapcsold ki a készülékedet, vedd ki a játék cartridge-t ha van bennem, majd kapcsold be az eszközöd és vár tíz percet. Ha az eszközöd bebootol tíz percen belül, a probléma elhárult és nem fog valószínűleg újra előfordulni
 1. + Nevezd át a `Nintendo 3DS` mappát az SD kártyádon `Nintendo 3DS_BACKUP` névre és próbálj meg bootolni. Ha az eszközöd sikeresen bootol, problémák vannak a `Nintendo 3DS` könyvtáraddal. Próbáld meg kitakarítani a HOME menu extdata-t:
 	+ Navigálj a `/Nintendo 3DS/<ID0>/<ID1>/extdata/00000000/` mappába
@@ -505,10 +505,10 @@ Az alábbi lépések tetszőleges sorrendben hajthatók végre, azonban a lista 
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
-### Error message on boot
+### Hibaüzenet bootoláskor
 
 {% capture compat %}
-<summary><u>"An error has occurred: Failed to apply 1 FIRM patch(es)" or "An exception has occurred -- Current process: pm"</u></summary>
+<summary><u> "An error has occurred: Failed to apply 1 FIRM patch(es)" vagy "An exception has occurred -- Current process: pm"</u></summary>
 
 A Luma3DS verziód régi. Töltsd le a legutolsó kiadását az [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest)-nak és rakd a `boot.firm` fájlt az SD kártyád gyökerébe, felülírva bármilyen létező fájlt. Legyél biztos abban, hogy a ZIP fájlt más eszközzel csomagolod ki, mint a WinRAR, mert ismert, hogy problémái vannak a 3DS-sel kapcsolatos fájlokkal.
 {% endcapture %}
@@ -526,7 +526,7 @@ Az ARM11 kivételkezelők tiltva, vagy az egyedi firmware nincs telepítve. Pró
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
-<summary><u>Blue "BOOTROM ERROR" screen</u></summary>
+<summary><u>Kék "BOOTROM ERROR" képernyő</u></summary>
 
 A készüléked valószínüleg hard-brickelve lett. Szükséged van egy ntrboot flashcart vásárlására, hogy újra telepítsd a boot9strap-et, hogy megpróbálhasd megjavítani az eszközödet. Ez hardver hibát is jelezhet, ami nem javítható. Bármelyik esetben csatlakozz a [Nintendo Homebrew-hoz a Discord-on](https://discord.gg/MWxPgEp) segítségért.
   + Az is lehetséges még, hogy valaki beállított egy bootoláskori kezdő képernyőt, ami úgy néz ki mint egy brick. Próbáld meg az eszközödet bekapcsolva hagyni, várva a kék képernyőre, 5 percig.
@@ -534,16 +534,16 @@ A készüléked valószínüleg hard-brickelve lett. Szükséged van egy ntrboot
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
-<summary><u>Some other error</u></summary>
+<summary><u>Valami más hiba</u></summary>
 
 Készítsd egy képet a hibáról és csatlakozz a [Nintendo Homebrew-hoz a Discord-on](https://discord.gg/MWxPgEp) segítségért.
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
-## Software issues on devices with custom firmware
+## Szoftver problémák egyedi firmware-rel rendelkező eszközökön
 
 {% capture compat %}
-<summary><u>DSi / DS functionality is broken or has been replaced with Flipnote Studio</u></summary>
+<summary><u>DSi / DS funkcionalitás hibás vagy felcserélt a Flipnote Studio-val</u></summary>
 
 1. Töltsd le a [TWLFix-CFW](https://github.com/MechanicalDragon0687/TWLFix-CFW/releases/latest) legutolsó kiadását (a `.3dsx` fájlt)
 1. Kapcsold ki a készüléked
@@ -561,14 +561,14 @@ Készítsd egy képet a hibáról és csatlakozz a [Nintendo Homebrew-hoz a Disc
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
-<summary><u>GBA Virtual Console and/or Safe Mode functionality is broken</u></summary>
+<summary><u>GBA Virtual Console és/vagy Safe Mode funkcionalitás hibás</u></summary>
 
-Your device is running Luma3DS 6.6 or older, likely via arm9loaderhax. Kövesd az [A9LH-ről B9S-re](a9lh-to-b9s) lépéseit az eszközöd frissítéséhez modern egyedi firmware környezetre.
+Az eszközöd Luma3DS 6.6 vagy régebbi verziót futtat, valószínűleg arm9loaderhax-szal. Kövesd az [A9LH-ről B9S-re](a9lh-to-b9s) lépéseit az eszközöd frissítéséhez modern egyedi firmware környezetre.
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
-<summary><u>Extended memory mode games (Pokemon Sun/Moon, Smash, etc.) don't work</u></summary>
+<summary><u>Bővített memória módú játékok (Pokemon Sun/Moon, Smash, etc.) nem működnek</u></summary>
 
 Ez egy CTRTransfer vagy régió csere után fordulhat elő Old 3DS / 2DS eszközökön. Rendszer formáznod kell az eszközödet javításhoz.
 {% endcapture %}
@@ -579,7 +579,7 @@ Ez egy CTRTransfer vagy régió csere után fordulhat elő Old 3DS / 2DS eszköz
 ## Egyéb hibaelhárítás
 
 {% capture compat %}
-<summary><u>Clear HOME Menu extdata</u></summary>
+<summary><u>A HOME Menu extdata takarítása</u></summary>
 
 1. Kapcsold ki a készüléked
 1. Helyezd az SD kártyád a számítógépbe
@@ -596,7 +596,7 @@ Ez egy CTRTransfer vagy régió csere után fordulhat elő Old 3DS / 2DS eszköz
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
-<summary><u>Clear HOME Menu theme data</u></summary>
+<summary><u>A HOME Menu téma adat takarítása</u></summary>
 
 1. Kapcsold ki a készüléked
 1. Helyezd az SD kártyád a számítógépbe
