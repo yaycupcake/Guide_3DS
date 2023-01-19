@@ -4,10 +4,10 @@ title: "Basic Information"
 
 {% include toc title="Table of Contents" %}
 
-If this is your first time modding a 3DS (or you're unfamiliar with technology), keep reading! Otherwise, if you have prior experience and know what you're doing, skip to [Get Started](get-started).
+If this is your first time modding a 3DS (or you're unfamiliar with technology), keep reading! Otherwise, if you have prior experience and know what you're doing, go back to [Get Started](get-started).
 {: .notice--info}
 
-This page covers some of the base computer terminology and 3DS-specific quirks that you should know before following this guide.
+This page covers some of the base computer terminology and 3DS-specific information that you should know before following this guide.
 
 Each section is collapsed by default. Click or tap on the name of the section to open it.
 
