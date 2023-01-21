@@ -1,24 +1,24 @@
 ---
-title: "Basic Information"
+title: "Key Information"
 ---
 
 {% include toc title="Table of Contents" %}
 
-If this is your first time modding a 3DS (or you're unfamiliar with technology), keep reading! Otherwise, if you have prior experience and know what you're doing, go back to [Get Started](get-started).
+If this is your first time modding a 3DS (or you're unfamiliar with technology), keep reading! Otherwise, if you have prior experience and know what you're doing, continue to [Get Started](get-started).
 {: .notice--info}
 
 This page covers some of the base computer terminology and 3DS-specific information that you should know before following this guide.
 
 Each section is collapsed by default. Click or tap on the name of the section to open it.
 
-## Things about the 3DS
+## Things you should know about the 3DS
 
 {% capture compat %}
 <summary><strong>3DS/2DS compatibility</strong></summary>
 ![]({{ "/images/screenshots/onboarding/compatible.png" | absolute_url }})
 {: .notice--info}
 
-This guide works with every retail device in the Nintendo 3DS family of consoles (including the New 3DS series and the 2DS), regardless of region or firmware.
+This guide works with every retail device in the Nintendo 3DS family of consoles (including the 3DS, 3DS XL/LL, 2DS, New 3DS, New 3DS XL/LL, and New 2DS XL/LL, regardless of region or firmware.
 {% endcapture %}
 
 <details>{{ compat | markdownify }}</details>
@@ -62,7 +62,7 @@ In short: Modding your device is safe, but it's ___your responsibility___ if som
 <details>{{ compat | markdownify }}</details>
 {: .notice--warning}
 
-## Things about your computer or phone
+## Things you need to do on your computer
 
 {% capture compat %}
 <summary><strong>Downloading and copying files</strong></summary>
