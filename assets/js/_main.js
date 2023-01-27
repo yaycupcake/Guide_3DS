@@ -180,7 +180,7 @@ $(document).ready(function() {
 
   var sidebar_shown = true;
   var sidebar_hidden_pages = ["404", "a9lh-to-b9s", "credits", "donations", "dumping-titles-and-game-cartridges",
-                              "f3-(linux)", "f3xswift-(mac)", "faq", "file-extensions-(windows)", "get-started",
+                              "f3-(linux)", "f3xswift-(mac)", "faq", "file-extensions-(windows)",
                               "godmode9-usage", "h2testw-(windows)", "region-changing", "site-navigation", "troubleshooting",
                               "uninstall-cfw","updating-b9s", "why-ads", "privacy-policy", "checking-for-cfw"];
 
@@ -215,7 +215,8 @@ $(document).ready(function() {
     "installing-boot9strap-(kartdlphax)": "12",
 	  "bannerbomb3-fredtool-(twn)": "13",
     "installing-boot9strap-(hbl-usm)": "14",
-    "installing-boot9strap-(ssloth-browser)": "15"
+    "installing-boot9strap-(ssloth-browser)": "15",
+	"key-information": "16"
   };
 
   for(var device in devices){
@@ -262,7 +263,8 @@ $(document).ready(function() {
       "12": ["installing-boot9strap-(kartdlphax)", "finalizing-setup"],
       "13": ["seedminer", "bannerbomb3-fredtool-(twn)", "finalizing-setup"],
       "14": ["seedminer", "homebrew-launcher-(pichaxx)", "installing-boot9strap-(hbl-usm)", "finalizing-setup"],
-      "15": ["installing-boot9strap-(ssloth-browser)", "finalizing-setup"]
+      "15": ["installing-boot9strap-(ssloth-browser)", "finalizing-setup"],
+	  "16": ["multiple-options", "finalizing-setup"]
     }
     // Can add custom routing if necessary but currently both routes are identical
     var device_old =  Object.assign({}, device_common,{
@@ -279,7 +281,7 @@ $(document).ready(function() {
     }
     unhide = unhide.concat(route[device][method]);
     if(typeof unhide !== 'undefined' && unhide.length > 0){
-      unhide.push("home");
+	  unhide.push("key-information")
       unhide.push("get-started");
       var ol = $('.sidebar.sticky .nav__list .nav__items ol');
       for (var i = 0; i < unhide.length; i++){
