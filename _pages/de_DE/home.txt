@@ -5,8 +5,10 @@ header:
   overlay_color: "#5e616c" #
   overlay_image: /images/home-page-feature.jpg
   overlay_filter: 0.5
+  cta_label: "Get Started"
+  cta_url: "/key-information"
   caption:
-excerpt: "Eine vollständige Anleitung für 3DS Custom Firmware, <br />von Original zu boot9strap.<br />"
+excerpt: "A complete guide to 3DS (and 2DS) custom firmware, <br /> from stock to boot9strap.<br />"
 ---
 
 Lies alle Einleitungsseiten gründlich durch (einschließlich dieser), bevor du fortfährst.
@@ -20,7 +22,7 @@ Beliebte Anwendungsmöglichkeiten für Custom Firmware beinhalten:
 
 * Das Ausführen von Homebrew Software und Spielen, die für den 3DS gemacht, oder auf ihn geportet wurden
 * Das Umgehen der Regionsperre, sodass du Spiele aus anderen Regionen spielen kannst
-* HOME Menu customization, using community-created themes and badges
+* HOME Menu customization, using community-created [themes and badges](https://themeplaza.art)
 * Die Modifikation von Spielen ("ROM-Hacks") durch [LayeredFS](https://github.com/knight-ryu12/godmode9-layeredfs-usage/wiki/Using-Luma3DS'-layeredfs-(Only-version-8.0-and-higher))
 * Speicherdatenbearbeitung, Sicherung, und Wiederherstellung
 * Die Emulation älterer Konsolen, sowie native Wiedergabe von DS und GBA Spielen
@@ -36,5 +38,5 @@ Diese Anleitung wird:
 
 ___
 
-### Weiter zu [Erste Schritte](get-started)
+### Continue to [Key Information](key-information)
 {: .notice--primary}

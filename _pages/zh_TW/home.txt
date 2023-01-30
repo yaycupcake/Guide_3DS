@@ -5,8 +5,10 @@ header:
   overlay_color: "#5e616c" #
   overlay_image: /images/home-page-feature.jpg
   overlay_filter: 0.5
+  cta_label: "Get Started"
+  cta_url: "/key-information"
   caption:
-excerpt: "最完整的 3DS 改機教戰手冊，<br />教您如何從原廠主機改成 boot9strap。<br />"
+excerpt: "A complete guide to 3DS (and 2DS) custom firmware, <br /> from stock to boot9strap.<br />"
 ---
 
 請在繼續前讀完所有的前言頁面 (包括本頁！)。
@@ -20,7 +22,7 @@ excerpt: "最完整的 3DS 改機教戰手冊，<br />教您如何從原廠主�
 
 * Running homebrew software and games made for or ported to the Nintendo 3DS
 * 解鎖區碼限制，讓你能遊玩任何其他地區的遊戲
-* HOME Menu customization, using community-created themes and badges
+* HOME Menu customization, using community-created [themes and badges](https://themeplaza.art)
 * 透過 [LayeredFS](https://github.com/knight-ryu12/godmode9-layeredfs-usage/wiki/Using-Luma3DS'-layeredfs-(Only-version-8.0-and-higher)) 更改遊戲內容
 * 編輯、備份、及還原遊戲存檔
 * 模擬懷舊遊戲，或甚至運行 DS 及 GBA 遊戲
@@ -36,5 +38,5 @@ This guide will:
 
 ___
 
-### 繼續至[新手入門](get-started)
+### Continue to [Key Information](key-information)
 {: .notice--primary}

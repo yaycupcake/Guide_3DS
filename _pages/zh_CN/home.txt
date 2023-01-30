@@ -5,8 +5,10 @@ header:
   overlay_color: "#5e616c" #
   overlay_image: /images/home-page-feature.jpg
   overlay_filter: 0.5
+  cta_label: "Get Started"
+  cta_url: "/key-information"
   caption:
-excerpt: "最完整的 3DS 破解手册，<br /> 教你从原版主机破解成boot9strap。<br />"
+excerpt: "A complete guide to 3DS (and 2DS) custom firmware, <br /> from stock to boot9strap.<br />"
 ---
 
 请在开始操作前仔细阅读所有步骤页面（包括这个页面）。
@@ -20,7 +22,7 @@ excerpt: "最完整的 3DS 破解手册，<br /> 教你从原版主机破解成b
 
 * 运行为 Nintendo 3DS 制作或移植的自制软件和游戏
 * 解除锁区，让你玩其他地区的游戏
-* HOME Menu customization, using community-created themes and badges
+* HOME Menu customization, using community-created [themes and badges](https://themeplaza.art)
 * 使用 [LayeredFS](https://github.com/knight-ryu12/godmode9-layeredfs-usage/wiki/Using-Luma3DS'-layeredfs-(Only-version-8.0-and-higher)) 修改游戏（“金手指”）
 * 编辑、备份和恢复用户存档
 * 模拟老主机游戏，还有原生支持运行的 DS 和 GBA 游戏
@@ -36,5 +38,5 @@ excerpt: "最完整的 3DS 破解手册，<br /> 教你从原版主机破解成b
 
 ___
 
-### 继续至[新手入门](get-started)
+### Continue to [Key Information](key-information)
 {: .notice--primary}

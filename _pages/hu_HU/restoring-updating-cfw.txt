@@ -1,5 +1,7 @@
 ---
 title: "CFW visszaállítása / frissítése"
+redirect_from:
+  - restoring-cfw
 ---
 
 {% include toc title="Tartalomjegyzék" %}

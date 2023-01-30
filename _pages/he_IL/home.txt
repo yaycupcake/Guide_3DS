@@ -5,8 +5,10 @@ header:
   overlay_color: "#5e616c" #
   overlay_image: /images/home-page-feature.jpg
   overlay_filter: 0.5
+  cta_label: "Get Started"
+  cta_url: "/key-information"
   caption:
-excerpt: "מדריך שלם לפריצת 3DS, <br /> מהחנות עד ל boot9strap.<br />"
+excerpt: "A complete guide to 3DS (and 2DS) custom firmware, <br /> from stock to boot9strap.<br />"
 ---
 
 תקראו ביסודיות את כל הדפים המקדימים (כולל את זה!) לפני שאתם ממשיכים.
@@ -20,7 +22,7 @@ Popular uses for custom firmware include:
 
 * Running homebrew software and games made for or ported to the Nintendo 3DS
 * Bypassing the region lock, allowing you to play games from other regions
-* HOME Menu customization, using community-created themes and badges
+* HOME Menu customization, using community-created [themes and badges](https://themeplaza.art)
 * Modification of games ("ROM hacks") through [LayeredFS](https://github.com/knight-ryu12/godmode9-layeredfs-usage/wiki/Using-Luma3DS'-layeredfs-(Only-version-8.0-and-higher))
 * Save data editing, backup, and restore
 * Emulation of older consoles, as well as native playback of DS and GBA games
@@ -36,5 +38,5 @@ This guide will:
 
 ___
 
-### Continue to [Get Started](get-started)
+### Continue to [Key Information](key-information)
 {: .notice--primary}
