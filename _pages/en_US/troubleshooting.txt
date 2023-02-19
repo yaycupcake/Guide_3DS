@@ -382,9 +382,9 @@ Follow these steps in order:
 {% capture compat %}
 <summary><u>"To use the Internet Browser, please update your system using the System Update option in the System Settings."</u></summary>
 
-First, make sure you entered the correct proxy for the connection you're using. If not, go back to [Section II](installing-boot9strap-(ssloth-browser).html#section-ii---ssloth) of the page. 
+First, make sure you entered the correct proxy for the connection you're using. If not, go back to [Section II](installing-boot9strap-(ssloth-browser).html#section-ii---ssloth). 
 
-If all of this is correct, your 3DS is cart-updated. In this case, you need to update the 3DS and use Seedminer.
+If all of this is correct, your device is cart-updated. In this case, you need to update the device and use [Seedminer](seedminer).
 Disable the proxy first.
 
 If you have an old model, try a Safe Mode update. Safe Mode is a system update menu that is accessed by holding (Left Shoulder) + (Right Shoulder) + (D-Pad Up) + (A) before while and after pressing the POWER button when turning the device on.  If everything worked correctly, it will fail and then load the SafeB9SInstaller. At that point, you can continue with [Section IV](installing-boot9strap-(ssloth-browser)#section-iv---installing-boot9strap).
