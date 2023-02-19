@@ -379,21 +379,21 @@ Follow these steps in order:
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
-% capture compat %}
-<summary><u>To use the Internet Browser, please update your system using the System Update option in the System Settings.</u></summary>
+{% capture compat %}
+<summary><u>"To use the Internet Browser, please update your system using the System Update option in the System Settings."</u></summary>
 
 First, make sure you entered the correct proxy for the connection you're using. If not, go back to [Section II](installing-boot9strap-(ssloth-browser).html#section-ii---ssloth) of the page. 
 
-If all of this is correct, your 3DS might be cart-updated. In this case, you need to update the 3DS and use Seedminer.
+If all of this is correct, your 3DS is cart-updated. In this case, you need to update the 3DS and use Seedminer.
 Disable the proxy first.
 
 If you have an old model, try a Safe Mode update. Safe Mode is a system update menu that is accessed by holding (Left Shoulder) + (Right Shoulder) + (D-Pad Up) + (A) before while and after pressing the POWER button when turning the device on.  If everything worked correctly, it will fail and then load the SafeB9SInstaller. At that point, you can continue with [Section IV](installing-boot9strap-(ssloth-browser)#section-iv---installing-boot9strap).
 
 If your NVer, the 1 or 2 numbers after the system version is below 37, e.g. 11.4.0-**36** you can do [Soundhax](installing-boot9strap-(soundhax)). For the Soundhax file, select version: \
-1.x - 2.1 for number 0-2
-2.1 - 2.2 for number 3-5
-3.x - 4.x for number 6-10
-5.x - 11.3 for number 11-36
+1.x - 2.1 for number 0-2 \
+2.1 - 2.2 for number 3-5 \
+3.x - 4.x for number 6-10 \
+5.x - 11.3 for number 11-36. 
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
