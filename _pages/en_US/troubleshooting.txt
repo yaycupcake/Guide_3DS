@@ -391,8 +391,8 @@ If you have an old model, try a Safe Mode update. Safe Mode is a system update m
 
 If your NVer, the 1 or 2 numbers after the system version is below 37, e.g. 11.4.0-**36** you can do [Soundhax](installing-boot9strap-(soundhax)). For the Soundhax file, select version: \
 1.x - 2.1 for number 0-2 \
-2.1 - 2.2 for number 3-5 \
-3.x - 4.x for number 6-10 \
+2.1 - 2.2 for number 3-4 \
+3.x - 4.x for number 5-10 \
 5.x - 11.3 for number 11-36. 
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
