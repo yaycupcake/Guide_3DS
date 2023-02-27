@@ -467,7 +467,7 @@ Make sure you have at least 1.3GB available in your SD card. If you don't have e
 1. Copy the `Nintendo 3DS` folder from your computer to the root of your SD card
 1. Delete the `Nintendo 3DS` folder from your computer
 
-If you have enough space on your SD card, your SD might be corrupted or faulty. Check your SD card for any errors by following the guide according to your computer's operating system: [Windows](h2testw-(windows)), [Linux](f3-(linux)), [macOS](f3xswift-(mac)).
+If you have enough space on your SD card, your SD might be corrupted or faulty. Check your SD card for any errors by following the guide according to your system: [Windows](h2testw-(windows), [Linux](f3-(linux)), [macOS](f3xswift-(mac)).
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
@@ -523,20 +523,6 @@ The steps below can be attempted in any order, but are listed from least to most
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
-{% capture compat %}
-<summary><u>My device does not show any of my apps on the HOME Menu</u></summary>
-
-This could be caused by various reasons, but mostly because your SD card is not being read by the system.
-You can check if your SD is not being read by holding SELECT on boot and checking the yellow text on the bottom screen; if it says "Booted from CTRNAND via B9S", then your system is booting from the internal memory and not from the SD card.
-Attempt the steps below, which are listed from easiest to hardest:
-1. Power off your device, remove the SD card, re-insert it, then power on your device
-1. Power off your device, remove the SD card, insert it on your PC, download the latest release of [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest), extract `boot.firm` from the `Luma3DS.zip` and place it on the root of your SD card (replace it if it already exists)
-1. Power off your device, remove the SD card, insert it on your PC and reformat your SD card (this will wipe your SD card data) according to your computer's operating system: [Windows](formatting-sd-(windows)), [macOS](formatting-sd-(mac)), [Linux](formatting-sd-(linux))
-1. Test your SD card for errors by following the guide according to your computer's operating system: [Windows](h2testw-(windows), [Linux](f3-(linux)), [macOS](f3xswift-(mac)). If your SD card is marked as faulty, then you will have to replace your SD card
-1. Your SD card slot may be broken. Join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) for further assistance
-{% endcapture %}
-<details>{{ compat | markdownify }}</details>
-
 ### Error message on boot
 
 {% capture compat %}
@@ -564,10 +550,16 @@ ARM11 exception handlers are disabled, or custom firmware is not installed. Try 
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
-<summary><u>Exception screen when booting/loading an application</u></summary>
+<summary><u>My device does not show any of my installed apps on the HOME Menu</u></summary>
 
-Look for your exception screen in [this page](https://wiki.hacks.guide/wiki/3DS:Error_screens/Luma3DS_exception_screen).
-If you weren't able to find your error or the instructions didn't work, join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) for further assistance.
+This could be caused by various reasons, but mostly because your SD card is not being read by the system.
+You can check if your SD is not being read by holding SELECT on boot and checking the yellow text on the bottom screen; if it says "Booted from CTRNAND via B9S", then your system is booting from the internal memory and not from the SD card.
+Attempt the steps below, which are listed from easiest to hardest:
+1. Power off your device, remove the SD card, re-insert it, then power on your device
+1. Power off your device, remove the SD card, insert it on your PC, download the latest release of [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest), extract `boot.firm` from the `Luma3DS.zip` and place it on the root of your SD card (replace it if it already exists)
+1. Power off your device, remove the SD card, insert it on your PC and reformat your SD card (this will wipe your SD card data) according to your computer's operating system: [Windows](formatting-sd-(windows)), [macOS](formatting-sd-(mac)), [Linux](formatting-sd-(linux))
+1. Test your SD card for errors by following the guide according to your computer's operating system: [Windows](h2testw-(windows)), [Linux](f3-(linux)), [macOS](f3xswift-(mac)). If your SD card is marked as faulty, then you will have to replace your SD card
+1. Your SD card slot may be broken. Join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) for further assistance
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
@@ -617,6 +609,14 @@ Your device is running Luma3DS 6.6 or older, likely via arm9loaderhax. You shoul
 <summary><u>Extended memory mode games (Pokemon Sun/Moon, Smash, etc.) don't work</u></summary>
 
 This can occur after a CTRTransfer or region change on Old 3DS / 2DS. You will need to system format your device to fix this issue.
+{% endcapture %}
+<details>{{ compat | markdownify }}</details>
+
+{% capture compat %}
+<summary><u>Exception screen when booting/loading an application</u></summary>
+
+Look for your exception screen in [this page](https://wiki.hacks.guide/wiki/3DS:Error_screens/Luma3DS_exception_screen).
+If you weren't able to find your error or the instructions didn't work, join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) for further assistance.
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
