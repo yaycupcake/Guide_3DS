@@ -5,7 +5,7 @@ title: "Homebrew Launcher (PicHaxx)"
 {% include toc title="Table des matières" %}
 
 {% capture technical_info %}
-<summary><em>Technical Details (optional)</em></summary>
+<summary><em>Détails techniques (facultatif)</em></summary>
 
 This method of using Seedminer for further exploitation uses your `movable.sed` file to write a custom save file for Pokémon Picross, which can then be used with unSAFE_MODE (via Homebrew Launcher) to run SafeB9SInstaller.
 
@@ -15,7 +15,7 @@ For information on PicHaxx itself, see [here](https://github.com/zoogie/pichaxx)
 <details>{{ technical_info | markdownify }}</details>
 {: .notice--info}
 
-### Compatibility Notes
+### Notes de compatibilité
 
 These instructions work on USA, Europe, and Japan consoles as indicated by the letters U, E, or J after the system version.
 
@@ -30,7 +30,7 @@ This process will overwrite your Pokémon Picross save file, if you have one. If
   + Vous pouvez scanner [ce QR code](http://api.qrserver.com/v1/create-qr-code/?color=000000&bgcolor=FFFF&data=ESHOP://50010000037815&margin=0&qzone=1&size=400x400&ecc=L) en utilisant l'Appareil photo Nintendo 3DS pour un lien direct vers l'application eShop
   + Your SD card must be inserted in your device to install Pokémon Picross
 * Votre fichier `movable.sed` obtenu grâce à [Seedminer](seedminer)
-* The latest release of [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest) (the Luma3DS `.zip` file)
+* La dernière version de [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest) (le fichier `.zip' de Luma3DS)
 * The latest release of [unSAFE_MODE](https://github.com/zoogie/unSAFE_MODE/releases/latest) (the RELEASE `.zip` file)
 
 ### Instructions

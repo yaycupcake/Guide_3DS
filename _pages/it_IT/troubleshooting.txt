@@ -118,7 +118,7 @@ Se nessuna di queste soluzioni dovesse risolvere il problema, allora un custom f
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
-<summary><u>Il menu Gestione Nintendo DSiWare non crasha</u></summary>
+<summary><u>Il menu Gestione Nintendo DSiWare visualizza "Non è stato trovato alcun software".</u></summary>
 
 Manca il file `F00D43D5.bin` da `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `Nintendo DSiWare`. Assicurati che `Nintendo DSiWare` sia scritto correttamente e con gli spazi al posto giusto. Lettere maiuscole o minuscole non fanno differenza.
 {% endcapture %}
@@ -136,7 +136,7 @@ Potrebbe esserci un problema con il tuo file `F00D43D5.bin` (potrebbe essere cor
 {% capture compat %}
 <summary><u>L'aggiornamento del sistema in Modalità Provvisoria completa con successo invece di dare l'errore 003-1099</u></summary>
 
-unSAFE_MODE non è installato. [Segui le istruzioni](installing-boot9strap-(usm)] per installarlo.
+unSAFE_MODE non è installato. [Segui le istruzioni](installing-boot9strap-(usm)) per installarlo.
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
@@ -240,7 +240,7 @@ C'è un problema con il tuo file `boot.nds`. Ri-scarica l'ultima versione di [b9
 {% capture compat %}
 <summary><u>Impossibile aprire il menu di configurazione di Luma3DS dopo aver eseguito B9STool</u></summary>
 
-È possibile che boot9strap non sia stato installato correttamente. Segui la sezione B di [questa pagina](https://github.com/zoogie/b9sTool/blob/master/TROUBLESHOOTING.md).
+Entra nel [canale Discord di Nintendo Homebrew](https://discord.gg/MWxPgEp) e spiega l'accaduto.
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
@@ -440,7 +440,7 @@ Scarica questo [config.ini alternativo](https://cdn.discordapp.com/attachments/1
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
-<summary><u>Infinite loading screen after trying to launch Homebrew Launcher from Download Play</u></summary>
+<summary><u>Schermata di caricamento ferma all'avvio dell'Homebrew Launcher da "Modalità download"</u></summary>
 
 C'è un problema con il tuo file `boot.3dsx` (è mancante, mal posizionato o corrotto). Scarica l'ultima versione dell'[Homebrew Launcher](https://github.com/devkitPro/3ds-hbmenu/releases/latest) e posiziona il file `boot.3dsx` nella directory principale della tua scheda SD, sostituendo qualunque file preesistente. Assicurati di non stare estraendo il file ZIP con WinRAR, in quanto è noto per causare problemi con file relativi al 3DS.
 {% endcapture %}
@@ -450,6 +450,24 @@ C'è un problema con il tuo file `boot.3dsx` (è mancante, mal posizionato o cor
 <summary><u>"Scripts directory not found" in GodMode9</u></summary>
 
 Non hai copiato la cartella `gm9` presente nell'archivio `.zip` di GodMode9 nella directory principale della tua scheda SD. Scarica l'ultima versione di [GodMode9](https://github.com/d0k3/GodMode9/releases/latest) e posiziona la cartella `gm9` nella directory principale della tua scheda SD, unendola a quella preesistente.
+{% endcapture %}
+<details>{{ compat | markdownify }}</details>
+
+{% capture compat %}
+<summary><u>"Backup failed" o "Error: Could not open directory" durante il backup della NAND</u></summary>
+Assicurati di avere almeno 1.3GB disponibili nella tua scheda SD. Se non hai abbastanza spazio, segui questi passaggi:
+1. Spegni la tua console
+1. Rimuovi la scheda SD e inseriscila nel tuo computer
+1. Copia la cartella `Nintendo 3DS` dalla directory principale della tua scheda SD al tuo computer
+1. Elimina la cartella `Nintendo 3DS` dalla scheda SD
+1. Spegni la tua console, dopodiché riaccendila tenendo premuto il tasto START per avviare GodMode9
+1. Esegui un [Backup NAND](godmode9-usage#creating-a-nand-backup)
+1. Copia i file in `gm9/out` sulla tua SD in una posizione sicura sul tuo computer
+1. Elimina i file `<data>_<seriale>_sysnand_##.bin` e `<data>_<seriale>_sysnand_##.bin.sha` dalla scheda SD, mantenendo il file `essential.exefs` in `/gm9/out/`
+1. Copia la cartella `Nintendo 3DS` dal tuo computer nella directory principale della tua scheda SD
+1. Elimina la cartella `Nintendo 3DS` dal tuo computer
+
+Se riieni di avere abbastanza spazio sulla tua scheda SD, questa potrebbe essere danneggiata o difettosa. Verifica la presenza di eventuali errori nella tua scheda SD seguendo la guida corretta per il sistema operativo del tuo computer: [Windows](h2testw-(windows)), [Linux](f3-(linux)), [macOS](f3xswift-(mac)).
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
@@ -505,12 +523,32 @@ I passaggi qui sotto possono essere seguiti in qualsiasi ordine, ma sono elencat
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
+{% capture compat %}
+<summary><u>La mia console non mostra alcuna applicazione nel menu HOME</u></summary>
+
+Questo potrebbe essere causato da vari motivi, ma principalmente perché la scheda SD non viene letta dal sistema.
+Puoi controllare se la tua SD non viene letta tenendo premuto SELECT all'avvio e controllando il testo giallo nella schermata inferiore; se dice "Booted from CTRNAND via B9S", il sistema si sta avviando dalla memoria interna e non dalla scheda SD.
+Prova a seguire i seguenti passaggi, indicati dal più semplice al più complesso:
+1. Spegni la console, rimuovi la scheda SD, reinseriscila, quindi accendi la tua console
+1. Spegni la console, rimuovi la scheda SD, inseriscila sul tuo PC, scarica l'ultima versione di [Luma3DS](https://github. om/LumaTeam/Luma3DS/releases/latest), estrai il file `boot.firm` dall'archivio `Luma3DS.zip` e posizionalo nella directory principale della tua scheda SD (sostituendolo se esiste già)
+1. Spegni la console, rimuovi la scheda SD, inseriscila sul tuo PC e formatta la scheda SD (questo cancellerà i dati della tua scheda SD) secondo il sistema operativo del computer: [Windows](formatting-sd-(windows)), [macOS](formatting-sd-(mac)), [Linux](formatting-sd-(linux))
+1. Verifica la presenza di eventuali errori nella tua scheda SD seguendo la guida corretta per il sistema operativo del tuo computer: [Windows](h2testw-(windows), [Linux](f3-(linux)), [macOS](f3xswift-(mac)). Se la tua scheda SD è contrassegnata come difettosa, allora dovrai sostituirla
+1. Lo slot della tua scheda SD potrebbe essere rotto. Entra nel [canale Discord di Nintendo Homebrew](https://discord.gg/MWxPgEp) per chiedere assistenza
+{% endcapture %}
+<details>{{ compat | markdownify }}</details>
+
 ### Messaggio di errore all'avvio
 
 {% capture compat %}
 <summary><u>"An error has occurred: Failed to apply 1 FIRM patch(es)" o "An exception has occurred -- Current process: pm"</u></summary>
 
 La tua versione di Luma3DS è obsoleta. Scarica l'ultima versione di [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest) e posiziona il file `boot.firm` nella directory principale della tua scheda SD, sostituendo qualunque file preesistente. Assicurati di non stare estraendo il file ZIP con WinRAR, in quanto è noto per causare problemi con file relativi al 3DS.
+{% endcapture %}
+<details>{{ compat | markdownify }}</details>
+
+{% capture compat %}
+<summary><u>"Unable to mount CTRNAND or load the CTRNAND FIRM. Please use an external one."</u></summary>
+Ci sono diverse ragioni per cui questo potrebbe accadere. In ogni caso, questo errore di solito si può risolvere seguendo la guida [CTRTransfer](ctrtransfer).
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
@@ -522,6 +560,14 @@ I gestori di eccezione ARM11 sono disabilitati, o un custom firware non è insta
   + Tieni premuto (Select)
   + Accendi la tua console, continuando a tenere premuto il pulsante (Select)
   + Se la casella "Disable ARM11 exception handlers" è selezionata, deselezionala
+{% endcapture %}
+<details>{{ compat | markdownify }}</details>
+
+{% capture compat %}
+<summary><u>Schermata di errore all'avvio/caricamento di un'applicazione</u></summary>
+
+Cerca la tua schermata di errore in [questa pagina](https://wiki.hacks.guide/wiki/3DS:Error_screens/Luma3DS_exception_screen).
+Se non sei stato in grado di trovare il tuo errore o le istruzioni non funzionano, unisciti a [Nintendo Homebrew su Discord](https://discord.gg/MWxPgEp) per ulteriore assistenza.
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
@@ -606,6 +652,21 @@ Questo può verificarsi dopo un CTRTransfer o dopo un cambio di regione su Old 3
   + **Regione JPN**: Elimina `000002cc`
   + **Regione USA**: Elimina `000002cd`
 1. Reinserisci la scheda SD nella tua console
+{% endcapture %}
+<details>{{ compat | markdownify }}</details>
+
+{% capture compat %}
+<summary><u>Disattivare il Filtro famiglia</u></summary>
+
+È possibile disattivare la funzione Filtro famiglia entrando in Impostazioni della console -> Filtro famiglia e inserendo il PIN, quindi premendo "Cancella impostazioni", e infine "Cancella" per rimuoverlo.
+Tuttavia, se non conosci il PIN e quindi non puoi accedere alle impostazioni della console, dovrai disabilitarlo. A tal scopo, dovrai ottenere la master key della tua console (mkey):
+1. Vai su [questo sito](https://mkey.eiphax.tech/)
+1. Riempi le caselle con le seguenti informazioni:
++ Device Type: Seleziona "3DS" (vale anche se stai usando un 2DS, New 3DS (XL/LL) o New 2DS (XL/LL))
++ System Date: Il giorno e il mese impostati nella tua console
++ Inquiry Number: Si può ottenere premendo "Ho dimenticato il PIN" e poi "L'ho dimenticato" nella schermata Filtro famiglia
+1. Dopo aver ottenuto il tuo mkey, premi OK sulla schermata in cui hai ottenuto il tuo Inquiry Number, quindi inserisci la master key
+1. Premi "Cancella le impostazioni", quindi "Cancella" per rimuovere tutti i dati del Filtro famiglia
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 

@@ -5,7 +5,7 @@ title: "Installer boot9strap (Soundhax)"
 {% include toc title="Table des matières" %}
 
 {% capture technical_info %}
-<summary><em>Technical Details (optional)</em></summary>
+<summary><em>Détails techniques (facultatif)</em></summary>
 
 For technical details on the exploits that you will be using on this page, see [here](https://github.com/nedwill/soundhax) (Soundhax) and [here](https://github.com/TuxSH/universal-otherapp) (universal-otherapp).
 
@@ -13,7 +13,7 @@ For technical details on the exploits that you will be using on this page, see [
 <details>{{ technical_info | markdownify }}</details>
 {: .notice--info}
 
-### Compatibility Notes
+### Notes de compatibilité
 
 Soundhax (quand combiné avec pre9otherapp) est compatible avec les versions comprises entre 1.0.0 et 11.3.0 de toutes les régions.
 
@@ -21,9 +21,9 @@ Soundhax (quand combiné avec pre9otherapp) est compatible avec les versions com
 
 * La dernière version de [Soundhax](http://soundhax.com) *(en fonction de votre console, de son modèle, et de sa région)*
   + Si Soundhax apparaît dans votre navigateur comme une vidéo illisible, appuyez sur Ctrl + S ou Cmd + S pour l'enregistrer sur votre ordinateur
-* The latest release of [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/download/v0.0.7/SafeB9SInstaller-20170605-122940.zip) (direct download)
-* The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/download/1.4/boot9strap-1.4.zip) (direct download)
-* The latest release of [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest) (the Luma3DS `.zip` file)
+* La dernière version de [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/download/v0.0.7/SafeB9SInstaller-20170605-122940.zip) (téléchargement direct)
+* La dernière version de [boot9strap](https://github.com/SciresM/boot9strap/releases/download/1.4/boot9strap-1.4.zip) (téléchargement direct)
+* La dernière version de [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest) (le fichier `.zip' de Luma3DS)
 * The latest release of [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest) (`otherapp.bin`)
 
 ### Instructions
@@ -74,20 +74,10 @@ In this section, you will launch Soundhax through the Nintendo 3DS Sound app, wh
 
 #### Section III - Installation de boot9strap
 
-In this section, you will install custom firmware onto your device.
+{% include_relative include/install-boot9strap-safeb9sinstaller.txt %}
+{%- include_relative include/configure-luma3ds.txt %}
 
-1. Lorsque vous y êtes invité, entrez la combinaison de touches indiquée sur l'écran supérieur pour installer boot9strap
-1. Once it is complete, press (A) to reboot your device
-1. Votre console va redémarrer dans la configuration de Luma3DS
-  + Luma3DS configuration menu are settings for the Luma3DS custom firmware. Many of these settings may be useful for customization or debugging
-  + For the purpose of this guide, these settings will be left on default settings
-  + If your device shuts down when you try to power it on, ensure that you have copied `boot.firm` from the Luma3DS `.zip` to the root of your SD card
-1. Appuyez sur (Start) pour enregistrer les modifications et redémarrer
-  + If you get an error, just continue to the next page
-
-At this point, your console will boot to Luma3DS by default.
-  + Luma3DS does not look any different from the normal HOME Menu. If your console has booted into the HOME Menu, it is running custom firmware.
-  + On the next page, you will install useful homebrew applications to complete your setup.
+{% include_relative include/luma3ds-installed-note.txt %}
 
 
 ___

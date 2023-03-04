@@ -1,5 +1,5 @@
 ---
-title: "Installing boot9strap (USM)"
+title: "boot9strap installieren (USM)"
 ---
 
 {% include toc title="Inhalt" %}
@@ -7,15 +7,15 @@ title: "Installing boot9strap (USM)"
 {% capture technical_info %}
 <summary><em>Technische Details (optional)</em></summary>
 
-In order to exploit the SAFE_MODE firmware of our system, we need to inject an exploited WiFi profile.
+Um die SAFE_MODE Firmware unseres Systems auszunutzen, müssen wir ein präpariertes WiFi-Profil einfügen.
 
-We can do this using an existing exploit, BannerBomb3.
+Wir können dies mit einem bestehenden Exploit, BannerBomb3, tun.
 
-To accomplish this, we use your system's encryption key (movable.sed) to build a DSiWare backup that exploits the system in order to inject the exploited WiFi profile into your connections list.
+Um dies zu erreichen, verwenden wir den Verschlüsselungsschlüssel deines Systems (movable.sed). Dieser Key wird benötigt, um ein DSiWare-Backup zu erstellen, welches das System ausnutzt, um das ausgenutzte WiFi-Profil in deine Verbindungsliste zu injizieren.
 
-Once the WiFi profile has been injected, we will use SAFE_MODE, which is a recovery feature present on all 3DS consoles, to activate the exploited WiFi profile.
+Wenn das WiFi-Profil injiziert wurde, nutzen wir SAFE_MODE, ein Recovery-Feature, welches auf allen 3DS Konsolen existiert, um das präperierte WiFi-Profil zu aktivieren.
 
-For a more technical explanation, see the following links for information on the BannerBomb3 and unSAFE_MODE exploits: [BannerBomb3](https://github.com/zoogie/Bannerbomb3), [unSAFE_MODE](https://github.com/zoogie/unSAFE_MODE/).
+Für eine mehr technische Erklärung, lies die folgenden Links für Informationen zu den BannerBomb3 und unSAFE_MODE Exploits: [BannerBomb3](https://github.com/zoogie/Bannerbomb3), [unSAFE_MODE](https://github.com/zoogie/unSAFE_MODE/).
 
 {% endcapture %}
 <details>{{ technical_info | markdownify }}</details>
@@ -23,26 +23,26 @@ For a more technical explanation, see the following links for information on the
 
 ### Kompatibilitätshinweise
 
-Diese Anleitung funktioniert mit den folgenden Konsolenregionen: USA, Europa, Japan und Korea. Diese werden mit den Buchstaben U, E, J oder K nach der Systemversion angezeigt.
+Diese Anleitung funktioniert mit den folgenden Konsolenregionen: USA, Europa, Japan und Korea, welche anhand den Buchstaben U, E, J oder K nach der Systemversion erkennbar sind.
 
-If your (Right/Left Shoulder), (D-Pad Up), or (A) buttons do not work, you will need to follow [an alternate branch of Seedminer](installing-boot9strap-(fredtool)). For assistance with this matter, join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) and ask, in English, for help.
+Wenn deine (Rechts/Links-Schulter), (Steuerkreuz oben) oder (A) Tasten nicht funktionieren, musst du [einem alternativen Zweig von Seedminer](installing-boot9strap-(fredtool)) folgen. Um Hilfe in dieser Angelegenheit zu erhalten, trete dem [Nintendo Homebrew auf Discord](https://discord.gg/MWxPgEp) bei und frage in Englisch nach Hilfe.
 {: .notice--warning}
 
-### Was du brauchst
+### Was du benötigst
 
 * Die neueste Version vom [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/download/v0.0.7/SafeB9SInstaller-20170605-122940.zip) (Direkter Download)
 * Die neueste Version von [boot9strap](https://github.com/SciresM/boot9strap/releases/download/1.4/boot9strap-1.4.zip) (Direkter Download)
 * Die neueste Version von [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest) (die Luma3DS `.zip` Datei)
-* [usm.bin](https://github.com/zoogie/unSAFE_MODE/releases/download/v1.3/usm.bin) (direct download)
+* [usm.bin](https://github.com/zoogie/unSAFE_MODE/releases/download/v1.3/usm.bin) (direkter Download)
 
 
 #### Abschnitt I - Vorbereitungen
 
-In this section, you will copy the files needed to trigger the unSAFE_MODE exploit onto your device's SD card.
+In diesem Schritt wirst du die Dateien, die zum Auslösen des unSAFE_MODE Exploits benutzt werden, auf die SD-Karte deiner Konsole kopieren.
 
-1. Your SD card should be inserted in your computer
-1. Copy `usm.bin` to the root of your SD card
-1. Copy `boot.firm` and `boot.3dsx` from the Luma3DS `.zip` to the root of your SD card
+1. Deine SD-Karte sollte in deinem Computer eingesteckt sein
+1. Kopiere `usm.bin` in das Stammverzeichnis deiner SD-Karte
+1. Kopiere `boot.firm` und `boot.3dsx` von der Luma3DS `.zip` in das Stammverzeichnis deiner SD-Karte
   + The root of the SD card refers to the initial directory on your SD card where you can see the Nintendo 3DS folder, but are not inside of it
 1. Erstelle einen Ordner namens `boot9strap` im Stammverzeichnis deiner SD-Karte
 1. Kopiere `boot9strap.firm` und `boot9strap.firm.sha` aus der boot9strap `.zip` in den `/boot9strap/`-Ordner auf deiner SD-Karte
@@ -70,36 +70,14 @@ In this section, you will trigger the BannerBomb3 exploit using the DSiWare Mana
 
 #### Section III - unSAFE_MODE
 
-In this section, you will enter Safe Mode (a feature available on all 3DS family devices) and navigate to a menu where unSAFE_MODE will be triggered, which will launch you into the boot9strap (custom firmware) installer.
-
-1. With your device still powered off, hold the following buttons: (Left Shoulder) + (Right Shoulder) + (D-Pad Up) + (A), and while holding these buttons together, power on your device
-  + Keep holding the buttons until the device boots into Safe Mode (a "system update" menu)
-  + If you're unable to get into Safe Mode after multiple attempts, one of your buttons may be failing or broken. If this is the case, you will need to follow [an alternate branch of BannerBomb3](installing-boot9strap-(fredtool)). For assistance with this matter, join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) and ask, in English, for help.
-1. Press "OK" to accept the update
-  + There is no update. This is part of the exploit
-1. Press "I accept" to accept the terms and conditions
-1. The update will eventually fail, with the error code `003-1099`. This is intended behaviour
-1. When asked "Would you like to configure Internet settings?", select "Yes"
-1. On the following menu, navigate to `Connection 1` -> `Change Settings` -> `Next Page (right arrow)` -> `Proxy Settings` -> `Detailed Setup` ([image](/images/screenshots/usm/safemode_highlighted.png))
-1. If the exploit was successful, your device will have booted into SafeB9SInstaller
-  + If your device instead shows a red screen, you are missing `usm.bin` from the root of your SD card
+{% include_relative include/exploit-usm.txt method="bb3" %}
 
 #### Section IV - Installing boot9strap
 
-In this section, you will install custom firmware onto your device.
+{% include_relative include/install-boot9strap-safeb9sinstaller.txt %}
+{%- include_relative include/configure-luma3ds.txt %}
 
-1. When prompted, input the key combo given on the top screen to install boot9strap
-  + If the top screen is blank, power off your device and re-do Section III
-1. Sobald dies abgeschlossen ist, drücke (A) um das Gerät neuzustarten
-1. Dein Gerät sollte neu starten und die Luma3DS Konfiguration anzeigen
-  + Luma3DS configuration menu are settings for the Luma3DS custom firmware. Many of these settings may be useful for customization or debugging
-  + For the purpose of this guide, these settings will be left on default settings
-  + If your device shuts down when you try to power it on, ensure that you have copied `boot.firm` from the Luma3DS `.zip` to the root of your SD card
-1. Drücke (Start) zum Speichern und neustarten
-
-At this point, your console will boot to Luma3DS by default.
-  + Luma3DS does not look any different from the normal HOME Menu. If your console has booted into the HOME Menu, it is running custom firmware.
-  + On the next page, you will install useful homebrew applications to complete your setup.
+{% include_relative include/luma3ds-installed-note.txt %}
 
 #### Section V - Restoring WiFi Configuration Profiles
 

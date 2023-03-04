@@ -5,7 +5,7 @@ title: "Installer boot9strap (Hardmod)"
 {% include toc title="Table of Contents" %}
 
 {% capture technical_info %}
-<summary><em>Technical Details (optional)</em></summary>
+<summary><em>Détails techniques (facultatif)</em></summary>
 
 An excellent guide to getting a hardmod can be found [here](https://gbatemp.net/threads/414498/).
 
@@ -17,12 +17,12 @@ Using a hardmod, we can dump the NAND image, install custom firmware to the NAND
 <details>{{ technical_info | markdownify }}</details>
 {: .notice--info}
 
-### Compatibility Notes
+### Notes de compatibilité
 
 The instructions on this page do not currently work on the latest firmware (11.16.0). If you were directly linked to this page, [return to Get Started](get-started) or join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) and ask, in English, for help.
 {: .notice--warning}
 
-To use the [magnet](https://wikipedia.org/wiki/Magnet_URI_scheme) links on this page, you will need a torrent client like [qBittorrent](https://www.qbittorrent.org/download.php) or [Deluge](http://dev.deluge-torrent.org/wiki/Download).
+Pour utiliser les liens [magnet](https://wikipedia.org/wiki/Magnet_URI_scheme) sur cette page, vous aurez besoin d'un client torrent comme [qBittorrent](https://www.qbittorrent.org/download.php) ou [Deluge](http://dev.deluge-torrent.org/wiki/Download).
 
 Pour extraire les fichiers `.7z` sur cette page, vous aurez besoin d'un programme d'archives comme [7-Zip](http://www.7-zip.org/) ou [The Unarchiver](https://theunarchiver.com).
 
@@ -98,16 +98,9 @@ In this section, you will install custom firmware to the dumped NAND image, and 
 1. Éteignez votre 3DS
 1. Déconnectez votre hardmod
 1. Allumez votre console
-1. Votre console va démarrer dans la configuration de Luma3DS
-  + Luma3DS configuration menu are settings for the Luma3DS custom firmware. Many of these settings may be useful for customization or debugging
-  + For the purpose of this guide, these settings will be left on default settings
-  + If your device shuts down when you try to power it on, ensure that you have copied `boot.firm` from the Luma3DS `.zip` to the root of your SD card
-1. Appuyez sur (Start) pour enregistrer les modifications et redémarrer
-  + If you get an error, just continue to the next page
+{%- include_relative include/configure-luma3ds.txt %}
 
-At this point, your console will boot to Luma3DS by default.
-  + Luma3DS does not look any different from the normal HOME Menu. If your console has booted into the HOME Menu, it is running custom firmware.
-  + On the next page, you will install useful homebrew applications to complete your setup.
+{% include_relative include/luma3ds-installed-note.txt %}
 
 ___
 

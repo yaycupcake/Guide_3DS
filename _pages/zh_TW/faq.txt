@@ -4,106 +4,106 @@ title: "常見問題 FAQ"
 {% include toc title="條目內容" %}
 
 {% capture notice-6 %}
-**The latest 3DS firmware is 11.16.0**. 以下是你該知道的：
+**最新版的 3DS 韌體為 11.16.0 **。 以下是你該知道的：
 
-- If your device is running *Luma 11.0*, it is *100% safe* to update. You can check your Luma version by holding (Select) while booting your device.
-- If your device is on an older Luma version, you should [update Luma](checking-for-cfw) before you update your device to 11.16.0.
+- 如果你的主機使用的 Luma 版本為 **11.0**，那麼升級系統是 **100%** 安全的。 您可以在啟動主機時按住「Select」鍵來檢查您的 Luma 版本。
+- 如果你的主機運行的 Luma 低於此版本，則你應該在更新系統到 11.16.0 前先[更新 Luma](checking-for-cfw)。
 {% endcapture %}
 
 <div class="notice--warning">{{ notice-6 | markdownify }}</div>
 
-## Pre-Installation FAQ
+## 安裝前的常見問題
 
 {% capture compat %}
-<summary><u>I am on the latest system version. Is my device hackable without any external hardware?</u></summary>
+<summary><u>我目前裝的系統為最新版本。 是否可以在不使用任何外部設備的情況下進行破解？</u></summary>
 
-Yes! The latest firmware (11.16.0) has a free method for getting CFW named [Seedminer](seedminer).
+可以的! 最新的系統韌體(11.16.0) 有 [Seedminer](seedminer) 方法可以用來破解。
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
-<summary><u>What devices is this guide compatible with?</u></summary>
+<summary><u>本手冊與哪些主機相容？</u></summary>
 
-The instructions are the same for all retail 3DS, 3DS XL, 2DS, New 3DS, New 3DS XL, and New 2DS XL devices. 如果你主機的系統版本顯示為「0.0.0-0」，您的主機可能是開發專用主機，不適用本手冊。
+目前所有已零售的 3DS、3DS XL/LL、2DS、New 3DS、New 3DS XL/LL 和 New 2DS XL/LL 皆可正常破解。 如果你主機的系統版本顯示為「0.0.0-0」，您的主機可能是開發專用主機，不適用本手冊。
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
-<summary><u>How risky is hacking my console?</u></summary>
+<summary><u>破解我主機的風險有多大？</u></summary>
 
-Bricks are now effectively impossible unless you are purposely trying to brick your device. 
+除非你故意想弄壞你的主機，不然變磚的可能性是幾乎為零的。 
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
-<summary><u>Can I run awesome homebrew and emulators with this?</u></summary>
+<summary><u>我可以透過本教學跑超讚的自製程式跟模擬器嗎？</u></summary>
 
-Yes! 本手冊將會教你安裝一些有用的自製程式，包括一個名為 [Universal-Updater](https://github.com/Universal-Team/Universal-Updater/releases/latest) 的自製程式商店。
+可以的! 本手冊將會教你安裝一些有用的自製程式，包括一個名為 [Universal-Updater](https://github.com/Universal-Team/Universal-Updater/releases/latest) 的自製程式商店。
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
-<summary><u>Can I use this to play games from other regions?</u></summary>
+<summary><u>我能玩其他區的遊戲嗎？</u></summary>
 
-Yes; Luma3DS will automatically ignore the region check for cartridges and installed titles. 但是某些遊戲可能仍然需要使用 Luma 的[區域模擬](https://github.com/LumaTeam/Luma3DS/wiki/Optional-features)功能來使其能夠正常啟動。
+可以的！Luma3DS 會自動跳過遊戲卡帶及安裝後的遊戲中的區碼檢查。 但是某些遊戲可能仍然需要使用 Luma 的[區域模擬](https://github.com/LumaTeam/Luma3DS/wiki/Optional-features)功能來使其能夠正常啟動。
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
-<summary><u>Will I lose any features if I install CFW?</u></summary>
+<summary><u>如果安裝自製韌體，我會失去任何功能嗎？</u></summary>
 
-No. 具有自製韌體的主機仍然可以正常使用 eShop 以及遊玩實體的遊戲卡帶。
+不會的。 具有自製韌體的主機仍然可以正常使用 eShop 以及遊玩實體的遊戲卡帶。
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
-<summary><u>Can I keep my NNID?</u></summary>
+<summary><u>我可以保留我的 NNID 嗎？</u></summary>
 
-Your NNID (if you have one) will not be affected by this guide. 韓版、台版及中國版主機本身就沒有 NNID 功能，所以也不會受到影響。
+您的 NNID(如果您有 NNID 帳號的話) 不會受本手冊的影響。 韓版、台版及中國版主機本身就沒有 NNID 功能，所以也不會受到影響。
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
-<summary><u>Will my 3DS be banned for having CFW?</u></summary>
+<summary><u>我的 3DS 會因為有自製韌體而被 ban 嗎？</u></summary>
 
-There was a ban wave in May 2017 that banned CFW users from online play (eShop access, NNIDs, and Nintendo Accounts were unaffected), seemingly at random. A ban wave at such a scale has not been seen since. That being said, we don't know what Nintendo may have in store in the future. At this time, we don't think that bans are something that you need to worry about.
+2017 年 5 月有一波禁令潮禁止自製韌體用戶在線玩遊戲（使用 eShop、NNID 和任天堂帳戶不受影響），似乎是隨機的。 自從那時後就再也沒有看到過類似的事情了。 話雖這麼說，我們不知道任天堂未來可能還會做些什麼。 目前我們認為您不需要擔心相關的風險。
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
-<summary><u>Can I do this without a computer (e.g. an Android phone)?</u></summary>
+<summary><u>沒電腦也可以完成本教學嗎（例： 一台 Android 手機）？</u></summary>
 
-Yes! All you need is the ability to put files on a compatible SD card.
+可以的! 您只要能在可相容的 SD 卡上存取檔案就可以了！
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
-<summary><u>What size SD card can I use?</u></summary>
+<summary><u>我可以使用多大的 SD 卡？ </u></summary>
 
-You will need at least 1.5GB of free SD card space to follow this guide in its entirety. 雖然任天堂官方只有列出 3DS 可用的 SD 卡最大容量為 32GB，但是實際上只要能格式化成 FAT32 的記憶卡都可以使用。 目前已知較大的 SD 卡可能會造成 GBA 和自定義主題的相關問題，因此不建議使用大於128GB的SD卡。
+您將需要至少 1.5GB 的可用 SD 卡空間才能完全遵循本手冊。 雖然任天堂官方只有列出 3DS 可用的 SD 卡最大容量為 32GB，但是實際上只要能格式化成 FAT32 的記憶卡都可以使用。 目前已知較大的 SD 卡可能會造成 GBA 和自定義主題的相關問題，因此不建議使用大於128GB的SD卡。
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
-<summary><u>I heard about this thing I have to pay for (Gateway, Sky3DS, ntrboot, R4, etc). Is that something I need?</u></summary>
+<summary><u>我之前有聽說過些付費工具像是 Gateway、Sky3DS、ntrboot、R4 等等的。 這是我需要的嗎？</u></summary>
 
-No. Custom firmware can be installed for free on the latest firmware without any hardware devices. In fact, 3DS-mode flashcarts like Gateway and Sky3DS are not recommended because they are obsolete and may carry ban or brick risk.
+不會的。 自製固件可以不依賴任何其他外設在最新版本的系統中安裝。 事實上，我們不推薦使用像 Gateway 和 Sky3DS 這樣的 3DS 模式燒錄卡，因為它們已經過時並且可能會帶來 ban 或 變磚的風險。
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
-<summary><u>What's the difference between custom firmware and homebrew?</u></summary>
+<summary><u>自製韌體和自製程式有什麼區別？</u></summary>
 
-Historically, the 3DS used to have userland homebrew access through older exploits like ninjhax. The level of system access granted with userland allowed you to run basic homebrew and emulators but did not allow you to (easily) modify games or dump cartridges. It was also a lot less stable, with homebrew often ungracefully crashing and requiring a full reboot. Custom firmware grants a far greater level of system access while also being more stable than homebrew-only entrypoints.
+以前 3DS 曾經通過像 ninjhax 這樣的舊漏洞利用來啟動使用者空間下的自製程式。 授予使用者空間的系統權限允許您執行基本的自製程式和模擬器，但較難或甚至無法讓您修改遊戲或轉儲卡帶。 這些漏洞也不太穩定，自製程式經常直接死當並需要完全重啟主機。 自製韌體授予更高的系統存取權限，同時也比自製軟體的入口點更加穩定。
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
-## Post-Installation FAQ
+## 安裝後的常見問題
 
 {% capture compat %}
-<summary><u>Is it safe to update my 3DS to the latest version with CFW?</u></summary>
+<summary><u>在自製韌體環境中安裝最新的官方更新是否安全？</u></summary>
 
-If you are using Luma3DS, your custom firmware loader (boot9strap) will *never* be removed when performing a system update. There have been updates in the past that have resulted in Luma3DS crashing on boot, so it is a good idea to wait a couple of hours to ensure that the latest update will not temporarily render the device unusable until Luma3DS is updated. System updates can be performed the same way as they are on a stock 3DS: through System Settings, Safe Mode, or the update prompt when the update is automatically downloaded.
+如果你正在使用 Luma3DS，你的自製韌體加載器（boot9strap）**永遠不會**因為更新系統而被移除。 過去曾有更新導致 Luma3DS 在啟動時當機，因此建議您過幾個小時後再更新，以確保不會暫時導致主機在 Luma3DS 更新之前無法使用。 System updates can be performed the same way as they are on a stock 3DS: through System Settings, Safe Mode, or the update prompt when the update is automatically downloaded.
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
@@ -149,7 +149,7 @@ If the game is not from the same region as the console, you will need to [dump t
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
-<summary><u>Help! Something bad happened and my 3DS won't boot to HOME Menu...</u></summary>
+<summary><u>救命！ Something bad happened and my 3DS won't boot to HOME Menu...</u></summary>
 
 Please look at the [troubleshooting guide](troubleshooting#boot-issues-on-devices-with-custom-firmware). **Uninstalling CFW when your device is in an unbootable state is not recommended, as it is very likely to lead to a brick**.
 {% endcapture %}

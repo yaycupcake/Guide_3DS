@@ -8,22 +8,22 @@ Esta página oferece troubleshooting para problemas comuns. Se você não conseg
 <summary>Tabela de Conteúdo</summary>
 
 Usado em múltiplas páginas:
-* [SafeB9SInstaller](#issues-with-safeb9sinstaller)
+* [SafeB9SInstaller](#problemas-com-o-safeb9sinstaller)
 
 Páginas do guia:
 * [Seedminer](#seedminer)
   * [BannerBomb3](#bannerbomb3)
-  * [Instalando boot9strap (USM)](#installing-boot9strap-usm)
-  * [Instalando boot9strap (Fredtool)](#installing-boot9strap-fredtool)
+  * [Instalando boot9strap (USM)](#instalando-boot9strap-usm)
+  * [Instalando boot9strap (Fredtool)](#instalando-boot9strap-fredtool)
   * [Homebrew Launcher (PicHaxx)](#homebrew-launcher-pichaxx)
-* [Instalando boot9strap (Soundhax)](#installing-boot9strap-soundhax)
-* [Instalando boot9strap (SSLoth-Browser)](#installing-boot9strap-ssloth-browser)
+* [Instalando boot9strap (Soundhax)](#instalando-boot9strap-soundhax)
+* [Instalando boot9strap (SSLoth-Browser)](#instalando-boot9strap-ssloth-browser)
 
-* [Finalizando a instalação](#finalizing-setup)
+* [Finalizando a instalação](#finalizando-a-instalação)
 
 Erros após a instalação:
-* [Problemas na inicialização](#boot-issues-on-devices-with-custom-firmware)
-* [Problemas de software](#software-issues-on-devices-with-custom-firmware)
+* [Problemas na inicialização](#problemas-na-inicialização)
+* [Problemas de software](#problemas-de-software)
 
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
@@ -118,7 +118,7 @@ Se nenhuma destas soluções resolver o problema, então custom firmware pode te
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
-<summary><u>O Gerenciamento de DSiWare não teve um crash</u></summary>
+<summary><u>O Menu de Gerenciamento DSiWare mostra "Sem data de software acessível".</u></summary>
 
 `F00D43D5.bin` está ausente em `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `Nintendo DSiWare`. Certifique-se de que `Nintendo DSiWare` esteja corretamente escrito e espaçado. Letras maiúsculas ou minúsculas não importam.
 {% endcapture %}
@@ -136,7 +136,7 @@ Pode haver um problema com o seu arquivo `F00D43D5.bin` (pode estar corrompido o
 {% capture compat %}
 <summary><u>A atualização do sistema no Modo de Segurança é bem-sucedida em vez de dar o erro 003-1099</u></summary>
 
-unSAFE_MODE não está instalado. [Siga as instruções](installing-boot9strap-(usm)] para instalá-lo.
+unSAFE_MODE não está instalado. [Siga as instruções](installing-boot9strap-(usm)) para instalá-lo.
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
@@ -240,7 +240,7 @@ Há um problema com o seu arquivo `boot.nds`. Baixe novamente a versão mais rec
 {% capture compat %}
 <summary><u>Não é possível abrir o menu de configuração do Luma3DS depois de executar B9STool</u></summary>
 
-É possível que o boot9strap não tenha sido instalado corretamente. Siga a seção B [desta página](https://github.com/zoogie/b9sTool/blob/master/TROUBLESHOOTING.md).
+Entre no [Discord do Nintendo Homebrew](https://discord.gg/MWxPgEp) e explique o que aconteceu.
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
@@ -440,7 +440,7 @@ Baixe este [config.ini alternativo](https://cdn.discordapp.com/attachments/19663
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
-<summary><u>Infinite loading screen after trying to launch Homebrew Launcher from Download Play</u></summary>
+<summary><u>Tela de carregamento infinita após tentar iniciar o Homebrew Launcher a partir do Download Play</u></summary>
 
 Há um problema com o seu arquivo `boot.3dsx` (ele está faltando, colocado no lugar errado ou corrompido). Baixe a versão mais recente do [Homebrew Launcher](https://github.com/devkitPro/3ds-hbmenu/releases/latest) e coloque `boot.3dsx` na raiz do seu cartão SD, substituindo qualquer arquivo existente. Certifique-se de estar extraindo o arquivo ZIP com qualquer outra ferramenta que não seja o WinRAR, pois é conhecido por causar problemas com arquivos relacionados ao 3DS.
 {% endcapture %}
@@ -450,6 +450,24 @@ Há um problema com o seu arquivo `boot.3dsx` (ele está faltando, colocado no l
 <summary><u>"Scripts directory not found" no GodMode9</u></summary>
 
 Você não copiou a pasta `gm9` do GodMode9 `.zip` para a raiz do seu cartão SD. Baixe a versão mais recente do [GodMode9](https://github.com/d0k3/GodMode9/releases/latest) e coloque a pasta `gm9` na raiz do seu cartão SD, combinando-a com a atual.
+{% endcapture %}
+<details>{{ compat | markdownify }}</details>
+
+{% capture compat %}
+<summary><u>"Backup failed" ou "Error: Could not open directory" ao tentar um backup da NAND</u></summary>
+Certifique-se de que você tem pelo menos 1.3GB disponíveis no seu cartão SD. Se você não tem espaço suficiente, siga estes passos:
+1. Desligue seu console
+1. Remova o cartão SD e insira-o no seu computador
+1. Copie a pasta `Nintendo 3DS` da raiz do seu cartão SD para o seu computador
+1. Exclua a pasta Nintendo 3DS do cartão SD
+1. Desligue seu console, segure o START e ligue-o enquanto segura o START para iniciar o GodMode9
+1. Faça um [backup da NAND](godmode9-usage#criating-a-nand-backup)
+1. Copie os arquivos em `gm9/out` do seu SD para um local seguro no seu computador
+1. Apague os arquivos `<date>_<serialnumber>_sysnand_##.bin` e `<date>_<serialnumber>_sysnand_##.bin.sha` do cartão SD, mantendo essential.exefs em `/gm9/out/`
+1. Copie a pasta `Nintendo 3DS` do seu computador para a raiz do seu cartão SD
+1. Exclua a pasta `Nintendo 3DS` do seu computador
+
+Se você tiver espaço suficiente no seu cartão SD, seu SD pode estar corrompido ou com defeito. Verifique se há erros no seu cartão SD de acordo com o sistema operacional do seu computador: [Windows](h2testw-(windows)), [Linux](f3-(linux)), [macOS](f3xquickt-(mac)).
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
@@ -505,12 +523,32 @@ As etapas abaixo podem ser tentadas em qualquer ordem, mas são listadas de meno
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
+{% capture compat %}
+<summary><u>Meu dispositivo não mostra nenhum dos meus aplicativos instalados no Menu HOME</u></summary>
+
+Isso pode ser causado por várias razões, mas principalmente porque o seu cartão SD não está sendo lido pelo sistema.
+Você pode verificar se seu SD não está sendo lido segurando SELECT na inicialização e verificando o texto amarelo na parte inferior; Se disser "Booted from CTRNAND via B9S", então seu sistema está iniciando da memória interna e não do cartão SD.
+Tente os passos abaixo, que são listados de mais fácil para mais difícil:
+1. Desligue seu dispositivo, remova o cartão SD, insira-o novamente e ligue seu dispositivo
+1. Desligue seu dispositivo, remova o cartão SD, insira-o em seu PC, baixe a versão mais recente do [Luma3DS](https://github. om/LumaTeam/Luma3DS/releases/latest), extraia `boot.firm` do `Luma3DS.zip` e coloque-o na raiz do seu cartão SD (substitua-o se já existir)
+1. Desligue seu dispositivo, remova o cartão SD, insira-o no seu PC e reformate o seu cartão SD (isto irá limpar os dados do seu cartão SD) de acordo com o sistema operacional do seu computador: [Windows](formatting-sd-(windows)), [macOS](formatting-sd-(mac)), [Linux](formatting-sd-(linux))
+1. Verifique se há erros no seu cartão SD de acordo com o sistema operacional do seu computador: [Windows](h2testw-(windows)), [Linux](f3-(linux)), [macOS](f3xquickt-(mac)). Se o seu cartão SD estiver marcado como defeituoso, então você terá que substituir o cartão SD
+1. Sua entrada de cartão SD pode estar com problemas. Entre no [Discord do Nintendo Homebrew](https://discord.gg/MWxPgEp) para obter mais ajuda
+{% endcapture %}
+<details>{{ compat | markdownify }}</details>
+
 ### Mensagem de erro ao inicializar
 
 {% capture compat %}
 <summary><u>"An error has occurred: Failed to apply 1 FIRM patch(es)" ou "An exception has occurred -- Current process: pm"</u></summary>
 
 Sua versão do Luma3DS está desatualizada. Baixe a versão mais recente do [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest) e coloque `boot.firm` na raiz do seu cartão SD, substituindo qualquer arquivo existente. Certifique-se de estar extraindo o arquivo ZIP com qualquer outra ferramenta que não seja o WinRAR, pois é conhecido por causar problemas com arquivos relacionados ao 3DS.
+{% endcapture %}
+<details>{{ compat | markdownify }}</details>
+
+{% capture compat %}
+<summary><u>"Unable to mount CTRNAND or load the CTRNAND FIRM. Please use an external one."</u></summary>
+Há uma série de razões para que isto possa estar acontecendo. Em qualquer caso, este erro geralmente pode ser corrigido seguindo o guia de [CTRTransfer](ctrtransfer).
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
@@ -522,6 +560,14 @@ Os ARM11 exception handlers estão desabilitados, ou custom firmware não está 
   + Segure (Select)
   + Ligue seu dispositivo enquanto segura o botão (Select)
   + Se a caixa "Disable ARM11 exception handlers" estiver marcada, desmarque a opção
+{% endcapture %}
+<details>{{ compat | markdownify }}</details>
+
+{% capture compat %}
+<summary><u>Exception screen ao iniciar/carregar um aplicativo</u></summary>
+
+Procure pela sua exception screen [nesta página](https://wiki.hacks.guide/wiki/3DS:Error_screens/Luma3DS_exception_screen).
+Se você não conseguiu encontrar seu erro ou as instruções não funcionaram, entre no [Discord do Nintendo Homebrew](https://discord.gg/MWxPgEp) para obter mais assistência.
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
@@ -606,6 +652,21 @@ Isso pode ocorrer após uma CTRTransfer ou mudança de região no Old 3DS / 2DS.
   + **Região JPN**: `000002cc`
   + **Região EUA**: `000002cd`
 1. Reinsira seu cartão SD no seu dispositivo
+{% endcapture %}
+<details>{{ compat | markdownify }}</details>
+
+{% capture compat %}
+<summary><u>Turning off Parental Controls</u></summary>
+
+You can disable the Parental Controls feature by going to System Settings -> Parental Controls and inserting the PIN, then pressing "Clear Settings", then "Delete" to remove it.
+However, if you do not know the PIN and therefore cannot access the device's settings, you will need to disable it. In order to do this, you need to obtain your device's master key (mkey):
+1. Go to [this website](https://mkey.eiphax.tech/)
+1. Fill the following boxes with the information:
++ Device Type: Select "3DS" (the same applies if you are using a 2DS, New 3DS (XL/LL) or New 2DS (XL/LL))
++ System Date: The day and month your console's clock is set to
++ Inquiry Number: Can be obtained by pressing "Forgot PIN" then "I Forgot" in the Parental Controls screen
+1. After you have obtained your mkey, press OK on the screen you have obtained your Inquiry Number, then input the master key
+1. Press "Clear Settings", then "Delete" to remove all Parental Controls data
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
