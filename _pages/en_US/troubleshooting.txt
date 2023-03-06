@@ -382,18 +382,29 @@ Follow these steps in order:
 {% capture compat %}
 <summary><u>"To use the Internet Browser, please update your system using the System Update option in the System Settings."</u></summary>
 
-First, make sure you entered the correct proxy for the connection you're using. If not, go back to [Section II](installing-boot9strap-(ssloth-browser).html#section-ii---ssloth). 
+First, make sure you entered the correct proxy for the connection you're using. If not, go back to [Section II](installing-boot9strap-(ssloth-browser).html#section-ii---ssloth). If the proxy is correct, then your device has been cart-updated, which means an alternate exploit will need to be used.
 
-If all of this is correct, your device is cart-updated. In this case, you need to update the device and use [Seedminer](seedminer).
-Disable the proxy first.
+<u>Method 1</u><br>
+If the two numbers before the region in the system version string is equal to or less than 36 (e.g. Ver. 11.14.0-**36**U), you can follow [Soundhax](installing-boot9strap-(soundhax)). When prompted to select a firmware to generate the sound file, use:
 
-If you have an old model, try a Safe Mode update. Safe Mode is a system update menu that is accessed by holding (Left Shoulder) + (Right Shoulder) + (D-Pad Up) + (A) before while and after pressing the POWER button when turning the device on.  If everything worked correctly, it will fail and then load the SafeB9SInstaller. At that point, you can continue with [Section IV](installing-boot9strap-(ssloth-browser)#section-iv---installing-boot9strap).
+* 1.x - 2.1 if the number is between 0 and 2
+* 2.1 - 2.2 if the number is between 3 and 4
+* 3.x - 4.x if the number is between 5 and 10
+* 5.x - 11.3 if the number is between 11 and 36
 
-If your NVer, the 1 or 2 numbers after the system version is below 37, e.g. 11.4.0-**36** you can do [Soundhax](installing-boot9strap-(soundhax)). For the Soundhax file, select version: \
-1.x - 2.1 for number 0-2 \
-2.1 - 2.2 for number 3-4 \
-3.x - 4.x for number 5-10 \
-5.x - 11.3 for number 11-36. 
+<u>Method 2 (Old 3DS only)</u><br>
+If you have an Old 3DS / Old 3DS XL / 2DS, you can try a Safe Mode update, which will trigger an alternate exploit:
+
+1. Ensure that the proxy that you used for SSLoth is still actively applied to your internet connection
+1. With your device powered off, hold the following buttons: (Left Shoulder) + (Right Shoulder) + (D-Pad Up) + (A), and while holding these buttons together, power on your device
+  + Keep holding the buttons until the device boots into Safe Mode (a "system update" menu)
+1. Press "OK" to accept the update
+1. If everything worked correctly, the update will fail and the 3DS will boot into SafeB9SInstaller. If it did, then continue from [Section IV](installing-boot9strap-(ssloth-browser)#section-iv---installing-boot9strap).
+
+---
+
+If these methods didn't work (or do not apply to you), update your device to the latest version and follow [Seedminer](seedminer).
+
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
