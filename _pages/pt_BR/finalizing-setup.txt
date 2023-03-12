@@ -150,7 +150,7 @@ Nesta seção, você fará backups de arquivos que podem ser usados para recuper
 1. Selecione "SysNAND Backup"
 1. Aperte (A) para confirmar
   + Este processo levará algum tempo
-  + Caso você receba um erro, verifique se você tem ao menos 1.3GB de memória livre no seu cartão SD
+  + Se você receber um erro, procure por seu problema no [guia de troubleshooting](troubleshooting#finalizing-setup)
 1. Aperte (A) para continuar
 1. Aperte (B) para retornar para o menu principal
 1. Selecione "Exit"
