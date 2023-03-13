@@ -53,6 +53,9 @@ Ebben a fejezetben fel fogod másolni a fájlokat, amik a browserhax és az univ
 
 Ebben a fejezetben módosítani fogod az Internet kapcsolat beállításokat hogy egy proxy hálózatot használj, ami úgy lett megtervezve, hogy kikerülje a browser verzió ellenőrzést, lehetővé téve a browser műlödését rendszer frissítés nélkül. Ez lehetővé teszi, hogy hozzáférj a browser exploit weboldalhoz a következő fejezetben.
 
+Ha még nenm történt meg, biztosítsd, hogy legyen működő Internet kapcsolata a konzolodnak.
+{: .notice--info}
+
 1. Indítsd el a System Settings alkalmazást
 1. Navigálj az `Internet Settings` -> `Connection Settings` opciókhoz
 1. Kattints a saját hálózati kapcsolatodra és navigálj a `Change Settings` -> `Next Page (jobb nyíl)` -> `Proxy Settings` opcióhoz

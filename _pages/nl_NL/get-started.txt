@@ -123,7 +123,7 @@ To find the correct method for your device, please enter the system version you 
 </div>
 
 {% capture invalidVersion %}
-This doesn't seem to be a valid system version version.
+This doesn't seem to be a valid system version.
 {% endcapture %}
 
 {% capture methodUnavailable %}
@@ -137,7 +137,7 @@ You currently cannot hack your 3DS on this version using the main methods. If yo
 ---
 #### Alternatieve methoden
 
-Indien mogelijk, zul je één van de bovenstaande softwaremethoden moeten volgen.
+If possible, you should follow the method given by the prompt above.
 
 Anders zijn methoden die op alle versies werken beschikbaar, maar deze vereisen extra hardware:
 
@@ -145,4 +145,4 @@ Anders zijn methoden die op alle versies werken beschikbaar, maar deze vereisen 
 1. [Ntrboot](ntrboot) - Hiervoor is een compatibele DS flashkaart nodig
 1. [Boot9strap installeren (Hardmod)](installing-boot9strap-(hardmod)) - dit vereist solderen
 
-<script src="assets/js/selecting.js"></script>
+<script src="/assets/js/selecting.js"></script>
