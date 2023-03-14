@@ -216,7 +216,7 @@ $(document).ready(function() {
 	  "bannerbomb3-fredtool-(twn)": "13",
     "installing-boot9strap-(hbl-usm)": "14",
     "installing-boot9strap-(ssloth-browser)": "15",
-	"key-information": "16"
+	  "key-information": "16"
   };
 
   for(var device in devices){
@@ -256,7 +256,7 @@ $(document).ready(function() {
       "5": ["ntrboot", "flashing-ntrboot-(nds)", "installing-boot9strap-(ntrboot)", "finalizing-setup"],
       "6": ["installing-boot9strap-(hardmod)", "finalizing-setup"],
       "7": ["seedminer", "multiple-options", "finalizing-setup"],
-      "8": ["seedminer", "multiple-options", "installing-boot9strap-(fredtool)", "finalizing-setup"],
+      "8": ["seedminer", "bannerbomb3", "installing-boot9strap-(fredtool)", "finalizing-setup"],
       "9": ["seedminer", "bannerbomb3", "multiple-options", "finalizing-setup"],
       "10": ["seedminer", "bannerbomb3", "installing-boot9strap-(usm)", "finalizing-setup"],
       "11": ["seedminer", "homebrew-launcher-(pichaxx)", "installing-boot9strap-(hbl-usm)", "finalizing-setup"],
@@ -264,7 +264,7 @@ $(document).ready(function() {
       "13": ["seedminer", "bannerbomb3-fredtool-(twn)", "finalizing-setup"],
       "14": ["seedminer", "homebrew-launcher-(pichaxx)", "installing-boot9strap-(hbl-usm)", "finalizing-setup"],
       "15": ["installing-boot9strap-(ssloth-browser)", "finalizing-setup"],
-	  "16": ["multiple-options", "finalizing-setup"]
+	    "16": ["multiple-options", "finalizing-setup"]
     }
     // Can add custom routing if necessary but currently both routes are identical
     var device_old =  Object.assign({}, device_common,{
