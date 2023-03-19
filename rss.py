@@ -1,5 +1,15 @@
 #!/usr/bin/env python3
-"""Python Script for generating an rss.xml for the Guide. Requires bencodepy from pypy."""
+
+#
+# Copyright (C) 2016 James Elliott
+# Copyright (C) 2016-2018 Plailect              
+# Copyright (C) 2022-2023 Nintendo Homebrew
+#
+# SPDX-License-Identifier: MIT
+#
+
+# Python Script for generating an rss.xml for the Guide. Requires bencodepy from pypy.
+
 
 import os
 import hashlib
