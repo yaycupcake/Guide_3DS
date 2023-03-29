@@ -6,11 +6,15 @@ title: "Region Changing"
 
 ### Required Reading
 
-This is an add-on section for region changing your CFW SysNAND. This is done by installing the 11.15.0 CTRTransfer image for the region you want to switch to. After installing the image, you can update your device normally to the latest firmware (11.16.0).
+This is an add-on section for region changing your device. This is done by installing the 11.15.0 CTRTransfer image for the region you want to switch to. After installing the image, you can update your device normally to the latest firmware (11.16.0).
 
-Note that region changing is almost completely unnecessary since Luma3DS supports out-of-region games and individual title [Locale Emulation](https://github.com/LumaTeam/Luma3DS/wiki/Optional-features). Additionally, running NDS games with alternative out-of-region languages is supported by [TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu/releases).
+Note that region changing is almost completely unnecessary since Luma3DS supports out-of-region games and individual title [Locale Emulation](https://github.com/LumaTeam/Luma3DS/wiki/Optional-features). Additionally, running NDS games with alternative out-of-region languages is supported by [TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu/releases). You should only perform a region change if you wish to have your system UI is in a language that is not available on your console's current region.
 
-Note that if you have any payload files other than `GodMode9.firm` in the `/luma/payloads/` folder on your SD card, holding (Start) on boot will display a "chainloader menu" where you will have to use the D-Pad and the (A) button to select "GodMode9" for these instructions.
+This page assumes that you have already installed Luma3DS and boot9strap. If you followed this website to the end (Finalizing Setup), you have Luma3DS and boot9strap.
+{: .notice--info}
+
+As apart of this process, system save data will be cleared, including (but not limited to) Friend List, Activity Log, and Mii data. If this data is particularly important to you, it is not recommended to perform a region change at this time. Installed games and their save data will not be affected.
+{: .notice--warning}
 
 {% capture notice-6 %}
 If you change the region of your device:
@@ -18,20 +22,16 @@ If you change the region of your device:
 + You will not be able to use your NNID (if you have one). NNIDs are locked to the region that they were created in.
 + You may not be able to access the eShop, even if you [delete your eShop account](https://en-americas-support.nintendo.com/app/answers/detail/a_id/74/~/how-to-delete-a-nintendo-eshop-account) beforehand. This is because certain titles tend to remain linked to the 3DS, even after account deletion (especially on New 3DS).
 	+ While purchases can no longer be made on eShop, game updates can still be downloaded. Updates are usually required for online play.
+	+ This logic extends to system transfers, meaning you would not be able to perform a system transfer from a USA 3DS to a region-changed JPN-to-USA 3DS. 
+	+ That being said, system transfer and game updates are region locked anyway (e.g. Japanese eShop only has Japanese game updates).
 + **You will not be able to uninstall custom firmware without bricking the device!** If you intend to uninstall custom firmware in the future, you **MUST** restore your NAND backup that was created before the region change.
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-6 | markdownify }}</div>
 
-You MUST have already installed Luma3DS and boot9strap to use this.
-{: .notice--danger}
-
-Performing a region change may break extended memory mode games (Monster Hunter, Super Smash Bros, Pokemon Sun/Moon) on Old 3DS/2DS devices. If this occurs, you will need to format the device (using TinyFormat or System Settings) to fix the issue.
-{: .notice--warning}
-
 ### What You Need
 
-To use the [magnet](https://wikipedia.org/wiki/Magnet_URI_scheme) links on this page, you will need a torrent client like [qBittorrent](https://www.qbittorrent.org/download.php) or [Deluge](http://dev.deluge-torrent.org/wiki/Download).
+To download the CTRTransfer images on this page, you will need a torrent client like [qBittorrent](https://www.qbittorrent.org/download.php) or [Deluge](http://dev.deluge-torrent.org/wiki/Download).
 {: .notice--warning}
 
 * The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/latest) (the GodMode9 `.zip` file)
@@ -72,15 +72,28 @@ To use the [magnet](https://wikipedia.org/wiki/Magnet_URI_scheme) links on this 
 
 {% include_relative include/ctrtransfer-ticket-copy.txt %}
 
-#### Section VI - Region settings
+#### Section VI - Deleting system save data
 
-1. Launch the System Settings
-1. Go to "Other Settings", "Profile", then "Region Settings"
-1. Select a country from the region you switched to
-1. If prompted, you do not need to set a state
-
-#### Section VII - Remove CTRTransfer image
-
-{% include_relative include/ctrtransfer-cleanup.txt %}
+1. Power off your device
+1. Press and hold (Start), and while holding (Start), power on your device. This will launch GodMode9
+1. Navigate to `[0:] SDCARD` -> `gm9`
+1. Press (X) on the CTRTransfer image `.bin` to delete it
+1. Press (A) to confirm
+1. Press (B) a few times to go back to the main menu
+1. Navigate to `[1:] SYSNAND CTRNAND` -> `data`
+1. Highlight the 32-character folder that you see
+1. Press (Right Shoulder) + (A) to bring up the folder options
+1. Select "Copy to 0:/gm9/out"
+1. Press (A) to continue
+1. While still highlighting the 32-character folder, press (X) to delete the folder
+1. Press (A) to confirm
+1. Press (A) to unlock SysNAND (lvl2) writing, then input the key combo given
+1. Once the folder has been deleted, press (A) to continue
+1. Press (A) to relock write permissions if prompted
+1. Press (Start) to reboot your device
+1. Complete the 3DS initial setup as normal
 
 ___
+
+Your 3DS has successfully been region changed!
+{: .notice--success}
