@@ -254,7 +254,7 @@ $(document).ready(function() {
       "4": ["ntrboot", "flashing-ntrboot-(dsi)", "installing-boot9strap-(ntrboot)", "finalizing-setup"],
       "5": ["ntrboot", "flashing-ntrboot-(nds)", "installing-boot9strap-(ntrboot)", "finalizing-setup"],
       "6": ["installing-boot9strap-(hardmod)", "finalizing-setup"],
-      "7": ["seedminer", "multiple-options", "finalizing-setup"],
+      "7": ["seedminer", "bannerbomb3", "multiple-options", "finalizing-setup"],
       "8": ["seedminer", "bannerbomb3", "installing-boot9strap-(fredtool)", "finalizing-setup"],
       "9": ["seedminer", "bannerbomb3", "multiple-options", "finalizing-setup"],
       "10": ["seedminer", "bannerbomb3", "installing-boot9strap-(usm)", "finalizing-setup"],
