@@ -8,17 +8,15 @@ title: "CTRTransfer"
 
 This is an add-on section for installing an 11.15.0 CTRTransfer image to your device.
 
-Note that if you have any payload files other than `GodMode9.firm` in the `/luma/payloads/` folder on your SD card, holding (Start) on boot will display a "chainloader menu" where you will have to use the D-Pad and the (A) button to select "GodMode9" for these instructions. 
+This page assumes that you have already installed Luma3DS and boot9strap. If you followed this website to the end (Finalizing Setup), you have Luma3DS and boot9strap.
+{: .notice--info}
 
-You MUST have already installed Luma3DS and boot9strap to use this.
-{: .notice--danger}
-
-Performing a CTRTransfer may break extended memory mode games (Monster Hunter, Super Smash Bros, Pokemon Sun/Moon) on Old 3DS/2DS devices. If this occurs, you will need to format the device (using TinyFormat or System Settings) to fix the issue.
+As a part of this process, your system configuration will be reset to its defaults. This includes things such as your username, country, and language. Installed games and their save data will not be affected.
 {: .notice--warning}
 
 ### What You Need
 
-To use the [magnet](https://wikipedia.org/wiki/Magnet_URI_scheme) links on this page, you will need a torrent client like [qBittorrent](https://www.qbittorrent.org/download.php) or [Deluge](http://dev.deluge-torrent.org/wiki/Download).
+To download the CTRTransfer images on this page, you will need a torrent client like [qBittorrent](https://www.qbittorrent.org/download.php) or [Deluge](http://dev.deluge-torrent.org/wiki/Download).
 {: .notice--warning}
 
 * The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/latest) (the GodMode9 `.zip` file)
@@ -55,9 +53,29 @@ To use the [magnet](https://wikipedia.org/wiki/Magnet_URI_scheme) links on this 
 
 {% include_relative include/ctrtransfer-ticket-copy.txt %}
 
-#### Section V - Remove CTRTransfer image
+#### Section VI - Deleting system save data
 
-{% include_relative include/ctrtransfer-cleanup.txt %}
+1. Power off your device
+1. Press and hold (Start), and while holding (Start), power on your device. This will launch GodMode9
+1. Navigate to `[0:] SDCARD` -> `gm9`
+1. Press (X) on the CTRTransfer image `.bin` to delete it
+1. Press (A) to confirm
+1. Press (B) a few times to go back to the main menu
+1. Navigate to `[1:] SYSNAND CTRNAND` -> `data` -> `<ID0>` -> `sysdata`
+  + The `<ID0>` will be a folder with a 32 character length random-looking name. You may recognize this from Seedminer, if you used that method
+1. Use the D-Pad to highlight `00010017`
+1. Press (Right Shoulder) + (A) to bring up the folder options
+1. Select "Copy to 0:/gm9/out"
+1. Press (A) to continue
+1. While still highlighting `00010017`, press (X) to delete it
+1. Press (A) to confirm
+1. Press (A) to unlock SysNAND (lvl2) writing, then input the key combo given
+1. Once the file has been deleted, press (A) to continue
+1. Press (A) to relock write permissions if prompted
+1. Press (Start) to reboot your device
+1. Your device will load into the initial setup menu
+  + This is expected behaviour. You have not lost any of your game data
+1. Complete the initial setup menu by following the prompts on your device's screen
 
 ___
 
