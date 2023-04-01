@@ -81,7 +81,7 @@ In this section, you will download the necessary files for the hardmod and dump 
 1. Copiez votre fichier `.firm` vers le dossier hardmod-b9s-installer sur votre ordinateur
 1. Renommez votre fichier `.firm` dans le dossier hardmod-b9s-installer sur votre ordinateur en `current.firm`
 1. Copiez `boot9strap.firm` et `boot9strap.firm.sha` depuis le fichier ".zip" de boot9strap vers votre ordinateur
-1. Réinsérez votre carte SD dans votre 3DS
+1. Retirez la carte SD de votre ordinateur et réinsérez-là dans votre 3DS
 1. Utilisez votre hardmod pour créer une sauvegarde de votre NAND
 1. Déplacez votre backup de NAND dans le dossier hardmod-b9s-installer de votre ordinateur et renommez-le `NAND.bin`
 
@@ -95,7 +95,8 @@ In this section, you will install custom firmware to the dumped NAND image, and 
 1. Flashez le nouveau fichier `NAND-patched.bin` sur votre console avec votre hardmod
 1. Éteignez votre 3DS
 1. Déconnectez votre hardmod
-{%- include_relative include/configure-luma3ds.txt onboot="true" %}
+1. Press and hold (Select), and while holding (Select), power on your device. This will launch Luma3DS configuration
+{% include_relative include/configure-luma3ds.txt %}
 
 {% include_relative include/luma3ds-installed-note.txt %}
 
