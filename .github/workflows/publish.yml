@@ -3,11 +3,6 @@ name: Deploy site
 on:
   push:
     branches: [ master ]
-    paths:
-      - _pages/**
-      - .github/workflows/publish.yml
-      - package.json
-      - Gemfile
   workflow_dispatch:
 
 jobs:
