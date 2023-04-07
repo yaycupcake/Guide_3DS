@@ -56,7 +56,7 @@ In this section, you will use Homebrew Launcher to launch slotTool, which will o
 
 #### Section II - unSAFE_MODE
 
-{% include_relative include/exploit-usm.txt method="hbl" %}
+{% include_relative include/exploit-usm.txt %}
 
 #### Section III - Installing boot9strap
 
