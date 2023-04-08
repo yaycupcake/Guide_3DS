@@ -31,7 +31,7 @@ If your previous CFW setup was EmuNAND-based and you wish to move the contents o
 ### Ce aveți nevoie
 
 * The latest release of [Anemone3DS](https://github.com/astronautlevel2/Anemone3DS/releases/latest) (the `.cia` file)
-* The v3.7.4 release of [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases/tag/v3.7.4) (the `.cia` file)
+* The v3.7.4 release of [Checkpoint](https://github.com/BernardoGiordano/Checkpoint/releases/tag/v3.7.4) (the `.cia` file)
 * The latest release of [Homebrew Launcher Wrapper](https://github.com/mariohackandglitch/homebrew_launcher_dummy/releases/latest) (the `.cia` file)
 * The latest release of [Universal-Updater](https://github.com/Universal-Team/Universal-Updater/releases/latest) (the `.cia` file)
 * The latest release of [FBI](https://github.com/Steveice10/FBI/releases/latest) (**both** the `.cia` and `.3dsx` files)
@@ -70,11 +70,7 @@ The screenshots below indicate the minimum SD card layout that is required to fo
 
 In this section, you will update your system to the latest version, which is safe to do with custom firmware.
 
-1. Actualizați dispozitivul mergând în System Settings, apoi "Other Settings", apoi mergeți spre colțul drept și folosiți "System Update"
-  + Actualizările în timp ce folosiți B9S + Luma (ce aveți) sunt sigure
-  + Actualizatorul poate afișa un mesaj care zice "Your system is up to date" în loc să se actualizeze. Acest lucru este normal dacă sunteți deja la zi; continuați în următoarea secțiune
-  + If this gives you an error, set both your DNS settings and Proxy settings to "auto"
-  + If this still gives you an error, [follow this troubleshooting guide](troubleshooting#finalizing-setup)
+{% include_relative include/sysupdate.txt cfw="true" %}
 
 #### Secțiunea III - Homebrew Launcher
 
@@ -143,7 +139,7 @@ In this section, you will make backups of files that can be used to recover from
   + If you get an error, look for your issue in the [troubleshooting guide](troubleshooting#finalizing-setup)
 1. Apăsați (A) pentru a continua
 1. Apăsați (B) ca să vă întoarceți în meniul principal
-1. Selectaţi "Exit"
+1. Select "Exit"
 1. Apăsați (A) ca să reblocați permisiunile de scriere dacă vi se cere
 1. Navigate to `[S:] SYSNAND VIRTUAL`
 1. Press (A) on `essential.exefs` to select it

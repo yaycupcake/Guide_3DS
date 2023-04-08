@@ -31,7 +31,7 @@ If your previous CFW setup was EmuNAND-based and you wish to move the contents o
 ### Czego Potrzebujesz
 
 * The latest release of [Anemone3DS](https://github.com/astronautlevel2/Anemone3DS/releases/latest) (the `.cia` file)
-* The v3.7.4 release of [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases/tag/v3.7.4) (the `.cia` file)
+* The v3.7.4 release of [Checkpoint](https://github.com/BernardoGiordano/Checkpoint/releases/tag/v3.7.4) (the `.cia` file)
 * The latest release of [Homebrew Launcher Wrapper](https://github.com/mariohackandglitch/homebrew_launcher_dummy/releases/latest) (the `.cia` file)
 * The latest release of [Universal-Updater](https://github.com/Universal-Team/Universal-Updater/releases/latest) (the `.cia` file)
 * The latest release of [FBI](https://github.com/Steveice10/FBI/releases/latest) (**both** the `.cia` and `.3dsx` files)
@@ -70,11 +70,7 @@ The screenshots below indicate the minimum SD card layout that is required to fo
 
 In this section, you will update your system to the latest version, which is safe to do with custom firmware.
 
-1. Zaktualizuj swoją konsolę wchodząc w System Settings i "Other Settings". Następnie przejedź na sam koniec w prawo i użyj "System Update"
-  + Aktualizacje podczas używania B9S + Luma (tego co masz) są bezpieczne
-  + The updater may display a message saying "Your system is up to date" instead of updating. This is normal if you are already up to date; continue with the next section
-  + If this gives you an error, set both your DNS settings and Proxy settings to "auto"
-  + If this still gives you an error, [follow this troubleshooting guide](troubleshooting#finalizing-setup)
+{% include_relative include/sysupdate.txt cfw="true" %}
 
 #### Sekcja III - Homebrew Launcher
 
@@ -128,7 +124,7 @@ In this section, you will use a script to copy some of Luma3DS's files to intern
 In this section, you will use a script to remove some unnecessary files from your SD card.
 
 1. Wybierz "Cleanup SD Card"
-1. Gdy zostaniesz poproszony, naciśnij (A) by kontynuować
+1. Kiedy zostaniesz poproszony, naciśnij (A) aby kontynuować
 1. Naciśnij (A), aby kontynuować
 1. Wciśnij (B) aby wrócić do menu głównego
 

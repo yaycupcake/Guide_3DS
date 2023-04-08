@@ -31,7 +31,7 @@ If your previous CFW setup was EmuNAND-based and you wish to move the contents o
 ### Что понадобится
 
 * The latest release of [Anemone3DS](https://github.com/astronautlevel2/Anemone3DS/releases/latest) (the `.cia` file)
-* The v3.7.4 release of [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases/tag/v3.7.4) (the `.cia` file)
+* The v3.7.4 release of [Checkpoint](https://github.com/BernardoGiordano/Checkpoint/releases/tag/v3.7.4) (the `.cia` file)
 * The latest release of [Homebrew Launcher Wrapper](https://github.com/mariohackandglitch/homebrew_launcher_dummy/releases/latest) (the `.cia` file)
 * The latest release of [Universal-Updater](https://github.com/Universal-Team/Universal-Updater/releases/latest) (the `.cia` file)
 * The latest release of [FBI](https://github.com/Steveice10/FBI/releases/latest) (**both** the `.cia` and `.3dsx` files)
@@ -70,11 +70,7 @@ The screenshots below indicate the minimum SD card layout that is required to fo
 
 In this section, you will update your system to the latest version, which is safe to do with custom firmware.
 
-1. Обновите прошивку консоли, зайдя в Системные настройки (System Settings), затем "Прочие настройки" (Other Settings), затем листайте вправо до конца и выберите пункт "Обновление" (System Update)
-  + Обновление консоли с установленным B9S + Luma (установленых у вас) безопасно
-  + Вместо начала процесса обновления может появиться сообщение "Система обновлена". Это нормально, если вы уже на последней версии прошивки; переходите к следующей части
-  + If this gives you an error, set both your DNS settings and Proxy settings to "auto"
-  + If this still gives you an error, [follow this troubleshooting guide](troubleshooting#finalizing-setup)
+{% include_relative include/sysupdate.txt cfw="true" %}
 
 #### Часть III - Homebrew Launcher
 

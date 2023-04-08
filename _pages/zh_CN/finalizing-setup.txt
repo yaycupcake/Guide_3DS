@@ -31,7 +31,7 @@ boot9strap 将会在 NAND 里的内容加载完成后启动 `boot.firm` 文件�
 ### 你需要准备点啥？
 
 * 最新版本的 [Anemone3DS](https://github.com/astronautlevel2/Anemone3DS/releases/latest) **（下载 `.cia` 文件）**
-* v3.7.4 版本的 [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases/tag/v3.7.4) **（下载 `.cia` 文件）**
+* The v3.7.4 release of [Checkpoint](https://github.com/BernardoGiordano/Checkpoint/releases/tag/v3.7.4) (the `.cia` file)
 * 最新版本的 [Homebrew Launcher Wrapper](https://github.com/mariohackandglitch/homebrew_launcher_dummy/releases/latest)（下载 `.cia` 后缀的文件）
 * 最新版本的 [Universal-Updater](https://github.com/Universal-Team/Universal-Updater/releases/latest) **（下载 `.cia` 文件）**
 * 最新版本的 [FBI](https://github.com/Steveice10/FBI/releases/latest)**（下载 `.cia` 和 `.3dsx` 后缀的文件）**
@@ -70,11 +70,7 @@ boot9strap 将会在 NAND 里的内容加载完成后启动 `boot.firm` 文件�
 
 本节中，你将会把主机更新至最新版本。（自制固件兼容最新版本的系统，直接升级是安全的）
 
-1. 进入 “系统设置(System Settings)”，接着点击“其他设置(Other Settings)”，然后移动到最右边，点击“系统升级(System Update)”来升级你的主机
-  + 你使用 B9S 和 Luma 时升级系统是安全的
-  + 更新程序可能会提示“你的系统已经是最新了”而不会继续更新 如果你已经更新到了最新，这是正常的；请继续下一节
-  + 如果在更新中途出错，请将主机连接的网络的 DNS 设置和代理设置改为 “auto（自动）”
-  + If this still gives you an error, [follow this troubleshooting guide](troubleshooting#finalizing-setup)
+{% include_relative include/sysupdate.txt cfw="true" %}
 
 #### 第三步 – 进入 Homebrew Launcher
 
@@ -142,7 +138,7 @@ boot9strap 将会在 NAND 里的内容加载完成后启动 `boot.firm` 文件�
   + 此过程将花费一些时间
   + If you get an error, look for your issue in the [troubleshooting guide](troubleshooting#finalizing-setup)
 1. 按 “A” 键继续
-1. 按下 “B” 键返回到主菜单
+1. 按 “B” 键返回到主菜单
 1. 选择 “Exit”
 1. 如果提示重新锁定写入权限，按下 “A” 键来确认
 1. 进入到 `[S:] SYSNAND VIRTUAL`
