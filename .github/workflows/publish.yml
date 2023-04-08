@@ -30,7 +30,6 @@ jobs:
         # CNAME: to tell GH Pages about the domain name
       - name: Post-Jekyll build copy files
         run: |
-          cp CNAME _site
           touch _site/.nojekyll
 
       - name: Deploy 🚀
