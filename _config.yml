@@ -182,7 +182,7 @@ exclude: [
   README,
   tmp,
   rss.py,
-  Crowdin.yaml,
+  crowdin.yaml,
   staticman.yml,
   torrents,
   _pages/*/include,
