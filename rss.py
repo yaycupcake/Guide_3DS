@@ -32,7 +32,7 @@ with open(rss, "w") as xml:
     xml.write("\t<channel>\n")
     xml.write("\t\t<title>Plailect Guide Feed</title>\n")
     xml.write("\t\t<lastBuildDate>{0}</lastBuildDate>\n".format(datetime.datetime.utcnow().strftime("%a, %d %b %Y %X +0000")))
-    xml.write("\t\t<link>https://github.com/Plailect/Guide_3DS/</link>\n")
+    xml.write("\t\t<link>https://github.com/hacks-guide/Guide_3DS/</link>\n")
 
     for filename in os.listdir(dir):
         if filename.endswith(".torrent"):
