@@ -8,8 +8,12 @@
 # SPDX-License-Identifier: MIT
 #
 
+#
 # Python Script for generating an rss.xml for the Guide. Requires bencodepy from pypy.
-
+# Usage:
+# - place all torrent files in a `torrents` folder, including all that already exist
+# - run the script
+#
 
 import os
 import hashlib
