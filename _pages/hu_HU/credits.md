@@ -1,17 +1,17 @@
 ---
-title: "기여자"
+title: "Készítők"
 ---
 
-이 가이드의 만든이 및 관리자인 Plailect에게 특별히 감사드립니다!
+**Külön köszönet Plailect-nek, a guide eredeti készítőjének és karbantartójának!**
 {: .notice--primary}
 
-**[Freenode #Cakey 채널](http://webchat.freenode.net/?channels=%23Cakey)의 모든 분께 정말 감사드립니다!**
+**Külön köszönet mindenkinek [#Cakey-n Freenode-on](http://webchat.freenode.net/?channels=%23Cakey) a királyságért!**
 {: .notice--primary}
 
-**[번역에 참여해 주신 모든 분](https://crowdin.com/project/3ds-guide)께 정말 감사드립니다!**
+**Külön köszönet minden [fordítónak](https://crowdin.com/project/3ds-guide), amiért ilyen királyok!**
 {: .notice--primary}
 
-목록에서 누락된 경우 연락 주시면 추가하겠습니다.
+Ha kihagytunk volna innen, lépj kapcsolatba velünk, és hozzáadjuk a neved.
 
 {% capture notice-1 %}
 

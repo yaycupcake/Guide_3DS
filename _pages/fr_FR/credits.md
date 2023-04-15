@@ -1,17 +1,17 @@
 ---
-title: "Riconoscimenti"
+title: "Remerciements"
 ---
 
-**Un ringraziamento speciale a Plailect, il creatore e manutentore originale della guida!**
+**Special thanks to Plailect, the original creator and maintainer of the guide!**
 {: .notice--primary}
 
-**Un ringraziamento speciale a tutti gli utenti di [#Cakey su Freenode](http://webchat.freenode.net/?channels=%23Cakey)! Siete fantastici!**
+**Special thanks to all of [#Cakey on Freenode](http://webchat.freenode.net/?channels=%23Cakey) for being awesome!**
 {: .notice--primary}
 
-**Un ringraziamento speciale a [tutti i traduttori](https://crowdin.com/project/3ds-guide)! Siete fantastici!**
+**Special thanks to all of [the translators](https://crowdin.com/project/3ds-guide) for being awesome!**
 {: .notice--primary}
 
-Se ho dimenticato di inserirti in questa lista, contattami e ti aggiungerò.
+If I forgot you here, contact me and I'll add your name.
 
 {% capture notice-1 %}
 

@@ -19,7 +19,7 @@ Guide pages:
 * [Installing boot9strap (SSLoth-Browser)](#installing-boot9strap-ssloth-browser)
 * [Homebrew Launcher (super-skaterhax)](#homebrew-launcher-super-skaterhax)
 
-* [Finalizing Setup](#finalizing-setup)
+* [Installatie voltooien](#finalizing-setup)
 
 Issues after installation:
 * [Boot issues](#boot-issues-on-devices-with-custom-firmware)
@@ -101,7 +101,10 @@ Je friend code is geblokkeerd voor het gebruik van de friend code bot omdat je 3
 {% capture compat %}
 <summary><u>We were unable to successfully complete your bruteforce request. :`(</u></summary>
 
-De website heeft bepaald dat jouw 'movable.sed' niet kan gebruteforced worden. Zorg ervoor dat je de website het juiste ID0 gegeven hebt. Als blijkt dat je ID0 juist is, dan kun je geen gebruik maken van Seedminer en zul je een andere methode moeten proberen dat ofwel extra spellen of hardware vereist.
+De website heeft bepaald dat jouw 'movable.sed' niet kan gebruteforced worden. Zorg ervoor dat je de website het juiste ID0 gegeven hebt. If your ID0 is correct, then you will be unable to use Seedminer and you will have to use an alternate method.
+
+If you have a New 3DS / New 3DS XL / New 2DS XL (as indicated by the four shoulder buttons on the back and the C-Stick on the right), you can follow [Homebrew Launcher (super-skaterhax)](homebrew-launcher-(super-skaterhax)). Otherwise, you will need to follow a method that requires additional games or hardware.
+
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
@@ -435,7 +438,7 @@ The date is set incorrectly. To set it correctly, follow these steps:
 1. Tap Up/Down Arrows to set the correct Day, Month and Year.
 1. Select OK to confirm.
 
-If the problem persists and you have a system version ending in E, and the language set to English, change the language to any other language **temporarily**. You can revert this change when you reach Finalizing Setup. 
+If the problem persists and you have a system version ending in E, and the language set to English, change the language to any other language **temporarily**. Je kunt deze wijziging ongedaan maken wanneer je Installatie voltooien bereikt. 
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
@@ -494,6 +497,7 @@ Make sure you have at least 1.3GB available in your SD card. If you don't have e
 1. Remove the SD card and insert it into your computer
 1. Copy the `Nintendo 3DS` folder from the root of your SD card to your computer
 1. Delete the Nintendo 3DS folder from the SD card
+1. Reinsert your SD card into your console
 1. Power off your console, hold START and power on still holding START to boot on GodMode9
 1. Perform a [NAND Backup](godmode9-usage#creating-a-nand-backup)
 1. Copy the files in `gm9/out` on your SD to a safe location on your computer

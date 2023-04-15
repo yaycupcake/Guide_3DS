@@ -101,7 +101,10 @@ This occurs when you use your SD card in multiple 3DS devices and is intended to
 {% capture compat %}
 <summary><u>We were unable to successfully complete your bruteforce request. :`(</u></summary>
 
-The website has determined that your `movable.sed` cannot be brute-forced. Ensure that you gave the correct ID0 to the website. If your ID0 is correct, then you will be unable to use Seedminer and you will have to use an alternate method that will require additional games or hardware.
+The website has determined that your `movable.sed` cannot be brute-forced. Ensure that you gave the correct ID0 to the website. If your ID0 is correct, then you will be unable to use Seedminer and you will have to use an alternate method.
+
+If you have a New 3DS / New 3DS XL / New 2DS XL (as indicated by the four shoulder buttons on the back and the C-Stick on the right), you can follow [Homebrew Launcher (super-skaterhax)](homebrew-launcher-(super-skaterhax)). Otherwise, you will need to follow a method that requires additional games or hardware.
+
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
@@ -494,6 +497,7 @@ Make sure you have at least 1.3GB available in your SD card. If you don't have e
 1. Remove the SD card and insert it into your computer
 1. Copy the `Nintendo 3DS` folder from the root of your SD card to your computer
 1. Delete the Nintendo 3DS folder from the SD card
+1. Reinsert your SD card into your console
 1. Power off your console, hold START and power on still holding START to boot on GodMode9
 1. Perform a [NAND Backup](godmode9-usage#creating-a-nand-backup)
 1. Copy the files in `gm9/out` on your SD to a safe location on your computer

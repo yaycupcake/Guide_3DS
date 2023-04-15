@@ -1,17 +1,17 @@
 ---
-title: "Credits"
+title: "기여자"
 ---
 
-**Un énorme merci à Plailect, le créateur et mainteneur original du guide!**
+**이 가이드의 만든이 및 관리자인 Plailect에게 특별히 감사드립니다!**
 {: .notice--primary}
 
-**Remerciements spéciaux à toutes les personnes du salon [#Cakey sur Freenode](http://webchat.freenode.net/?channels=%23Cakey), vous êtes géniaux !**
+**[Freenode #Cakey 채널](http://webchat.freenode.net/?channels=%23Cakey)의 모든 분께 정말 감사드립니다!**
 {: .notice--primary}
 
-**Un grand merci à tous [les traducteurs](https://crowdin.com/project/3ds-guide), vous êtes géniaux !**
+**[번역에 참여해 주신 모든 분](https://crowdin.com/project/3ds-guide)께 정말 감사드립니다!**
 {: .notice--primary}
 
-Si je vous ai oublié, contactez-moi et j'ajouterai votre nom.
+목록에서 누락된 경우 연락 주시면 추가하겠습니다.
 
 {% capture notice-1 %}
 

@@ -1,17 +1,17 @@
 ---
-title: "Credits"
+title: "Riconoscimenti"
 ---
 
-**Speciale dank aan Plailect, de originele maker en onderhouder van de handleiding!**
+**Un ringraziamento speciale a Plailect, il creatore e manutentore originale della guida!**
 {: .notice--primary}
 
-**Speciale dank aan iedereen op [#Cakey Freenode](http://webchat.freenode.net/?channels=%23Cakey) omdat ze awesome zijn**
+**Un ringraziamento speciale a tutti gli utenti di [#Cakey su Freenode](http://webchat.freenode.net/?channels=%23Cakey)! Siete fantastici!**
 {: .notice--primary}
 
-**Erg veel dank gaat uit naar [alle vertalers](https://crowdin.com/project/3ds-guide), omdat jullie zo fantastisch zijn!**
+**Un ringraziamento speciale a tutti [i traduttori](https://crowdin.com/project/3ds-guide)! Siete fantastici!**
 {: .notice--primary}
 
-Als ik je hier ben vergeten te noemen, neem contact met me op, dan voeg ik je toe.
+Se ho dimenticato di inserirti in questa lista, contattami e ti aggiungerò.
 
 {% capture notice-1 %}
 

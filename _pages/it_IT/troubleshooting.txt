@@ -101,7 +101,10 @@ Il tuo codice amico non può più usare il bot perché il tuo 3DS non ha accetta
 {% capture compat %}
 <summary><u>We were unable to successfully complete your bruteforce request. :`(</u></summary>
 
-Il sito ha stabilito che il tuo file `movable.sed` non può essere decriptato. Assicurati di aver dato l'ID0 corretto al sito web. Se il tuo ID0 è corretto, allora non potrai utilizzare Seedminer e dovrai utilizzare un metodo alternativo che richiederà ulteriori giochi o hardware.
+Il sito ha stabilito che il tuo file `movable.sed` non può essere decriptato. Assicurati di aver dato l'ID0 corretto al sito web. If your ID0 is correct, then you will be unable to use Seedminer and you will have to use an alternate method.
+
+If you have a New 3DS / New 3DS XL / New 2DS XL (as indicated by the four shoulder buttons on the back and the C-Stick on the right), you can follow [Homebrew Launcher (super-skaterhax)](homebrew-launcher-(super-skaterhax)). Otherwise, you will need to follow a method that requires additional games or hardware.
+
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
@@ -424,23 +427,23 @@ Se il problema non si risolve, prova ad usare un'altra scheda SD.
 ## Homebrew Launcher (super-skaterhax)
 
 {% capture compat %}
-<summary><u>"An error has occured. Please save your data in any software currently in use, then restart the system."</u></summary>
+<summary><u>"Si è verificato un errore. Salva i dati di qualunque applicazione attualmente in uso, quindi riavvia la console."</u></summary>
 
-The date is set incorrectly. To set it correctly, follow these steps: 
+La data non è corretta. Per correggerla, segui questi passaggi: 
 
-1. Select the System Settings icon on the HOME Menu, and tap Open.
-1. Tap Other Settings.
+1. Seleziona Impostazioni della console nel menu HOME, poi tocca Apri.
+1. Tocca Impostazioni generali.
 1. Tap Date & Time.
 1. Tap Today's date.
-1. Tap Up/Down Arrows to set the correct Day, Month and Year.
-1. Select OK to confirm.
+1. Tocca i pulsanti su/giù per impostare il giorno, il mese e l'anno corretti.
+1. Premi OK per confermare.
 
-If the problem persists and you have a system version ending in E, and the language set to English, change the language to any other language **temporarily**. You can revert this change when you reach Finalizing Setup. 
+Se il problema persiste e hai una versione di sistema che termina in E, e la lingua impostata in inglese, cambia **temporaneamente** la lingua in una diversa. Puoi ripristinare questo cambiamento quando arrivi al Completamento dell'installazione. 
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
-<summary><u>An exception occured or ErrDisp when pressing GO! GO!</u></summary>
+<summary><u>"Si è verificato un errore" o ErrDisp premendo GO! GO!</u></summary>
 
 Probabilmente significa che hai già un custom firmware. Dovresti [verificare la presenza di un CFW](checking-for-cfw).
 
@@ -494,6 +497,7 @@ Assicurati di avere almeno 1.3GB disponibili nella tua scheda SD. Se non hai abb
 1. Rimuovi la scheda SD e inseriscila nel tuo computer
 1. Copia la cartella `Nintendo 3DS` dalla directory principale della tua scheda SD al tuo computer
 1. Elimina la cartella `Nintendo 3DS` dalla scheda SD
+1. Reinsert your SD card into your console
 1. Spegni la tua console, dopodiché riaccendila tenendo premuto il tasto START per avviare GodMode9
 1. Esegui un [Backup NAND](godmode9-usage#creating-a-nand-backup)
 1. Copia i file in `gm9/out` sulla tua SD in una posizione sicura sul tuo computer

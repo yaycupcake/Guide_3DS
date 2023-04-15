@@ -1,17 +1,17 @@
 ---
-title: "Közreműködők"
+title: "Créditos"
 ---
 
-**Külön köszönet Plailect-nek, a guide eredeti készítőjének és karbantartójának!**
+**Agradecimentos especiais a Plailect, o criador original e mantenedor da guia!**
 {: .notice--primary}
 
-**Külön köszönet mindenkinek a [Freenode #Cakey](http://webchat.freenode.net/?channels=%23Cakey) csatornájáról!**
+**Um agradecimento especial a todos os [#Cakey no Freenode](http://webchat.freenode.net/?channels=%23Cakey) por serem incríveis!**
 {: .notice--primary}
 
-**Külön köszönet minden [fordítónak](https://crowdin.com/project/3ds-guide), amiért ilyen királyok!**
+**Um agradecimento especial a todos os [tradutores](https://crowdin.com/project/3ds-guide) por serem incríveis!**
 {: .notice--primary}
 
-Ha kihagytunk volna innen, lépj kapcsolatba velünk, és hozzáadjuk a neved.
+Se esqueci de você aqui, entre em contato comigo que adicionarei seu nome.
 
 {% capture notice-1 %}
 
