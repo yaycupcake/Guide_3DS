@@ -11,15 +11,6 @@ title: "FAQ"
 **Yes**, you can still install custom firmware on your 3DS, even after the closure of eShop.
 {: .notice--info}
 
-{% capture notice-6 %}
-**The latest 3DS firmware is 11.16.0**. Here's what you should know:
-
-- If your device is running *Luma 11.0* or newer, it is *100% safe* to update. You can check your Luma version by holding (Select) while booting your device.
-- If your device is on an older Luma version, you should [update Luma](checking-for-cfw) before you update your device to 11.16.0.
-{% endcapture %}
-
-<div class="notice--info">{{ notice-6 | markdownify }}</div>
-
 ## Pre-Installation FAQ
 
 {% capture compat %}
