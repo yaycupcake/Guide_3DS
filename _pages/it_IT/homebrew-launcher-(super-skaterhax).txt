@@ -14,7 +14,7 @@ Per i dettagli tecnici sugli exploit che utilizzerai in questa pagina, vedi [qui
 
 ### Note di Compatibilità
 
-Super-skaterhax (quando utilizzato per avviare l'Homebrew Launcher) è compatibile con i modelli New alla versione 11.16.0 di tutte le regioni tranne TWN/CHN.
+Super-skaterhax (when used to launch the Homebrew Launcher) is compatible with New models on version 11.16.0 in all regions, and 11.17.0 in the EUR and JPN regions.
 
 Le istruzioni indicate si applicano solo a New 3DS, New 3DS XL e New 2DS XL. Assicurati che la console che stai modificando sia un New 3DS, New 3DS XL, o un New 2DS XL prima di continuare.
 {: .notice--warning}
@@ -24,11 +24,7 @@ Le istruzioni indicate si applicano solo a New 3DS, New 3DS XL e New 2DS XL. Ass
 * L'ultima versione di [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest) (il file `.zip` di Luma3DS)
 * L'ultima versione di [super-skaterhax](https://github.com/zoogie/super-skaterhax/releases) (il file `.zip` della release)
 
-#### Sezione I - Aggiornare il Sistema
-
-{% include_relative include/sysupdate.txt cfw="false" %}
-
-#### Sezione II - Preparazione
+#### Sezione I - Preparazione
 
 In questa sezione copierai i file necessari per attivare sia super-skaterhax che l'Homebrew Launcher.
 
@@ -44,7 +40,7 @@ In questa sezione copierai i file necessari per attivare sia super-skaterhax che
 {: .notice--info}
 
 
-#### Sezione III - super-skaterhax
+#### Section II - super-skaterhax
 
 In questa sezione visiterai la pagina web dell'exploit del browser, che avvierà l'Homebrew Launcher.
 
@@ -69,11 +65,11 @@ Se non l'hai già fatto, assicurati di avere una connessione Internet funzionant
   + Se vengono visualizzate delle richieste, approvale tutte
   + Se la tua console si blocca con una schermata gialla, tieni premuto il pulsante POWER finché non si spegne, quindi riprova questa sezione
   + Se la tua console si blocca con una schermata rossa, tieni premuto il pulsante POWER finché non si spegne, riprova il passo 3 della Sezione II, quindi riprova questa sezione
-  + Se ottieni un altro errore, [segui questa guida per risolvere il problema](troubleshooting#homebrew-launcher-super-skaterhax)
+  + If you get another error, try again up to 5 times, and if it still doesn't work, [follow this troubleshooting guide](troubleshooting#homebrew-launcher-super-skaterhax)
 1. Se l'exploit ha avuto successo, la tua console avrà avviato l'Homebrew Launcher
 1. Spegni il tuo 3DS
 
-#### Sezione IV - Verifica Pulsanti Hardware 
+#### Section III - Hardware Button Check 
 
 {% include_relative include/safemodecheck.txt %}
 
@@ -81,10 +77,10 @@ ___
 
 ### Passaggio successivo: Scelta di un exploit
 
-Se nella sezione precedente hai visto la schermata di aggiornamento del sistema, la Modalità Provvisoria è funzionante sulla tua console.
+If the camera appeared in the previous section, Safe Mode is likely to be working on your device.
 
-Se la console ha avviato la Modalità Provvisoria, prosegui con [Installazione di boot9strap (HBL-USM)](installing-boot9strap-(hbl-usm))
+If the camera appeared, continue to [Installing boot9strap (HBL-USM)](installing-boot9strap-(hbl-usm))
 {: .notice--primary}
 
-Se la console NON ha avviato la Modalità Provvisoria, continua con [Dump di Movable (nimhax)](dumping-movable-(nimhax))
+If the camera did NOT appear, continue to [Dumping Movable (nimhax)](dumping-movable-(nimhax))
 {: .notice--info}

@@ -19,7 +19,7 @@ Ha egy szokatlan menüt látsz ÁLLJ MEG - már vagy egyedi firmwared! Folytasd 
 #### II. rész - Rendszer verzió ellenőrzés
 
 1. Indítsd el a System Settings alkalmazást
-1. A rendszer verziód ki lesz írva a felső képernyő jobb alsó sarkában (pl.: "Ver. 11.16.0-49U")
+1. A rendszer verziód ki lesz írva a felső képernyő jobb alsó sarkában (pl.: "Ver. 11.17.0-50U")
 
 #### III. rész - Metódus választása
 
@@ -35,6 +35,8 @@ Ez nem tűnik egy érvényes rendszer verziónak.
 
 {% capture methodUnavailable %}
 Jelenleg nem tudod hackelni a 3DS-ed ezen a verzión a fő metódusokkal. Ha szeretnéd hackelni a konzolod, ntrbootot kell használnod.
+
+Information about firmware 11.17.0 is rapidly evolving. For the latest information, join <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew on Discord</a>.
 {% endcapture %}
 
 {% include consoleVersionSelect.html noneSelected=noneSelected invalidVersion=invalidVersion methodUnavailable=methodUnavailable %}

@@ -14,7 +14,7 @@ For technical details on the exploits that you will be using on this page, see [
 
 ### 相容性資訊
 
-Super-skaterhax (when used to launch the Homebrew Launcher) is compatible with New models on version 11.16.0 in all regions except TWN/CHN.
+Super-skaterhax (when used to launch the Homebrew Launcher) is compatible with New models on version 11.16.0 in all regions, and 11.17.0 in the EUR and JPN regions.
 
 The instructions provided only apply to the New 3DS, New 3DS XL, and New 2DS XL. Please ensure that the device you are modding is a New 3DS, New 3DS XL, or New 2DS XL before continuing.
 {: .notice--warning}
@@ -24,11 +24,7 @@ The instructions provided only apply to the New 3DS, New 3DS XL, and New 2DS XL.
 * The latest release of [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest) (the Luma3DS `.zip` file)
 * The latest release of [super-skaterhax](https://github.com/zoogie/super-skaterhax/releases) (the release `.zip` file)
 
-#### Section I - Updating the System
-
-{% include_relative include/sysupdate.txt cfw="false" %}
-
-#### 第二節 — 準備工作
+#### 第一節 — 準備工作
 
 In this section, you will copy the files needed to trigger both super-skaterhax and the Homebrew Launcher.
 
@@ -44,7 +40,7 @@ In this section, you will copy the files needed to trigger both super-skaterhax 
 {: .notice--info}
 
 
-#### Section III - super-skaterhax
+#### Section II - super-skaterhax
 
 In this section, you will visit the browser exploit webpage, which will launch the Homebrew Launcher.
 
@@ -69,11 +65,11 @@ If you haven't already, make sure you have a working Internet connection set up 
   + If any prompts appear, approve all of them
   + If your device freezes on a yellow screen, hold the POWER button until it turns off, then retry this section
   + If your device freezes on a red screen, hold the POWER button until it turns off, redo step Step 3 of Section II, then retry this section
-  + If you get another error, [follow this troubleshooting guide](troubleshooting#homebrew-launcher-super-skaterhax)
+  + If you get another error, try again up to 5 times, and if it still doesn't work, [follow this troubleshooting guide](troubleshooting#homebrew-launcher-super-skaterhax)
 1. If the exploit was successful, your device will have booted into the Homebrew Launcher
 1. 關閉您的主機
 
-#### Section IV - Hardware Button Check 
+#### Section III - Hardware Button Check 
 
 {% include_relative include/safemodecheck.txt %}
 
@@ -81,10 +77,10 @@ ___
 
 ### Next step: Choose an exploit
 
-If you saw the system update screen in the previous section, Safe Mode is working on your device.
+If the camera appeared in the previous section, Safe Mode is likely to be working on your device.
 
-If your device booted into Safe Mode, continue to [Installing boot9strap (HBL-USM)](installing-boot9strap-(hbl-usm))
+If the camera appeared, continue to [Installing boot9strap (HBL-USM)](installing-boot9strap-(hbl-usm))
 {: .notice--primary}
 
-If your device did NOT boot into Safe Mode, continue to [Dumping Movable (nimhax)](dumping-movable-(nimhax))
+If the camera did NOT appear, continue to [Dumping Movable (nimhax)](dumping-movable-(nimhax))
 {: .notice--info}

@@ -14,7 +14,7 @@ Para detalhes técnicos sobre os exploits que você usará nesta página, consul
 
 ### Notas de Compatibilidade
 
-Super-skaterhax (quando usado para abrir o Homebrew Launcher) é compatível com modelos New na versão 11.16.0 em todas as regiões, exceto TWN/CHN.
+Super-skaterhax (when used to launch the Homebrew Launcher) is compatible with New models on version 11.16.0 in all regions, and 11.17.0 in the EUR and JPN regions.
 
 As instruções fornecidas só se aplicam ao New 3DS, New 3DS XL e ao New 2DS XL. Por favor, certifique-se de que o dispositivo que você está modificando é um New 3DS, New 3DS XL, ou New 2DS XL antes de continuar.
 {: .notice--warning}
@@ -24,11 +24,7 @@ As instruções fornecidas só se aplicam ao New 3DS, New 3DS XL e ao New 2DS XL
 * A versão mais recente do [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest) (o arquivo `.zip` do Luma3DS)
 * A versão mais recente do [super-skaterhax](https://github.com/zoogie/super-skaterhax/releases) (o arquivo de release `.zip`)
 
-#### Seção I - Atualizando o Sistema
-
-{% include_relative include/sysupdate.txt cfw="false" %}
-
-### Seção II - Preparação
+#### Seção I - Preparação
 
 Nesta seção, você irá copiar os arquivos necessários para acionar tanto superskaterhax quanto o Homebrew Launcher.
 
@@ -44,7 +40,7 @@ Nesta seção, você irá copiar os arquivos necessários para acionar tanto sup
 {: .notice--info}
 
 
-#### Seção III - super-skaterhax
+#### Section II - super-skaterhax
 
 Nesta seção, você visitará a página web contendo o exploit, que iniciará o Homebrew Launcher.
 
@@ -69,11 +65,11 @@ Se você ainda não o fez, certifique-se de que você tem uma conexão de Intern
   + Se qualquer prompt aparecer, aprove todos eles
   + Se o seu dispositivo congelar em uma tela amarela, segure o botão POWER até que ele desligue, então tente novamente esta seção
   + Se o seu dispositivo congela uma tela vermelha, segure o botão POWER até que ele desligue, refaça o passo 3 da seção II e tente esta seção novamente
-  + Se você receber outro erro, [siga este guia de troubleshooting](troubleshooting#homebrew-launcher-super-skaterhax)
+  + If you get another error, try again up to 5 times, and if it still doesn't work, [follow this troubleshooting guide](troubleshooting#homebrew-launcher-super-skaterhax)
 1. Se o exploit foi bem sucedido, seu dispositivo terá inicializado o Homebrew Launcher
 1. Desligue seu dispositivo
 
-#### Seção IV - Verificação de Botões 
+#### Section III - Hardware Button Check 
 
 {% include_relative include/safemodecheck.txt %}
 
@@ -81,10 +77,10 @@ ___
 
 ### Próximo passo: Escolha um exploit
 
-Se você viu a tela de atualização do sistema na seção anterior, o Modo de Segurança está funcionando em seu dispositivo.
+If the camera appeared in the previous section, Safe Mode is likely to be working on your device.
 
-Caso o seu dispositivo inicie no Modo de Segurança, continue em [Instalando boot9strap (HBL-USM)](installing-boot9strap-(hbl-usm))
+If the camera appeared, continue to [Installing boot9strap (HBL-USM)](installing-boot9strap-(hbl-usm))
 {: .notice--primary}
 
-Se o seu dispositivo NÃO inicializou no Modo de Segurança, continue em [Dump do Movable(nimhax)](dumping-movable-(nimhax))
+If the camera did NOT appear, continue to [Dumping Movable (nimhax)](dumping-movable-(nimhax))
 {: .notice--info}

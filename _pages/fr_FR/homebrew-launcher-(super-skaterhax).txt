@@ -14,7 +14,7 @@ Pour des détails techniques sur les exploits que vous utiliserez sur cette page
 
 ### Notes de compatibilité
 
-Super-skaterhax (lorsqu'il est utilisé pour lancer l'Homebrew Launcher) est compatible avec les modèles New en version 11.16.0 dans toutes les régions, sauf TWN/CHN.
+Super-skaterhax (when used to launch the Homebrew Launcher) is compatible with New models on version 11.16.0 in all regions, and 11.17.0 in the EUR and JPN regions.
 
 Les instructions fournies ne s'appliquent qu'aux New 3DS, New 3DS XL et New 2DS XL. Veuillez vous assurer que la console que vous hackez est une New 3DS, New 3DS XL ou New 2DS XL avant de continuer.
 {: .notice--warning}
@@ -24,11 +24,7 @@ Les instructions fournies ne s'appliquent qu'aux New 3DS, New 3DS XL et New 2DS 
 * La dernière version de [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest) (le fichier `.zip' de Luma3DS)
 * La dernière version de [super-skaterhax](https://github.com/zoogie/super-skaterhax/releases) (le fichier `.zip`)
 
-#### Section I - Mise à jour de la console
-
-{% include_relative include/sysupdate.txt cfw="false" %}
-
-#### Section II - Préparatifs
+#### Section I - Préparatifs
 
 Dans cette section, vous copierez les fichiers nécessaires pour déclencher à la fois super-skaterhax et l'Homebrew Launcher.
 
@@ -44,7 +40,7 @@ Dans cette section, vous copierez les fichiers nécessaires pour déclencher à 
 {: .notice--info}
 
 
-#### Section III - super-skaterhax
+#### Section II - super-skaterhax
 
 Dans cette section, vous allez visiter la page web d'exploit du Navigateur Internet, qui lancera l'Homebrew Launcher.
 
@@ -69,11 +65,11 @@ Si vous ne l'avez pas déjà fait, assurez-vous d'avoir une connexion Internet f
   + Si des invites apparaissent, approuvez les tous
   + Si votre console se bloque sur un écran jaune, maintenez le bouton POWER jusqu'à ce qu'elle s'éteigne, puis réessayez cette section
   + Si votre console se bloque sur un écran rouge, maintenez le bouton POWER jusqu'à ce qu'elle s'éteigne, refaites l'étape 3 de la section II, puis recommencez cette section
-  + Si vous recevez un autre message d'erreur, [suivez ce guide de dépannage](troubleshooting#homebrew-launcher-super-skaterhax)
+  + If you get another error, try again up to 5 times, and if it still doesn't work, [follow this troubleshooting guide](troubleshooting#homebrew-launcher-super-skaterhax)
 1. Si l'exploit a réussi, votre console aura démarré dans l'Homebrew Launcher
 1. Éteignez votre console
 
-#### Section IV - Contrôle matériel des boutons 
+#### Section III - Hardware Button Check 
 
 {% include_relative include/safemodecheck.txt %}
 
@@ -81,10 +77,10 @@ ___
 
 ### Étape suivante : Choisissez un exploit
 
-Si vous avez vu l'écran de mise à jour de la console dans la section précédente, le mode sans échec fonctionne sur votre console.
+If the camera appeared in the previous section, Safe Mode is likely to be working on your device.
 
-Si votre console a démarré en mode sans échec, continuez vers [Installer boot9strap (HBL-USM)](installing-boot9strap-(hbl-usm))
+If the camera appeared, continue to [Installing boot9strap (HBL-USM)](installing-boot9strap-(hbl-usm))
 {: .notice--primary}
 
-Si votre console ne démarre PAS en mode sans échec, continuez vers [Dumping du Movable (nimhax)](dumping-movable-(nimhax))
+If the camera did NOT appear, continue to [Dumping Movable (nimhax)](dumping-movable-(nimhax))
 {: .notice--info}
