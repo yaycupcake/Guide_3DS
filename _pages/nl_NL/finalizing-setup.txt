@@ -13,16 +13,16 @@ Op deze pagina zullen we een belangrijke back-up maken van de systeembestanden e
 + **FBI** *(installeert CIA-geformatteerde applicaties)*
 + **Anemone3DS** *(installeert custom thema's)*
 + **Checkpoint** *(maakt back-ups van saves en kan saves herstellen voor 3DS en DS spellen)*
-+ ** Universal-Updater** *(een homebrew app store voor het downloaden van homebrew op de 3DS via wifi)*
++ **Universal-Updater** *(een homebrew app store voor het downloaden van homebrew op de 3DS via wifi)*
 + **GodMode9** *(multifunctionele tool met NAND en cartridge functies)*
 + **Homebrew Launcher Loader** *(start de Homebrew Launcher)*
-+ **DSP1** *(zorgt ervoor dat homebrew applicaties geluid kunnen hebben)*
-+ **ctr-no-timeoffset** *(stelt de HOME Menu-tijd in die overeenkomt met de interne Real-Time Clock)*
 
 Het is niet aan te raden om het downloaden van een van deze applicaties over te slaan, omdat velen van hen later op deze pagina zullen worden gebruikt. Aan het einde van deze pagina wordt je SD-kaart opgeschoond door onnodige installatiebestanden te verwijderen.
 {: .notice--warning}
 
-Als je **New 3DS** op firmware 2.1.0 zat voor het volgen van deze handleiding zou je je [NAND back-up moeten herstellen](godmode9-usage#restoring-a-nand-backup) voordat je verder gaat.
+### Compatibility Notes
+
+Als je **New 3DS** versie 2.1.0 was voor het volgen van deze handleiding, moet je je [NAND-backup herstellen](godmode9-usage#restoring-a-nand-backup) voordat je verder gaat. This likely doesn't apply to you unless you were following this guide in 2017.
 {: .notice--warning}
 
 Als je vorige CFW setup was gebaseerd op EmuNAND en je wilt de inhoud van je EmuNAND/RedNAND verplaatsen naar SysNAND, Volg [EmuNAND verplaatsen](move-emunand) voor het volgen van deze pagina. Als je niet weet wat een EmuNAND is, dan is dit niet van toepassing op jou.
@@ -30,20 +30,18 @@ Als je vorige CFW setup was gebaseerd op EmuNAND en je wilt de inhoud van je Emu
 
 ### Wat je nodig hebt
 
-* De nieuwste versie van [Anemone3DS](https://github.com/astronautlevel2/Anemone3DS/releases/latest) (download het `.cia` bestand)
-* De v3.7.4 release van [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases/tag/v3.7.4) (download het `.cia` bestand)
-* De nieuwste versie van [Homebrew Launcher Wrapper](https://github.com/mariohackandglitch/homebrew_launcher_dummy/releases/latest) (download het `.cia` bestand)
-* De nieuwste versie van [Universal-Updater](https://github.com/Universal-Team/Universal-Updater/releases/latest) (download het `.cia` bestand)
-
-* De nieuwste versie van [ctr-no-timeoffset](https://github.com/ihaveamac/ctr-no-timeoffset/releases/latest) (download het `.3dsx` bestand)
-* De nieuwste versie van [DSP1](https://github.com/zoogie/DSP1/releases/latest) (download het `.3dsx` bestand)
-
-* De nieuwste versie van [FBI](https://github.com/Steveice10/FBI/releases/latest) *(download zowel de `.3dsx` als de `.cia` bestanden)
-* De nieuwste versie van [GodMode9](https://github.com/d0k3/GodMode9/releases/latest) (download het GodMode9 `.zip` bestand)
+* De nieuwste versie van [Anemone3DS](https://github.com/astronautlevel2/Anemone3DS/releases/latest) (het `.cia` bestand)
+* The v3.7.4 release of [Checkpoint](https://github.com/BernardoGiordano/Checkpoint/releases/tag/v3.7.4) (the `.cia` file)
+* De nieuwste versie van [Homebrew Launcher Wrapper](https://github.com/mariohackandglitch/homebrew_launcher_dummy/releases/latest) (het `.cia` bestand)
+* De nieuwste versie van [Universal-Updater](https://github.com/Universal-Team/Universal-Updater/releases/latest) (het `.cia` bestand)
+* De nieuwste versie van [FBI](https://github.com/Steveice10/FBI/releases/latest) (download zowel de `.3dsx` als de `.cia` bestanden)
+* De nieuwste versie van [GodMode9](https://github.com/d0k3/GodMode9/releases/latest) (het GodMode9 `.zip` bestand)
 
 ### Instructies
 
 #### Deel I - Voorbereiding
+
+In this section, you will copy the files necessary to follow the rest of the instructions on this page.
 
 1. Schakel je 3DS uit
 1. Plaats je SD kaart in je computer
@@ -51,58 +49,75 @@ Als je vorige CFW setup was gebaseerd op EmuNAND en je wilt de inhoud van je Emu
 1. Kopieer alle CIA bestanden (`Anemone3DS.cia`, `Checkpoint.cia`, `FBI.cia`, `Homebrew_Launcher.cia`, en `Universal-Updater.cia`) naar de `/cias/` map op je SD-kaart
 1. Maak een map genaamd "3ds" op de hoofdmap van je SD-kaart als die nog niet bestaat
     + Deze map bewaart homebrew applicaties en gegevens; het is anders dan de `Nintendo 3DS` map die je 3DS automatisch genereert
-1. Kopieer alle 3DSX bestanden (`ctr-no-timeoffset.3dsx`, `DSP1.3dsx`, en `FBI.3dsx`) naar de `/3ds/` map op je SD-kaart
+1. Kopieer `FBI.3dsx` naar de `/3ds/` map op je SD-kaart
 1. Maak een map genaamd `payloads` aan in de `luma` folder in je SD-kaart als deze nog niet bestaat
 1. Kopieer `GodMode9.firm` van de GodMode9 `.zip` naar de `/luma/payloads/` map op je SD-kaart
 1. Kopieer de `gm9` map uit de GodMode9 `.zip` naar de hoofdmap van je SD-kaart
 1. Stop je SD kaart terug in je 3DS
 1. Zet je 3DS aan
 
-    ![]({{ "/images/screenshots/finalizing-root-layout.png" | absolute_url }})
-    {: .notice--info}
-    ![]({{ "/images/screenshots/godmode9-location.png" | absolute_url }})
-    {: .notice--info}
+The screenshots below indicate the minimum SD card layout that is required to follow this page. Je hebt mogelijk extra bestanden of mappen op je SD-kaart, afhankelijk van je vorige setup of de methode die je hebt gevolgd.
 
-Deze screenshots geven de minimale SD-kaart layout aan die nodig is om deze pagina te volgen. Je hebt mogelijk extra bestanden of mappen op je SD-kaart, afhankelijk van je vorige setup of de methode die je hebt gevolgd.
+![]({{ "/images/screenshots/finalizing-root-layout.png" | absolute_url }})
+{: .notice--info}
 
-#### Deel II - Het systeem bijwerken
+![]({{ "/images/screenshots/godmode9-location.png" | absolute_url }})
+{: .notice--info}
 
-1. Update je 3DS door naar System Settings en dan naar "Algemene Instellingen" te gaan. Ga in dat menu helemaal naar rechts en klik op "Systeemupdate"
-  + Updaten terwijl je gebruik maakt van B9S + Luma (wat jij hebt) is veilig
-  + De updater kan een bericht weergeven met de woorden "Your system is up to date" in plaats van te updaten. Dit is normaal als je al up to date bent; ga door met het volgende deel
-  + Als dit je een foutmelding geeft, zet dan je DNS instellingen op "auto"
-  + Als je hierna nogsteeds een foutmelding krijgt, [volg dan deze handleiding voor probleemoplossingen](troubleshooting#unable-to-update-device)
 
-#### Deel III - Homebrew Launcher
+#### Section II - CFW Check
 
-1. Start de Download Play applicatie (![]({{ "/images/download-play-icon.png" | absolute_url }}){: height="24px" width="24px"})
-1. Wacht tot je de 'Nintendo 3DS' en 'Nintendo DS' knoppen ziet
+As an additional safety measure, we will perform an additional check for custom firmware. If custom firmware is not installed by this point for any reason, the next section may render your console unable to be hacked without external hardware.
+
+1. Schakel je 3DS uit
+1. Houd de (Select) knop ingedrukt
+1. Zet je 3DS aan terwijl je de (Select) knop ingedrukt houdt
+1. If the check was successful, your device should have booted into the Luma3DS configuration menu
+1. Druk op (Start) om op te slaan en opnieuw op te starten
+1. Schakel je 3DS uit
+
+If you do NOT boot into the Luma3DS configuration menu, custom firmware was not installed on your device. Join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) and ask, in English, for help.
+{: .notice--danger}
+
+
+#### Section III - Updating the System
+
+In this section, you will update your system to the latest version, which is safe to do with custom firmware.
+
+{% include_relative include/sysupdate.txt cfw="true" %}
+
+#### Section IV - Homebrew Launcher
+
+In this section, you will temporarily replace Download Play with Homebrew Launcher (which we need to launch FBI). Download Play will automatically go back to normal once you reboot your device.
+
+{% include_relative include/launch-hbl-dlp.txt %}
+
+#### Section V - RTC and DSP Setup
+
+In this section, you will sync your 3DS internal clock with the actual time and dump the sound firmware (which is necesssary for some homebrew software to use sound properly).
+
 1. Druk tegelijkertijd op (L) + (Down) + (Select) om het Rosalina menu te openen
 1. Selecteer "Miscellaneous options"
-1. Selecteer "Switch the hb. title to the current app."
+1. Selecteer "Dump DSP firmware"
+1. Druk op (B) om door te gaan
+1. Selecteer "Nullify user time offset"
 1. Druk op (B) om door te gaan
 1. Druk op (B) om terug te gaan naar het Rosalina hoofdmenu
 1. Druk op (B) om het Rosalina menu af te sluiten
-1. Druk op (Home), en sluit dan Download Play af
-1. Open de Download Play app
-1. Nu zou je console de Homebrew Launcher moeten openen
 
-#### Deel IV - RTC en DSP Setup
-1. Start ctr-no-timeoffset van de lijst van homebrew
-1. Druk op (A) om de offset op 0 te zetten
-  Dit zal de systeem klok gelijk zetten aan de RTC date&time (die we zometeen gaan zetten)
-1. Druk op (Start) om terug te gaan naar de Homebrew Launcher
-1. Start de DSP1 app
-1. Als het klaar is, druk op (B) om de app te verwijderen en keer terug naar de Homebrew Launcher
+#### Section VI - Installing CIAs
 
-#### Deel V - CIAs installeren
+In this section, you will install several useful homebrew applications to HOME Menu.
+
 1. Start FBI uit de lijst met homebrew
 1. Navigeer naar `SD` -> `cias`
 1. Selecteer "\<current directory>"
 1. Selecteer de optie "Install and delete all CIAs" en druk op (A) om te bevestigen
 1. Druk op (Home), en sluit dan Download Play af
 
-### Deel VI - CTRNAND Luma3DS
+#### Section VII - CTRNAND Luma3DS
+
+In this section, you will use a script to copy some of Luma3DS's files to internal memory so that they can be accessed, even without an SD card inserted.
 
 1. Schakel je 3DS uit
 1. Terwijl je (Start) ingedrukt houdt, zet je jouw apparaat aan. Dit zal GodMode9 starten
@@ -118,25 +133,24 @@ Deze screenshots geven de minimale SD-kaart layout aan die nodig is om deze pagi
 1. Druk op (A) om SysNAND (lvl1) writing te ontgrendelen en voer daarna de toetsencombinatie in die wordt gegeven
 1. Druk op (A) om door te gaan
 
-#### Deel VIII - SD-kaart opschonen
+#### Section VIII - Cleanup SD Card
+
+In this section, you will use a script to remove some unnecessary files from your SD card.
 
 1. Selecteer "Cleanup SD Card"
 1. Wanneer dit gevraagd wordt, druk op (A) om verder te gaan
 1. Druk op (A) om door te gaan
 1. Druk op (B) om terug te gaan naar het hoofdmenu
 
-#### Deel VIII - Backups maken van essentiële bestanden
+#### Section IX - Backup Essential Files
+
+In this section, you will make backups of files that can be used to recover from software bricks or to recover data.
 
 1. Selecteer "Back-up Options"
 1. Selecteer "SysNAND Backup"
-1. Druk op (A) om te bevestigen
+1. Druk op (A) om het te bevestigen
   + Dit proces zal enige tijd duren
-  + Als je een error krijgt, controleer of je ten minste 1.3GB vrije ruimte hebt op je SD-kaart
-1. Druk op (A) om door te gaan
-1. Druk op (B) om terug te gaan naar het hoofdmenu
-1. Selecteer "Dump Options"
-1. Selecteer "Dump Boot9.bin & Boot11.bin"
-1. Wanneer dit gevraagd wordt, druk op (A) om verder te gaan
+  + If you get an error, look for your issue in the [troubleshooting guide](troubleshooting#finalizing-setup)
 1. Druk op (A) om door te gaan
 1. Druk op (B) om terug te gaan naar het hoofdmenu
 1. Selecteer "Exit"
@@ -149,10 +163,12 @@ Deze screenshots geven de minimale SD-kaart layout aan die nodig is om deze pagi
 1. Druk op de (Home) knop om het actiemenu te openen
 1. Selecteer "Poweroff system" om je 3DS uit te zetten
 1. Plaats je SD kaart in je computer
-1. Kopieer `<date>_<serialnumber>_sysnand_###.bin`, `<date>_<serialnumber>_sysnand_###.bin.sha`, `essential.exefs`, `<serialnumber>_boot9_###.bin`, en `<serialnumber>_boot11_###.bin` van de `/gm9/out/` map op je SD-kaart naar een veilige locatie op je computer
-  + Maak back-ups in verschillende locaties (zoals een online bestandsopslag)
+1. Copy `<date>_<serialnumber>_sysnand_##.bin`, `<date>_<serialnumber>_sysnand_##.bin.sha`, and `essential.exefs` from the `/gm9/out/` folder on your SD card to a safe location on your computer
+  + Kopieer deze back-ups naar meerdere locaties (zoals een online bestandsopslag, een externe harde schijf, etc.)
   + Deze backups kunnen je redden van een brick en/of kunnen je helpen om bestanden te herstellen van de NAND als er iets fout gaat in de toekomst
-1. Verwijder `<date>_<serialnumber>_sysnand_###.bin` en `<date>_<serialnumber>_sysnand_###.bin.sha` van de `/gm9/out/` map op je SD-kaart nadat je ze hebt gekopieerd
+1. Delete `<date>_<serialnumber>_sysnand_##.bin` and `<date>_<serialnumber>_sysnand_##.bin.sha` from the `/gm9/out/` folder on your SD card after copying it
+  + De andere back-upbestanden zijn te verwaarlozen in grootte en kunnen worden bewaard op je SD-kaart, zodat ze gemakkelijk te gebruiken zijn
+1. If you have it, copy the `/luma/backups/` folder on your SD card to a safe location on your computer
 1. Stop je SD kaart terug in je 3DS
 1. Zet je 3DS aan
 
@@ -161,7 +177,10 @@ ___
 Je bent klaar! Custom firmware is nu volledig geconfigureerd op je apparaat.
 {: .notice--success}
 
-#### Informatie en notities
+Hello! We're looking for feedback on the overall experience of following our guide. If you'd like to help out, check out the survey [here](https://forms.gle/vZNoc4QLCz5MEXCK7) (only available in English). Thanks!
+{: .notice--info}
+
+### Information and Notes
 
 {% capture notice-6 %}
 Hier zijn enkele belangrijke combos die je zou moeten kennen:
@@ -169,7 +188,7 @@ Hier zijn enkele belangrijke combos die je zou moeten kennen:
 - Terwijl je (Select) ingedrukt houdt bij het opstarten van je console kom je in het Luma3DS configuratie menu.
 - (Start) ingedrukt houden bij het opstarten van je 3DS zal GodMode9 openen, of als je meerdere payloads hebt in `/luma/payloads/`, zal Luma3DS chainloader geopend worden.
 - Druk standaard op (Left Shoulder) + (Down D-Pad) + (Select) terwijl je in 3DS modus zit zal het Rosalina menu openen. waar je systeem informatie kunt controleren, screenshots kunt maken, cheats kunt inschakelen en meer. Dit kan worden gewijzigd in het Rosalina menu.
-- Terwijl je (Start) + (Select) + (X) ingedrukt houden terwijl je 3DS opstart zal `boot9.bin`, `boot11.bin` en `otp.bin` naar de `boot9strap` map op je SD-kaart.
+- Terwijl je (Start) + (Select) + (X) ingedrukt houdt tijdens het opstarten zal een LED-notificatie een kleur tonen voor debugging. Zie de [changelog](https://github.com/SciresM/boot9strap/releases/tag/1.4) voor een lijst.
 {% endcapture %}
 
 <div class="notice--info">{{ notice-6 | markdownify }}</div>

@@ -19,50 +19,35 @@ If you see an unusual menu, STOP - you already have custom firmware! Continue fr
 #### 第二節 — 檢查系統版本
 
 1. 開啟系統設定
-1. Your system version will be displayed on the bottom right of the top screen (e.g. "Ver. 11.15.0-47U")
+1. Your system version will be displayed on the bottom right of the top screen (e.g. 『Ver. 11.17.0-50U")
 
 #### 第三節 — 選擇改機方式
 
-Use the version table below to select a method. A few things to note:
-  + The version table below is *inclusive*. 比方說，『從 11.4 到 11.14.0』，包括著11.4.0版、11.14.0版、以及任何中間的版本。
-  + Software versions do not work the same as decimals. Versions 11.10.0 and above are newer than 11.3.0, and are therefore not compatible with Soundhax.
-  + The number and letter after the system version are not important.
-  + No matter the method you follow, the end result is the same (boot9strap+Luma3DS custom firmware setup on the latest firmware).
+To find the correct method for your device, please enter the system version you found in Section II.
 
-<table>
-  <colgroup>
-    <col span="1" style="width: 20%;">
-    <col span="1" style="width: 40%;">
-  </colgroup>
-  <thead>
-    <tr>
-      <th style="text-align: center">系統版本</th>
-      <th style="text-align: center">步驟</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: center; font-weight: bold;">11.15.0 (最新版本)</td>
-      <td style="text-align: center; font-weight: bold;"><a href="seedminer">Seedminer</a></td>
-    </tr>
-	  <tr>
-      <td style="text-align: center; font-weight: bold;">11.4.0 至 11.14.0</td>
-      <td style="text-align: center; font-weight: bold;">透過系統設定將您的 3DS 更新至最新版本</td>
-    </tr>
-    <tr>
-      <td style="text-align: center; font-weight: bold;">1.0.0 to 11.3.0</td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-(soundhax)">安裝boot9strap (透過 Soundhax)</a></td>
-    </tr>
-  </tbody>
-</table>
+{% capture noneSelected %}
+System model is required.
+{% endcapture %}
+
+{% capture invalidVersion %}
+This doesn't seem to be a valid system version.
+{% endcapture %}
+
+{% capture methodUnavailable %}
+You currently cannot hack your 3DS on this version using the main methods. If you want to hack your console, you have to use ntrboot.
+
+Information about firmware 11.17.0 is rapidly evolving. For the latest information, join <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew on Discord</a>.
+{% endcapture %}
+
+{% include consoleVersionSelect.html noneSelected=noneSelected invalidVersion=invalidVersion methodUnavailable=methodUnavailable %}
 
 ---
 #### 替代方式
 
-可以的話，建議先試試以上的方式再來試以下方案。
+If possible, you should follow the method given by the prompt above.
 
-Otherwise, methods that work on all versions are available, but require additional hardware:
+雖然說有適用於任何版本的改機方式，但這些方式都得用額外硬體才能達成。
 
-1. [安裝 boot9strap (透過 kartdlphax)](installing-boot9strap-(kartdlphax)) - 需要一台已改機過的 3DS 以及馬力歐賽車 7 (Mario Kart 7)
+1. [kartdlphax](installing-boot9strap-(kartdlphax)) - requires a second hacked 3DS and a copy of Mario Kart 7
 1. [ntrboot](ntrboot) - 需備有相容的 DS 燒錄卡
 1. [安裝 boot9strap (透過硬改)](installing-boot9strap-(hardmod)) - 需要焊接

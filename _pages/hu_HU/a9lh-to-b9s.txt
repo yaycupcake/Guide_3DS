@@ -10,8 +10,6 @@ Ez az oldal az arm9loaderhax felhasználóknak készült, hogy frissíthessék a
 
 A Luma3DS a jövőben csak `.firm` formátumban kerül kiadásra, amely csak a boot9strap-pel és a sighax-szel kompatibilis. Ez azt jelenti, hogy amennyiben továbbra is szeretnéd a Luma3DS frissítéseit megkapni, ezt az útmutatót kell követned, hogy eszközödet naprakésszé tedd.
 
-Ahhoz, hogy használhasd a [magnet](https://wikipedia.org/wiki/Magnet_URI_scheme) linkeket ezen az oldalon, szükséged lesz egy torrent kliensre, mint például a [Deluge](http://dev.deluge-torrent.org/wiki/Download).
-
 Ahhoz, hogy kicsomagold az oldalon található `.7z` fájlokat, egy fájl archiváló programra lesz szükséged, mint amilyen a [7-Zip](http://www.7-zip.org/) vagy a [The Unarchiver](https://theunarchiver.com/).
 
 Habár hiszünk abban, hogy az egyedi firmware online használata biztonságos, fordultak elő online hálózati bannolások a múltban, elsősorban csalásért, vagy gyanús eShop aktívitásért.
@@ -19,17 +17,17 @@ Habár hiszünk abban, hogy az egyedi firmware online használata biztonságos, 
 
 ### Amire szükséged lesz
 
-Vedd figyelembe, hogy a következő szükséges fájl, aminek a neve `secret_sector.bin` ugyanaz, mint ami a `data_input.zip` fájlokban található volt. Ha létezik már a fájl valahol a lemezeden, szükségtelen letöltened ismét, használhatod azt, ami már megvan.
-{: .notice--info}
+Ahhoz, hogy használhasd a [magnet](https://wikipedia.org/wiki/Magnet_URI_scheme) linkeket ezen az oldalon, szükséged lesz egy torrent kliensre, mint például a [qBittorrent](https://www.qbittorrent.org/download.php) vagy a [Deluge](http://dev.deluge-torrent.org/wiki/Download).
+{: .notice--warning}
 
 Vedd figyelembe, hogy New 3DS esetében a `secret_sector.bin` fájlra az arm9loaderhax exploit eltávolításához van szükség. Ezért nem kell a gyári állapotú konzolokon a boot9strap telepítéséhez. Ha ezt nem egy New 3DS-en csinálod, akkor nem kell a `secret_sector.bin`.
 {: .notice--info}
 
-* <i class="fa fa-magnet" aria-hidden="true" title="Ez egy mágneslink. Használj torrent klienst a fájl letölteséhez."></i> - **csak New 3DS felhasználóknak:** [secret_sector.bin](magnet:?xt=urn:btih:15a3c97acf17d67af98ae8657cc66820cc58f655&dn=secret_sector.bin&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2ftracker.lelux.fi%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.loadbt.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.monitorit4.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.ololosh.space%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.pomf.se%3a80%2fannounce&tr=udp%3a%2f%2ftracker.srv00.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.theoks.net%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2fopen.tracker.cl%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.zerobytes.xyz%3a1337%2fannounce&tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&tr=udp%3a%2f%2fvibe.sleepyinternetfun.xyz%3a1738%2fannounce&tr=udp%3a%2f%2fwww.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce&tr=http%3a%2f%2fopenbittorrent.com%3a80%2fannounce)
-* Az [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest) legújabb verziója 
-* A [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/tag/v7.0.5) v7.0.5 verziója *(a `.7z` fájl)*
-* A [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest) legújabb kiadása
-* A [boot9strap](https://github.com/SciresM/boot9strap/releases/download/1.3/boot9strap-1.3.zip) legújabb kiadása 
+* <i class="fa fa-magnet" aria-hidden="true" title="Ez egy mágneslink. Használj torrent klienst a fájl letölteséhez."></i> - **Csak New 3DS-t használóknak:** [secret_sector.bin](magnet:?xt=urn:btih:15a3c97acf17d67af98ae8657cc66820cc58f655&dn=secret_sector.bin&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2ftracker.lelux.fi%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.loadbt.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.monitorit4.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.ololosh.space%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.pomf.se%3a80%2fannounce&tr=udp%3a%2f%2ftracker.srv00.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.theoks.net%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2fopen.tracker.cl%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.zerobytes.xyz%3a1337%2fannounce&tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&tr=udp%3a%2f%2fvibe.sleepyinternetfun.xyz%3a1738%2fannounce&tr=udp%3a%2f%2fwww.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce&tr=http%3a%2f%2fopenbittorrent.com%3a80%2fannounce) (magnet link)
+* A [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest) legújabb kiadása (a Luma3DS `.zip` fájl)
+* A [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/download/v7.0.5/Luma3DSv7.0.5.7z) v7.0.5 verziója (közvetlen letöltés)
+* A [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/download/v0.0.7/SafeB9SInstaller-20170605-122940.zip) legfrisseb verziója (közvetlen letöltés)
+* A [boot9strap](https://github.com/SciresM/boot9strap/releases/download/1.4/boot9strap-1.4.zip) legfrisseb verziója (közvetlen letöltés)
 ### Lépések
 
 #### I. rész - Előkészületek
@@ -61,14 +59,11 @@ A most következő lépésekben mindig írd felül az SD kártyán található f
   + Ha ez egy hibát ad, akkor vagy használj egy új SD kártyát vagy formázd a jelenlegit (mentsd el a már létező fájlokat először)
 1. Várj, amíg az összes biztonsági ellenőrzés be nem fejeződik
   + Ha egy "OTP Crypto Fail" hibaüzenetet kapsz, akkor töltsd le a következőt: <i class="fa fa-magnet" aria-hidden="true" title="Ez egy mágneslink. Használj torrent klienst a fájl letöltéséhez."></i> - [aeskeydb.bin](magnet:?xt=urn:btih:d25dab06a7e127922d70ddaa4fe896709dc99a1e&dn=aeskeydb.bin&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.lelux.fi%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.loadbt.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.monitorit4.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.ololosh.space%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.pomf.se%3a80%2fannounce&tr=udp%3a%2f%2ftracker.srv00.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.theoks.net%3a6969%2fannounce&tr=udp%3a%2f%2fopen.tracker.cl%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2ftracker.zerobytes.xyz%3a1337%2fannounce&tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&tr=udp%3a%2f%2fvibe.sleepyinternetfun.xyz%3a1738%2fannounce&tr=udp%3a%2f%2fwww.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=http%3a%2f%2fopenbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce), then put it in the `/boot9strap/` folder on your SD card and try again
-1. Ha kéri, akkor nyomd meg sorban azokat a gombokat, amiket kijelez a képernyőn, hogy telepíthesd a boot9strap-et
-1. Ha ez elkészült, nyomd meg az (A) gombot az eszközöd újraindításához
-  + Ha a készüléked kikapcsol indításkor, bizonyosodj meg róla, hogy átmásoltad-e a `boot.firm` fájlt a Luma3DS `.zip` fájlból az SD kártya gyökerébe
-
-#### III. rész - Luma3DS konfigurálása
-
-1. A Luma3DS konfigurációs menüben használd az (A) gombot és a D-Pad-et, hogy bekapcsold a következőket:    
-  + **"Show NAND or user string in System Settings"**
+{%- include_relative include/install-boot9strap-safeb9sinstaller.txt inline="true" -%}
+1. A készülékednek az előzőekben a Luma3DS-be kellett bootolnia
+  + A Luma3DS konfigurációs menü a beállítások a Luma3DS egyedi firmverhez. Sok ezek közül a beállítások közül hasznos az egyedivé tételhez vagy a debuggoláshoz
+  + Az útmutató céljának megfeleléshez ezen beállítások alapértelmezett állapoton lesznek hagyva
+  + Ha fekete képernyőt kapsz, [nézd át ezt a hibaelhárítási útmutatót](troubleshooting#boot-issues-on-devices-with-custom-firmware)
 1. Mentéshez és újraindításhoz nyomd meg a (Start) gombot
 
 ___

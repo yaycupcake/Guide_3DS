@@ -19,50 +19,35 @@ Als je een ongebruikelijk menu ziet, STOP - je hebt al custom firmware! Ga verde
 #### Deel II - Systeemversie controle
 
 1. Open de System Settings app
-1. Je systeemversie wordt rechtsonder op het bovenste scherm weergegeven (bijv. "Ver. 11.15.0-47U")
+1. Je systeemversie wordt rechtsonder op het bovenste scherm weergegeven (bijv. "Ver. 11.17.0-50U")
 
 #### Deel III - Selecteer een methode
 
-Gebruik de onderstaande versietabel om een methode te kiezen. Een aantal dingen om op te merken:
-  + De onderstaande versietabel is *inclusief*. Bijvoorbeeld, "van 11.4.0 tot 11.14.0" bevat 11.4.0, 11.14.0, en alle versies daartussenin.
-  + Software-versies werken niet hetzelfde als decimalen. Versies 11.10.0 en hoger zijn nieuwer dan 11.3.0 en zijn daarom niet compatibel met Soundhax.
-  + Het nummer en de letter na de systeemversie zijn niet belangrijk.
-  + Het maakt niet uit welke methode je volgt, het eindresultaat zal hetzelfde zijn (boot9strap+Luma3DS custom firmware setup op de nieuwste firmware).
+To find the correct method for your device, please enter the system version you found in Section II.
 
-<table>
-  <colgroup>
-    <col span="1" style="width: 20%;">
-    <col span="1" style="width: 40%;">
-  </colgroup>
-  <thead>
-    <tr>
-      <th style="text-align: center">Systeem versie</th>
-      <th style="text-align: center">Wat te doen</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: center; font-weight: bold;">11.15.0 (nieuwste versie)</td>
-      <td style="text-align: center; font-weight: bold;"><a href="seedminer">Seedminer</a></td>
-    </tr>
-	  <tr>
-      <td style="text-align: center; font-weight: bold;">11.4.0 tot 11.14.0</td>
-      <td style="text-align: center; font-weight: bold;">Update je 3DS naar de nieuwste versie met behulp van System Settings</td>
-    </tr>
-    <tr>
-      <td style="text-align: center; font-weight: bold;">1.0.0 tot 11.3.0</td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-(soundhax)">Boot9strap installeren (Soundhax)</a></td>
-    </tr>
-  </tbody>
-</table>
+{% capture noneSelected %}
+System model is required.
+{% endcapture %}
+
+{% capture invalidVersion %}
+This doesn't seem to be a valid system version.
+{% endcapture %}
+
+{% capture methodUnavailable %}
+You currently cannot hack your 3DS on this version using the main methods. If you want to hack your console, you have to use ntrboot.
+
+Information about firmware 11.17.0 is rapidly evolving. For the latest information, join <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew on Discord</a>.
+{% endcapture %}
+
+{% include consoleVersionSelect.html noneSelected=noneSelected invalidVersion=invalidVersion methodUnavailable=methodUnavailable %}
 
 ---
 #### Alternatieve methoden
 
-Indien mogelijk, zul je één van de bovenstaande softwaremethoden moeten volgen.
+If possible, you should follow the method given by the prompt above.
 
 Anders zijn methoden die op alle versies werken beschikbaar, maar deze vereisen extra hardware:
 
-1. [Boot9strap installeren (kartdlphax)](installing-boot9strap-(kartdlphax)) - Hiervoor heb je een 3DS met custom firmware en een kopie van Mario Kart 7 nodig
+1. [kartdlphax](installing-boot9strap-(kartdlphax)) - requires a second hacked 3DS and a copy of Mario Kart 7
 1. [Ntrboot](ntrboot) - Hiervoor is een compatibele DS flashkaart nodig
 1. [Boot9strap installeren (Hardmod)](installing-boot9strap-(hardmod)) - dit vereist solderen

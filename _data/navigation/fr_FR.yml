@@ -19,7 +19,7 @@ main:
     title: Contribuer
     url: contribute
   - 
-    title: Changement de Région
+    title: Changement de région
     url: region-changing
   - 
     title: Désinstallation du CFW
@@ -53,6 +53,9 @@ sidebar_pages:
     title: Accueil
     url: /
   - 
+    title: Informations clés
+    url: key-information
+  - 
     title: Pour commencer
     url: get-started
   - 
@@ -62,50 +65,65 @@ sidebar_pages:
     title: Seedminer
     url: seedminer
   - 
+    title: Seedminer (TWN)
+    url: seedminer-(twn)
+  - 
     title: BannerBomb3
     url: bannerbomb3
   - 
-    title: Multiple Options
+    title: Homebrew Launcher (super-skaterhax)
+    url: homebrew-launcher-(super-skaterhax)
+  - 
+    title: Dumping du Movable (nimhax)
+    url: dumping-movable-(nimhax)
+  - 
+    title: Choix multiple
     url: multiple-options
   - 
-    title: Flashing ntrboot (3DS Single System)
+    title: Flashage de ntrboot (une seule 3DS)
     url: flashing-ntrboot-(3ds-single-system)
   - 
-    title: Flashing ntrboot (3DS Multi System)
+    title: Flashage de ntrboot (plusieurs 3DS)
     url: flashing-ntrboot-(3ds-multi-system)
   - 
-    title: Flashing ntrboot (DSi)
+    title: Flashage de ntrboot (DSi)
     url: flashing-ntrboot-(dsi)
   - 
-    title: Flashing ntrboot (NDS)
+    title: Flashage de ntrboot (NDS)
     url: flashing-ntrboot-(nds)
   - 
-    title: Homebrew Launcher (Soundhax)
-    url: homebrew-launcher-(soundhax)
+    title: BannerBomb3 + Fredtool (TWN)
+    url: bannerbomb3-fredtool-(twn)
   - 
-    title: Installing boot9strap (Hardmod)
+    title: Installation de boot9strap (Hardmod)
     url: installing-boot9strap-(hardmod)
   - 
-    title: Installing boot9strap (SafeB9SInstaller)
-    url: installing-boot9strap-(safeb9sinstaller)
+    title: Installation de boot9strap (HBL-USM)
+    url: installing-boot9strap-(hbl-usm)
   - 
-    title: Installing boot9strap (ntrboot)
+    title: Installation de boot9strap (ntrboot)
     url: installing-boot9strap-(ntrboot)
   - 
-    title: Installing boot9strap (Soundhax)
+    title: Installation de boot9strap (Soundhax)
     url: installing-boot9strap-(soundhax)
   - 
-    title: Installing boot9strap (Fredtool)
+    title: Installation de boot9strap (safecerthax)
+    url: installing-boot9strap-(safecerthax)
+  - 
+    title: Installation de boot9strap (SSLoth-Browser)
+    url: installing-boot9strap-(ssloth-browser)
+  - 
+    title: Installation de boot9strap (Fredtool)
     url: installing-boot9strap-(fredtool)
   - 
-    title: Installing boot9strap (USM)
+    title: Installation de boot9strap (USM)
     url: installing-boot9strap-(usm)
   - 
-    title: Installing boot9strap (PicHaxx)
-    url: installing-boot9strap-(pichaxx)
-  - 
-    title: Installing boot9strap (kartdlphax)
+    title: Installation de boot9strap (kartdlphax)
     url: installing-boot9strap-(kartdlphax)
   - 
-    title: Finalizing Setup
+    title: Installation de boot9strap (Frogtool)
+    url: installing-boot9strap-(frogtool)
+  - 
+    title: Finalisation de la configuration
     url: finalizing-setup

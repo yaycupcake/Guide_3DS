@@ -1,0 +1,23 @@
+Cette section réinitialisera la configuration de votre console à ses valeurs par défaut. Les jeux installés et leurs données de sauvegarde ne seront pas affectés. Ceci est nécessaire pour éviter les problèmes connus liés au mode mémoire étendue et aux applets sur certaines consoles. 
+
+1. Éteignez votre console
+1. Appuyez sur le bouton (START) et maintenez le enfoncé tout en allumant votre console. Ceci lancera GodMode9
+1. Naviguez vers `[0:] SDCARD` -> `gm9`
+1. Appuyez sur (X) sur le `.bin` de l'image CTRTransfer pour le supprimer
+1. Appuyez sur (A) pour confirmer
+1. Appuyez sur (B) plusieurs fois pour revenir au menu principal
+1. Naviguez vers `[1:] SYSNAND CTRNAND` -> `data` -> `<ID0>` -> `sysdata`
+  + Le `<ID0>` sera un dossier avec un nom d'apparence aléatoire de 32 caractères. Vous le reconnaîtrez peut-être si vous avez utilisé la méthode de Seedminer
+1. Utilisez la croix directionnelle pour mettre en surbrillance `00010017`
+1. Appuyez sur (R) + (A) pour afficher les options du dossier
+1. Sélectionnez "Copy to 0:/gm9/out"
+1. Appuyez sur (A) pour continuer
+1. Tout en mettant en surbrillance `00010017`, appuyez sur (X) pour le supprimer
+1. Appuyez sur (A) pour confirmer
+1. Appuyez sur (A) pour autoriser l'écriture (lv2) sur votre SysNAND, puis entrez la combinaison de touches demandée
+1. Une fois le fichier supprimé, appuyez sur (A) pour continuer
+1. Appuyez (A) pour reverrouiller autorisations en écriture si vous êtes invité
+1. Appuyez sur (Start) pour redémarrer votre console
+1. Votre console démarrera sur le menu de configuration initiale
+  + Ne vous inquiétez pas, c'est normal. Vous n'avez pas perdu de données de jeu
+1. Complétez la configuration initiale en suivant les instructions à l'écran de votre console

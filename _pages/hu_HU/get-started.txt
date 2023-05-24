@@ -19,50 +19,35 @@ Ha egy szokatlan menüt látsz ÁLLJ MEG - már vagy egyedi firmwared! Folytasd 
 #### II. rész - Rendszer verzió ellenőrzés
 
 1. Indítsd el a System Settings alkalmazást
-1. A rendszer verziód ki lesz írva a felső képernyő jobb alsó sarkában (pl.: "Ver. 11.15.0-47U")
+1. A rendszer verziód ki lesz írva a felső képernyő jobb alsó sarkában (pl.: "Ver. 11.17.0-50U")
 
 #### III. rész - Metódus választása
 
-Használd a lenti verzió táblát egy metódus kiválasztásához. Néhány fontos megjegyzés:
-  + A lenti verzió tábla *inkluzív*. Például a "11.4.0-tól 11.14.0-ig" magába foglalja a 11.4.0, 11.14.0, és az összes köztes verziót is.
-  + Szoftver verziók nem úgy működnek mint a tizedes jegyek. 11.10.0 és későbbi verziók újjabbak mint 11.3.0, és ezért nem kompatibilisak a Soundhax-el.
-  + A szám és betű a rendszer verzió mögött nem fontos.
-  + Nem számít melyik metódust követed, a végeremény ugyanaz (boot9strap+Luma3DS egyedi firmware telepítés a legutolsó firmware-re).
+A korrrekt metódushoz az eszközödhöz, kérjük add meg azt a rendszer verziót, amit a II. részben találtál.
 
-<table>
-  <colgroup>
-    <col span="1" style="width: 20%;">
-    <col span="1" style="width: 40%;">
-  </colgroup>
-  <thead>
-    <tr>
-      <th style="text-align: center">Rendszer verzió</th>
-      <th style="text-align: center">Tennivaló</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: center; font-weight: bold;">11.15.0 (legutolsó verzió)</td>
-      <td style="text-align: center; font-weight: bold;"><a href="seedminer">Seedminer</a></td>
-    </tr>
-	  <tr>
-      <td style="text-align: center; font-weight: bold;">11.4.0-tól 11.14.0-ig</td>
-      <td style="text-align: center; font-weight: bold;">Frissítsd a 3DS-ed a legutolsó verzióra a System Settings-en keresztül</td>
-    </tr>
-    <tr>
-      <td style="text-align: center; font-weight: bold;">1.0.0-tól 11.3.0-ig</td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-(soundhax)">Boot9strap telepítése (Soundhax)</a></td>
-    </tr>
-  </tbody>
-</table>
+{% capture noneSelected %}
+A rendszer modell szükséges.
+{% endcapture %}
+
+{% capture invalidVersion %}
+Ez nem tűnik egy érvényes rendszer verziónak.
+{% endcapture %}
+
+{% capture methodUnavailable %}
+Jelenleg nem tudod hackelni a 3DS-ed ezen a verzión a fő metódusokkal. Ha szeretnéd hackelni a konzolod, ntrbootot kell használnod.
+
+Information about firmware 11.17.0 is rapidly evolving. For the latest information, join <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew on Discord</a>.
+{% endcapture %}
+
+{% include consoleVersionSelect.html noneSelected=noneSelected invalidVersion=invalidVersion methodUnavailable=methodUnavailable %}
 
 ---
 #### Alternatív metódusok
 
-Ha lehetséges, kövesd a fent listázott szoftver metódusok egyikét.
+Ha lehetséges, azt a metódust kell követned, ami feljebb látszik.
 
 Egyéb esetekben más, az összes verziónál használható metódus elérhető, de további hardvert igényelnek:
 
-1. [Boot9strap telepítése (kartdlphax)](installing-boot9strap-(kartdlphax)) - egy 3DS-t igényel egyedi firmware-rel és egy Mario Kart 7 másolatot
+1. [kartdlphax](installing-boot9strap-(kartdlphax)) - egy második 3DS-t igényel egyedi firmware-rel és egy Mario Kart 7 másolatot
 1. [ntrboot](ntrboot) - kompatibilis DS flashcard-ra van szükség hozzá
 1. [Boot9strap telepítése (Hardmod)](installing-boot9strap-(hardmod)) - forrasztást igényel

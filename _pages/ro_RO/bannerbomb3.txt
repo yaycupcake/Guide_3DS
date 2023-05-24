@@ -4,48 +4,72 @@ title: "BannerBomb3"
 
 {% include toc title="Cuprins" %}
 
-### Lectură obligatorie
+{% capture technical_info %}
+<summary><em>Technical Details (optional)</em></summary>
 
-Pentru a descărca DSiWare de sistem, vom exploata o eroare din fereastra DSiWare Data Management de la aplicația Settings.
+To launch custom code, we exploit a flaw in the DSiWare Data Management window of the Settings application.
 
-Pentru a îndeplini asta, vom folosi cheia de criptare a sistemului dumneavoastră (movable.sed) pentru a construi o copie de rezervă DSiWare care exploatează sistemul pentru a descărca aplicația DSi Internet Settings către rădăcina cardului SD.
+To accomplish this, we use your system's encryption key (movable.sed) to build a DSiWare backup that exploits the system.
+
+For a more technical explanation, see [here](https://github.com/zoogie/Bannerbomb3).
+{% endcapture %}
+
+<details>{{ technical_info | markdownify }}</details>
+{: .notice--info}
+
+### Compatibility Notes
 
 Aceste instrucțiuni funcționează pe consolele din regiunea SUA, Europa, Japonia și Coreea, indicate de literele U, E, J, sau K după versiunea de sistem.
 
+If you have a Taiwanese console (indicated by a T after the system version), follow [this page](bannerbomb3-fredtool-(twn)) instead.
+{: .notice--warning}
+
 ### Ce aveți nevoie
 
-* Fișierul 'movable.sed' de la completarea lui [Seedminer](seedminer)
+* Your `movable.sed` file from completing Seedminer or nimhax
 
 #### Secțiunea I - Preparații
-1. Open [BannerBomb3 Tool](https://3ds.nhnarwhal.com/3dstools/bannerbomb3.php) on your computer
-1. Încărcați fișierul movable.sed folosind opțiunea "Choose File"
-1. Click "Build and Download"
-  + This will download an exploit DSiWare called `F00D43D5.bin` inside of a zip file (`BannerBomb3.zip`)
-1. Dacă dispozitivul este pornit, închideți-l
-1. Introduceți cardul SD în calculator
-1. Navigați spre `Nintendo 3DS` -> `<ID0>` -> `<ID-de--32-caractere>` -> `Nintendo DSiWare` pe cardul SD
-  + Acest `<ID0>` va fi la fel ca cel care l-ați folosit în [Seedminer](seedminer)
-  + Dacă `Nintendo DSiWare` nu există, creați-l
-1. Dacă există orice fișier de copie de rezervă DSiWare (`<8-character-id>.bin`) în acest folder, mutați-l în calculator
-  + Acesta vă va lăsa cu un folder gol de Nintendo DSiWare. Moving the files to your PC ensures you don't delete any intentional backups
-1. Copy the `F00D43D5.bin` file from the BannerBomb3 `.zip` to the `Nintendo DSiWare` folder
 
-    ![]({{ "/images/screenshots/dsiware-save-location.png" | absolute_url }})
-    {: .notice--info}
+In this section, you will copy the files needed to trigger the BannerBomb3 exploit onto your device's SD card.
 
-#### Section II - BannerBomb3
-1. Reintroduceți cardul SD în dispozitivul dumneavoastră
-1. Porniți dispozitivul
-1. Porniți System Settings pe consolă
-1. Navigați spre `Data Management` -> `DSiWare`
-1. Faceți click pe secțiunea SD Card
-  + Dispozitivul ar trebui să clipească culoarea magenta (roz/purpuriu) și apoi să facă crash câteva secunde mai târziu. Asta înseamnă că a funcționat
 1. Închideți dispozitivul
 1. Introduceți cardul SD în calculator
-1. Acum ar trebui să aveți `42383841.bin` în rădăcina cardului SD.  Aceasta este copia de rezervă DSiWare pe care o veți folosi mai târziu în ghid
-1. Navigați spre `Nintendo 3DS` -> `<ID0>` -> `<ID-de--32-caractere>` -> `Nintendo DSiWare` pe cardul SD
-  + Acest `<ID0>` va fi la fel ca cel care l-ați folosit în [Seedminer](seedminer)
-1. Ștergeți `F00D43D5.bin` din folderul Nintendo DSiWare și din calculator. Acest fișier nu mai este necesar
+1. Open [Bannerbomb3 Injector](http://3dstools.nhnarwhal.com/#/bb3gen) on your computer
+1. Upload your movable.sed using the “Choose File” option
+1. Click “Build and Download”
+  + This will download an exploit DSiWare called `F00D43D5.bin` and a payload called `bb3.bin` inside of a zip archive (`DSIWARE_EXPLOIT.zip`)
+1. Copy `bb3.bin` from `DSIWARE_EXPLOIT.zip` to the root of your SD card
+  + The root of the SD card refers to the initial directory on your SD card where you can see the Nintendo 3DS folder, but are not inside of it
+  + This file does not need to be opened or extracted
+  ![]({{ "/images/screenshots/bb3/bb3-root-layout.png" | absolute_url }}){: .notice--info}
+1. Navigate to `Nintendo 3DS` -> `<ID0>` -> `<ID1>` on your SD card
+  + `<ID0>` is the 32-letter folder name that you copied in [Seedminer](seedminer)
+  + `<ID1>` is a 32-letter folder inside of the `<ID0>`
+  + If you have multiple `<ID1>` folders, follow the instructions [here](troubleshooting#bannerbomb3)
+  ![]({{ "/images/screenshots/bb3/dsiware-location-1.png" | absolute_url }}){: .notice--info}
+1. Create a folder named `Nintendo DSiWare` inside of the `<ID1>`
+  + If you already had the folder *and* there are any existing DSiWare backup files (`<8-character-id>.bin`) inside, copy them to your PC and remove them from your SD card
+1. Copy the `F00D43D5.bin` file from `DSIWARE_EXPLOIT.zip` to the `Nintendo DSiWare` folder
 
-Continuați la [Instalând boot9strap (Fredtool)](installing-boot9strap-(fredtool))
+![]({{ "/images/screenshots/bb3/dsiware-location-2.png" | absolute_url }})
+{: .notice--info}
+
+#### Section II - Hardware Button Check
+
+In this section, you will see whether you can access Safe Mode on your device. This will determine which method you will follow on the next page.
+
+Your SD card should remain in your computer while you perform this check.
+
+{% include_relative include/safemodecheck.txt %}
+
+___
+
+### Next steps: Choose an exploit
+
+If the camera appeared in the previous section, Safe Mode is likely to be working on your device.
+
+If the camera appeared, continue to [Installing boot9strap (USM)](installing-boot9strap-(usm))
 {: .notice--primary}
+
+If the camera did NOT appear, continue to [Installing boot9strap (Fredtool)](installing-boot9strap-(fredtool))
+{: .notice--info}

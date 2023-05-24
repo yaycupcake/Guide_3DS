@@ -4,48 +4,72 @@ title: "BannerBomb3"
 
 {% include toc title="Inhalt" %}
 
-### Required Reading
+{% capture technical_info %}
+<summary><em>Technische Details (optional)</em></summary>
 
-To dump system DSiWare, we exploit a flaw in the DSiWare Data Management window of the Settings application.
+To launch custom code, we exploit a flaw in the DSiWare Data Management window of the Settings application.
 
-To accomplish this, we use your system's encryption key (movable.sed) to build a DSiWare backup that exploits the system in order to dump the DSi Internet Settings application to the SD root.
+To accomplish this, we use your system's encryption key (movable.sed) to build a DSiWare backup that exploits the system.
 
-These instructions work on USA, Europe, Japan, and Korea region consoles as indicated by the letters U, E, J, or K after the system version.
+For a more technical explanation, see [here](https://github.com/zoogie/Bannerbomb3).
+{% endcapture %}
 
-### Was du brauchst
+<details>{{ technical_info | markdownify }}</details>
+{: .notice--info}
 
-* Your `movable.sed` file from completing [Seedminer](seedminer)
+### Kompatibilitätshinweise
 
-#### Schritt I - Vorbereitungen
-1. Open [BannerBomb3 Tool](https://3ds.nhnarwhal.com/3dstools/bannerbomb3.php) on your computer
-1. Upload your movable.sed using the "Choose File" option
-1. Click "Build and Download"
-  + This will download an exploit DSiWare called `F00D43D5.bin` inside of a zip file (`BannerBomb3.zip`)
-1. If your console is powered on, power off your console
+Diese Anleitung funktioniert mit den folgenden Konsolenregionen: USA, Europa, Japan und Korea. Diese werden mit den Buchstaben U, E, J oder K nach der Systemversion angezeigt.
+
+Falls du eine Taiwanesische Konsole besitzen solltest (gekennzeichnet durch ein T nach der Systemversion), folge [dieser Anleitung](bannerbomb3-fredtool-(twn)).
+{: .notice--warning}
+
+### Was du benötigst
+
+* Your `movable.sed` file from completing Seedminer or nimhax
+
+#### Abschnitt I - Vorbereitungen
+
+In diesem Schritt wirst du die Dateien, die zum Auslösen des Bannerbomb3 Exploits benutzt werden, auf die SD-Karte deiner Konsole kopieren.
+
+1. Schalte deine Konsole aus
 1. Stecke deine SD-Karte in deinen Computer
-1. Navigate to `Nintendo 3DS` -> `<ID0>` -> `<32-character-id>` -> `Nintendo DSiWare` on your SD card
-  + This `<ID0>` will be the same one that you used in [Seedminer](seedminer)
-  + If `Nintendo DSiWare` does not exist, create it
-1. If there are any existing DSiWare backup files (`<8-character-id>.bin`) in this folder, move them to your PC
-  + This will leave you with an empty Nintendo DSiWare folder. Moving the files to your PC ensures you don't delete any intentional backups
-1. Copy the `F00D43D5.bin` file from the BannerBomb3 `.zip` to the `Nintendo DSiWare` folder
+1. Öffne den [BannerBomb3 Injector](https://3dstools.nhnarwhal.com/#/bb3gen) auf deinem Computer
+1. Lade deine movable.sed mit der "Choose File" Option hoch
+1. Klicke "Build and Download"
+  + Dies wird ein DSiWare-Backup namens `F00D43D5.bin` und einen Payload namens `bb3.bin` in einer zip Datei herunterladen (`DSIWARE_EXPLOIT.zip`)
+1. Kopiere `bb3.bin` von der `DSIWARE_EXPLOIT.zip` in das Stammverzeichnis der SD-Karte
+  + Das Stammverzeichnis der SD-Karte bezieht sich auf das ursprüngliche Verzeichnis deiner SD-Karte, wo du den Nintendo 3DS Ordner sehen kannst, aber nicht in ihm drin bist
+  + This file does not need to be opened or extracted
+  ![]({{ "/images/screenshots/bb3/bb3-root-layout.png" | absolute_url }}){: .notice--info}
+1. Gehe zu `Nintendo 3DS` -> `<ID0>` -> `<ID1>` auf deiner SD-Karte
+  + Diese `<ID0>` ist die, die du beim [Seedminer](seedminer) verwendet hast
+  + Die `<ID1>` ist ein 32 Zeichen langer Ordner in der `<ID0>`
+  + If you have multiple `<ID1>` folders, follow the instructions [here](troubleshooting#bannerbomb3)
+  ![]({{ "/images/screenshots/bb3/dsiware-location-1.png" | absolute_url }}){: .notice--info}
+1. Erstelle einen Ordner mit dem Namen `Nintendo DSiWare` innerhalb der `<ID1>`
+  Wenn du bereits den Ordner hattest, *und* du hast schon DSiWare Backup Dateien darin hast (`<8-Charakter-ID>.bin`), kopiere sie zu deinem Computer und lösche sie von deiner SD-Karte
+1. Kopiere die `F00D43D5.bin` Datei aus `DSIWARE_EXPLOIT.zip` in den `Nintendo DSiWare` Ordner
 
-    ![]({{ "/images/screenshots/dsiware-save-location.png" | absolute_url }})
-    {: .notice--info}
+![]({{ "/images/screenshots/bb3/dsiware-location-2.png" | absolute_url }})
+{: .notice--info}
 
-#### Section II - BannerBomb3
-1. Stecke deine SD-Karte nun wieder in deinen 3DS
-1. Schalte deine Konsole an
-1. Launch System Settings on your device
-1. Navigate to `Data Management` -> `DSiWare`
-1. Click on the SD Card section
-  + Your system should flash Magenta (pink/purple) and then crash a few seconds later. This means it worked
-1. Schalte deinen 3DS aus
-1. Stecke deine SD-Karte in deinen Computer
-1. You should now have `42383841.bin` in SD root.  This is the DSiWare backup you will use later in the guide
-1. Navigate to `Nintendo 3DS` -> `<ID0>` -> `<32-character-id>` -> `Nintendo DSiWare` on your SD card
-  + This `<ID0>` will be the same one that you used in [Seedminer](seedminer)
-1. Delete `F00D43D5.bin` from the Nintendo DSiWare folder and from your computer. This file will not be needed anymore
+#### Abschnitt II - Tastenfunktionalität überprüfen
 
-Continue to [Installing boot9strap (Fredtool)](installing-boot9strap-(fredtool))
+In this section, you will see whether you can access Safe Mode on your device. This will determine which method you will follow on the next page.
+
+Your SD card should remain in your computer while you perform this check.
+
+{% include_relative include/safemodecheck.txt %}
+
+___
+
+### Nächste Schritte: Wähle einen Exploit
+
+If the camera appeared in the previous section, Safe Mode is likely to be working on your device.
+
+If the camera appeared, continue to [Installing boot9strap (USM)](installing-boot9strap-(usm))
 {: .notice--primary}
+
+If the camera did NOT appear, continue to [Installing boot9strap (Fredtool)](installing-boot9strap-(fredtool))
+{: .notice--info}

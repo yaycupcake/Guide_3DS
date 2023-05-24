@@ -4,76 +4,13 @@ title: "Seedminer"
 
 {% include toc title="内容目录" %}
 
-### 重要事项
-
-为了在你的主机上安装 boot9strap，我们需要获得你主机上的唯一加密密钥。 为了做到这点，我们使用了一个叫 Seedminer 的工具来计算你主机的数据加密密钥（movable.sed）。
-
-如果想要了解 Seedminer 是怎么工作的，请参见此[介绍资料](https://zoogie.github.io/web/34⅕c3)。
-
-本教程需要利用一个高性能的显卡来进行一些计算。 不过有一个志愿者网站可以帮助你做需要显卡的步骤。
-
-### 操作步骤
-
-#### 第一步 – 准备工作
-
-1. 将你的 SD 卡插入到电脑
-1. 打开你 SD 卡的 `Nintendo 3DS` 文件夹
-1. 复制你在 Nintendo 3DS 文件夹内看到的 32 位字符文件夹的名称
-  + 不要再点进任何文件夹
-  + 如果你看到了多个文件夹，请[参考这些步骤](troubleshooting#multiple-long-folder-names-in-nintendo-3ds-folder)来解决
-
-	![]({{ "/images/screenshots/id0-example.png" | absolute_url }})
-	{: .notice--info}
-1. 将这个 32 位的字符串粘贴到记事本中，等一下会用到它
-  + 这个文件夹名也称作 “ID0”
-1. 启动你的主机
-  + 此时不需要插入 SD 卡
-1. 开启你的好友列表（主菜单中最上方的[橙色的笑脸]({{ "/images/friend-list-icon.png" | absolute_url }})）
-  + 如果出现错误信息并被踢回到主菜单，则你需要创建一个 Mii 形象或你的主机无法连接到任天堂服务器（由于封禁或网络问题）
-1. 找到你的 Mii 个人形象，然后在上屏寻找你的“朋友代码（Friend Code）”
-
-#### 第二步 – Seedminer
-
-1. 在你的电脑上打开 [Bruteforce Movable](https://seedminer.hacks.guide/)
-  + 这个网站可以自动替你获取 `movable_part1.sed` 文件（通过一台由机器人操控的 3DS），并破解你主机的 DSiWare 密钥（通过某自愿者的电脑运行 Seedminer 取得）
-  + 如果网站功能无法使用，请加入 [Nintendo Homebrew Discord 服务器](https://discord.gg/MWxPgEp) 并使用英文请求帮助。（请注意，如果你身处中国大陆，访问 Discord 可能需要科学上网）你也可以到译者的 [QQ 群](https://stray-soul.site/index.php/qqgroup)寻求帮助，群号为942052497。
-1. 在 “Your friend code” 选项填入你主机的 “朋友代码（Friend Code）”（只要数字，不要填入空格或破折号）
-1. 在 “Your ID0” 栏位粘贴之前复制的 32 位长的字符串
-  + 不要尝试手动输入 ID0， 确保那是你在上一节中复制并粘贴的 ID0 以防复制错了
-1. 点击 “Go”
-  + 如果网站直接跳到了 step 4，则代表网站先前已经完成过你的破解请求了。 你可以直接下载 `movable.sed` 然后继续下一步。 你无需再次添加机器人
-1. 当提示时，在你主机中的“好友注册（Register Friend）”中，添加网页给出的朋友代码
-  + 机器人的昵称是什么不重要，如果要求输入，请随便输入一个
-1. 等待网站更新
-  + 如果一直没有更新，请在刷新网页前等待几分钟。
-1. 处理信息完毕后，网页将自动进行 “Step 2: Brutefforce”
-1. 等待其完成步骤中的其余部分
-  + 这通常是很快的（1～5 分钟左右），但是在某些情况下可能会需要长达半小时。
-  + 在这个过程中，你之前添加的机器人好友可能不会在你的 3DS 上面展示 不过只要网站还在更新，这就不是个问题。
-  + 如果你已经等待了半个小时，那么请加入 [Nintendo Homebrew Discord 服务器](https://discord.gg/MWxPgEp) 并使用英文求助。你也可以到译者的 [QQ 群](https://stray-soul.site/index.php/qqgroup)寻求帮助，群号为 942052497。
-1. 等待程序自动完成后，从站点下载 `movable.sed` 文件
-  + 你在之后还会用到这个文件，请先把这个文件存起来
+{% include_relative include/seedminer-base.txt %}
 
 ___
 
-### 下一步
+### Next step: BannerBomb3
 
-一旦得到了你主机的加密密钥（`movable.sed`）后，你将需要选一个方法使用它来触发 3DS 系统漏洞，并利用漏洞来安装自制固件。  请选择以下列出的其一方法。
+Once you have your device's encryption key (`movable.sed`), you can use it in conjunction with BannerBomb3, which uses your `movable.sed` file to take advantage of exploits in the System Settings application.
 
-#### PicHaxx + universal-otherapp（推荐）
-
-此方法利用由 Seedminer 取得的 `movable.sed` 文件，把为《宝可梦：绘图方块》（Pokémon Picross）自制的存档写入游戏，然后利用 universal-otherapp 安装自制固件。
-
-此方法需要《宝可梦：绘图方块》（Pokémon Picross，可在 eShop 中免费下载），所以只有能够访问 eShop 且主机区域为美版、欧版或日版的主机才能做这个。
-
-继续至[安装 boot9strap（通过 Pichaxx）](installing-boot9strap-(pichaxx))
+继续至 [BannerBomb3](bannerbomb3)
 {: .notice--primary}
-
-#### 安装 boot9strap（通过 unSAFE_MODE）
-
-这种将使用 Seedminer 进行进一步破解的方法使用了你的 `movable.sed` 来利用所有机型都有的 SAFE_MODE 固件来进行破解系统。
-
-仅当你因为某些原因无法使用 PicHaxx + universal-otherapp 方法时，才推荐做这个方法。
-
-继续至[安装 boot9strap（通过 USM）](installing-boot9strap-(usm))
-{: .notice--warning}

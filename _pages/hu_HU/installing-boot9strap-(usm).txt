@@ -4,7 +4,8 @@ title: "Boot9strap telepítése (USM)"
 
 {% include toc title="Tartalomjegyzék" %}
 
-### Fontos tudnivalók
+{% capture technical_info %}
+<summary><em>Technikai részletek (opcionális)</em></summary>
 
 Ahhoz, hogy a SAFE_MODE-ot exploitálhassuk, be kell injektálnunk egy exploitált WiFi profilt.
 
@@ -14,86 +15,89 @@ Hogy ezt elérjük, a rendszer titkosítási kulcsoddal (movable.sed) újra ép�
 
 Amint a WiFi profil injektálásra került, a SAFE_MODE-ot fogjuk használni, ami egy helyreállítás szolgáltatás, ami elérhető minden 3DS konzolon, hogy aktiválja az exploitolt WiFi profilt.
 
+További technikai információkért a Bannerbom3 és az unSAFE_MODE exploitokról kövesd ezeket a linkeket: [BannerBomb3](https://github.com/zoogie/Bannerbomb3), [unSAFE_MODE](https://github.com/zoogie/unSAFE_MODE/).
+
+{% endcapture %}
+<details>{{ technical_info | markdownify }}</details>
+{: .notice--info}
+
+### Kompatibilitási megjegyzések
+
 Az utasítások az Amerikai, Európai, Japán és Koreai régiójú konzolokon működnek, amik a rendszer verzió mögött egy U, E, J vagy K betű jelöl.
 
-Ha a (Jobb/Bal Váll), (D-Pad Fel) vagy (A) gombjaid nem működnek, [a Seedminer egy alternatív ágát](bannerbomb3) kell követned. Ha támogatásra van szükséged az anyaggal kapcsolatosan, csatlakozz a [Nintendo Homebrew-hoz Discord-on](https://discord.gg/MWxPgEp) és kérj, angolul, támogatást.
+Ha a (Jobb/Bal Váll), (D-Pad Fel) vagy (A) gombjaid nem működnek, [a Seedminer egy alternatív ágát](installing-boot9strap-(fredtool)) kell követned. Ha támogatásra van szükséged az anyaggal kapcsolatosan, csatlakozz a [Nintendo Homebrew-hoz Discord-on](https://discord.gg/MWxPgEp) és kérj, angolul, támogatást.
 {: .notice--warning}
 
 ### Amire szükséged lesz
 
-* A `movable.sed` fájlodra a [Seedminer](seedminer)-ből
-* Az [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest) legújabb verziója
+* A [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/download/v0.0.7/SafeB9SInstaller-20170605-122940.zip) legfrisseb verziója (közvetlen letöltés)
+* A [boot9strap](https://github.com/SciresM/boot9strap/releases/download/1.4/boot9strap-1.4.zip) legfrisseb verziója (közvetlen letöltés)
+* A [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest) legújabb kiadása (a Luma3DS `.zip` fájl)
+* [usm.bin](https://github.com/zoogie/unSAFE_MODE/releases/download/v1.3/usm.bin) (közvetlen letöltés)
+
 
 #### I. rész - Előkészületek
 
-1. Ha a konzolod be van kapcsolva, most kapcsold ki
-1. Nyisd meg az [unSAFE_MODE Exploit Injector](https://3ds.nhnarwhal.com/3dstools/unsafemode.php/) oldalt a számítógépeden
-1. Töltsd fel a `movable.sed` fájlod a "Choose File" opcióval
-1. Kattints a "Build and Download"-ra
-  + Ez letölt egy exploit DSiWare-t `F00D43D5.bin` néven és egy SAFE_MODE exploit adatfájlt `usm.bin` néven egy zip mappán belül (`unSAFE_MODE.zip`)
-1. Helyezd az SD kártyád a számítógépbe
+Ebben a fejezetben fel fogod másolni azokat a fájlokat az eszközöd SD kártyájára, amik ahhoz szükségesek, hogy kiváltsák az unSAFE_MODE exploit-ot.
+
+1. Az SD kártyádnak be kell helyezve lennie a számítógépedbe
+1. Másold az `usm.bin` fájlt az SD kártyád gyökerébe
 1. Másold át a `boot.firm` és `boot.3dsx` fájlt a Luma3DS `.zip`-ből az SD kártya gyökerébe
   + Az SD kártya gyökere a kezdőkönyvtárt jelenti az SD kártyán, ahol látható a Nintendo 3DS könyvtár, de nem vagyunk benne
-1. Másold át a `usm.bin` fájlt az `unSAFE_MODE.zip`-ből az SD kártya gyökerébe
-1. Navigálj a `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `Nintendo DSiWare` mappába az SD kártyán
-  + Az `<ID0>` ugyanaz, mint amit a [Seedminer](seedminer)-nél használtál
-  + Az `<ID1>` egy 32 karakter hosszú nevű mappa az `<ID0>` mappában
-  + Ha a `Nintendo DSiWare` mappa nem létezik, hozd létre az `<ID1>` mappában
-1. Ha van más DSiWare mentés fájl (`<8-character-id>.bin`) ebben a mappában, helyezd át őket a számítógépedre
-  + Így egy üres DSiWare mappát fogsz kapni. Ha áthelyezed a fájlokat a számítógépedre, az segít abban, hogy ne törölj ki semmilyen fontos mentést
-1. Másold `F00D43D5.bin` fájlt az `unSAFE_MODE.zip`-ből a `Nintendo DSiWare` mappába
+1. Hozz létre egy mappát `boot9strap` néven az SD kártya gyökerében
+1. Másold át a `boot9strap.firm` fájlt és a `boot9strap.firm.sha` fájlt a boot9strap `.zip` fájlból az SD kártyád `/boot9strap/` mappájába
+1. Másold át a `SafeB9SInstaller.bin` fájlt a SafeB9SInstaller `.zip`-ből az SD kártyád gyökerébe
 
-    ![]({{ "/images/screenshots/dsiware-save-location.png" | absolute_url }})
-    {: .notice--info}
+![]({{ "/images/screenshots/usm/usm-root-layout.png" | absolute_url }})
+{: .notice--info}
+
+![]({{ "/images/screenshots/boot9strap-folder.png" | absolute_url }})
+{: .notice--info}
 
 #### II. rész - BannerBomb3
+
+Ebben a fejezetben elő fogod idézni a BannerBomb3 exploit-ot a DSIWare Management menü használatával, amivel felülírod a Wi-Fi slotjaid a hackelt adattal. A Wi-Fi kapcsolat beállításaid átmenetileg felülírásra kerülnek, amíg az exploit aktív.
 
 1. Tedd vissza az SD kártyád a készülékedbe
 1. Kapcsold be a készülékedet
 1. Lépj be a System Settings-be a készülékeden
-1. Navigálj ide: `Data Management` -> `DSiWare`
-1. Kattints az SD kártya részre
-  + Az eszközödnek egy menüt kell mutatnia egy kevés szöveggel
-1. Válaszd az "Inject haxx" opciót
+1. Navigálj ide: `Data Management` -> `DSiWare` -> `SD Card` ([kép](/images/screenshots/bb3/dsiware-management.png))
+  + Az eszközödnek a BB3 multihax menüt kell mutatnia
+  + If the BB3 multihax menu doesn't open, [follow this troubleshooting guide](troubleshooting#bannerbomb3)
+  + Ha a BB3 multihax menü azt mondja, hogy a "cfw installed already", akkor már van egyedi firmware-ed és [innen](checking-for-cfw) kellene folytatnod
+1. Használd a D-Pad-et a navigáláshoz, és nyomd meg az (A) gombot az "Install unSAFE_MODE" kiválasztásához
   + Az eszközöd automatikusan ki fog kapcsolni
+1. Kapcsold be a készülékedet
+1. Lépj be a System Settings-be a készülékeden
+1. Navigálj az `Internet Settings` -> `Connection Settings` opciókhoz
+1. Ensure that all three connections are named "Haaaaaaaxxxxxxxxx..."
+  + Do NOT change these settings!
+  + If all three connections are NOT all named "Haaaaaaaxxxxxxxxx...", STOP! Something went wrong in this section and MUST be fixed before you can continue
+1. Kapcsold ki a készüléked
 
 #### III. rész - unSAFE_MODE
 
-1. Az eszközöd kikapcsolt állapotában tartsd nyomva a következő gombokat: (Bal Váll) + (Jobb Váll) + (D-Pad Fel) + (A), majd nyomd meg a (Power)-t
-  + Tartsd nyomva a gombokat, amiíg a konzol be nem bootol a Safe Mode-ba
-1. Nyomj "OK"-ot a frissítés elfogadásához
-  + Nincs frissítés. Ez része az exploitnak
-1. Nyomj az "I accept"-re a feltételek elfogadásához
-1. A frissítés sikertelen lesz a `003-1099` hibakóddal. Ez az elvárt viselkedés
-1. Amikor megkérdezésre kerül, hogy "Would you like to configure Internet settings?", válassz "Yes"-t
-1. A következő menüben navigálj a `Connection 1` -> `Change Settings` -> `Next Page (jobb nyíl)` -> `Proxy Settings` -> `Detailed Setup` menüponthoz
-  + Itt egy [vizuális reprezentáció](https://uwuu.ca/images/safemode_highlighted.png)
-1. Amint azt látod a felső képernyőn, hogy `B9S install SUCCESS` nyomj meg egy billentyűt az Luma Configuration-ba rebootoláshoz
+{% include_relative include/exploit-usm.txt %}
 
-#### IV. rész - Luma3DS konfigurálása
+#### IV. rész - boot9strap telepítése
 
-1. A készülékednek az előzőekben a Luma3DS-be kellett bootolnia
-  + Bármikor elérheted a Luma3DS konfigurációs menüt kikapcsolással, majd a SELECT gomb nyomva tartása melletti bekapcsolással
-  + Ha fekete képernyőt kapsz, [nézd át ezt a hibaelhárítási útmutatót](troubleshooting#boot-related-issues-on-modded-devices)
-1. Használd az (A) gombot és D-Pad-et a következő engedélyezéséhez:
-  + **"Show NAND or user string in System Settings"**
-1. Mentéshez és újraindításhoz nyomd meg a (Start) gombot
+{% include_relative include/install-boot9strap-safeb9sinstaller.txt %}
+{%- include_relative include/configure-luma3ds.txt %}
 
-Ezen a ponton a konzolod alapértelmezetten bebootol a Luma3DS-be egészen addig, amíg az SD kártya be van helyezve.
-  + A Luma3DS nem néz ki másként, mint a normál HOME Menü. Ha a konzolod bebootolt a HOME Menübe, akkor egyedi firmware-t futtat.
-  + A következő oldalon be fogod másolni a Luma3DS-t a belső memóriába, így SD kártya nélkül is fogsz tudni bootolni.
+{% include_relative include/luma3ds-installed-note.txt %}
 
 #### V. rész - A WiFi Configuration Profiles visszaállítása
 
+Ebben a fejezetben elő fogod idézni a BannerBomb3 exploit-ot egy második alkalommal, hogy helyreállítsd a Wi-Fi kapcsolat slot-okat, amik felülírásra kerültek a II. részben.
+
 1. Lépj be a System Settings-be a készülékeden
-1. Navigálj ide: `Data Management` -> `DSiWare`
-1. Kattints az SD kártya részre
-  + Az eszközödnek egy menüt kell mutatnia egy kevés szöveggel
-1. Válaszd a "Restore slots" opciót
-  + Az eszközöd automatikusan ki fog kapcsolni
+1. Navigálj ide: `Data Management` -> `DSiWare` -> `SD Card` ([kép](/images/screenshots/bb3/dsiware-management.png))
+1. Használd a D-Pad-et a navigáláshoz, és nyomd meg az (A) gombot az "Uninstall unSAFE_MODE" kiválasztásához
+  + Az eszközöd automatikusan újra fog indulni
+1. Kapcsold ki a készüléked
 1. Helyezd az SD kártyád a számítógépbe
 1. Navigálj a `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `Nintendo DSiWare` mappába az SD kártyán
-1. Töröld `F00D43D5.bin` fájlt a Nintendo DSiWare mappából
+1. Töröld ki a `F00D43D5.bin` fájlt a Nintendo DSiWare mappádból és a számítógépedről. Ez nem fog kelleni többet
 
 ___
 

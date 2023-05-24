@@ -10,11 +10,11 @@ Tämä lisäosio opastaa sinua tarkistamaan SD-korttisi virheiden varalta F3-ohj
 
 SD-korttisi koosta ja tietokoneesi nopeudesta riippuen tämä prosessi voi kestää jopa useita tunteja!
 
-Tämä sivu on vain Linux-käyttäjille. Jos et käytä Linuxia, tutustu sivuun [H2testw (Windows)](h2testw-(windows)) tai [F3X (Mac)](f3x-(mac)).
+Tämä sivu on vain Linux-käyttäjille. If you are not on Linux, check out the [H2testw (Windows)](h2testw-(windows)) or [F3XSwift (Mac)](f3xswift-(mac)) pages.
 
 ### Tarpeet
 
-* The latest version of [F3](https://github.com/AltraMayor/f3/releases/latest)
+* The latest version of [F3](https://github.com/AltraMayor/f3/releases/tag/v8.0)
 
 ### Ohjeet
 

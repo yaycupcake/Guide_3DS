@@ -180,7 +180,7 @@ $(document).ready(function() {
 
   var sidebar_shown = true;
   var sidebar_hidden_pages = ["404", "a9lh-to-b9s", "credits", "donations", "dumping-titles-and-game-cartridges",
-                              "f3-(linux)", "f3xswift-(mac)", "faq", "file-extensions-(windows)", "get-started",
+                              "f3-(linux)", "f3xswift-(mac)", "faq", "file-extensions-(windows)",
                               "godmode9-usage", "h2testw-(windows)", "region-changing", "site-navigation", "troubleshooting",
                               "uninstall-cfw","updating-b9s", "why-ads", "privacy-policy", "checking-for-cfw"];
 
@@ -200,20 +200,27 @@ $(document).ready(function() {
   // the value is the key to the displayed route in the device_common/old/new variable below
   // 
   var methods = {
-    "homebrew-launcher-(soundhax)": "0",
-    "installing-boot9strap-(soundhax)": "1",
-    "ntrboot": "2",
-    "flashing-ntrboot-(3ds-single-system)": "3",
-    "flashing-ntrboot-(3ds-multi-system)": "4",
-    "flashing-ntrboot-(dsi)": "5",
-    "flashing-ntrboot-(nds)": "6",
-    "installing-boot9strap-(hardmod)": "7",
-    "seedminer": "8",
-    "installing-boot9strap-(fredtool)": "9",
-    "bannerbomb3": "10",
-    "installing-boot9strap-(usm)": "11",
-	  "installing-boot9strap-(pichaxx)": "12",
-    "installing-boot9strap-(kartdlphax)": "13",
+    "installing-boot9strap-(soundhax)": "0",
+    "ntrboot": "1",
+    "flashing-ntrboot-(3ds-single-system)": "2",
+    "flashing-ntrboot-(3ds-multi-system)": "3",
+    "flashing-ntrboot-(dsi)": "4",
+    "flashing-ntrboot-(nds)": "5",
+    "installing-boot9strap-(hardmod)": "6",
+    "seedminer": "7",
+    "installing-boot9strap-(fredtool)": "8",
+    "bannerbomb3": "9",
+    "installing-boot9strap-(usm)": "10",
+    "installing-boot9strap-(kartdlphax)": "11",
+    "bannerbomb3-fredtool-(twn)": "12",
+    "installing-boot9strap-(ssloth-browser)": "13",
+    "key-information": "14",
+    "seedminer-(twn)": "15",
+    "installing-boot9strap-(frogtool)": "16",
+    "installing-boot9strap-(hbl-usm)": "17",
+    "homebrew-launcher-(super-skaterhax)": "18",
+    "dumping-movable-(nimhax)": "19",
+    "installing-boot9strap-(safecerthax)": "20"
   };
 
   for(var device in devices){
@@ -245,21 +252,27 @@ $(document).ready(function() {
     // The key/propery name must match the value associated with the page in the methods variable above
     //
     var device_common = {
-      "0": ["homebrew-launcher-(soundhax)", "installing-boot9strap-(safeb9sinstaller)", "finalizing-setup"],
-      "1": ["installing-boot9strap-(soundhax)", "finalizing-setup"],
-      "2": ["ntrboot", "multiple-options", "installing-boot9strap-(ntrboot)", "finalizing-setup"],
-      "3": ["ntrboot", "flashing-ntrboot-(3ds-single-system)", "installing-boot9strap-(ntrboot)", "finalizing-setup"],
-      "4": ["ntrboot", "flashing-ntrboot-(3ds-multi-system)", "installing-boot9strap-(ntrboot)", "finalizing-setup"],
-      "5": ["ntrboot", "flashing-ntrboot-(dsi)", "installing-boot9strap-(ntrboot)", "finalizing-setup"],
-      "6": ["ntrboot", "flashing-ntrboot-(nds)", "installing-boot9strap-(ntrboot)", "finalizing-setup"],
-      "7": ["installing-boot9strap-(hardmod)", "finalizing-setup"],
-      "8": ["seedminer", "multiple-options", "finalizing-setup"],
-      "9": ["seedminer", "multiple-options", "installing-boot9strap-(fredtool)", "finalizing-setup"],
-      "10": ["seedminer", "bannerbomb3", "installing-boot9strap-(fredtool)", "finalizing-setup"],
-      "11": ["seedminer", "installing-boot9strap-(usm)", "finalizing-setup"],
-      "12": ["seedminer", "installing-boot9strap-(pichaxx)", "finalizing-setup"],
-      "13": ["installing-boot9strap-(kartdlphax)", "finalizing-setup"],
-      "14": ["seedminer", "bannerbomb3-fredtool-(twn)", "finalizing-setup"],
+      "0": ["installing-boot9strap-(soundhax)", "finalizing-setup"],
+      "1": ["ntrboot", "multiple-options", "installing-boot9strap-(ntrboot)", "finalizing-setup"],
+      "2": ["ntrboot", "flashing-ntrboot-(3ds-single-system)", "installing-boot9strap-(ntrboot)", "finalizing-setup"],
+      "3": ["ntrboot", "flashing-ntrboot-(3ds-multi-system)", "installing-boot9strap-(ntrboot)", "finalizing-setup"],
+      "4": ["ntrboot", "flashing-ntrboot-(dsi)", "installing-boot9strap-(ntrboot)", "finalizing-setup"],
+      "5": ["ntrboot", "flashing-ntrboot-(nds)", "installing-boot9strap-(ntrboot)", "finalizing-setup"],
+      "6": ["installing-boot9strap-(hardmod)", "finalizing-setup"],
+      "7": ["seedminer", "bannerbomb3", "multiple-options", "finalizing-setup"],
+      "8": ["seedminer", "bannerbomb3", "installing-boot9strap-(fredtool)", "finalizing-setup"],
+      "9": ["seedminer", "bannerbomb3", "multiple-options", "finalizing-setup"],
+      "10": ["seedminer", "bannerbomb3", "installing-boot9strap-(usm)", "finalizing-setup"],
+      "11": ["installing-boot9strap-(kartdlphax)", "finalizing-setup"],
+      "12": ["seedminer-(twn)", "bannerbomb3-fredtool-(twn)", "finalizing-setup"],
+      "13": ["installing-boot9strap-(ssloth-browser)", "finalizing-setup"],
+      "14": ["multiple-options", "finalizing-setup"],
+      "15": ["seedminer-(twn)", "bannerbomb3-fredtool-(twn)", "finalizing-setup"],
+      "16": ["homebrew-launcher-(super-skaterhax)", "dumping-movable-(nimhax)", "installing-boot9strap-(frogtool)", "finalizing-setup"],
+      "17": ["homebrew-launcher-(super-skaterhax)", "installing-boot9strap-(hbl-usm)", "finalizing-setup"],
+      "18": ["homebrew-launcher-(super-skaterhax)", "multiple-options", "finalizing-setup"],
+      "19": ["homebrew-launcher-(super-skaterhax)", "dumping-movable-(nimhax)", "multiple-options", "finalizing-setup"],
+      "20": ["installing-boot9strap-(safecerthax)", "finalizing-setup"]
     }
     // Can add custom routing if necessary but currently both routes are identical
     var device_old =  Object.assign({}, device_common,{
@@ -276,7 +289,7 @@ $(document).ready(function() {
     }
     unhide = unhide.concat(route[device][method]);
     if(typeof unhide !== 'undefined' && unhide.length > 0){
-      unhide.push("home");
+      unhide.push("key-information")
       unhide.push("get-started");
       var ol = $('.sidebar.sticky .nav__list .nav__items ol');
       for (var i = 0; i < unhide.length; i++){

@@ -4,76 +4,13 @@ title: "Seedminer"
 
 {% include toc title="條目內容" %}
 
-### 必讀事項
-
-為安裝 boot9strap，我們將需要使用您主機特有的加密金鑰。 為達成這點，我們將透過一項稱為 Seedminer 的工具來計算您裝置中所持有的加密金鑰 (movable.sed)。
-
-如果想知道 Seedminer 怎麼運作的，請見該[投影片](https://zoogie.github.io/web/34⅕c3)。
-
-本方法需要使用高性能的顯卡來進行些許的計算。 不過有個網站可以幫你做這些需要顯卡的工作。
-
-### 操作說明
-
-#### 第一節 — 準備工作
-
-1. 將 SD 卡插入至電腦中
-1. 移動至 SD 卡的 `Nintendo 3DS` 資料夾中
-1. 複製您在Nintendo 3DS 資料夾看到的32個字元長的資料夾名稱
-  + 請不要再點擊任何一個資料夾
-  + 如果您看到多個資料夾，請遵循[此疑難排解步驟](troubleshooting#multiple-long-folder-names-in-nintendo-3ds-folder)
-
-	![]({{ "/images/screenshots/id0-example.png" | absolute_url }})
-	{: .notice--info}
-1. 將該 32 字元字串複製至記事本中；等一下會用到它
-  + 這個資料夾名稱也就是我們所謂的『ID0』
-1. 啟動您的主機
-  + 暫時還不需要插入您的 SD 卡
-1. 開啟您的好友清單 (HOME 主選單中最上方的[橘色笑臉圖示]({{ "/images/friend-list-icon.png" | absolute_url }}))
-  + 如果您遇到錯誤訊息且從清單中被踢回主選單，那麼您必須先創立一個 Mii，或者您的主機無法連線至任天堂伺服器 (您的主機可能已被封殺或有網路連線之問題)
-1. 選擇您的 Mii 個人檔案，並找尋您的好友代碼
-
-#### 第二節 — Seedminer
-
-1. 於您的電腦中開啟 [Bruteforce Movable](https://seedminer.hacks.guide/)
-  + 此網站可自動替您取得 `movable_part1.sed` (透過一台機器操控的 3DS 主機)，並破解您裝置的 DSiWare 加密金鑰 (透過某自願者的電腦運行 Seedminer)
-  + 如果本網站無法正常使用，請加入[Nintendo Homebrew Discord 伺服器](https://discord.gg/MWxPgEp)以英文的方式請求幫助
-1. 輸入您裝置的好友代碼 (勿含空白或減號) 至『Your friend code (您的好友代碼)』欄位中
-1. 輸入您主機的 32 字元辨識碼 (剛請您複製至記事本中的號碼) 至『Your ID0』欄位中
-  + 請不要試著手動輸入 ID0。 確保那是您在上一節中複製並貼上的ID0以防止您貼錯了
-1. 選擇『Go』
-  + 如果網站直接跳到了步驟四，則代表之前已完成了您先前所請求的暴力破解。 您可直接下載 `movable.sed` 並直接跳到下一節。 不需要再度將機器人加至好友。
-1. 如提示時，在您的主機中的『好友註冊 (Register Friend)』新增機器人 3DS 的好友代碼
-  + The name of the bot does not matter
-1. 等待網站更新
-  + 如果遲遲尚未更新，請在刷新頁面前等待個幾分鐘
-1. 網站處理完資料後，將會自動進行『Step 2: Bruteforce』
-1. 等待執行剩下的程序
-  + 這通常是很快的 (1~5分左右)，但在某些情況下可能需要長達半小時。
-  + 在等待過程中，您剛所新增的機器 3DS 可能不會在您的 3DS 主機上顯示。 不過只要網站還有在刷新，這就不是個問題。
-  + 若您等了半小時遲遲沒有結果，那麼請加入[Nintendo Homebrew Discord 伺服器](https://discord.gg/MWxPgEp)使用英文來請求幫助
-1. 當該程序結束時下載您的 `movable.sed` 檔案
-  + 您在待會還會用到該檔案，請先將其保留
+{% include_relative include/seedminer-base.txt %}
 
 ___
 
-### 下一步
+### Next step: BannerBomb3
 
-Once you have your device's encryption key (`movable.sed`), you will use it in conjunction with other exploits to install custom firmware on your 3DS. 請選擇以下列出的其一方法。
+Once you have your device's encryption key (`movable.sed`), you can use it in conjunction with BannerBomb3, which uses your `movable.sed` file to take advantage of exploits in the System Settings application.
 
-#### PicHaxx + universal-otherapp (推薦)
-
-此方法將透過 Seedminer 來取得您主機特有的 `movable.sed` 檔案以建立一個修改後的『精靈寶可夢：繪圖方塊 (Pokémon Picross)』存檔，然後透過它啟動 universal-otherapp 以安裝自製韌體。
-
-本方法需要使用『寶可夢繪圖方塊 (Pokémon Picross)』(可於 eShop 上免費下載)；也就是說，您的主機必須為美版、歐版、或日版，且該主機得能正常存取 eShop。
-
-繼續至[安裝 boot9strap (透過 PicHaxx)](installing-boot9strap-(pichaxx))
+Continue to [BannerBomb3](bannerbomb3)
 {: .notice--primary}
-
-#### 安装 boot9strap（透過 unSAFE_MODE）
-
-這種將使用 Seedminer 進行進一步破解的方法使用了你的 『movable.sed』 來利用所有機型都有的 SAFE_MODE 韌體來進行破解系統。
-
-本方法僅適用於無法正常使用 PicHaxx + universal-otherapp 方式的人。
-
-繼續至[安裝 boot9strap (透過 USM)](installing-boot9strap-(usm))
-{: .notice--warning}

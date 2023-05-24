@@ -4,76 +4,13 @@ title: "Seedminer"
 
 {% include toc title="Tabla de contenidos" %}
 
-### Lectura requerida
-
-Para instalar boot9strap en tu consola, obtenemos la clave de encriptación exclusiva de la misma. To accomplish this, we use a tool called Seedminer to calculate the data encryption key (movable.sed) for your device.
-
-For information on how Seedminer works, see [this presentation](https://zoogie.github.io/web/34⅕c3).
-
-Este método utiliza una tarjeta gráfica potente para realizar los cálculos necesarios. Para ayudarte con este método se utiliza un sitio web mantenido por voluntarios.
-
-### Instrucciones
-
-#### Sección I - Preparativos
-
-1. Inserta tu tarjeta SD en tu computadora
-1. Ve a la carpeta `Nintendo 3DS` en tu tarjeta SD
-1. Copia el nombre de 32 caracteres de la carpeta que hay dentro de Nintendo 3DS
-  + No abras más carpetas dentro de ésta
-  + If you see multiple folders, follow [these instructions](troubleshooting#multiple-long-folder-names-in-nintendo-3ds-folder)
-
-	![]({{ "/images/screenshots/id0-example.png" | absolute_url }})
-	{: .notice--info}
-1. Pega el nombre de 32 caracteres en un documento que puedas tener a mano más tarde
-  + Este nombre se conoce también como el "ID0" de tu consola
-1. Enciende tu consola
-  + Your SD card does not need to be inserted at this point
-1. Go to your Friend List (the [orange Face Icon]({{ "/images/friend-list-icon.png" | absolute_url }}) in the top row of your HOME Menu)
-  + Si recibes un error y eres expulsado del menú, es posible que debas crear un nuevo Mii o que tu consola no se pueda conectar a los servidores de Nintendo (debido a un ban o problemas de conexión)
-1. Encuentra el perfil de tu Mii, luego busca donde dice "Código de amigo" en la pantalla superior
-
-#### Sección II - Seedminer
-
-1. Entra a [Bruteforce Movable](https://seedminer.hacks.guide/) en tu computadora
-  + Este sitio puede automatizar la obtención del `movable_part1.sed` (utilizando un bot que simula una consola 3DS) y la ruptura de la encriptación DSiWare de tu consola (utilizando la computadora de un voluntario para ejecutar Seedminer)
-  + Si el sitio no funciona, entra al [Discord de Nintendo Homebrew](https://discord.gg/MWxPgEp) (en inglés) y pide a alguien que te ayude
-1. Ingresa el código de amigo de tu consola (sin espacios ni guiones) en donde dice "Your friend code"
-1. Copia y pega el nombre de 32 caracteres donde dice "Your ID0"
-  + No intentes introducir el ID0 a mano. Asegúrate de que el ID0 se introduzca correctamente copiándolo y pegándolo desde donde lo guardaste en la sección anterior
-1. Selecciona "Go"
-  + If the site immediately goes to step 4, the website has already correctly processed your bruteforce request. You can download your `movable.sed` file and continue to the next section. You do not need to re-add the bot
-1. Cuando te lo pida, utiliza el botón de "Añadir amigo" en tu consola para añadir el código de amigo del bot que simula una consola 3DS
-  + The name of the bot does not matter
-1. Espera a que el sitio se actualice
-  + Si no lo hace, espera unos minutos antes de recargar la página una vez
-1. Una vez que el sitio procese la información, continuará automáticamente a `Step 2: Bruteforce`
-1. Espera a que el resto del proceso termine
-  + Esto es generalmente rápido (1-5 minutos) pero en algunos casos, puede tomar hasta media hora
-  + Durante este proceso, el bot que agregaste podría no ser mostrado en tu 3DS. Mientras el sitio se actualice solo, esto no es un problema
-  + Si todavía estás esperando luego de media hora, únete al [Discord de Nintendo Homebrew](https://discord.gg/MWxPgEp) (en inglés) y pide ayuda a alguien de allí
-1. When the process is completed, download your `movable.sed` file from the site
-  + Conserva este archivo ya que lo necesitarás en las próximas páginas
+{% include_relative include/seedminer-base.txt %}
 
 ___
 
-### Next Steps
+### Next step: BannerBomb3
 
-Once you have your device's encryption key (`movable.sed`), you will use it in conjunction with other exploits to install custom firmware on your 3DS. Select an exploit below.
+Once you have your device's encryption key (`movable.sed`), you can use it in conjunction with BannerBomb3, which uses your `movable.sed` file to take advantage of exploits in the System Settings application.
 
-#### PicHaxx + universal-otherapp (Recomendado)
-
-Este método que emplea Seedminer para mayor acceso utiliza tu archivo `movable.sed` para generar un archivo de guardado personalizado para Pokémon Picross, el cual puede ser usado en conjunto con universal-otherapp para instalar custom firmware.
-
-Esta ruta requiere la aplicación Pokémon Picross (Gratis en la eShop), y por lo tanto requiere acceso a la eShop y una 3DS con una región de USA, EUR o JPN.
-
-Continúa a [Instalar Boot9strap (PicHaxx)](installing-boot9strap-(pichaxx))
+Continue to [BannerBomb3](bannerbomb3)
 {: .notice--primary}
-
-#### Instalar boot9strap (unSAFE_MODE)
-
-Éste método que emplea Seedminer para mayor acceso utiliza tu archivo `movable.sed` para tomar ventaja de exploits en el firmware SAFE_MODE presente en todas las consolas 3DS.
-
-Este método sólo se recomienda si por alguna razón no puedes seguir el de PicHaxx + universal-otherapp.
-
-Continúa a [Instalar boot9strap (USM)](installing-boot9strap-(usm))
-{: .notice--warning}

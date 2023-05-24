@@ -1,42 +1,57 @@
 ---
-title: "Installing boot9strap (Soundhax)"
+title: "Instalando boot9strap (Soundhax)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Tabela de Conteúdo" %}
 
-### Required Reading
+{% capture technical_info %}
+<summary><em>Detalhes técnicos (opcional)</em></summary>
 
-Soundhax (when combined with universal-otherapp) is compatible with versions 1.0.0 through 11.3.0 in all regions.
+Para detalhes técnicos sobre os exploits que você usará nesta página, veja [aqui](https://github.com/nedwill/soundhax) e [aqui](https://github.com/TuxSH/universal-otherapp) (universal-otherapp).
 
-### What You Need
+{% endcapture %}
+<details>{{ technical_info | markdownify }}</details>
+{: .notice--info}
 
-* The latest release of [Soundhax](http://soundhax.com) *(for your region, device, and version)*
-  + If Soundhax appears in your browser as an unplayable video, press Ctrl+S or Cmd+S to save it to your computer
-* The latest release of [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
-* The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/download/1.3/boot9strap-1.3.zip)
-* The latest release of [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest)
-* The latest release of [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest)
+### Notas de Compatibilidade
 
-### Instructions
+Soundhax (quando combinado com universal-otherapp) é compatível com as versões 1.0.0 a 11.3.0 em todas as regiões.
 
-#### Section I - Prep Work
+### O que é necessário
+* A versão mais recente do [Soundhax](http://soundhax.com) *(para sua região,dispositivo e versão)*
+  + Se o Soundhax aparecer no seu navegador como um vídeo não reproduzível, pressione Ctrl+S ou Cmd+S para salvá-lo no seu computador
+* A versão mais recente do [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/download/v0.0.7/SafeB9SInstaller-20170605-122940.zip) (download direto)
+* A versão mais recente do [boot9strap](https://github.com/SciresM/boot9strap/releases/download/1.4/boot9strap-1.4.zip) (download direto)
+* A versão mais recente do [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest) (o arquivo `.zip` do Luma3DS)
+* A versão mais recente do [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest) (`otherapp.bin`)
+
+### Instruções
+
+#### Seção I - Preparação
+
+Nesta seção, você irá copiar os arquivos necessários para acionar o Soundhax e o universal-otherapp.
 
 1. Desligue seu dispositivo
 1. Insira o cartão SD no seu computador
-1. Copy the Soundhax `.m4a` to the root of your SD card
-  + The root of the SD card refers to the initial directory on your SD card where you can see the Nintendo 3DS folder, but are not inside of it
-1. Copy `otherapp.bin` to the root of your SD card
-1. Copy `boot.firm` and `boot.3dsx` from the Luma3DS `.zip` to the root of your SD card
+1. Copie o Soundhax `.m4a` para a raiz do seu cartão SD
+  + A raiz do cartão SD refere-se ao diretório inicial no seu cartão SD onde você pode ver a pasta Nintendo 3DS, mas não está dentro dela
+1. Copie `otherapp.bin` para a raiz do seu cartão SD
+1. Copie `boot.firm` e `boot.3dsx` do `.zip` do Luma3DS para a raiz do seu cartão SD
 1. Crie uma pasta chamada `boot9strap` na raiz do seu cartão SD
 1. Copie o `boot9strap.firm` e o `boot9strap.firm.sha` do `.zip` do boot9strap para a pasta `/boot9strap/` no seu cartão SD
-1. Copy `SafeB9SInstaller.bin` from the SafeB9SInstaller `.zip` to the root of your SD card
+1. Copie `SafeB9SInstaller.bin` do `.zip` do SafeB9SInstaller para a raiz do seu cartão SD
 1. Reinsira seu cartão SD no seu dispositivo
 1. Ligue o seu dispositivo
 
-    ![]({{ "/images/screenshots/uosoundhax-root-layout.png" | absolute_url }})
-    {: .notice--info}
+![]({{ "/images/screenshots/uosoundhax-root-layout.png" | absolute_url }})
+{: .notice--info}
 
-#### Section II - Launching SafeB9SInstaller
+![]({{ "/images/screenshots/boot9strap-folder.png" | absolute_url }})
+{: .notice--info}
+
+#### Seção II - Iniciando o SafeB9SInstaller
+
+Nesta seção, você irá iniciar o Soundhax através do aplicativo Som Nintendo 3DS, que usará o aplicativo universal-otherapp para iniciar o instaladorboot9strap (custom firmware).
 
 1. Reinsira seu cartão SD no seu dispositivo
 1. Ligue o seu dispositivo
@@ -48,35 +63,25 @@ Soundhax (when combined with universal-otherapp) is compatible with versions 1.0
 1. Se você nunca abriu o Som Nintendo 3DS antes e receber as dicas de como utilizá-lo de um ícone de pássaro, passe por todos os palpites dos papagaios, depois feche o aplicativo normalmente e abra-o novamente
   + Nesta situação, abrir o Soundhax imediatamente faria com que estes palpites aparecessem toda vez que o Som Nintendo 3DS fosse aberto até que isto fosse feito
 1. Vá até `/SDCARD`, depois toque "<3 nedwill 2016"
-  + Isso pode levar várias tentativas
-  + If it freezes, force the console to power off by holding the power button, then try again
-  + If your console displays a red and white screen *and* your console is on system version 9.4.0, 9.5.0, or 9.6.0, try following [Homebrew Launcher (Soundhax)](homebrew-launcher-(soundhax))
+  + Isso pode levar várias tentativas (até 10)
+  + Se você ver a mensagem "Não foi possível reproduzir", você está em uma versão do sistema incompatível com o Soundhax ou baixou a versão errada do Soundhax
+  + Se ele congelar, force o console a desligar segurando o botão de liga/desliga, e então tente novamente
+  + If you get a different error, [follow this troubleshooting guide](troubleshooting#installing-boot9strap-soundhax)
 
     ![]({{ "/images/screenshots/soundhax-launch.png" | absolute_url }})
     {: .notice--info}
 
-1. Se o exploit tiver sucesso, você terá entrado no SafeB9SInstaller
+1. Se o exploit for bem-sucedido, você terá entrado no SafeB9SInstaller
 
-#### Section III - Installing boot9strap
+#### Seção III - Instalando o boot9strap
 
-1. When prompted, input the key combo given on the top screen to install boot9strap
-1. Once it is complete, press (A) to reboot your device
+{% include_relative include/install-boot9strap-safeb9sinstaller.txt %}
+{%- include_relative include/configure-luma3ds.txt %}
 
-#### Section IV - Configuring Luma3DS
+{% include_relative include/luma3ds-installed-note.txt %}
 
-1. Seu dispositivo deve ter reiniciado no menu de configuração de Luma3DS
-  + You can access the Luma3DS configuration menu at any time by powering off, holding SELECT, then powering on your device while still holding SELECT
-  + If you get a black screen, [follow this troubleshooting guide](troubleshooting#boot-related-issues-on-modded-devices)
-1. Use o botão (A) e os botões direcionais para ativar as seguintes opções:
-  + **"Show NAND or user string in System Settings"**
-1. Aperte (Start) para salvar e reiniciar
-  + If you get an error, just continue to the next page
-
-At this point, your console will boot to Luma3DS by default as long as the SD card is inserted.
-  + Luma3DS does not look any different from the normal HOME Menu. If your console has booted into the HOME Menu, it is running custom firmware.
-  + On the next page, you will copy Luma3DS to internal memory so that you can boot without an SD card.
 
 ___
 
-### Continue to [Finalizing Setup](finalizing-setup)
+### Continue para [Finalizando a instalação](finalizing-setup)
 {: .notice--primary}

@@ -55,7 +55,7 @@ title: "轉存程式及遊戲卡帶"
 1. 按下並按住「Start」鍵，按住按鈕的同時，將您的主機開機。 這將會啟動 GodMode9
 1. 移動至 `[C:] GAMECART`
 1. 於 `[TitleID].trim.3ds` 按下「A」鍵將其選取，並選擇『NCSD image options...』，再選『Install game image』
-1. 按「A」鍵解鎖 SysNAND (lvl1) 的寫入保護，然後按下提示的按鍵組合
+1. 按『A』解鎖 SysNAND(lvl1)的寫入保護，然後按下提示的按鍵組合
 1. 完成後，您的遊戲卡帶將會在 Home 主選單中以安裝後的軟體形式呈現。
 
 ## 轉存 3DS 遊戲卡帶至 .CIA 格式
@@ -92,7 +92,7 @@ title: "轉存程式及遊戲卡帶"
 若想找出 `<TitleID>.gbavc.sav` 遊戲檔案的 Title ID，您可以在 GodMode9 的主選單中按下「Home」鍵，選擇 `Title manager`，再選 `[A:] SD CARD`，以列出所有已安裝於系統的遊戲及對應的 Title ID。
 {: .notice--info}
 
-1. Do the following process for each GBA VC game that you want to back up the save for:
+1. 為各個想備份的 GBA 虛擬主機遊戲重複下列步驟：
   + 啟動您所想要備份存檔的 GBA 虛擬主機遊戲
   + 退出遊戲
   + 關閉您的主機

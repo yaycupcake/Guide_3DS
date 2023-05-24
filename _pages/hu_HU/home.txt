@@ -5,12 +5,19 @@ header:
   overlay_color: "#5e616c" #
   overlay_image: /images/home-page-feature.jpg
   overlay_filter: 0.5
+  cta_label: "Kezdeti lépések"
+  cta_url: "/key-information"
   caption:
-excerpt: "Egy teljes útmutató egyedi 3DS firmware-hez, <br /> gyári állapottól boot9strap-ig.<br />"
+excerpt: "Egy teljes útmutató 3DS (és 2DS) egyedi firmware-hez, <br /> a gyári állapottól boot9strap-ig.<br />"
 ---
 
 Alaposan olvasd végig az összes bevezető oldalt (beleértve ezt is) mielőtt bármibe belekezdenél.
 {: .notice--info}
+
+{% capture update-notice %}
+{% include_relative include/3ds-11.17.txt %}
+{% endcapture %}
+<div class="notice--danger">{{ update-notice | markdownify }}</div>
 
 ## Mi az a Custom Firmware?
 
@@ -34,17 +41,7 @@ Az útmutató:
   + Telepít különböző homebrew szoftvereket, mint például a csomat telepítő, mentés fájl kezelő és egy homebrew app store
   + Kritikus rendszer mentéseket készít, ami segít elkerülni a brickelést (és helyreállítási adatot ment, arra az esetre, ha mégis bekövetkezne egy)
 
-## Mire van szükségem, mielőtt belekezdenék?
-
-* Habár a brickelés esélye minimalizált az évek során **nem vagyunk felelősek azért, ha valami elromlik a te eszközöd esetében**. A rossz fájl elhelyezés nem brickeli az eszközöd, de felelőtlen hozzáállás vezethet ehhez.
-* Ez az útmutató minden kereskedelmi eszközzel kompatibilis a Nintendo 3DS konzol családban (beleértve a New 3DS sorozatot és a 2DS-t is), függetlenül a régiótól és a firmware-től.
-* Habár hiszünk abban, hogy az egyedi firmware online használata biztonságos, fordultak elő online hálózati bannolások a múltban, elsősorban csalásért, vagy gyanús eShop aktívitásért.
-* Az útmutató követése nem kell, hogy adatvesztéshez vezessen, de SD kártya hiba bármikor előfordulhat. Készítsd biztonsági mentést az SD kártyádról, ha tartalmaz fontos adatot.
-* Szükséged lesz egy működő SD kártyára a 3DS-edben, valamint arra, hogy tudj fájlokat másolni erre a kártyára. A 3DS MBR/FAT32-re formázott kártyákat tud olvasni.
-  + Tanácsos leellenőrizni az SD kártyádat valamelyik programmal az alábbiak közül: [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), vagy [F3XSwift (Mac)](f3xswift-(mac)).
-* Ha Windows-t használsz a fájlok SD kártyára/kártyáról mozgatására, elképzelhető, hogy a [fájl kiteresztéseket engedélyezni szeretnéd](file-extensions-(windows)) a rossz fájlnevek elkerülése végett.
-
 ___
 
-### Tovább a [kezdeti lépésekhez](get-started)
+### Folytatás az [Alapvető információkkal](key-information)
 {: .notice--primary}

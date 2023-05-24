@@ -10,11 +10,11 @@ In questa sezione aggiuntiva verrà spiegato come verificare la presenza di erro
 
 A seconda delle dimensioni della tua scheda SD e della velocità del tuo computer, questo procedimento può durare diverse ore!
 
-Questa pagina è solo per utenti Linux. Se non sei su Linux, usa [H2testw (windows)](h2testw-(windows)) o [F3X (mac)](f3x-(mac)).
+Questa pagina è solo per utenti Linux. Se non sei su Linux, usa [H2testw (Windows)](h2testw-(windows)) o [F3XSwift (Mac)](f3xswift-(mac)).
 
 ### Cosa serve
 
-* L'ultima versione di [F3](https://github.com/AltraMayor/f3/releases/latest)
+* L'ultima versione di [F3](https://github.com/AltraMayor/f3/releases/tag/v8.0)
 
 ### Istruzioni
 

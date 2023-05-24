@@ -5,12 +5,19 @@ header:
   overlay_color: "#5e616c" #
   overlay_image: /images/home-page-feature.jpg
   overlay_filter: 0.5
+  cta_label: "Get Started"
+  cta_url: "/key-information"
   caption:
-excerpt: "最完整的 3DS 破解手册，<br /> 教你从原版主机破解成boot9strap。<br />"
+excerpt: "A complete guide to 3DS (and 2DS) custom firmware, <br /> from stock to boot9strap.<br />"
 ---
 
 请在开始操作前仔细阅读所有步骤页面（包括这个页面）。
 {: .notice--info}
+
+{% capture update-notice %}
+{% include_relative include/3ds-11.17.txt %}
+{% endcapture %}
+<div class="notice--danger">{{ update-notice | markdownify }}</div>
 
 ## 什么是自制固件？
 
@@ -20,7 +27,7 @@ excerpt: "最完整的 3DS 破解手册，<br /> 教你从原版主机破解成b
 
 * 运行为 Nintendo 3DS 制作或移植的自制软件和游戏
 * 解除锁区，让你玩其他地区的游戏
-* 使用社区制作的[主题和徽章](https://themeplaza.art)个性化你的主菜单
+* HOME Menu customization, using community-created [themes and badges](https://themeplaza.art)
 * 使用 [LayeredFS](https://github.com/knight-ryu12/godmode9-layeredfs-usage/wiki/Using-Luma3DS'-layeredfs-(Only-version-8.0-and-higher)) 修改游戏（“金手指”）
 * 编辑、备份和恢复用户存档
 * 模拟老主机游戏，还有原生支持运行的 DS 和 GBA 游戏
@@ -34,17 +41,7 @@ excerpt: "最完整的 3DS 破解手册，<br /> 教你从原版主机破解成b
   + 安装各种自制程序软件，例如：CIA 安装器、存档管理器以及自制程序商店
   + 导出关键系统文件备份，用于在砖机时救急用（并可用于恢复数据）
 
-## 在开始之前我需要知道什么？
-
-* 尽管变砖的几率已经变得十分低，但是我们**无法保障能够解决任何你所遇到的主机问题** 。 把文件放错地方不会导致主机变砖，但是乱搞主机会。
-* 本手册适用于 Nintendo 3DS 系列中所有已公开零售的版本（包括 New 3DS 和 2DS 系列），不论区域或固件。
-* 我们现在相信使用自制固件可以安全地联网了，不过仍然要提一下：过去的联网封禁大多数是因为作弊和可疑的 eShop 行为造成的。
-* 遵循本手册做不应会导致任何的数据丢失，但是 SD 卡可能会随时出问题而导致数据损坏。 如果你认为 SD 卡里有对你很重要的东西，请先将它备份一次。
-* 你需要一张能让你的 3DS 正常使用的 SD 卡，换句话说就是 SD 卡需要能够正常读写。 3DS 可以读取 MBR/FAT32 格式的 SD 卡。
-  开始之前，如果你想检测一下 SD 卡是否有错误，那么你可以使用 [H2testw（仅 Windows）](h2testw-(windows))、[F3（仅 Linux）](f3-(linux)) 或 [F3XSwift（仅Mac）](f3xswift-(mac)) 进行测试。
-* 如果你的电脑的操作系统是 Windows 的，则你可能需要在操作 SD 卡的文件之前开启[显示文件扩展名](file-extensions-(windows))以避免将文件命名错误。
-
 ___
 
-### 继续至[新手入门](get-started)
+### Continue to [Key Information](key-information)
 {: .notice--primary}

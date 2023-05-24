@@ -4,7 +4,7 @@ title: "Utilisation de GodMode9"
 
 {% include toc title="Table des matières" %}
 
-For information on dumping cartridge or SD card content, see [Dumping Titles and Game Cartridges](dumping-titles-and-game-cartridges).
+Pour plus d'informations sur le dumping d'une carte de jeu ou du contenu de la carte SD, consultez [Dumper des titres et des cartes de jeu](dumping-titles-and-game-cartridges).
 {: .notice--info}
 
 Pour de l'aide (en Anglais) sur GodMode9 ainsi que sur le scripting, et pour être tenu à jour et informé, rejoignez le serveur [Discord GodMode9](https://discord.gg/BRcbvtFxX4).
@@ -29,41 +29,23 @@ Certaines des instructions ci-dessous ne s'appliquent qu' à la dernière versio
 
 ### Instructions
 
-1. Éteignez votre 3DS
+1. Éteignez votre console
 1. Insérez votre carte SD dans votre ordinateur
 1. Copiez le fichier `GodMode9.firm` de l'archive `.zip` de GodMode9 dans le dossier `/luma/payloads/` sur votre carte SD
-1. Copiez le dossier `gm9` de GodMode9 `.zip` à la racine de votre carte SD
-1. Réinsérez votre carte SD dans votre 3DS
+1. Copiez le dossier `gm9` de l'archive `.zip` de GodMode9 vers la racine de votre carte SD
+1. Retirez la carte SD de votre ordinateur et réinsérez-la dans votre console
 
 ## Création d'une sauvegarde de la NAND
 
 1. Appuyez sur le bouton (START) et maintenez le enfoncé tout en allumant votre console. Ceci lancera GodMode9
-1. Appuyez sur (Home) pour faire apparaître le menu d’actions (action menu)
-1. Sélectionnez "Scripts"
-1. Sélectionnez "GM9Megascript"
-1. Sélectionnez "Backup Options"
-1. Sélectionnez "SysNAND Backup"
-1. Appuyez sur (A) pour confirmer
-  + Ce processus pendra du temps
-  + Si une erreur apparaît, vérifiez que vous avez au moins 1,3 Go d'espace libre sur votre carte SD
-1. Appuyez sur (A) pour continuer
-1. Appuyez sur (B) pour revenir au menu principal
-1. Sélectionnez "Exit"
-1. Appuyez (A) pour reverrouiller autorisations en écriture si vous êtes invité
-1. Maintenez la touche (R) appuyée et appuyez sur la touche (Start) en même temps pour éteindre votre console
-1. Insérez votre carte SD dans votre ordinateur
-1. Copiez `<date>_<serialnumber>_sysnand_###.bin` et `essential.exefs` du dossier `/gm9/out/`de votre carte SD vers un emplacement sûr de votre ordinateur
-  + Faites des sauvegardes dans plusieurs endroits (tels que des stockages de fichiers en ligne par exemple)
-  Ces sauvegardes vous sauveront d'un brick et/ou vous aideront à récupérer des fichiers de l'image de la NAND si quelque chose se passe mal plus tard
-1. Supprimez `<date>_<serialnumber>_sysnand_###.bin` et `<date>_<serialnumber>_sysnand_###.bin.sha` du dossier `/gm9/out/` de votre carte SD après l'avoir copiée
-1. Réinsérez votre carte SD dans votre 3DS
+{% include_relative include/nand-backup.txt %}
 
 ## Restauration de la sauvegarde de la NAND
 
-1. Éteignez votre 3DS
+1. Éteignez votre console
 1. Insérez votre carte SD dans votre ordinateur
-1. Copiez `<date>_<serialnumber>_sysnand_###.bin` de votre ordinateur dans le dossier `/gm9/out/` de votre carte SD
-1. Réinsérez votre carte SD dans votre 3DS
+1. Copiez `<date>_<serialnumber>_sysnand_##.bin` de votre ordinateur vers le dossier `/gm9/out/` de votre carte SD
+1. Retirez la carte SD de votre ordinateur et réinsérez-la dans votre console
 1. Appuyez sur le bouton (START) et maintenez le enfoncé tout en allumant votre console. Ceci lancera GodMode9
 1. Appuyez sur (Home) pour faire apparaître le menu d’actions (action menu)
 1. Sélectionnez "Scripts"
@@ -73,7 +55,7 @@ Certaines des instructions ci-dessous ne s'appliquent qu' à la dernière versio
 1. Sélectionnez votre sauvegarde NAND
 1. Appuyez sur (A) pour autoriser l'écriture sur votre SysNAND, puis entrez la combinaison de touches demandée
   + Ceci n'effacera pas votre installation boot9strap
-  + Ce processus pendra du temps
+  + Ce processus prendra un certain temps
 1. Appuyez sur (A) pour continuer
 1. Appuyez sur (B) pour revenir au menu principal
 1. Sélectionnez "Exit"
@@ -112,16 +94,8 @@ Cela ne fonctionnera que si l’injection dans Santé & Sécurité a été réal
 **Notez que cela effacera tout le contenu de votre carte SD !**
 {: .notice--danger}
 
-1. Ouvrez Godmode9 en maintenant (Start) au démarrage
-1. Appuyez sur (Home) pour faire apparaître le menu d’actions (action menu)
-1. Sélectionnez "More..."
-1. Sélectionnez "SD format menu"
-1. Sélectionnez les options de EmuNAND que vous souhaitez utiliser
-  + La plupart des utilisateurs voudront sélectionner "No EmuNAND"
-1. Sélectionnez "Auto"
-1. Appuyez sur (A) pour accepter l’étiquette `GM9SD`
-  + En option, vous pouvez saisir un nom personnalisé pour la carte SD
-1. Lorsque cela vous est demandé, entrez la combinaison de touches demandée pour confirmer
+1. Appuyez sur le bouton (START) et maintenez le enfoncé tout en allumant votre console. Ceci lancera GodMode9
+{% include_relative include/format-sd-gm9.txt %}
 
 ## Supprimer un NNID sans formater votre console
 

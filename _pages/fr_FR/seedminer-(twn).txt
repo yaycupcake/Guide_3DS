@@ -1,0 +1,16 @@
+---
+title: "Seedminer (TWN)"
+---
+
+{% include toc title="Table des matières" %}
+
+{%- include_relative include/seedminer-base.txt %}
+
+___ 
+
+### Étape suivante : BannerBomb3
+
+Une fois que vous avez obtenu la clé de chiffrement de votre console (`movable.sed`), vous pourrez l'utiliser conjointement avec BannerBomb3, qui utilisera votre `movable.sed` pour tirer parti des exploits dans l'application Paramètres de la console.
+
+Continuer vers [BannerBomb3 + Fredtool (TWN)](bannerbomb3-fredtool-(twn))
+{: .notice--primary}

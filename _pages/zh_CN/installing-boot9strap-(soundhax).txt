@@ -4,22 +4,32 @@ title: "安装 boot9strap（通过 Soundhax）"
 
 {% include toc title="目录内容" %}
 
-### 重要事项
+{% capture technical_info %}
+<summary><em>技术细节（选看）</em></summary>
+
+关于本页所使用漏洞的技术细节，请见[这里（Soundhax）](https://github.com/nedwill/soundhax) 和[这里（universal-otherapp）](https://github.com/TuxSH/universal-otherapp)。
+
+{% endcapture %}
+<details>{{ technical_info | markdownify }}</details>
+{: .notice--info}
+
+### 兼容性注意
 
 Soundhax（和 universal-otherapp 一起使用时）与所有区域 1.0.0 至 11.3.0 系统版本的主机兼容。
 
 ### 你需要准备点啥？
-
-* 最新版 [Soundhax](http://soundhax.com/) **（根据你的 3DS 的区域、型号和版本下载）**
+* 最新版本的 [Soundhax](http://soundhax.com/) **（根据你的 3DS 的区域、型号和版本下载）**
   + 如果点击下载 Soundhax 后浏览器跳转到了一个不可播放的视频，那么请按 Ctrl+S 或 Cmd+S 键将其保存到你的电脑上
-* 最新版 [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
-* 最新版 [boot9strap](https://github.com/SciresM/boot9strap/releases/download/1.3/boot9strap-1.3.zip)
-* 最新版 [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest)
-* 最新版 [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest)
+* 最新版本的 [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/download/v0.0.7/SafeB9SInstaller-20170605-122940.zip)（直链）
+* 最新版本的 [boot9strap](https://github.com/SciresM/boot9strap/releases/download/1.4/boot9strap-1.4.zip)（直链）
+* 最新版本的 [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest)（下载 Luma3DS `.zip` 文件）
+* 最新版本的 [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest)（下载 `otherapp.bin`）
 
 ### 操作步骤
 
 #### 第一步 – 准备工作
+
+本节中，你将会复制一些触发 Soundhax 和 universal-otherapp 所需要的文件。
 
 1. 将主机关机
 1. 将你的 SD 卡插入到电脑
@@ -33,10 +43,15 @@ Soundhax（和 universal-otherapp 一起使用时）与所有区域 1.0.0 至 11
 1. 将 SD 卡重新插入你的主机
 1. 启动你的主机
 
-    ![]({{ "/images/screenshots/uosoundhax-root-layout.png" | absolute_url }})
-    {: .notice--info}
+![]({{ "/images/screenshots/uosoundhax-root-layout.png" | absolute_url }})
+{: .notice--info}
+
+![]({{ "/images/screenshots/boot9strap-folder.png" | absolute_url }})
+{: .notice--info}
 
 #### 第二步 – 启动 SafeB9SInstaller
+
+本节中，你将通过 Nintendo 3DS 音乐程序启动 Soundhax，它将使用 universal-otherapp 启动 boot9strap（自制固件）安装程序。
 
 1. 将 SD 卡重新插入你的主机
 1. 启动你的主机
@@ -48,9 +63,10 @@ Soundhax（和 universal-otherapp 一起使用时）与所有区域 1.0.0 至 11
 1. 如果你从未启动过 “任天堂 3DS 音乐（Nintendo 3DS Sound）”，在启动后收到了小鸟的对话框提示，那么请完成所有的对话，然后关闭此软件再重新打开
   + 在这种情况下，除非你按上文所示的步骤进行操作，直接运行 Soundhax 将会导致这些提示在每次启动“任天堂 3DS 音乐（Nintendo 3DS Sound）”时都会出现
 1. 进入 `/sdcard`，然后播放“< 3 nedwill 2016”
-  + 有可能需要反复尝试几次
+  + This may take many (up to 10) tries
+  + If you see the message "Could not play", you are either on a system version incompatible with Soundhax or downloaded the wrong Soundhax release
   + 如果主机死机了，请长按电源键关闭主机，然后再试一次
-  + 如果你的主机闪过了红色和白色的界面，*而*你的主机系统版本在 9.4.0、9.5.0、9.6.0之间，请尝试  [启动 Homebrew Launcher （通过 Soundhax）](homebrew-launcher-(soundhax))
+  + If you get a different error, [follow this troubleshooting guide](troubleshooting#installing-boot9strap-soundhax)
 
     ![]({{ "/images/screenshots/soundhax-launch.png" | absolute_url }})
     {: .notice--info}
@@ -59,22 +75,11 @@ Soundhax（和 universal-otherapp 一起使用时）与所有区域 1.0.0 至 11
 
 #### 第三步 – 安装 boot9strap
 
-1. 出现提示时，按照上屏的提示输入按键组合来安装 boot9strap
-1. 安装完成后，按下 “A” 键重启主机
+{% include_relative include/install-boot9strap-safeb9sinstaller.txt %}
+{%- include_relative include/configure-luma3ds.txt %}
 
-#### 第四步 – 设置 Luma3DS
+{% include_relative include/luma3ds-installed-note.txt %}
 
-1. 你的主机将会在重启后进入至 Luma3DS 配置菜单中
-  + 你可以随时在主机关机的情况下，按住 SELECT 键，然后按下电源键开机来进入 Luma3DS 配置菜单
-  + 如果重启后一直黑屏，请参考[故障排查](troubleshooting#boot-related-issues-on-modded-devices)
-1. 使用方向键和 “A” 键来启用以下设置：
-  + **"Show NAND or user string in System Settings"**
-1. 按下 “Start” 键保存设置并重启
-  + 如果出现错误，继续至下一个页面即可解决
-
-现在，你的主机会在插入 SD 卡的情况下自动启动 Luma3ds。
-  + Luma3DS 不会给正常的主菜单增添任何看上去十分特别的东西。 如果你的主机现在已经启动到主菜单了，说明自制固件已经在运行了。
-  + 在下一页中，我们将会教你复制 Luma3DS 到内部存储当中，使得主机能在没有 SD 卡的情况下启动系统。
 
 ___
 

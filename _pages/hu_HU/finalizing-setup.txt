@@ -16,13 +16,13 @@ Ezen az oldalon kritikus rendszer mentéseket fogunk csinálni és a következő
 +  **Universal-Updater** *(egy homebrew app store homebrew letöltéséhez a 3DS-re WiFi-n keresztül)*
 + **GodMode9** *(sokféle dologra használható eszköz, például NAND és kártya műveletekre)*
 +  **Homebrew Launcher Loader** *(elindítja a Homebrew Launchert)*
-+  **DSP1** *(lehetővé teszi a homebrew applikációk számára a hangot)*
-+ **ctr-no-timeoffset** *(beállítja, hogy a HOME menü órája megegyezzen a rendszer valós idejű órájával)*
 
 Nem ajánlott ezeket az alkalmazásokat nem letölteni, mert mindegyik még használva lesz ezen az oldalon. Ennek az oldalnak a végén az SD kártyádról el lesznek távolítva a felesleges telepítő fájlok.
 {: .notice--warning}
 
-Ha az **új 3DS** konzolod a 2.1.0 firmware-en volt, a [NAND-ról készült bizonsági másolatot állítsd vissza](godmode9-usage#nand-ról-készült-bizonsági-másolat-visszaállítása) mielőtt tovább mennél.
+### Kompatibilitási megjegyzések
+
+Ha az **új 3DS** konzolod a 2.1.0 verzión volt, a [NAND-ról készült bizonsági másolatot állítsd vissza](godmode9-usage#nand-ról-készült-bizonsági-másolat-visszaállítása) mielőtt tovább mennél. Ez valószínűleg nem vonatkozik rád, ha csak nem 2017-ben olvasod ezt az útmutatót.
 {: .notice--warning}
 
 Ha az előző egyedi firmware rendszered EmuNAND alapú volt és szeretnéd az EmuNAND/RedNAND tartalmait a SysNAND-re másolni, kövest az [EmuNAND költöztetése](move-emunand) útmutatót ez az oldal előtt. Ha nem tudod mi az az EmuNAND, ez nem vonatkozik rád.
@@ -30,20 +30,18 @@ Ha az előző egyedi firmware rendszered EmuNAND alapú volt és szeretnéd az E
 
 ### Amire szükséged lesz
 
-* Az [Anemone3DS](https://github.com/astronautlevel2/Anemone3DS/releases/latest) legújabb kiadása (a `.cia` fájl kell)
-* A [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases/tag/v3.7.4) 3.7.4 verziója (a `.cia` fájl kell)
-* A [Homebrew Launcher Wrapper](https://github.com/mariohackandglitch/homebrew_launcher_dummy/releases/latest) legújabb kiadása (a `.cia` fájl kell)
-* Az [Universal-Updater](https://github.com/Universal-Team/Universal-Updater/releases/latest) legújabb kiadása (a `.cia` fájl kell)
-
-* Az [ctr-no-timeoffset](https://github.com/ihaveamac/ctr-no-timeoffset/releases/latest) legújabb kiadása (a `.3dsx` fájl kell)
-* A [DSP1](https://github.com/zoogie/DSP1/releases/latest) legújabb kiadása (a `.3dsx` fájl kell)
-
-* Az [FBI](https://github.com/Steveice10/FBI/releases/latest) legújabb kiadása *(a `.cia` és a `.3dsx` fájl is kell)
-* A [GodMode9](https://github.com/d0k3/GodMode9/releases/latest) legújabb kiadása (a GodMode9 `.zip` fájl kell)
+* Az [Anemone3DS](https://github.com/astronautlevel2/Anemone3DS/releases/latest) legújabb kiadása (a `.cia` fájl)
+* A [Checkpoint](https://github.com/BernardoGiordano/Checkpoint/releases/tag/v3.7.4) v3.7.4 verziója (a `.cia` fájl)
+* A [Homebrew Launcher Wrapper](https://github.com/mariohackandglitch/homebrew_launcher_dummy/releases/latest) legújabb kiadása (a `.cia` fájl)
+* Az [Universal-Updater](https://github.com/Universal-Team/Universal-Updater/releases/latest) legújabb kiadása (a `.cia` fájl)
+* Az [FBI](https://github.com/Steveice10/FBI/releases/latest) legújabb kiadása (**mindkét fájl**, a `.cia` és a `.3dsx` is szükséges)
+* A [GodMode9](https://github.com/d0k3/GodMode9/releases/latest) legújabb kiadása (a GodMode9 `.zip` fájl)
 
 ### Utasítások
 
 #### I. rész - Előkészületek
+
+Ebben a fejezetben fel fogod másolni az ahhoz szükséges fájlokat, hogy kövesd a lépéseket ezen az oldalon.
 
 1. Kapcsold ki a készüléked
 1. Helyezd az SD kártyád a számítógépbe
@@ -51,58 +49,75 @@ Ha az előző egyedi firmware rendszered EmuNAND alapú volt és szeretnéd az E
 1. Másold be az összes CIA fájlt (`Anemone3DS.cia`, `Checkpoint.cia`, `FBI.cia`, `Homebrew_Launcher.cia`, és `Universal-Updater.cia`) a `/cias/` mappába az SD kártyádon
 1. Hozz létre egy mappát `3ds` néven az SD kártyád gyökerében, ha még nem létezik ilyen
     + Ez a mappa tárolja a homebrew applikációkat és adataikat; ez mást mint a `Nintendo 3DS` mappa, amit az eszköz automatikusan generál
-1. Másold be az összes 3DSX fájlt (`ctr-no-timeoffset.3dsx`, `DSP1.3dsx`, és `FBI.3dsx`) a `/3ds/` mappába az SD kártyádon
+1. Másold az `FBI.3dsx` fájlt az SD kártyád `/3ds/` mappájába
 1. Hozz létre egy mappát `payloads` néven az SD kártyád `luma` nevezetű mappájában, ha még nem létezik ilyen
 1. Másold át a `GodMode9.firm` fájlt a GodMode9 `.zip`-ből az SD kártyád `/luma/payloads/` mappájába
 1. Másold át a `gm9` mappát a GodMode9 `.zip`-ből az SD kártyád gyökerébe
 1. Tedd vissza az SD kártyád a készülékedbe
 1. Kapcsold be a készülékedet
 
-    ![]({{ "/images/screenshots/finalizing-root-layout.png" | absolute_url }})
-    {: .notice--info}
-    ![]({{ "/images/screenshots/godmode9-location.png" | absolute_url }})
-    {: .notice--info}
+Az alábbi képernyőképek mutatják az SD kártya minimális elrendezését ahhoz, hogy ezt az útmutatót követni tudd. Lehetnek extra fájljaid és mappáid az SD kártyádon, függően a korábbi telepítésedtől vagy metódustól, amit követtél.
 
-Ezek a képernyőképek mutatják az SD kártya minimális elrendezését ahhoz, hogy ezt az útmutatót követni tudd. Lehetnek extra fájljaid és mappáid az SD kártyádon, függően a korábbi telepítésedtől vagy metódustól, amit követtél.
+![]({{ "/images/screenshots/finalizing-root-layout.png" | absolute_url }})
+{: .notice--info}
 
-#### II. rész - A rendszer frissítése
+![]({{ "/images/screenshots/godmode9-location.png" | absolute_url }})
+{: .notice--info}
 
-1. Frissítsd az eszközödet következőképp. Lépj be a System Settings-be, majd az "Other settings"-be, ahol addig lépkedj jobbra, amíg a végére nem érsz. Itt válaszd a "System Update" opciót.
-  + B9S és Luma használatakor (mint esetedben) biztonságosak a rendszerfrissítések
-  + A frissítő elképzelhető, hogy megjeleníti a "Your system is up to date" üzenetet a frissítés helyett. Ez normális, ha már frissítettél; folytasd a következő szakasszal
-  + Ha ez hibát ad, akkor állítsd a DNS beállításodat "auto"-ra
-  + Ha továbbra is hibát kapsz, [kövesd ezt a hibaelhárítási útmutatót](troubleshooting#unable-to-update-device)
 
-#### III. rész - Homebrew Launcher
+#### Section II - CFW Check
 
-1. Indítsd el a Download Play alkalmazást (![]({{ "/images/download-play-icon.png" | absolute_url }}){: height="24px" width="24px"})
-1. Várj, amíg `Nintendo 3DS` és `Nintendo DS` gombokat nem látsz
-1. Nyomd le az (L) + (D-Pad le) + (Select) gombokat egyszerre a Rosalina menü megnyitásához
+További biztonsági lépésként további ellenőrzést végzünk egyedi firmware-re. If custom firmware is not installed by this point for any reason, the next section may render your console unable to be hacked without external hardware.
+
+1. Kapcsold ki a készüléked
+1. Nyomd le és tartsd nyomva (Select) gombot
+1. Kapcsold be az eszközöd, miközben nyomva tartod a (Select) gombot
+1. If the check was successful, your device should have booted into the Luma3DS configuration menu
+1. Mentéshez és újraindításhoz nyomd meg a (Start) gombot
+1. Kapcsold ki a készüléked
+
+If you do NOT boot into the Luma3DS configuration menu, custom firmware was not installed on your device. Join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) and ask, in English, for help.
+{: .notice--danger}
+
+
+#### Section III - Updating the System
+
+Ebben a fejezetben frissíteni fogod a rendszered a legutolsó verzióra, ami biztonságos az egyedi firmware-rel.
+
+{% include_relative include/sysupdate.txt cfw="true" %}
+
+#### Section IV - Homebrew Launcher
+
+Ebben a fejezetben átmenetileg le fogod cserélni a Download Play-t a Homebrew Launcher-rel (ami szükséges az FBI indításához). A Download Play automatikusan visszaáll normálisra, amint újrabootolod az eszközödet.
+
+{% include_relative include/launch-hbl-dlp.txt %}
+
+#### Section V - RTC and DSP Setup
+
+Ebben a fejezetben szinkronizálni fogod a 3DS belső óráját az aktuális időhöz és dumpolni a hang firmware-t (ami szükséges néhány homebrew alkalmazáshoz, hogy a hangot megfelelően használja).
+
+1. Nyomd le az (Bal Váll) + (D-Pad le) + (Select) gombokat egyszerre a Rosalina menü megnyitásához
 1. Válaszd ki a "Miscellaneous options"-t
-1. Válaszd a "Switch the hb. title to the current app." opciót
+1. Válaszd a "Dump DSP firmware" opciót
+1. Nyomd meg a (B) gombot a folytatáshoz
+1. Válaszd a "Nullify user time offset" opciót
 1. Nyomd meg a (B) gombot a folytatáshoz
 1. Nyomd meg a (B) gombot, hogy visszakerülj a Rosalina főmenüjébe
 1. Nyomd meg a (B) gombot, hogy kilépj a Rosalina menüből
-1. Nyomd meg a (Home) gombot és zárd be a Download Play-t
-1. Indítsd el a Download Play alkalmazást
-1. Ekkor a készülékednek be kell töltenie a Homebrew Launcher-t
 
-#### IV. rész - RTC és DSP telepítése
-1. Indítsd el a ctr-no-timeoffset-et a homebrew listából
-1. Állítsd az offsetet 0-ra az (A) gombbal
-  + Ez beállítja, hogy a rendszeróra megegyezzen az RTC dátummal és idővel (amit hamarosan beállítunk)
-1. Nyomd meg a (Start) gombot, hogy visszatérj a Homebrew Launcher-be
-1. Indítsd el a DSP1 nevű alkalmazást
-1. Amint végzett, nyomd meg a (B) gombot, hogy az alkalmazás törölje magát és visszatérjen a Homebrew Launcher-be
+#### Section VI - Installing CIAs
 
-#### V. rész - CIA fájlok telepítése
+Ebben a fejezetben fel fogsz telepíteni néhány hasznos homebrew alkalmazást a HOME Menube.
+
 1. Indítsd el az FBI-t a homebrew listából
 1. Menj ide: `SD` -> `cias`
 1. Válaszd ezt: "\<current directory>"
 1. Válaszd az "Install and delete all CIAs" opciót, majd nyomd meg az (A) gombot a megerősítéshez
 1. Nyomd meg a (Home) gombot és zárd be a Download Play-t
 
-#### VI. rész - Luma3DS telepítése CTRNAND-ba
+#### Section VII - CTRNAND Luma3DS
+
+Ebben a fejezetben egy szkriptet fogsz használni, hogy bemásold a Luma3DS néhány fájlját a belső memóriába, így elérhetők még akkor is, ha nincs SD kártya behelyezve.
 
 1. Kapcsold ki a készüléked
 1. Nyomd le és tartsd nyomva a (Start) gombot, és a (Start) nyomva tartása mellett kapcsold be az eszközödet. Ez elindítja a GodMode9-et
@@ -118,25 +133,24 @@ Ezek a képernyőképek mutatják az SD kártya minimális elrendezését ahhoz,
 1. Nyomd meg az (A) gombot, hogy feloldd a SysNand (lvl1) írást, majd sorban nyomd meg a kijelzett gombokat
 1. Nyomd meg az (A) gombot a folytatáshoz
 
-#### VII. rész - Takarítás az SD kártyán
+#### Section VIII - Cleanup SD Card
+
+Ebben a fejezetben egy szkriptet fogsz használni arra, hogy eltávolítsd a felesleges fájlokat az SD kártyádról.
 
 1. Válaszd ezt: "Cleanup SD Card"
 1. Amikor kéri, nyomd meg az (A) gombot a folytatáshoz
 1. Nyomd meg az (A) gombot a folytatáshoz
 1. Nyomd meg a (B) gombot, hogy visszamenj a főmenübe
 
-#### VIII. rész - Backup Essential Files
+#### Section IX - Backup Essential Files
+
+Ebben a fejezetben mentés fájlokat fogsz készíteni, amik a helyreállításhoz használhatók, ha szoftveres brickelés történik, vagy ha helyre szeretnéd állítani az adatokat.
 
 1. Válaszd ezt: "Backup Options"
 1. Válaszd ezt: "SysNAND Backup"
 1. Nyomd meg az (A) gombot a megerősítéshez
   + Ez a folyamat igénybe vesz majd némi időt
-  + Ha hibát kapsz, győződj meg róla, hogy legalább 1.3 GB szabad hely van az SD kártyádon
-1. Nyomd meg az (A) gombot a folytatáshoz
-1. Nyomd meg a (B) gombot, hogy visszamenj a főmenübe
-1. Válaszd ezt: "Dump Options"
-1. Válaszd ezt: "Dump Boot9.bin & Boot11.bin"
-1. Amikor kéri, nyomd meg az (A) gombot a folytatáshoz
+  + Ha hibát kapsz, nézz utána a [hibaelhárítási útmutatóban](troubleshooting#finalizing-setup)
 1. Nyomd meg az (A) gombot a folytatáshoz
 1. Nyomd meg a (B) gombot, hogy visszamenj a főmenübe
 1. Válaszd az "Exit" opciót
@@ -149,10 +163,12 @@ Ezek a képernyőképek mutatják az SD kártya minimális elrendezését ahhoz,
 1. Nyomd meg a (Home) gombot, hogy megjelenjen a műveleti menü
 1. Válaszd a "Poweroff system"-et az eszközöd kikapcsolásához
 1. Helyezd az SD kártyád a számítógépbe
-1. Másold a `<date>_<serialnumber>_sysnand_###.bin`, `<date>_<serialnumber>_sysnand_###.bin.sha`, `essential.exefs`, `<serialnumber>_boot9.bin` és `<serialnumber>_boot11_###.bin`fájlokat a `/gm9/out/` mappából az SD kártyáról egy biztonságos helyre a számítógépeden
-  + Tarts belőle biztonsági másolatokat több különböző helyen is (például online tárhelyen)
+1. Másold a `<date>_<serialnumber>_sysnand_##.bin`, `<date>_<serialnumber>_sysnand_##.bin.sha`, `essential.exefs` fájlokat a `/gm9/out/` mappából az SD kártyáról egy biztonságos helyre a számítógépeden
+  + Tarts belőle biztonsági másolatokat több különböző helyen is (például online tárhelyen, külső merevlemezen.)
   + Ezek a biztonsági mentések fognak megmenteni, ha a későbbiekben brickelődne a konzolod, vagy bármi félresikerülne a jövőben
-1. Töröld a `<dátum>_<sorozatszám>_sysnand_###.bin` és a `<dátum>_<sorozatszám>_sysnand_###.bin.sha` fájlokat az SD kártyád `/gm9/out/` mappájából, miután lemásoltad azokat
+1. Töröld a `<dátum>_<sorozatszám>_sysnand_##.bin` és a `<dátum>_<sorozatszám>_sysnand_##.bin.sha` fájlokat az SD kártyád `/gm9/out/` mappájából, miután lemásoltad azokat
+  + A többi biztonségi mentés fájl mérete elhanyagolható és a könnyű hozzáférés érdekében az SD kártyádon tárolt
+1. Ha van ilyened, másold a `/luma/backups/` mappát az SD kártyáról egy biztonságos helyre a számítógépeden
 1. Tedd vissza az SD kártyád a készülékedbe
 1. Kapcsold be a készülékedet
 
@@ -161,7 +177,10 @@ ___
 Kész vagy! Az egyedi firmware most már teljesen be van állítva az eszközödön.
 {: .notice--success}
 
-#### Információk és jegyzetek
+Szia! Szívesen veszünk visszajelzéseket az útmutatónk követéséről. Ha szeretnél segíteni, töltsd ki a kérdőívünket [itt](https://forms.gle/vZNoc4QLCz5MEXCK7) (csak angolul elérhető). Köszönjük!
+{: .notice--info}
+
+### Információk és megjegyzések
 
 {% capture notice-6 %}
 Néhány billentyű kombináció amit ismerned kell:
@@ -169,7 +188,7 @@ Néhány billentyű kombináció amit ismerned kell:
 - Indításkor előhozhatod a Luma3DS konfigurációs menüjét a (Select) gomb lenyomva tartásával.
 - Indításkor előhozhatod a GodMode9-et, vagy ha több payload van a `/luma/payloads/` mappában a Luma3DS chainloader-t a (Select) gomb lenyomva tartásával.
 - Alapból a (Bal váll) + (D-pad le) + (Select) gombok megnyomásával 3DS módban a Rosalina menü megnyílik, ahol többek közt megnézhetsz rendszer információkat, csinálhatsz képernyő képeket, és engedélyezhetsz csalásokat. Ezt lehet módosítani a Rosalina menüben.
-- A (Start) + (Select) + (X) lenyomva tartása indítás közben dumpolni foja a `boot9.bin`, `boot11.bin`, és `otp.bin` fájlokat a `boot9strap` mappába az SD kártyádon.
+- A (Start) + (Select) + (X) lenyomva tartása indítás közben a figyelmeztető LED-en színt mutat debug célokból. Tekintsd meg [változási naplót](https://github.com/SciresM/boot9strap/releases/tag/1.4) egy listáért.
 {% endcapture %}
 
 <div class="notice--info">{{ notice-6 | markdownify }}</div>

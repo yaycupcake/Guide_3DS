@@ -4,76 +4,13 @@ title: "Seedminer"
 
 {% include toc title="目次" %}
 
-### 必読事項
-
-To install boot9strap on your device, we derive your device's unique encryption key. To accomplish this, we use a tool called Seedminer to calculate the data encryption key (movable.sed) for your device.
-
-For information on how Seedminer works, see [this presentation](https://zoogie.github.io/web/34⅕c3).
-
-この方法には、必要な計算を強力なグラフィックボードで行う必要があります。 この方法であなたを支援するために、ボランティアがWebサイトを運営し支援しています。
-
-### 手順
-
-#### セクション I - 準備
-
-1. パソコンにSDカードを入れます
-1. SDカードにある、`Nintendo 3DS` フォルダを開きます。
-1. 表示されている32文字のフォルダ名をコピーします。
-  + まだそれ以上フォルダを展開しないでください
-  + If you see multiple folders, follow [these instructions](troubleshooting#multiple-long-folder-names-in-nintendo-3ds-folder)
-
-	![]({{ "/images/screenshots/id0-example.png" | absolute_url }})
-	{: .notice--info}
-1. コピーした32文字のフォルダ名を、後で分かるようにメモ帳などに貼り付けます。
-  + このフォルダ名のことを一般に "ID0" と呼称します。
-1. デバイスの電源を入れます
-  + Your SD card does not need to be inserted at this point
-1. Go to your Friend List (the [orange Face Icon]({{ "/images/friend-list-icon.png" | absolute_url }}) in the top row of your HOME Menu)
-  + もしここでエラーが発生し、メニューから追い出された場合、新しいMiiを作成する必要があります。あるいはあなたの3DSは任天堂サーバーにアクセスできない状態です(Banされている、または接続自体の問題)。
-1. 自分のMiiを探し、"フレンドコード"をトップ画面に表示します。
-
-#### セクション II - Seedminer
-
-1. パソコンから、 [Bruteforce Movable](https://seedminer.hacks.guide/) を開きます。
-  + このサイトは、 `movable_part1.sed` の検索を(ボット3DS機器を使用して)自動化し、(Seedminerを実行しているボランティアのPCを使用して) 3DSのDSiWareの暗号化を解除することが可能です。
-  + サイトが動作しない場合は、["Nintendo Homebrew"というディスコード](https://discord.gg/MWxPgEp) に参加して、誰かに(英語で)助けてもらいましょう。
-1. "Your friend code" 欄に、あなたのフレンドコードを (空白やハイフン抜きで) 入力します。
-1. 「Your ID0」 欄に、あなたのデバイスにあった32文字の 「ID0」 をコピペします。
-  + 手動で入力するのは止めてください。 前のセクションで保存した場所から「ID0」をコピー＆ペーストし、ID0 が正しく入力されていることを確認してください。
-1. 「Go」を選択します。
-  + If the site immediately goes to step 4, the website has already correctly processed your bruteforce request. You can download your `movable.sed` file and continue to the next section. You do not need to re-add the bot
-1. サイト上にボット用フレンドコードが表示されたら、3DS本体の『フレンドの登録』≫『インターネットでフレンド登録』へ進み、サイト上に表示された「ボット用フレンドコード」を3DSに登録してください。
-  + The name of the bot does not matter
-1. サイト側が更新されるまで待ちます。
-  + もし変わらない場合、数分待ってからページを１度更新し直します。
-1. Once the site processes your information, the site will continue to `Step 2: Bruteforce` automatically
-1. 残りの処理が完了するまで待ちます。
-  + 通常は速い　(1-5分) ですが、場合によっては30分ほどかかることがあります。
-  + このプロセスでは、追加したボットが3DSに表示されない場合があります。 Webサイトが更新されていれば問題ありません。
-  + もし３０分経過しても変わらない場合は、Discordで [Nintendo Homebrewというコミュニティ](https://discord.gg/MWxPgEp) に (英語で) 誰かに支援を呼びかけてください。
-1. When the process is completed, download your `movable.sed` file from the site
-  + このファイルは今後必要になるので、保管してください
+{% include_relative include/seedminer-base.txt %}
 
 ___
 
-### Next Steps
+### Next step: BannerBomb3
 
-Once you have your device's encryption key (`movable.sed`), you will use it in conjunction with other exploits to install custom firmware on your 3DS. Select an exploit below.
+Once you have your device's encryption key (`movable.sed`), you can use it in conjunction with BannerBomb3, which uses your `movable.sed` file to take advantage of exploits in the System Settings application.
 
-#### PicHaxx + universal-otherapp (Recommended)
-
-This method of using Seedminer for further exploitation uses your `movable.sed` file to write a custom save file for Pokémon Picross, which can then be used in conjunction with universal-otherapp to install custom firmware.
-
-This route requires the Pokémon Picross application (free on eShop), and thus requires eShop access and a 3DS with a region of USA, EUR, or JPN.
-
-Continue to [Installing boot9strap (PicHaxx)](installing-boot9strap-(pichaxx))
+Continue to [BannerBomb3](bannerbomb3)
 {: .notice--primary}
-
-#### Installing boot9strap (unSAFE_MODE)
-
-This method of using Seedminer for further exploitation uses your `movable.sed` file to take advantage of exploits in the SAFE_MODE firmware present in all 3DS units.
-
-This route is only recommended if you are for some reason unable to follow the PicHaxx + universal-otherapp route.
-
-Continue to [Installing boot9strap (USM)](installing-boot9strap-(usm))
-{: .notice--warning}

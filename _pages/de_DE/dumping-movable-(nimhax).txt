@@ -1,0 +1,56 @@
+---
+title: "Movable dumpen (nimhax)"
+---
+
+{% include toc title="Inhalt" %}
+
+{% capture technical_info %}
+<summary><em>Technische Details (optional)</em></summary>
+
+Um boot9strap auf deiner Konsole zu installieren, erlangen wir den einzigartigen Verschlüsselungsschlüssel deines deiner Konsole. Um dies zu erreichen, verwenden wir den Homebrew Launcher, um nimhax zu starten und den Verschlüsselungsschlüssel (movable.sed) von deiner Konsole zu dumpen.
+
+Für eine technischere Erklärung, siehe [hier](https://github.com/luigoalma/nimhax/) für mehr Informationen über den nimhax Exploit.
+
+{% endcapture %}
+<details>{{ technical_info | markdownify }}</details>
+{: .notice--info}
+
+### Was du brauchst
+
+* Die neueste Version von [nimhax](https://github.com/luigoalma/nimhax/releases/latest) (die nimhax `.zip` Datei)
+
+### Anleitung
+
+#### Abschnitt I - Vorbereitungen
+
+1. Schalte deine Konsole aus
+1. Stecke deine SD-Karte in deinen Computer
+1. Kopiere den `nimhax` Ordner aus der nimhax `.zip` in den `3ds` Ordner auf deiner SD-Karte
+1. Stecke deine SD-Karte nun wieder in deinen 3DS
+1. Schalte deine Konsole an
+
+![]({{ "/images/screenshots/nimhax-location.png" | absolute_url }})
+{: .notice--info}
+
+#### Section II - nimhax
+
+1. Open the Homebrew Launcher through your method of choice (likely the Internet Browser)
+1. Launch nimhax from the list of homebrew
+1. If the exploit was successful, a `movable.sed` file will appear on the root of your SD card
+
+### Next step: Choose an exploit
+
+#### Bannerbomb3 (recommended)
+
+Once you have your device's encryption key (`movable.sed`), you can use it in conjunction with BannerBomb3, which uses your `movable.sed` file to take advantage of exploits in the System Settings application.
+
+Continue to [BannerBomb3](bannerbomb3)
+{: .notice--info}
+
+#### Frogtool
+
+Once you have your device's encryption key (`movable.sed`), you can use it in conjunction with Frogtool, which uses your `movable.sed` file to inject and take advantage of JPN Flipnote Studio. \
+While this method is faster, it requires downloading a file with a torrent client. Do not follow this method if you're unable to use a torrent client.
+
+Continue to [Installing boot9strap (Frogtool)](installing-boot9strap-(frogtool))
+{: .notice--warning}

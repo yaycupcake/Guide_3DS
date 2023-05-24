@@ -4,96 +4,100 @@ title: "Boot9strap installeren (USM)"
 
 {% include toc title="Inhoudsopgave" %}
 
-### Verplicht te lezen
+{% capture technical_info %}
+<summary><em>Technical Details (optional)</em></summary>
 
-Om gebruik te kunnen maken van de SAFE_MODE firmware van ons systeem, moeten we een exploit wifi-profiel injecteren.
+In order to exploit the SAFE_MODE firmware of our system, we need to inject an exploited WiFi profile.
 
-We kunnen dit doen met een bestaande exploit, BannerBomb3.
+We can do this using an existing exploit, BannerBomb3.
 
-Om dit te bereiken, gebruiken we de encryptiesleutel van uw systeem (movable.sed) om een DSiWare back-up te maken die het systeem exploïteert om het wifi-profiel in je connectielijst te injecteren.
+To accomplish this, we use your system's encryption key (movable.sed) to build a DSiWare backup that exploits the system in order to inject the exploited WiFi profile into your connections list.
 
-Wanneer het wifi profiel geïnjecteerd is, gebruiken we SAFE_MODE, een herstelfunctie beschikbaar op alle 3DS consoles, om het exploited wifi profiel te activeren.
+Once the WiFi profile has been injected, we will use SAFE_MODE, which is a recovery feature present on all 3DS consoles, to activate the exploited WiFi profile.
+
+For a more technical explanation, see the following links for information on the BannerBomb3 and unSAFE_MODE exploits: [BannerBomb3](https://github.com/zoogie/Bannerbomb3), [unSAFE_MODE](https://github.com/zoogie/unSAFE_MODE/).
+
+{% endcapture %}
+<details>{{ technical_info | markdownify }}</details>
+{: .notice--info}
+
+### Compatibility Notes
 
 Deze instructies werken aan de consoles van de VS, Europa, Japan en Korea zoals aangegeven in de letters U, E, J, of K na de systeemversie.
 
-Als je (Rechts/Linkse Shoulder), (D-Pad Up) of (A) knoppen niet werken, moet je [een andere versie van Seedminer](bannerbomb3) volgen. Als je hierbij hulp nodig hebt, join de [Nintendo Homebrew Discord](https://discord.gg/MWxPgEp) en vraag, in het Engels, om hulp.
+If your (Right/Left Shoulder), (D-Pad Up), or (A) buttons do not work, you will need to follow [an alternate branch of Seedminer](installing-boot9strap-(fredtool)). For assistance with this matter, join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) and ask, in English, for help.
 {: .notice--warning}
 
 ### Wat je nodig hebt
 
-* je `movable.sed` bestand van het voltooien van [Seedminer](seedminer)
-* De nieuwste versie van [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest)
+* De nieuwste versie van [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/download/v0.0.7/SafeB9SInstaller-20170605-122940.zip) (directe download)
+* De nieuwste versie van [boot9strap](https://github.com/SciresM/boot9strap/releases/download/1.4/boot9strap-1.4.zip) (directe download)
+* De nieuwste versie van [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest) (het Luma3DS `.zip` bestand)
+* [usm.bin](https://github.com/zoogie/unSAFE_MODE/releases/download/v1.3/usm.bin) (direct download)
+
 
 #### Deel I - Voorbereiding
 
-1. Als je 3DS aanstaat, zet hem dan af
-1. Open [unSAFE_MODE Exploit Injector](https://3ds.nhnarwhal.com/3dstools/unsafemode.php) op je computer
-1. Upload je movable.sed met de "Choose File" optie
-1. Selecteer "Build and Download"
-  + Dit zal een exploit DSiWare `F00D43D5.bin` en een SAFE_MODE exploit data bestand genaamd `usm.bin` in een zip-archief (`unSAFE_MODE.zip`) downloaden
-1. Plaats je SD kaart in je computer
+In this section, you will copy the files needed to trigger the unSAFE_MODE exploit onto your device's SD card.
+
+1. Your SD card should be inserted in your computer
+1. Copy `usm.bin` to the root of your SD card
 1. Kopieer `boot.firm` en `boot.3dsx` van de Luma3DS `.zip` naar de hoofdmap van je SD-kaart
   + De hoofdmap van de SD-kaart verwijst naar de bovenste map van de SD-kaart, waarin je alle mappen op de SD-kaart kunt zien, waaronder de Nintendo 3DS map, zonder je in de Nintendo 3DS map te bevinden
-1. Kopieer `usm.bin` van de `unSAFE_MODE.zip` naar de hoofdmap van je SD-kaart
-1. Navigeer naar `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `Nintendo DSiWare` op je SD-kaart
-  + `<ID0>` zal dezelfde zijn die je bij deze stap hebt gebruikt: [Seedminer](seedminer)
-  + `<ID1>` is een reeks van 32 characters lang en bevindt zich in de map van de `<ID0>`
-  + Als `Nintendo DSiWare` niet bestaat, creëer het binnen de `<ID1>`
-1. Als er al DSiWare backup bestanden ("<8-character>.bin") in deze folder bestaan, verplaats ze dan naar je PC
-  + Nu heb je een lege Nintendo DSiWare map over. De bestanden verplaatsen naar je PC zal ervoor zorgen dat je niet opzettelijk back-ups verwijdert
-1. Kopieer het `F00D43D5.bin` bestand van `unSAFE_MODE.zip` naar de `Nintendo DSiWare` map
+1. Maak een map genaamd `boot9strap` op de hoofdmap van je SD-kaart
+1. Kopieer `boot9strap.firm` en `boot9strap.firm.sha` van de boot9strap `.zip` naar de `/boot9strap/` map op je SD-kaart
+1. Kopieer `SafeB9SInstaller.bin` van de SafeB9SInstaller `.zip` naar de hoofdmap van je SD-kaart
 
-    ![]({{ "/images/screenshots/dsiware-save-location.png" | absolute_url }})
-    {: .notice--info}
+![]({{ "/images/screenshots/usm/usm-root-layout.png" | absolute_url }})
+{: .notice--info}
+
+![]({{ "/images/screenshots/boot9strap-folder.png" | absolute_url }})
+{: .notice--info}
 
 #### Deel II - BannerBomb3
+
+In this section, you will trigger the BannerBomb3 exploit using the DSiWare Management menu, which can be used to overwrite your Wi-Fi slots with hacked data. Your Wi-Fi connection settings will be temporarily overwritten while the exploit is active.
 
 1. Stop je SD-kaart terug in je 3DS
 1. Zet je 3DS aan
 1. Open Systeeminstellingen op je apparaat
-1. Navigeer naar `Data Management` -> `DSiWare`
-1. Klik op de SD-kaart tab
-  + Je apparaat zou een menu met tekst moeten tonen
-1. Selecteer "Inject haxx"
+1. Navigate to `Data Management` -> `DSiWare`-> `SD Card` ([image](/images/screenshots/bb3/dsiware-management.png))
+  + Your device should show the BB3 multihax menu
+  + If the BB3 multihax menu doesn't open, [follow this troubleshooting guide](troubleshooting#bannerbomb3)
+  + If the BB3 multihax menu says "cfw installed already", you already have custom firmware and should continue from [here](checking-for-cfw)
+1. Use the D-Pad to navigate and press the (A) button to select "Install unSAFE_MODE"
   + Je apparaat zal automatisch uitschakelen
+1. Zet je 3DS aan
+1. Open System Settings op je apparaat
+1. Navigate to `Internet Settings` -> `Connection Settings`
+1. Ensure that all three connections are named "Haaaaaaaxxxxxxxxx..."
+  + Do NOT change these settings!
+  + If all three connections are NOT all named "Haaaaaaaxxxxxxxxx...", STOP! Something went wrong in this section and MUST be fixed before you can continue
+1. Schakel je 3DS uit
 
 #### Deel III - unSAFE_MODE
 
-1. Als je apparaat nog steeds uitgeschakeld is, houd de volgende knoppen ingedrukt: (Left Shoulder) + (Right Shoulder) + (D-Pad Up) + (A), en druk daarna op (Power)
-  + Blijf de knoppen ingedrukt houden totdat het apparaat opstart in Safe Mode
-1. Druk op "OK" om de update te accepteren
-  + Er is geen update. Dit is deel van de exploit
-1. Druk op "I accept" om de algemene voorwaarden te accepteren
-1. De update zal uiteindelijk mislukken, met de foutcode `003-1099`. Dit is verwacht gedrag
-1. Wanneer gevraagd wordt "Would you like to configure Internet settings?" selecteer dan "Yes"
-1. In het volgende menu, navigeer naar `Connection 1` -> `Change Settings` -> `Next Page (rechter pijl)` -> `Proxy Settings` -> `Detailed Setup`
-  + Dit is een [visuele weergave](https://uwuu.ca/images/safemode_highlighted.png)
-1. Zodra je `B9S install SUCCESS op het bovenste scherm ziet, druk je op eender welke knop om opnieuw op te starten naar Luma Configuration
+{% include_relative include/exploit-usm.txt %}
 
-#### Deel IV - Luma3DS configureren
+#### Deel IV - Boot9strap installeren
 
-1. Je apparaat zou opnieuw moeten opgestart zijn naar het configuratiemenu van Luma3DS
-  + Je kunt altijd het Luma3DS configuratiemenu openen door je 3DS uit te schakelen, SELECT ingedrukt houden en het toestel aan te zetten terwijl je SELECT ingedrukt houdt
-  + Als je een zwart scherm krijgt, [volg dan deze handleiding voor probleemoplossingen](troubleshooting#boot-related-issues-on-modded-devices)
-1. Selecteer de volgende opties met de D-pad en de (A) knop:
-  + **"Show NAND or user string in System Settings"**
-1. Druk op (Start) om op te slaan en opnieuw op te starten
+{% include_relative include/install-boot9strap-safeb9sinstaller.txt %}
+{%- include_relative include/configure-luma3ds.txt %}
 
-Op dit moment zal je console standaard opstarten naar Luma3DS zolang de SD-kaart geplaatst is.
-  + Luma3DS ziet er niet anders uit dan het normale HOME Menu. Als je console in het HOME Menu is opgestart, gebruikt hij custom firmware.
-  + Op de volgende pagina kopieer je Luma3DS naar het interne geheugen, zodat je het kan opstarten zonder SD-kaart.
+{% include_relative include/luma3ds-installed-note.txt %}
 
 #### Deel V - Wifi-configuratie profielen herstellen
 
+In this section, you will trigger the BannerBomb3 exploit a second time so that you can restore the Wi-Fi connection slots that were overwritten in Section II.
+
 1. Open System Settings op je apparaat
-1. Ga naar `Data Management` -> `DSiWare`
-1. Klik op de SD kaart sectie
-  + Je apparaat zou een menu met tekst moeten tonen
-1. Selecteer "Restore slots"
-  + Je apparaat zal automatisch uitschakelen
+1. Navigate to `Data Management` -> `DSiWare`-> `SD Card` ([image](/images/screenshots/bb3/dsiware-management.png))
+1. Use the D-Pad to navigate and press the (A) button to select "Uninstall unSAFE_MODE"
+  + Your device will automatically reboot
+1. Schakel je 3DS uit
 1. Plaats je SD kaart in je computer
-1. Ga naar `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `Nintendo DSiWare` op je SD-kaart
-1. Verwijder `F00D43D5.bin` uit je Nintendo DSiWare map
+1. Navigeer naar `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `Nintendo DSiWare` op je SD-kaart
+1. Delete `F00D43D5.bin` from your Nintendo DSiWare folder and from your computer. Dit bestand is niet meer nodig
 
 ___
 

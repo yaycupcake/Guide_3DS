@@ -16,13 +16,13 @@ title: "完成安裝"
 +  **Universal-Updater** *(自製程式商店，可在 3DS 上透過 Wi-Fi 下載自製程式)*
 + **GodMode9** *(多功能工具包，用來處理 NAND 及卡帶的相關功能)*
 +  **Homebrew Launcher Loader** *(用於啟動 Homebrew Launcher)*
-+  **DSP1** *(允許自製程式播放音效)*
-+  **ctr-no-timeoffset** *(sets the HOME Menu time to match the internal Real-Time Clock)*
 
 建議不要跳過下載以上這些自製軟體，因為它們將在此頁面稍後使用。 在本頁結束時，我們將清理 SD 卡以刪除不必要的安裝檔案。
 {: .notice--warning}
 
-如果在執行以下步驟前，您的 **New 3DS** 版本為低於 2.1.0，請您先[還原您的 NAND 備份](godmode9-usage#restoring-a-nand-backup)再行繼續。
+### 相容性資訊
+
+If your **New 3DS** was on version 2.1.0 before following this guide, you should [restore your NAND backup](godmode9-usage#restoring-a-nand-backup) before continuing. This likely doesn't apply to you unless you were following this guide in 2017.
 {: .notice--warning}
 
 如果您先前的自製韌體為基於 EmuNAND 的系統，且您希望將您的 EmuNAND/RedNAND 移植至 SysNAND，請在繼續前進行 [移植 EmuNAND](move-emunand) 頁面中的指示。 如果您不知道 EmuNAND 是什麼的話，這部分大概不適用於您。
@@ -30,20 +30,18 @@ title: "完成安裝"
 
 ### 必備項目
 
-* 最新版的 [Anemone3DS](https://github.com/astronautlevel2/Anemone3DS/releases/latest) (選擇 `.cia` 檔案)
-* v3.7.4 版的 [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases/tag/v3.7.4) (選擇 `.cia` 檔案)
-* 最新版的 [Homebrew Launcher Wrapper](https://github.com/mariohackandglitch/homebrew_launcher_dummy/releases/latest) (選擇 `.cia` 檔案)
-* 最新版的 [Universal-Updater](https://github.com/Universal-Team/Universal-Updater/releases/latest) (選擇 `.cia` 檔案)
-
-* 最新版的 [ctr-no-timeoffset](https://github.com/ihaveamac/ctr-no-timeoffset/releases/latest) (選擇 `.3dsx` 檔案)
-* 最新版的 [DSP1](https://github.com/zoogie/DSP1/releases/latest) (選擇 `.3dsx` 檔案)
-
-* 最新版的 [FBI 管理器](https://github.com/Steveice10/FBI/releases/latest) (選擇 `.cia` 及 `.3dsx` 檔案)
+* The latest release of [Anemone3DS](https://github.com/astronautlevel2/Anemone3DS/releases/latest) (the `.cia` file)
+* The v3.7.4 release of [Checkpoint](https://github.com/BernardoGiordano/Checkpoint/releases/tag/v3.7.4) (the `.cia` file)
+* The latest release of [Homebrew Launcher Wrapper](https://github.com/mariohackandglitch/homebrew_launcher_dummy/releases/latest) (the `.cia` file)
+* The latest release of [Universal-Updater](https://github.com/Universal-Team/Universal-Updater/releases/latest) (the `.cia` file)
+* The latest release of [FBI](https://github.com/Steveice10/FBI/releases/latest) (**both** the `.cia` and `.3dsx` files)
 * 最新版的 [GodMode9](https://github.com/d0k3/GodMode9/releases/latest) (選擇 GodMode9 `.zip` 檔案)
 
 ### 操作說明
 
 #### 第一節 — 準備工作
+
+In this section, you will copy the files necessary to follow the rest of the instructions on this page.
 
 1. 關閉您的主機
 1. 將 SD 卡插入至電腦中
@@ -51,58 +49,75 @@ title: "完成安裝"
 1. 複製所有的 CIA 檔案 (`Anemone3DS.cia`、`Checkpoint.cia`、`FBI.cia`、`Homebrew_Launcher.cia` 及 `Universal-Updater.cia`) 至 SD 卡中的 `/cias/` 資料夾中
 1. 在 SD 卡的根目錄底下建立一個新資料夾 `3ds`
     + 本資料夾中含有自製程式及其資料；本資料夾與主機自動產生的 `Nintendo 3DS` 不一樣
-1. 複製所有的 3DSX 檔案 (`ctr-no-timeoffset.3dsx`、`DSP1.3dsx` 及 `FBI.3dsx`) 至 SD 卡中的 `/3ds/` 資料夾中
+1. 將 `FBI.3dsx` 複製到 SD 卡中的 `/3ds/` 資料夾底下
 1. 在 SD 卡中的 `luma` 資料夾中建立一個另一個新資料夾 `payloads`
 1. 解壓 GodMode9 `.zip` 中的 `GodMode9.firm` 檔案到 SD 卡的 `/luma/payloads/` 資料夾中
 1. 解壓 GodMode9 `.zip` 中的 `gm9` 資料夾到 SD 卡的根目錄底下
 1. 將 SD 卡插回主機中
 1. 啟動您的主機
 
-    ![]({{ "/images/screenshots/finalizing-root-layout.png" | absolute_url }})
-    {: .notice--info}
-    ![]({{ "/images/screenshots/godmode9-location.png" | absolute_url }})
-    {: .notice--info}
+The screenshots below indicate the minimum SD card layout that is required to follow this page. 您可能在遵循其他頁面指示中會有一些多的資料夾及檔案在您的 SD 卡中。
 
-以上截圖為遵循本頁面步驟所需的 SD 卡檔案及資料夾。 您可能在遵循其他頁面指示中會有一些多的資料夾及檔案在您的 SD 卡中。
+![]({{ "/images/screenshots/finalizing-root-layout.png" | absolute_url }})
+{: .notice--info}
 
-#### 第二節 — 更新系統
+![]({{ "/images/screenshots/godmode9-location.png" | absolute_url }})
+{: .notice--info}
 
-1. 到主機主選單中更新您的主機，到『系統設置 (System Settings)』、『其他設置 (Other Settings)』底下選擇『系統更新 (System Update)』
-  + 在安裝 B9S + Luma 後，進行系統更新是很安全的
-  + 升級程式可能會告訴你『你的主機已經是最新系统了』而不是繼續升級 如您已經升級到了最新的話，這是正常的；請繼續下面的步驟
-  + 如果過程中出現錯誤，試試到 DNS 設定底下將設定改成『自動 (auto)』
-  + 如果您仍遇到錯誤，請見[此疑難排解指南](troubleshooting#unable-to-update-device)
 
-#### 第三節 — Homebrew Launcher
+#### Section II - CFW Check
 
-1. 啟動『下載通信(Download Play)』程式 (![]({{ "/images/download-play-icon.png" | absolute_url }}){: height="24px" width="24px"})
-1. 等到你看到 `Nintendo 3DS` 和 `Nintendo DS` 按鈕
+As an additional safety measure, we will perform an additional check for custom firmware. If custom firmware is not installed by this point for any reason, the next section may render your console unable to be hacked without external hardware.
+
+1. 關閉您的主機
+1. 按住「Select」鍵
+1. 在開機時按住「Select」鍵
+1. If the check was successful, your device should have booted into the Luma3DS configuration menu
+1. 按『Start』鍵以存檔並重新啟動系統
+1. 關閉您的主機
+
+If you do NOT boot into the Luma3DS configuration menu, custom firmware was not installed on your device. Join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) and ask, in English, for help.
+{: .notice--danger}
+
+
+#### Section III - Updating the System
+
+In this section, you will update your system to the latest version, which is safe to do with custom firmware.
+
+{% include_relative include/sysupdate.txt cfw="true" %}
+
+#### Section IV - Homebrew Launcher
+
+In this section, you will temporarily replace Download Play with Homebrew Launcher (which we need to launch FBI). Download Play will automatically go back to normal once you reboot your device.
+
+{% include_relative include/launch-hbl-dlp.txt %}
+
+#### Section V - RTC and DSP Setup
+
+In this section, you will sync your 3DS internal clock with the actual time and dump the sound firmware (which is necesssary for some homebrew software to use sound properly).
+
 1. 同時按下『L』+『下』+『Select』鍵以啟動 Rosalina 選單
 1. 選擇『Miscellaneous options』
-1. 選擇『Switch the hb. title to the current app.』
+1. 選擇『Dump DSP firmware』
+1. 按『B』繼續
+1. 選擇『Nullify user time offset』
 1. 按『B』繼續
 1. 按『B』回到 Rosalina 主選單
 1. 按『B』退出 Rosalina 選單
-1. 按『Home』鍵，並關閉『下載通信 (Download Play)』程式
-1. 啟動『下載通信 (Download Play)』程式
-1. 您的主機應該就會啟動 Homebrew Launcher 了
 
-#### 第四節 — 設定內部時間 (RTC) 及 DSP
-1. 透過 Homebrew 清單啟動 ctr-no-timeoffset
-1. 按『A』選擇將數值設成 0
-  + 這將會把系統時間設為與 RTC 相同的數值
-1. 按「Start」鍵回到 Homebrew Launcher 中
-1. 啟動 DSP1
-1. 當它處理完畢後，按下『B』將程式刪除並回到 Homebrew Launcher
+#### Section VI - Installing CIAs
 
-#### 第五節 — 安裝 CIA 檔案
+In this section, you will install several useful homebrew applications to HOME Menu.
+
 1. 於 Homebrew 清單內啟動 FBI 管理器
 1. 移動至 `SD` -> `cias`
 1. 選擇『\<current directory>』
 1. 選擇『Install and delete all CIAs』(安裝並刪除所有的 CIA 檔)，並按下『A』確認
 1. 按『Home』鍵，並關閉『下載通信 (Download Play)』程式
 
-#### 第六節 — 安裝 Luma3DS 至 CTRNAND
+#### Section VII - CTRNAND Luma3DS
+
+In this section, you will use a script to copy some of Luma3DS's files to internal memory so that they can be accessed, even without an SD card inserted.
 
 1. 關閉您的主機
 1. 按下並按住「Start」鍵，按住按鈕的同時，將您的主機開機。 這將會啟動 GodMode9
@@ -115,28 +130,27 @@ title: "完成安裝"
 1. 選擇『Scripts from Plailect's Guide』
 1. 選擇『Setup Luma3DS to CTRNAND』
 1. 如提示時，按下『A』繼續
-1. 按「A」鍵解鎖 SysNAND (lvl1) 的寫入保護，然後按下提示的按鍵組合
+1. 按『A』解鎖 SysNAND(lvl1)的寫入保護，然後按下提示的按鍵組合
 1. 按『A』 繼續
 
-#### 第七節 — 清理 SD 卡
+#### Section VIII - Cleanup SD Card
+
+In this section, you will use a script to remove some unnecessary files from your SD card.
 
 1. 選擇『Cleanup SD Card』
 1. 如提示時，按下『A』繼續
 1. 按『A』 繼續
 1. 按『B』回到主選單
 
-#### 第八節 — 備份重要檔案
+#### Section IX - Backup Essential Files
+
+In this section, you will make backups of files that can be used to recover from software bricks or to recover data.
 
 1. 選擇『Backup Options』
 1. 選擇『SysNAND Backup』
 1. 按 『A』 確認
   + 此過程將花費一些時間
-  + 若您遇見錯誤訊息，請確保您的 SD 卡至少有 1.3GB 的剩餘空間。
-1. 按『A』 繼續
-1. 按『B』回到主選單
-1. 選擇『Dump Options』
-1. 選擇『Dump Boot9.bin & Boot11.bin』
-1. 如提示時，按下『A』繼續
+  + If you get an error, look for your issue in the [troubleshooting guide](troubleshooting#finalizing-setup)
 1. 按『A』 繼續
 1. 按『B』回到主選單
 1. 選擇『Exit』
@@ -149,10 +163,12 @@ title: "完成安裝"
 1. 按『Home』鍵以叫出主選單
 1. 選擇「Poweroff system」關機
 1. 將 SD 卡插入至電腦中
-1. 從 SD 卡的 `/gm9/out/` 資料夾中複製 `<date>_<serialnumber>_sysnand_###.bin`、`<date>_<serialnumber>_sysnand_###.bin.sha`、`<serialnumber>_boot9_###.bin`、`<serialnumber>_boot11_###.bin` 及 `essential.exefs` 至電腦中安全的地方
-  + 建議備份至各個不同的地方(比如雲端硬碟中)
+1. Copy `<date>_<serialnumber>_sysnand_##.bin`, `<date>_<serialnumber>_sysnand_##.bin.sha`, and `essential.exefs` from the `/gm9/out/` folder on your SD card to a safe location on your computer
+  + Copy these backups to multiple locations (such as online file storage, an external hard drive, etc.)
   + 這些備份檔案可於未來您磚機時用來修復系統檔案
-1. 在複製完畢後，從 SD 卡的 `/gm9/out/` 資料夾中刪除 `<date>_<serialnumber>_sysnand_###.bin` 及 `<date>_<serialnumber>_sysnand_###.bin.sha`
+1. Delete `<date>_<serialnumber>_sysnand_##.bin` and `<date>_<serialnumber>_sysnand_##.bin.sha` from the `/gm9/out/` folder on your SD card after copying it
+  + The other backup files are negligible in size and may be kept on your SD card for ease of access
+1. If you have it, copy the `/luma/backups/` folder on your SD card to a safe location on your computer
 1. 將 SD 卡插回主機中
 1. 啟動您的主機
 
@@ -161,7 +177,10 @@ ___
 大功告成！ 您的主機現在已完成安裝自製韌體以及其設定。
 {: .notice--success}
 
-#### 額外訊息以及注意事項
+Hello! We're looking for feedback on the overall experience of following our guide. If you'd like to help out, check out the survey [here](https://forms.gle/vZNoc4QLCz5MEXCK7) (only available in English). Thanks!
+{: .notice--info}
+
+### Information and Notes
 
 {% capture notice-6 %}
 以下是你該注意的快捷鍵：
@@ -169,7 +188,7 @@ ___
 - 開機時，按住『Select』鍵將會進入 Luma3DS 的設定選單。
 - 開機時，按住『Start』鍵將會進入 GodMode9 選單；或者如果你的 `/luma/payloads/` 資料夾中有多個 Payload，則會進入 Luma3DS 加載選單。
 - 預設情況下，在 3DS 模式下按住 『L』鍵 +『下』鍵 +『Select』鍵，將會開啟 Rosalina 選單；在本選單中，你能檢視系統資訊、進行截圖、開啟作弊、及其他功能。 這可以從 Rosalina 選單更改。
-- 開機時，按住『Start』鍵 +『Select』鍵 +『X』鍵，將會自動把 `boot9.bin`、`boot11.bin`、`otp.bin` 等檔案自動轉存至您的 SD 卡 `boot9strap` 資料夾中。
+- Holding (Start) + (Select) + (X) on boot will make the notification LED show a color for debug purposes. See the [changelog](https://github.com/SciresM/boot9strap/releases/tag/1.4) for a list.
 {% endcapture %}
 
 <div class="notice--info">{{ notice-6 | markdownify }}</div>

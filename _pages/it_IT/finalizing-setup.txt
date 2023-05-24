@@ -16,13 +16,13 @@ In questa pagina realizzeremo backup di file di sistema critici e installeremo i
 + **Universal-Updater** *(un'applicazione per scaricare homebrew direttamente sul 3DS tramite Wi-Fi)*
 +  **GodMode9** *(applicazione multifunzione per gestire NAND e schede di gioco)*
 +  **Homebrew Launcher Loader** *(avvia l'Homebrew Launcher)*
-+  **DSP1** *(permette alle applicazioni homebrew di avere il sonoro)*
-+ **ctr-no-timeoffset** *(modifica l'orologio del menu HOME perché corrisponda all'orologio in tempo reale interno)*
 
 È consigliato non saltare il download di alcuna di queste applicazioni, in quanto molte verranno utilizzate successivamente in questa stessa pagina. Al termine di questa pagina, la scheda SD verrà ripulita rimuovendo i file di installazione non più necessari.
 {: .notice--warning}
 
-Se il tuo **New 3DS** era alla versione del software 2.1.0 prima di seguire questa guida, dovresti [ripristinare il tuo backup NAND](godmode9-usage#restoring-a-nand-backup) prima di continuare.
+### Note di Compatibilità
+
+Se il tuo **New 3DS** era alla versione del software 2.1.0 prima di seguire questa guida, dovresti [ripristinare il tuo backup NAND](godmode9-usage#restoring-a-nand-backup) prima di continuare. Questo probabilmente non ti riguarda a meno che non hai già seguito questa guida nel 2017.
 {: .notice--warning}
 
 Se la tua precedente installazione CFW era basata su EmuNAND e desideri spostare il contenuto di EmuNAND/RedNAND in SysNAND, devi [Spostare l'EmuNAND](move-emunand) prima di seguire questa pagina. Se non sai cosa sia l'EmuNAND, allora non ti serve.
@@ -30,20 +30,18 @@ Se la tua precedente installazione CFW era basata su EmuNAND e desideri spostare
 
 ### Cosa serve
 
-* L'ultima versione di [Anemone3DS](https://github.com/astronautlevel2/Anemone3DS/releases/latest) (il file `.cia`)
-* La versione 3.7.4 di [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases/tag/v3.7.4) (il file `.cia`)
+* L'ultima versione di [Anemone3DS](https://github.com/astronautlevel2/Anemone3DS/releases/latest) (the `.cia` file)
+* La versione v3.7.4 di [Checkpoint](https://github.com/BernardoGiordano/Checkpoint/releases/tag/v3.7.4) (the `.cia` file)
 * L'ultima versione di [Homebrew Launcher Wrapper](https://github.com/mariohackandglitch/homebrew_launcher_dummy/releases/latest) (il file `.cia`)
 * L'ultima versione di [Universal-Updater](https://github.com/Universal-Team/Universal-Updater/releases/latest) (il file `.cia`)
-
-* L'ultima versione di [ctr-no-timeoffset](https://github.com/ihaveamac/ctr-no-timeoffset/releases/latest) (il file `.3dsx`)
-* L'ultima versione di [DSP1](https://github.com/zoogie/DSP1/releases/latest) (il file `.3dsx`)
-
-* L'ultima versione di [FBI](https://github.com/Steveice10/FBI/releases/latest) (entrambi i file `.cia` e `.3dsx`)
+* L'ultima versione di [FBI](https://github.com/Steveice10/FBI/releases/latest) (**entrambi** i file `.cia` e `.3dsx`)
 * L'ultima versione di [GodMode9](https://github.com/d0k3/GodMode9/releases/latest) (il file `.zip` di GodMode9)
 
 ### Istruzioni
 
 #### Sezione I - Preparazione
+
+In questa sezione, copierai i file necessari per seguire le rimanenti istruzioni in questa pagina.
 
 1. Spegni il tuo 3DS
 1. Inserisci la scheda SD nel tuo computer
@@ -51,58 +49,75 @@ Se la tua precedente installazione CFW era basata su EmuNAND e desideri spostare
 1. Copia tutti i file CIA (`Anemone3DS.cia`, `Checkpoint.cia`, `FBI.cia`, `Homebrew_Launcher.cia` e `Universal-Updater.cia`) nella cartella `/cias/` della tua scheda SD
 1. Se assente, crea una cartella chiamata `3ds` nella directory principale della tua scheda SD
     + Questa cartella mantiene le applicazioni homebrew e i loro dati; è diversa dalla cartella `Nintendo 3DS` generata automaticamente dalla console
-1. Copia tutti i file 3DSX (`ctr-no-timeoffset.3dsx`, `DSP1.3dsx` e `FBI.3dsx`) nella cartella `/3ds/` della tua scheda SD
+1. Copia il file `FBI.3dsx` nella cartella `/3ds/` nella tua scheda SD
 1. Se assente, crea una cartella chiamata `payloads` nella cartella `luma` della tua scheda SD
 1. Copia il file `GodMode9.firm` dall'archivio `.zip` di GodMode9 dentro la cartella `/luma/payloads/` della tua scheda SD
 1. Copia la cartella `gm9` presente nell'archivio `.zip` di GodMode9 nella directory principale della tua scheda SD
 1. Reinserisci la scheda SD nella tua console
 1. Accendi la console
 
-    ![]({{ "/images/screenshots/finalizing-root-layout.png" | absolute_url }})
-    {: .notice--info}
-    ![]({{ "/images/screenshots/godmode9-location.png" | absolute_url }})
-    {: .notice--info}
+I successivi screenshot indicano la struttura minima che la scheda SD deve avere per proseguire in questa pagina. Potresti avere file o cartelle ulteriori nella tua scheda SD, a seconda della tua precedente configurazione o del metodo che hai seguito.
 
-Questi screenshot indicano la minima struttura che la scheda SD deve avere per proseguire in questa pagina. Potresti avere file o cartelle ulteriori nella tua scheda SD, a seconda della tua precedente configurazione o del metodo che hai seguito.
+![]({{ "/images/screenshots/finalizing-root-layout.png" | absolute_url }})
+{: .notice--info}
 
-#### Sezione II - Aggiornare il Sistema
+![]({{ "/images/screenshots/godmode9-location.png" | absolute_url }})
+{: .notice--info}
 
-1. Aggiorna la console andando su Impostazioni della console, poi "Impostazioni generali", infine scorri a destra e seleziona "Aggiornamento"
-  + Gli aggiornamenti effettuati usando B9S + Luma (ora installato) sono sicuri
-  + Potrebbe apparire il messaggio "Nella console è già presente il software di sistema più recente". È normale se hai già installato l'ultima versione; prosegui con la sezione successiva
-  + Se ottieni un errore, imposta i DNS della connessione di rete in modo che vengano ottenuti automaticamente
-  + Se l'errore continua a presentarsi, [segui questa guida per risolvere il problema](troubleshooting#unable-to-update-device)
 
-#### Sezione III - Homebrew Launcher
+#### Section II - CFW Check
 
-1. Avvia l'applicazione "Modalità download" (![]({{ "/images/download-play-icon.png" | absolute_url }}){: height="24px" width="24px"})
-1. Attendi finché non vedrai i pulsanti `Nintendo 3DS` e `Nintendo DS`
+Come precauzione aggiuntiva, controlleremo anche la presenza di un custom firmware. If custom firmware is not installed by this point for any reason, the next section may render your console unable to be hacked without external hardware.
+
+1. Spegni il tuo 3DS
+1. Premi il pulsante (Select)
+1. Accendi la tua console continuando a tenere premuto il pulsante (Select)
+1. If the check was successful, your device should have booted into the Luma3DS configuration menu
+1. Premi (Start) per salvare e riavviare il 3DS
+1. Spegni il tuo 3DS
+
+If you do NOT boot into the Luma3DS configuration menu, custom firmware was not installed on your device. Join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) and ask, in English, for help.
+{: .notice--danger}
+
+
+#### Section III - Updating the System
+
+In questa sezione, aggiornerai il tuo sistema all'ultima versione, tranquillamente fattibile con il custom firmware.
+
+{% include_relative include/sysupdate.txt cfw="true" %}
+
+#### Section IV - Homebrew Launcher
+
+In questa sezione, sostituirai temporaneamente la "Modalità download" con l'Homebrew Launcher (necessario per avviare FBI). "Modalità download" tornerà automaticamente quello originale al riavvio della console.
+
+{% include_relative include/launch-hbl-dlp.txt %}
+
+#### Section V - RTC and DSP Setup
+
+In questa sezione, sincronizzerai l'orologio interno del tuo 3DS con l'ora reale e scaricherai il firmware audio (necessario per permettere ad alcuni software homebrew di usare correttamente i suoni).
+
 1. Premi simultaneamente i pulsanti (L) + (Giù) + (Select) per aprire il menu di Rosalina
 1. Seleziona "Miscellaneous options"
-1. Seleziona "Switch the hb. title to the current app."
+1. Seleziona "Dump DSP firmware"
+1. Premi (B) per continuare
+1. Seleziona "Nullify user time offset"
 1. Premi (B) per continuare
 1. Premi (B) per tornare al menu principale di Rosalina
 1. Premi (B) per uscire dal menu di Rosalina
-1. Premi il pulsante HOME, quindi chiudi l'applicazione "Modalità download"
-1. Avvia l'applicazione "Modalità download"
-1. La console dovrebbe ora avviare l'Homebrew Launcher
 
-#### Sezione IV - Installazione di RTC e DSP
-1. Avvia ctr-no-timeoffset dalla lista degli homebrew disponibili
-1. Premi (A) per impostare l'offset a 0
-  + Questo imposterà l'orologio di sistema identico alla data e all'ora dell'RTC (che regoleremo a breve)
-1. Premi (Start) per ritornare all'Homebrew Launcher
-1. Avviare l'applicazione DSP1
-1. Al termine, premi (B) per auto-rimuovere l'applicazione e ritornare all'Homebrew Launcher
+#### Section VI - Installing CIAs
 
-#### Sezione V - Installazione dei CIA
+In questa sezione, installerai diverse applicazioni homebrew utili nel menu HOME.
+
 1. Avvia FBI dalla lista degli homebrew disponibili
 1. Entra nella cartella `SD` -> `cias`
 1. Seleziona "\<current directory>"
 1. Seleziona l'opzione "Install and delete all CIAs", quindi premi (A) per confermare la scelta
 1. Premi il pulsante HOME, quindi chiudi l'applicazione "Modalità download"
 
-#### Sezione VI - CTRNAND Luma3DS
+#### Section VII - CTRNAND Luma3DS
+
+In questa sezione, userai uno script per copiare alcuni file di Luma3DS nella memoria interna in modo che possano essere acceduti anche senza una scheda SD inserita.
 
 1. Spegni il tuo 3DS
 1. Premi (Start) e accendi la console continuando a tenerlo premuto. Verrà avviato GodMode9
@@ -118,25 +133,24 @@ Questi screenshot indicano la minima struttura che la scheda SD deve avere per p
 1. Premi il pulsante (A) per sbloccare i permessi di scrittura di primo livello su SysNAND, quindi inserisci la combinazione di tasti richiesta a schermo
 1. Premi il pulsante (A) per continuare
 
-#### Sezione VII - Pulizia della scheda SD
+#### Section VIII - Cleanup SD Card
+
+In questa sezione, utilizzerai uno script per rimuovere alcuni file non necessari dalla scheda SD.
 
 1. Seleziona "Cleanup SD Card"
 1. Quando richiesto, premi (A) per procedere
 1. Premi il pulsante (A) per continuare
 1. Premi (B) per ritornare al menu principale
 
-#### Sezione VIII - Backup dei File Essenziali
+#### Section IX - Backup Essential Files
+
+In questa sezione, farai backup di file che possono essere utilizzati per il ripristino da malfunzioni software o per recuperare dei dati.
 
 1. Seleziona "Backup Options"
 1. Seleziona "SysNAND Backup"
 1. Premi (A) per confermare
   + Questo processo durerà un po'
-  + Se si verifica un errore, assicurati di avere nella scheda SD almeno 1.3GB liberi
-1. Premi il pulsante (A) per continuare
-1. Premi (B) per ritornare al menu principale
-1. Seleziona "Dump Options"
-1. Seleziona "Dump Boot9.bin & Boot11.bin"
-1. Quando richiesto, premi (A) per procedere
+  + Se ottieni un errore, cerca il tuo problema nella [guida per la risoluzione dei problemi](troubleshooting#finalizing-setup)
 1. Premi il pulsante (A) per continuare
 1. Premi (B) per ritornare al menu principale
 1. Seleziona "Exit"
@@ -149,10 +163,12 @@ Questi screenshot indicano la minima struttura che la scheda SD deve avere per p
 1. Premi il pulsante HOME per far apparire il menu delle azioni
 1. Seleziona "Poweroff system" per spegnere la console
 1. Inserisci la scheda SD nel tuo computer
-1. Copia il file `<data>_<codiceseriale>_sysnand_###.bin`, `<data>_<codiceseriale>_sysnand_###.bin.sha`, `essential.exefs`, `<codiceseriale>_boot9_###.bin`, and <codiceseriale>_boot11_###.bin`dalla cartella `/gm9/out/` della tua scheda SD in una posizione sicura sul tuo computer
-  + Crea dei backup in più posti (come ad esempio un servizio di storage dei file online)
+1. Copia i file `<data>_<codiceseriale>_sysnand_##.bin`, `<data>_<codiceseriale>_sysnand_##.bin.sha` ed `essential.exefs` dalla cartella `/gm9/out/` della tua scheda SD in una posizione sicura sul tuo computer
+  + Copia questi backup in più posti (ad esempio un archivio online, un disco rigido esterno, ecc.)
   + Questi backup ti salveranno da un brick e/o ti aiuteranno a recuperare i file dalla NAND nel caso dovesse accadere qualcosa in futuro
-1. Dopo la copia, elimina i file `<data>_<numeroseriale>_sysnand_###.bin` e `<data>_<numeroseriale>_sysnand_###.bin.sha` dalla cartella `/gm9/out/` della tua scheda SD
+1. Dopo la copia, elimina i file `<data>_<codiceseriale>_sysnand_##.bin` e `<data>_<codiceseriale>_sysnand_##.bin.sha` dalla cartella `/gm9/out/` della tua scheda SD
+  + Gli altri file di backup sono di dimensioni trascurabili e possono essere conservati sulla tua scheda SD per comodità di accesso
+1. Se presente, copia la cartella `/luma/backups/` dalla tua scheda SD in una posizione sicura sul tuo computer
 1. Reinserisci la scheda SD nella tua console
 1. Accendi la console
 
@@ -161,7 +177,10 @@ ___
 Hai finito! Il custom firmware nella tua console è stato completamente configurato.
 {: .notice--success}
 
-#### Informazioni e Note
+Ciao! Siamo interessati ad avere un feedback sull'esperienza complessiva sulla nostra guida. Se vuoi aiutarci, dai un'occhiata a [questo](https://forms.gle/vZNoc4QLCz5MEXCK7) sondaggio (disponibile solo in inglese). Grazie!
+{: .notice--info}
+
+### Informazioni e Note
 
 {% capture notice-6 %}
 Ecco alcune combinazioni di tasti che dovresti conoscere:
@@ -169,7 +188,7 @@ Ecco alcune combinazioni di tasti che dovresti conoscere:
 - Tenere premuto (Select) all'accensione della console avvierà il menu di configurazione di Luma3DS.
 - Tenere premuto (Start) all'accensione avvierà GodMode9 o, se hai più payload in `/luma/payloads/`, il chainloader Luma3DS.
 - Per impostazione predefinita, premere (L) + (Giù) + (Select) in modalità 3DS aprirà il menu di Rosalina, dove è possibile controllare le informazioni di sistema, catturare screenshot, abilitare i trucchi e altro ancora. Si può modificare da Rosalina stesso.
-- Tenere premuto (Start) + (Select) + (X) all'accensione scaricherà i file `boot9.bin`, `boot11.bin`, e `otp.bin` nella cartella `boot9strap` della tua scheda SD.
+- Tenendo premuto (Start) + (Select) + (X) all'avvio, il LED di notifica mostrerà un colore a scopo di debug. Consulta la lista nel [changelog](https://github.com/SciresM/boot9strap/releases/tag/1.4).
 {% endcapture %}
 
 <div class="notice--info">{{ notice-6 | markdownify }}</div>

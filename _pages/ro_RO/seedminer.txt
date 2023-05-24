@@ -4,76 +4,13 @@ title: "Seedminer"
 
 {% include toc title="Cuprins" %}
 
-### Lectură obligatorie
-
-To install boot9strap on your device, we derive your device's unique encryption key. To accomplish this, we use a tool called Seedminer to calculate the data encryption key (movable.sed) for your device.
-
-For information on how Seedminer works, see [this presentation](https://zoogie.github.io/web/34⅕c3).
-
-Această metodă folosește o placă video puternică pentru a realiza calculele necesare. Pentru a vă ajuta în această metodă, se va folosi un site sprijinit de voluntari.
-
-### Instrucțiuni
-
-#### Secțiunea I - Preparații
-
-1. Introduceți cardul SD în calculator
-1. Navigați către folderul `Nintendo 3DS` pe cardul SD
-1. Copiați numele lung de 32 de caractere al folderului care îl vedeți în Nintendo 3DS
-  + Nu accesați în alte foldere
-  + If you see multiple folders, follow [these instructions](troubleshooting#multiple-long-folder-names-in-nintendo-3ds-folder)
-
-	![]({{ "/images/screenshots/id0-example.png" | absolute_url }})
-	{: .notice--info}
-1. Lipiţi numele lung al folderului de 32 de caractere într-un document pe care îl puteți referenția mai târziu
-  + Acest nume de folder este de asemenea cunoscut ca "ID0" al dispozitivului
-1. Porniți dispozitivul
-  + Your SD card does not need to be inserted at this point
-1. Go to your Friend List (the [orange Face Icon]({{ "/images/friend-list-icon.png" | absolute_url }}) in the top row of your HOME Menu)
-  + If you receive an error and are kicked out of the menu, you either must create a new Mii or your device cannot connect to Nintendo's servers (due to a ban or connection issues)
-1. Găsiți profilul de Mii, apoi găsiţi câmpul "Friend Code" de pe ecranul superior
-
-#### Section II - Seedminer
-
-1. Open [Bruteforce Movable](https://seedminer.hacks.guide/) on your computer
-  + Acest site poate automatiza extragerea de `movable_part1.sed` (folosind un bot care simulează un 3DS) şi descifrarea criptării DSiWare a dispozitivului (folosind calculatorul unui voluntar pentru a rula Seedminer)
-  + If the site isn't working, join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) and ask (in English) for someone there to assist you
-1. Introduceți Friend Code-ul dispozitivului (cu fără spaţii sau liniuţe) în câmpul "Your friend code"
-1. Lipiți numele de folder al dispozitvului de 32 de caractere în câmpul "Your ID0"
-  + Nu încercați să introduceți ID0-ul de mână. Asigurați-vă că ID0-ul este introdus corect prin copierea și lipirea de unde l-ați salvat în secțiunea anterioară
-1. Selectați "Go"
-  + If the site immediately goes to step 4, the website has already correctly processed your bruteforce request. You can download your `movable.sed` file and continue to the next section. You do not need to re-add the bot
-1. Când vi se solicită, folosiți butonul "Register Friend" pe dispozitivul dumneavoastră să adăugaţi codul de prieten al bot-ului care simulează un 3DS
-  + The name of the bot does not matter
-1. Așteptați ca site-ul să se actualizeze
-  + Dacă nu se actualizează, așteptați câteva minute înainte de a reîncărca pagina o dată
-1. Once the site processes your information, the site will continue to `Step 2: Bruteforce` automatically
-1. Așteptați ca restul procesului să se termine
-  + This is usually fast (1-5 minutes) but in some cases, can take up to half an hour
-  + During this process, the bot you added may not show up on your 3DS. As long as the website updates, this is not an issue
-  + În cazul în care încă așteptați după o jumătate de oră, alăturați-vă la [Nintendo Homebrew pe Discord](https://discord.gg/MWxPgEp) şi cereți (în engleză) pentru ca cineva de acolo să vă asiste
-1. When the process is completed, download your `movable.sed` file from the site
-  + Păstrați acest fișier de vreme ce veți avea nevoie de el în următoarele pagini
+{% include_relative include/seedminer-base.txt %}
 
 ___
 
-### Next Steps
+### Next step: BannerBomb3
 
-Once you have your device's encryption key (`movable.sed`), you will use it in conjunction with other exploits to install custom firmware on your 3DS. Select an exploit below.
+Once you have your device's encryption key (`movable.sed`), you can use it in conjunction with BannerBomb3, which uses your `movable.sed` file to take advantage of exploits in the System Settings application.
 
-#### PicHaxx + universal-otherapp (Recommended)
-
-This method of using Seedminer for further exploitation uses your `movable.sed` file to write a custom save file for Pokémon Picross, which can then be used in conjunction with universal-otherapp to install custom firmware.
-
-This route requires the Pokémon Picross application (free on eShop), and thus requires eShop access and a 3DS with a region of USA, EUR, or JPN.
-
-Continue to [Installing boot9strap (PicHaxx)](installing-boot9strap-(pichaxx))
+Continue to [BannerBomb3](bannerbomb3)
 {: .notice--primary}
-
-#### Installing boot9strap (unSAFE_MODE)
-
-This method of using Seedminer for further exploitation uses your `movable.sed` file to take advantage of exploits in the SAFE_MODE firmware present in all 3DS units.
-
-This route is only recommended if you are for some reason unable to follow the PicHaxx + universal-otherapp route.
-
-Continue to [Installing boot9strap (USM)](installing-boot9strap-(usm))
-{: .notice--warning}

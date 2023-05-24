@@ -4,13 +4,22 @@ title: "Boot9strap telepítése (Hardmod)"
 
 {% include toc title="Tartalomjegyzék" %}
 
-### Fontos tudnivalók
+{% capture technical_info %}
+<summary><em>Technikai részletek (opcionális)</em></summary>
 
 [Itt](https://gbatemp.net/threads/414498/) található egy kiváló útmutató arról, hogyan hajtsd végre a hardmodot (hardveres módosítást).
 
 Ez egy jelenleg működő megvalósítása a "FIRM partitions known-plaintext" néven ismert exploitnak, amiről részletesebben olvashatsz [itt](https://www.3dbrew.org/wiki/3DS_System_Flaws).
 
-Ahhoz, hogy használhasd a [magnet](https://wikipedia.org/wiki/Magnet_URI_scheme) linkeket ezen az oldalon, szükséged lesz egy torrent kliensre, mint például a [Deluge](http://dev.deluge-torrent.org/wiki/Download).
+A hardmod használatával dumpolni tudunk egy NAND képfájlt, telepíteni egyedi firmware-t a NAND képfájlra, majd visszatelepíteni a hackelt NAND fájlt a konzolra.
+
+{% endcapture %}
+<details>{{ technical_info | markdownify }}</details>
+{: .notice--info}
+
+### Kompatibilitási megjegyzések
+
+Ahhoz, hogy használhasd a [magnet](https://wikipedia.org/wiki/Magnet_URI_scheme) linkeket ezen az oldalon, szükséged lesz egy torrent kliensre, mint például a [qBittorrent](https://www.qbittorrent.org/download.php) vagy a [Deluge](http://dev.deluge-torrent.org/wiki/Download).
 
 Ahhoz, hogy kicsomagold az oldalon található `.7z` fájlokat, egy fájl archiváló programra lesz szükséged, mint amilyen a [7-Zip](http://www.7-zip.org/) vagy a [The Unarchiver](https://theunarchiver.com/).
 
@@ -19,10 +28,10 @@ Ez működni fog a New 3DS, a New 2DS, az Old 3DS, és az Old 2DS konzolok *öss
 ### Amire szükséged lesz
 
 * A NAND-odról készített képfájl, amit a [hardmod](https://gbatemp.net/threads/414498/) nyersz ki a konzolból
-* A [boot9strap](https://github.com/SciresM/boot9strap/releases/download/1.3/boot9strap-1.3.zip) legújabb kiadása
+* A [boot9strap](https://github.com/SciresM/boot9strap/releases/download/1.4/boot9strap-1.4.zip) legújabb kiadása
 * A [hardmod-b9s-installer](https://github.com/ihaveamac/hardmod-b9s-installer/releases/latest) legújabb kiadása
   + A Windows felhasználók használhatják az előre összeállított `.exe`-t, míg a Mac és Linux felhasználóknak [Python 3](https://www.python.org/downloads/)-ra lesz szükségük, hogy futtatni tudják a mellékelt `.py` szkriptet
-* Az [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest) legújabb verziója 
+* A [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest) legújabb kiadása (a Luma3DS `.zip` fájl, amelyik nem forráskód)
 * A készülékednek és a verziójának megfelelő `.firm`:
 
 | Verzió(k) | Kernel | Old 3DS vagy Old 2DS | New 3DS vagy New 2DS |
@@ -57,10 +66,13 @@ Ez működni fog a New 3DS, a New 2DS, az Old 3DS, és az Old 2DS konzolok *öss
 | 11.8.0 - 11.11.0 | 2.55-0 | [2.55-0_11.8_OLD.firm](magnet:?xt=urn:btih:ee882a07afcf3f6acc676f8dc0ab25f291b643e0&dn=2.55-0_11.8_OLD.firm&tr=udp%3a%2f%2fopen.tracker.cl%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce&tr=udp%3a%2f%2fwww.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.pomf.se%3a80%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.dler.org%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.bitsearch.to%3a1337%2fannounce&tr=udp%3a%2f%2ftracker-udp.gbitt.info%3a80%2fannounce&tr=udp%3a%2f%2fretracker.netbynet.ru%3a2710%2fannounce&tr=udp%3a%2f%2fretracker.lanta-net.ru%3a2710%2fannounce&tr=udp%3a%2f%2fopentor.org%3a2710%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=udp%3a%2f%2fmts.tvbit.co%3a6969%2fannounce&tr=udp%3a%2f%2fexplodie.org%3a6969%2fannounce&tr=udp%3a%2f%2fbt2.archive.org%3a6969%2fannounce) | [2.55-0_11.8_NEW.firm](magnet:?xt=urn:btih:97dc6ba91ed243596adb744cc20daa610c10fcab&dn=2.55-0_11.8_NEW.firm&tr=udp%3a%2f%2fopen.tracker.cl%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce&tr=udp%3a%2f%2fwww.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.pomf.se%3a80%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.dler.org%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.bitsearch.to%3a1337%2fannounce&tr=udp%3a%2f%2ftracker-udp.gbitt.info%3a80%2fannounce&tr=udp%3a%2f%2fretracker.netbynet.ru%3a2710%2fannounce&tr=udp%3a%2f%2fretracker.lanta-net.ru%3a2710%2fannounce&tr=udp%3a%2f%2fopentor.org%3a2710%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=udp%3a%2f%2fmts.tvbit.co%3a6969%2fannounce&tr=udp%3a%2f%2fexplodie.org%3a6969%2fannounce&tr=udp%3a%2f%2fbt2.archive.org%3a6969%2fannounce) |
 | 11.12.0 - 11.13.0 | 2.56-0 | [2.56-0_11.12_OLD.firm](magnet:?xt=urn:btih:8d214e202b23d3a65c780530901e57b973fc7ac5&xt=urn:btmh:1220038d7d37e49a87cdf997847913b7ca9019c14206b3f806e26cc6488416dfe6e4&dn=2.56-0_11.12_OLD.firm&tr=udp%3a%2f%2fopen.tracker.cl%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce&tr=udp%3a%2f%2fwww.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.pomf.se%3a80%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.dler.org%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.bitsearch.to%3a1337%2fannounce&tr=udp%3a%2f%2ftracker-udp.gbitt.info%3a80%2fannounce&tr=udp%3a%2f%2fretracker.netbynet.ru%3a2710%2fannounce&tr=udp%3a%2f%2fretracker.lanta-net.ru%3a2710%2fannounce&tr=udp%3a%2f%2fopentor.org%3a2710%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=udp%3a%2f%2fmts.tvbit.co%3a6969%2fannounce&tr=udp%3a%2f%2fexplodie.org%3a6969%2fannounce&tr=udp%3a%2f%2fbt2.archive.org%3a6969%2fannounce) | [2.56-0_11.12_NEW.firm](magnet:?xt=urn:btih:6584df5da826b79db027cca5a6a193599acf3c1d&xt=urn:btmh:1220f7db15cc0aafd252a653d696368b9a6e1d6443d6d16e31752c0b91cb876081ca&dn=2.56-0_11.12_NEW.firm&tr=udp%3a%2f%2fopen.tracker.cl%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce&tr=udp%3a%2f%2fwww.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.pomf.se%3a80%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.dler.org%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.bitsearch.to%3a1337%2fannounce&tr=udp%3a%2f%2ftracker-udp.gbitt.info%3a80%2fannounce&tr=udp%3a%2f%2fretracker.netbynet.ru%3a2710%2fannounce&tr=udp%3a%2f%2fretracker.lanta-net.ru%3a2710%2fannounce&tr=udp%3a%2f%2fopentor.org%3a2710%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=udp%3a%2f%2fmts.tvbit.co%3a6969%2fannounce&tr=udp%3a%2f%2fexplodie.org%3a6969%2fannounce&tr=udp%3a%2f%2fbt2.archive.org%3a6969%2fannounce) |
 | 11.14.0 - 11.15.0 | 2.57-0 | [2.57-0_11.14_OLD.firm](magnet:?xt=urn:btih:bb03c194c6b3fe0753dfec0c52ef7e25936d669b&xt=urn:btmh:1220b1258c6fd0244e2af5c46933dcd59c1ff1213b0a2dc36ac1b14a5d649df1b54e&dn=2.57-0_11.14_OLD.firm&tr=udp%3a%2f%2fopen.tracker.cl%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce&tr=udp%3a%2f%2fwww.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.pomf.se%3a80%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.dler.org%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.bitsearch.to%3a1337%2fannounce&tr=udp%3a%2f%2ftracker-udp.gbitt.info%3a80%2fannounce&tr=udp%3a%2f%2fretracker.netbynet.ru%3a2710%2fannounce&tr=udp%3a%2f%2fretracker.lanta-net.ru%3a2710%2fannounce&tr=udp%3a%2f%2fopentor.org%3a2710%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=udp%3a%2f%2fmts.tvbit.co%3a6969%2fannounce&tr=udp%3a%2f%2fexplodie.org%3a6969%2fannounce&tr=udp%3a%2f%2fbt2.archive.org%3a6969%2fannounce) | [2.57-0_11.14_NEW.firm](magnet:?xt=urn:btih:90d4bf26fd878bae127e006db90a6cb8a3a91176&xt=urn:btmh:1220b10acb4ff6e4748f5e1abad27e1fbd99bf52bd7fea99e40b4a014cbae69351a4&dn=2.57-0_11.14_NEW.firm&tr=udp%3a%2f%2fopen.tracker.cl%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce&tr=udp%3a%2f%2fwww.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.pomf.se%3a80%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.dler.org%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.bitsearch.to%3a1337%2fannounce&tr=udp%3a%2f%2ftracker-udp.gbitt.info%3a80%2fannounce&tr=udp%3a%2f%2fretracker.netbynet.ru%3a2710%2fannounce&tr=udp%3a%2f%2fretracker.lanta-net.ru%3a2710%2fannounce&tr=udp%3a%2f%2fopentor.org%3a2710%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=udp%3a%2f%2fmts.tvbit.co%3a6969%2fannounce&tr=udp%3a%2f%2fexplodie.org%3a6969%2fannounce&tr=udp%3a%2f%2fbt2.archive.org%3a6969%2fannounce) |
+| 11.16.0 | 2.58-0 | [2.58-0_11.16_OLD.firm](magnet:?xt=urn:btih:1e3227ea262dd978c4aa61fc1530a055a4a06098&dn=2.58-0_11.16_OLD.firm&tr=udp://open.tracker.cl:1337/announce&tr=udp://tracker.opentrackr.org:1337/announce&tr=udp://9.rarbg.com:2810/announce&tr=udp://exodus.desync.com:6969/announce&tr=udp://www.torrent.eu.org:451/announce&tr=udp://tracker.torrent.eu.org:451/announce&tr=udp://tracker.tiny-vps.com:6969/announce&tr=udp://tracker.pomf.se:80/announce&tr=udp://tracker.openbittorrent.com:6969/announce&tr=udp://tracker.moeking.me:6969/announce&tr=udp://tracker.dler.org:6969/announce&tr=udp://tracker.bitsearch.to:1337/announce&tr=udp://tracker-udp.gbitt.info:80/announce&tr=udp://retracker.netbynet.ru:2710/announce&tr=udp://retracker.lanta-net.ru:2710/announce&tr=udp://opentor.org:2710/announce&tr=udp://open.stealth.si:80/announce&tr=udp://mts.tvbit.co:6969/announce&tr=udp://explodie.org:6969/announce&tr=udp://bt2.archive.org:6969/announce) | [2.58-0_11.16_NEW.firm](magnet:?xt=urn:btih:173dc3ea3ccdf8f34e7d4a9aa612d6171230e52a&dn=2.58-0_11.16_NEW.firm&tr=udp://open.tracker.cl:1337/announce&tr=udp://tracker.opentrackr.org:1337/announce&tr=udp://9.rarbg.com:2810/announce&tr=udp://exodus.desync.com:6969/announce&tr=udp://www.torrent.eu.org:451/announce&tr=udp://tracker.torrent.eu.org:451/announce&tr=udp://tracker.tiny-vps.com:6969/announce&tr=udp://tracker.pomf.se:80/announce&tr=udp://tracker.openbittorrent.com:6969/announce&tr=udp://tracker.moeking.me:6969/announce&tr=udp://tracker.dler.org:6969/announce&tr=udp://tracker.bitsearch.to:1337/announce&tr=udp://tracker-udp.gbitt.info:80/announce&tr=udp://retracker.netbynet.ru:2710/announce&tr=udp://retracker.lanta-net.ru:2710/announce&tr=udp://opentor.org:2710/announce&tr=udp://open.stealth.si:80/announce&tr=udp://mts.tvbit.co:6969/announce&tr=udp://explodie.org:6969/announce&tr=udp://bt2.archive.org:6969/announce) |
 
 ### Lépések
 
 #### I. rész - Előkészületek
+
+Ebben a fejezetben le fogod tölteni a szükséges fájlokat a hardmod-hoz és dumpolni a NAND képfájlt, hogy előkészül az egyedi firmware telepítéséhez.
 
 1. Kapcsold ki a készüléked
 1. Helyezd az SD kártyád a számítógépbe
@@ -75,26 +87,18 @@ Ez működni fog a New 3DS, a New 2DS, az Old 3DS, és az Old 2DS konzolok *öss
 
 #### II. rész - boot9strap telepítése
 
+Ebben a fejezetben telepíteni fogod az egyedi firmware-t a mentett NAND képfájlba, és vissza fogod telepíteni a NAND képet az eszközödre, hogy egyedi firmware-t telepíts rá.
+
 1. Futtasd a hardmod-b9s-installer-t
   + Windows felhasználóknak: Futtasd az `install-b9s.exe` fájlt
   + Mac és Linux felhasználóknak: Futtasd az `install-b9s.py` fájlt
 1. Flasheld rá az így elkészített `NAND-patched.bin` fájlt a készülékedre a hardmodod segítségével
 1. Kapcsold ki a készüléked
 1. Válaszd le a hardmododat
-1. Kapcsold be a készülékedet
+1. Nyomd le és tartsd nyomva a (Select) gombot, és a (Select) nyomva tartása mellett kapcsold be az eszközödet. Ez el fogja indítani a Luma3DS beállításokat
+{% include_relative include/configure-luma3ds.txt %}
 
-#### III. rész - Luma3DS konfigurálása
-
-1. A készülékednek az előzőekben a Luma3DS-be kellett bootolnia
-  + Ha fekete képernyőt kapsz, [nézd át ezt a hibaelhárítási útmutatót](troubleshooting#boot-related-issues-on-modded-devices)
-1. Használd az (A) gombot és D-Pad-et a következő engedélyezéséhez:
-  + **"Show NAND or user string in System Settings"**
-1. Mentéshez és újraindításhoz nyomd meg a (Start) gombot
-  + Ha ezen a ponton hibát kapsz, csak folytasd az útmutatót a következő oldalon
-
-Ezen a ponton a konzolod alapértelmezetten bebootol a Luma3DS-be egészen addig, amíg az SD kártya be van helyezve.
-  + A Luma3DS nem néz ki másként, mint a normál HOME Menü. Ha a konzolod bebootolt a HOME Menübe, akkor egyedi firmware-t futtat.
-  + A következő oldalon be fogod másolni a Luma3DS-t a belső memóriába, így SD kártya nélkül is fogsz tudni bootolni.
+{% include_relative include/luma3ds-installed-note.txt %}
 
 ___
 

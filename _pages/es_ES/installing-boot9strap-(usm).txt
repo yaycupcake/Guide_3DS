@@ -4,96 +4,100 @@ title: "Instalar boot9strap (USM)"
 
 {% include toc title="Tabla de contenidos" %}
 
-### Lectura requerida
+{% capture technical_info %}
+<summary><em>Technical Details (optional)</em></summary>
 
-Para pode aprovechar el exploit del firmware SAFE_MODE de nuestro sistema, necesitamos inyectar un perfil de WiFi con el exploit.
+In order to exploit the SAFE_MODE firmware of our system, we need to inject an exploited WiFi profile.
 
-Podemos hacer esto utilizando un exploit existente, BannerBomb3.
+We can do this using an existing exploit, BannerBomb3.
 
 To accomplish this, we use your system's encryption key (movable.sed) to build a DSiWare backup that exploits the system in order to inject the exploited WiFi profile into your connections list.
 
-Una vez que el perfil de WiFi ha sido inyectado, usaremos SAFE_MODE, que consiste en una función de recuperación presente en todas las consolas, para activar el perfil de WiFi con el exploit.
+Once the WiFi profile has been injected, we will use SAFE_MODE, which is a recovery feature present on all 3DS consoles, to activate the exploited WiFi profile.
+
+For a more technical explanation, see the following links for information on the BannerBomb3 and unSAFE_MODE exploits: [BannerBomb3](https://github.com/zoogie/Bannerbomb3), [unSAFE_MODE](https://github.com/zoogie/unSAFE_MODE/).
+
+{% endcapture %}
+<details>{{ technical_info | markdownify }}</details>
+{: .notice--info}
+
+### Compatibility Notes
 
 Estas instrucciones funcionan en consolas de las regiones USA, Europa, Japón y Corea, indicado por las letras U, E, J o K después de la versión del sistema.
 
-If your (Right/Left Shoulder), (D-Pad Up), or (A) buttons do not work, you will need to follow [an alternate branch of Seedminer](bannerbomb3). Para ayuda con este asunto, únete al [Discord de Nintendo Homebrew](https://discord.gg/MWxPgEp) donde puedes pedir, en inglés, que te ayuden.
+If your (Right/Left Shoulder), (D-Pad Up), or (A) buttons do not work, you will need to follow [an alternate branch of Seedminer](installing-boot9strap-(fredtool)). For assistance with this matter, join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) and ask, in English, for help.
 {: .notice--warning}
 
 ### Qué necesitas
 
-* Tu archivo `movable.sed` proveniente de haber completado [Seedminer](seedminer)
-* La versión más reciente de [Luma3DS] (https://github.com/LumaTeam/Luma3DS/releases/latest)
+* The latest release of [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/download/v0.0.7/SafeB9SInstaller-20170605-122940.zip) (direct download)
+* The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/download/1.4/boot9strap-1.4.zip) (direct download)
+* The latest release of [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest) (the Luma3DS `.zip` file)
+* [usm.bin](https://github.com/zoogie/unSAFE_MODE/releases/download/v1.3/usm.bin) (direct download)
+
 
 #### Sección I - Preparativos
 
-1. Si tu consola está encendida, apágala
-1. Abre [unSAFE_MODE Exploit Injector](https://3ds.nhnarwhal.com/3dstools/unsafemode.php) en tu computadora
-1. Carga tu movable.sed usando la opción "Choose File"
-1. Haz click en "Build and Download"
-  + Esto descargará un archivo de DSiWare exploitado, llamado `F00D43D5.bin`, y un archivo de datos para el exploit de SAFE_MODE llamado `usm.bin`, ambos dentro de un archivo zip (`unSAFE_MODE.zip`)
-1. Inserta tu tarjeta SD en tu computadora
+In this section, you will copy the files needed to trigger the unSAFE_MODE exploit onto your device's SD card.
+
+1. Your SD card should be inserted in your computer
+1. Copy `usm.bin` to the root of your SD card
 1. Copia los archivos `boot.firm` y `boot.3dsx` desde el `.zip` de Luma3DS a la raíz de tu tarjeta SD
   + La raíz de tu tarjeta SD se refiere al primer directorio de la tarjeta, donde puedes ver la carpeta Nintendo 3DS pero no estás dentro de ella
-1. Copia el archivo `usm.bin` desde `unSAFE_MODE.zip` a la raíz de tu tarjeta SD
-1. Ve a `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `Nintendo DSiWare` en tu tarjeta SD
-  + La `<ID0>` en cuestión es la misma que usaste en [Seedminer](seedminer)
-  + El `<ID1>` es una carpeta con un nombre compuesto por 32 caracteres, dentro de `<ID0>`
-  + Si no existe la carpeta `Nintendo DSiWare`, créala dentro de la carpeta `<ID1>`
-1. Si ya hay archivos de copias de seguridad existentes de DSiWare (`<id-de-8-caracteres>.bin`) en esta carpeta, muévelos a tu PC
-  + Esto te dejará con una carpeta de Nintendo DSiWare vacía. Mover los archivos a tu PC asegura que no borres ninguna copia de seguridad creada intencionalmente
-1. Copia el archivo `F00D43D5.bin` desde `unSAFE_MODE.zip` a la carpeta `Nintendo DSiWare`
+1. Crea una carpeta llamada `boot9strap` en la raíz de tu tarjeta SD
+1. Copia `boot9strap.firm` y `boot9strap.firm.sha` desde el `.zip` de `boot9strap` a la carpeta `/boot9strap/` en tu tarjeta SD
+1. Copia `SafeB9SInstaller.bin` desde el `.zip` de SafeB9SInstaller a la raíz de tu tarjeta SD
 
-    ![]({{ "/images/screenshots/dsiware-save-location.png" | absolute_url }})
-    {: .notice--info}
+![]({{ "/images/screenshots/usm/usm-root-layout.png" | absolute_url }})
+{: .notice--info}
+
+![]({{ "/images/screenshots/boot9strap-folder.png" | absolute_url }})
+{: .notice--info}
 
 #### Sección II - BannerBomb3
 
-1. Vuelve a insertar tu tarjeta SD en tu consola
+In this section, you will trigger the BannerBomb3 exploit using the DSiWare Management menu, which can be used to overwrite your Wi-Fi slots with hacked data. Your Wi-Fi connection settings will be temporarily overwritten while the exploit is active.
+
+1. Reinserta tu tarjeta SD en tu consola
 1. Enciende tu consola
 1. Entra a Configuración de la consola
-1. Ve a `Data Management` -> `DSiWare`
-1. Haz click en la sección de tarjeta SD
-  + La consola debería mostrar un menú con algo de texto
-1. Selecciona "Inject haxx"
+1. Navigate to `Data Management` -> `DSiWare`-> `SD Card` ([image](/images/screenshots/bb3/dsiware-management.png))
+  + Your device should show the BB3 multihax menu
+  + If the BB3 multihax menu doesn't open, [follow this troubleshooting guide](troubleshooting#bannerbomb3)
+  + If the BB3 multihax menu says "cfw installed already", you already have custom firmware and should continue from [here](checking-for-cfw)
+1. Use the D-Pad to navigate and press the (A) button to select "Install unSAFE_MODE"
   + Tu consola se apagará automáticamente
+1. Enciende tu consola
+1. Entra a Configuración de la consola
+1. Navigate to `Internet Settings` -> `Connection Settings`
+1. Ensure that all three connections are named "Haaaaaaaxxxxxxxxx..."
+  + Do NOT change these settings!
+  + If all three connections are NOT all named "Haaaaaaaxxxxxxxxx...", STOP! Something went wrong in this section and MUST be fixed before you can continue
+1. Apaga tu consola
 
 #### Sección III - unSAFE_MODE
 
-1. Con la consola aún apagada, mantén pulsados los siguientes botones: (L) + (R) + (D-Pad Arriba) + (A), y luego presiona (Power)
-  + Mantén pulsados los botones hasta que la consola encienda en modo seguro
-1. Presiona "OK" para aceptar la actualización
-  + No hay actualización. Esto es parte del exploit
-1. Presiona sobre "Acepto" para aceptar los términos y condiciones
-1. The update will eventually fail, with the error code `003-1099`. Este comportamiento es el esperado
-1. Cuando se te pregunte "¿Quieres configurar tu conexión a internet?", selecciona "Aceptar"
-1. En el menú siguiente, navega a `Conexión 1` -> `Modificar ajustes` -> `Siguiente página (flecha derecha)` -> `Servidor proxy` -> `Ajustes avanzados`
-  + Esto es una [representación visual](https://uwuu.ca/images/safemode_highlighted.png)
-1. Una vez que veas `B9S install SUCCESS` en la pantalla superior, presiona cualquier botón para reiniciar a la configuración de Luma
+{% include_relative include/exploit-usm.txt %}
 
-#### Sección IV - Configurar Luma3DS
+#### Section IV - Installing boot9strap
 
-1. Tu consola debería haber reiniciado en el menú de configuración de Luma3DS
-  + You can access the Luma3DS configuration menu at any time by powering off, holding SELECT, then powering on your device while still holding SELECT
-  + Si la pantalla se queda en negro, [sigue la guía de solución de problemas](troubleshooting#boot-related-issues-on-modded-devices)
-1. Utiliza el botón (A) y las flechas direccionales para activar lo siguiente:
-  + **"Show NAND or user string in System Settings"**
-1. Presiona (Start) para guardar y reiniciar
+{% include_relative include/install-boot9strap-safeb9sinstaller.txt %}
+{%- include_relative include/configure-luma3ds.txt %}
 
-En este punto, tu consola arrancará por defecto en Luma3DS siempre que la tarjeta SD esté insertada.
-  + Luma3DS does not look any different from the normal HOME Menu. If your console has booted into the HOME Menu, it is running custom firmware.
-  + En la página siguiente, copiarás Luma3DS a la memoria interna de la consola para que puedas encenderla sin una tarjeta SD.
+{% include_relative include/luma3ds-installed-note.txt %}
 
-#### Sección V - Restaurar los perfiles de configuración WiFi
+#### Section V - Restoring WiFi Configuration Profiles
+
+In this section, you will trigger the BannerBomb3 exploit a second time so that you can restore the Wi-Fi connection slots that were overwritten in Section II.
 
 1. Entra a Configuración de la consola
-1. Ve a `Data Management` -> `DSiWare`
-1. Haz click en la sección de tarjeta SD
-  + La consola debería mostrar un menú con algo de texto
-1. Selecciona "Restore slots"
-  + Tu consola se apagará automáticamente
+1. Navigate to `Data Management` -> `DSiWare`-> `SD Card` ([image](/images/screenshots/bb3/dsiware-management.png))
+1. Use the D-Pad to navigate and press the (A) button to select "Uninstall unSAFE_MODE"
+  + Your device will automatically reboot
+1. Apaga tu consola
 1. Inserta tu tarjeta SD en tu computadora
 1. Ve a `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `Nintendo DSiWare` en tu tarjeta SD
-1. Elimina `F00D43D5.bin` de la carpeta Nintendo DSiWare
+1. Delete `F00D43D5.bin` from your Nintendo DSiWare folder and from your computer. Este archivo ya no será necesario
 
 ___
 

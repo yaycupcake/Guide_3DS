@@ -4,48 +4,72 @@ title: "BannerBomb3"
 
 {% include toc title="目次" %}
 
-### 必ずお読みください
+{% capture technical_info %}
+<summary><em>Technical Details (optional)</em></summary>
 
-DSiWareシステムをダンプするために、本体設定アプリのDSiWare データ管理画面の脆弱性を使用します。
+To launch custom code, we exploit a flaw in the DSiWare Data Management window of the Settings application.
 
-それを実現するため、システムの暗号化キー (movable.sed) を使用して、DSソフト用設定に脆弱性を仕込み、DSiWareのバックアップのダンプをSDカードのルートに作成します。
+To accomplish this, we use your system's encryption key (movable.sed) to build a DSiWare backup that exploits the system.
+
+For a more technical explanation, see [here](https://github.com/zoogie/Bannerbomb3).
+{% endcapture %}
+
+<details>{{ technical_info | markdownify }}</details>
+{: .notice--info}
+
+### Compatibility Notes
 
 これらのガイドは、システムバージョン末尾にある「U、E、J、K」にあるように、米国、欧州、日本、韓国の端末で機能します。
 
+If you have a Taiwanese console (indicated by a T after the system version), follow [this page](bannerbomb3-fredtool-(twn)) instead.
+{: .notice--warning}
+
 ### 必要なもの
 
-* [Seedminer](seedminer) より作成した、 `movable.sed` ファイル
+* Your `movable.sed` file from completing Seedminer or nimhax
 
 #### セクション I - 準備
-1. [BannerBomb3 Tool](https://3ds.nhnarwhal.com/3dstools/bannerbomb3.php) をあなたのコンピューターで開いてください。
-1. "ファイルを選択"から movable.sed ファイルをアップロードします。
-1. 「Build and Download」をクリックしてください。
-  + 脆弱性を含んだDSiWareである `F00D43D5.bin` が入ったZIPファイルをダウンロードします。 (`BannerBomb3.zip`)
-1. コンソールの電源が入っている場合は、コンソールの電源を切ります
+
+In this section, you will copy the files needed to trigger the BannerBomb3 exploit onto your device's SD card.
+
+1. デバイスの電源を切ります
 1. パソコンにSDカードを入れます
-1. SDカードから、 `Nintendo 3DS` -> `<ID0>` -> `<32-character-id>` -> `Nintendo DSiWare` の順にフォルダを開きます。
-  + ここでいう `<ID0>` は先ほどあなたが [Seedminer](seedminer) で使用したものと同じです。
-  + もし `Nintendo DSiWare` フォルダが見当たらない場合は作成してください。
-1. もし、フォルダ内にDSiWareのバックアップファイル(`<8文字のID>.bin`)がいくつかある場合、PCへ移してください。
-  + これで Nintendo DSiWare フォルダが空になります。 PCに移すことで、バックアップファイルが削除されることはなくなります。
-1. `F00D43D5.bin` ファイルを BannerBomb3`.zip` から `Nintendo DSiWare` フォルダーにコピーして下さい
+1. Open [Bannerbomb3 Injector](http://3dstools.nhnarwhal.com/#/bb3gen) on your computer
+1. Upload your movable.sed using the “Choose File” option
+1. Click “Build and Download”
+  + This will download an exploit DSiWare called `F00D43D5.bin` and a payload called `bb3.bin` inside of a zip archive (`DSIWARE_EXPLOIT.zip`)
+1. Copy `bb3.bin` from `DSIWARE_EXPLOIT.zip` to the root of your SD card
+  + SDカードのルートとは、Nintendo 3DSのフォルダなどがある最初の項目のことであり、フォルダの中ではありません。
+  + This file does not need to be opened or extracted
+  ![]({{ "/images/screenshots/bb3/bb3-root-layout.png" | absolute_url }}){: .notice--info}
+1. Navigate to `Nintendo 3DS` -> `<ID0>` -> `<ID1>` on your SD card
+  + `<ID0>` is the 32-letter folder name that you copied in [Seedminer](seedminer)
+  + `<ID1>` is a 32-letter folder inside of the `<ID0>`
+  + If you have multiple `<ID1>` folders, follow the instructions [here](troubleshooting#bannerbomb3)
+  ![]({{ "/images/screenshots/bb3/dsiware-location-1.png" | absolute_url }}){: .notice--info}
+1. Create a folder named `Nintendo DSiWare` inside of the `<ID1>`
+  + If you already had the folder *and* there are any existing DSiWare backup files (`<8-character-id>.bin`) inside, copy them to your PC and remove them from your SD card
+1. Copy the `F00D43D5.bin` file from `DSIWARE_EXPLOIT.zip` to the `Nintendo DSiWare` folder
 
-    ![]({{ "/images/screenshots/dsiware-save-location.png" | absolute_url }})
-    {: .notice--info}
+![]({{ "/images/screenshots/bb3/dsiware-location-2.png" | absolute_url }})
+{: .notice--info}
 
-#### セクション II - BannerBomb3
-1. 再度、SDカードを本体に挿入してください。
-1. デバイスの電源を入れます
-1. デバイスの「本体設定」を開きます。
-1. `データ管理` -> `DSiWare データ管理` に移動します
-1. SDカードをクリックします。
-  + システムはマゼンダ（ピンク／パープル）色で点滅してから数秒でクラッシュするはずです。 それは成功したことを意味します。
-1. 本体の電源を切ります。
-1. パソコンにSDカードを入れます
-1. SDカードのルートに `42383841.bin` が存在しているはずです。  このファイルは、DSiWareのバックアップとして、このあとのガイドで使用します。
-1. SDカードから、 `Nintendo 3DS` -> `<ID0>` -> `<32-character-id>` -> `Nintendo DSiWare` の順にフォルダを開きます。
-  + ここでいう `<ID0>` は先ほどあなたが [Seedminer](seedminer) で使用したものと同じです。
-1. パソコンとDSiWareフォルダから、 `F00D43D5.bin` を削除します。 このファイルはもう必要ありません。
+#### Section II - Hardware Button Check
 
-引き続き [Installing boot9strap (Fredtool)](installing-boot9strap-(fredtool)) へ進んでください。
+In this section, you will see whether you can access Safe Mode on your device. This will determine which method you will follow on the next page.
+
+Your SD card should remain in your computer while you perform this check.
+
+{% include_relative include/safemodecheck.txt %}
+
+___
+
+### Next steps: Choose an exploit
+
+If the camera appeared in the previous section, Safe Mode is likely to be working on your device.
+
+If the camera appeared, continue to [Installing boot9strap (USM)](installing-boot9strap-(usm))
 {: .notice--primary}
+
+If the camera did NOT appear, continue to [Installing boot9strap (Fredtool)](installing-boot9strap-(fredtool))
+{: .notice--info}

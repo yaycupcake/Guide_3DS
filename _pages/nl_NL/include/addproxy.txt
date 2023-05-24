@@ -1,0 +1,12 @@
+Als je dat nog niet gedaan hebt, zorg ervoor dat je een werkende internetverbinding hebt ingesteld op je console.
+{: .notice--info}
+
+1. Open de System Settings app
+1. Navigeer naar `Internet Settings` -> `Connection Settings`
+1. Klik op je netwerk connectie slot en navigeer naar `Change Settings` -> `Next Page (rechter pijl)` -> `Proxy Settings`
+1. Zet "Proxy Settings" op "Yes" en klik vervolgens op "Detailed Setup"
+1. Stel de Proxy Server in op `192.9.234.11`, en de Port naar `8080`
+1. Klik op OK en klik vervolgens op Save
+1. Wanneer gevraagd, klik op "Test" om de verbindingstest uit te voeren
+  + De test zou moeten lukken
+1. Klik op "OK" om verder te gaan

@@ -5,12 +5,19 @@ header:
   overlay_color: "#5e616c" #
   overlay_image: /images/home-page-feature.jpg
   overlay_filter: 0.5
+  cta_label: "Get Started"
+  cta_url: "/key-information"
   caption:
-excerpt: "最完整的 3DS 改機教戰手冊，<br />教您如何從原廠主機改成 boot9strap。<br />"
+excerpt: "A complete guide to 3DS (and 2DS) custom firmware, <br /> from stock to boot9strap.<br />"
 ---
 
 請在繼續前讀完所有的前言頁面 (包括本頁！)。
 {: .notice--info}
+
+{% capture update-notice %}
+{% include_relative include/3ds-11.17.txt %}
+{% endcapture %}
+<div class="notice--danger">{{ update-notice | markdownify }}</div>
 
 ## 什麼是自製韌體 (Custom Firmware)？
 
@@ -20,7 +27,7 @@ excerpt: "最完整的 3DS 改機教戰手冊，<br />教您如何從原廠主�
 
 * Running homebrew software and games made for or ported to the Nintendo 3DS
 * 解鎖區碼限制，讓你能遊玩任何其他地區的遊戲
-* 透過社群所製的[主題及徽章](https://themeplaza.art)，自訂化你的 HOME 主選單
+* HOME Menu customization, using community-created [themes and badges](https://themeplaza.art)
 * 透過 [LayeredFS](https://github.com/knight-ryu12/godmode9-layeredfs-usage/wiki/Using-Luma3DS'-layeredfs-(Only-version-8.0-and-higher)) 更改遊戲內容
 * 編輯、備份、及還原遊戲存檔
 * 模擬懷舊遊戲，或甚至運行 DS 及 GBA 遊戲
@@ -29,22 +36,12 @@ excerpt: "最完整的 3DS 改機教戰手冊，<br />教您如何從原廠主�
 ## 本手冊將安裝些什麼？
 
 This guide will:
-  + Install **boot9strap** and **Luma3DS custom firmware** on unmodified retail 3DS/2DS devices 
+  + 在尚未更動的零售 3DS/2DS 主機中，安裝 **boot9strap** 及 **Luma3DS 自製韌體** 
     + Luma3DS will automatically remove the region lock and allow you to run unsigned software
   + Install various pieces of homebrew software, such as a package installer, save file manager, and a homebrew app store
   + Make critical system file backups that can help avoid bricks (and recover data in the event of one)
 
-## 在開始前我得注意什麼？
-
-* 請注意，儘管變磚的機率在過去幾年已降低許多，**我們仍不能保證能夠解決您所遇到的任何問題**。 檔案放錯地方不是什麼問題，但魯莽亂搞絕對會。
-* This guide is compatible with every retail device in the Nintendo 3DS family of consoles (including the New 3DS series and the 2DS), regardless of region or firmware.
-* 大部分情況下，自製韌體是可以安全使用線上服務的。不過還是得警告一下，過去還是有部分用戶被任天堂封鎖的情況，但通常都是因為作弊或者濫用 eShop 的情況下。
-* 本指南中的步驟理論上來說不會造成任何資料上的缺失，但 SD 卡的毀損還是有可能的。 如果您的 SD 卡中有對你來說很重要的資料，請在繼續前備份您的所有資料。
-* 你需要一張能讓你的 3DS 正常使用的 SD 卡，也就是說 SD 卡需要能夠正常讀寫。 3DS 能夠讀取以 MBR/FAT32 格式的 SD 卡。
-  + 建議先透過 [H2testw (Windows)](h2testw-(windows))、[F3 (Linux)](f3-(linux))、或 [F3XSwift (Mac)](f3xswift-(mac)) 來檢查您主機的 SD 卡有沒有問題。
-* If you are using Windows to move files to/from the SD card, you may want to [enable file extensions](file-extensions-(windows)) to avoid misnaming files.
-
 ___
 
-### 繼續至[新手入門](get-started)
+### Continue to [Key Information](key-information)
 {: .notice--primary}
